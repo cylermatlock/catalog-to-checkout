@@ -12,6 +12,13 @@ import intensityCX2 from "@/assets/products/intensity-cx2.jpg";
 import richmarTherasoundEVO from "@/assets/products/richmar-therasound-evo.jpg";
 import chattanoogaVectraGenisys from "@/assets/products/chattanooga-vectra-genisys.jpg";
 
+// Richmar product images from richmarweb.com
+import richmarLX2Laser from "@/assets/products/richmar-lx2-laser.jpg";
+import richmarTheradot from "@/assets/products/richmar-theradot.jpg";
+import richmarDX2Diathermy from "@/assets/products/richmar-dx2-diathermy.jpg";
+import richmarREXCompression from "@/assets/products/richmar-rex-compression.jpg";
+import richmarHydrathermWeb from "@/assets/products/richmar-hydratherm-web.jpg";
+
 // GMTS individual product photos
 import gmts3SectionHiLo from "@/assets/products/gmts-3-section-hilo.png";
 import gmtsTreatmentTableBackrest from "@/assets/products/gmts-treatment-table-backrest.png";
@@ -35,8 +42,8 @@ export const productImages: Record<string, string> = {
   "2": gmtsTreatmentTableBackrest,
   "3": gmts2SectionBoBath,
   "4": gmtsFlatTopTable,
-  "5": gmtsRehabPage,  // placeholder - Hi-Lo Mat Table
-  "6": gmtsRehabPage,  // placeholder - Low Mat Table
+  "5": gmtsRehabPage,
+  "6": gmtsRehabPage,
   // GMTS Parallel Bars (page placeholder)
   "7": gmtsParallelPage,
   "8": gmtsParallelPage,
@@ -44,24 +51,34 @@ export const productImages: Record<string, string> = {
   "10": gmts2SidedStairs,
   "11": gmts1SidedStairs,
   "12": gmtsConvertibleStairs,
-  // GMTS Storage - individual photos
+  // GMTS Storage
   "14": gmtsMirrorRack,
   "15": gmtsMiniStorageRack,
-  "18": gmtsRehabPage,  // placeholder - Traction Package
+  "18": gmtsRehabPage,
   // GMTS Stools (page placeholder)
   "19": gmtsStoolsPage,
   "20": gmtsStoolsPage,
-  // Modalities - individual product images
+  // Modalities - Portable TENS (catalog + web)
   "25": richmarIntensity12,
   "26": richmarIntensitySelectComboII,
   "27": richmarIfComboII,
-  "28": richmarHydratherm,
+  // Modalities - Hydrocollator
+  "28": richmarHydrathermWeb,
   "29": chattanoogaM2,
   "30": chattanoogaSS2,
+  // Modalities - E-Stim/Ultrasound
   "31": richmarTheratouchEX4,
   "32": intensityCX4,
   "33": richmarWinnerEVO,
   "34": intensityCX2,
   "35": richmarTherasoundEVO,
   "36": chattanoogaVectraGenisys,
+  // Modalities - Laser
+  "37": richmarLX2Laser,
+  "38": richmarLX2Laser, // Prism Probe - using LX2 image as placeholder
+  // Modalities - Hivamat/Diathermy
+  "40": richmarTheradot,
+  "41": richmarDX2Diathermy,
+  // Compression
+  "99": richmarREXCompression,
 };
