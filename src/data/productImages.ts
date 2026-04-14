@@ -12,33 +12,43 @@ import intensityCX2 from "@/assets/products/intensity-cx2.jpg";
 import richmarTherasoundEVO from "@/assets/products/richmar-therasound-evo.jpg";
 import chattanoogaVectraGenisys from "@/assets/products/chattanooga-vectra-genisys.jpg";
 
-// GMTS catalog page screenshots as placeholders (replace with individual product photos later)
+// GMTS individual product photos
+import gmts3SectionHiLo from "@/assets/products/gmts-3-section-hilo.png";
+import gmtsTreatmentTableBackrest from "@/assets/products/gmts-treatment-table-backrest.png";
+import gmts2SectionBoBath from "@/assets/products/gmts-2-section-bobath.png";
+import gmtsFlatTopTable from "@/assets/products/gmts-flat-top-table.png";
+import gmts2SidedStairs from "@/assets/products/gmts-2-sided-stairs.png";
+import gmts1SidedStairs from "@/assets/products/gmts-1-sided-stairs.png";
+import gmtsConvertibleStairs from "@/assets/products/gmts-convertible-stairs.png";
+import gmtsMirrorRack from "@/assets/products/gmts-mirror-rack.png";
+import gmtsMiniStorageRack from "@/assets/products/gmts-mini-storage-rack.png";
+
+// Catalog page screenshots as placeholders
 import gmtsRehabPage from "@/assets/products/gmts-page-11-rehab.jpg";
 import gmtsParallelPage from "@/assets/products/gmts-page-15-parallel.jpg";
-import gmtsStoragePage from "@/assets/products/gmts-page-16-storage.jpg";
 import gmtsStoolsPage from "@/assets/products/gmts-page-26-stools.jpg";
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
-  // GMTS Rehab Furniture - Hi-Lo & Treatment Tables (page 11 placeholder)
-  "1": gmtsRehabPage,
-  "2": gmtsRehabPage,
-  "3": gmtsRehabPage,
-  "4": gmtsRehabPage,
-  "5": gmtsRehabPage,
-  "6": gmtsRehabPage,
-  // GMTS Parallel Bars (page 15 placeholder)
+  // GMTS Rehab Furniture - individual photos
+  "1": gmts3SectionHiLo,
+  "2": gmtsTreatmentTableBackrest,
+  "3": gmts2SectionBoBath,
+  "4": gmtsFlatTopTable,
+  "5": gmtsRehabPage,  // placeholder - Hi-Lo Mat Table
+  "6": gmtsRehabPage,  // placeholder - Low Mat Table
+  // GMTS Parallel Bars (page placeholder)
   "7": gmtsParallelPage,
   "8": gmtsParallelPage,
-  // GMTS Training Stairs (page 15 placeholder)
-  "10": gmtsParallelPage,
-  "11": gmtsParallelPage,
-  "12": gmtsParallelPage,
-  // GMTS Storage & Traction (page 16 placeholder)
-  "14": gmtsStoragePage,
-  "15": gmtsStoragePage,
-  "18": gmtsStoragePage,
-  // GMTS Stools (page 26 placeholder)
+  // GMTS Training Stairs - individual photos
+  "10": gmts2SidedStairs,
+  "11": gmts1SidedStairs,
+  "12": gmtsConvertibleStairs,
+  // GMTS Storage - individual photos
+  "14": gmtsMirrorRack,
+  "15": gmtsMiniStorageRack,
+  "18": gmtsRehabPage,  // placeholder - Traction Package
+  // GMTS Stools (page placeholder)
   "19": gmtsStoolsPage,
   "20": gmtsStoolsPage,
   // Modalities - individual product images
