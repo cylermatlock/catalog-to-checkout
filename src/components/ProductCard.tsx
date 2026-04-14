@@ -1,4 +1,5 @@
 import { type Product } from "@/data/products";
+import { productImages } from "@/data/productImages";
 import { Phone } from "lucide-react";
 
 interface ProductCardProps {
@@ -6,12 +7,23 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ product }: ProductCardProps) => {
+  const image = productImages[product.id];
+
   return (
     <div className="bg-card border border-border rounded-lg overflow-hidden hover:shadow-lg transition-shadow group">
       <div className="aspect-[4/3] bg-secondary flex items-center justify-center overflow-hidden">
-        <div className="text-muted-foreground text-4xl font-bold opacity-20">
-          GMTS
-        </div>
+        {image ? (
+          <img
+            src={image}
+            alt={product.name}
+            className="w-full h-full object-contain p-2"
+            loading="lazy"
+          />
+        ) : (
+          <div className="text-muted-foreground text-4xl font-bold opacity-20">
+            GMTS
+          </div>
+        )}
       </div>
       <div className="p-4">
         <span className="text-xs font-medium text-primary uppercase tracking-wide">
