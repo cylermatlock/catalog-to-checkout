@@ -34,7 +34,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         </h3>
         <p className="text-xs text-muted-foreground mt-1">SKU: {product.sku}</p>
         {import.meta.env.DEV && (
-          <p className="text-[10px] font-mono text-amber-600 mt-0.5">ID: {product.id}</p>
+          <p className="text-[10px] font-mono text-primary/70 mt-0.5">ID: {product.id}</p>
         )}
 
         <ul className="mt-3 space-y-1">
