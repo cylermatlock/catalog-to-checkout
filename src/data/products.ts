@@ -49,9 +49,6 @@ export const products: Product[] = [
 
   // REHAB FURNITURE - Stools
   { id: "19", name: "GMTS Pneumatic Stool", category: "Rehab Furniture", subcategory: "Stools", sku: "RICH SS7677", description: ["Soft durable vinyl seat", "High density fiberglass base", "5 smooth rolling casters", "Adjustable height 18\"-23.5\"", "300 lb weight capacity"] },
-  { id: "20", name: "GMTS Pneumatic Stool with Removable Back", category: "Rehab Furniture", subcategory: "Stools", sku: "RICH SS3227", description: ["Soft durable vinyl seat", "High density fiberglass base", "5 smooth rolling casters", "Adjustable height 18\"-23.5\"", "300 lb weight capacity"] },
-  { id: "21", name: "Oakworks Premium Stool", category: "Rehab Furniture", subcategory: "Stools", sku: "OW 60339-TXX", description: ["Premium 5 star black base", "14\" round swivel seat", "3\" density padding", "Bump protector edge", "Pneumatic height ranges", "300 lb weight capacity", "2 year warranty"] },
-
   // REHAB FURNITURE - Standing Frames
   { id: "22", name: "NK Hi-Lo Standing Table", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "NK 375", description: ["Hi-Lo standing table", "Electric patient lift", "350 lb lift capacity", "33\"x24\" laminate top", "Lift support harness", "Padded knee, chest & back"] },
   { id: "23", name: "EasyStand Evolve", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "AMED PNG50162-1", description: ["Super comfortable for prolonged standing", "Easier transfers and independent standing position", "Available in three sizes"] },
