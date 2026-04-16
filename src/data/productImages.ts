@@ -52,6 +52,11 @@ import nkElectricStandingFrame from "@/assets/products/nk-electric-standing-fram
 import easystandEvolve from "@/assets/products/easystand-evolve.png";
 import easystandStrapStand from "@/assets/products/easystand-strap-stand.png";
 
+// SportsArt
+import sportsArtT655MS from "@/assets/products/sportsart-t655ms.png";
+import sportsArtT661M from "@/assets/products/sportsart-t661m.png";
+import sportsArtC575R from "@/assets/products/sportsart-c575r.png";
+
 // Shuttle Systems product images
 import shuttleTNT from "@/assets/products/shuttle-tnt-v2.png";
 import shuttleRecovery from "@/assets/products/shuttle-recovery-v2.png";
@@ -165,9 +170,9 @@ export const productImages: Record<string, string> = {
   "43": nustepT4r,
   "44": nustepT6pro,
   "45": nustepT5xr,
-  "46": placeholderProduct,
-  "47": placeholderProduct,
-  "48": placeholderProduct,
+  "46": sportsArtT655MS,
+  "47": sportsArtT661M,
+  "48": sportsArtC575R,
   "73": placeholderProduct,
   "74": placeholderProduct,
   "75": placeholderProduct,

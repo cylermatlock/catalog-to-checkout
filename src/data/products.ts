@@ -88,9 +88,9 @@ export const products: Product[] = [
   { id: "45", name: "NuStep T5XR Cross Trainer", category: "Cardio", subcategory: "NuStep", sku: "NS T5XR", description: ["Low impact total body", "600 lb weight capacity", "Smooth-stepping motion", "Adjustable resistance levels", "Low step-through swivel seat", "Quiet hybrid brake system"] },
 
   // CARDIO - SportsArt
-  { id: "46", name: "Sports Art T615 Treadmill", category: "Cardio", subcategory: "SportsArt", sku: "SAA T615-CHR", description: ["Myflex plus deck cushioning", "30% more shock absorption", "Large 20\"x58\" belt", "Cardio advisor displays", "Lifetime warranty on deck"] },
-  { id: "47", name: "Sports Art T635M Treadmill", category: "Cardio", subcategory: "SportsArt", sku: "SAA T635M", description: ["Equipped for medical & rehab", "Reverse speeds up to 3 mph", "Medical extended handrails", "Myflex plus deck cushioning", "Contact & telemetry heart rate"] },
-  { id: "48", name: "Sports Art C535R Bike", category: "Cardio", subcategory: "SportsArt", sku: "SAA C535R", description: ["ComforDri vented back seat", "Adjustable handles", "Oversized pedals with straps", "Wireless heart rate monitoring", "400 lb weight capacity"] },
+  { id: "46", name: "SportsArt T655MS Treadmill", category: "Cardio", subcategory: "SportsArt", sku: "SAA T655MS", description: ["Bi-directional belt motion", "Decline to -3%", "Full Length Medical Handrails", "0.1MPH Starting Speed"] },
+  { id: "47", name: "SportsArt T661M Treadmill", category: "Cardio", subcategory: "SportsArt", sku: "SAA T661M", description: ["Equipped for medical & rehab", "Starting speed of 0.1MPH", "Medical extended handrails", "Myflex plus deck cushioning", "Contact & telemetry heart rate"] },
+  { id: "48", name: "SportsArt C575R Bike", category: "Cardio", subcategory: "SportsArt", sku: "SAA C535R", description: ["ComforDri vented back seat", "Adjustable handles", "Oversized pedals with straps", "Wireless heart rate monitoring", "400 lb weight capacity"] },
 
   // CARDIO - Spirit
   { id: "49", name: "Spirit CT800 Treadmill", category: "Cardio", subcategory: "Spirit", sku: "SFP CT800", description: ["85\"L x 35.8\"W x 60.6\"H", "Optional Medical Handrails", "0.5–12mph speed range", "450lb Weight Capacity", "5 Year Warranty"] },
