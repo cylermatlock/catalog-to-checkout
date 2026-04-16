@@ -69,6 +69,9 @@ import scifitPro2 from "@/assets/products/scifit-pro2.jpg";
 import scifitPro1Sport from "@/assets/products/scifit-pro1-sport.jpg";
 import scifitPro1000 from "@/assets/products/scifit-pro1000.jpg";
 
+// Generic placeholder for products without a dedicated image
+import placeholderProduct from "@/assets/products/placeholder-product.jpg";
+
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
   // GMTS Rehab Furniture - individual photos
@@ -143,4 +146,58 @@ export const productImages: Record<string, string> = {
   "89": shuttleRebounder,
   // Compression
   "99": richmarREXCompression,
+
+  // Placeholder fallbacks for products without a dedicated photo yet.
+  // Click any of these in the editor to swap them out with the real image.
+  "22": placeholderProduct,
+  "23": placeholderProduct,
+  "24": placeholderProduct,
+  "39": placeholderProduct,
+  "42": placeholderProduct,
+  "43": placeholderProduct,
+  "44": placeholderProduct,
+  "45": placeholderProduct,
+  "46": placeholderProduct,
+  "47": placeholderProduct,
+  "48": placeholderProduct,
+  "73": placeholderProduct,
+  "74": placeholderProduct,
+  "75": placeholderProduct,
+  "76": placeholderProduct,
+  "77": placeholderProduct,
+  "78": placeholderProduct,
+  "79": placeholderProduct,
+  "80": placeholderProduct,
+  "81": placeholderProduct,
+  "82": placeholderProduct,
+  "83": placeholderProduct,
+  "84": placeholderProduct,
+  "86": placeholderProduct,
+  "88": placeholderProduct,
+  "90": placeholderProduct,
+  "91": placeholderProduct,
+  "92": placeholderProduct,
+  "93": placeholderProduct,
+  "94": placeholderProduct,
+  "95": placeholderProduct,
+  "96": placeholderProduct,
+  "97": placeholderProduct,
+  "98": placeholderProduct,
+  "100": placeholderProduct,
+  "101": placeholderProduct,
+  "102": placeholderProduct,
+  "103": placeholderProduct,
+  "104": placeholderProduct,
+  "105": placeholderProduct,
+  "106": placeholderProduct,
+  "107": placeholderProduct,
+  "108": placeholderProduct,
+  "109": placeholderProduct,
+  "110": placeholderProduct,
+  "111": placeholderProduct,
+  "112": placeholderProduct,
+  "113": placeholderProduct,
+  "114": placeholderProduct,
+  "115": placeholderProduct,
+  "116": placeholderProduct,
 };
