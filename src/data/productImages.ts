@@ -111,9 +111,9 @@ export const productImages: Record<string, string> = {
   // Modalities - E-Stim/Ultrasound (Richmar images from richmarweb.com)
   "31": richmarTheratouchEX4,
   "32": richmarCX4,
-  "33": richmarComboCare,
-  "34": richmarCX2,
-  "35": richmarTheratouchUX2,
+  "33": placeholderProduct, // ComboCare - image pending
+  "34": placeholderProduct, // CX2 - image pending
+  "35": placeholderProduct, // TheraTouch UX2 - image pending
   "36": chattanoogaVectraGenisys,
   // Modalities - Laser
   "37": richmarLX2Laser,
