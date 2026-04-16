@@ -56,6 +56,45 @@ import easystandStrapStand from "@/assets/products/easystand-strap-stand.png";
 import sportsArtT655MS from "@/assets/products/sportsart-t655ms.png";
 import sportsArtT661M from "@/assets/products/sportsart-t661m.png";
 import sportsArtC575R from "@/assets/products/sportsart-c575r.png";
+import sportsArtN965 from "@/assets/products/sportsart-n965.jpg";
+import sportsArtDF201 from "@/assets/products/sportsart-df201.jpg";
+import sportsArtN961 from "@/assets/products/sportsart-n961.jpg";
+import sportsArtDS972 from "@/assets/products/sportsart-ds972.jpg";
+import sportsArtDF200 from "@/assets/products/sportsart-df200.jpg";
+import sportsArtS973 from "@/assets/products/sportsart-s973.jpg";
+
+// TKO
+import tkoDefiant from "@/assets/products/tko-defiant.jpg";
+import tkoStorageRack from "@/assets/products/tko-storage-rack.jpg";
+import tkoDumbbellRack from "@/assets/products/tko-dumbbell-rack.jpg";
+
+// Balance
+import therabandStabilityTrainer from "@/assets/products/theraband-stability-trainer.jpg";
+import candoVestibularRocker from "@/assets/products/cando-vestibular-rocker.jpg";
+import therabandStabilityDisc from "@/assets/products/theraband-stability-disc.jpg";
+import economyWobbleRocker from "@/assets/products/economy-wobble-rocker.jpg";
+import candoBalanceDiscs from "@/assets/products/cando-balance-discs.jpg";
+import airexBalanceBeam from "@/assets/products/airex-balance-beam.jpg";
+
+// Compression
+import thermXCompression from "@/assets/products/therm-x-compression.jpg";
+import squidColdCompression from "@/assets/products/squid-cold-compression.jpg";
+import gameReadyPRPro from "@/assets/products/game-ready-prpro.jpg";
+
+// Work Hardening
+import baselineHandDynamometer from "@/assets/products/baseline-hand-dynamometer.jpg";
+import baselinePinchGauge from "@/assets/products/baseline-pinch-gauge.jpg";
+import baselineHandEval from "@/assets/products/baseline-hand-eval.jpg";
+
+// Clinical Supplies (catalog page screenshots for grouped products)
+import csStabilityBallsPage from "@/assets/products/cs-stability-balls-page.jpg";
+import csBandsPage from "@/assets/products/cs-bands-page.jpg";
+import candoHandPutty from "@/assets/products/cando-hand-putty.jpg";
+import biofreezeImg from "@/assets/products/biofreeze.jpg";
+import ultrasoundGelImg from "@/assets/products/ultrasound-gel.jpg";
+import moistHeatPacks from "@/assets/products/moist-heat-packs.jpg";
+import candoFoamRollers from "@/assets/products/cando-foam-rollers.jpg";
+import cuffWeightsImg from "@/assets/products/cuff-weights.jpg";
 
 // Shuttle Systems product images
 import shuttleTNT from "@/assets/products/shuttle-tnt-v2.png";
@@ -173,44 +212,50 @@ export const productImages: Record<string, string> = {
   "46": sportsArtT655MS,
   "47": sportsArtT661M,
   "48": sportsArtC575R,
-  "73": placeholderProduct,
-  "74": placeholderProduct,
-  "75": placeholderProduct,
-  "76": placeholderProduct,
-  "77": placeholderProduct,
-  "78": placeholderProduct,
+  // SportsArt Strength
+  "73": sportsArtN965,
+  "74": sportsArtDF201,
+  "75": sportsArtN961,
+  "76": sportsArtDS972,
+  "77": sportsArtDF200,
+  "78": sportsArtS973,
   "79": placeholderProduct,
   "80": placeholderProduct,
   "81": placeholderProduct,
-  "82": placeholderProduct,
-  "83": placeholderProduct,
-  "84": placeholderProduct,
+  // TKO
+  "82": tkoDefiant,
+  "83": tkoStorageRack,
+  "84": tkoDumbbellRack,
+  // Balance (additional)
   "86": placeholderProduct,
   "88": placeholderProduct,
   "90": placeholderProduct,
-  "91": placeholderProduct,
-  "92": placeholderProduct,
-  "93": placeholderProduct,
-  "94": placeholderProduct,
-  "95": placeholderProduct,
-  "96": placeholderProduct,
-  "97": placeholderProduct,
-  "98": placeholderProduct,
-  "100": placeholderProduct,
-  "101": placeholderProduct,
-  "102": placeholderProduct,
-  "103": placeholderProduct,
-  "104": placeholderProduct,
+  "91": therabandStabilityTrainer,
+  "92": candoVestibularRocker,
+  "93": therabandStabilityDisc,
+  "94": economyWobbleRocker,
+  "95": candoBalanceDiscs,
+  "96": airexBalanceBeam,
+  // Compression
+  "97": thermXCompression,
+  "98": squidColdCompression,
+  "100": gameReadyPRPro,
+  // Work Hardening
+  "101": baselineHandDynamometer,
+  "102": baselinePinchGauge,
+  "103": baselineHandEval,
+  // Clinical Supplies
+  "104": csStabilityBallsPage,
   "105": placeholderProduct,
   "106": placeholderProduct,
   "107": placeholderProduct,
-  "108": placeholderProduct,
-  "109": placeholderProduct,
-  "110": placeholderProduct,
-  "111": placeholderProduct,
-  "112": placeholderProduct,
-  "113": placeholderProduct,
+  "108": csBandsPage,
+  "109": csBandsPage,
+  "110": candoHandPutty,
+  "111": biofreezeImg,
+  "112": ultrasoundGelImg,
+  "113": moistHeatPacks,
   "114": placeholderProduct,
-  "115": placeholderProduct,
-  "116": placeholderProduct,
+  "115": candoFoamRollers,
+  "116": cuffWeightsImg,
 };
