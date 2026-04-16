@@ -62,7 +62,7 @@ export const products: Product[] = [
   // MODALITIES - Hydrocollator
   { id: "28", name: "Richmar Hydratherm", category: "Modalities", subcategory: "Hydrocollator", sku: "RICH HT-R12-SW", description: ["Digital thermostat control", "Composite no rust tub with divider system", "Reduces number of cleanings", "12 hot pack capacity", "Low water sensor", "1 year warranty"] },
   { id: "29", name: "Chattanooga M-2 Hydrocollator", category: "Modalities", subcategory: "Hydrocollator", sku: "CG M2", description: ["High-quality stainless steel", "Thermostatically controlled temperature", "3\" swivel silent casters", "Holds up to 12 standard packs", "1 year warranty"] },
-  { id: "30", name: "Chattanooga SS-2 Hydrocollator", category: "Modalities", subcategory: "Hydrocollator", sku: "CG SS-2", description: ["High-quality stainless steel", "Thermostatically controlled temperature", "3\" swivel silent casters", "Holds up to 8 standard packs", "1 year warranty"] },
+  { id: "30", name: "Chattanooga M-4 Hydrocollator", category: "Modalities", subcategory: "Hydrocollator", sku: "CG M4", description: ["High-quality stainless steel", "Thermostatically controlled temperature", "3\" swivel silent casters", "Holds up to 24 standard packs", "1 year warranty"] },
 
   // MODALITIES - E-Stim/Ultrasound
   { id: "31", name: "Richmar Theratouch EX4 Electrotherapy System", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "RICH DQ7200", description: ["Treats up to 4 patients at once", "Multiple waveforms", "Large color LCD touchscreen", "Up to 10,000 Hz", "3 year warranty"] },

@@ -4,7 +4,7 @@ import richmarHydratherm from "@/assets/products/richmar-hydratherm.jpg";
 import richmarIntensitySelectComboII from "@/assets/products/richmar-intensity-select-combo-ii.jpg";
 import chattanoogaM2 from "@/assets/products/chattanooga-m2-hydrocollator.jpg";
 import richmarIfComboII from "@/assets/products/richmar-if-combo-ii.jpg";
-import chattanoogaSS2 from "@/assets/products/chattanooga-ss2-hydrocollator.jpg";
+import chattanoogaM4 from "@/assets/products/chattanooga-m4-hydrocollator.png";
 import richmarTheratouchEX4 from "@/assets/products/richmar-theratouch-ex4.jpg";
 import intensityCX4 from "@/assets/products/intensity-cx4.jpg";
 import richmarWinnerEVO from "@/assets/products/richmar-winner-evo.jpg";
@@ -109,7 +109,7 @@ export const productImages: Record<string, string> = {
   // Modalities - Hydrocollator
   "28": richmarHydrathermWeb,
   "29": chattanoogaM2,
-  "30": chattanoogaSS2,
+  "30": chattanoogaM4,
   // Modalities - E-Stim/Ultrasound
   "31": richmarTheratouchEX4,
   "32": intensityCX4,
