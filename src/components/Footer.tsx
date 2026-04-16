@@ -30,8 +30,6 @@ const Footer = () => (
           <h4 className="font-semibold mb-3">Quick Links</h4>
           <div className="space-y-2 text-sm opacity-80">
             <a href="/products" className="block hover:text-primary">Products</a>
-            <a href="/about" className="block hover:text-primary">About Us</a>
-            <a href="/contact" className="block hover:text-primary">Contact Us</a>
           </div>
         </div>
       </div>
