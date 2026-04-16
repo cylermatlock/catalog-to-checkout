@@ -21,8 +21,8 @@ const Footer = () => (
             <a href="tel:940-600-1311" className="flex items-center gap-2 hover:text-primary">
               <Phone className="w-4 h-4" /> 940-600-1311
             </a>
-            <a href="mailto:info@gmtherapytx.com" className="flex items-center gap-2 hover:text-primary">
-              <Mail className="w-4 h-4" /> info@gmtherapytx.com
+            <a href="mailto:sales@gmtherapytx.com" className="flex items-center gap-2 hover:text-primary">
+              <Mail className="w-4 h-4" /> sales@gmtherapytx.com
             </a>
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4" /> Denton, TX
