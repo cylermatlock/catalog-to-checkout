@@ -39,7 +39,7 @@ import gmtsStoolsPage from "@/assets/products/gmts-page-26-stools.jpg";
 import shuttleTNT from "@/assets/products/shuttle-tnt.jpg";
 import shuttleRecovery from "@/assets/products/shuttle-recovery.jpg";
 import shuttleMVP from "@/assets/products/shuttle-mvp.png";
-import shuttleUltimate from "@/assets/products/shuttle-ultimate.jpg";
+import shuttleUltimate from "@/assets/products/shuttle-ultimate.png";
 import shuttle2000 from "@/assets/products/shuttle-2000-1.jpg";
 import shuttleBalance from "@/assets/products/shuttle-balance.jpg";
 import shuttleMinipress from "@/assets/products/shuttle-minipress.jpg";
