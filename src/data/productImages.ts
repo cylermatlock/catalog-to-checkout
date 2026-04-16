@@ -101,20 +101,20 @@ export const productImages: Record<string, string> = {
   // GMTS Stools (page placeholder)
   "19": gmtsStools,
   "20": gmtsStools,
-  // Modalities - Portable TENS (catalog + web)
-  "25": richmarIntensity12,
+  // Modalities - Portable TENS (images from richmarweb.com)
+  "25": richmarIntensity10,
   "26": richmarIntensitySelectComboII,
   "27": richmarIfComboII,
   // Modalities - Hydrocollator
   "28": richmarHydrathermWeb,
   "29": chattanoogaM2,
   "30": chattanoogaM4,
-  // Modalities - E-Stim/Ultrasound
+  // Modalities - E-Stim/Ultrasound (Richmar images from richmarweb.com)
   "31": richmarTheratouchEX4,
-  "32": intensityCX4,
-  "33": richmarWinnerEVO,
-  "34": intensityCX2,
-  "35": richmarTherasoundEVO,
+  "32": richmarCX4,
+  "33": richmarComboCare,
+  "34": richmarCX2,
+  "35": richmarTheratouchUX2,
   "36": chattanoogaVectraGenisys,
   // Modalities - Laser
   "37": richmarLX2Laser,
