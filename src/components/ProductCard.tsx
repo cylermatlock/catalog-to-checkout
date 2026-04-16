@@ -33,6 +33,9 @@ const ProductCard = ({ product }: ProductCardProps) => {
           {product.name}
         </h3>
         <p className="text-xs text-muted-foreground mt-1">SKU: {product.sku}</p>
+        {import.meta.env.DEV && (
+          <p className="text-[10px] font-mono text-primary/70 mt-0.5">ID: {product.id}</p>
+        )}
 
         <ul className="mt-3 space-y-1">
           {product.description.map((item, i) => (
