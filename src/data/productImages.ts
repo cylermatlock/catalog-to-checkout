@@ -32,6 +32,7 @@ import gmtsMiniStorageRack from "@/assets/products/gmts-mini-storage-rack.png";
 import gmtsLowMatTable from "@/assets/products/gmts-low-mat-table.png";
 import gmtsParallelBars10ft from "@/assets/products/gmts-parallel-bars-10ft.png";
 import gmtsParallelBars7ft from "@/assets/products/gmts-parallel-bars-7ft.png";
+import armedicaPowerParallelBars from "@/assets/products/armedica-power-parallel-bars.png";
 
 import gmtsDeluxeHiLoMat from "@/assets/products/gmts-deluxe-hi-lo-mat.png";
 
