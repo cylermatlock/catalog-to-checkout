@@ -37,6 +37,7 @@ import idealDumbbellStorageVWR30 from "@/assets/products/ideal-dumbbell-storage-
 
 import gmtsDeluxeHiLoMat from "@/assets/products/gmts-deluxe-hi-lo-mat.png";
 import chattanoogaDts6m from "@/assets/products/chattanooga-dts-6m.png";
+import gmtsTractionPackage from "@/assets/products/gmts-traction-package.png";
 
 // Catalog page screenshots as placeholders
 import gmtsRehabPage from "@/assets/products/gmts-page-11-rehab.jpg";
@@ -90,7 +91,7 @@ export const productImages: Record<string, string> = {
   "14": gmtsMirrorRack,
   "15": gmtsMiniStorageRack,
   "16": chattanoogaDts6m,
-  "18": gmtsRehabPage,
+  "18": gmtsTractionPackage,
   // GMTS Stools (page placeholder)
   "19": gmtsStoolsPage,
   "20": gmtsStoolsPage,
