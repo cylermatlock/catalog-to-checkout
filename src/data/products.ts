@@ -80,7 +80,7 @@ export const products: Product[] = [
   // MODALITIES - Hivamat/Diathermy
   { id: "40", name: "Richmar Theradot", category: "Modalities", subcategory: "Hivamat/Diathermy", sku: "RICH DO1009", description: ["Deep oscillation treatment", "Pre-defined programs", "Battery operated, portable", "Uses electrostatic attractions", "Treats edema", "3 Year Warranty"] },
   { id: "41", name: "Richmar TheraTouch DX2 Shortwave Diathermy", category: "Modalities", subcategory: "Hivamat/Diathermy", sku: "RICH DQSWD2", description: ["Anatomical treatment guide", "Save up to 99 user favorites", "9 evidence based quick links", "Easy to use touch screen", "USB port for easy upgrades", "3 year warranty"] },
-  { id: "42", name: "Chatt Diathermy", category: "Modalities", subcategory: "Hivamat/Diathermy", sku: "CG 1600", description: ["Colored LCD touch-screen interface", "Includes multi-lingual software", "90 pre-set protocols", "200 allotted protocol slots for custom protocols"] },
+  
 
   // CARDIO - NuStep
   { id: "43", name: "NuStep T4R Cross Trainer", category: "Cardio", subcategory: "NuStep", sku: "NS T4R", description: ["Low impact total body", "400 lb weight capacity", "Smooth-stepping motion", "360° swivel seat", "Multiple workout programs", "Quiet hybrid brake system"] },
