@@ -74,7 +74,7 @@ export const products: Product[] = [
 
   // MODALITIES - Laser
   { id: "37", name: "Richmar LX2 Cold Laser", category: "Modalities", subcategory: "Laser", sku: "RICH DQLLLT", description: ["Class 3B Laser", "Touch screen", "1040 mw of total power", "Built in dosage calculator", "Programmable treatment times", "100 user defined protocols"] },
-  { id: "38", name: "Richmar Laser Prism Probe", category: "Modalities", subcategory: "Laser", sku: "RICH 500-030", description: ["Three 150 mw laser diodes", "Visible blue LED guide light", "450 mw continuous power", "3 preset dosage options", "NiMH rechargeable battery", "1 year warranty"] },
+  
   { id: "39", name: "Chatt Vectra Laser", category: "Modalities", subcategory: "Laser", sku: "CG 2784", description: ["Fully functional device with independent control", "Display of dosage in joules or joules/cm²", "Continuous and pulsed treatment modes", "Real time feedback"] },
 
   // MODALITIES - Hivamat/Diathermy
