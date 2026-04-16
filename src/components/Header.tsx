@@ -8,7 +8,6 @@ const Header = () => {
   const location = useLocation();
 
   const links = [
-    { to: "/", label: "Home" },
     { to: "/products", label: "Products" },
   ];
 
