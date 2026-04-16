@@ -35,6 +35,16 @@ import gmtsRehabPage from "@/assets/products/gmts-page-11-rehab.jpg";
 import gmtsParallelPage from "@/assets/products/gmts-page-15-parallel.jpg";
 import gmtsStoolsPage from "@/assets/products/gmts-page-26-stools.jpg";
 
+// Shuttle Systems product images
+import shuttleTNT from "@/assets/products/shuttle-tnt.jpg";
+import shuttleRecovery from "@/assets/products/shuttle-recovery.jpg";
+import shuttleMVP from "@/assets/products/shuttle-mvp.jpg";
+import shuttleUltimate from "@/assets/products/shuttle-ultimate.jpg";
+import shuttle2000 from "@/assets/products/shuttle-2000-1.jpg";
+import shuttleBalance from "@/assets/products/shuttle-balance.jpg";
+import shuttleMinipress from "@/assets/products/shuttle-minipress.jpg";
+import shuttleRebounder from "@/assets/products/shuttle-rebounder.jpg";
+
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
   // GMTS Rehab Furniture - individual photos
@@ -79,6 +89,17 @@ export const productImages: Record<string, string> = {
   // Modalities - Hivamat/Diathermy
   "40": richmarTheradot,
   "41": richmarDX2Diathermy,
+  // Shuttle Systems - Strength Equipment
+  "67": shuttleTNT,
+  "68": shuttleRecovery,
+  "69": shuttleMVP,
+  "70": shuttleUltimate,
+  "71": shuttle2000,
+  "72": shuttleUltimate, // Ultimate Plus - using Ultimate image
+  // Shuttle Systems - Balance Products
+  "85": shuttleBalance,
+  "87": shuttleMinipress,
+  "89": shuttleRebounder,
   // Compression
   "99": richmarREXCompression,
 };
