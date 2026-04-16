@@ -39,10 +39,10 @@ import gmtsParallelPage from "@/assets/products/gmts-page-15-parallel.jpg";
 import gmtsStoolsPage from "@/assets/products/gmts-page-26-stools.jpg";
 
 // Shuttle Systems product images
-import shuttleTNT from "@/assets/products/shuttle-tnt.jpg";
-import shuttleRecovery from "@/assets/products/shuttle-recovery.jpg";
+import shuttleTNT from "@/assets/products/shuttle-tnt-v2.png";
+import shuttleRecovery from "@/assets/products/shuttle-recovery-v2.png";
 import shuttleMVP from "@/assets/products/shuttle-mvp.png";
-import shuttleUltimate from "@/assets/products/shuttle-ultimate.png";
+import shuttleUltimate from "@/assets/products/shuttle-ultimate-v2.png";
 import shuttle2000 from "@/assets/products/shuttle-2000-1-clinical.png";
 import shuttleBalance from "@/assets/products/shuttle-balance.jpg";
 import shuttleMinipress from "@/assets/products/shuttle-minipress.jpg";
