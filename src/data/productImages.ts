@@ -36,6 +36,7 @@ import armedicaPowerParallelBars from "@/assets/products/armedica-power-parallel
 import idealDumbbellStorageVWR30 from "@/assets/products/ideal-dumbbell-storage-vwr30.png";
 
 import gmtsDeluxeHiLoMat from "@/assets/products/gmts-deluxe-hi-lo-mat.png";
+import chattanoogaDts6m from "@/assets/products/chattanooga-dts-6m.png";
 
 // Catalog page screenshots as placeholders
 import gmtsRehabPage from "@/assets/products/gmts-page-11-rehab.jpg";
@@ -88,6 +89,7 @@ export const productImages: Record<string, string> = {
   "13": idealDumbbellStorageVWR30,
   "14": gmtsMirrorRack,
   "15": gmtsMiniStorageRack,
+  "16": chattanoogaDts6m,
   "18": gmtsRehabPage,
   // GMTS Stools (page placeholder)
   "19": gmtsStoolsPage,
