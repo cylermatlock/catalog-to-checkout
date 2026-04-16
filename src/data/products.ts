@@ -111,16 +111,6 @@ export const products: Product[] = [
   { id: "59", name: "SciFit Pro 1000 - Seated Upper Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO1031-INT", description: ["Adjustable arm cranks: 3 ROM settings", "Step-through accessibility", "Bi-directional exercise", "191 levels of resistance", "Removable seat for wheelchair access"] },
   { id: "60", name: "SciFit Pro 1000 Sport - Seated Upper Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO1030-INT", description: ["Get-on-and-go with limited adjustments", "Step-through accessibility", "Bi-directional exercise", "Very low starting resistance"] },
 
-  // CARDIO - SteelFlex
-  { id: "61", name: "Steelflex PT10 Treadmill", category: "Cardio", subcategory: "SteelFlex", sku: "FMI PT10", description: ["Full length medical handrails", "Forward and reverse belt", "0 to 15 Degree incline", "Very low starting speed", "400 lbs weight capacity"] },
-  { id: "62", name: "Steelflex PR10 Recumbent Bike", category: "Cardio", subcategory: "SteelFlex", sku: "FMI PR10", description: ["Step-through access", "Contact heart rate monitors", "Oversized seat", "Self powered", "400 lbs weight capacity"] },
-  { id: "63", name: "Steelflex PB10 Upright Bike", category: "Cardio", subcategory: "SteelFlex", sku: "FMI PB10", description: ["Adjustable height seat", "Contact heart rate monitors", "Self powered", "400 lbs weight capacity"] },
-
-  // CARDIO - Fitnex
-  { id: "64", name: "Fitnex T70 Treadmill", category: "Cardio", subcategory: "Fitnex", sku: "FMI T70", description: ["Full length medical handrails", "Forward and reverse belt", "0 to 15 Degree incline", "Very low starting speed", "400 lbs weight capacity"] },
-  { id: "65", name: "Fitnex R70S Recumbent Bike", category: "Cardio", subcategory: "Fitnex", sku: "FMI R70S", description: ["Step-through access", "Contact heart rate monitors", "Self powered", "400 lbs weight capacity"] },
-  { id: "66", name: "Fitnex B70 Upright Bike", category: "Cardio", subcategory: "Fitnex", sku: "FMI B70", description: ["Adjustable height seat", "Contact heart rate monitors", "Self powered", "400 lbs weight capacity"] },
-
   // STRENGTH EQUIPMENT - Shuttle
   { id: "67", name: "Shuttle Systems TNT", category: "Strength Equipment", subcategory: "Shuttle Systems", sku: "CD 7100T", description: ["24\" seat height", "Adjustable hand grips", "PNF towers & pulley systems", "All aluminum construction", "Resistance from 6-300 lbs", "350 lb weight capacity"] },
   { id: "68", name: "Shuttle Recovery Senior", category: "Strength Equipment", subcategory: "Shuttle Systems", sku: "CD 5500", description: ["Supine Leg Press", "8 elasticords provide up to 300 lbs of progressive resistance", "Wide backrest with wobble board", "Supports bariatric and senior clients"] },
