@@ -30,6 +30,9 @@ import gmtsConvertibleStairs from "@/assets/products/gmts-convertible-stairs.png
 import gmtsMirrorRack from "@/assets/products/gmts-mirror-rack.png";
 import gmtsMiniStorageRack from "@/assets/products/gmts-mini-storage-rack.png";
 
+// GMTS Deluxe Hi-Lo Mat Table
+import gmtsDeluxeHiLoMat from "@/assets/products/gmts-deluxe-hi-lo-mat.png";
+
 // Catalog page screenshots as placeholders
 import gmtsRehabPage from "@/assets/products/gmts-page-11-rehab.jpg";
 import gmtsParallelPage from "@/assets/products/gmts-page-15-parallel.jpg";
