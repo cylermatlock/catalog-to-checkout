@@ -56,6 +56,13 @@ import spiritFunctionalTrainer from "@/assets/products/spirit-functional-trainer
 import spiritLegExtCurl from "@/assets/products/spirit-leg-ext-curl.jpg";
 import spiritLegPressCalf from "@/assets/products/spirit-leg-press-calf.jpg";
 
+// SciFit product images from hyweb.com
+import scifitPro1 from "@/assets/products/scifit-pro1.jpg";
+import scifitStepOne from "@/assets/products/scifit-stepone.jpg";
+import scifitPro2 from "@/assets/products/scifit-pro2.jpg";
+import scifitPro1Sport from "@/assets/products/scifit-pro1-sport.jpg";
+import scifitPro1000 from "@/assets/products/scifit-pro1000.jpg";
+
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
   // GMTS Rehab Furniture - individual photos
@@ -107,6 +114,13 @@ export const productImages: Record<string, string> = {
   "52": spiritFunctionalTrainer,
   "53": spiritLegExtCurl,
   "54": spiritLegPressCalf,
+  // SciFit - Cardio
+  "55": scifitPro1,
+  "56": scifitStepOne,
+  "57": scifitPro2,
+  "58": scifitPro1Sport, // Pro 2 Sport - using Pro1 Sport image
+  "59": scifitPro1000,
+  "60": scifitPro1000, // Pro 1000 Sport - using Pro 1000 image
   // Shuttle Systems - Strength Equipment
   "67": shuttleTNT,
   "68": shuttleRecovery,
