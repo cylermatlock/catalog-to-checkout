@@ -63,7 +63,7 @@ export const productImages: Record<string, string> = {
   "2": gmtsTreatmentTableBackrest,
   "3": gmts2SectionBoBath,
   "4": gmtsFlatTopTable,
-  "5": gmtsRehabPage,
+  "5": gmtsDeluxeHiLoMat,
   "6": gmtsRehabPage,
   // GMTS Parallel Bars (page placeholder)
   "7": gmtsParallelPage,
