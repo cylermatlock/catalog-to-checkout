@@ -33,6 +33,7 @@ import gmtsLowMatTable from "@/assets/products/gmts-low-mat-table.png";
 import gmtsParallelBars10ft from "@/assets/products/gmts-parallel-bars-10ft.png";
 import gmtsParallelBars7ft from "@/assets/products/gmts-parallel-bars-7ft.png";
 import armedicaPowerParallelBars from "@/assets/products/armedica-power-parallel-bars.png";
+import idealDumbbellStorageVWR30 from "@/assets/products/ideal-dumbbell-storage-vwr30.png";
 
 import gmtsDeluxeHiLoMat from "@/assets/products/gmts-deluxe-hi-lo-mat.png";
 
@@ -84,6 +85,7 @@ export const productImages: Record<string, string> = {
   "11": gmts1SidedStairs,
   "12": gmtsConvertibleStairs,
   // GMTS Storage
+  "13": idealDumbbellStorageVWR30,
   "14": gmtsMirrorRack,
   "15": gmtsMiniStorageRack,
   "18": gmtsRehabPage,
