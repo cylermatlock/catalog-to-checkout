@@ -1,13 +1,16 @@
 import { Phone, Mail, MapPin } from "lucide-react";
+import logo from "@/assets/gm-therapy-logo.png";
 
 const Footer = () => (
   <footer className="bg-foreground text-background py-12">
     <div className="container mx-auto px-4">
       <div className="grid md:grid-cols-3 gap-8">
         <div>
-          <h3 className="text-lg font-bold mb-3">
-            GM <span className="text-primary">Therapy</span> Solutions
-          </h3>
+          <img
+            src={logo}
+            alt="GM Therapy Solutions"
+            className="h-16 w-auto object-contain bg-background/95 p-2 rounded mb-3"
+          />
           <p className="text-sm opacity-70">
             PT Equipment & Supplies. Your reliable equipment partner.
           </p>
