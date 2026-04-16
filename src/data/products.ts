@@ -124,10 +124,7 @@ export const products: Product[] = [
   { id: "77", name: "Sports Art DF200 Leg Extension / Leg Curl", category: "Strength Equipment", subcategory: "SportsArt", sku: "SAA DF200", description: ["Spring-lock release knobs", "Adjustable seat-back cushion", "14-gauge machine welded frame", "Heavy-duty marine grade cushions"] },
   { id: "78", name: "Sports Art S973 Cable Tower", category: "Strength Equipment", subcategory: "SportsArt", sku: "SAA S973", description: ["Dual swivel pulleys", "36 incremental adjustments", "1:2 and 1:4 ratios", "Aircraft quality cable", "Marine-grade upholstery"] },
 
-  // STRENGTH EQUIPMENT - SteelFlex/TKO
-  { id: "79", name: "Steelflex CLPR 380 Squat Rack", category: "Strength Equipment", subcategory: "SteelFlex", sku: "FMI CLPR380", description: ["54'L x 48\"W x 82\"H", "Adjustable Safety Bars", "Multi position pull up bar", "Max weight capacity: 1000lbs"] },
-  { id: "80", name: "Steelflex NOPR Half Rack", category: "Strength Equipment", subcategory: "SteelFlex", sku: "FMI NOPR", description: ["83\"L x 68\"W x 91.5\"H", "Pull up bar", "6 olympic weight storage posts", "8 band posts", "Landmine attachment"] },
-  { id: "81", name: "Steelflex NIFD Flat to Incline Bench", category: "Strength Equipment", subcategory: "SteelFlex", sku: "FMI NFID", description: ["Adjustable seat-back cushion", "14-gauge machine welded frame", "Heavy-duty marine grade cushions", "Multiple adjustment points"] },
+  // STRENGTH EQUIPMENT - TKO
   { id: "82", name: "TKO Defiant Custom Bay Single Station", category: "Strength Equipment", subcategory: "TKO", sku: "TKO DB-SUB-8-STAM", description: ["Accessories included", "Pull up bar", "4 tier storage", "Floor mounted system", "53\"x45\"x95\""] },
   { id: "83", name: "TKO Custom Storage Rack", category: "Strength Equipment", subcategory: "TKO", sku: "TKO 92ATT", description: ["72\"W x 72\"H x 33.5\"D", "Customizable", "Free Standing", "Tablet holder", "4 Heavy duty trays"] },
   { id: "84", name: "TKO 3 Tier Dumbbell Rack", category: "Strength Equipment", subcategory: "TKO", sku: "TKO 6235-B", description: ["55\"W x 30\"D x 40\"H", "174lbs", "Dumbbells sold separately", "Heavy duty frame"] },
