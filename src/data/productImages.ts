@@ -56,6 +56,45 @@ import easystandStrapStand from "@/assets/products/easystand-strap-stand.png";
 import sportsArtT655MS from "@/assets/products/sportsart-t655ms.png";
 import sportsArtT661M from "@/assets/products/sportsart-t661m.png";
 import sportsArtC575R from "@/assets/products/sportsart-c575r.png";
+import sportsArtN965 from "@/assets/products/sportsart-n965.jpg";
+import sportsArtDF201 from "@/assets/products/sportsart-df201.jpg";
+import sportsArtN961 from "@/assets/products/sportsart-n961.jpg";
+import sportsArtDS972 from "@/assets/products/sportsart-ds972.jpg";
+import sportsArtDF200 from "@/assets/products/sportsart-df200.jpg";
+import sportsArtS973 from "@/assets/products/sportsart-s973.jpg";
+
+// TKO
+import tkoDefiant from "@/assets/products/tko-defiant.jpg";
+import tkoStorageRack from "@/assets/products/tko-storage-rack.jpg";
+import tkoDumbbellRack from "@/assets/products/tko-dumbbell-rack.jpg";
+
+// Balance
+import therabandStabilityTrainer from "@/assets/products/theraband-stability-trainer.jpg";
+import candoVestibularRocker from "@/assets/products/cando-vestibular-rocker.jpg";
+import therabandStabilityDisc from "@/assets/products/theraband-stability-disc.jpg";
+import economyWobbleRocker from "@/assets/products/economy-wobble-rocker.jpg";
+import candoBalanceDiscs from "@/assets/products/cando-balance-discs.jpg";
+import airexBalanceBeam from "@/assets/products/airex-balance-beam.jpg";
+
+// Compression
+import thermXCompression from "@/assets/products/therm-x-compression.jpg";
+import squidColdCompression from "@/assets/products/squid-cold-compression.jpg";
+import gameReadyPRPro from "@/assets/products/game-ready-prpro.jpg";
+
+// Work Hardening
+import baselineHandDynamometer from "@/assets/products/baseline-hand-dynamometer.jpg";
+import baselinePinchGauge from "@/assets/products/baseline-pinch-gauge.jpg";
+import baselineHandEval from "@/assets/products/baseline-hand-eval.jpg";
+
+// Clinical Supplies (catalog page screenshots for grouped products)
+import csStabilityBallsPage from "@/assets/products/cs-stability-balls-page.jpg";
+import csBandsPage from "@/assets/products/cs-bands-page.jpg";
+import candoHandPutty from "@/assets/products/cando-hand-putty.jpg";
+import biofreezeImg from "@/assets/products/biofreeze.jpg";
+import ultrasoundGelImg from "@/assets/products/ultrasound-gel.jpg";
+import moistHeatPacks from "@/assets/products/moist-heat-packs.jpg";
+import candoFoamRollers from "@/assets/products/cando-foam-rollers.jpg";
+import cuffWeightsImg from "@/assets/products/cuff-weights.jpg";
 
 // Shuttle Systems product images
 import shuttleTNT from "@/assets/products/shuttle-tnt-v2.png";
