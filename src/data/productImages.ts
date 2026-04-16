@@ -78,6 +78,7 @@ export const productImages: Record<string, string> = {
   // GMTS Parallel Bars
   "7": gmtsParallelBars10ft,
   "8": gmtsParallelBars7ft,
+  "9": armedicaPowerParallelBars,
   // GMTS Training Stairs - individual photos
   "10": gmts2SidedStairs,
   "11": gmts1SidedStairs,
