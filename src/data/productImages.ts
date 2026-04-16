@@ -85,6 +85,7 @@ export const productImages: Record<string, string> = {
   "11": gmts1SidedStairs,
   "12": gmtsConvertibleStairs,
   // GMTS Storage
+  "13": idealDumbbellStorageVWR30,
   "14": gmtsMirrorRack,
   "15": gmtsMiniStorageRack,
   "18": gmtsRehabPage,
