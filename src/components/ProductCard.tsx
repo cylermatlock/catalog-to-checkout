@@ -35,17 +35,12 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <p className="text-xs text-muted-foreground mt-1">SKU: {product.sku}</p>
 
         <ul className="mt-3 space-y-1">
-          {product.description.slice(0, 3).map((item, i) => (
+          {product.description.map((item, i) => (
             <li key={i} className="text-xs text-muted-foreground flex items-start gap-1">
               <span className="text-primary mt-0.5">•</span>
-              <span className="line-clamp-1">{item}</span>
+              <span>{item}</span>
             </li>
           ))}
-          {product.description.length > 3 && (
-            <li className="text-xs text-muted-foreground">
-              +{product.description.length - 3} more features
-            </li>
-          )}
         </ul>
 
         <div className="mt-4 pt-3 border-t border-border">
