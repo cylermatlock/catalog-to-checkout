@@ -107,7 +107,7 @@ export const products: Product[] = [
   { id: "55", name: "SciFit Pro 1 - Upper Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO100-INT", description: ["Adjustable tilt head", "Bi-directional exercise", "Very low starting resistance", "Wheelchair platform included", "Premium, standard and bariatric seat options"] },
   { id: "56", name: "SciFit Step One - Recumbent Stepper", category: "Cardio", subcategory: "SciFit", sku: "SCI SONE03", description: ["User defined stride length", "Arm-to-leg movement", "Low starting resistance", "Direct wheelchair access", "Full Color Touch Screen", "3 year parts warranty"] },
   { id: "57", name: "SciFit Pro 2 - Total Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO230-INT", description: ["Upper, lower or total body", "Dependent motion", "Adjustable cranks", "Removable seat", "Very slow starting resistance", "3 year parts warranty"] },
-  { id: "58", name: "SciFit Pro 2 Sport - Total Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO231-INT", description: ["Forward and back adjustability", "360 Therapist Assist Pedals", "Premium upholstery", "500 lb user weight capacity"] },
+  
   { id: "59", name: "SciFit Pro 1000 - Seated Upper Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO1031-INT", description: ["Adjustable arm cranks: 3 ROM settings", "Step-through accessibility", "Bi-directional exercise", "191 levels of resistance", "Removable seat for wheelchair access"] },
   { id: "60", name: "SciFit Pro 1000 Sport - Seated Upper Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO1030-INT", description: ["Get-on-and-go with limited adjustments", "Step-through accessibility", "Bi-directional exercise", "Very low starting resistance"] },
 
