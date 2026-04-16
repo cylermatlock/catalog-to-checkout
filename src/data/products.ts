@@ -70,7 +70,7 @@ export const products: Product[] = [
   { id: "33", name: "Richmar Winner EVO Combo w/Cart", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "RICH 410-012PIC", description: ["Ultrasound, e-stim, light therapy and cold laser in one device", "Dual frequencies 1 & 3 MHz", "Pulsed & continuous", "3 year warranty"] },
   { id: "34", name: "Richmar CX2 Electrotherapy and Ultrasound", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "RICH DQ8222", description: ["5 cm² sound head", "Multiple waveforms", "Large color LCD touchscreen", "3 year warranty", "Optional cart available"] },
   { id: "35", name: "Richmar Therasound EVO", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "RICH 410-020", description: ["Dual-Frequencies 1 & 3 MHz", "Pulsed & continuous", "Autosound hands free option", "3 year warranty", "Proudly made in USA"] },
-  { id: "36", name: "DJO Chattanooga Vectra Genisys w/EMG", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "CG 2738", description: ["Fully functional 1 & 3.3 MHz", "110v or battery power", "10 user-defined protocols", "2 channel electrical stim"] },
+  { id: "36", name: "Chattanooga Vectra Genisys w/EMG", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "CG 2738", description: ["Fully functional 1 & 3.3 MHz", "110v or battery power", "10 user-defined protocols", "2 channel electrical stim"] },
 
   // MODALITIES - Laser
   { id: "37", name: "Richmar LX2 Cold Laser", category: "Modalities", subcategory: "Laser", sku: "RICH DQLLLT", description: ["Class 3B Laser", "Touch screen", "1040 mw of total power", "Built in dosage calculator", "Programmable treatment times", "100 user defined protocols"] },
