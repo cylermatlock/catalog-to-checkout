@@ -1,23 +1,22 @@
-// Product images extracted from the 2025 catalog
-import richmarIntensity12 from "@/assets/products/richmar-intensity-12-tens.jpg";
-import richmarHydratherm from "@/assets/products/richmar-hydratherm.jpg";
+// Richmar product images sourced from richmarweb.com (authoritative)
+import richmarIntensity10 from "@/assets/products/richmar-intensity-10-tens.jpg";
 import richmarIntensitySelectComboII from "@/assets/products/richmar-intensity-select-combo-ii.jpg";
-import chattanoogaM2 from "@/assets/products/chattanooga-m2-hydrocollator.jpg";
 import richmarIfComboII from "@/assets/products/richmar-if-combo-ii.jpg";
-import chattanoogaM4 from "@/assets/products/chattanooga-m4-hydrocollator.png";
+import richmarHydrathermWeb from "@/assets/products/richmar-hydratherm-web.jpg";
 import richmarTheratouchEX4 from "@/assets/products/richmar-theratouch-ex4.jpg";
-import intensityCX4 from "@/assets/products/intensity-cx4.jpg";
-import richmarWinnerEVO from "@/assets/products/richmar-winner-evo.jpg";
-import intensityCX2 from "@/assets/products/intensity-cx2.jpg";
-import richmarTherasoundEVO from "@/assets/products/richmar-therasound-evo.jpg";
-import chattanoogaVectraGenisys from "@/assets/products/chattanooga-vectra-genisys.jpg";
-
-// Richmar product images from richmarweb.com
+import richmarCX4 from "@/assets/products/richmar-cx4.jpg";
+import richmarCX2 from "@/assets/products/richmar-cx2.jpg";
+import richmarComboCare from "@/assets/products/richmar-combocare.jpg";
+import richmarTheratouchUX2 from "@/assets/products/richmar-theratouch-ux2.jpg";
 import richmarLX2Laser from "@/assets/products/richmar-lx2-laser.jpg";
 import richmarTheradot from "@/assets/products/richmar-theradot.jpg";
 import richmarDX2Diathermy from "@/assets/products/richmar-dx2-diathermy.jpg";
 import richmarREXCompression from "@/assets/products/richmar-rex-compression.jpg";
-import richmarHydrathermWeb from "@/assets/products/richmar-hydratherm-web.jpg";
+
+// Other manufacturer product images
+import chattanoogaM2 from "@/assets/products/chattanooga-m2-hydrocollator.jpg";
+import chattanoogaM4 from "@/assets/products/chattanooga-m4-hydrocollator.png";
+import chattanoogaVectraGenisys from "@/assets/products/chattanooga-vectra-genisys.jpg";
 
 // GMTS individual product photos
 import gmts3SectionHiLo from "@/assets/products/gmts-3-section-hilo.png";
@@ -102,20 +101,20 @@ export const productImages: Record<string, string> = {
   // GMTS Stools (page placeholder)
   "19": gmtsStools,
   "20": gmtsStools,
-  // Modalities - Portable TENS (catalog + web)
-  "25": richmarIntensity12,
+  // Modalities - Portable TENS (images from richmarweb.com)
+  "25": richmarIntensity10,
   "26": richmarIntensitySelectComboII,
   "27": richmarIfComboII,
   // Modalities - Hydrocollator
   "28": richmarHydrathermWeb,
   "29": chattanoogaM2,
   "30": chattanoogaM4,
-  // Modalities - E-Stim/Ultrasound
+  // Modalities - E-Stim/Ultrasound (Richmar images from richmarweb.com)
   "31": richmarTheratouchEX4,
-  "32": intensityCX4,
-  "33": richmarWinnerEVO,
-  "34": intensityCX2,
-  "35": richmarTherasoundEVO,
+  "32": richmarCX4,
+  "33": richmarComboCare,
+  "34": richmarCX2,
+  "35": richmarTheratouchUX2,
   "36": chattanoogaVectraGenisys,
   // Modalities - Laser
   "37": richmarLX2Laser,
