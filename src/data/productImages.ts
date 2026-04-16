@@ -42,7 +42,7 @@ import gmtsTractionPackage from "@/assets/products/gmts-traction-package.png";
 // Catalog page screenshots as placeholders
 import gmtsRehabPage from "@/assets/products/gmts-page-11-rehab.jpg";
 
-import gmtsStoolsPage from "@/assets/products/gmts-page-26-stools.jpg";
+import gmtsStools from "@/assets/products/gmts-stools.png";
 
 // Shuttle Systems product images
 import shuttleTNT from "@/assets/products/shuttle-tnt-v2.png";
@@ -93,8 +93,8 @@ export const productImages: Record<string, string> = {
   "16": chattanoogaDts6m,
   "18": gmtsTractionPackage,
   // GMTS Stools (page placeholder)
-  "19": gmtsStoolsPage,
-  "20": gmtsStoolsPage,
+  "19": gmtsStools,
+  "20": gmtsStools,
   // Modalities - Portable TENS (catalog + web)
   "25": richmarIntensity12,
   "26": richmarIntensitySelectComboII,
