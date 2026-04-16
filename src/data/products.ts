@@ -84,7 +84,7 @@ export const products: Product[] = [
 
   // CARDIO - NuStep
   { id: "43", name: "NuStep T4R Cross Trainer", category: "Cardio", subcategory: "NuStep", sku: "NS T4R", description: ["Low impact total body", "400 lb weight capacity", "Smooth-stepping motion", "360° swivel seat", "Multiple workout programs", "Quiet hybrid brake system"] },
-  { id: "44", name: "NuStep T6", category: "Cardio", subcategory: "NuStep", sku: "NS T6", description: ["Low impact total body", "600 lb weight capacity", "Dual-screen console", "Reclining 360° swivel chair", "Locking handles & pedals", "T6 Max offers a wider seat"] },
+  { id: "44", name: "NuStep T6PRO Cross Trainer", category: "Cardio", subcategory: "NuStep", sku: "NS T6PRO", description: ["Low impact total body", "600 lb weight capacity", "Dual-screen console", "Reclining 360° swivel chair", "Locking handles & pedals", "T6 Max offers a wider seat"] },
   { id: "45", name: "NuStep T5XR Cross Trainer", category: "Cardio", subcategory: "NuStep", sku: "NS T5XR", description: ["Low impact total body", "600 lb weight capacity", "Smooth-stepping motion", "Adjustable resistance levels", "Low step-through swivel seat", "Quiet hybrid brake system"] },
 
   // CARDIO - SportsArt
