@@ -10,7 +10,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
   const image = productImages[product.id];
 
   return (
-    <div className="bg-card border border-border rounded-lg overflow-hidden hover:shadow-lg transition-shadow group">
+    <div className="bg-card rounded-lg overflow-hidden hover:shadow-lg transition-shadow group border-4 border-solid border-primary">
       <div className="aspect-[4/3] bg-secondary flex items-center justify-center overflow-hidden">
         {image ? (
           <img
