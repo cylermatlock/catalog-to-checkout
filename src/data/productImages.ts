@@ -69,6 +69,9 @@ import scifitPro2 from "@/assets/products/scifit-pro2.jpg";
 import scifitPro1Sport from "@/assets/products/scifit-pro1-sport.jpg";
 import scifitPro1000 from "@/assets/products/scifit-pro1000.jpg";
 
+// Generic placeholder for products without a dedicated image
+import placeholderProduct from "@/assets/products/placeholder-product.jpg";
+
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
   // GMTS Rehab Furniture - individual photos
