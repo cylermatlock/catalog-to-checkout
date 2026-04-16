@@ -29,13 +29,15 @@ import gmts1SidedStairs from "@/assets/products/gmts-1-sided-stairs.png";
 import gmtsConvertibleStairs from "@/assets/products/gmts-convertible-stairs.png";
 import gmtsMirrorRack from "@/assets/products/gmts-mirror-rack.png";
 import gmtsMiniStorageRack from "@/assets/products/gmts-mini-storage-rack.png";
+import gmtsLowMatTable from "@/assets/products/gmts-low-mat-table.png";
+import gmtsParallelBars10ft from "@/assets/products/gmts-parallel-bars-10ft.png";
+import gmtsParallelBars7ft from "@/assets/products/gmts-parallel-bars-7ft.png";
 
-// GMTS Deluxe Hi-Lo Mat Table
 import gmtsDeluxeHiLoMat from "@/assets/products/gmts-deluxe-hi-lo-mat.png";
 
 // Catalog page screenshots as placeholders
 import gmtsRehabPage from "@/assets/products/gmts-page-11-rehab.jpg";
-import gmtsParallelPage from "@/assets/products/gmts-page-15-parallel.jpg";
+
 import gmtsStoolsPage from "@/assets/products/gmts-page-26-stools.jpg";
 
 // Shuttle Systems product images
@@ -71,10 +73,10 @@ export const productImages: Record<string, string> = {
   "3": gmts2SectionBoBath,
   "4": gmtsFlatTopTable,
   "5": gmtsDeluxeHiLoMat,
-  "6": gmtsRehabPage,
-  // GMTS Parallel Bars (page placeholder)
-  "7": gmtsParallelPage,
-  "8": gmtsParallelPage,
+  "6": gmtsLowMatTable,
+  // GMTS Parallel Bars
+  "7": gmtsParallelBars10ft,
+  "8": gmtsParallelBars7ft,
   // GMTS Training Stairs - individual photos
   "10": gmts2SidedStairs,
   "11": gmts1SidedStairs,
