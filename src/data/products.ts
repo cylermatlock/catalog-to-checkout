@@ -50,7 +50,7 @@ export const products: Product[] = [
   // REHAB FURNITURE - Stools
   { id: "19", name: "GMTS Pneumatic Stool", category: "Rehab Furniture", subcategory: "Stools", sku: "RICH SS7677", description: ["Soft durable vinyl seat", "High density fiberglass base", "5 smooth rolling casters", "Adjustable height 18\"-23.5\"", "300 lb weight capacity"] },
   // REHAB FURNITURE - Standing Frames
-  { id: "22", name: "NK Hi-Lo Standing Table", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "NK 375", description: ["Hi-Lo standing table", "Electric patient lift", "350 lb lift capacity", "33\"x24\" laminate top", "Lift support harness", "Padded knee, chest & back"] },
+  { id: "22", name: "NK Electric Standing Frame", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "NK 375", description: ["Hi-Lo standing table", "Electric patient lift", "350 lb lift capacity", "33\"x24\" laminate top", "Lift support harness", "Padded knee, chest & back"] },
   { id: "23", name: "EasyStand Evolve", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "AMED PNG50162-1", description: ["Super comfortable for prolonged standing", "Easier transfers and independent standing position", "Available in three sizes"] },
   { id: "24", name: "EasyStand Strap Stand", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "AMED P2000", description: ["No-transfer", "Full upright stretch possibilities while standing", "Ease of use leads to increased compliance", "Swing out legs for wide wheelchairs"] },
 
