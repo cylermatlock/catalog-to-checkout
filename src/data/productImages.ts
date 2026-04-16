@@ -45,6 +45,14 @@ import shuttleBalance from "@/assets/products/shuttle-balance.jpg";
 import shuttleMinipress from "@/assets/products/shuttle-minipress.jpg";
 import shuttleRebounder from "@/assets/products/shuttle-rebounder.jpg";
 
+// Spirit Fitness product images
+import spiritCT800 from "@/assets/products/spirit-ct800.png";
+import spiritCR800 from "@/assets/products/spirit-cr800.jpg";
+import spiritCE800 from "@/assets/products/spirit-ce800.png";
+import spiritFunctionalTrainer from "@/assets/products/spirit-functional-trainer.png";
+import spiritLegExtCurl from "@/assets/products/spirit-leg-ext-curl.jpg";
+import spiritLegPressCalf from "@/assets/products/spirit-leg-press-calf.jpg";
+
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
   // GMTS Rehab Furniture - individual photos
@@ -89,6 +97,13 @@ export const productImages: Record<string, string> = {
   // Modalities - Hivamat/Diathermy
   "40": richmarTheradot,
   "41": richmarDX2Diathermy,
+  // Spirit Fitness - Cardio
+  "49": spiritCT800,
+  "50": spiritCR800,
+  "51": spiritCE800,
+  "52": spiritFunctionalTrainer,
+  "53": spiritLegExtCurl,
+  "54": spiritLegPressCalf,
   // Shuttle Systems - Strength Equipment
   "67": shuttleTNT,
   "68": shuttleRecovery,
