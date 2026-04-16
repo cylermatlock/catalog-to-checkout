@@ -118,7 +118,7 @@ export const productImages: Record<string, string> = {
   "55": scifitPro1,
   "56": scifitStepOne,
   "57": scifitPro2,
-  "58": scifitPro1Sport, // Pro 2 Sport - using Pro1 Sport image
+  
   "59": scifitPro1000,
   "60": scifitPro1000, // Pro 1000 Sport - using Pro 1000 image
   // Shuttle Systems - Strength Equipment
