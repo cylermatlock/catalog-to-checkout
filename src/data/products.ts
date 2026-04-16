@@ -75,7 +75,7 @@ export const products: Product[] = [
   // MODALITIES - Laser
   { id: "37", name: "Richmar LX2 Cold Laser", category: "Modalities", subcategory: "Laser", sku: "RICH DQLLLT", description: ["Class 3B Laser", "Touch screen", "1040 mw of total power", "Built in dosage calculator", "Programmable treatment times", "100 user defined protocols"] },
   
-  { id: "39", name: "Chatt Vectra Laser", category: "Modalities", subcategory: "Laser", sku: "CG 2784", description: ["Fully functional device with independent control", "Display of dosage in joules or joules/cm²", "Continuous and pulsed treatment modes", "Real time feedback"] },
+  { id: "39", name: "Chattanooga Vectra Genisys Transport Laser", category: "Modalities", subcategory: "Laser", sku: "CG 2784", description: ["Fully functional device with independent control", "Display of dosage in joules or joules/cm²", "Continuous and pulsed treatment modes", "Real time feedback"] },
 
   // MODALITIES - Hivamat/Diathermy
   { id: "40", name: "Richmar Theradot", category: "Modalities", subcategory: "Hivamat/Diathermy", sku: "RICH DO1009", description: ["Deep oscillation treatment", "Pre-defined programs", "Battery operated, portable", "Uses electrostatic attractions", "Treats edema", "3 Year Warranty"] },

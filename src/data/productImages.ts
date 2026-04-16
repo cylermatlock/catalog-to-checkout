@@ -15,6 +15,7 @@ import richmarREXCompression from "@/assets/products/richmar-rex-compression.jpg
 // Other manufacturer product images
 import chattanoogaM2 from "@/assets/products/chattanooga-m2-hydrocollator.jpg";
 import chattanoogaM4 from "@/assets/products/chattanooga-m4-hydrocollator.png";
+import chattanoogaVectraLaser from "@/assets/products/chattanooga-vectra-laser.png";
 import chattanoogaVectraGenisys from "@/assets/products/chattanooga-vectra-genisys.jpg";
 
 // GMTS individual product photos
@@ -154,7 +155,7 @@ export const productImages: Record<string, string> = {
   "22": nkElectricStandingFrame,
   "23": easystandEvolve,
   "24": easystandStrapStand,
-  "39": placeholderProduct,
+  "39": chattanoogaVectraLaser,
   "42": placeholderProduct,
   "43": placeholderProduct,
   "44": placeholderProduct,
