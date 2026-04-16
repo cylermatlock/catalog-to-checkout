@@ -5,9 +5,8 @@ import richmarIfComboII from "@/assets/products/richmar-if-combo-ii.jpg";
 import richmarHydrathermWeb from "@/assets/products/richmar-hydratherm-web.jpg";
 import richmarTheratouchEX4 from "@/assets/products/richmar-theratouch-ex4.jpg";
 import richmarCX4 from "@/assets/products/richmar-cx4.jpg";
-import richmarCX2 from "@/assets/products/richmar-cx2.jpg";
-import richmarComboCare from "@/assets/products/richmar-combocare.jpg";
-import richmarTheratouchUX2 from "@/assets/products/richmar-theratouch-ux2.jpg";
+// Note: CX2, ComboCare, and TheraTouch UX2 images failed to download from richmarweb.com
+// Using placeholder until proper images are sourced
 import richmarLX2Laser from "@/assets/products/richmar-lx2-laser.jpg";
 import richmarTheradot from "@/assets/products/richmar-theradot.jpg";
 import richmarDX2Diathermy from "@/assets/products/richmar-dx2-diathermy.jpg";
@@ -112,9 +111,9 @@ export const productImages: Record<string, string> = {
   // Modalities - E-Stim/Ultrasound (Richmar images from richmarweb.com)
   "31": richmarTheratouchEX4,
   "32": richmarCX4,
-  "33": richmarComboCare,
-  "34": richmarCX2,
-  "35": richmarTheratouchUX2,
+  "33": placeholderProduct, // ComboCare - image pending
+  "34": placeholderProduct, // CX2 - image pending
+  "35": placeholderProduct, // TheraTouch UX2 - image pending
   "36": chattanoogaVectraGenisys,
   // Modalities - Laser
   "37": richmarLX2Laser,
