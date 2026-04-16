@@ -42,6 +42,11 @@ import gmtsTractionPackage from "@/assets/products/gmts-traction-package.png";
 import gmtsRehabPage from "@/assets/products/gmts-page-11-rehab.jpg";
 import gmtsStools from "@/assets/products/gmts-stools.png";
 
+// NuStep
+import nustepT4r from "@/assets/products/nustep-t4r.png";
+import nustepT6pro from "@/assets/products/nustep-t6pro.jpg";
+import nustepT5xr from "@/assets/products/nustep-t5xr.jpg";
+
 // Standing Frames
 import nkElectricStandingFrame from "@/assets/products/nk-electric-standing-frame.png";
 import easystandEvolve from "@/assets/products/easystand-evolve.png";
@@ -157,9 +162,9 @@ export const productImages: Record<string, string> = {
   "24": easystandStrapStand,
   "39": chattanoogaVectraLaser,
   "42": placeholderProduct,
-  "43": placeholderProduct,
-  "44": placeholderProduct,
-  "45": placeholderProduct,
+  "43": nustepT4r,
+  "44": nustepT6pro,
+  "45": nustepT5xr,
   "46": placeholderProduct,
   "47": placeholderProduct,
   "48": placeholderProduct,
