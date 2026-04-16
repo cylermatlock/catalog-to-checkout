@@ -41,8 +41,12 @@ import gmtsTractionPackage from "@/assets/products/gmts-traction-package.png";
 
 // Catalog page screenshots as placeholders
 import gmtsRehabPage from "@/assets/products/gmts-page-11-rehab.jpg";
-
 import gmtsStools from "@/assets/products/gmts-stools.png";
+
+// Standing Frames
+import nkElectricStandingFrame from "@/assets/products/nk-electric-standing-frame.png";
+import easystandEvolve from "@/assets/products/easystand-evolve.png";
+import easystandStrapStand from "@/assets/products/easystand-strap-stand.png";
 
 // Shuttle Systems product images
 import shuttleTNT from "@/assets/products/shuttle-tnt-v2.png";
