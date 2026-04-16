@@ -37,7 +37,7 @@ import gmtsDeluxeHiLoMat from "@/assets/products/gmts-deluxe-hi-lo-mat.png";
 
 // Catalog page screenshots as placeholders
 import gmtsRehabPage from "@/assets/products/gmts-page-11-rehab.jpg";
-import gmtsParallelPage from "@/assets/products/gmts-page-15-parallel.jpg";
+
 import gmtsStoolsPage from "@/assets/products/gmts-page-26-stools.jpg";
 
 // Shuttle Systems product images
