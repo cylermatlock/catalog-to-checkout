@@ -25,6 +25,13 @@ const Header = () => {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
+          <a
+            href="https://gmtherapytx.com"
+            className="font-display text-sm font-semibold uppercase tracking-wide text-foreground transition-colors hover:text-primary flex items-center gap-1.5"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Main Site
+          </a>
           {links.map((link) => (
             <Link
               key={link.to}
