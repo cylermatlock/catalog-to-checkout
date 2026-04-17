@@ -99,17 +99,19 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
           </ul>
 
           <div className="mt-4 pt-3 border-t border-border">
-            {product.price ? (
-              <p className="font-display text-2xl font-bold text-foreground">
+            {product.price && (
+              <p className="font-display text-2xl font-bold text-foreground mb-2">
                 ${product.price.toLocaleString()}
               </p>
-            ) : (
+            )}
+            {QuantityAndAdd}
+            {!product.price && (
               <a
                 href="tel:940-600-1311"
-                className="flex items-center justify-center gap-2 w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-colors font-semibold text-sm py-2.5 rounded-md"
+                className="mt-2 flex items-center justify-center gap-2 w-full text-xs text-muted-foreground hover:text-primary transition-colors"
               >
-                <Phone className="w-4 h-4" />
-                Call for Pricing
+                <Phone className="w-3 h-3" />
+                Or call for pricing
               </a>
             )}
           </div>
@@ -156,17 +158,19 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
         </ul>
 
         <div className="mt-4 pt-3 border-t border-border">
-          {product.price ? (
-            <p className="text-lg font-bold text-foreground">
+          {product.price && (
+            <p className="text-lg font-bold text-foreground mb-2">
               ${product.price.toLocaleString()}
             </p>
-          ) : (
+          )}
+          {QuantityAndAdd}
+          {!product.price && (
             <a
               href="tel:940-600-1311"
-              className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline"
+              className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-primary"
             >
-              <Phone className="w-3.5 h-3.5" />
-              Call for Pricing
+              <Phone className="w-3 h-3" />
+              Or call for pricing
             </a>
           )}
         </div>
