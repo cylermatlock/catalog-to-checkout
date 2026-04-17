@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Phone, Menu, X, ShoppingCart } from "lucide-react";
+import { Phone, Menu, X, ShoppingCart, ArrowLeft } from "lucide-react";
 import logo from "@/assets/gm-therapy-logo.png";
 import { useCart } from "@/contexts/CartContext";
 
