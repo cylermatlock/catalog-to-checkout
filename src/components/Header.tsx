@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Phone, Menu, X, ShoppingCart } from "lucide-react";
+import { Phone, Menu, X, ShoppingCart, ArrowLeft } from "lucide-react";
 import logo from "@/assets/gm-therapy-logo.png";
 import { useCart } from "@/contexts/CartContext";
 
@@ -25,6 +25,13 @@ const Header = () => {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
+          <a
+            href="https://gmtherapytx.com"
+            className="font-display text-sm font-semibold uppercase tracking-wide text-foreground transition-colors hover:text-primary flex items-center gap-1.5"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Main Site
+          </a>
           {links.map((link) => (
             <Link
               key={link.to}
@@ -87,6 +94,13 @@ const Header = () => {
 
       {mobileOpen && (
         <div className="md:hidden bg-card border-t border-border px-4 pb-4">
+          <a
+            href="https://gmtherapytx.com"
+            className="flex items-center gap-1.5 py-2 font-display text-sm font-semibold uppercase tracking-wide text-foreground hover:text-primary"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Main Site
+          </a>
           {links.map((link) => (
             <Link
               key={link.to}
