@@ -18,8 +18,8 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
 
   const handleAdd = () => {
     addItem(product, qty);
-    toast.success(`${qty} × ${product.name} added to cart`, {
-      action: { label: "View cart", onClick: openCart },
+    toast.success(`${qty} × ${product.name} added to quote request`, {
+      action: { label: "View quote request", onClick: openCart },
     });
     setQty(1);
   };
@@ -51,7 +51,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
         className="flex-1 font-semibold"
       >
         <ShoppingCart className="w-4 h-4 mr-1.5" />
-        Add to Cart
+        Add to Quote Request
       </Button>
     </div>
   );

@@ -78,7 +78,7 @@ const CartDrawer = () => {
                 <ArrowLeft className="w-5 h-5" />
               </button>
             )}
-            {step === "cart" && <>Your Quote Cart ({itemCount})</>}
+            {step === "cart" && <>Your Quote Request ({itemCount})</>}
             {step === "checkout" && <>Request Quote</>}
             {step === "success" && <>Request Submitted</>}
           </SheetTitle>
@@ -89,7 +89,7 @@ const CartDrawer = () => {
             {items.length === 0 ? (
               <div className="flex-1 flex flex-col items-center justify-center text-center text-muted-foreground gap-3">
                 <ShoppingCart className="w-12 h-12 opacity-30" />
-                <p>Your cart is empty</p>
+                <p>Your quote request is empty</p>
               </div>
             ) : (
               <>
@@ -169,7 +169,7 @@ const CartDrawer = () => {
                     className="w-full text-xs text-muted-foreground"
                     onClick={clear}
                   >
-                    Clear cart
+                    Clear quote request
                   </Button>
                 </div>
               </>
