@@ -32,6 +32,7 @@ const Footer = () => (
         <div>
           <h4 className="font-semibold mb-3">Quick Links</h4>
           <div className="space-y-2 text-sm opacity-80">
+            <a href="https://gmtherapytx.com" className="block hover:text-primary">← Main Site</a>
             <a href="/products" className="block hover:text-primary">Products</a>
           </div>
         </div>
