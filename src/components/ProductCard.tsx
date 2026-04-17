@@ -29,7 +29,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <span className="font-medium text-primary uppercase tracking-wide text-sm">
           {product.subcategory}
         </span>
-        <h3 className="font-semibold mt-1 text-sm leading-tight line-clamp-2 min-h-[2.5rem] bg-primary text-secondary-foreground">
+        <h3 className="font-semibold mt-1 text-sm leading-tight line-clamp-2 min-h-[2.5rem] text-secondary-foreground bg-[#ff7300]">
           {product.name}
         </h3>
         <p className="text-xs text-muted-foreground mt-1">SKU: {product.sku}</p>
