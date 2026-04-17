@@ -51,7 +51,7 @@ const Header = () => {
           <button
             onClick={openCart}
             className="relative flex items-center justify-center px-5 bg-foreground text-background hover:opacity-90 transition-opacity"
-            aria-label="Open cart"
+            aria-label="Open quote request"
           >
             <ShoppingCart className="w-5 h-5" />
             {itemCount > 0 && (
@@ -66,7 +66,7 @@ const Header = () => {
           <button
             onClick={openCart}
             className="relative text-foreground"
-            aria-label="Open cart"
+            aria-label="Open quote request"
           >
             <ShoppingCart className="w-6 h-6" />
             {itemCount > 0 && (
