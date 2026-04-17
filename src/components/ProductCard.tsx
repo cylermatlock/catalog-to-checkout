@@ -1,6 +1,10 @@
+import { useState } from "react";
 import { type Product } from "@/data/products";
 import { productImages } from "@/data/productImages";
-import { Phone } from "lucide-react";
+import { Phone, Plus, Minus, ShoppingCart } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { useCart } from "@/contexts/CartContext";
+import { toast } from "sonner";
 
 interface ProductCardProps {
   product: Product;
@@ -9,6 +13,48 @@ interface ProductCardProps {
 
 const ProductCard = ({ product, featured = false }: ProductCardProps) => {
   const image = productImages[product.id];
+  const { addItem, openCart } = useCart();
+  const [qty, setQty] = useState(1);
+
+  const handleAdd = () => {
+    addItem(product, qty);
+    toast.success(`${qty} × ${product.name} added to cart`, {
+      action: { label: "View cart", onClick: openCart },
+    });
+    setQty(1);
+  };
+
+  const QuantityAndAdd = (
+    <div className="flex items-center gap-2 mt-3">
+      <div className="flex items-center border border-border rounded-md">
+        <button
+          type="button"
+          onClick={() => setQty((q) => Math.max(1, q - 1))}
+          className="px-2 py-1.5 hover:bg-secondary transition-colors"
+          aria-label="Decrease quantity"
+        >
+          <Minus className="w-3 h-3" />
+        </button>
+        <span className="w-8 text-center text-sm font-semibold">{qty}</span>
+        <button
+          type="button"
+          onClick={() => setQty((q) => q + 1)}
+          className="px-2 py-1.5 hover:bg-secondary transition-colors"
+          aria-label="Increase quantity"
+        >
+          <Plus className="w-3 h-3" />
+        </button>
+      </div>
+      <Button
+        onClick={handleAdd}
+        size="sm"
+        className="flex-1 font-semibold"
+      >
+        <ShoppingCart className="w-4 h-4 mr-1.5" />
+        Add to Cart
+      </Button>
+    </div>
+  );
 
   if (featured) {
     return (
