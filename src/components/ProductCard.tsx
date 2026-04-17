@@ -12,7 +12,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
 
   if (featured) {
     return (
-      <div className="group bg-card rounded-lg overflow-hidden border border-border shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+      <div className="group bg-card rounded-lg overflow-hidden border-2 border-foreground shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
         <div className="aspect-[4/3] bg-gradient-to-br from-secondary to-background flex items-center justify-center overflow-hidden relative">
           {image ? (
             <img
