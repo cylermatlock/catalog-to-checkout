@@ -92,7 +92,7 @@ import baselineHandEval from "@/assets/products/baseline-hand-eval.jpg";
 // Clinical Supplies (catalog page screenshots for grouped products)
 import csStabilityBallsPage from "@/assets/products/cs-stability-balls-page.jpg";
 import csBandsPage from "@/assets/products/cs-bands-page.jpg";
-import candoHandPutty from "@/assets/products/cando-hand-putty.jpg";
+import candoHandPutty from "@/assets/products/cando-hand-putty.png";
 import biofreezeImg from "@/assets/products/biofreeze.jpg";
 import ultrasoundGelImg from "@/assets/products/ultrasound-gel.jpg";
 import moistHeatPacks from "@/assets/products/moist-heat-packs.jpg";
