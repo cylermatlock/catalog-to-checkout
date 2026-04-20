@@ -107,7 +107,7 @@ import shuttleUltimate from "@/assets/products/shuttle-ultimate-v2.png";
 import shuttle2000 from "@/assets/products/shuttle-2000-1-clinical.png";
 import shuttleBalance from "@/assets/products/shuttle-balance.png";
 import shuttleMinipress from "@/assets/products/shuttle-minipress.jpg";
-import shuttleRebounder from "@/assets/products/shuttle-rebounder.jpg";
+import shuttleRebounder from "@/assets/products/shuttle-rebounder.png";
 
 // Spirit Fitness product images
 import spiritCT800 from "@/assets/products/spirit-ct800.png";
