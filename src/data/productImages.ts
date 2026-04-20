@@ -173,6 +173,7 @@ import matrixVersaMdLegPress from "@/assets/products/matrix-versa-md-leg-press.p
 import matrixVersaMdLegExtensionLegCurl from "@/assets/products/matrix-versa-md-leg-extension-leg-curl.png";
 import matrixUpperBodyCycleUbcm from "@/assets/products/matrix-upper-body-cycle-ubcm.png";
 import matrixR3xmRecumbent from "@/assets/products/matrix-r3xm-recumbent.png";
+import matrixGoFtFunctionalTrainer from "@/assets/products/matrix-go-ft-functional-trainer.png";
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
@@ -348,4 +349,6 @@ export const productImages: Record<string, string> = {
   "150": matrixUpperBodyCycleUbcm,
   // Matrix Recumbent Cycle
   "151": matrixR3xmRecumbent,
+  // Matrix Functional Trainer
+  "152": matrixGoFtFunctionalTrainer,
 };
