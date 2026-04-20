@@ -130,7 +130,7 @@ export const products: Product[] = [
   { id: "84", name: "TKO 3 Tier Dumbbell Rack", category: "Strength Equipment", subcategory: "TKO", sku: "TKO 6235-B", description: ["55\"W x 30\"D x 40\"H", "174lbs", "Dumbbells sold separately", "Heavy duty frame"] },
 
   // BALANCE PRODUCTS
-  { id: "85", name: "Shuttle Balance Pro", category: "Balance Products", subcategory: "Balance", sku: "CD 8011", description: ["Dynamic Platform", "Simulates slip through motion", "Supports up to 500 lbs", "Adjustable suspension chains", "Safely train balance"] },
+  { id: "85", name: "SHUTTLE BALANCE SPORT", category: "Balance Products", subcategory: "Balance", sku: "CD 8011", description: ["Dynamic Platform", "Simulates slip through motion", "Supports up to 500 lbs", "Adjustable suspension chains", "Safely train balance"] },
   { id: "86", name: "Baps Board", category: "Balance Products", subcategory: "Balance", sku: "SPT 6400", description: ["Facilitates lower limb rehab", "Develops strength, endurance, ROM, balance and coordination", "Includes platform, attachments, weight rods and plates"] },
   { id: "87", name: "Shuttle MiniPress", category: "Balance Products", subcategory: "Balance", sku: "CD 4100", description: ["Use with chair or wheelchair", "Only weighs 15 lbs", "Adjustable to 74°", "Resistance from 2 to 80 lbs", "Total knee rehabilitation"] },
   { id: "88", name: "Bosu Pro Balance Trainer", category: "Balance Products", subcategory: "Balance", sku: "HF 10850-P", description: ["Enhanced Movement Capabilities", "Tone & Strengthen", "Improve Balance & Agility", "Next Level Functional Training"] },
