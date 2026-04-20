@@ -124,6 +124,7 @@ import scifitPro1000 from "@/assets/products/scifit-pro1000.jpg";
 
 // Generic placeholder for products without a dedicated image
 import placeholderProduct from "@/assets/products/placeholder-product.jpg";
+import bapsBoard from "@/assets/products/baps-board.png";
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
@@ -228,7 +229,7 @@ export const productImages: Record<string, string> = {
   "83": tkoStorageRack,
   "84": tkoDumbbellRack,
   // Balance (additional)
-  "86": placeholderProduct,
+  "86": bapsBoard,
   "88": placeholderProduct,
   "90": placeholderProduct,
   "91": therabandStabilityTrainer,
