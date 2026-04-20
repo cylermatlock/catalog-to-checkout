@@ -103,7 +103,7 @@ import shuttleRecovery from "@/assets/products/shuttle-recovery-v2.png";
 import shuttleMVP from "@/assets/products/shuttle-mvp.png";
 import shuttleUltimate from "@/assets/products/shuttle-ultimate-v2.png";
 import shuttle2000 from "@/assets/products/shuttle-2000-1-clinical.png";
-import shuttleBalance from "@/assets/products/shuttle-balance.jpg";
+import shuttleBalance from "@/assets/products/shuttle-balance.png";
 import shuttleMinipress from "@/assets/products/shuttle-minipress.jpg";
 import shuttleRebounder from "@/assets/products/shuttle-rebounder.jpg";
 
