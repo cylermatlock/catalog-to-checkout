@@ -126,6 +126,7 @@ import scifitPro1000 from "@/assets/products/scifit-pro1000.jpg";
 
 // Generic placeholder for products without a dedicated image
 import placeholderProduct from "@/assets/products/placeholder-product.jpg";
+import twistBendBars from "@/assets/products/twist-bend-bars.png";
 import fingerWebs from "@/assets/products/finger-webs.png";
 import airexBalancePad from "@/assets/products/airex-balance-pad.png";
 import bapsBoard from "@/assets/products/baps-board.png";
@@ -253,7 +254,7 @@ export const productImages: Record<string, string> = {
   // Clinical Supplies
   "104": csStabilityBallsPage,
   "105": fingerWebs,
-  "106": placeholderProduct,
+  "106": twistBendBars,
   "107": placeholderProduct,
   "108": csBandsPage,
   "109": csBandsPage,
