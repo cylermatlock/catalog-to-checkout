@@ -75,8 +75,8 @@ import candoVestibularRocker from "@/assets/products/cando-vestibular-rocker.jpg
 import therabandStabilityDisc from "@/assets/products/theraband-stability-disc.jpg";
 import economyWobbleRocker from "@/assets/products/economy-wobble-rocker.jpg";
 import candoBalanceDiscs from "@/assets/products/cando-balance-discs.jpg";
- import airexBalanceBeam from "@/assets/products/airex-balance-beam.jpg";
-128: import fab301900 from "@/assets/products/fab-30-1900.png";
+import airexBalanceBeam from "@/assets/products/airex-balance-beam.jpg";
+import fab301900 from "@/assets/products/fab-30-1900.png";
 
 
 // Compression
