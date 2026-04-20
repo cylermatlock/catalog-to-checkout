@@ -167,5 +167,5 @@ export const products: Product[] = [
   { id: "113", name: "Hot & Cold Packs", category: "Clinical Supplies", subcategory: "Hot & Cold Packs", sku: "HCP", description: ["Reusable hot and cold therapy", "Multiple sizes available", "Durable construction"] },
   { id: "114", name: "Bolsters & Wedges", category: "Clinical Supplies", subcategory: "Bolsters & Wedges", sku: "BWE", description: ["Support and positioning aids", "Multiple shapes and sizes", "Durable vinyl covering"] },
   { id: "115", name: "CanDo Composite Foam Rollers", category: "Clinical Supplies", subcategory: "Foam Rollers", sku: "FAB 30-22", description: ["Round and half-round options", "Various lengths available", "Durable composite construction"] },
-  { id: "116", name: "Cuff Weights", category: "Clinical Supplies", subcategory: "Cuff Weights", sku: "FAB 10-02", description: ["Color-coded weight system", "Adjustable Velcro closure", "Available from 0.25 to 25 lbs"] },
+  { id: "116", name: "CUFF WEIGHTS 7 PIECE SET", category: "Clinical Supplies", subcategory: "Cuff Weights", sku: "FAB 10-2550", description: ["Color-coded weight system", "Adjustable Velcro closure", "One of each 1lb, 2lb, 3lb, 4lb, 5lb, 7.5lb, 10lb"] },
 ];
