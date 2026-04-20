@@ -41,22 +41,46 @@ const CartDrawer = () => {
     }
     setSubmitting(true);
     try {
+      const requestId = crypto.randomUUID();
+      const itemsPayload = items.map((i) => ({
+        id: i.product.id,
+        name: i.product.name,
+        sku: i.product.sku,
+        quantity: i.quantity,
+        price: i.product.price ?? null,
+      }));
       const { error } = await supabase.from("quote_requests").insert({
+        id: requestId,
         name: form.name.trim(),
         email: form.email.trim(),
         phone: form.phone.trim(),
         company: form.company.trim() || null,
         address: form.address.trim() || null,
         notes: form.notes.trim() || null,
-        items: items.map((i) => ({
-          id: i.product.id,
-          name: i.product.name,
-          sku: i.product.sku,
-          quantity: i.quantity,
-          price: i.product.price ?? null,
-        })),
+        items: itemsPayload,
       });
       if (error) throw error;
+
+      // Notify the site owner via email (non-blocking — failure shouldn't break UX)
+      supabase.functions
+        .invoke("send-transactional-email", {
+          body: {
+            templateName: "quote-request-notification",
+            idempotencyKey: `quote-request-${requestId}`,
+            templateData: {
+              name: form.name.trim(),
+              email: form.email.trim(),
+              phone: form.phone.trim(),
+              company: form.company.trim() || null,
+              address: form.address.trim() || null,
+              notes: form.notes.trim() || null,
+              items: itemsPayload,
+              submittedAt: new Date().toISOString(),
+            },
+          },
+        })
+        .catch((err) => console.error("Notification email failed:", err));
+
       clear();
       setForm({ name: "", email: "", phone: "", company: "", address: "", notes: "" });
       setStep("success");
