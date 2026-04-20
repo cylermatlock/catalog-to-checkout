@@ -129,6 +129,7 @@ import digiFlex from "@/assets/products/digi-flex.png";
 
 // Generic placeholder for products without a dedicated image
 import placeholderProduct from "@/assets/products/placeholder-product.jpg";
+import bolstersWedges from "@/assets/products/bolsters-wedges.png";
 import twistBendBars from "@/assets/products/twist-bend-bars.png";
 import fingerWebs from "@/assets/products/finger-webs.png";
 import airexBalancePad from "@/assets/products/airex-balance-pad.png";
@@ -265,7 +266,7 @@ export const productImages: Record<string, string> = {
   "111": biofreezeImg,
   "112": ultrasoundGelImg,
   "113": moistHeatPacks,
-  "114": placeholderProduct,
+  "114": bolstersWedges,
   "115": candoFoamRollers,
   "116": cuffWeightsImg,
 };
