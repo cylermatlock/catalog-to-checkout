@@ -3,7 +3,7 @@ import richmarIntensity10 from "@/assets/products/richmar-intensity-10-tens.jpg"
 import richmarIntensitySelectComboII from "@/assets/products/richmar-intensity-select-combo-ii.jpg";
 import richmarIfComboII from "@/assets/products/richmar-if-combo-ii.jpg";
 import richmarHydrathermWeb from "@/assets/products/richmar-hydratherm-web.jpg";
-import richmarTheratouchEX4 from "@/assets/products/richmar-theratouch-ex4.jpg";
+import richmarTheratouchEX4 from "@/assets/products/richmar-theratouch-ex4.png";
 import richmarCX4 from "@/assets/products/richmar-cx4.jpg";
 // Note: CX2, ComboCare, and TheraTouch UX2 images failed to download from richmarweb.com
 // Using placeholder until proper images are sourced
