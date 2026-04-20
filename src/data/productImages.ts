@@ -124,6 +124,9 @@ import scifitPro2 from "@/assets/products/scifit-pro2.jpg";
 import scifitPro1Sport from "@/assets/products/scifit-pro1-sport.jpg";
 import scifitPro1000 from "@/assets/products/scifit-pro1000.jpg";
 
+// Digi Flex Hand Exercisers
+import digiFlex from "@/assets/products/digi-flex.png";
+
 // Generic placeholder for products without a dedicated image
 import placeholderProduct from "@/assets/products/placeholder-product.jpg";
 import twistBendBars from "@/assets/products/twist-bend-bars.png";
@@ -255,7 +258,7 @@ export const productImages: Record<string, string> = {
   "104": csStabilityBallsPage,
   "105": fingerWebs,
   "106": twistBendBars,
-  "107": placeholderProduct,
+  "107": digiFlex,
   "108": csBandsPage,
   "109": csBandsPage,
   "110": candoHandPutty,
