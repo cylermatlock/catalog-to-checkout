@@ -12,7 +12,7 @@ const Footer = () => (
             className="h-16 w-auto object-contain bg-background/95 p-2 rounded mb-3"
           />
           <p className="text-sm opacity-70">
-            PT Equipment & Supplies. Your reliable equipment partner.
+            Your reliable rehab & wellness equipment partner.
           </p>
         </div>
         <div>
