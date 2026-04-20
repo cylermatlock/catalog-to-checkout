@@ -175,6 +175,7 @@ import matrixUpperBodyCycleUbcm from "@/assets/products/matrix-upper-body-cycle-
 import matrixR3xmRecumbent from "@/assets/products/matrix-r3xm-recumbent.png";
 import matrixGoFtFunctionalTrainer from "@/assets/products/matrix-go-ft-functional-trainer.png";
 import matrixMagnumProXlHalfRack from "@/assets/products/matrix-magnum-pro-xl-half-rack.png";
+import armedicaAmBa350 from "@/assets/products/armedica-am-ba350.png";
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
@@ -354,4 +355,6 @@ export const productImages: Record<string, string> = {
   "152": matrixGoFtFunctionalTrainer,
   // Matrix Racks & Platforms
   "153": matrixMagnumProXlHalfRack,
+  // Armedica Treatment Tables
+  "154": armedicaAmBa350,
 };
