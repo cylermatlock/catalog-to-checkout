@@ -55,7 +55,7 @@ import easystandStrapStand from "@/assets/products/easystand-strap-stand.png";
 
 // SportsArt
 import sportsArtT655MS from "@/assets/products/sportsart-t655ms.png";
-import sportsArtT661M from "@/assets/products/sportsart-t661m.png";
+import sportsArtT661M from "@/assets/products/sportsart-t661m-new.png";
 import sportsArtC575R from "@/assets/products/sportsart-c575r.png";
 import sportsArtN965 from "@/assets/products/sportsart-n965.jpg";
 import sportsArtDF201 from "@/assets/products/sportsart-df201.jpg";
