@@ -125,7 +125,7 @@ import scifitPro1Sport from "@/assets/products/scifit-pro1-sport.jpg";
 import scifitPro1000 from "@/assets/products/scifit-pro1000.jpg";
 
 // Generic placeholder for products without a dedicated image
-import placeholderProduct from "@/assets/products/placeholder-product.jpg";
+import airexBalancePad from "@/assets/products/airex-balance-pad.png";
 import bapsBoard from "@/assets/products/baps-board.png";
 
 // Map product IDs to their images
@@ -233,7 +233,7 @@ export const productImages: Record<string, string> = {
   // Balance (additional)
   "86": bapsBoard,
   "88": fab301900,
-  "90": placeholderProduct,
+  "90": airexBalancePad,
   "91": therabandStabilityTrainer,
   "92": candoVestibularRocker,
   "93": therabandStabilityDisc,
