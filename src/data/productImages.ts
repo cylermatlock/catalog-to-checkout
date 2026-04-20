@@ -76,6 +76,8 @@ import therabandStabilityDisc from "@/assets/products/theraband-stability-disc.j
 import economyWobbleRocker from "@/assets/products/economy-wobble-rocker.jpg";
 import candoBalanceDiscs from "@/assets/products/cando-balance-discs.jpg";
 import airexBalanceBeam from "@/assets/products/airex-balance-beam.jpg";
+import fab301900 from "@/assets/products/fab-30-1900.png";
+
 
 // Compression
 import thermXCompression from "@/assets/products/therm-x-compression.jpg";
@@ -230,7 +232,7 @@ export const productImages: Record<string, string> = {
   "84": tkoDumbbellRack,
   // Balance (additional)
   "86": bapsBoard,
-  "88": placeholderProduct,
+  "88": fab301900,
   "90": placeholderProduct,
   "91": therabandStabilityTrainer,
   "92": candoVestibularRocker,
