@@ -17,7 +17,7 @@ import richmarREXCompression from "@/assets/products/richmar-rex-compression.jpg
 import chattanoogaM2 from "@/assets/products/chattanooga-m2-hydrocollator.jpg";
 import chattanoogaM4 from "@/assets/products/chattanooga-m4-hydrocollator.png";
 import chattanoogaVectraLaser from "@/assets/products/chattanooga-vectra-laser.png";
-import chattanoogaVectraGenisys from "@/assets/products/chattanooga-vectra-genisys.jpg";
+import chattanoogaVectraGenisys from "@/assets/products/chattanooga-vectra-genisys.png";
 
 // GMTS individual product photos
 import gmts3SectionHiLo from "@/assets/products/gmts-3-section-hilo.png";
