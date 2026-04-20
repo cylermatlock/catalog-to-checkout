@@ -258,7 +258,7 @@ export const productImages: Record<string, string> = {
   "104": csStabilityBallsPage,
   "105": fingerWebs,
   "106": twistBendBars,
-  "107": placeholderProduct,
+  "107": digiFlex,
   "108": csBandsPage,
   "109": csBandsPage,
   "110": candoHandPutty,
