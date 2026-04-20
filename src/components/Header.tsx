@@ -14,7 +14,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-card border-b border-border shadow-sm">
+    <header className="sticky top-0 z-50 bg-background border-b border-border shadow-sm">
       <div className="container mx-auto flex items-stretch justify-between h-20 px-4">
         <Link to="/" className="flex items-center gap-2 py-2">
           <img
