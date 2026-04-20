@@ -171,6 +171,7 @@ import matrixVersaLegExtensionLegCurl from "@/assets/products/matrix-versa-leg-e
 import matrixVersaMdAdjustablePulley from "@/assets/products/matrix-versa-md-adjustable-pulley.png";
 import matrixVersaMdLegPress from "@/assets/products/matrix-versa-md-leg-press.png";
 import matrixVersaMdLegExtensionLegCurl from "@/assets/products/matrix-versa-md-leg-extension-leg-curl.png";
+import matrixUpperBodyCycleUbcm from "@/assets/products/matrix-upper-body-cycle-ubcm.png";
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
@@ -342,4 +343,6 @@ export const productImages: Record<string, string> = {
   "147": matrixVersaMdAdjustablePulley,
   "148": matrixVersaMdLegPress,
   "149": matrixVersaMdLegExtensionLegCurl,
+  // Matrix Upper Body Cycle
+  "150": matrixUpperBodyCycleUbcm,
 };
