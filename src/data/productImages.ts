@@ -125,6 +125,7 @@ import scifitPro1Sport from "@/assets/products/scifit-pro1-sport.jpg";
 import scifitPro1000 from "@/assets/products/scifit-pro1000.jpg";
 
 // Generic placeholder for products without a dedicated image
+import placeholderProduct from "@/assets/products/placeholder-product.jpg";
 import airexBalancePad from "@/assets/products/airex-balance-pad.png";
 import bapsBoard from "@/assets/products/baps-board.png";
 
