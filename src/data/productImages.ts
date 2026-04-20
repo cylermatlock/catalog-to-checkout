@@ -177,6 +177,7 @@ import matrixGoFtFunctionalTrainer from "@/assets/products/matrix-go-ft-function
 import matrixMagnumProXlHalfRack from "@/assets/products/matrix-magnum-pro-xl-half-rack.png";
 import armedicaAmBa350 from "@/assets/products/armedica-am-ba350.png";
 import matrixVersaFunctionalTrainer18 from "@/assets/products/matrix-versa-functional-trainer-18.png";
+import matrixVersaFunctionalTrainer30 from "@/assets/products/matrix-versa-functional-trainer-30.png";
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
@@ -360,4 +361,5 @@ export const productImages: Record<string, string> = {
   "154": armedicaAmBa350,
   // Matrix Versa Functional Trainer
   "155": matrixVersaFunctionalTrainer18,
+  "156": matrixVersaFunctionalTrainer30,
 };
