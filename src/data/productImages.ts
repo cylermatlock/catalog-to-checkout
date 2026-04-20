@@ -147,6 +147,31 @@ import fingerWebs from "@/assets/products/finger-webs.png";
 import airexBalancePad from "@/assets/products/airex-balance-pad.png";
 import bapsBoard from "@/assets/products/baps-board.png";
 
+// Matrix Versa Single-Station strength (sourced from us.matrixfitness.com)
+import matrixVersaConvergingChestPress from "@/assets/products/matrix-versa-converging-chest-press.png";
+import matrixVersaPecFlyRearDelt from "@/assets/products/matrix-versa-pec-fly-rear-delt.png";
+import matrixVersaConvergingShoulderPress from "@/assets/products/matrix-versa-converging-shoulder-press.png";
+import matrixVersaDivergingLatPulldown from "@/assets/products/matrix-versa-diverging-lat-pulldown.png";
+import matrixVersaDivergingSeatedRow from "@/assets/products/matrix-versa-diverging-seated-row.png";
+import matrixVersaBicepCurl from "@/assets/products/matrix-versa-bicep-curl.png";
+import matrixVersaTricepsPress from "@/assets/products/matrix-versa-triceps-press.png";
+import matrixVersaBackExtension from "@/assets/products/matrix-versa-back-extension.png";
+import matrixVersaAbdominal from "@/assets/products/matrix-versa-abdominal.png";
+import matrixVersaLegPressCalfPress from "@/assets/products/matrix-versa-leg-press-calf-press.png";
+import matrixVersaLegExtension from "@/assets/products/matrix-versa-leg-extension.png";
+import matrixVersaSeatedLegCurl from "@/assets/products/matrix-versa-seated-leg-curl.png";
+import matrixVersaHipAbductorAdductor from "@/assets/products/matrix-versa-hip-abductor-adductor.png";
+import matrixVersaGlute from "@/assets/products/matrix-versa-glute.png";
+import matrixVersaMultiPress from "@/assets/products/matrix-versa-multi-press.png";
+import matrixVersaLatPulldownSeatedRow from "@/assets/products/matrix-versa-lat-pulldown-seated-row.png";
+import matrixVersaBicepTricep from "@/assets/products/matrix-versa-bicep-tricep.png";
+import matrixVersaAbLowBack from "@/assets/products/matrix-versa-ab-low-back.png";
+import matrixVersaChinDipAssist from "@/assets/products/matrix-versa-chin-dip-assist.png";
+import matrixVersaLegExtensionLegCurl from "@/assets/products/matrix-versa-leg-extension-leg-curl.png";
+import matrixVersaMdAdjustablePulley from "@/assets/products/matrix-versa-md-adjustable-pulley.png";
+import matrixVersaMdLegPress from "@/assets/products/matrix-versa-md-leg-press.png";
+import matrixVersaMdLegExtensionLegCurl from "@/assets/products/matrix-versa-md-leg-extension-leg-curl.png";
+
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
   // GMTS Rehab Furniture - individual photos
