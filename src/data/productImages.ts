@@ -174,6 +174,7 @@ import matrixVersaMdLegExtensionLegCurl from "@/assets/products/matrix-versa-md-
 import matrixUpperBodyCycleUbcm from "@/assets/products/matrix-upper-body-cycle-ubcm.png";
 import matrixR3xmRecumbent from "@/assets/products/matrix-r3xm-recumbent.png";
 import matrixGoFtFunctionalTrainer from "@/assets/products/matrix-go-ft-functional-trainer.png";
+import matrixMagnumProXlHalfRack from "@/assets/products/matrix-magnum-pro-xl-half-rack.png";
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
@@ -351,4 +352,6 @@ export const productImages: Record<string, string> = {
   "151": matrixR3xmRecumbent,
   // Matrix Functional Trainer
   "152": matrixGoFtFunctionalTrainer,
+  // Matrix Racks & Platforms
+  "153": matrixMagnumProXlHalfRack,
 };
