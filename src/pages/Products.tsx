@@ -47,7 +47,7 @@ const Products = () => {
             Product <span className="text-primary">Catalog</span>
           </h1>
           <p className="text-sm opacity-70 mt-2">
-            Browse our full line of PT equipment and supplies. Call for clinical pricing on any product.
+            Browse our full line of rehab and wellness equipment. Call for clinical pricing on any product.
           </p>
         </div>
       </div>
