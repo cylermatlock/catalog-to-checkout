@@ -15,12 +15,12 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-card border-b border-border shadow-sm">
-      <div className="container mx-auto flex items-stretch justify-between h-28 px-4">
+      <div className="container mx-auto flex items-stretch justify-between h-24 px-4">
         <Link to="/" className="flex items-center gap-2 py-1">
           <img
             src={logo}
             alt="GM Therapy Solutions — PT Equipment & Supplies"
-            className="h-28 md:h-32 w-auto bg-primary-foreground object-contain"
+            className="h-24 md:h-28 w-auto bg-primary-foreground object-contain"
           />
         </Link>
 
