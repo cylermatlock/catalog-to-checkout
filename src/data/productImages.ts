@@ -164,7 +164,7 @@ export const productImages: Record<string, string> = {
   "32": richmarCX4,
   "33": placeholderProduct, // ComboCare - image pending
   "34": richmarCX2,
-  "35": placeholderProduct, // TheraTouch UX2 - image pending
+  
   "36": chattanoogaVectraGenisys,
   // Modalities - Laser
   "37": richmarLX2Laser,
