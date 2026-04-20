@@ -131,7 +131,7 @@ export const products: Product[] = [
 
   // BALANCE PRODUCTS
   { id: "85", name: "SHUTTLE BALANCE SPORT", category: "Balance Products", subcategory: "Balance", sku: "CD 8011", description: ["Dynamic Platform", "Simulates slip through motion", "Supports up to 500 lbs", "Adjustable suspension chains", "Safely train balance"] },
-  { id: "86", name: "Baps Board", category: "Balance Products", subcategory: "Balance", sku: "SPT 6400", description: ["Facilitates lower limb rehab", "Develops strength, endurance, ROM, balance and coordination", "Includes platform, attachments, weight rods and plates"] },
+  { id: "86", name: "CANDO MULTI-AXIAL PRO SYSTEM (MAPS BOARD)", category: "Balance Products", subcategory: "Balance", sku: "FAB 10-1731", description: ["Facilitates lower limb rehab", "Develops strength, endurance, ROM, balance and coordination", "Includes platform, attachments, weight rods plates and wall rack"] },
   { id: "87", name: "Shuttle MiniPress", category: "Balance Products", subcategory: "Balance", sku: "CD 4100", description: ["Use with chair or wheelchair", "Only weighs 15 lbs", "Adjustable to 74°", "Resistance from 2 to 80 lbs", "Total knee rehabilitation"] },
   { id: "88", name: "Bosu Pro Balance Trainer", category: "Balance Products", subcategory: "Balance", sku: "HF 10850-P", description: ["Enhanced Movement Capabilities", "Tone & Strengthen", "Improve Balance & Agility", "Next Level Functional Training"] },
   { id: "89", name: "Shuttle Square Rebounder", category: "Balance Products", subcategory: "Balance", sku: "CD 6100", description: ["Portable with wheels", "No assembly required", "High quality galvanized springs", "9 angles of adjustability", "Very quiet operation"] },
