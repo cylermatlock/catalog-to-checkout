@@ -69,7 +69,7 @@ export const products: Product[] = [
   { id: "32", name: "Richmar CX4 Electrotherapy and Ultrasound", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "RM DQ8200", description: ["5 cm² sound head", "Treats up to 4 patients at once", "Multiple waveforms", "Large color LCD touchscreen", "3 year warranty"] },
   
   { id: "34", name: "Richmar CX2 Electrotherapy and Ultrasound", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "RICH DQ8222", description: ["5 cm² sound head", "Multiple waveforms", "Large color LCD touchscreen", "3 year warranty", "Optional cart available"] },
-  { id: "35", name: "Richmar Therasound EVO", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "RICH 410-020", description: ["Dual-Frequencies 1 & 3 MHz", "Pulsed & continuous", "Autosound hands free option", "3 year warranty", "Proudly made in USA"] },
+  
   { id: "36", name: "Chattanooga Vectra Genisys w/EMG", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "CG 2738", description: ["Fully functional 1 & 3.3 MHz", "110v or battery power", "10 user-defined protocols", "2 channel electrical stim"] },
 
   // MODALITIES - Laser
