@@ -129,6 +129,18 @@ import digiFlex from "@/assets/products/digi-flex.png";
 
 // Generic placeholder for products without a dedicated image
 import placeholderProduct from "@/assets/products/placeholder-product.jpg";
+
+// Matrix Fitness - Endurance & Lifestyle Series (LED consoles)
+import matrixEnduranceTreadmillLed from "@/assets/products/matrix-endurance-treadmill-led.jpg";
+import matrixEnduranceEllipticalLed from "@/assets/products/matrix-endurance-elliptical-led.jpg";
+import matrixEnduranceClimbmillLed from "@/assets/products/matrix-endurance-climbmill-led.jpg";
+import matrixEnduranceRecumbentLed from "@/assets/products/matrix-endurance-recumbent-led.jpg";
+import matrixEnduranceUprightLed from "@/assets/products/matrix-endurance-upright-led.jpg";
+import matrixLifestyleTreadmillLed from "@/assets/products/matrix-lifestyle-treadmill-led.jpg";
+import matrixLifestyleEllipticalLed from "@/assets/products/matrix-lifestyle-elliptical-led.jpg";
+import matrixLifestyleClimbmillLed from "@/assets/products/matrix-lifestyle-climbmill-led.jpg";
+import matrixLifestyleRecumbentLed from "@/assets/products/matrix-lifestyle-recumbent-led.jpg";
+import matrixLifestyleUprightLed from "@/assets/products/matrix-lifestyle-upright-led.jpg";
 import bolstersWedges from "@/assets/products/bolsters-wedges.png";
 import twistBendBars from "@/assets/products/twist-bend-bars.png";
 import fingerWebs from "@/assets/products/finger-webs.png";
@@ -269,4 +281,16 @@ export const productImages: Record<string, string> = {
   "114": bolstersWedges,
   "115": candoFoamRollers,
   "116": cuffWeightsImg,
+  // Matrix Fitness - Endurance Series
+  "117": matrixEnduranceTreadmillLed,
+  "118": matrixEnduranceEllipticalLed,
+  "119": matrixEnduranceClimbmillLed,
+  "120": matrixEnduranceRecumbentLed,
+  "121": matrixEnduranceUprightLed,
+  // Matrix Fitness - Lifestyle Series
+  "122": matrixLifestyleTreadmillLed,
+  "123": matrixLifestyleEllipticalLed,
+  "124": matrixLifestyleClimbmillLed,
+  "125": matrixLifestyleRecumbentLed,
+  "126": matrixLifestyleUprightLed,
 };
