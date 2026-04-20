@@ -97,7 +97,7 @@ import biofreezeImg from "@/assets/products/biofreeze.jpg";
 import ultrasoundGelImg from "@/assets/products/ultrasound-gel.jpg";
 import moistHeatPacks from "@/assets/products/moist-heat-packs.jpg";
 import candoFoamRollers from "@/assets/products/cando-foam-rollers.jpg";
-import cuffWeightsImg from "@/assets/products/cuff-weights.jpg";
+import cuffWeightsImg from "@/assets/products/cuff-weights-7-piece-set.png";
 
 // Shuttle Systems product images
 import shuttleTNT from "@/assets/products/shuttle-tnt-v2.png";
