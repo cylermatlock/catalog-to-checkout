@@ -67,7 +67,7 @@ import sportsArtS973 from "@/assets/products/sportsart-s973.jpg";
 // TKO
 import tkoDefiant from "@/assets/products/tko-defiant.jpg";
 import tkoStorageRack from "@/assets/products/tko-storage-rack.jpg";
-import tkoDumbbellRack from "@/assets/products/tko-dumbbell-rack.jpg";
+import tkoDumbbellRack from "@/assets/products/tko-dumbbell-rack.png";
 
 // Balance
 import therabandStabilityTrainer from "@/assets/products/theraband-stability-trainer.jpg";
