@@ -20,7 +20,7 @@ const Header = () => {
           <img
             src={logo}
             alt="GM Therapy Solutions — PT Equipment & Supplies"
-            className="h-14 w-auto object-contain"
+            className="h-14 w-auto object-contain bg-primary-foreground"
           />
         </Link>
 
