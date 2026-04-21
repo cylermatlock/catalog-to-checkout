@@ -56,7 +56,7 @@ import easystandStrapStand from "@/assets/products/easystand-strap-stand.png";
 // SportsArt
 import sportsArtT655MS from "@/assets/products/sportsart-t655ms.png";
 import sportsArtT661M from "@/assets/products/sportsart-t661m-new.png";
-import sportsArtC575R from "@/assets/products/sportsart-c575r.png";
+import sportsArtC565R from "@/assets/products/sportsart-c565r.png";
 import sportsArtN965 from "@/assets/products/sportsart-n965.jpg";
 import sportsArtDF201 from "@/assets/products/sportsart-df201.jpg";
 import sportsArtN961 from "@/assets/products/sportsart-n961.jpg";
@@ -267,7 +267,7 @@ export const productImages: Record<string, string> = {
   "45": nustepT5xr,
   "46": sportsArtT655MS,
   "47": sportsArtT661M,
-  "48": sportsArtC575R,
+  "48": sportsArtC565R,
   // SportsArt Strength
   "73": sportsArtN965,
   "74": sportsArtDF201,
