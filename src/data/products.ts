@@ -96,9 +96,9 @@ export const products: Product[] = [
   { id: "49", name: "Spirit CT800 Treadmill", category: "Cardio", subcategory: "Spirit", sku: "SFP CT800", description: ["85\"L x 35.8\"W x 60.6\"H", "Optional Medical Handrails", "0.5–12mph speed range", "450lb Weight Capacity", "5 Year Warranty"] },
   { id: "50", name: "Spirit CR800 Recumbent Bike", category: "Cardio", subcategory: "Spirit", sku: "SFP CR800", description: ["59.4\"L x 29.1\"W x 50.8\"H", "Heart Rate Monitors", "Self Generating", "450lb Weight Capacity", "5 Year Warranty"] },
   { id: "51", name: "Spirit CE800 Elliptical", category: "Cardio", subcategory: "Spirit", sku: "SFP CE800", description: ["78\"L x 24.2\"W x 62.2\"H", "Easy Rear Access", "Self Generating", "450lb Weight Capacity"] },
-  { id: "52", name: "Spirit Functional Trainer", category: "Cardio", subcategory: "Spirit", sku: "SFP CSF-FUNT", description: ["60\"L x 33\"W x 83.5\"H", "Two 170lb Weight Stacks", "Durable Heavy Gauge Steel", "Simple trigger Pulley Height Adjustment"] },
-  { id: "53", name: "Spirit Dual Leg Ext/Curl", category: "Cardio", subcategory: "Spirit", sku: "SFP CSD-LELC", description: ["55.4\"L x 54\"W x 62.2\"H", "225lb Weight Stack", "Range of Motion Adjustment", "5 Year Warranty"] },
-  { id: "54", name: "Spirit Dual Leg Press/Calf", category: "Cardio", subcategory: "Spirit", sku: "SFP CSF-DLPC", description: ["76.4\"L x 44.7\"W x 62.2\"H", "220 Weight Stack", "Durable Heavy Gauge Steel", "700 lb weight capacity"] },
+  { id: "52", name: "Spirit Functional Trainer", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSF-FUNT", description: ["60\"L x 33\"W x 83.5\"H", "Two 170lb Weight Stacks", "Durable Heavy Gauge Steel", "Simple trigger Pulley Height Adjustment"] },
+  { id: "53", name: "Spirit Dual Leg Ext/Curl", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSD-LELC", description: ["55.4\"L x 54\"W x 62.2\"H", "225lb Weight Stack", "Range of Motion Adjustment", "5 Year Warranty"] },
+  { id: "54", name: "Spirit Dual Leg Press/Calf", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSF-DLPC", description: ["76.4\"L x 44.7\"W x 62.2\"H", "220 Weight Stack", "Durable Heavy Gauge Steel", "700 lb weight capacity"] },
 
   // CARDIO - SciFit
   { id: "55", name: "SciFit Pro 1 - Upper Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO100-INT", description: ["Adjustable tilt head", "Bi-directional exercise", "Very low starting resistance", "Wheelchair platform included", "Premium, standard and bariatric seat options"] },
