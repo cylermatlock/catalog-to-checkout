@@ -22,7 +22,7 @@ const Products = () => {
   const [selectedSub, setSelectedSub] = useState<string>("All");
 
   const filtered = useMemo(() => {
-    return products.filter((p) => {
+    const matched = products.filter((p) => {
       const matchCat = selectedCategory === "All" || p.category === selectedCategory;
       const matchSub = selectedSub === "All" || p.subcategory === selectedSub;
       const matchSearch =
@@ -34,6 +34,16 @@ const Products = () => {
         );
       return matchCat && matchSub && matchSearch;
     });
+
+    // When viewing "All Categories", surface Cardio products at the top
+    // while preserving the original order within each group.
+    if (selectedCategory === "All") {
+      const cardio = matched.filter((p) => p.category === "Cardio");
+      const rest = matched.filter((p) => p.category !== "Cardio");
+      return [...cardio, ...rest];
+    }
+
+    return matched;
   }, [selectedCategory, selectedSub, search]);
 
   return (
