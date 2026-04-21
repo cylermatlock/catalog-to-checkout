@@ -90,7 +90,7 @@ export const products: Product[] = [
   // CARDIO - SportsArt
   { id: "46", name: "SportsArt T655MS Treadmill", category: "Cardio", subcategory: "SportsArt", sku: "SAA T655MS", description: ["Bi-directional belt motion", "Decline to -3%", "Full Length Medical Handrails", "0.1MPH Starting Speed"] },
   { id: "47", name: "SportsArt T661M Treadmill", category: "Cardio", subcategory: "SportsArt", sku: "SAA T661M", description: ["Equipped for medical & rehab", "Starting speed of 0.1MPH", "Medical extended handrails", "Myflex plus deck cushioning", "Contact & telemetry heart rate"] },
-  { id: "48", name: "SPORTSART C575R RECUMBENT BIKE", category: "Cardio", subcategory: "SportsArt", sku: "SAA C535R", description: ["ComforDri vented back seat", "Adjustable handles", "Oversized pedals with straps", "Wireless heart rate monitoring", "400 lb weight capacity"] },
+  { id: "48", name: "SPORTSART C565R RECUMBENT BIKE", category: "Cardio", subcategory: "SportsArt", sku: "SAA C565R", description: ["ComforDri vented back seat", "Adjustable handles", "Oversized pedals with straps", "Wireless heart rate monitoring", "400 lb weight capacity"] },
 
   // CARDIO - Spirit
   { id: "49", name: "Spirit CT800 Treadmill", category: "Cardio", subcategory: "Spirit", sku: "SFP CT800", description: ["85\"L x 35.8\"W x 60.6\"H", "Optional Medical Handrails", "0.5–12mph speed range", "450lb Weight Capacity", "5 Year Warranty"] },
