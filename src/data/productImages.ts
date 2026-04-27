@@ -206,9 +206,6 @@ import bsw_asg_rss_165b from "@/assets/products/bsw/asg-rss-165b.png";
 import bsw_asg_tph_1 from "@/assets/products/bsw/asg-tph-1.jpg";
 import bsw_asg_tph_2 from "@/assets/products/bsw/asg-tph-2.jpg";
 import bsw_asg_zg_1 from "@/assets/products/bsw/asg-zg-1.jpg";
-import bsw_ from "@/assets/products/bsw/.jpg";
-import bsw_ from "@/assets/products/bsw/.jpg";
-import bsw_ from "@/assets/products/bsw/.jpg";
 import bsw_fab_00_1410 from "@/assets/products/bsw/fab-00-1410.jpg";
 import bsw_fab_00_3102 from "@/assets/products/bsw/fab-00-3102.jpg";
 import bsw_fab_00_4759 from "@/assets/products/bsw/fab-00-4759.jpg";
@@ -232,11 +229,7 @@ import bsw_fab_30_4921 from "@/assets/products/bsw/fab-30-4921.jpg";
 import bsw_fab_38_0011 from "@/assets/products/bsw/fab-38-0011.jpg";
 import bsw_fab_43_1966 from "@/assets/products/bsw/fab-43-1966.jpg";
 import bsw_fab_50_5130_72x from "@/assets/products/bsw/fab-50-5130-72x.jpg";
-import bsw_ from "@/assets/products/bsw/.jpg";
-import bsw_ from "@/assets/products/bsw/.jpg";
-import bsw_ from "@/assets/products/bsw/.jpg";
 import bsw_mfs_trxpro4 from "@/assets/products/bsw/mfs-trxpro4.jpg";
-import bsw_ from "@/assets/products/bsw/.jpg";
 import bsw_nc14600 from "@/assets/products/bsw/nc14600.jpg";
 import bsw_parts_reformer_box from "@/assets/products/bsw/parts-reformer-box.jpg";
 import bsw_phs_am_660 from "@/assets/products/bsw/phs-am-660.png";
@@ -536,9 +529,6 @@ export const productImages: Record<string, string> = {
   "221": bsw_asg_tph_1,
   "222": bsw_asg_tph_2,
   "223": bsw_asg_zg_1,
-  "224": bsw_,
-  "225": bsw_,
-  "226": bsw_,
   "227": bsw_fab_00_1410,
   "228": bsw_fab_00_3102,
   "229": bsw_fab_00_4759,
@@ -562,11 +552,7 @@ export const productImages: Record<string, string> = {
   "247": bsw_fab_38_0011,
   "248": bsw_fab_43_1966,
   "249": bsw_fab_50_5130_72x,
-  "250": bsw_,
-  "251": bsw_,
-  "252": bsw_,
   "253": bsw_mfs_trxpro4,
-  "254": bsw_,
   "255": bsw_nc14600,
   "256": bsw_parts_reformer_box,
   "257": bsw_phs_am_660,
