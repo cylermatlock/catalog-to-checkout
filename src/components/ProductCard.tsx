@@ -87,6 +87,14 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
           <span className="absolute top-3 left-3 bg-primary text-primary-foreground text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded">
             {product.subcategory}
           </span>
+          {product.bsw && (
+            <span
+              className="absolute top-3 right-3 bg-foreground text-background text-[10px] font-bold tracking-wider px-2 py-1 rounded shadow-md"
+              title="Previously purchased by Baylor Scott & White"
+            >
+              BSW
+            </span>
+          )}
         </div>
 
         <div className="bg-primary px-4 py-3">
