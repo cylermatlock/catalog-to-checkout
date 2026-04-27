@@ -182,6 +182,106 @@ import matrixVersaFunctionalTrainer30 from "@/assets/products/matrix-versa-funct
 import baselineMmtElectronic from "@/assets/products/baseline-mmt-electronic.png";
 
 // BSW (Baylor Scott & White) product photos
+import bsw_am_400 from "@/assets/products/bsw/am-400.png";
+import bsw_am_ba334 from "@/assets/products/bsw/am-ba334.png";
+import bsw_anc_ap_65_01 from "@/assets/products/bsw/anc-ap-65-01.png";
+import bsw_anc_at_as_01 from "@/assets/products/bsw/anc-at-as-01.png";
+import bsw_anc_at_pd_01_sm from "@/assets/products/bsw/anc-at-pd-01-sm.png";
+import bsw_anc_at_rp_01_25 from "@/assets/products/bsw/anc-at-rp-01-25.png";
+import bsw_anc_at_tm_01 from "@/assets/products/bsw/anc-at-tm-01.png";
+import bsw_asg_11360b_10 from "@/assets/products/bsw/asg-11360b-10.jpg";
+import bsw_asg_11360b_25 from "@/assets/products/bsw/asg-11360b-25.jpg";
+import bsw_asg_11360b_5 from "@/assets/products/bsw/asg-11360b-5.jpg";
+import bsw_asg_1136zr_10 from "@/assets/products/bsw/asg-1136zr-10.jpeg";
+import bsw_asg_1136zr_25 from "@/assets/products/bsw/asg-1136zr-25.jpg";
+import bsw_asg_1136zr_35 from "@/assets/products/bsw/asg-1136zr-35.jpg";
+import bsw_asg_1136zr_45 from "@/assets/products/bsw/asg-1136zr-45.jpg";
+import bsw_asg_ob_60b from "@/assets/products/bsw/asg-ob-60b.jpg";
+import bsw_asg_ob_72al from "@/assets/products/bsw/asg-ob-72al.jpg";
+import bsw_asg_ob_86uc from "@/assets/products/bsw/asg-ob-86uc.jpg";
+import bsw_asg_oqlj_2 from "@/assets/products/bsw/asg-oqlj-2.jpeg";
+import bsw_asg_rm_12s from "@/assets/products/bsw/asg-rm-12s.jpg";
+import bsw_asg_rm_14ts from "@/assets/products/bsw/asg-rm-14ts.jpg";
+import bsw_asg_rss_165b from "@/assets/products/bsw/asg-rss-165b.png";
+import bsw_asg_tph_1 from "@/assets/products/bsw/asg-tph-1.jpg";
+import bsw_asg_tph_2 from "@/assets/products/bsw/asg-tph-2.jpg";
+import bsw_asg_zg_1 from "@/assets/products/bsw/asg-zg-1.jpg";
+import bsw_ from "@/assets/products/bsw/.jpg";
+import bsw_ from "@/assets/products/bsw/.jpg";
+import bsw_ from "@/assets/products/bsw/.jpg";
+import bsw_fab_00_1410 from "@/assets/products/bsw/fab-00-1410.jpg";
+import bsw_fab_00_3102 from "@/assets/products/bsw/fab-00-3102.jpg";
+import bsw_fab_00_4759 from "@/assets/products/bsw/fab-00-4759.jpg";
+import bsw_fab_00_7040k from "@/assets/products/bsw/fab-00-7040k.jpg";
+import bsw_fab_10_0250 from "@/assets/products/bsw/fab-10-0250.png";
+import bsw_fab_10_0565 from "@/assets/products/bsw/fab-10-0565.jpg";
+import bsw_fab_10_0575 from "@/assets/products/bsw/fab-10-0575.png";
+import bsw_fab_10_1182 from "@/assets/products/bsw/fab-10-1182.jpg";
+import bsw_fab_10_4334 from "@/assets/products/bsw/fab-10-4334.jpg";
+import bsw_fab_10_6328 from "@/assets/products/bsw/fab-10-6328.jpg";
+import bsw_fab_10_7298 from "@/assets/products/bsw/fab-10-7298.jpg";
+import bsw_fab_10_7303 from "@/assets/products/bsw/fab-10-7303.jpg";
+import bsw_fab_12_0381w from "@/assets/products/bsw/fab-12-0381w.jpg";
+import bsw_fab_12_1028x from "@/assets/products/bsw/fab-12-1028x.jpg";
+import bsw_fab_12_1056 from "@/assets/products/bsw/fab-12-1056.png";
+import bsw_fab_30_1803x from "@/assets/products/bsw/fab-30-1803x.jpg";
+import bsw_fab_30_1805x from "@/assets/products/bsw/fab-30-1805x.jpg";
+import bsw_fab_30_1870bx from "@/assets/products/bsw/fab-30-1870bx.jpg";
+import bsw_fab_30_2401b from "@/assets/products/bsw/fab-30-2401b.jpg";
+import bsw_fab_30_4921 from "@/assets/products/bsw/fab-30-4921.jpg";
+import bsw_fab_38_0011 from "@/assets/products/bsw/fab-38-0011.jpg";
+import bsw_fab_43_1966 from "@/assets/products/bsw/fab-43-1966.jpg";
+import bsw_fab_50_5130_72x from "@/assets/products/bsw/fab-50-5130-72x.jpg";
+import bsw_ from "@/assets/products/bsw/.jpg";
+import bsw_ from "@/assets/products/bsw/.jpg";
+import bsw_ from "@/assets/products/bsw/.jpg";
+import bsw_mfs_trxpro4 from "@/assets/products/bsw/mfs-trxpro4.jpg";
+import bsw_ from "@/assets/products/bsw/.jpg";
+import bsw_nc14600 from "@/assets/products/bsw/nc14600.jpg";
+import bsw_parts_reformer_box from "@/assets/products/bsw/parts-reformer-box.jpg";
+import bsw_phs_am_660 from "@/assets/products/bsw/phs-am-660.png";
+import bsw_phs_smdc_007_57lg from "@/assets/products/bsw/phs-smdc-007-57lg.png";
+import bsw_rich_400_8722 from "@/assets/products/bsw/rich-400-8722.png";
+import bsw_rich_dq8200 from "@/assets/products/bsw/rich-dq8200.png";
+import bsw_rich_dqcart_2 from "@/assets/products/bsw/rich-dqcart-2.jpg";
+import bsw_rich_hp_1711_cx from "@/assets/products/bsw/rich-hp-1711-cx.jpg";
+import bsw_rich_hp_1713_os from "@/assets/products/bsw/rich-hp-1713-os.jpg";
+import bsw_rich_ht_tu_d12 from "@/assets/products/bsw/rich-ht-tu-d12.jpg";
+import bsw_rpp_m30_sw from "@/assets/products/bsw/rpp-m30-sw.png";
+import bsw_saa_df_300 from "@/assets/products/bsw/saa-df-300.png";
+import bsw_saa_n973 from "@/assets/products/bsw/saa-n973.png";
+import bsw_saa_p873 from "@/assets/products/bsw/saa-p873.png";
+import bsw_saa_ube_seat from "@/assets/products/bsw/saa-ube-seat.png";
+import bsw_saa_ube521m from "@/assets/products/bsw/saa-ube521m.png";
+import bsw_sfp_636225 from "@/assets/products/bsw/sfp-636225.png";
+import bsw_sfp_cr900 from "@/assets/products/bsw/sfp-cr900.png";
+import bsw_st_proset from "@/assets/products/bsw/st-proset.png";
+import bsw_st_smtg3prost from "@/assets/products/bsw/st-smtg3prost.png";
+import bsw_strp_spine78 from "@/assets/products/bsw/strp-spine78.png";
+import bsw_strps_ankstr25 from "@/assets/products/bsw/strps-ankstr25.png";
+import bsw_strps_griphandle from "@/assets/products/bsw/strps-griphandle.jpg";
+import bsw_strps_punch from "@/assets/products/bsw/strps-punch.jpg";
+import bsw_strps_ss36h_o4 from "@/assets/products/bsw/strps-ss36h-o4.jpg";
+import bsw_strps_ss36l_o4 from "@/assets/products/bsw/strps-ss36l-o4.jpg";
+import bsw_strps_ss36m_o4 from "@/assets/products/bsw/strps-ss36m-o4.jpg";
+import bsw_strps_ss36vl_o4 from "@/assets/products/bsw/strps-ss36vl-o4.jpg";
+import bsw_tko_262plbs from "@/assets/products/bsw/tko-262plbs.png";
+import bsw_tko_263plbs from "@/assets/products/bsw/tko-263plbs.jpg";
+import bsw_tko_278ps from "@/assets/products/bsw/tko-278ps.jpg";
+import bsw_tko_509cmb_6 from "@/assets/products/bsw/tko-509cmb-6.jpg";
+import bsw_tko_509cmb_8 from "@/assets/products/bsw/tko-509cmb-8.jpg";
+import bsw_tko_509sb_15 from "@/assets/products/bsw/tko-509sb-15.jpg";
+import bsw_tko_509sb_20 from "@/assets/products/bsw/tko-509sb-20.jpg";
+import bsw_tko_509sb_25 from "@/assets/products/bsw/tko-509sb-25.jpg";
+import bsw_tko_509wb_10 from "@/assets/products/bsw/tko-509wb-10.png";
+import bsw_tko_509wb_14 from "@/assets/products/bsw/tko-509wb-14.jpg";
+import bsw_tko_509wb_20 from "@/assets/products/bsw/tko-509wb-20.jpg";
+import bsw_tko_509wb_30 from "@/assets/products/bsw/tko-509wb-30.jpg";
+import bsw_tko_802bp2_10 from "@/assets/products/bsw/tko-802bp2-10.jpg";
+import bsw_tko_802bp2_15 from "@/assets/products/bsw/tko-802bp2-15.jpg";
+import bsw_tko_802bp2_25 from "@/assets/products/bsw/tko-802bp2-25.jpg";
+import bsw_tko_802bp2_35 from "@/assets/products/bsw/tko-802bp2-35.jpg";
+import bsw_tko_802bp2_45 from "@/assets/products/bsw/tko-802bp2-45.jpg";
 import bsw_tko_803or_10 from "@/assets/products/bsw/tko-803or-10.png";
 import bsw_tko_803or_2_5 from "@/assets/products/bsw/tko-803or-2-5.png";
 import bsw_tko_803or_25 from "@/assets/products/bsw/tko-803or-25.png";
@@ -412,6 +512,106 @@ export const productImages: Record<string, string> = {
   // Spirit CU800 Upright Bike
   "158": spiritCU800,
   // BSW products
+  "200": bsw_am_400,
+  "201": bsw_am_ba334,
+  "202": bsw_anc_ap_65_01,
+  "203": bsw_anc_at_as_01,
+  "204": bsw_anc_at_pd_01_sm,
+  "205": bsw_anc_at_rp_01_25,
+  "206": bsw_anc_at_tm_01,
+  "207": bsw_asg_11360b_10,
+  "208": bsw_asg_11360b_25,
+  "209": bsw_asg_11360b_5,
+  "210": bsw_asg_1136zr_10,
+  "211": bsw_asg_1136zr_25,
+  "212": bsw_asg_1136zr_35,
+  "213": bsw_asg_1136zr_45,
+  "214": bsw_asg_ob_60b,
+  "215": bsw_asg_ob_72al,
+  "216": bsw_asg_ob_86uc,
+  "217": bsw_asg_oqlj_2,
+  "218": bsw_asg_rm_12s,
+  "219": bsw_asg_rm_14ts,
+  "220": bsw_asg_rss_165b,
+  "221": bsw_asg_tph_1,
+  "222": bsw_asg_tph_2,
+  "223": bsw_asg_zg_1,
+  "224": bsw_,
+  "225": bsw_,
+  "226": bsw_,
+  "227": bsw_fab_00_1410,
+  "228": bsw_fab_00_3102,
+  "229": bsw_fab_00_4759,
+  "230": bsw_fab_00_7040k,
+  "231": bsw_fab_10_0250,
+  "232": bsw_fab_10_0565,
+  "233": bsw_fab_10_0575,
+  "234": bsw_fab_10_1182,
+  "235": bsw_fab_10_4334,
+  "236": bsw_fab_10_6328,
+  "237": bsw_fab_10_7298,
+  "238": bsw_fab_10_7303,
+  "239": bsw_fab_12_0381w,
+  "240": bsw_fab_12_1028x,
+  "241": bsw_fab_12_1056,
+  "242": bsw_fab_30_1803x,
+  "243": bsw_fab_30_1805x,
+  "244": bsw_fab_30_1870bx,
+  "245": bsw_fab_30_2401b,
+  "246": bsw_fab_30_4921,
+  "247": bsw_fab_38_0011,
+  "248": bsw_fab_43_1966,
+  "249": bsw_fab_50_5130_72x,
+  "250": bsw_,
+  "251": bsw_,
+  "252": bsw_,
+  "253": bsw_mfs_trxpro4,
+  "254": bsw_,
+  "255": bsw_nc14600,
+  "256": bsw_parts_reformer_box,
+  "257": bsw_phs_am_660,
+  "258": bsw_phs_smdc_007_57lg,
+  "259": bsw_rich_400_8722,
+  "260": bsw_rich_dq8200,
+  "261": bsw_rich_dqcart_2,
+  "262": bsw_rich_hp_1711_cx,
+  "263": bsw_rich_hp_1713_os,
+  "264": bsw_rich_ht_tu_d12,
+  "265": bsw_rpp_m30_sw,
+  "266": bsw_saa_df_300,
+  "267": bsw_saa_n973,
+  "268": bsw_saa_p873,
+  "269": bsw_saa_ube_seat,
+  "270": bsw_saa_ube521m,
+  "271": bsw_sfp_636225,
+  "272": bsw_sfp_cr900,
+  "273": bsw_st_proset,
+  "274": bsw_st_smtg3prost,
+  "275": bsw_strp_spine78,
+  "276": bsw_strps_ankstr25,
+  "277": bsw_strps_griphandle,
+  "278": bsw_strps_punch,
+  "279": bsw_strps_ss36h_o4,
+  "280": bsw_strps_ss36l_o4,
+  "281": bsw_strps_ss36m_o4,
+  "282": bsw_strps_ss36vl_o4,
+  "283": bsw_tko_262plbs,
+  "284": bsw_tko_263plbs,
+  "285": bsw_tko_278ps,
+  "286": bsw_tko_509cmb_6,
+  "287": bsw_tko_509cmb_8,
+  "288": bsw_tko_509sb_15,
+  "289": bsw_tko_509sb_20,
+  "290": bsw_tko_509sb_25,
+  "291": bsw_tko_509wb_10,
+  "292": bsw_tko_509wb_14,
+  "293": bsw_tko_509wb_20,
+  "294": bsw_tko_509wb_30,
+  "295": bsw_tko_802bp2_10,
+  "296": bsw_tko_802bp2_15,
+  "297": bsw_tko_802bp2_25,
+  "298": bsw_tko_802bp2_35,
+  "299": bsw_tko_802bp2_45,
   "300": bsw_tko_803or_10,
   "301": bsw_tko_803or_2_5,
   "302": bsw_tko_803or_25,
