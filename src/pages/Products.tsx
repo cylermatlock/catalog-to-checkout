@@ -42,6 +42,7 @@ const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
   const [selectedBrand, setSelectedBrand] = useState<string>("All");
   const [search, setSearch] = useState("");
+  const [bswOnly, setBswOnly] = useState(false);
 
   const subcategories = useMemo(() => {
     if (selectedCategory === "All") return [];
