@@ -6,6 +6,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Products from "./pages/Products.tsx";
 import ProductDetail from "./pages/ProductDetail.tsx";
+import Diagnostics from "./pages/Diagnostics.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import { CartProvider } from "@/contexts/CartContext";
 import CartDrawer from "@/components/CartDrawer";
@@ -24,6 +25,7 @@ const App = () => (
               <Route path="/" element={<Products />} />
               <Route path="/products" element={<Products />} />
               <Route path="/product/:id" element={<ProductDetail />} />
+              <Route path="/diagnostics" element={<Diagnostics />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
