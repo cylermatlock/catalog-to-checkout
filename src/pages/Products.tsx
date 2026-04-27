@@ -131,6 +131,7 @@ const Products = () => {
               onChange={(e) => {
                 setSelectedCategory(e.target.value);
                 setSelectedSub("All");
+                setSelectedBrand("All");
               }}
             >
               <option value="All">All Categories</option>
