@@ -17,6 +17,16 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
   const image = productImages[product.id];
   const { addItem, openCart } = useCart();
   const [qty, setQty] = useState(1);
+  const showDetails = hasDetailPage(product.id);
+
+  const ViewDetailsLink = showDetails ? (
+    <Button asChild variant="outline" size="sm" className="w-full mt-2 font-semibold">
+      <Link to={`/product/${product.id}`}>
+        <Eye className="w-4 h-4 mr-1.5" />
+        View Details
+      </Link>
+    </Button>
+  ) : null;
 
   const handleAdd = () => {
     addItem(product, qty);
