@@ -113,6 +113,7 @@ import shuttleRebounder from "@/assets/products/shuttle-rebounder.png";
 import spiritCT800 from "@/assets/products/spirit-ct800.png";
 import spiritCR800 from "@/assets/products/spirit-cr800.jpg";
 import spiritCE800 from "@/assets/products/spirit-ce800.png";
+import spiritCU800 from "@/assets/products/spirit-cu800.jpg";
 import spiritFunctionalTrainer from "@/assets/products/spirit-functional-trainer.png";
 import spiritLegExtCurl from "@/assets/products/spirit-leg-ext-curl.jpg";
 import spiritLegPressCalf from "@/assets/products/spirit-leg-press-calf.jpg";
@@ -365,4 +366,6 @@ export const productImages: Record<string, string> = {
   "156": matrixVersaFunctionalTrainer30,
   // Baseline Work Hardening
   "157": baselineMmtElectronic,
+  // Spirit CU800 Upright Bike
+  "158": spiritCU800,
 };
