@@ -181,6 +181,49 @@ import matrixVersaFunctionalTrainer18 from "@/assets/products/matrix-versa-funct
 import matrixVersaFunctionalTrainer30 from "@/assets/products/matrix-versa-functional-trainer-30.png";
 import baselineMmtElectronic from "@/assets/products/baseline-mmt-electronic.png";
 
+// BSW (Baylor Scott & White) product photos
+import bsw_tko_803or_10 from "@/assets/products/bsw/tko-803or-10.png";
+import bsw_tko_803or_2_5 from "@/assets/products/bsw/tko-803or-2-5.png";
+import bsw_tko_803or_25 from "@/assets/products/bsw/tko-803or-25.png";
+import bsw_tko_803or_35 from "@/assets/products/bsw/tko-803or-35.png";
+import bsw_tko_803or_45 from "@/assets/products/bsw/tko-803or-45.png";
+import bsw_tko_803or_5 from "@/assets/products/bsw/tko-803or-5.png";
+import bsw_tko_804rx_15 from "@/assets/products/bsw/tko-804rx-15.png";
+import bsw_tko_804rx_20 from "@/assets/products/bsw/tko-804rx-20.png";
+import bsw_tko_804rx_25 from "@/assets/products/bsw/tko-804rx-25.png";
+import bsw_tko_804rx_30 from "@/assets/products/bsw/tko-804rx-30.png";
+import bsw_tko_804rx_35 from "@/assets/products/bsw/tko-804rx-35.png";
+import bsw_tko_804rx_40 from "@/assets/products/bsw/tko-804rx-40.png";
+import bsw_tko_804rx_45 from "@/assets/products/bsw/tko-804rx-45.png";
+import bsw_tko_804rx_50 from "@/assets/products/bsw/tko-804rx-50.png";
+import bsw_tko_811ob_86 from "@/assets/products/bsw/tko-811ob-86.png";
+import bsw_tko_812lbc from "@/assets/products/bsw/tko-812lbc.png";
+import bsw_tko_813ob_86mb from "@/assets/products/bsw/tko-813ob-86mb.png";
+import bsw_tko_824fid_bk from "@/assets/products/bsw/tko-824fid-bk.png";
+import bsw_tko_853fbr3_b from "@/assets/products/bsw/tko-853fbr3-b.png";
+import bsw_tko_857kbv_15 from "@/assets/products/bsw/tko-857kbv-15.png";
+import bsw_tko_857kbv_20 from "@/assets/products/bsw/tko-857kbv-20.png";
+import bsw_tko_857kbv_25 from "@/assets/products/bsw/tko-857kbv-25.png";
+import bsw_tko_857kbv_30 from "@/assets/products/bsw/tko-857kbv-30.jpg";
+import bsw_tko_857kbv_35 from "@/assets/products/bsw/tko-857kbv-35.png";
+import bsw_tko_857kbv_40 from "@/assets/products/bsw/tko-857kbv-40.png";
+import bsw_tko_8ab from "@/assets/products/bsw/tko-8ab.png";
+import bsw_tko_921hr from "@/assets/products/bsw/tko-921hr.png";
+import bsw_tko_92att_db from "@/assets/products/bsw/tko-92att-db.png";
+import bsw_tko_99acc_p from "@/assets/products/bsw/tko-99acc-p.png";
+import bsw_tms_720169_002 from "@/assets/products/bsw/tms-720169-002.png";
+import bsw_tms_720515_001 from "@/assets/products/bsw/tms-720515-001.png";
+import bsw_tms_720589_001 from "@/assets/products/bsw/tms-720589-001.png";
+import bsw_tms_720639_001 from "@/assets/products/bsw/tms-720639-001.png";
+import bsw_tms_720761_001 from "@/assets/products/bsw/tms-720761-001.png";
+import bsw_tms_720870_001 from "@/assets/products/bsw/tms-720870-001.png";
+import bsw_tms_730144 from "@/assets/products/bsw/tms-730144.png";
+import bsw_tms_730155 from "@/assets/products/bsw/tms-730155.png";
+import bsw_tms_730259 from "@/assets/products/bsw/tms-730259.png";
+import bsw_tms_730260 from "@/assets/products/bsw/tms-730260.png";
+import bsw_tms_730400_002 from "@/assets/products/bsw/tms-730400-002.png";
+import bsw_tms_730547 from "@/assets/products/bsw/tms-730547.png";
+
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
   // GMTS Rehab Furniture - individual photos
@@ -368,4 +411,46 @@ export const productImages: Record<string, string> = {
   "157": baselineMmtElectronic,
   // Spirit CU800 Upright Bike
   "158": spiritCU800,
+  // BSW products
+  "300": bsw_tko_803or_10,
+  "301": bsw_tko_803or_2_5,
+  "302": bsw_tko_803or_25,
+  "303": bsw_tko_803or_35,
+  "304": bsw_tko_803or_45,
+  "305": bsw_tko_803or_5,
+  "306": bsw_tko_804rx_15,
+  "307": bsw_tko_804rx_20,
+  "308": bsw_tko_804rx_25,
+  "309": bsw_tko_804rx_30,
+  "310": bsw_tko_804rx_35,
+  "311": bsw_tko_804rx_40,
+  "312": bsw_tko_804rx_45,
+  "313": bsw_tko_804rx_50,
+  "314": bsw_tko_811ob_86,
+  "315": bsw_tko_812lbc,
+  "316": bsw_tko_813ob_86mb,
+  "317": bsw_tko_824fid_bk,
+  "318": bsw_tko_853fbr3_b,
+  "319": bsw_tko_857kbv_15,
+  "320": bsw_tko_857kbv_20,
+  "321": bsw_tko_857kbv_25,
+  "322": bsw_tko_857kbv_30,
+  "323": bsw_tko_857kbv_35,
+  "324": bsw_tko_857kbv_40,
+  "325": bsw_tko_8ab,
+  "326": bsw_tko_921hr,
+  "327": bsw_tko_92att_db,
+  "328": bsw_tko_99acc_p,
+  "329": bsw_tms_720169_002,
+  "330": bsw_tms_720515_001,
+  "331": bsw_tms_720589_001,
+  "332": bsw_tms_720639_001,
+  "333": bsw_tms_720761_001,
+  "334": bsw_tms_720870_001,
+  "335": bsw_tms_730144,
+  "336": bsw_tms_730155,
+  "337": bsw_tms_730259,
+  "338": bsw_tms_730260,
+  "339": bsw_tms_730400_002,
+  "340": bsw_tms_730547,
 };

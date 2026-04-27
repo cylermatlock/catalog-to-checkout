@@ -87,6 +87,14 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
           <span className="absolute top-3 left-3 bg-primary text-primary-foreground text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded">
             {product.subcategory}
           </span>
+          {product.bsw && (
+            <span
+              className="absolute top-3 right-3 bg-foreground text-background text-[10px] font-bold tracking-wider px-2 py-1 rounded shadow-md"
+              title="Previously purchased by Baylor Scott & White"
+            >
+              BSW
+            </span>
+          )}
         </div>
 
         <div className="bg-primary px-4 py-3">
@@ -135,7 +143,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
 
   return (
     <div className="bg-card rounded-lg overflow-hidden hover:shadow-lg transition-shadow group border-4 border-solid border-primary">
-      <div className="aspect-[4/3] bg-secondary flex items-center justify-center overflow-hidden">
+      <div className="aspect-[4/3] bg-secondary flex items-center justify-center overflow-hidden relative">
         {image ? (
           <img
             src={image}
@@ -147,6 +155,14 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
           <div className="text-muted-foreground text-4xl font-bold opacity-20">
             GMTS
           </div>
+        )}
+        {product.bsw && (
+          <span
+            className="absolute top-3 right-3 bg-foreground text-background text-[10px] font-bold tracking-wider px-2 py-1 rounded shadow-md"
+            title="Previously purchased by Baylor Scott & White"
+          >
+            BSW
+          </span>
         )}
       </div>
       <div className="p-4">
