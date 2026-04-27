@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { type Product } from "@/data/products";
 import { productImages } from "@/data/productImages";
-import { Phone, Plus, Minus, ShoppingCart } from "lucide-react";
+import { hasDetailPage } from "@/data/productDetails";
+import { Phone, Plus, Minus, ShoppingCart, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/contexts/CartContext";
 import { toast } from "sonner";
@@ -15,6 +17,16 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
   const image = productImages[product.id];
   const { addItem, openCart } = useCart();
   const [qty, setQty] = useState(1);
+  const showDetails = hasDetailPage(product.id);
+
+  const ViewDetailsLink = showDetails ? (
+    <Button asChild variant="outline" size="sm" className="w-full mt-2 font-semibold">
+      <Link to={`/product/${product.id}`}>
+        <Eye className="w-4 h-4 mr-1.5" />
+        View Details
+      </Link>
+    </Button>
+  ) : null;
 
   const handleAdd = () => {
     addItem(product, qty);
@@ -105,6 +117,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
               </p>
             )}
             {QuantityAndAdd}
+            {ViewDetailsLink}
             {!product.price && (
               <a
                 href="tel:940-600-1311"
@@ -164,6 +177,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
             </p>
           )}
           {QuantityAndAdd}
+          {ViewDetailsLink}
           {!product.price && (
             <a
               href="tel:940-600-1311"
