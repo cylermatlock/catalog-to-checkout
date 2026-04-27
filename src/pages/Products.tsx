@@ -173,7 +173,39 @@ const Products = () => {
           </div>
         )}
 
-        {/* Results count */}
+        {/* Brand pills */}
+        {brands.length > 1 && (
+          <div className="flex flex-wrap items-center gap-2 mb-6">
+            <span className="text-xs font-semibold text-muted-foreground mr-1">
+              Brand:
+            </span>
+            <button
+              onClick={() => setSelectedBrand("All")}
+              className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                selectedBrand === "All"
+                  ? "bg-primary text-primary-foreground"
+                  : "bg-secondary text-secondary-foreground hover:bg-primary/10"
+              }`}
+            >
+              All Brands
+            </button>
+            {brands.map((brand) => (
+              <button
+                key={brand}
+                onClick={() => setSelectedBrand(brand)}
+                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                  selectedBrand === brand
+                    ? "bg-primary text-primary-foreground"
+                    : "bg-secondary text-secondary-foreground hover:bg-primary/10"
+                }`}
+              >
+                {brand}
+              </button>
+            ))}
+          </div>
+        )}
+
+
         <p className="text-sm text-muted-foreground mb-4">
           Showing {filtered.length} product{filtered.length !== 1 ? "s" : ""}
         </p>
