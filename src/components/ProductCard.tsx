@@ -117,6 +117,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
               </p>
             )}
             {QuantityAndAdd}
+            {ViewDetailsLink}
             {!product.price && (
               <a
                 href="tel:940-600-1311"
@@ -176,6 +177,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
             </p>
           )}
           {QuantityAndAdd}
+          {ViewDetailsLink}
           {!product.price && (
             <a
               href="tel:940-600-1311"
