@@ -74,6 +74,7 @@ const Products = () => {
       const matchCat = selectedCategory === "All" || p.category === selectedCategory;
       const matchSub = selectedSub === "All" || p.subcategory === selectedSub;
       const matchBrand = selectedBrand === "All" || getBrand(p) === selectedBrand;
+      const matchBsw = !bswOnly || p.bsw === true;
       const matchSearch =
         !search ||
         p.name.toLowerCase().includes(search.toLowerCase()) ||
@@ -81,7 +82,7 @@ const Products = () => {
         p.description.some((d) =>
           d.toLowerCase().includes(search.toLowerCase())
         );
-      return matchCat && matchSub && matchBrand && matchSearch;
+      return matchCat && matchSub && matchBrand && matchBsw && matchSearch;
     });
 
     // When viewing "All Categories", surface Cardio products at the top
@@ -93,7 +94,7 @@ const Products = () => {
     }
 
     return matched;
-  }, [selectedCategory, selectedSub, selectedBrand, search]);
+  }, [selectedCategory, selectedSub, selectedBrand, bswOnly, search]);
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
