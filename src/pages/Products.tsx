@@ -40,10 +40,20 @@ const getBrand = (p: Product): string => {
 };
 
 const Products = () => {
+  // Hidden review mode: /products?review=1 — for internal photo QA only.
+  const reviewMode =
+    typeof window !== "undefined" &&
+    new URLSearchParams(window.location.search).get("review") === "1";
+
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
   const [selectedBrand, setSelectedBrand] = useState<string>("All");
   const [search, setSearch] = useState("");
-  const [bswOnly, setBswOnly] = useState(false);
+  const [bswOnly, setBswOnly] = useState(reviewMode);
+
+  // Force BSW filter on whenever review mode is active.
+  useEffect(() => {
+    if (reviewMode) setBswOnly(true);
+  }, [reviewMode]);
 
   const subcategories = useMemo(() => {
     if (selectedCategory === "All") return [];
