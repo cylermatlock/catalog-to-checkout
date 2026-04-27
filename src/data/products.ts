@@ -7,6 +7,8 @@ export interface Product {
   description: string[];
   price?: number;
   image?: string;
+  /** True for items previously purchased by Baylor Scott & White. Renders a BSW badge. */
+  bsw?: boolean;
 }
 
 export const categories = [
