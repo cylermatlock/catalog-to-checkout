@@ -1,12 +1,46 @@
 import { useState, useMemo } from "react";
-import { products, categories } from "@/data/products";
+import { products, categories, type Product } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Search, Filter } from "lucide-react";
 
+// Ordered list — longer/multi-word names first so they win over single-word matches.
+const BRAND_MATCHERS: { label: string; test: (name: string) => boolean }[] = [
+  { label: "Sports Art", test: (n) => /\b(sportsart|sports art)\b/i.test(n) },
+  { label: "Game Ready", test: (n) => /\bgame ready\b/i.test(n) },
+  { label: "EasyStand", test: (n) => /\beasystand\b/i.test(n) },
+  { label: "Therm-X", test: (n) => /\btherm-?x\b/i.test(n) },
+  { label: "Shuttle", test: (n) => /\bshuttle\b/i.test(n) },
+  { label: "GMTS", test: (n) => /\bgmts\b/i.test(n) },
+  { label: "Richmar", test: (n) => /\brichmar\b/i.test(n) },
+  { label: "Chattanooga", test: (n) => /\bchattanooga\b/i.test(n) },
+  { label: "Armedica", test: (n) => /\barmedica\b/i.test(n) },
+  { label: "NuStep", test: (n) => /\bnustep\b/i.test(n) },
+  { label: "Spirit", test: (n) => /\bspirit\b/i.test(n) },
+  { label: "SciFit", test: (n) => /\bscifit\b/i.test(n) },
+  { label: "TKO", test: (n) => /\btko\b/i.test(n) },
+  { label: "Matrix", test: (n) => /\bmatrix\b/i.test(n) },
+  { label: "CanDo", test: (n) => /\bcando\b/i.test(n) },
+  { label: "Theraband", test: (n) => /\bthera-?band\b/i.test(n) },
+  { label: "Airex", test: (n) => /\bairex\b/i.test(n) },
+  { label: "Bosu", test: (n) => /\bbosu\b/i.test(n) },
+  { label: "Baseline", test: (n) => /\bbaseline\b/i.test(n) },
+  { label: "NK", test: (n) => /\bnk\b/i.test(n) },
+  { label: "Ideal", test: (n) => /\bideal\b/i.test(n) },
+  { label: "Squid", test: (n) => /\bsquid\b/i.test(n) },
+  { label: "Biofreeze", test: (n) => /\bbiofreeze\b/i.test(n) },
+  { label: "Sup-R", test: (n) => /\bsup-?r\b/i.test(n) },
+];
+
+const getBrand = (p: Product): string => {
+  for (const b of BRAND_MATCHERS) if (b.test(p.name)) return b.label;
+  return "Other";
+};
+
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
+  const [selectedBrand, setSelectedBrand] = useState<string>("All");
   const [search, setSearch] = useState("");
 
   const subcategories = useMemo(() => {
@@ -21,10 +55,24 @@ const Products = () => {
 
   const [selectedSub, setSelectedSub] = useState<string>("All");
 
+  // Brands available within the currently selected category (or all).
+  const brands = useMemo(() => {
+    const scoped = products.filter(
+      (p) => selectedCategory === "All" || p.category === selectedCategory
+    );
+    const set = new Set(scoped.map(getBrand));
+    return Array.from(set).sort((a, b) => {
+      if (a === "Other") return 1;
+      if (b === "Other") return -1;
+      return a.localeCompare(b);
+    });
+  }, [selectedCategory]);
+
   const filtered = useMemo(() => {
     const matched = products.filter((p) => {
       const matchCat = selectedCategory === "All" || p.category === selectedCategory;
       const matchSub = selectedSub === "All" || p.subcategory === selectedSub;
+      const matchBrand = selectedBrand === "All" || getBrand(p) === selectedBrand;
       const matchSearch =
         !search ||
         p.name.toLowerCase().includes(search.toLowerCase()) ||
@@ -32,7 +80,7 @@ const Products = () => {
         p.description.some((d) =>
           d.toLowerCase().includes(search.toLowerCase())
         );
-      return matchCat && matchSub && matchSearch;
+      return matchCat && matchSub && matchBrand && matchSearch;
     });
 
     // When viewing "All Categories", surface Cardio products at the top
@@ -44,7 +92,7 @@ const Products = () => {
     }
 
     return matched;
-  }, [selectedCategory, selectedSub, search]);
+  }, [selectedCategory, selectedSub, selectedBrand, search]);
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -83,6 +131,7 @@ const Products = () => {
               onChange={(e) => {
                 setSelectedCategory(e.target.value);
                 setSelectedSub("All");
+                setSelectedBrand("All");
               }}
             >
               <option value="All">All Categories</option>
@@ -124,7 +173,39 @@ const Products = () => {
           </div>
         )}
 
-        {/* Results count */}
+        {/* Brand pills */}
+        {brands.length > 1 && (
+          <div className="flex flex-wrap items-center gap-2 mb-6">
+            <span className="text-xs font-semibold text-muted-foreground mr-1">
+              Brand:
+            </span>
+            <button
+              onClick={() => setSelectedBrand("All")}
+              className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                selectedBrand === "All"
+                  ? "bg-primary text-primary-foreground"
+                  : "bg-secondary text-secondary-foreground hover:bg-primary/10"
+              }`}
+            >
+              All Brands
+            </button>
+            {brands.map((brand) => (
+              <button
+                key={brand}
+                onClick={() => setSelectedBrand(brand)}
+                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                  selectedBrand === brand
+                    ? "bg-primary text-primary-foreground"
+                    : "bg-secondary text-secondary-foreground hover:bg-primary/10"
+                }`}
+              >
+                {brand}
+              </button>
+            ))}
+          </div>
+        )}
+
+
         <p className="text-sm text-muted-foreground mb-4">
           Showing {filtered.length} product{filtered.length !== 1 ? "s" : ""}
         </p>
