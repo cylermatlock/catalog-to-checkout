@@ -168,24 +168,14 @@ const ProductDetail = () => {
                 )}
               </div>
 
-              {(detail.specSheetUrl || detail.sourceUrl) && (
+      {detail.specSheetUrl && (
                 <div className="mt-4 flex flex-wrap gap-2">
-                  {detail.specSheetUrl && (
-                    <Button asChild variant="outline" size="sm">
-                      <a href={detail.specSheetUrl} target="_blank" rel="noopener noreferrer">
-                        <FileDown className="w-4 h-4 mr-1.5" />
-                        Download spec sheet (PDF)
-                      </a>
-                    </Button>
-                  )}
-                  {detail.sourceUrl && (
-                    <Button asChild variant="ghost" size="sm">
-                      <a href={detail.sourceUrl} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="w-4 h-4 mr-1.5" />
-                        Manufacturer page
-                      </a>
-                    </Button>
-                  )}
+                  <Button asChild variant="outline" size="sm">
+                    <a href={detail.specSheetUrl} target="_blank" rel="noopener noreferrer">
+                      <FileDown className="w-4 h-4 mr-1.5" />
+                      Download spec sheet (PDF)
+                    </a>
+                  </Button>
                 </div>
               )}
             </section>
