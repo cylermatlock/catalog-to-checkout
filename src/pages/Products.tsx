@@ -42,6 +42,7 @@ const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
   const [selectedBrand, setSelectedBrand] = useState<string>("All");
   const [search, setSearch] = useState("");
+  const [bswOnly, setBswOnly] = useState(false);
 
   const subcategories = useMemo(() => {
     if (selectedCategory === "All") return [];
@@ -73,6 +74,7 @@ const Products = () => {
       const matchCat = selectedCategory === "All" || p.category === selectedCategory;
       const matchSub = selectedSub === "All" || p.subcategory === selectedSub;
       const matchBrand = selectedBrand === "All" || getBrand(p) === selectedBrand;
+      const matchBsw = !bswOnly || p.bsw === true;
       const matchSearch =
         !search ||
         p.name.toLowerCase().includes(search.toLowerCase()) ||
@@ -80,7 +82,7 @@ const Products = () => {
         p.description.some((d) =>
           d.toLowerCase().includes(search.toLowerCase())
         );
-      return matchCat && matchSub && matchBrand && matchSearch;
+      return matchCat && matchSub && matchBrand && matchBsw && matchSearch;
     });
 
     // When viewing "All Categories", surface Cardio products at the top
@@ -92,7 +94,7 @@ const Products = () => {
     }
 
     return matched;
-  }, [selectedCategory, selectedSub, selectedBrand, search]);
+  }, [selectedCategory, selectedSub, selectedBrand, bswOnly, search]);
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -142,6 +144,17 @@ const Products = () => {
               ))}
             </select>
           </div>
+          <button
+            onClick={() => setBswOnly((v) => !v)}
+            className={`px-4 py-2.5 rounded-md text-sm font-semibold uppercase tracking-wide transition-colors border ${
+              bswOnly
+                ? "bg-primary text-primary-foreground border-primary"
+                : "bg-card text-foreground border-border hover:border-primary/50"
+            }`}
+            aria-pressed={bswOnly}
+          >
+            BSW Only
+          </button>
         </div>
 
         {/* Subcategory pills */}
