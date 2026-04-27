@@ -1,8 +1,9 @@
-import { useState, useMemo } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { products, categories, type Product } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { BswReviewButtons, BswReviewToolbar } from "@/components/BswReviewOverlay";
 import { Search, Filter } from "lucide-react";
 
 // Ordered list — longer/multi-word names first so they win over single-word matches.
