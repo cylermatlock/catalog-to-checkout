@@ -144,6 +144,17 @@ const Products = () => {
               ))}
             </select>
           </div>
+          <button
+            onClick={() => setBswOnly((v) => !v)}
+            className={`px-4 py-2.5 rounded-md text-sm font-semibold uppercase tracking-wide transition-colors border ${
+              bswOnly
+                ? "bg-primary text-primary-foreground border-primary"
+                : "bg-card text-foreground border-border hover:border-primary/50"
+            }`}
+            aria-pressed={bswOnly}
+          >
+            BSW Only
+          </button>
         </div>
 
         {/* Subcategory pills */}
