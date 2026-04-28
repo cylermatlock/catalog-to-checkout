@@ -241,7 +241,7 @@ export const productImages: Record<string, string> = {
   "248": productAsset("bsw/fab-43-1966.jpg?v=2"),
   "249": productAsset("bsw/fab-50-5130-72x.jpg?v=2"),
   "250": productAsset("bsw/fi-slantl.jpg?v=2"),
-  "251": productAsset("bsw/gm-ws-shelf.jpg?v=3"),
+  "251": productAsset("bsw/gm-ws-shelf.jpg?v=4"),
   "252": productAsset("bsw/mda-bb-cxt.jpg?v=2"),
   "253": productAsset("bsw/mfs-trxpro4.jpg"),
   "254": productAsset("bsw/nc-94700.jpg?v=2"),
