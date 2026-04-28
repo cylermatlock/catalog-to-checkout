@@ -3,7 +3,6 @@ import { products, categories, type Product } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { BswReviewButtons, BswReviewToolbar } from "@/components/BswReviewOverlay";
 import { Search, Filter } from "lucide-react";
 
 // Ordered list — longer/multi-word names first so they win over single-word matches.
@@ -230,26 +229,15 @@ const Products = () => {
         )}
 
 
-        {reviewMode && (
-          <BswReviewToolbar bswProducts={products.filter((p) => p.bsw)} />
-        )}
-
         <p className="text-sm text-muted-foreground mb-4">
           Showing {filtered.length} product{filtered.length !== 1 ? "s" : ""}
         </p>
 
         {/* Product grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {filtered.map((product) =>
-            reviewMode && product.bsw ? (
-              <div key={product.id} className="relative">
-                <BswReviewButtons product={product} />
-                <ProductCard product={product} featured />
-              </div>
-            ) : (
-              <ProductCard key={product.id} product={product} featured />
-            )
-          )}
+          {filtered.map((product) => (
+            <ProductCard key={product.id} product={product} featured />
+          ))}
         </div>
 
         {filtered.length === 0 && (
