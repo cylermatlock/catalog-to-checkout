@@ -23,10 +23,40 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
     <Button asChild variant="outline" size="sm" className="w-full mt-2 font-semibold">
       <Link to={`/product/${product.id}`}>
         <Eye className="w-4 h-4 mr-1.5" />
-        View Details
+        More Details
       </Link>
     </Button>
   ) : null;
+
+  const renderImage = (className: string) => {
+    if (!image) {
+      return (
+        <div className="text-muted-foreground text-4xl font-bold opacity-20">
+          GMTS
+        </div>
+      );
+    }
+    const img = (
+      <img
+        src={image}
+        alt={product.name}
+        className={className}
+        loading="lazy"
+      />
+    );
+    if (showDetails) {
+      return (
+        <Link
+          to={`/product/${product.id}`}
+          className="w-full h-full flex items-center justify-center cursor-pointer"
+          aria-label={`View details for ${product.name}`}
+        >
+          {img}
+        </Link>
+      );
+    }
+    return img;
+  };
 
   const handleAdd = () => {
     addItem(product, qty);
@@ -72,18 +102,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
     return (
       <div className="group bg-card rounded-lg overflow-hidden border-[3px] border-foreground shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
         <div className="aspect-[4/3] bg-gradient-to-br from-secondary to-background flex items-center justify-center overflow-hidden relative">
-          {image ? (
-            <img
-              src={image}
-              alt={product.name}
-              className="w-full h-full object-contain p-2 transition-transform duration-500 group-hover:scale-105"
-              loading="lazy"
-            />
-          ) : (
-            <div className="text-muted-foreground text-4xl font-bold opacity-20">
-              GMTS
-            </div>
-          )}
+          {renderImage("w-full h-full object-contain p-2 transition-transform duration-500 group-hover:scale-105")}
           <span className="absolute top-3 left-3 bg-primary text-primary-foreground text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded">
             {product.subcategory}
           </span>
@@ -144,18 +163,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
   return (
     <div className="bg-card rounded-lg overflow-hidden hover:shadow-lg transition-shadow group border-4 border-solid border-primary">
       <div className="aspect-[4/3] bg-secondary flex items-center justify-center overflow-hidden relative">
-        {image ? (
-          <img
-            src={image}
-            alt={product.name}
-            className="w-full h-full object-contain p-2"
-            loading="lazy"
-          />
-        ) : (
-          <div className="text-muted-foreground text-4xl font-bold opacity-20">
-            GMTS
-          </div>
-        )}
+        {renderImage("w-full h-full object-contain p-2")}
         {product.bsw && (
           <span
             className="absolute top-3 right-3 bg-foreground text-background text-[10px] font-bold tracking-wider px-2 py-1 rounded shadow-md"
