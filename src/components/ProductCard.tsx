@@ -163,18 +163,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
   return (
     <div className="bg-card rounded-lg overflow-hidden hover:shadow-lg transition-shadow group border-4 border-solid border-primary">
       <div className="aspect-[4/3] bg-secondary flex items-center justify-center overflow-hidden relative">
-        {image ? (
-          <img
-            src={image}
-            alt={product.name}
-            className="w-full h-full object-contain p-2"
-            loading="lazy"
-          />
-        ) : (
-          <div className="text-muted-foreground text-4xl font-bold opacity-20">
-            GMTS
-          </div>
-        )}
+        {renderImage("w-full h-full object-contain p-2")}
         {product.bsw && (
           <span
             className="absolute top-3 right-3 bg-foreground text-background text-[10px] font-bold tracking-wider px-2 py-1 rounded shadow-md"
