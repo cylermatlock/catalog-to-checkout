@@ -109,7 +109,7 @@ export const productImages: Record<string, string> = {
   "88": productAsset("fab-30-1900.png"),
   "90": productAsset("airex-balance-pad.png"),
   "91": productAsset("theraband-stability-trainer.jpg"),
-  "92": productAsset("cando-vestibular-rocker.jpg"),
+  "92": productAsset("cando-vestibular-rocker.png"),
   "93": productAsset("theraband-stability-disc.jpg"),
   "94": productAsset("economy-wobble-rocker.jpg"),
   "95": productAsset("cando-balance-discs.jpg"),
