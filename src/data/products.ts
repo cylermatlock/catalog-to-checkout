@@ -33,17 +33,17 @@ export const products: Product[] = [
 
   // REHAB FURNITURE - Parallel Bars
   { id: "7", name: "GMTS 10' Platform Mounted Parallel Bars", category: "Rehab Furniture", subcategory: "Parallel Bars", sku: "TMS 720760", description: ["Mounted to 1-1/2\" thick hardwood", "Safety tread at both ends", "Width adjustable", "Heavy uprights", "Easy height changes", "End bumpers on handrails", "400 lb weight capacity"] },
-  { id: "8", name: "GMTS 7' Platform Mounted Parallel Bars", category: "Rehab Furniture", subcategory: "Parallel Bars", sku: "TMS 720761", description: ["Mounted to 1-1/2\" thick hardwood", "Safety tread at both ends", "Width adjustable", "Heavy uprights", "Easy height changes", "End bumpers on handrails", "400 lb weight capacity"] },
+  
   { id: "9", name: "Armedica Power Parallel Bars", category: "Rehab Furniture", subcategory: "Parallel Bars", sku: "AM TM700", description: ["Digital user friendly display", "Memory buttons for storage", "Microprocessor control unit", "Heavy duty construction", "Height monitoring functions", "Slip-resistant platform", "400 lb weight capacity"], bsw: true },
 
   // REHAB FURNITURE - Training Stairs
   { id: "10", name: "GMTS 2 Sided Stairs", category: "Rehab Furniture", subcategory: "Training Stairs", sku: "TMS 720515", description: ["Platform size is 30\"W x 24\"D x 12\"H", "Two 4\"x10\" steps on one side", "One 6\"x10\" step on other side", "All hardwood base", "Rigid mounted handrail", "Includes solid oak handrails", "400 lb weight capacity"] },
-  { id: "11", name: "GMTS Single Sided Stairs", category: "Rehab Furniture", subcategory: "Training Stairs", sku: "TMS 720639", description: ["Platform size is 30\"W x 24\"D x 18\"H", "Three 6\"x10\" steps", "All hardwood base", "Rigid mounted handrail", "Requires a minimum 9' ceiling", "350 lb weight capacity"] },
+  
   { id: "12", name: "GMTS Convertible Stairs", category: "Rehab Furniture", subcategory: "Training Stairs", sku: "TMS 720556", description: ["Platform is 36\"x36\"x18\" high", "104\"L straight mode", "54\" & 74\"L angled mode", "Rigid mounted handrail", "Requires a minimum 9' ceiling", "400 lb weight capacity"] },
 
   // REHAB FURNITURE - Storage & Traction
   { id: "13", name: "Ideal Dumbbell Wall Rack ", category: "Rehab Furniture", subcategory: "Storage", sku: "IM VWR30", description: ["Wall stand for smaller dumbbells", "Grey powdercoat finish", "Welded steel construction", "60 lb total capacity 10 hooks"] },
-  { id: "14", name: "GMTS Combo Weight & Mirror Rack", category: "Rehab Furniture", subcategory: "Storage", sku: "TMS 720589", description: ["6 independent quick-change positions", "Mirror with ANSI safety backing", "Two large shelves for band storage", "2 locking casters", "Holds up to 48 cuff weights, 20 dumbbells, 6 rolls of exercise band"] },
+  
   { id: "15", name: "GMTS Mini Cuff Weight Dumbbell Rack", category: "Rehab Furniture", subcategory: "Storage", sku: "TMS 720631", description: ["Dims 52.5\"H, 34\"W & 19\"D", "Weights and bands sold separately", "3\" swivel casters", "Holds up to 64 cuff weights and 10 dumbbells"] },
   { id: "16", name: "Chattanooga DTS 6M Decompression System", category: "Rehab Furniture", subcategory: "Traction Tables", sku: "CG 8250-6000002", description: ["Fully programmable pull patterns", "Isolation of pretension, progression, traction & regressions", "Variable speed control", "5 unique patterns", "Up to 80 user defined settings"] },
   
