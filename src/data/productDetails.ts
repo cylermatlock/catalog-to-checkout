@@ -1421,7 +1421,7 @@ export const productDetails: Record<string, ProductDetail> = {
         ],
       },
     ],
-    specSheetUrl: "https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LF-PDFs/ProOne-UpperBody-US-Specs.pdf?ext=.pdf",
+    specSheetUrl: "/assets/products/scifit/brochures/pro1-specs.pdf",
     sourceUrl: "https://www.scifit.com/product/pro1/",
     seo: {
       title: "SciFit PRO1 Upper Body Ergometer | GM Therapy",
@@ -1472,7 +1472,7 @@ export const productDetails: Record<string, ProductDetail> = {
         ],
       },
     ],
-    specSheetUrl: "https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LF-PDFs/StepOne-Stepper-StandardSeat-US-Metrics.pdf?ext=.pdf",
+    specSheetUrl: "/assets/products/scifit/brochures/stepone-specs.pdf",
     sourceUrl: "https://www.scifit.com/product/stepone/",
     seo: {
       title: "SciFit StepOne Recumbent Stepper | GM Therapy",
@@ -1522,7 +1522,7 @@ export const productDetails: Record<string, ProductDetail> = {
         ],
       },
     ],
-    specSheetUrl: "https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LF-PDFs/Pro2-Total-Body-Standard-Seat-US-Specs.pdf?ext=.pdf",
+    specSheetUrl: "/assets/products/scifit/brochures/pro2-specs.pdf",
     sourceUrl: "https://www.scifit.com/product/pro2/",
     seo: {
       title: "SciFit PRO2 Total Body Exerciser | GM Therapy",
@@ -1570,7 +1570,7 @@ export const productDetails: Record<string, ProductDetail> = {
         ],
       },
     ],
-    specSheetUrl: "https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LF-PDFs/Pro1000-US-Specs.pdf?ext=.pdf",
+    specSheetUrl: "/assets/products/scifit/brochures/pro1000-specs.pdf",
     sourceUrl: "https://www.scifit.com/product/pro1000/",
     seo: {
       title: "SciFit PRO1000 Seated Upper Body Ergometer | GM Therapy",
