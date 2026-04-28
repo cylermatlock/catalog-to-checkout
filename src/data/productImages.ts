@@ -8,7 +8,7 @@ export const productImages: Record<string, string> = {
   "1": productAsset("gmts-3-section-hilo.png"),
   "2": productAsset("gmts-treatment-table-backrest.png"),
   "3": productAsset("gmts-2-section-bobath.png"),
-  "4": productAsset("gmts-flat-top-table.png"),
+  "4": "https://9d804c45-2957-4662-9f88-abc304fccdcb.lovableproject.com/attached_assets/f7a7e7a6-10f1-4b10-84ab-6a110c84d36b.png",
   "5": productAsset("gmts-deluxe-hi-lo-mat.png"),
   "6": productAsset("gmts-low-mat-table.png"),
   // GMTS Parallel Bars
