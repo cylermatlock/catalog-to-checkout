@@ -193,7 +193,7 @@ export const productImages: Record<string, string> = {
   "200": productAsset("bsw/am-400.png"),
   "201": productAsset("bsw/am-ba334.png"),
   "202": productAsset("bsw/anc-ap-65-01.png?v=2"),
-  "203": productAsset("bsw/anc-at-as-01.png?v=2"),
+  "203": productAsset("bsw/anc-at-as-01.png?v=3"),
   "204": productAsset("bsw/anc-at-pd-01-sm.png?v=2"),
   "205": productAsset("bsw/anc-at-rp-01-25.jpg?v=2"),
   "206": productAsset("bsw/anc-at-tm-01.png?v=2"),
