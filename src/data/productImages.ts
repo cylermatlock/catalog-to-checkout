@@ -29,7 +29,7 @@ export const productImages: Record<string, string> = {
   "19": productAsset("gmts-stools.png"),
   "20": productAsset("gmts-stools.png"),
   // Modalities - Portable TENS (images from richmarweb.com)
-  "25": productAsset("richmar-intensity-10-tens.jpg"),
+  "25": productAsset("richmar-intensity-12-tens.jpg"),
   "26": productAsset("richmar-intensity-select-combo-ii.jpg"),
   "27": productAsset("richmar-if-combo-ii.jpg"),
   // Modalities - Hydrocollator
