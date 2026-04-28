@@ -49,7 +49,7 @@ export const products: Product[] = [
   { id: "18", name: "GMTS Traction Package", category: "Rehab Furniture", subcategory: "Traction Tables", sku: "GMTS TRAC-NEW", description: ["4 section MedSurface table", "TX traction head", "New accessories & belts"], bsw: true },
 
   // REHAB FURNITURE - Stools
-  { id: "19", name: "GMTS Pneumatic Stool", category: "Rehab Furniture", subcategory: "Stools", sku: "RICH SS7677", description: ["Soft durable vinyl seat", "High density fiberglass base", "5 smooth rolling casters", "Adjustable height 18\"-23.5\"", "300 lb weight capacity"] },
+  { id: "19", name: "GMTS Pneumatic Stool", category: "Rehab Furniture", subcategory: "Stools", sku: "RICH SS7677", description: ["Soft durable vinyl seat", "High density fiberglass base", "5 smooth rolling casters", "Adjustable height 18\"-23.5\"", "300 lb weight capacity"], bsw: true },
   // REHAB FURNITURE - Standing Frames
   { id: "22", name: "NK Electric Standing Frame", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "NK 375", description: ["Hi-Lo standing table", "Electric patient lift", "350 lb lift capacity", "33\"x24\" laminate top", "Lift support harness", "Padded knee, chest & back"] },
   { id: "23", name: "EasyStand Evolve", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "AMED PNG50162-1", description: ["Super comfortable for prolonged standing", "Easier transfers and independent standing position", "Available in three sizes"] },
