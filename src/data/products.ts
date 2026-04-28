@@ -46,7 +46,7 @@ export const products: Product[] = [
   { id: "15", name: "GMTS Mini Cuff Weight Dumbbell Rack", category: "Rehab Furniture", subcategory: "Storage", sku: "TMS 720631", description: ["Dims 52.5\"H, 34\"W & 19\"D", "Weights and bands sold separately", "3\" swivel casters", "Holds up to 64 cuff weights and 10 dumbbells"] },
   { id: "16", name: "Chattanooga DTS 6M Decompression System", category: "Rehab Furniture", subcategory: "Traction Tables", sku: "CG 8250-6000002", description: ["Fully programmable pull patterns", "Isolation of pretension, progression, traction & regressions", "Variable speed control", "5 unique patterns", "Up to 80 user defined settings"] },
   
-  { id: "18", name: "GMTS Traction Package", category: "Rehab Furniture", subcategory: "Traction Tables", sku: "GMTS TRAC-NEW", description: ["4 section MedSurface table", "TX traction head", "New accessories & belts"] },
+  { id: "18", name: "GMTS Traction Package", category: "Rehab Furniture", subcategory: "Traction Tables", sku: "GMTS TRAC-NEW", description: ["4 section MedSurface table", "TX traction head", "New accessories & belts"], bsw: true },
 
   // REHAB FURNITURE - Stools
   { id: "19", name: "GMTS Pneumatic Stool", category: "Rehab Furniture", subcategory: "Stools", sku: "RICH SS7677", description: ["Soft durable vinyl seat", "High density fiberglass base", "5 smooth rolling casters", "Adjustable height 18\"-23.5\"", "300 lb weight capacity"] },
