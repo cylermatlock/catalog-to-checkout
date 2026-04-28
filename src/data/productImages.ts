@@ -30,8 +30,8 @@ export const productImages: Record<string, string> = {
   "20": productAsset("gmts-stools.png"),
   // Modalities - Portable TENS (images from richmarweb.com)
   "25": productAsset("richmar-intensity-12-tens.jpg"),
-  "26": productAsset("richmar-intensity-select-combo-ii.jpg"),
-  "27": productAsset("richmar-if-combo-ii.jpg"),
+  "26": productAsset("richmar-intensity-select-combo-ii.jpg?v=2"),
+  "27": productAsset("richmar-if-combo-ii.jpg?v=2"),
   // Modalities - Hydrocollator
   "28": productAsset("richmar-hydratherm-web.jpg"),
   "29": productAsset("chattanooga-m2-hydrocollator.jpg"),
