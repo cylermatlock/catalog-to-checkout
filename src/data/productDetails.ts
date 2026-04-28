@@ -1379,6 +1379,204 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "SportsArt is an industry leader in rehabilitative equipment manufacturing and the UB521M Upper Body Ergometer is a therapist’s favorite modality for seated...",
     },
   },
+
+  // SciFit PRO1 Upper Body — product id "55"
+  "55": {
+    productId: "55",
+    slug: "scifit-pro1-upper-body",
+    tagline:
+      "Versatile, highly adjustable upper body exerciser for seated, standing or ground-based training.",
+    overview: [
+      "The SciFit PRO1 Upper Body is a highly adjustable upper body exerciser that can be used seated, standing, or for ground-based training. Its true step-through design and removable seat make it ideal for users of all abilities, including wheelchair users.",
+      "With very low starting resistance and 191 levels of resistance, the PRO1 supports rehab progressions from the earliest stages through advanced conditioning. Bi-directional cranks and an adjustable tilt head accommodate a wide range of motion needs.",
+    ],
+    highlights: [
+      "Adjustable tilt head for all heights and ranges of motion",
+      "Adjustable arm cranks: 4 ROM settings plus unison motion",
+      "True, adjustable step-through accessibility",
+      "Bi-directional exercise",
+      "Iso-Strength safe, accommodating strength program",
+      "Very low starting resistance",
+      "Wheelchair platform included",
+      "Premium, standard and bariatric seat options",
+    ],
+    gallery: [
+      { src: "/assets/products/scifit/pro1/hero.webp", alt: "SciFit PRO1 Upper Body — hero view" },
+      { src: "/assets/products/scifit/pro1/view-1.webp", alt: "SciFit PRO1 Upper Body — view 1" },
+      { src: "/assets/products/scifit/pro1/view-2.webp", alt: "SciFit PRO1 Upper Body — view 2" },
+      { src: "/assets/products/scifit/pro1/view-3.webp", alt: "SciFit PRO1 Upper Body — view 3" },
+      { src: "/assets/products/scifit/pro1/view-4.webp", alt: "SciFit PRO1 Upper Body — view 4" },
+      { src: "/assets/products/scifit/pro1/view-5.webp", alt: "SciFit PRO1 Upper Body — view 5" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Power Requirements", value: "Self-generating; low-voltage AC adapter, included" },
+          { label: "Maximum User Weight", value: "Premium Seat: 450 lbs (204.18 kg) · Standard Seat: 500 lbs (226.80 kg) · Bariatric Seat: 600 lbs (272.16 kg)" },
+          { label: "Unit Weight", value: "232 lbs (105.23 kg)" },
+          { label: "Unit Size (L x W x H)", value: "60\" x 30\" x 77\" (152.4 x 76.2 x 195.58 cm)" },
+          { label: "Color", value: "Frame: Charcoal · Cover: Cool Gray" },
+          { label: "Manufacturing", value: "Assembled in USA" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LF-PDFs/ProOne-UpperBody-US-Specs.pdf?ext=.pdf",
+    sourceUrl: "https://www.scifit.com/product/pro1/",
+    seo: {
+      title: "SciFit PRO1 Upper Body Ergometer | GM Therapy",
+      description: "Highly adjustable SciFit PRO1 upper body ergometer for seated, standing, or ground-based training. Wheelchair accessible with very low starting resistance.",
+    },
+  },
+
+  // SciFit StepOne Recumbent Stepper — product id "56"
+  "56": {
+    productId: "56",
+    slug: "scifit-stepone-recumbent-stepper",
+    tagline:
+      "Smooth total-body recumbent stepper with user-defined stride length and direct wheelchair access.",
+    overview: [
+      "The SciFit StepOne Recumbent Stepper delivers a smooth, total-body functional movement with user-defined stride length from 2\" to 11.5\" and Intelli-Stride™ feedback for safe rehab progressions.",
+      "A removable seat, step-through design, and integrated grab bar make StepOne ideal for clinical environments and direct wheelchair access. The full-color touch screen displays clinically meaningful readouts including stride length, ascent, watts, and METs.",
+    ],
+    highlights: [
+      "User-defined stride length from 2\" to 11.5\" with Intelli-Stride™ feedback",
+      "Arm-to-leg movement encourages activities of daily living",
+      "Low starting resistance (6 watts) with 191 levels (20 levels in .1 increments)",
+      "Direct wheelchair access with step-through seating and grab bar",
+      "Adjustable arm length and rotating hand grips",
+      "360° swivel seat with recline",
+      "Full-color touch screen console",
+      "Premium, standard and bariatric seat options",
+    ],
+    gallery: [
+      { src: "/assets/products/scifit/stepone/hero.webp", alt: "SciFit StepOne Recumbent Stepper — hero view" },
+      { src: "/assets/products/scifit/stepone/view-1.webp", alt: "SciFit StepOne — view 1" },
+      { src: "/assets/products/scifit/stepone/view-2.webp", alt: "SciFit StepOne — view 2" },
+      { src: "/assets/products/scifit/stepone/view-3.webp", alt: "SciFit StepOne — view 3" },
+      { src: "/assets/products/scifit/stepone/view-4.webp", alt: "SciFit StepOne — view 4" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Power Requirements", value: "Self-generating; low-voltage AC adapter included" },
+          { label: "Maximum User Weight", value: "Premium Seat: 450 lbs (204.18 kg) · Standard Seat: 500 lbs (226.80 kg) · Bariatric Seat: 600 lbs (272.16 kg)" },
+          { label: "User Height Range", value: "54\" – 79\" (137.16 – 200.66 cm)" },
+          { label: "Unit Weight", value: "312 lbs (141.52 kg)" },
+          { label: "Dimensions (L x W x H)", value: "68\" x 30\" x 48\" (172.72 x 76.2 x 121.92 cm)" },
+          { label: "Resistance", value: "191 levels (20 levels in .1 increments)" },
+          { label: "Standard Compliance", value: "EN 957-8" },
+          { label: "Color", value: "Frame: Charcoal · Cover: Cool Gray" },
+          { label: "Manufacturing", value: "Assembled in USA" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LF-PDFs/StepOne-Stepper-StandardSeat-US-Metrics.pdf?ext=.pdf",
+    sourceUrl: "https://www.scifit.com/product/stepone/",
+    seo: {
+      title: "SciFit StepOne Recumbent Stepper | GM Therapy",
+      description: "SciFit StepOne recumbent stepper with user-defined stride length, direct wheelchair access, and full-color touch screen. Ideal for rehab and senior fitness.",
+    },
+  },
+
+  // SciFit PRO2 Total Body — product id "57"
+  "57": {
+    productId: "57",
+    slug: "scifit-pro2-total-body",
+    tagline:
+      "Upper body exerciser and lower body recumbent bike in one — the industry's most versatile rehab tool.",
+    overview: [
+      "The SciFit PRO2® Total Body combines an upper body exerciser and a lower body recumbent bike in a single unit, allowing upper, lower, or total body exercise. Dependent upper and lower cranks enable passive assistance, allowing stronger extremities to assist weaker ones.",
+      "True step-through accessibility, a removable seat, and a 360° therapist assist pedal make the PRO2 ideal for clinical rehab. With 191 levels of resistance and very low starting resistance, it accommodates the full progression from early rehab through fitness.",
+    ],
+    highlights: [
+      "Upper, lower or total body exercise for versatile rehab",
+      "Dependent motion lets stronger extremities assist weaker ones",
+      "Adjustable upper and lower cranks: 3 length settings",
+      "True, adjustable step-through accessibility",
+      "Removable seat for wheelchair access",
+      "360° Therapist Assist Pedal on seat",
+      "Bi-directional exercise with 191 resistance levels",
+      "Iso-Strength safe, accommodating strength program",
+      "Premium, standard and bariatric seat options",
+    ],
+    gallery: [
+      { src: "/assets/products/scifit/pro2/hero.webp", alt: "SciFit PRO2 Total Body — hero view" },
+      { src: "/assets/products/scifit/pro2/view-1.webp", alt: "SciFit PRO2 — view 1" },
+      { src: "/assets/products/scifit/pro2/view-2.webp", alt: "SciFit PRO2 — view 2" },
+      { src: "/assets/products/scifit/pro2/view-3.webp", alt: "SciFit PRO2 — view 3" },
+      { src: "/assets/products/scifit/pro2/view-4.webp", alt: "SciFit PRO2 — view 4" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Power Requirements", value: "Self-generating; low-voltage AC adapter, included" },
+          { label: "Maximum User Weight", value: "Premium Seat: 450 lbs (204.18 kg) · Standard Seat: 500 lbs (226.80 kg) · Bariatric Seat: 600 lbs (272.16 kg)" },
+          { label: "Unit Weight", value: "260 lbs (117.93 kg)" },
+          { label: "Unit Size (L x W x H)", value: "61\" x 30\" x 62\" (154.94 x 76.2 x 157.48 cm)" },
+          { label: "Resistance", value: "191 levels (20 levels in .1 increments), starting at 6 watts" },
+          { label: "Color", value: "Frame: Charcoal · Cover: Cool Gray" },
+          { label: "Manufacturing", value: "Assembled in USA" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LF-PDFs/Pro2-Total-Body-Standard-Seat-US-Specs.pdf?ext=.pdf",
+    sourceUrl: "https://www.scifit.com/product/pro2/",
+    seo: {
+      title: "SciFit PRO2 Total Body Exerciser | GM Therapy",
+      description: "SciFit PRO2 combines upper body ergometer and recumbent bike in one. Dependent motion, 191 resistance levels, wheelchair accessible — ideal for rehab.",
+    },
+  },
+
+  // SciFit PRO1000 Seated Upper Body — product id "59"
+  "59": {
+    productId: "59",
+    slug: "scifit-pro1000-seated-upper-body",
+    tagline:
+      "Accessible seated upper body ergometer with adjustable arm cranks and very low starting resistance.",
+    overview: [
+      "The SciFit PRO1000 Seated Upper Body ergometer features adjustable arm cranks, step-through accessibility, and very low starting resistance — making it easy for any user to get on and go.",
+      "With a removable seat for direct wheelchair access and 191 resistance levels, the PRO1000 supports a wide range of upper body rehabilitation and conditioning protocols in clinics, fitness centers, and home settings.",
+    ],
+    highlights: [
+      "Adjustable arm cranks: 3 ROM settings plus unison motion",
+      "Step-through accessibility",
+      "Bi-directional exercise",
+      "Iso-Strength safe, accommodating strength program",
+      "Very low starting resistance with 191 levels of resistance",
+      "Removable seat for wheelchair access",
+      "Premium, standard and bariatric seat options",
+    ],
+    gallery: [
+      { src: "/assets/products/scifit/pro1000/hero.webp", alt: "SciFit PRO1000 Seated Upper Body — hero view" },
+      { src: "/assets/products/scifit/pro1000/view-1.webp", alt: "SciFit PRO1000 — view 1" },
+      { src: "/assets/products/scifit/pro1000/view-2.webp", alt: "SciFit PRO1000 — view 2" },
+      { src: "/assets/products/scifit/pro1000/view-3.webp", alt: "SciFit PRO1000 — view 3" },
+      { src: "/assets/products/scifit/pro1000/view-4.webp", alt: "SciFit PRO1000 — view 4" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Power Requirements", value: "Self-generating; low-voltage AC adapter, included" },
+          { label: "Maximum User Weight", value: "Premium Seat: 450 lbs (204.18 kg) · Standard Seat: 500 lbs (226.80 kg) · Bariatric Seat: 600 lbs (272.16 kg)" },
+          { label: "Unit Weight", value: "239 lbs (108.41 kg)" },
+          { label: "Unit Size (L x W x H)", value: "61\" x 30\" x 62\" (154.94 x 76.2 x 157.48 cm)" },
+          { label: "Resistance", value: "191 levels (20 levels in .1 increments)" },
+          { label: "Color", value: "Frame: Charcoal · Cover: Cool Gray" },
+          { label: "Manufacturing", value: "Assembled in USA" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LF-PDFs/Pro1000-US-Specs.pdf?ext=.pdf",
+    sourceUrl: "https://www.scifit.com/product/pro1000/",
+    seo: {
+      title: "SciFit PRO1000 Seated Upper Body Ergometer | GM Therapy",
+      description: "SciFit PRO1000 seated upper body ergometer with adjustable arm cranks, 191 resistance levels, and removable seat for wheelchair access.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
