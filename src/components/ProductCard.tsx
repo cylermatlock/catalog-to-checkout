@@ -102,18 +102,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
     return (
       <div className="group bg-card rounded-lg overflow-hidden border-[3px] border-foreground shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
         <div className="aspect-[4/3] bg-gradient-to-br from-secondary to-background flex items-center justify-center overflow-hidden relative">
-          {image ? (
-            <img
-              src={image}
-              alt={product.name}
-              className="w-full h-full object-contain p-2 transition-transform duration-500 group-hover:scale-105"
-              loading="lazy"
-            />
-          ) : (
-            <div className="text-muted-foreground text-4xl font-bold opacity-20">
-              GMTS
-            </div>
-          )}
+          {renderImage("w-full h-full object-contain p-2 transition-transform duration-500 group-hover:scale-105")}
           <span className="absolute top-3 left-3 bg-primary text-primary-foreground text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded">
             {product.subcategory}
           </span>
