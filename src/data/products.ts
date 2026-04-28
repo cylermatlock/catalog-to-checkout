@@ -108,7 +108,7 @@ export const products: Product[] = [
   { id: "57", name: "SciFit Pro 2 - Total Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO230-INT", description: ["Upper, lower or total body", "Dependent motion", "Adjustable cranks", "Removable seat", "Very slow starting resistance", "3 year parts warranty"] },
   
   { id: "59", name: "SciFit Pro 1000 - Seated Upper Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO1031-INT", description: ["Adjustable arm cranks: 3 ROM settings", "Step-through accessibility", "Bi-directional exercise", "191 levels of resistance", "Removable seat for wheelchair access"] },
-  { id: "60", name: "SciFit Pro 1000 Sport - Seated Upper Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO1030-INT", description: ["Get-on-and-go with limited adjustments", "Step-through accessibility", "Bi-directional exercise", "Very low starting resistance"] },
+  
 
   // STRENGTH EQUIPMENT - Shuttle
   { id: "67", name: "Shuttle Systems TNT", category: "Strength Equipment", subcategory: "Shuttle Systems", sku: "CD 7100T", description: ["24\" seat height", "Adjustable hand grips", "PNF towers & pulley systems", "All aluminum construction", "Resistance from 6-300 lbs", "350 lb weight capacity"], bsw: true },
