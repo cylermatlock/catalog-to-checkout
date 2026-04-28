@@ -37,7 +37,6 @@ export const products: Product[] = [
   { id: "9", name: "Armedica Power Parallel Bars", category: "Rehab Furniture", subcategory: "Parallel Bars", sku: "AM TM700", description: ["Digital user friendly display", "Memory buttons for storage", "Microprocessor control unit", "Heavy duty construction", "Height monitoring functions", "Slip-resistant platform", "400 lb weight capacity"], bsw: true },
 
   // REHAB FURNITURE - Training Stairs
-  { id: "10", name: "GMTS 2 Sided Stairs", category: "Rehab Furniture", subcategory: "Training Stairs", sku: "TMS 720515", description: ["Platform size is 30\"W x 24\"D x 12\"H", "Two 4\"x10\" steps on one side", "One 6\"x10\" step on other side", "All hardwood base", "Rigid mounted handrail", "Includes solid oak handrails", "400 lb weight capacity"] },
   
   { id: "12", name: "GMTS Convertible Stairs", category: "Rehab Furniture", subcategory: "Training Stairs", sku: "TMS 720556", description: ["Platform is 36\"x36\"x18\" high", "104\"L straight mode", "54\" & 74\"L angled mode", "Rigid mounted handrail", "Requires a minimum 9' ceiling", "400 lb weight capacity"] },
 
