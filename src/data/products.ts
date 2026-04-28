@@ -119,11 +119,11 @@ export const products: Product[] = [
   { id: "72", name: "Shuttle Ultimate Plus", category: "Strength Equipment", subcategory: "Shuttle Systems", sku: "CD 9100", description: ["Supine Leg Press with 16 elasticords", "Up to 500 lbs of progressive resistance", "4 position adjustable backrest", "PNF total body tower system"] },
 
   // STRENGTH EQUIPMENT - SportsArt
-  { id: "73", name: "SportsArt N965 Horizontal Leg Press", category: "Strength Equipment", subcategory: "SportsArt", sku: "SAA N965", description: ["Seat reclines 90-180 degrees", "440 lbs steel weight stack", "Max user weight: 500lbs", "11 gauge steel frame"] },
+  
   { id: "74", name: "Sports Art DF201 Leg Press / Calf Extension", category: "Strength Equipment", subcategory: "SportsArt", sku: "SAA DF201", description: ["Non-slip foot plate surface", "1:2 weight ratio resistance", "14-gauge machine welded frame", "Heavy-duty marine grade cushions"] },
   { id: "75", name: "SportsArt N961 Multi Hip", category: "Strength Equipment", subcategory: "SportsArt", sku: "SAA N961", description: ["Range of motion limiter", "Hip flexion and extension", "264lbs steel weight stack", "Max user weight: 500lbs"] },
   { id: "76", name: "Sports Art DS972 Functional Trainer", category: "Strength Equipment", subcategory: "SportsArt", sku: "SAA DS972", description: ["Adjustable 1:2 and 1:4 pulleys", "Dual weight stack", "41 pulley positions", "7-piece accessory set included"] },
-  { id: "77", name: "Sports Art DF200 Leg Extension / Leg Curl", category: "Strength Equipment", subcategory: "SportsArt", sku: "SAA DF200", description: ["Spring-lock release knobs", "Adjustable seat-back cushion", "14-gauge machine welded frame", "Heavy-duty marine grade cushions"] },
+  
   { id: "78", name: "Sports Art S973 Cable Tower", category: "Strength Equipment", subcategory: "SportsArt", sku: "SAA S973", description: ["Dual swivel pulleys", "36 incremental adjustments", "1:2 and 1:4 ratios", "Aircraft quality cable", "Marine-grade upholstery"] },
 
   // STRENGTH EQUIPMENT - TKO
