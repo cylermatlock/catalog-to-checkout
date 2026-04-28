@@ -902,6 +902,483 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Spirit CSF-FUNT functional trainer: dual 170 lb stacks, 2:1 ratio, trigger pulley adjustment, 400 lb user capacity, LOOS USA cables. All-in-one training.",
     },
   },
+  // SportsArt T655MS Treadmill — product id "46"
+  "46": {
+    productId: "46",
+    slug: "sportsart-t655ms",
+    tagline: "SportsArt rehabilitation treadmills are designed specifically for cardiac and physical therapy markets and come loaded with unique features, programs, and user amenities to help treat more patients more effectively.",
+    overview: [
+      "SportsArt rehabilitation treadmills are designed specifically for cardiac and physical therapy markets and come loaded with unique features, programs, and user amenities to help treat more patients more effectively.",
+    ],
+    highlights: [
+      "Bi-directional belt motion for retro walking and gait observations",
+      "Decline to -3% grade for back and knee rehab",
+      "Meets UL requirements for current leakage in a medical setting",
+      "Full-length medical side rails with pediatric lower sections for better patient stability",
+      "Eco-Glide auto lubrication system",
+      "CSAFE Port",
+      "Medical Handrails",
+      "Optional Wired Controller",
+      "Forward and Reverse Speed Function (-3 to 12 MPH)",
+      "0.1 SAFE-START™ Speed (Forward & Reverse)",
+      "Contact and Telemetry HR",
+      "Multi-ply 62 x 22 in. Belt",
+      "Optional 3-Speed Fan",
+      "ECO-GLIDE™ Auto Lubrication System",
+      "Optional SA Well +™",
+      "Emergency Stop",
+      "Centered Contact HR",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/t655ms/hero.png", alt: "T655MS Treadmill — hero view" },
+      { src: "/assets/products/sportsart/t655ms/view-1.png", alt: "T655MS Treadmill — view 1" },
+      { src: "/assets/products/sportsart/t655ms/view-2.png", alt: "T655MS Treadmill — view 2" },
+      { src: "/assets/products/sportsart/t655ms/view-3.png", alt: "T655MS Treadmill — view 3" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "390.2 lbs / 177 kg" },
+          { label: "Dimensions (L x W x H)", value: "86.6 x 37.5 x 56.7 in / 220 x 95.5 x 144 cm" },
+          { label: "Running Area", value: "22 x 62 in / 55.9 x 157.5 cm" },
+          { label: "Speed Range", value: "Reverse: 0.1 – 3.0 mph / 0.2 – 5.0 kph Forward: 0.1 – 12.0 mph / 0.2 – 20.0 kph" },
+          { label: "Incline Range", value: "-3 – 15%" },
+          { label: "Max User Weight", value: "500 lbs / 227.3 kg" },
+          { label: "Drive Motor", value: "5.0 HP AC-Servo" },
+          { label: "Read Outs", value: "Calories, Speed, Time, Distance, Cal/HR, METs, Pace, Incline, Heart Rate, Weight Loss Zone, Cardio Zone, Active Zone" },
+          { label: "Workout Programs", value: "Quick Start, Manual, Random (x 10,000), Interval (x3), Glute (x2) Hill (x3), 5K, 10K, Fat Burn, HRC (x3), Fitness Test (Bruce, Gerkin)" },
+          { label: "Special Features", value: "5.0 HP ECO-DRIVE™ Motor, Optional Wired Controller" },
+          { label: "Console Options", value: "Tri-Color LED" },
+          { label: "Step Up Height", value: "8.7 in / 22.2 cm" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://embedded-links.us-1.lytho.us/links/cff9d757-db4e-4bd8-a616-564d854879aa",
+    sourceUrl: "https://www.gosportsart.com/product/t655ms-treadmill/",
+    seo: {
+      title: "SportsArt T655MS Treadmill | GM Therapy",
+      description: "SportsArt rehabilitation treadmills are designed specifically for cardiac and physical therapy markets and come loaded with unique features, programs, and ...",
+    },
+  },
+
+  // SportsArt T661M Treadmill — product id "47"
+  "47": {
+    productId: "47",
+    slug: "sportsart-t661m",
+    tagline: "The T661M treadmill is meticulously engineered for cardiac and physical therapy facilities to revolutionize rehabilitation practices and offer the best patient care.",
+    overview: [
+      "The T661M treadmill is meticulously engineered for cardiac and physical therapy facilities to revolutionize rehabilitation practices and offer the best patient care. Its three-point safety stop system features a button positioned on the console, a safety key and emergency stop switch. Extended handrails comfortably accommodate both adult and pediatric patients while a low 6-inch step-up height provides versatility regardless of the patient’s age or size.",
+      "Also, the maintenance-minimizing ECO-GLIDE™ auto lubrication system keeps the treadmill running at peak capacity while the MyFlex+ omni-directional cushioning provides unmatched support and comfort—minimizing the strain on joints and muscles with each stride. With a variety of preset workouts and ample display readouts, the user is always engaged and informed. Designed to be simple and effective, and loaded with unique features, the T661M will help you more effectively treat more patients.",
+    ],
+    highlights: [
+      "Isolation components meet UL requirements for current leakage in medical settings",
+      "Full length medical side rails with pediatric lower sections for better patient stability",
+      "ECO-GLIDE™ auto lubrication system",
+      "MyFlex+ omni-directional cushioning system",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/t661m/hero.png", alt: "T661M Treadmill — hero view" },
+      { src: "/assets/products/sportsart/t661m/view-1.png", alt: "T661M Treadmill — view 1" },
+      { src: "/assets/products/sportsart/t661m/view-2.png", alt: "T661M Treadmill — view 2" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "330.7 lbs / 150 kg" },
+          { label: "Dimensions (L x W x H)", value: "80.3 x 37 x 55.9 in / 203.9 x 93.9 x 142 cm" },
+          { label: "Speed Range", value: "0.1–12 mph / 0.16–20 kph" },
+          { label: "Max User Weight", value: "400 lbs / 181.4 kg" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://embedded-links.us-1.lytho.us/links/f03cf170-6eba-42c2-97d4-dbfca6636ec4",
+    sourceUrl: "https://www.gosportsart.com/product/t661m-treadmill/",
+    seo: {
+      title: "SportsArt T661M Treadmill | GM Therapy",
+      description: "The T661M treadmill is meticulously engineered for cardiac and physical therapy facilities to revolutionize rehabilitation practices and offer the best pat...",
+    },
+  },
+
+  // SportsArt C565R Recumbent Cycle — product id "48"
+  "48": {
+    productId: "48",
+    slug: "sportsart-c565r",
+    tagline: "With self-powered engineering, the C565R recumbent cycle is the epitome of function and value for any fitness facility.",
+    overview: [
+      "With self-powered engineering, the C565R recumbent cycle is the epitome of function and value for any fitness facility. Magnetic resistance results in a smooth and quiet ride and a unique step-through design provides easy access. With 15 resistance levels and electronic resistance control, workouts can be as intense as the user wants.",
+      "A variety of preset workouts and data readouts keep the user engaged and informed. Simple seat adjustments allows the user to easily change the seat position while exercising. Providing an effective low-impact, total-body cardiovascular and strength workout, the C565R recumbent cycle empowers users of any fitness level to experience the many benefits of exercise.",
+    ],
+    highlights: [
+      "Convenient seat adjustment handle is easy to reach while exercising",
+      "Oversized pedals feature quick strap adjustment for easy customization",
+      "Unique step-through design allows easy access",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/c565r/hero.png", alt: "C565R Recumbent Cycle — hero view" },
+      { src: "/assets/products/sportsart/c565r/view-1.png", alt: "C565R Recumbent Cycle — view 1" },
+      { src: "/assets/products/sportsart/c565r/view-2.png", alt: "C565R Recumbent Cycle — view 2" },
+      { src: "/assets/products/sportsart/c565r/view-3.png", alt: "C565R Recumbent Cycle — view 3" },
+      { src: "/assets/products/sportsart/c565r/view-4.png", alt: "C565R Recumbent Cycle — view 4" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "156.2 lbs / 71 kg" },
+          { label: "Dimensions (L x W x H)", value: "65.8 x 25.6 x 49.9 in / 167.1 x 65 x 126.8 cm" },
+          { label: "Max User Weight", value: "400 lbs / 181.4 kg" },
+          { label: "Resistance", value: "15 Levels" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://embedded-links.us-1.lytho.us/links/fdff4221-2ea2-4088-a972-4789ec7686af",
+    sourceUrl: "https://www.gosportsart.com/product/c565r-recumbent-cycle/",
+    seo: {
+      title: "SportsArt C565R Recumbent Cycle | GM Therapy",
+      description: "With self-powered engineering, the C565R recumbent cycle is the epitome of function and value for any fitness facility.",
+    },
+  },
+
+  // SportsArt DF201 Leg Press/Calf Extension — product id "74"
+  "74": {
+    productId: "74",
+    slug: "sportsart-df201",
+    tagline: "Our unique dual function push-pull design is your ideal product for your space.",
+    overview: [
+      "Our unique dual function push-pull design is your ideal product for your space. You get two motions in one beautifully designed machine. This product can be adjusted to strengthen your legs and calves depending on foot placement.",
+    ],
+    highlights: [
+      "Seat-back proximity adjustment lever is conveniently located on the right side, near handlebar",
+      "Step-through design allows for easy entrance/exit",
+      "Handles at side and top provide secure entrance/exit to machine",
+      "Non-slip foot plate surface provides maximum security",
+      "Multiple seating positions give full range of motion",
+      "1:2 weight ratio means resistance feels twice as heavy as actual physical weight, keeping product weight to a minimum",
+      "5-inch (12.7 cm) deep groove POM pulleys provide consistent cable tracking",
+      "14-gauge machine welded frame",
+      "Stainless steel guide rods resist rust and maintain smooth operation",
+      "Heavy-duty marine grade cushions",
+      "Multiple adjustment points for maximum customization",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/df201/hero.jpg", alt: "DF201 Leg Press/Calf Extension — hero view" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "530.2 lbs / 241 kg" },
+          { label: "Dimensions (L x W x H)", value: "92.9 x 45.3 x 67.5 pul / 236 x 115 x 171.5 cm" },
+          { label: "Weight Stack", value: "440lbs / 200 kg (with 1:2 pulley ratio)" },
+          { label: "Max User Weight", value: "500 lb / 227.3 kg" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.gosportsart.com/wp-content/uploads/documentation/DF201_Sell_ENG.pdf",
+    sourceUrl: "https://www.gosportsart.com/product/df201-leg-press-calf-extension/",
+    seo: {
+      title: "SportsArt DF201 Leg Press/Calf Extension | GM Therapy",
+      description: "Our unique dual function push-pull design is your ideal product for your space.",
+    },
+  },
+
+  // SportsArt N961 Total Hip — product id "75"
+  "75": {
+    productId: "75",
+    slug: "sportsart-n961",
+    tagline: "SportsArt Status Series offers options for total body training, allowing users to quickly and easily switch between upper, lower, and core exercises.",
+    overview: [
+      "SportsArt Status Series offers options for total body training, allowing users to quickly and easily switch between upper, lower, and core exercises.",
+    ],
+    highlights: [
+      "Range of motion limiter allows users to set start and end points for safety and comfort",
+      "Adjustable for hip flexion/extension and abduction/adduction movements",
+      "Entire upper portion slides vertically on linear bearings to adjust pivot point for users of different heights",
+      "Adjustable pad for various exercises",
+      "Non-skid platform",
+      "Incremental 3.5 and 6.5 lb (1.58 & 2.9 kg)  micro-loading adjustments",
+      "Cold rolled steel weight stacks with noise dampening",
+      "Stainless steel guide rods resist rust and stay smooth",
+      "Kevlar belts for quiet, smooth action and optimal tensile strength; belt contains 2200 lb (998 kg) tensile strength aircraft cables",
+      "Marine-grade double stitched upholstery",
+      "Heavy-duty European-styled cushions",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/n961/hero.png", alt: "N961 Total Hip — hero view" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "659 lbs / 299 kg" },
+          { label: "Dimensions (L x W x H)", value: "64 x 48 x 76.8 in / 162.6 x 122 x195 cm" },
+          { label: "Weight Stack", value: "264 lbs / 120 kg" },
+          { label: "Max User Weight", value: "500 lbs / 227 kg" },
+          { label: "Starting Weight", value: "7.7 lbs / 3.5 kg" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://embedded-links.us-1.lytho.us/links/90cfc9f4-972e-4e13-a440-630970411537",
+    sourceUrl: "https://www.gosportsart.com/product/n961/",
+    seo: {
+      title: "SportsArt N961 Total Hip | GM Therapy",
+      description: "SportsArt Status Series offers options for total body training, allowing users to quickly and easily switch between upper, lower, and core exercises.",
+    },
+  },
+
+  // SportsArt DS972 Functional Trainer — product id "76"
+  "76": {
+    productId: "76",
+    slug: "sportsart-ds972",
+    tagline: "The SportsArt DS972 Dual Stack Functional Trainer offers a unique adjustable pulley ratio (2:1 and 4:1) giving users more workout options and increases weight selection options.",
+    overview: [
+      "The SportsArt DS972 Dual Stack Functional Trainer offers a unique adjustable pulley ratio (2:1 and 4:1) giving users more workout options and increases weight selection options.",
+    ],
+    highlights: [
+      "Adjustable 2:1 and 4:1 pulley ratios",
+      "Dual weight stack",
+      "41 pulley positions offers more workout positions and versatility",
+      "Integrated pull-up bars",
+      "Magnetized weight selector fork with retracting cord",
+      "7-piece accessory set included",
+      "Deep-groove, 5-inch (12.7 cm)  shrouded pulleys provide faultless cable tracking",
+      "Cold rolled steel weight stacks with noise dampening",
+      "Stainless steel guide rods resist rust and stay smooth",
+      "Internally lubricated 2200 lbs (1000 kg) steel aircraft cables provide quiet, smooth operation",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/ds972/hero.png", alt: "DS972 Functional Trainer — hero view" },
+      { src: "/assets/products/sportsart/ds972/view-1.png", alt: "DS972 Functional Trainer — view 1" },
+      { src: "/assets/products/sportsart/ds972/view-2.png", alt: "DS972 Functional Trainer — view 2" },
+      { src: "/assets/products/sportsart/ds972/view-3.png", alt: "DS972 Functional Trainer — view 3" },
+      { src: "/assets/products/sportsart/ds972/view-4.png", alt: "DS972 Functional Trainer — view 4" },
+      { src: "/assets/products/sportsart/ds972/view-5.png", alt: "DS972 Functional Trainer — view 5" },
+      { src: "/assets/products/sportsart/ds972/view-6.jpg", alt: "DS972 Functional Trainer — view 6" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "679.8 lbs / 309 kg" },
+          { label: "Dimensions (L x W x H)", value: "60.2 x 39.4 x 89.2 in / 153 x 100 x 226.5 cm" },
+          { label: "Weight Stack", value: "200 lbs / 90 kg (per stack)" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://embedded-links.us-1.lytho.us/links/4ef86f8a-12d0-489a-bfa6-9f3969d9e60a",
+    sourceUrl: "https://www.gosportsart.com/product/ds972-functional-trainer/",
+    seo: {
+      title: "SportsArt DS972 Functional Trainer | GM Therapy",
+      description: "The SportsArt DS972 Dual Stack Functional Trainer offers a unique adjustable pulley ratio (2:1 and 4:1) giving users more workout options and increases wei...",
+    },
+  },
+
+  // SportsArt S973 Cable Tower — product id "78"
+  "78": {
+    productId: "78",
+    slug: "sportsart-s973",
+    tagline: "SportsArt Status Series offers options for total body training, allowing users to quickly and easily switch between upper, lower, and core exercises.",
+    overview: [
+      "SportsArt Status Series offers options for total body training, allowing users to quickly and easily switch between upper, lower, and core exercises.",
+    ],
+    highlights: [
+      "Dual swivel pulleys adjust vertically and lock into place, allowing for functional training from virtually any angle",
+      "36 incremental adjustments for the ultimate in customization",
+      "Easy-grip bars stabilize exerciser’s during balance-challenging workouts",
+      "1:2 and 1:4 ratios provide versatility for personal and sports-specific training; 1:2 (one pulley); 1:4 (two pulleys)",
+      "Aircraft quality cable with 2200 lb (998 kg) tensile strength",
+      "Cold rolled steel weight stacks with noise dampening",
+      "Stainless steel guide rods resist rust and stay smooth",
+      "Deep-groove, 5-inch (12.7 cm)  shrouded pulleys provide faultless cable tracking",
+      "Internally lubricated 1500 lb (680 kg) steel aircraft cables provide quiet, smooth operation",
+      "Marine-grade double stitched upholstery",
+      "Heavy-duty European-styled cushions",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/s973/hero.jpg", alt: "S973 Cable Tower — hero view" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "454 lbs / 206.4 kg" },
+          { label: "Dimensions (L x W x H)", value: "36.2 x 33.5 x 85.4 in / 92 x 85 x 217 cm" },
+          { label: "Weight Stack", value: "220 lb / 100 kg" },
+          { label: "Max User Weight", value: "500 lbs / 227 kg" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.gosportsart.com/wp-content/uploads/documentation/S973_Sell_ENG.pdf",
+    sourceUrl: "https://www.gosportsart.com/product/s973-cable-tower/",
+    seo: {
+      title: "SportsArt S973 Cable Tower | GM Therapy",
+      description: "SportsArt Status Series offers options for total body training, allowing users to quickly and easily switch between upper, lower, and core exercises.",
+    },
+  },
+
+  // SportsArt DF-300 Leg Extension/Leg Curl — product id "266"
+  "266": {
+    productId: "266",
+    slug: "sportsart-df-300",
+    tagline: "Our unique dual function push-pull design is the ideal product for your space, combining two motions in one beautifully designed machine.",
+    overview: [
+      "Our unique dual function push-pull design is the ideal product for your space, combining two motions in one beautifully designed machine. The DF-300 Leg Extension/Leg Curl strengthens your quadriceps.",
+    ],
+    highlights: [
+      "Direct drive system offers two opposing cams for less cable-slop and faster workout changeover",
+      "Easy transition from leg extension to seated leg curl",
+      "Plate increments: 20 x 11 lbs (5 kg)",
+      "Adjustable seat back and leg pads for user customization",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/df-300/hero.png", alt: "DF-300 Leg Extension/Leg Curl — hero view" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "494.9 lbs / 224.5 kg" },
+          { label: "Dimensions (L x W x H)", value: "53.1 x 39.8 x 64 in / 134.8 x 101 x 162.5 cm" },
+          { label: "Weight Stack", value: "220 lb / 100 kg" },
+          { label: "Max User Weight", value: "500 lb / 227.3 kg" },
+          { label: "Starting Weight", value: "Curl: 13 lbs / 6 kg, Extension: 13 lbs / 6 kg" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://embedded-links.us-1.lytho.us/links/c2971707-4960-442b-8cba-f919ec041962",
+    sourceUrl: "https://www.gosportsart.com/product/df-300-leg-extension-leg-curl/",
+    seo: {
+      title: "SportsArt DF-300 Leg Extension/Leg Curl | GM Therapy",
+      description: "Our unique dual function push-pull design is the ideal product for your space, combining two motions in one beautifully designed machine.",
+    },
+  },
+
+  // SportsArt N973 Cable Tower — product id "267"
+  "267": {
+    productId: "267",
+    slug: "sportsart-n973",
+    tagline: "SportsArt Status Series offers options for total body training, allowing users to quickly and easily switch between upper, lower, and core exercises.",
+    overview: [
+      "SportsArt Status Series offers options for total body training, allowing users to quickly and easily switch between upper, lower, and core exercises.",
+    ],
+    highlights: [
+      "Dual swivel pulleys adjust vertically and lock into place, allowing for functional training from virtually any angle",
+      "36 incremental adjustments for the ultimate in customization",
+      "Easy-grip bars stabilize exerciser’s during balance-challenging workouts",
+      "2:1 and 4:1 ratios provide versatility for personal and sports-specific training; 2:1 (two pulleys); 4:1 (one pulley)",
+      "Aircraft quality cable with 2200 lb (998 kg) tensile strength",
+      "Cold rolled steel weight stacks with noise dampening",
+      "Stainless steel guide rods resist rust and stay smooth",
+      "Deep-groove, 5-inch (12.7 cm)  shrouded pulleys provide faultless cable tracking",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/n973/hero.png", alt: "N973 Cable Tower — hero view" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "454 lbs / 206 kg" },
+          { label: "Dimensions (L x W x H)", value: "35.9 x 35 x 85.4 in / 91.2 x 88.8 x 217 cm" },
+          { label: "Weight Stack", value: "220 lbs / 100 kg" },
+          { label: "Max User Weight", value: "500 lbs / 227 kg" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://embedded-links.us-1.lytho.us/links/036a291e-eec5-416d-a411-3dce3eb88f14",
+    sourceUrl: "https://www.gosportsart.com/product/n973/",
+    seo: {
+      title: "SportsArt N973 Cable Tower | GM Therapy",
+      description: "SportsArt Status Series offers options for total body training, allowing users to quickly and easily switch between upper, lower, and core exercises.",
+    },
+  },
+
+  // SportsArt P873 Cable Tower — product id "268"
+  "268": {
+    productId: "268",
+    slug: "sportsart-p873",
+    tagline: "This product allows users to quickly and easily switch between upper, lower, and core body exercises for a complete workout.",
+    overview: [
+      "This product allows users to quickly and easily switch between upper, lower, and core body exercises for a complete workout. A lower stack height and compact footprint make it ideal for any sized facility.",
+    ],
+    highlights: [
+      "Dual swivel pulleys adjust vertically and lock into place, allowing for functional training from virtually any angle",
+      "36 incremental adjustments for the ultimate in customization",
+      "Easy grip bars stabilize during balance challenging workouts",
+      "4:1 (one pulley) and 2:1 (two pulleys) ratios provide versatility for personal and sport-specific training",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/p873/hero.png", alt: "P873 Cable Tower — hero view" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "340 lbs / 154 kg" },
+          { label: "Dimensions (L x W x H)", value: "41 x 36.2 x 83.1 in / 104.1 x 91.9 x 211 cm" },
+          { label: "Weight Stack", value: "176 lb / 80 kg" },
+          { label: "Max User Weight", value: "500 lbs / 227 kg" },
+          { label: "Starting Weight", value: "3.3 lbs / 1.5 kg" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://embedded-links.us-1.lytho.us/links/9bf4b079-05ee-45a3-b853-ea390ab61b2a",
+    sourceUrl: "https://www.gosportsart.com/product/p873-cable-tower/",
+    seo: {
+      title: "SportsArt P873 Cable Tower | GM Therapy",
+      description: "This product allows users to quickly and easily switch between upper, lower, and core body exercises for a complete workout.",
+    },
+  },
+
+  // SportsArt UB521M Bilateral Upper Body Ergometer — product id "270"
+  "270": {
+    productId: "270",
+    slug: "sportsart-ub521m",
+    tagline: "SportsArt is an industry leader in rehabilitative equipment manufacturing and the UB521M Upper Body Ergometer is a therapist’s favorite modality for seated, standing or users needing wheelchair access.",
+    overview: [
+      "SportsArt is an industry leader in rehabilitative equipment manufacturing and the UB521M Upper Body Ergometer is a therapist’s favorite modality for seated, standing or users needing wheelchair access.",
+    ],
+    highlights: [
+      "Bi-directional resistance for varied exercise and therapy sessions.",
+      "Optional wheelchair ramp",
+      "Hand crank position rotates **180** **°** for opposing or in-unison arm motion (optional function.)",
+      "Roll away seat carriage for wheelchair patients and optional wheelchair platform.",
+      "Adjustable ROM radius with 4 settings at 6.5, 7.5 8.5 and 9.5 inches (16.5, 19, 21.5, 24 cm).",
+      "Belt drive offers quiet, smooth operation with seamless transition between forward and reverse motion.",
+      "Tilting console and pivoting display offer customized fit for most users in seated or standing position.",
+      "Optional wheelchair ramp",
+      "Optional wheelchair tie down",
+      "Optional grip assist gloves",
+    ],
+    gallery: [
+      { src: "/assets/products/sportsart/ub521m/hero.png", alt: "UB521M Bilateral Upper Body Ergometer — hero view" },
+      { src: "/assets/products/sportsart/ub521m/view-1.png", alt: "UB521M Bilateral Upper Body Ergometer — view 1" },
+      { src: "/assets/products/sportsart/ub521m/view-2.png", alt: "UB521M Bilateral Upper Body Ergometer — view 2" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Unit Weight", value: "Unit Weight: 264.6 lbs / 120 kg" },
+          { label: "Dimensions (L x W x H)", value: "69.3 x 31.5 x 75 in / 176 x 80 x 190.5 cm" },
+          { label: "Resistance", value: "20 by 0.1 increments" },
+          { label: "Power Requirement", value: "15A, 120V AC, grounded" },
+          { label: "Max User Weight", value: "500 lbs / 227.3 kg" },
+          { label: "Read Outs", value: "Workout Level, Calories, Time, RPM, Distance, METs, Watts, Speed, Heart Rate, Cardio Advisor/WT Loss" },
+          { label: "Workout Programs", value: "Custom Interval, Random, Hill, Track, Iso Kinetic, Iso Strength, Custom HR, Cardio/Weight Loss, Custom HR, ActivZone™" },
+          { label: "Tech Specs", value: "15A 120V AC, grounded" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://embedded-links.us-1.lytho.us/links/4ce1446c-34d9-43d1-ba83-90070c720abc",
+    sourceUrl: "https://www.gosportsart.com/product/ub521m-bilateral-upper-body-ergometer/",
+    seo: {
+      title: "SportsArt UB521M Bilateral Upper Body Ergometer | GM Therapy",
+      description: "SportsArt is an industry leader in rehabilitative equipment manufacturing and the UB521M Upper Body Ergometer is a therapist’s favorite modality for seated...",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
