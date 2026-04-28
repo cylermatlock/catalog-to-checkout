@@ -128,7 +128,7 @@ export const products: Product[] = [
 
   // STRENGTH EQUIPMENT - TKO
   { id: "82", name: "TKO Defiant Custom Bay Single Station", category: "Strength Equipment", subcategory: "TKO", sku: "TKO DB-SUB-8-STAM", description: ["Accessories included", "Pull up bar", "4 tier storage", "Floor mounted system", "53\"x45\"x95\""] },
-  { id: "83", name: "TKO Custom Storage Rack", category: "Strength Equipment", subcategory: "TKO", sku: "TKO 92ATT", description: ["72\"W x 72\"H x 33.5\"D", "Customizable", "Free Standing", "Tablet holder", "4 Heavy duty trays"] },
+  
   { id: "84", name: "TKO 3 Tier Dumbbell Rack", category: "Strength Equipment", subcategory: "TKO", sku: "TKO 6235-B", description: ["55\"W x 30\"D x 40\"H", "174lbs", "Dumbbells sold separately", "Heavy duty frame"] },
 
   // BALANCE PRODUCTS
