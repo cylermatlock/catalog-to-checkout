@@ -6460,6 +6460,221 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Multi-purpose 52.5\" × 34\" × 19\" enclosed storage and weight rack with front pegboard for therapy weights, dumbbell hooks, four oak-door shelves, and 3\" casters.",
     },
   },
+  "332": {
+    productId: "332",
+    slug: "gmts-deluxe-3-step-closed-end-staircase",
+    tagline: "Hand-crafted oak plywood 3-step closed-end training staircase with solid oak handrails, anti-slip treads, and 350 lb capacity.",
+    overview: [
+      "The GMTS Deluxe 3-Step Closed-End Staircase is hand crafted with high quality oak plywood and includes solid oak handrails and uprights. All wood surfaces are finished with durable clear polyurethane for long-lasting protection in busy clinical environments.",
+      "Handrails are ergonomically designed for a comfortable grip and ease of use, and fully enclose the platform to provide secure support during stair training. Three 6\" high steps and a 30\"W × 24\"D × 18\"H platform offer a stable progression for early to mid-stage rehab.",
+      "Anti-slip treads are standard on all steps and the platform to ensure safety during therapy sessions. Supports up to 350 lbs and is made in the USA.",
+    ],
+    highlights: [
+      "Hand-crafted oak plywood with solid oak handrails and uprights",
+      "Durable clear polyurethane finish on all wood surfaces",
+      "Ergonomic handrails fully enclose the platform",
+      "(3) 6\" high steps, 30\" wide",
+      "Platform: 30\"W × 24\"D × 18\"H",
+      "Anti-slip treads on all steps and platform",
+      "350 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/bsw/tms-720639-001.jpg?v=7", alt: "GMTS Deluxe 3-Step Closed-End Staircase" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Steps", value: "(3) 6\" high, 30\" wide" },
+          { label: "Platform", value: "30\"W × 24\"D × 18\"H" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Frame", value: "High-quality oak plywood" },
+          { label: "Handrails / uprights", value: "Solid oak" },
+          { label: "Finish", value: "Durable clear polyurethane" },
+          { label: "Treads", value: "Anti-slip on all steps and platform" },
+        ],
+      },
+      {
+        title: "Capacity",
+        rows: [
+          { label: "Weight capacity", value: "350 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/balance-stability/tru-deluxe-3-step-closed-end-staircase/",
+    seo: {
+      title: "GMTS Deluxe 3-Step Closed-End Staircase | GM Therapy",
+      description: "Hand-crafted oak 3-step closed-end training staircase with enclosed handrails, anti-slip treads, 30\"W × 24\"D × 18\"H platform, and 350 lb capacity. Made in the USA.",
+    },
+  },
+  "331": {
+    productId: "331",
+    slug: "gmts-multi-purpose-mobile-weight-rack-with-mirror",
+    tagline: "Multi-purpose mobile weight rack with full-view mirror, front pegboard for therapy weights, dumbbell hooks, and storage shelves.",
+    overview: [
+      "Beautiful craftsmanship on this multi-purpose weight rack. The front features an almond-coated pegboard sized for nine therapy weights and ships with eleven pegboard safety hooks for therapy weight storage.",
+      "Ten dumbbell hooks on the left side and ten on the right side hold dumbbells, while a full-view distortion-free glass mirror lets patients self-monitor form during exercise. Two large shelves provide additional storage for bands and supplies.",
+      "Made in a durable black or natural oak finish and offered with four 3\" diameter easy-rolling casters for quick repositioning. Made in the USA. Weights and bands sold separately unless specified.",
+    ],
+    highlights: [
+      "Beautiful craftsmanship on a multi-purpose mobile weight rack",
+      "Almond-coated front pegboard sized for 9 therapy weights",
+      "Includes (11) pegboard safety hooks for therapy weights",
+      "(10) dumbbell hooks on left + (10) on right side",
+      "Full-view distortion-free glass mirror",
+      "Two large shelves for band/supply storage",
+      "Available in black or natural oak finish",
+      "(4) 3\" diameter easy-rolling casters",
+      "Made in the USA",
+      "Weights and bands sold separately (unless specified)",
+    ],
+    gallery: [
+      { src: "/assets/products/bsw/tms-720589-001.jpg?v=7", alt: "GMTS Multi-Purpose Mobile Weight Rack with Mirror" },
+    ],
+    specGroups: [
+      {
+        title: "Storage Capacity",
+        rows: [
+          { label: "Front pegboard", value: "Almond-coated, sized for 9 therapy weights" },
+          { label: "Pegboard hooks", value: "(11) safety hooks included" },
+          { label: "Dumbbell hooks", value: "(10) left side + (10) right side" },
+          { label: "Shelves", value: "(2) large shelves for bands/supplies" },
+        ],
+      },
+      {
+        title: "Mirror & Mobility",
+        rows: [
+          { label: "Mirror", value: "Full-view distortion-free glass" },
+          { label: "Casters", value: "(4) 3\" diameter, easy-rolling" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Finish options", value: "Black or natural oak" },
+          { label: "Origin", value: "Made in the USA" },
+          { label: "Note", value: "Weights and bands sold separately unless specified" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/therapeutic-exercise/equipment/tru-multi-purpose-mobile-weight-rack-w-mirror/",
+    seo: {
+      title: "GMTS Multi-Purpose Mobile Weight Rack with Mirror | GM Therapy",
+      description: "Mobile multi-purpose weight rack with full-view glass mirror, almond pegboard for 9 therapy weights, 20 dumbbell hooks, two storage shelves, and 3\" casters. Made in the USA.",
+    },
+  },
+  "334": {
+    productId: "334",
+    slug: "gmts-deluxe-4-step-closed-end-staircase",
+    tagline: "Hand-crafted oak plywood 4-step closed-end training staircase with solid oak handrails, anti-slip treads, and 350 lb capacity.",
+    overview: [
+      "The GMTS Deluxe 4-Step Closed-End Staircase is hand crafted with high quality oak plywood and includes solid oak handrails and uprights. All wood surfaces are finished with durable clear polyurethane for long-lasting protection in busy clinical environments.",
+      "Handrails are ergonomically designed for a comfortable grip and ease of use, and fully enclose the platform to provide secure support during stair training. Four 6\" high steps and a 30\"W × 24\"D × 24\"H platform deliver a greater height challenge for mid-to-late stage rehab.",
+      "Anti-slip treads are standard on all steps and the platform to ensure safety during therapy sessions. Supports up to 350 lbs and is made in the USA.",
+    ],
+    highlights: [
+      "Hand-crafted oak plywood with solid oak handrails and uprights",
+      "Durable clear polyurethane finish on all wood surfaces",
+      "Ergonomic handrails fully enclose the platform",
+      "(4) 6\" high steps, 30\" wide",
+      "Platform: 30\"W × 24\"D × 24\"H",
+      "Anti-slip treads on all steps and platform",
+      "350 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/bsw/tms-720870-001.jpg?v=7", alt: "GMTS Deluxe 4-Step Closed-End Staircase" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Steps", value: "(4) 6\" high, 30\" wide" },
+          { label: "Platform", value: "30\"W × 24\"D × 24\"H" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Frame", value: "High-quality oak plywood" },
+          { label: "Handrails / uprights", value: "Solid oak" },
+          { label: "Finish", value: "Durable clear polyurethane" },
+          { label: "Treads", value: "Anti-slip on all steps and platform" },
+        ],
+      },
+      {
+        title: "Capacity",
+        rows: [
+          { label: "Weight capacity", value: "350 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/balance-stability/tru-deluxe-4-step-closed-end-staircase/",
+    seo: {
+      title: "GMTS Deluxe 4-Step Closed-End Staircase | GM Therapy",
+      description: "Hand-crafted oak 4-step closed-end training staircase with enclosed handrails, anti-slip treads, 30\"W × 24\"D × 24\"H platform, and 350 lb capacity. Made in the USA.",
+    },
+  },
+  "339": {
+    productId: "339",
+    slug: "gmts-deluxe-hi-low-butcher-block-work-table",
+    tagline: "Hi-low butcher block work / hand therapy table with 36\" × 60\" solid hardwood top, 27\"–38\" height range, and electric or manual crank options.",
+    overview: [
+      "The GMTS Deluxe Hi-Low Butcher Block Work Table is a great solution for work and hand therapy. The top is hand-crafted from quality 1.5\" solid hardwood and finished with durable clear polyurethane for a smooth, long-lasting work surface.",
+      "Offered in two hi-low options — electric or manual crank — so clinics can match their workflow and budget. The 36\" × 60\" top adjusts in height from 27\" up to 38\", supporting both seated and standing therapy and functional task training.",
+      "Made in the USA.",
+    ],
+    highlights: [
+      "Great solution for work and hand therapy",
+      "Two hi-low options: electric or manual crank",
+      "Top hand-crafted from 1.5\" solid hardwood",
+      "Durable clear polyurethane finish",
+      "Top dimensions: 36\" × 60\"",
+      "Height adjusts from 27\" to 38\"",
+      "Supports seated and standing work",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/bsw/tms-730400-002.png", alt: "GMTS Deluxe Hi-Low Butcher Block Work Table" },
+    ],
+    specGroups: [
+      {
+        title: "Top & Dimensions",
+        rows: [
+          { label: "Top material", value: "1.5\" solid hardwood, butcher block" },
+          { label: "Top finish", value: "Durable clear polyurethane" },
+          { label: "Top size", value: "36\" × 60\"" },
+          { label: "Height range", value: "27\"–38\"" },
+        ],
+      },
+      {
+        title: "Hi-Low Options",
+        rows: [
+          { label: "Electric", value: "Powered hi-low height adjustment" },
+          { label: "Manual", value: "Hand-crank hi-low height adjustment" },
+        ],
+      },
+      {
+        title: "Use & Origin",
+        rows: [
+          { label: "Best for", value: "Work hardening, hand therapy, functional task training" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/work-tables/tru-deluxe-hi-low-butcher-block-work-table/",
+    seo: {
+      title: "GMTS Deluxe Hi-Low Butcher Block Work Table | GM Therapy",
+      description: "36\" × 60\" hi-low butcher block work and hand therapy table with 1.5\" solid hardwood top, 27\"–38\" height range, and electric or manual crank options. Made in the USA.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
