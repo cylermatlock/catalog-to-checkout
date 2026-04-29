@@ -5593,6 +5593,299 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Heavy-duty 7 ft platform-mounted parallel bars with adjustable height and width, oak platform, and 500 lb weight capacity for gait training and rehab.",
     },
   },
+  "4": {
+    productId: "4",
+    slug: "gmts-deluxe-oak-treatment-tables",
+    tagline: "Hand-crafted solid oak treatment tables with durable Naugahyde® upholstery.",
+    overview: [
+      "GMTS Deluxe Oak Treatment Tables are hand-crafted from high-quality solid oak with all wood surfaces finished in durable clear polyurethane. The tabletop features 2\" medium-density foam covered in Naugahyde® upholstery for long-lasting clinical use.",
+      "An \"H\" brace is standard on all models for extra stability, and many options are available to customize the table — including an optional lift back. Available in three sizes and 11 stocking Naugahyde® colors.",
+    ],
+    highlights: [
+      "Hand-crafted solid oak construction",
+      "Durable clear polyurethane finish",
+      "2\" medium-density foam top with Naugahyde® upholstery",
+      "Standard \"H\" brace for extra stability",
+      "Available in 27\" × 72\", 30\" × 72\", and 30\" × 78\"",
+      "Surface height: 30\"",
+      "11 stocking Naugahyde® colors",
+      "Optional lift back available",
+      "500 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/oak-treatment-tables/view-1.jpg", alt: "GMTS Deluxe Oak Treatment Table" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Sizes", value: "27\" × 72\", 30\" × 72\", 30\" × 78\"" },
+          { label: "Surface height", value: "30\"" },
+          { label: "Foam thickness", value: "2\" medium-density" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Frame", value: "Solid oak with clear polyurethane finish" },
+          { label: "Bracing", value: "Standard \"H\" brace" },
+          { label: "Upholstery", value: "Naugahyde® — 11 stocking colors" },
+          { label: "Options", value: "Optional lift back" },
+          { label: "Weight capacity", value: "500 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/treatment-tables/fixed-height/tru-deluxe-oak-treatment-tables/",
+    seo: {
+      title: "GMTS Deluxe Oak Treatment Tables | GM Therapy",
+      description: "Hand-crafted solid oak treatment tables with 2\" foam, Naugahyde® upholstery, H-brace stability, and 500 lb capacity. Three sizes, 11 colors.",
+    },
+  },
+  "5": {
+    productId: "5",
+    slug: "gmts-electric-hi-low-mat-tables",
+    tagline: "Electric height-adjustable hi-low mat tables in solid oak.",
+    overview: [
+      "GMTS Electric Hi-Low Mat Tables are hand-crafted from high-quality solid oak and feature a 120V, 60 Hz motor that smoothly adjusts table height from 21\" to 32\". A hand control is standard for easy operation during patient transfers and treatment.",
+      "All wood surfaces are finished in durable clear polyurethane. The tabletop includes 2\" medium-density foam covered in Naugahyde® upholstery and is offered in 11 stocking colors. Available in three sizes for different clinical footprints.",
+    ],
+    highlights: [
+      "Hand-crafted solid oak construction",
+      "120V, 60 Hz motor — electronic height adjustment",
+      "Height range: 21\"–32\"",
+      "Hand control standard",
+      "2\" medium-density foam top with Naugahyde® upholstery",
+      "Available in 4' × 7', 5' × 7', and 6' × 8'",
+      "11 stocking Naugahyde® colors",
+      "700 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/electric-hilo-mat-tables/view-1.jpg", alt: "GMTS Electric Hi-Low Mat Table" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Sizes", value: "4' × 7', 5' × 7', 6' × 8'" },
+          { label: "Height range", value: "21\"–32\" (electric)" },
+          { label: "Foam thickness", value: "2\" medium-density" },
+        ],
+      },
+      {
+        title: "Power & Construction",
+        rows: [
+          { label: "Motor", value: "120V, 60 Hz" },
+          { label: "Controls", value: "Hand control standard" },
+          { label: "Frame", value: "Solid oak with clear polyurethane finish" },
+          { label: "Upholstery", value: "Naugahyde® — 11 stocking colors" },
+          { label: "Weight capacity", value: "700 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/mat-tables/hi-low_2/tru-electric-hi-low-mat-tables/",
+    seo: {
+      title: "GMTS Electric Hi-Low Mat Tables | GM Therapy",
+      description: "Solid oak electric hi-low mat tables with 21\"–32\" height range, 120V motor, hand control, and 700 lb capacity. Three sizes, 11 upholstery colors.",
+    },
+  },
+  "6": {
+    productId: "6",
+    slug: "gmts-deluxe-oak-mat-tables",
+    tagline: "Fixed-height solid oak mat tables for clinical rehabilitation.",
+    overview: [
+      "GMTS Deluxe Oak Mat Tables are hand-crafted from high-quality solid oak with all wood surfaces finished in durable clear polyurethane. The 20\" surface height makes them well-suited for floor-level transfers, mat work, and pediatric or geriatric therapy.",
+      "The tabletop includes 2\" medium-density foam covered in Naugahyde® upholstery, offered in 11 stocking colors. Four sizes are available to accommodate a range of clinical needs.",
+    ],
+    highlights: [
+      "Hand-crafted solid oak construction",
+      "Durable clear polyurethane finish",
+      "2\" medium-density foam top with Naugahyde® upholstery",
+      "Surface height: 20\"",
+      "Available in 3' × 7', 4' × 7', 5' × 7', and 6' × 8'",
+      "11 stocking Naugahyde® colors",
+      "500 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/oak-mat-tables/view-1.jpg", alt: "GMTS Deluxe Oak Mat Table" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Sizes", value: "3' × 7', 4' × 7', 5' × 7', 6' × 8'" },
+          { label: "Surface height", value: "20\"" },
+          { label: "Foam thickness", value: "2\" medium-density" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Frame", value: "Solid oak with clear polyurethane finish" },
+          { label: "Upholstery", value: "Naugahyde® — 11 stocking colors" },
+          { label: "Weight capacity", value: "500 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/mat-tables/fixed-height_2/tru-deluxe-oak-mat-tables/",
+    seo: {
+      title: "GMTS Deluxe Oak Mat Tables | GM Therapy",
+      description: "Solid oak fixed-height mat tables at 20\" surface height. Four sizes, 11 Naugahyde® colors, 2\" foam top, and 500 lb capacity. Made in USA.",
+    },
+  },
+  "12": {
+    productId: "12",
+    slug: "gmts-deluxe-convertible-ada-staircase",
+    tagline: "ADA-compliant convertible training staircase — straight or corner configurations.",
+    overview: [
+      "GMTS Deluxe Convertible \"ADA Compliant\" Staircase is hand-crafted from high-quality oak plywood and includes solid oak handrails and uprights. All wood surfaces are finished with durable clear polyurethane. The convertible design allows the staircase to be set up in either a straight line or corner configuration to fit your clinic layout.",
+      "11\" deep yellow-nosed steps enhance safety and durability. One end offers (3) 6\" high steps and the other offers (4) 4½\" high steps, with a 36\" × 36\" platform at 18\" height. Anti-slip treads are standard on all steps and the platform, and ergonomic handrails feature a 12\" ADA overhang.",
+    ],
+    highlights: [
+      "Convertible: straight-line or corner configuration",
+      "11\" deep yellow-nosed steps for safety",
+      "(3) 6\" steps on one end, (4) 4½\" steps on the other",
+      "36\" × 36\" × 18\" high platform",
+      "Anti-slip treads on all steps and platform",
+      "Ergonomic handrails with 12\" ADA overhang",
+      "Hand-crafted oak plywood with solid oak handrails",
+      "Meets ADA guidelines",
+      "350 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/convertible-ada-staircase/view-1.jpg", alt: "GMTS Deluxe Convertible ADA Compliant Staircase" },
+      { src: "/assets/products/gmts/convertible-ada-staircase/view-2.jpg", alt: "GMTS Deluxe Convertible ADA Compliant Staircase — alternate view" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Platform", value: "36\" × 36\" × 18\" high" },
+          { label: "Step depth", value: "11\" (yellow-nosed)" },
+          { label: "Steps — end A", value: "(3) at 6\" high" },
+          { label: "Steps — end B", value: "(4) at 4½\" high" },
+          { label: "Handrail overhang", value: "12\" (ADA)" },
+        ],
+      },
+      {
+        title: "Construction & Compliance",
+        rows: [
+          { label: "Frame", value: "High-quality oak plywood" },
+          { label: "Handrails / uprights", value: "Solid oak, ergonomic" },
+          { label: "Finish", value: "Durable clear polyurethane" },
+          { label: "Safety", value: "Anti-slip treads on all steps and platform" },
+          { label: "Compliance", value: "Meets ADA guidelines" },
+          { label: "Weight capacity", value: "350 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/balance-stability/tru-deluxe-convertible-ada-compliant-staircase/",
+    seo: {
+      title: "GMTS Convertible ADA Staircase | GM Therapy",
+      description: "ADA-compliant convertible training staircase with straight or corner setup, oak construction, anti-slip treads, and 350 lb capacity for clinical rehab.",
+    },
+  },
+  "329": {
+    productId: "329",
+    slug: "gmts-deluxe-mobile-posture-mirror",
+    tagline: "Hand-crafted oak mobile posture mirror with .25\" distortion-free glass.",
+    overview: [
+      "GMTS Deluxe Mobile Posture Mirror is hand-crafted from high-quality solid oak with all wood surfaces finished in durable clear polyurethane. The .25\" distortion-free mirror provides a true, accurate reflection for postural assessment, gait analysis, and movement training.",
+      "The mirror is mounted on (4) easy-rolling casters for fast repositioning between treatment areas. Glass size is 23\" × 67\" with an overall frame size of 28\" × 79\". Available in Black or Natural Oak finish.",
+    ],
+    highlights: [
+      "Hand-crafted solid oak frame",
+      "Durable clear polyurethane finish",
+      ".25\" distortion-free mirror — true reflection",
+      "(4) easy-rolling casters for mobility",
+      "Glass size: 23\" × 67\"",
+      "Overall size: 28\" × 79\"",
+      "Available in Black or Natural Oak",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/posture-mirror/view-1.jpg", alt: "GMTS Deluxe Mobile Posture Mirror" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Glass size", value: "23\" × 67\"" },
+          { label: "Overall size", value: "28\" × 79\"" },
+          { label: "Mirror thickness", value: ".25\" distortion-free" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Frame", value: "Solid oak with clear polyurethane finish" },
+          { label: "Mobility", value: "(4) easy-rolling casters" },
+          { label: "Finishes", value: "Black or Natural Oak" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/balance-stability/tru-deluxe-mobile-posture-mirror/",
+    seo: {
+      title: "GMTS Deluxe Mobile Posture Mirror | GM Therapy",
+      description: "Solid oak mobile posture mirror with .25\" distortion-free glass, 23\"×67\" viewing area, and (4) rolling casters. Black or natural oak.",
+    },
+  },
+  "330": {
+    productId: "330",
+    slug: "gmts-deluxe-training-stairs",
+    tagline: "Hand-crafted oak training stairs with anti-slip treads — with or without bus step.",
+    overview: [
+      "GMTS Deluxe Training Stairs are hand-crafted from high-quality oak plywood and include solid oak handrails and uprights. All wood surfaces are finished in durable clear polyurethane. Handrails are ergonomically designed for a comfortable grip and ease of use during gait and stair training.",
+      "The configuration offers (2) 6\" high steps and (3) 4\" high steps, all 30\" wide, with a 30\"W × 24\"D × 12\"H platform. Anti-slip treads are standard on every step and on the platform. Available with or without an integrated bus step.",
+    ],
+    highlights: [
+      "Hand-crafted oak plywood with solid oak handrails",
+      "Ergonomic handrails for comfortable grip",
+      "(2) 6\" steps and (3) 4\" steps — 30\" wide",
+      "Platform: 30\"W × 24\"D × 12\"H",
+      "Anti-slip treads on all steps and platform",
+      "Available with or without bus step",
+      "Durable clear polyurethane finish",
+      "400 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/training-stairs/view-1.jpg", alt: "GMTS Deluxe Training Stairs" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Steps", value: "(2) 6\" high + (3) 4\" high, 30\" wide" },
+          { label: "Platform", value: "30\"W × 24\"D × 12\"H" },
+          { label: "Configurations", value: "With or without bus step" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Frame", value: "Oak plywood with solid oak handrails and uprights" },
+          { label: "Finish", value: "Durable clear polyurethane" },
+          { label: "Safety", value: "Anti-slip treads on all steps and platform" },
+          { label: "Weight capacity", value: "400 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/balance-stability/tru-deluxe-training-stairs/",
+    seo: {
+      title: "GMTS Deluxe Training Stairs | GM Therapy",
+      description: "Oak training stairs with (2) 6\" + (3) 4\" steps, ergonomic handrails, anti-slip treads, and 400 lb capacity. Available with or without bus step.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
