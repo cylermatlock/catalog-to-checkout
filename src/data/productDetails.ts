@@ -6282,6 +6282,117 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Fixed-height treatment table with adjustable 0°–60° backrest, full storage shelf, contoured nose hole, 2.5\" foam, PVC upholstery, and 595 lb capacity.",
     },
   },
+  "3": {
+    productId: "3",
+    slug: "gmts-2-section-bo-bath-hi-lo-treatment-table",
+    tagline: "Extra-wide 40\" 2-section electric Bo-Bath hi-lo treatment table for a wide range of body types and therapeutic techniques.",
+    overview: [
+      "The GMTS 2-section Bo-Bath Treatment Table is an extra-wide treatment platform that supports a wide range of body types and therapeutic techniques. It is built to ensure range of motion and flexibility during treatment, delivering a high-quality experience to both patients and practitioners at an affordable price.",
+      "An industry-leading linear actuator silently generates 7,000 Newtons of force, electrically adjusting table height from 18\"–40\". Gas-assisted struts control the recessed headrest, and foot-pedal controls are standard on all four sides for easy access during treatment. Backed by a three-year warranty.",
+    ],
+    highlights: [
+      "Extra-wide 40\" base and cushion",
+      "Electric height adjustment: 18\"–40\"",
+      "Gas-assisted struts control the recessed headrest",
+      "Foot-pedal control on all four sides (standard)",
+      "Industry-leading linear actuator — 7,000 N of force, near-silent",
+      "3\" non-slip, gently contoured cushion",
+      "Integrated retractable casters",
+      "500 lb weight capacity",
+      "110V power",
+      "Available in Black, Grey, or Blue",
+      "3-year warranty",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts-2-section-bobath.png", alt: "GMTS 2 Section Bo-Bath 40\" Hi-Lo Treatment Table" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions & Capacity",
+        rows: [
+          { label: "Cushion width", value: "40\" (extra-wide)" },
+          { label: "Height range", value: "18\"–40\" (electric)" },
+          { label: "Cushion thickness", value: "3\" non-slip, contoured" },
+          { label: "Weight capacity", value: "500 lb" },
+        ],
+      },
+      {
+        title: "Power & Controls",
+        rows: [
+          { label: "Power", value: "110V" },
+          { label: "Actuator", value: "Linear, 7,000 N force" },
+          { label: "Controls", value: "Foot pedals on all four sides" },
+          { label: "Headrest", value: "Recessed, gas-strut controlled" },
+          { label: "Casters", value: "Integrated, retractable" },
+          { label: "Color options", value: "Black, Grey, Blue" },
+          { label: "Warranty", value: "3 years" },
+        ],
+      },
+    ],
+    sourceUrl: "https://medsurface.com/treatment-tables/2-section-hi-lo-bobath-table/",
+    seo: {
+      title: "GMTS 2 Section Bo-Bath 40\" Hi-Lo Treatment Table | GM Therapy",
+      description: "Extra-wide 40\" 2-section electric Bo-Bath hi-lo table with 18\"–40\" height range, 7,000 N actuator, foot-pedal controls, retractable casters, and 500 lb capacity.",
+    },
+  },
+  "18": {
+    productId: "18",
+    slug: "gmts-traction-hi-lo-treatment-table-with-stool",
+    tagline: "4-section electric traction hi-lo treatment table with low-friction gliding lumbar section and turret-mounted traction pedestal.",
+    overview: [
+      "Designed specifically for lumbar traction and other therapeutic techniques, the GMTS Traction Hi-Lo Treatment Table is ideal for rehabilitation and sports therapy centers. The four-cushion-section table features a low-friction gliding lumbar section and a turret-mounted traction pedestal for precise, repeatable traction setups.",
+      "An industry-leading linear actuator produces an unmatched 7,000 Newtons of force and electrically adjusts table height from 18\"–38\". Foot-pedal controls on all four sides make access easy, and the anti-microbial surface provides a sanitary, easy-to-clean treatment area. Backed by a three-year warranty.",
+    ],
+    highlights: [
+      "Four cushion-sections with low-friction gliding lumbar section",
+      "Turret-mounted traction pedestal",
+      "Electric height adjustment: 18\"–38\"",
+      "Gas-assisted strut control",
+      "Foot-pedal control on all four sides",
+      "Industry-leading linear actuator — 7,000 N of force",
+      "Anti-microbial, easy-to-clean sanitary surface",
+      "3\" non-slip, gently contoured cushion",
+      "Integrated retractable casters",
+      "500 lb weight capacity",
+      "110V power",
+      "Available in Black, Grey, or Blue",
+      "Includes stool",
+      "3-year warranty",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts-traction-package.png", alt: "GMTS Traction Hi-Lo Treatment Table with Stool" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions & Capacity",
+        rows: [
+          { label: "Cushion sections", value: "4, with gliding lumbar section" },
+          { label: "Height range", value: "18\"–38\" (electric)" },
+          { label: "Cushion thickness", value: "3\" non-slip, contoured" },
+          { label: "Weight capacity", value: "500 lb" },
+        ],
+      },
+      {
+        title: "Power & Features",
+        rows: [
+          { label: "Power", value: "110V" },
+          { label: "Actuator", value: "Linear, 7,000 N force" },
+          { label: "Controls", value: "Foot pedals on all four sides" },
+          { label: "Traction", value: "Turret-mounted traction pedestal" },
+          { label: "Surface", value: "Anti-microbial, easy-to-clean" },
+          { label: "Casters", value: "Integrated, retractable" },
+          { label: "Color options", value: "Black, Grey, Blue" },
+          { label: "Includes", value: "Stool" },
+          { label: "Warranty", value: "3 years" },
+        ],
+      },
+    ],
+    sourceUrl: "https://medsurface.com/treatment-tables/traction-hi-lo-table-with-stool/",
+    seo: {
+      title: "GMTS Traction Hi-Lo Treatment Table with Stool | GM Therapy",
+      description: "4-section electric traction hi-lo treatment table with gliding lumbar section, turret-mounted traction pedestal, 18\"–38\" range, 7,000 N actuator, and 500 lb capacity.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
