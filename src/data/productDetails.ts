@@ -6173,6 +6173,115 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Hand-crafted 30\" × 72\" solid oak treatment table with adjustable lift back, upholstered storage shelf, 2\" foam, Naugahyde® upholstery, and 500 lb capacity.",
     },
   },
+  "1": {
+    productId: "1",
+    slug: "gmts-3-section-hi-lo-treatment-table",
+    tagline: "Versatile, durable, and affordable 3-section electric hi-lo treatment table with bar-activated elevation.",
+    overview: [
+      "The GMTS 3 Section Hi-Lo Treatment Table offers practitioners dependable, high-quality support for a wide range of treatments and therapies. Featuring a sleek, stylish design, this electric hi-lo table includes bar-activated elevation and three sections built to withstand heavy manipulation, all supported by an impact-resistant steel frame.",
+      "Gas struts make it easy to adjust the moveable top sections, and the table includes foot levers, hand levers, a contoured face opening, and a cushioned face plug. With an 18\"–36\" height range, it qualifies for the ADA tax credit. The 2\" high-density foam is covered in durable vinyl upholstery with seamless, rounded corners. Maximum weight capacity is 496 lb (225 kg). Available in Imperial Blue or Black.",
+    ],
+    highlights: [
+      "Bar-activated electric elevation, 18\"–36\" height range",
+      "ADA compliant — qualifies for ADA tax credit",
+      "Adjustable head section: -30° to +80°",
+      "Adjustable leg section: 0° to +80°",
+      "Heavy-duty impact-resistant steel frame",
+      "Gas struts on moveable sections",
+      "Hand and foot levers",
+      "Contoured face opening with cushioned face plug",
+      "Four retractable casters with activator levers + four leveling feet",
+      "2\" high-density foam top with vinyl upholstery",
+      "Maximum weight capacity: 496 lb (225 kg)",
+      "Available in Imperial Blue or Black",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts-3-section-hilo.png", alt: "GMTS 3 Section Hi-Lo Treatment Table" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Total length", value: "77\" (1,955 mm)" },
+          { label: "Table width", value: "27\" (700 mm)" },
+          { label: "Minimum height", value: "18\" (460 mm)" },
+          { label: "Maximum height", value: "36\" (910 mm)" },
+          { label: "Head section length", value: "16\" (410 mm)" },
+          { label: "Mid section length", value: "25\" (640 mm)" },
+          { label: "Leg section length", value: "33\" (850 mm)" },
+        ],
+      },
+      {
+        title: "Capacity & Construction",
+        rows: [
+          { label: "Maximum weight capacity", value: "496 lb (225 kg)" },
+          { label: "Table weight", value: "200 lb (91 kg)" },
+          { label: "Frame", value: "Impact-resistant steel" },
+          { label: "Foam", value: "2\" high-density" },
+          { label: "Upholstery", value: "Durable vinyl — Imperial Blue or Black" },
+          { label: "Head tilt", value: "-30° to +80°" },
+          { label: "Leg tilt", value: "0° to +80°" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.bodymedproducts.com/products/bodymed-3-section-hi-lo-treatment-table",
+    seo: {
+      title: "GMTS 3 Section Hi-Lo Treatment Table | GM Therapy",
+      description: "Electric 3-section hi-lo treatment table with bar-activated elevation, 18\"–36\" range, 496 lb capacity, ADA compliant, gas struts, and adjustable head and leg sections.",
+    },
+  },
+  "2": {
+    productId: "2",
+    slug: "gmts-treatment-table-adjustable-backrest",
+    tagline: "Professional-grade fixed-height treatment table with adjustable backrest, full storage shelf, and 595 lb capacity.",
+    overview: [
+      "Provide patients with the best in stability and support with the dependable GMTS Treatment Table with Adjustable Backrest. Designed to withstand a variety of treatments and therapies, this fixed-height table offers backrest adjustability and plush comfort with 2.5\" multi-layered foam padding and PVC upholstery.",
+      "The solid hardwood frame supports up to 595 lb (270 kg), allowing it to withstand heavy manipulation across a wide range of patients. Each table includes a contoured nose hole with a removable cushioned plug, a full wooden storage shelf beneath the table, and seamless rounded corners. The backrest adjusts from 0° to 60° using a side-mounted handle.",
+    ],
+    highlights: [
+      "Heavy-duty hardwood frame",
+      "Full storage shelf",
+      "Adjustable backrest: 0°–60°",
+      "Contoured nose hole with cushioned plug",
+      "Side-mounted adjusting handle",
+      "2.5\" (6 cm) multi-layered foam top",
+      "Seamless, rounded corners",
+      "PVC upholstery",
+      "Maximum weight capacity: 595 lb (270 kg)",
+      "Fixed height: 30.5\" (77 cm)",
+      "2-year limited warranty",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts-treatment-table-backrest.png", alt: "GMTS Treatment Table with Adjustable Backrest" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Table length", value: "72.5\" (184 cm)" },
+          { label: "Table width", value: "28\" (71 cm)" },
+          { label: "Fixed height", value: "30.5\" (77 cm)" },
+          { label: "Backrest angle range", value: "0°–60°" },
+        ],
+      },
+      {
+        title: "Capacity & Construction",
+        rows: [
+          { label: "Maximum weight capacity", value: "595 lb (270 kg)" },
+          { label: "Table weight", value: "67 lb (30.5 kg)" },
+          { label: "Frame", value: "Heavy-duty hardwood" },
+          { label: "Foam", value: "2.5\" multi-layered" },
+          { label: "Upholstery", value: "PVC" },
+          { label: "Warranty", value: "2-year limited" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.bodymedproducts.com/collections/treatment-tables/products/bodymed-treatment-table-1",
+    seo: {
+      title: "GMTS Treatment Table with Adjustable Backrest | GM Therapy",
+      description: "Fixed-height treatment table with adjustable 0°–60° backrest, full storage shelf, contoured nose hole, 2.5\" foam, PVC upholstery, and 595 lb capacity.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
