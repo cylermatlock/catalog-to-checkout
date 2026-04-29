@@ -7034,6 +7034,550 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "6' x 8' electric hi-lo mat platform with 1,000 lb capacity, 20\"–30\" height range, welded steel frame, Permablok 3® vinyl.",
     },
   },
+
+  // ============================================================
+  // TKO Strength — Batch 1 (IDs 82, 84, 283-300)
+  // ============================================================
+
+  // ID 82 — TKO Defiant Custom Bay Single Station (Stamina Package)
+  "82": {
+    productId: "82",
+    slug: "tko-defiant-suspension-bay-stamina",
+    tagline: "Free-standing modular suspension and storage bay — fully loaded Stamina package.",
+    overview: [
+      "TKO's Defiant Free-Standing Single Suspension Bay is a fully modular suspension and storage system that drops into any training facility without anchoring to a wall or floor. A 550 lb counterbalance and front outriggers keep the upright stable while users hit suspension trainers, heavy bags, or pull-up work.",
+      "The Stamina package arrives loaded — medicine balls, slam balls, kettlebells, foam rollers, mats, stability ball, resistance cords, and strength bands are all included so a clinic or training space can deploy a full functional zone in one purchase.",
+    ],
+    highlights: [
+      "550 lb counterbalance — fully free-standing, no wall mount required",
+      "Front outriggers for additional stability",
+      "Modular and expandable — add storage and suspension attachments anytime",
+      "Includes 3-Way Swivel (×2) for suspension trainers and heavy bags",
+      "Includes commercial medicine balls, tire slam balls, pro cast kettlebells, foam rollers, mats, stability ball, cords, and bands",
+      "Compact 85\" x 44¾\" x 95½\" footprint",
+      "Choose your color for the uprights",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/files/DB-SUM-848withfoamrollersandballrack_1024x1024.jpg?v=1747188519", alt: "TKO Defiant Suspension Bay — Stamina package fully loaded" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/DB-SUB-848withDB-A024Dip_StepAdjAttachmentMount_1024x1024.jpg?v=1747188520", alt: "TKO Defiant Bay with dip / step adjustable attachment" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/DB-SUB-848closeupofDB-A020BallBandMatStorageSideMount_1024x1024.jpg?v=1747188520", alt: "Ball, band, and mat storage side-mount close-up" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/DB-Med-48cluster_1024x1024.jpg?v=1774463754", alt: "Included commercial medicine balls" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/DB-Slam-48_1024x1024.jpg?v=1774463754", alt: "Included tire slam balls" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/DB-SUB-848K856PKBkettlebells_51898e78-d607-4658-b3c0-88a4b6c273d4_1024x1024.jpg?v=1774463754", alt: "Included pro cast kettlebells" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/DB-SUB-848184FR-BKFoamRollers_71b6af96-025c-4beb-a3b0-9bd8adca45a5_1024x1024.jpg?v=1774463754", alt: "Included foam rollers" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/DB-MS-Pack_1024x1024.jpg?v=1747188520", alt: "Included mat / stability ball / cord / band pack" },
+    ],
+    specGroups: [
+      {
+        title: "Frame",
+        rows: [
+          { label: "Footprint", value: "85\" W x 44¾\" D x 95½\" H" },
+          { label: "Counterbalance", value: "550 lbs" },
+          { label: "Standard color", value: "Matte black (custom upright color available)" },
+          { label: "SKU", value: "DB-SUB-8-STAM" },
+        ],
+      },
+      {
+        title: "Included Accessories",
+        rows: [
+          { label: "Adjustable racks", value: "1× ball rack, 3× tray rack" },
+          { label: "Suspension hardware", value: "2× 3-Way Swivel" },
+          { label: "Medicine balls", value: "DB-Med-48 — 6, 8, 10, 12 lb" },
+          { label: "Slam balls", value: "DB-Slam-48 — 10, 15, 20, 25 lb tire slam balls" },
+          { label: "Kettlebells", value: "DB-KB-Light — 4, 6, 8, 12, 16, 20 kg pro cast" },
+          { label: "Foam rollers", value: "DB-FR-48 — 3× 36\" rollers" },
+          { label: "Mat / cord / band pack", value: "3 mats, 65cm stability ball, 2 ea L/M/H/XH cords, XL/L/M/H bands + connector" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/STAMINA_Package_DB-SUB-8-STAM_604591e7-3deb-4f22-a433-197ec449f9cf.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/free-standing-single-suspension-bay-stamina-package",
+    seo: {
+      title: "TKO Defiant Free-Standing Suspension Bay — Stamina Package | GM Therapy",
+      description: "Fully loaded TKO Defiant single suspension bay with 550 lb counterbalance, modular storage, kettlebells, slam balls, med balls, mats, cords, and bands.",
+    },
+  },
+
+  // ID 84 — TKO 3-Tier Shelf Dumbbell Rack
+  "84": {
+    productId: "84",
+    slug: "tko-3-tier-shelf-dumbbell-rack",
+    tagline: "Heavy-gauge steel 3-tier rack — holds 10 pairs of hex dumbbells.",
+    overview: [
+      "TKO's 3-Tier Shelf Dumbbell Rack stores up to 10 pairs of hex dumbbells (5–50 lb) on heavy-gauge steel shelves. Compact oval tubing and a sleek profile make it a smart choice for clinics and home gyms where floor space is at a premium.",
+      "Tiered shelves angle the dumbbells toward the user so loading and unloading stays quick and back-friendly. Rubber feet protect the floor.",
+    ],
+    highlights: [
+      "Holds 10 pairs of TKO hex dumbbells (5–50 lb)",
+      "Heavy-gauge steel shelves",
+      "Modern oval tubing — sleek profile",
+      "Easy load and unload from either side",
+      "Rubber feet protect flooring",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/files/6235BTrayRackalone_1024x1024.jpg?v=1747188530", alt: "TKO 3-Tier Shelf Dumbbell Rack — primary view" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/6235-BTrayRackangled_1024x1024.jpg?v=1747188530", alt: "3-Tier rack — angled view" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/6235-BTrayRack_1024x1024.png?v=1747188530", alt: "3-Tier rack — front view" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/6235-BTrayRackloaded_1024x1024.jpg?v=1747188530", alt: "3-Tier rack loaded with hex dumbbells" },
+    ],
+    specGroups: [
+      {
+        title: "Rack",
+        rows: [
+          { label: "Assembled size", value: "41¾\" W x 21\" D x 31\" H" },
+          { label: "Weight", value: "102 lbs" },
+          { label: "Capacity", value: "10 pairs of TKO hex dumbbells, 5–50 lb" },
+          { label: "Construction", value: "Heavy-gauge steel, oval tubing" },
+          { label: "SKU", value: "6235-B" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/6235-B_3_Tier_Shelf_Rack.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/3-tier-shelf-dumbbell-rack",
+    seo: {
+      title: "TKO 3-Tier Shelf Dumbbell Rack | GM Therapy",
+      description: "Heavy-gauge steel 3-tier dumbbell rack — holds 10 pairs of TKO hex dumbbells (5–50 lb) in a compact 42\" footprint.",
+    },
+  },
+
+  // ID 283 — TKO 3-N-1 Foam Plyo Box
+  "283": {
+    productId: "283",
+    slug: "tko-3n1-foam-plyo-box",
+    tagline: "All-in-one 20\" × 24\" × 30\" foam plyo box — three training heights, soft landings.",
+    overview: [
+      "TKO's 3-N-1 Foam Plyo Box delivers three jump heights from a single dense-foam unit. Flip the box to access 20\", 24\", or 30\" — useful for accommodating multiple users in a clinical or athletic setting without dragging out three separate boxes.",
+      "Dense foam construction provides stable landings while staying soft enough to forgive missed reps. Heavy 16 oz vinyl coating stands up to high-volume commercial use.",
+    ],
+    highlights: [
+      "Three training heights in one box: 20\", 24\", 30\"",
+      "Dense foam core — soft landings",
+      "Durable 16 oz matted vinyl coating",
+      "90 lb total weight — stable under load",
+      "Ideal for athletic prep, conditioning, and rehab plyometrics",
+      "⚠ Do not use on smooth flooring (wood, smooth concrete, tile)",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/products/262PLBS-1-1000_1024x1024.jpg?v=1747188809", alt: "TKO 3-N-1 Foam Plyo Box — 20\" orientation" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/262PLBS-2-1000_1024x1024.jpg?v=1747188809", alt: "TKO 3-N-1 Foam Plyo Box — 24\" orientation" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/262PLBS-3-1000_1024x1024.jpg?v=1747188809", alt: "TKO 3-N-1 Foam Plyo Box — 30\" orientation" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/262PLBSwithmodel_1024x1024.jpg?v=1747188809", alt: "TKO 3-N-1 Foam Plyo Box — in use" },
+    ],
+    specGroups: [
+      {
+        title: "Box",
+        rows: [
+          { label: "Heights", value: "20\" / 24\" / 30\" (single box, three orientations)" },
+          { label: "Weight", value: "90 lbs" },
+          { label: "Construction", value: "Dense foam core, 16 oz matted vinyl coating" },
+          { label: "SKU", value: "262PLBS" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/262PLBS_ca929175-ab99-404b-b58f-65c9fafb043e.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/soft-plyo-box",
+    seo: {
+      title: "TKO 3-N-1 Foam Plyo Box (20\" / 24\" / 30\") | GM Therapy",
+      description: "All-in-one foam plyo box with three jump heights (20\", 24\", 30\") in a single dense-foam unit. Soft landings, 16 oz vinyl coating.",
+    },
+  },
+
+  // ID 284 — TKO Stackable Foam Plyo Boxes (3-pc set)
+  "284": {
+    productId: "284",
+    slug: "tko-stackable-foam-plyo-boxes",
+    tagline: "6\" / 12\" / 20\" stackable foam plyo boxes — 3-piece set with hook-and-loop fastening.",
+    overview: [
+      "Three foam plyo boxes (6\", 12\", and 20\") that stack and lock together to scale jump height as the user progresses. Heavy hook-and-loop fastening runs along two full edges so the stack stays put through aggressive use.",
+      "Strong foam cores absorb impact for safer landings, and a heavy 18 oz matted vinyl coating handles the abuse of high-volume commercial training.",
+    ],
+    highlights: [
+      "3-piece set: 6\", 12\", and 20\" boxes",
+      "Stackable — combine for additional heights",
+      "Hook-and-loop on two full edges keeps the stack locked together",
+      "Strong, durable foam core for soft landings",
+      "18 oz matted vinyl coating",
+      "Built-in handles for easy transport",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/products/263PLBS-01-1000_1024x1024.jpg?v=1747188808", alt: "TKO Stackable Foam Plyo Boxes — full set" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/263PLBS-03-1000_1024x1024.jpg?v=1747188808", alt: "Stackable plyo boxes — stacked configuration" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/263PLBS-02-1000_1024x1024.jpg?v=1747188808", alt: "Stackable plyo boxes — individual boxes" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/263PLBS-04-1000_1024x1024.jpg?v=1747188808", alt: "Stackable plyo boxes — hook and loop edge" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/263PLBS-05-1000_1024x1024.jpg?v=1747188809", alt: "Stackable plyo boxes — handle detail" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/263PLBS-06-1000_1024x1024.jpg?v=1747188809", alt: "Stackable plyo boxes — top view" },
+    ],
+    specGroups: [
+      {
+        title: "Set",
+        rows: [
+          { label: "Sizes", value: "6\", 12\", 20\" (3-piece set)" },
+          { label: "Construction", value: "Foam core, 18 oz matted vinyl coating" },
+          { label: "Fastening", value: "Hook-and-loop on two full edges" },
+          { label: "SKU", value: "263PLBS" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/TKO-_263PLBS_STACKABLE_FOAM_PLYO_BOXES.pdf?v=1660763497",
+    sourceUrl: "https://www.tkostrength.com/products/stackable-plyo-boxes",
+    seo: {
+      title: "TKO Stackable Foam Plyo Boxes — 6\" / 12\" / 20\" Set | GM Therapy",
+      description: "3-piece stackable foam plyo box set with hook-and-loop edges, 18 oz vinyl coating, and built-in handles. Soft landings for clinical and athletic plyo training.",
+    },
+  },
+
+  // ID 285 — TKO Push / Pull Sled
+  "285": {
+    productId: "285",
+    slug: "tko-push-pull-sled",
+    tagline: "Heavy-gauge steel push/pull sled — full-body conditioning and speed work.",
+    overview: [
+      "The TKO Push / Pull Sled adds variety and intensity to any training program. Sled work is one of the most efficient ways to build conditioning, leg drive, and speed — and it scales easily from rehab tempo work to all-out sprints.",
+      "An 11-gauge steel frame paired with a 7-gauge replaceable skid plate handles outdoor and turf use without complaint. Non-slip textured handles and a single welded eyelet make it equally comfortable to push, pull, or drag.",
+    ],
+    highlights: [
+      "11-gauge steel frame, 7-gauge skid plate",
+      "Replaceable floating skid plates",
+      "Non-slip textured push handles",
+      "Front pull eyelet for sled drags and harness work",
+      "Loads standard Olympic plates",
+      "5-year frame / 1-year parts warranty",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/products/278PSPushSled9_1024x1024.jpg?v=1747188581", alt: "TKO Push / Pull Sled — primary view" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/278PSPushSled4_1024x1024.jpg?v=1747188582", alt: "TKO sled — angled view" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/278PSPushSled6_1024x1024.jpg?v=1747188582", alt: "TKO sled — side profile" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/278PSPushSled7_1024x1024.jpg?v=1747188582", alt: "TKO sled — handle detail" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/278PSPushSled3_1024x1024.jpg?v=1747188582", alt: "TKO sled — skid plate detail" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/278PSPushSled_1024x1024.jpg?v=1747188582", alt: "TKO sled — front pull eyelet" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/278PSPushSled2_1024x1024.jpg?v=1747188582", alt: "TKO sled — top view" },
+    ],
+    specGroups: [
+      {
+        title: "Sled",
+        rows: [
+          { label: "Dimensions", value: "40\" L x 33\" W" },
+          { label: "Weight", value: "75 lbs" },
+          { label: "Frame", value: "11-gauge steel, matte black" },
+          { label: "Skid plate", value: "7-gauge steel, replaceable" },
+          { label: "Plate posts", value: "Olympic (2\")" },
+          { label: "Warranty", value: "5-year frame · 1-year parts" },
+          { label: "SKU", value: "278PS" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/278PS_Push_Pull_Sled.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/tko-push-pull-sled",
+    seo: {
+      title: "TKO Push / Pull Sled | GM Therapy",
+      description: "Heavy-duty 11-gauge steel push/pull sled with 7-gauge replaceable skid plates, non-slip handles, and Olympic plate posts. 75 lb empty.",
+    },
+  },
+
+  // IDs 286–287 — TKO Commercial Rubberized Medicine Balls (6 / 8 lb variants)
+  ...(() => {
+    const galleryShared: GalleryImage[] = [
+      { src: "https://www.tkostrength.com/cdn/shop/products/509CMB-2_FS_1024x1024.jpg?v=1747188779", alt: "TKO Commercial Rubberized Medicine Ball — 2 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/509CMB-6_FS_1024x1024.jpg?v=1767886027", alt: "TKO Commercial Rubberized Medicine Ball — 6 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/509CMB-8_FS_1024x1024.jpg?v=1767886027", alt: "TKO Commercial Rubberized Medicine Ball — 8 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/509CMB-10_1000_1024x1024.jpg?v=1767886027", alt: "TKO Commercial Rubberized Medicine Ball — 10 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/509CMB-12_FS_1024x1024.jpg?v=1767886027", alt: "TKO Commercial Rubberized Medicine Ball — 12 lb" },
+    ];
+    const specGroupsShared: SpecGroup[] = [
+      {
+        title: "Construction",
+        rows: [
+          { label: "Material", value: "All rubber, latex free" },
+          { label: "Surface", value: "Double-dimpled non-slip rubber" },
+          { label: "Color", value: "Two-tone red & grey" },
+          { label: "Use", value: "Tossing, catching, partner drills (not for slamming)" },
+        ],
+      },
+    ];
+    const make = (id: string, weight: string, sku: string): ProductDetail => ({
+      productId: id,
+      slug: `tko-commercial-medicine-ball-${weight.replace(/\s/g, "")}`,
+      tagline: `${weight} commercial rubberized medicine ball with double-dimpled grip surface.`,
+      overview: [
+        `TKO's Commercial Rubberized Medicine Ball is a heavy-duty weighted ball built for tossing, catching, and partner drills. The double-dimpled rubber surface gives a confident grip even with sweaty hands.`,
+        "Two-tone red and grey, all rubber construction, latex free. Note: medicine balls are not designed for slamming — use a slam ball for that.",
+      ],
+      highlights: [
+        `${weight} weighted ball`,
+        "Double-dimpled rubber surface for secure grip",
+        "Two-tone red & grey",
+        "All-rubber, latex-free, weather-resistant construction",
+        "Built for high-volume commercial use",
+        "Not intended for slamming — use TKO Tyre Slam Balls for slam work",
+      ],
+      gallery: galleryShared,
+      specGroups: [
+        ...specGroupsShared,
+        {
+          title: "This Variant",
+          rows: [
+            { label: "Weight", value: weight },
+            { label: "SKU", value: sku },
+          ],
+        },
+      ],
+      specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/509cmb_a93b0f62-fbe7-43f7-a867-344dce5cc9eb.pdf",
+      sourceUrl: "https://www.tkostrength.com/products/10-lb-rubberized-medicine-ball",
+      seo: {
+        title: `TKO ${weight} Commercial Rubberized Medicine Ball | GM Therapy`,
+        description: `${weight} commercial medicine ball — double-dimpled grip, all rubber, latex free. Built for tossing and partner drills.`,
+      },
+    });
+    return {
+      "286": make("286", "6 lb", "509CMB-6"),
+      "287": make("287", "8 lb", "509CMB-8"),
+    };
+  })(),
+
+  // IDs 288–290 — TKO Tyre Slam Balls (15 / 20 / 25 lb variants)
+  ...(() => {
+    const galleryShared: GalleryImage[] = [
+      { src: "https://www.tkostrength.com/cdn/shop/products/6_d5ab79d3-552f-440c-808e-73d9a0d99ade_1024x1024.jpg?v=1747188715", alt: "TKO Tyre Slam Ball — 6 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/15_cda21f54-32e7-4436-9cee-9f9ce5030c86_1024x1024.jpg?v=1747188716", alt: "TKO Tyre Slam Ball — 15 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/IMG_6886_1024x1024.jpg?v=1747188716", alt: "TKO Tyre Slam Ball — texture detail" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/25_46c6fd55-28e2-4a92-8eaa-3bca23e8bd39_1024x1024.jpg?v=1747188716", alt: "TKO Tyre Slam Ball — 25 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/30_fd9d505b-8520-43e0-af62-c71af0185c91_1024x1024.jpg?v=1747188716", alt: "TKO Tyre Slam Ball — 30 lb" },
+    ];
+    const specGroupsShared: SpecGroup[] = [
+      {
+        title: "Construction",
+        rows: [
+          { label: "Fill", value: "Sand-filled — dead-weight, no bounce" },
+          { label: "Shell", value: "Tire-tread textured rubber for secure grip" },
+          { label: "Use", value: "Power slams, partner drills, conditioning, core" },
+          { label: "Available range", value: "6 / 8 / 10 / 12 / 15 / 20 / 25 / 30 / 40 / 50 lb" },
+        ],
+      },
+    ];
+    const make = (id: string, weight: string, sku: string): ProductDetail => ({
+      productId: id,
+      slug: `tko-tyre-slam-ball-${weight.replace(/\s/g, "")}`,
+      tagline: `${weight} tire-textured slam ball — sand-filled, no bounce, built to abuse.`,
+      overview: [
+        `TKO's Tyre Slam Ball features a textured tire-tread surface for a secure grip even with sweaty hands. Sand-filled and dead-weight, these balls are stress-tested and battle-ready for repeat power slams.`,
+        "Sold individually so you can build the exact range your facility needs across the full 6–50 lb line.",
+      ],
+      highlights: [
+        `${weight} sand-filled slam ball`,
+        "Tire-tread textured surface for secure grip",
+        "Dead-weight, no-bounce design — ideal for power slams",
+        "Tear-resistant rubber shell",
+        "Built for high-volume commercial use",
+      ],
+      gallery: galleryShared,
+      specGroups: [
+        ...specGroupsShared,
+        {
+          title: "This Variant",
+          rows: [
+            { label: "Weight", value: weight },
+            { label: "SKU", value: sku },
+          ],
+        },
+      ],
+      specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/509SBT.pdf",
+      sourceUrl: "https://www.tkostrength.com/products/tyre-slam-ball",
+      seo: {
+        title: `TKO ${weight} Tyre Slam Ball | GM Therapy`,
+        description: `${weight} sand-filled tyre slam ball with tire-tread grip surface. No-bounce dead-weight design built for power slams and conditioning.`,
+      },
+    });
+    return {
+      "288": make("288", "15 lb", "509SBT-15"),
+      "289": make("289", "20 lb", "509SBT-20"),
+      "290": make("290", "25 lb", "509SBT-25"),
+    };
+  })(),
+
+  // IDs 291–294 — TKO Wall Balls (10 / 14 / 20 / 30 lb variants)
+  ...(() => {
+    const galleryShared: GalleryImage[] = [
+      { src: "https://www.tkostrength.com/cdn/shop/products/4_6f715f04-7143-4940-b81d-a73a13b478ac_1024x1024.jpg?v=1747188615", alt: "TKO Wall Ball — primary view" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/5_6fbac98d-3f14-49ff-8d2f-a6b109df6482_1024x1024.jpg?v=1747188615", alt: "TKO Wall Ball — angled view" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/6_23cc9b7f-d051-455a-b095-1d7a4ab03a0f_1024x1024.jpg?v=1747188615", alt: "TKO Wall Ball — stitching detail" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/7_bbaa023b-eff6-440f-924d-e4fdfbd7b91a_1024x1024.jpg?v=1747188615", alt: "TKO Wall Ball — texture" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/9_6f478bed-0352-44d3-9f8f-37a5b04dc154_1024x1024.jpg?v=1747188615", alt: "TKO Wall Ball — group" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/2_98a2c838-c3f1-4ddf-9f27-088b59fb5b25_1024x1024.jpg?v=1747188615", alt: "TKO Wall Ball — alt view" },
+    ];
+    const specGroupsShared: SpecGroup[] = [
+      {
+        title: "Construction",
+        rows: [
+          { label: "Diameter", value: "14\"" },
+          { label: "Shell", value: "Heavy-duty vinyl coating" },
+          { label: "Color", value: "Black with grey laces" },
+          { label: "Fill", value: "Durable cotton fill, heavy nylon stitching" },
+          { label: "Available range", value: "4 / 6 / 8 / 10 / 12 / 14 / 16 / 18 / 20 / 25 / 30 lb" },
+        ],
+      },
+    ];
+    const make = (id: string, weight: string, sku: string): ProductDetail => ({
+      productId: id,
+      slug: `tko-wall-ball-${weight.replace(/\s/g, "")}`,
+      tagline: `${weight} 14\" vinyl-coated wall ball — soft enough to catch, durable enough to abuse.`,
+      overview: [
+        `TKO's Wall Ball is a 14\" heavy-duty vinyl-covered weighted ball for wall throws, squat-to-press, and partner work. The fill is soft and forgiving on the catch but holds shape over thousands of reps.`,
+        "Black with grey laces. Heavy nylon stitching keeps the seam intact through high-volume commercial use.",
+      ],
+      highlights: [
+        `${weight} wall ball, 14\" diameter`,
+        "Heavy-duty vinyl coating",
+        "Black with grey laces",
+        "Durable cotton fill, heavy nylon stitching",
+        "Forgiving on catch — built for wall throws and partner drills",
+        "Built for high-volume commercial use",
+      ],
+      gallery: galleryShared,
+      specGroups: [
+        ...specGroupsShared,
+        {
+          title: "This Variant",
+          rows: [
+            { label: "Weight", value: weight },
+            { label: "SKU", value: sku },
+          ],
+        },
+      ],
+      specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/TKO-509WB_WALL_BALL.pdf?v=1660765422",
+      sourceUrl: "https://www.tkostrength.com/products/wall-ball",
+      seo: {
+        title: `TKO ${weight} Wall Ball — 14\" Vinyl-Covered | GM Therapy`,
+        description: `${weight} TKO wall ball, 14\" diameter, heavy vinyl coating with cotton fill and nylon stitching. Built for wall throws and partner drills.`,
+      },
+    });
+    return {
+      "291": make("291", "10 lb", "509WB-10"),
+      "292": make("292", "14 lb", "509WB-14"),
+      "293": make("293", "20 lb", "509WB-20"),
+      "294": make("294", "30 lb", "509WB-30"),
+    };
+  })(),
+
+  // IDs 295–299 — TKO Rubber Bumper Plates (10 / 15 / 25 / 35 / 45 lb variants)
+  ...(() => {
+    const galleryShared: GalleryImage[] = [
+      { src: "https://www.tkostrength.com/cdn/shop/files/802BP2group2_a8edf8ea-1b78-449d-8fea-e9c3112de301_1024x1024.jpg?v=1747188855", alt: "TKO Rubber Bumper Plates — full set" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/802BP2-10_1024x1024.jpg?v=1747188855", alt: "TKO Bumper Plate — 10 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/802BP2-15_1024x1024.jpg?v=1747188855", alt: "TKO Bumper Plate — 15 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/802BP2-25_1024x1024.jpg?v=1747188856", alt: "TKO Bumper Plate — 25 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/802BP2-35_1024x1024.jpg?v=1747188856", alt: "TKO Bumper Plate — 35 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/802BP2-45_1024x1024.jpg?v=1747188856", alt: "TKO Bumper Plate — 45 lb" },
+    ];
+    const specGroupsShared: SpecGroup[] = [
+      {
+        title: "Construction",
+        rows: [
+          { label: "Material", value: "Solid rubber with steel insert" },
+          { label: "Diameter", value: "Standard Olympic — same diameter on all weights" },
+          { label: "Center hole", value: "2\" Olympic" },
+          { label: "Lettering", value: "White on black" },
+          { label: "Use", value: "Snatches, cleans, jerks, cross training" },
+          { label: "Sold", value: "Individually" },
+        ],
+      },
+    ];
+    const make = (id: string, weight: string, sku: string, warranty: string): ProductDetail => ({
+      productId: id,
+      slug: `tko-bumper-plate-${weight.replace(/\s/g, "")}`,
+      tagline: `${weight} solid-rubber Olympic bumper plate — safe for dead drops.`,
+      overview: [
+        `TKO's Rubber Bumper Plates are solid rubber with a steel insert, built so weights can be dropped without damaging the floor. All plates share the same standard diameter, ideal for cross training, snatches, cleans, and jerks.`,
+        "Plates sold individually with white lettering on black solid rubber.",
+      ],
+      highlights: [
+        `${weight} solid-rubber bumper plate`,
+        "White lettering on black",
+        "Standard Olympic diameter (matches across all weights)",
+        "Steel insert for precision fit",
+        "Designed to be dropped without damaging floors",
+        `Warranty: ${warranty}`,
+      ],
+      gallery: galleryShared,
+      specGroups: [
+        ...specGroupsShared,
+        {
+          title: "This Variant",
+          rows: [
+            { label: "Weight", value: weight },
+            { label: "Warranty", value: warranty },
+            { label: "SKU", value: sku },
+          ],
+        },
+      ],
+      specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/802BP2_Bumper_Plates_with_White_Lettering_df523883-e6cc-4f75-a507-16ad3e976951.pdf",
+      sourceUrl: "https://www.tkostrength.com/products/tko-rubber-bumper-plates-802bp",
+      seo: {
+        title: `TKO ${weight} Rubber Bumper Plate | GM Therapy`,
+        description: `${weight} solid-rubber Olympic bumper plate with steel insert. White lettering, standard diameter, designed for safe dead drops.`,
+      },
+    });
+    return {
+      "295": make("295", "10 lb", "802BP2-10", "6 months against breakage"),
+      "296": make("296", "15 lb", "802BP2-15", "6 months against breakage"),
+      "297": make("297", "25 lb", "802BP2-25", "2 years against breakage"),
+      "298": make("298", "35 lb", "802BP2-35", "2 years against breakage"),
+      "299": make("299", "45 lb", "802BP2-45", "2 years against breakage"),
+    };
+  })(),
+
+  // ID 300 — TKO Olympic 10 lb Rubber Dual-Grip Plate (start of the 803OR family,
+  // remaining variants 301–305 will be added in batch 2)
+  "300": {
+    productId: "300",
+    slug: "tko-olympic-rubber-grip-plate-10lb",
+    tagline: "10 lb Olympic rubber-encased grip plate with bi-lateral handles.",
+    overview: [
+      "TKO's Olympic Rubber Grip Plate is non-odor rubber-encased over a solid steel insert, built to deliver years of trouble-free use without cracking or fading. Bi-lateral grips make plate carries, loading, and farmers walks easier on the hands.",
+      "Sold individually so you can spec the exact range your facility needs.",
+    ],
+    highlights: [
+      "10 lb Olympic rubber-coated grip plate",
+      "Bi-lateral grip design — two handles per plate",
+      "Durable, non-odor rubber encasement",
+      "Solid steel insert for precision Olympic fit",
+      "Protects floors and equipment",
+      "5-year full-commercial warranty",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/files/803OROlympicRubberPlatesStacked_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plates — stacked set" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/10plate_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 10 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/2.5_ed9cac88-4255-484e-9f45-1bb937860e1c_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 2.5 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/5plate_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 5 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/25plate_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 25 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/35plate_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 35 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/45lb_Plate_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 45 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Construction",
+        rows: [
+          { label: "Material", value: "Steel insert with non-odor rubber encasement" },
+          { label: "Center hole", value: "2\" Olympic" },
+          { label: "Grip", value: "Bi-lateral handles" },
+          { label: "Available range", value: "2.5 / 5 / 10 / 25 / 35 / 45 lb" },
+          { label: "Warranty", value: "5-year full commercial" },
+        ],
+      },
+      {
+        title: "This Variant",
+        rows: [
+          { label: "Weight", value: "10 lb" },
+          { label: "SKU", value: "803OR-10" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/803OR.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/rubber-grip-plate",
+    seo: {
+      title: "TKO 10 lb Olympic Rubber Grip Plate | GM Therapy",
+      description: "10 lb Olympic rubber-encased grip plate with bi-lateral handles, steel insert, and 5-year commercial warranty.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
