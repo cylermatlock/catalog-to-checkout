@@ -8501,6 +8501,69 @@ export const productDetails: Record<string, ProductDetail> = {
         "Permanent 6 ft sliding wall track for the ANCORE portable cable trainer. Full vertical adjustability, handcrafted in the USA, hardware included.",
     },
   },
+
+  // ANCORE Pro (Standard, 55 lb) — product id "345"
+  "345": {
+    productId: "345",
+    slug: "ancore-pro-55",
+    tagline:
+      "Portable cable resistance — pro-grade training in a 9 lb unit (55 lb model).",
+    overview: [
+      "The ANCORE Pro delivers portable cable resistance for clinics, training rooms, and home gyms that need pro-grade cable training without the space or cost of a traditional cable machine. This is the standard 55 lb model.",
+      "A torque-loaded spring resistance mechanism produces a flat torque curve and a true 1:1 ratio — meaning 55 lb on the Pro feels like roughly 110 lb on a standard 2:1 cable machine. Mounts to racks, poles, beams, or walls and unlocks 220+ exercise variations.",
+    ],
+    highlights: [
+      "Resistance: 5–55 lb, 1:1 ratio (≈10–110 lb equivalent on 2:1 cables)",
+      "Torque-loaded spring mechanism with flat torque curve",
+      "8 ft Dyneema® cable",
+      "12\" L × 4.75\" W × 3\" H, 9 lb fully loaded",
+      "Strap, wall, rack, sliding-track, and plate-dock mounts available",
+      "220+ exercise variations",
+      "USA hand-assembled, 2-year warranty",
+    ],
+    gallery: [
+      { src: "/assets/products/ancore-pro-1.png", alt: "ANCORE Pro portable cable trainer — product view" },
+      { src: "/assets/products/ancore-pro-2.png", alt: "ANCORE Pro — what's included" },
+      { src: "/assets/products/ancore-pro-3.png", alt: "ANCORE Pro carrying case" },
+      { src: "/assets/products/ancore-pro-4.png", alt: "ANCORE Pro vertical product image" },
+      { src: "/assets/products/ancore-pro-5.png", alt: "ANCORE Pro schematic" },
+      { src: "/assets/products/ancore-pro-6.png", alt: "ANCORE Pro with packaging" },
+    ],
+    specGroups: [
+      {
+        title: "Resistance",
+        rows: [
+          { label: "Range", value: "5–55 lb (1:1 ratio)" },
+          { label: "Equivalent on 2:1 cable machine", value: "~10–110 lb" },
+          { label: "Mechanism", value: "Torque-loaded spring with flat torque curve" },
+        ],
+      },
+      {
+        title: "Cable & Build",
+        rows: [
+          { label: "Cable length", value: "8 ft" },
+          { label: "Cable material", value: "Dyneema® synthetic fiber" },
+          { label: "Dimensions", value: "12\" L × 4.75\" W × 3\" H (fully loaded)" },
+          { label: "Weight", value: "9 lb fully loaded" },
+        ],
+      },
+      {
+        title: "Mounting & Catalog",
+        rows: [
+          { label: "Mount options", value: "Strap, Wall, Rack, Sliding Track, Plate Dock" },
+          { label: "Origin", value: "USA hand-assembled" },
+          { label: "Warranty", value: "2-year" },
+          { label: "SKU", value: "ANC AP-55-00" },
+        ],
+      },
+    ],
+    sourceUrl: "https://ancoretraining.com/products/ancore-pro",
+    seo: {
+      title: "ANCORE Pro Portable Cable Trainer (55 lb) | GM Therapy",
+      description:
+        "Standard ANCORE Pro portable cable trainer with 5–55 lb 1:1 resistance, 8 ft Dyneema cable, and 220+ exercise variations.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
