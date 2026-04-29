@@ -6360,7 +6360,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "3-year warranty",
     ],
     gallery: [
-      { src: "/assets/products/gmts-traction-package.png", alt: "GMTS Traction Hi-Lo Treatment Table with Stool" },
+      { src: "/assets/products/gmts-traction-package.png", alt: "GMTS TRACTION TABLE with Stool" },
     ],
     specGroups: [
       {
