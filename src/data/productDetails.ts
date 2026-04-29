@@ -5108,6 +5108,238 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "HydraTherm Hot Pack Heating System help maintain a cleaner clinic. Their plastic tanks eliminate the possibility of rust, making HydraTherm easier to clean",
     },
   },
+  "67": {
+    productId: "67",
+    slug: "shuttle-tnt-with-towers",
+    tagline: "DESCRIPTION The Introducing the all-new Shuttle TNT Leg Press, an affordable, high-performance, Training ‘n’ Therapy machine",
+    overview: [
+      "DESCRIPTION The Introducing the all-new Shuttle TNT Leg Press, an affordable, high-performance, Training ‘n’ Therapy machine. Provides a range of exercises from light rehab to explosive plyometrics and leg press. CONTAINS LATEX.",
+      "FEATURES Training 'n' Therapy 24\" Seat Height Six Position Adjustable Backrest - Supine, 20°, 25°, 35°, 40°, and 45° Adjustable Hand Grips PNF Towers & Pulley System Available All Aluminum Construction Carriage Capacity: 450lbs Resistance: 6-250lbs Develop Explosive Power - To develop explosive power there is no substitute for jumping. The TNT allows you to participate in closed chain protocols, as well as jumping protocols."
+    ],
+    highlights: [
+      "24\" Seat Height",
+      "Six Position Adjustable Backrest - Supine, 20°, 25°, 35°, 40°, and 45°",
+      "Adjustable Hand Grips",
+      "PNF Towers & Pulley System Available",
+      "All Aluminum Construction",
+      "Carriage Capacity: 450lbs",
+      "Resistance: 6-250lbs"
+    ],
+    gallery: [
+      { src: "/assets/products/shuttle/tnt-with-towers/view-1.webp", alt: "Shuttle Systems TNT (with Towers) — view 1" },
+    ],
+    specGroups: [],
+    specSheetUrl: "/assets/products/shuttle/brochures/tnt-with-towers-manual.pdf",
+    sourceUrl: "https://www.shuttlesystems.com/products/7100t-tnt-with-towers",
+    seo: {
+      title: "Shuttle Systems TNT (with Towers) | GM Therapy",
+      description: "DESCRIPTION The Introducing the all-new Shuttle TNT Leg Press, an affordable, high-performance, Training ‘n’ Therapy machine. Provides a range of exercises",
+    },
+  },
+  "68": {
+    productId: "68",
+    slug: "shuttle-recovery-senior",
+    tagline: "DESCRIPTION The Recovery Senior provides an incredible value to the clinician",
+    overview: [
+      "DESCRIPTION The Recovery Senior provides an incredible value to the clinician. Able to handle a diverse range of patients from high school athletes to bariatric rehabilitation clientele, The Recovery provides a wide range of activities, from post-surgical to aggressive plyometric jumping. Designed with ease of use in mind; the Recovery makes patient transfers, resistance adjustments, and ROM easy for both the patient and the clinician.",
+      "CONTAINS LATEX. Click here to see the Parts & Accessories page for the Shuttle Recovery FEATURES Excellent Capacity - Resistance up to 300 lbs at full extension and a Patient weight capacity of 600 lbs."
+    ],
+    highlights: [
+      "Shuttle Recovery Senior"
+    ],
+    gallery: [
+      { src: "/assets/products/shuttle/recovery-senior/view-1.webp", alt: "Shuttle Recovery Senior — view 1" },
+    ],
+    specGroups: [],
+    specSheetUrl: "/assets/products/shuttle/brochures/recovery-senior-manual.pdf",
+    sourceUrl: "https://www.shuttlesystems.com/products/recovery-senior",
+    seo: {
+      title: "Shuttle Recovery Senior | GM Therapy",
+      description: "DESCRIPTION The Recovery Senior provides an incredible value to the clinician. Able to handle a diverse range of patients from high school athletes to bari",
+    },
+  },
+  "69": {
+    productId: "69",
+    slug: "shuttle-mvp-pro",
+    tagline: "DESCRIPTION A must have for top University trainers, strength coaches and Pro sports teams, the MVP is designed with high performance athletes in mind",
+    overview: [
+      "DESCRIPTION A must have for top University trainers, strength coaches and Pro sports teams, the MVP is designed with high performance athletes in mind. The MVP is especially valuable for working with high-level athletes where explosive power is developed with minimal joint impact. CONTAINS LATEX.",
+      "Click here to see the Parts page for the Shuttle MVP FEATURES Three In One Machine Supine Leg Press Less Than Body Weight Plyometrics Early Stage Rehabilitation Tool Develop Explosive Power - To develop explosive power there is no substitute for jumping. The MVP allows you to participate in closed chain protocols, as well as jumping protocols."
+    ],
+    highlights: [
+      "Supine Leg Press",
+      "Less Than Body Weight Plyometrics",
+      "Early Stage Rehabilitation Tool"
+    ],
+    gallery: [
+      { src: "/assets/products/shuttle/mvp-pro/view-1.webp", alt: "Shuttle MVP Pro — view 1" },
+    ],
+    specGroups: [],
+    specSheetUrl: "/assets/products/shuttle/brochures/mvp-pro-manual.pdf",
+    sourceUrl: "https://www.shuttlesystems.com/products/mvp-pro",
+    seo: {
+      title: "Shuttle MVP Pro | GM Therapy",
+      description: "DESCRIPTION A must have for top University trainers, strength coaches and Pro sports teams, the MVP is designed with high performance athletes in mind. The",
+    },
+  },
+  "70": {
+    productId: "70",
+    slug: "shuttle-ultimate",
+    tagline: "DESCRIPTION It’s the Ultimate in Versatility, Comfort, and Value, from Geriatric & Bariatric Care to Athletic Performance",
+    overview: [
+      "DESCRIPTION It’s the Ultimate in Versatility, Comfort, and Value, from Geriatric & Bariatric Care to Athletic Performance. Rehab - Improved Controls for Therapy, Greater Comfort & Adaptability, Accommodates Bariatric Loads. Sports Training - High-Load Resistance for Leg Press and Explosive Plyometric Training Horizontal Leg Press Positioning.",
+      "Specifications: Foot Print: 36\" W x 104\" L Resistance: 6-500 lbs Carriage Capacity: 600 lbs CONTAINS LATEX."
+    ],
+    highlights: [
+      "Foot Print: 36\" W x 104\" L",
+      "Resistance: 6-500 lbs",
+      "Carriage Capacity: 600 lbs",
+      "CONTAINS LATEX.",
+      "MADE IN THE USA",
+      "Incredibly Smooth Function",
+      "Facilitates Pilates Movements",
+      "Provides an Auxiliary Pulley System for Standing Activities"
+    ],
+    gallery: [
+      { src: "/assets/products/shuttle/ultimate/view-1.webp", alt: "Shuttle Ultimate — view 1" },
+      { src: "/assets/products/shuttle/ultimate/view-2.webp", alt: "Shuttle Ultimate — view 2" },
+      { src: "/assets/products/shuttle/ultimate/view-3.webp", alt: "Shuttle Ultimate — view 3" },
+    ],
+    specGroups: [],
+    specSheetUrl: "/assets/products/shuttle/brochures/ultimate-brochure.pdf",
+    sourceUrl: "https://www.shuttlesystems.com/products/shuttle-ultimate",
+    seo: {
+      title: "Shuttle Ultimate | GM Therapy",
+      description: "DESCRIPTION It’s the Ultimate in Versatility, Comfort, and Value, from Geriatric & Bariatric Care to Athletic Performance. Rehab - Improved Controls for Th",
+    },
+  },
+  "71": {
+    productId: "71",
+    slug: "shuttle-2000-1-clinical",
+    tagline: "DESCRIPTION Trusted by Physical Therapists since 1985, the Shuttle 2000-1 provides smooth progressive resistance from 3 lbs up to 160 lbs at full extension",
+    overview: [
+      "DESCRIPTION Trusted by Physical Therapists since 1985, the Shuttle 2000-1 provides smooth progressive resistance from 3 lbs up to 160 lbs at full extension. It is highly adjustable providing maximum patient comfort, making it ideal for acute and elderly patients. The 2000-1 has the most adjustability of any of the Shuttle Systems machines.",
+      "A horizontal carriage at 25” height, featuring a three position adjustable backrest, provides easy patient transfers. This model provides smooth progressive resistance up to 160 lbs, allowing for resistance adjustments without disturbing the patient. The PNF pulley tower system, available on select models, can also provide another dimension of treatments. CONTAINS LATEX."
+    ],
+    highlights: [
+      "Supine Leg Press",
+      "Less Than Body Weight Plyometrics",
+      "Early Stage Rehabilitation Tool"
+    ],
+    gallery: [
+      { src: "/assets/products/shuttle/2000-1-clinical/view-1.webp", alt: "Shuttle 2000-1 Clinical — view 1" },
+    ],
+    specGroups: [],
+    specSheetUrl: "/assets/products/shuttle/brochures/2000-1-clinical-manual.pdf",
+    sourceUrl: "https://www.shuttlesystems.com/products/2000-1-clinical",
+    seo: {
+      title: "Shuttle 2000-1 Clinical | GM Therapy",
+      description: "DESCRIPTION Trusted by Physical Therapists since 1985, the Shuttle 2000-1 provides smooth progressive resistance from 3 lbs up to 160 lbs at full extension",
+    },
+  },
+  "72": {
+    productId: "72",
+    slug: "shuttle-ultimate-plus",
+    tagline: "DESCRIPTION It’s the Ultimate in Versatility, Comfort, and Value, from Geriatric & Bariatric Care to Athletic Performance",
+    overview: [
+      "DESCRIPTION It’s the Ultimate in Versatility, Comfort, and Value, from Geriatric & Bariatric Care to Athletic Performance. Rehab - Improved Controls for Therapy, Greater Comfort & Adaptability, Accommodates Bariatric Loads. Sports Training - High-Load Resistance for Leg Press and Explosive Plyometric Training Horizontal Leg Press Positioning.",
+      "Specifications: Foot Print: 36\" W x 104\" L Resistance: 6-500 lbs Carriage Capacity: 600 lbs CONTAINS LATEX."
+    ],
+    highlights: [
+      "Foot Print: 36\" W x 104\" L",
+      "Resistance: 6-500 lbs",
+      "Carriage Capacity: 600 lbs",
+      "CONTAINS LATEX.",
+      "MADE IN THE USA",
+      "Incredibly Smooth Function",
+      "Facilitates Pilates Movements",
+      "Provides an Auxiliary Pulley System for Standing Activities"
+    ],
+    gallery: [
+      { src: "/assets/products/shuttle/ultimate-plus/view-1.webp", alt: "Shuttle Ultimate Plus — view 1" },
+      { src: "/assets/products/shuttle/ultimate-plus/view-2.webp", alt: "Shuttle Ultimate Plus — view 2" },
+    ],
+    specGroups: [],
+    specSheetUrl: "/assets/products/shuttle/brochures/ultimate-plus-brochure.pdf",
+    sourceUrl: "https://www.shuttlesystems.com/products/copy-of-shuttle-ultimate-plus",
+    seo: {
+      title: "Shuttle Ultimate Plus | GM Therapy",
+      description: "DESCRIPTION It’s the Ultimate in Versatility, Comfort, and Value, from Geriatric & Bariatric Care to Athletic Performance. Rehab - Improved Controls for Th",
+    },
+  },
+  "85": {
+    productId: "85",
+    slug: "shuttle-balance-professional",
+    tagline: "DESCRIPTION Able to be used in any environment; the Shuttle Balance is a safe unstable platform that is portable, inexpensive, and has a small footprint",
+    overview: [
+      "DESCRIPTION Able to be used in any environment; the Shuttle Balance is a safe unstable platform that is portable, inexpensive, and has a small footprint. With a winning record of positive reviews from Physical Therapists and Athletic Trainers, it is used extensively in Vestibular, Balance, Vision, and Proprioceptive training programs.",
+      "Not just for athletes, this model can also assist in providing Seniors the confidence to avoid falls.The Shuttle Balance simulates a slip through motion in all horizontal planes and perturbates in both standing and seated positions for therapeutic and sport-specific treatments (fall prevention, whiplash, contact sports)."
+    ],
+    highlights: [
+      "Shuttle Balance Professional"
+    ],
+    gallery: [
+      { src: "/assets/products/shuttle/balance-professional/view-1.webp", alt: "Shuttle Balance Professional — view 1" },
+    ],
+    specGroups: [],
+    specSheetUrl: "/assets/products/shuttle/brochures/balance-professional-manual.pdf",
+    sourceUrl: "https://www.shuttlesystems.com/products/balance-professional",
+    seo: {
+      title: "Shuttle Balance Professional | GM Therapy",
+      description: "DESCRIPTION Able to be used in any environment; the Shuttle Balance is a safe unstable platform that is portable, inexpensive, and has a small footprint. W",
+    },
+  },
+  "87": {
+    productId: "87",
+    slug: "shuttle-minipress",
+    tagline: "DESCRIPTION The Shuttle MiniPress, the ideal exercise equipment for clients recovering from total knee surgery and post-surgery rehabilitation",
+    overview: [
+      "DESCRIPTION The Shuttle MiniPress, the ideal exercise equipment for clients recovering from total knee surgery and post-surgery rehabilitation. This innovative portable device is especially designed for seniors, but it benefits clients of all ages looking to enhance their recovery journey. The Shuttle MiniPress focuses on sit-to-stand exercises, which are crucial for rebuilding strength and independence after surgery.",
+      "Weighing just 15 lbs, it easily attaches to any chair or wheelchair, making it a versatile addition to your clinic or home. This user-friendly machine provides safe and efficient strength training that promotes improved stability and balance—essential elements for recovery. By targeting resistance training, the Shuttle MiniPress helps people regain muscle strength and enhance knee range of motion, facilitating a smoother rehabilitation process."
+    ],
+    highlights: [
+      "Shuttle MiniPress"
+    ],
+    gallery: [
+      { src: "/assets/products/shuttle/minipress/view-1.webp", alt: "Shuttle MiniPress — view 1" },
+      { src: "/assets/products/shuttle/minipress/view-2.webp", alt: "Shuttle MiniPress — view 2" },
+      { src: "/assets/products/shuttle/minipress/view-3.webp", alt: "Shuttle MiniPress — view 3" },
+    ],
+    specGroups: [],
+    specSheetUrl: "/assets/products/shuttle/brochures/minipress-manual.pdf",
+    sourceUrl: "https://www.shuttlesystems.com/products/minipress",
+    seo: {
+      title: "Shuttle MiniPress | GM Therapy",
+      description: "DESCRIPTION The Shuttle MiniPress, the ideal exercise equipment for clients recovering from total knee surgery and post-surgery rehabilitation. This innova",
+    },
+  },
+  "89": {
+    productId: "89",
+    slug: "shuttle-rebound",
+    tagline: "DESCRIPTION The Shuttle Rebound raises the bar for performance and convenience",
+    overview: [
+      "DESCRIPTION The Shuttle Rebound raises the bar for performance and convenience. Our engineering team has successfully addressed the shortcomings found in other rebounders on the market, such as noise, durability and portability. FEATURES Portability - The Shuttle Rebound comes equipped with wheels that make it easy to move around the clinic or gym. It's a real space saver.",
+      "No Assembly Required - Just remove from the box, release the elastic retainer loops to unfold, and adjust to desired angle. Highest Durability - The Shuttle Rebound uses highest quality galvanized springs and only the most durable materials in mat construction. The frame is designed to accommodate up to 300 lbs. while protecting the trampoline springs."
+    ],
+    highlights: [
+      "Shuttle Rebound (Square Rebounder)"
+    ],
+    gallery: [
+      { src: "/assets/products/shuttle/rebound/view-1.webp", alt: "Shuttle Rebound (Square Rebounder) — view 1" },
+      { src: "/assets/products/shuttle/rebound/view-2.webp", alt: "Shuttle Rebound (Square Rebounder) — view 2" },
+      { src: "/assets/products/shuttle/rebound/view-3.webp", alt: "Shuttle Rebound (Square Rebounder) — view 3" },
+      { src: "/assets/products/shuttle/rebound/view-4.webp", alt: "Shuttle Rebound (Square Rebounder) — view 4" },
+      { src: "/assets/products/shuttle/rebound/view-5.webp", alt: "Shuttle Rebound (Square Rebounder) — view 5" },
+      { src: "/assets/products/shuttle/rebound/view-6.webp", alt: "Shuttle Rebound (Square Rebounder) — view 6" },
+    ],
+    specGroups: [],
+    specSheetUrl: "/assets/products/shuttle/brochures/rebound-manual.pdf",
+    sourceUrl: "https://www.shuttlesystems.com/products/shuttle-rebound",
+    seo: {
+      title: "Shuttle Rebound (Square Rebounder) | GM Therapy",
+      description: "DESCRIPTION The Shuttle Rebound raises the bar for performance and convenience. Our engineering team has successfully addressed the shortcomings found in o",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
