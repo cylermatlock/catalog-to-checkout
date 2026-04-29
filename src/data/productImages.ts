@@ -336,5 +336,5 @@ export const productImages: Record<string, string> = {
   "342": productAsset("gmts-low-mat-table.png"),
   "343": productAsset("gmts-low-mat-table.png"),
   // Ancore
-  "344": productAsset("ancore-rack-mount.jpg"),
+  "344": productAsset("ancore-rack-mount.png"),
 };
