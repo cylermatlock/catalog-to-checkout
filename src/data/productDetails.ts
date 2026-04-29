@@ -5790,52 +5790,64 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Solid oak electric hi-low mat table, 6' × 8', with 21\"–32\" height range, 120V motor, hand control, and 700 lb capacity. 11 upholstery colors.",
     },
   },
-  "6": {
-    productId: "6",
-    slug: "gmts-deluxe-oak-mat-tables",
-    tagline: "Fixed-height solid oak mat tables for clinical rehabilitation.",
-    overview: [
-      "GMTS Deluxe Oak Mat Tables are hand-crafted from high-quality solid oak with all wood surfaces finished in durable clear polyurethane. The 20\" surface height makes them well-suited for floor-level transfers, mat work, and pediatric or geriatric therapy.",
-      "The tabletop includes 2\" medium-density foam covered in Naugahyde® upholstery, offered in 11 stocking colors. Four sizes are available to accommodate a range of clinical needs.",
-    ],
-    highlights: [
-      "Hand-crafted solid oak construction",
-      "Durable clear polyurethane finish",
-      "2\" medium-density foam top with Naugahyde® upholstery",
-      "Surface height: 20\"",
-      "Available in 3' × 7', 4' × 7', 5' × 7', and 6' × 8'",
-      "11 stocking Naugahyde® colors",
-      "500 lb weight capacity",
-      "Made in the USA",
-    ],
-    gallery: [
-      { src: "/assets/products/gmts/oak-mat-tables/view-1.jpg", alt: "GMTS Deluxe Oak Mat Table" },
-    ],
-    specGroups: [
-      {
-        title: "Dimensions",
-        rows: [
-          { label: "Sizes", value: "3' × 7', 4' × 7', 5' × 7', 6' × 8'" },
-          { label: "Surface height", value: "20\"" },
-          { label: "Foam thickness", value: "2\" medium-density" },
+  ...((): Record<string, any> => {
+    const sizes: Array<{ id: string; size: string; slug: string; alt: string }> = [
+      { id: "6", size: "3' × 7'", slug: "gmts-deluxe-oak-mat-table-3x7", alt: "3' × 7'" },
+      { id: "341", size: "4' × 7'", slug: "gmts-deluxe-oak-mat-table-4x7", alt: "4' × 7'" },
+      { id: "342", size: "5' × 7'", slug: "gmts-deluxe-oak-mat-table-5x7", alt: "5' × 7'" },
+      { id: "343", size: "6' × 8'", slug: "gmts-deluxe-oak-mat-table-6x8", alt: "6' × 8'" },
+    ];
+    const out: Record<string, any> = {};
+    for (const s of sizes) {
+      out[s.id] = {
+        productId: s.id,
+        slug: s.slug,
+        tagline: `${s.size} fixed-height solid oak mat table for clinical rehabilitation.`,
+        overview: [
+          `GMTS Deluxe Oak Mat Table (${s.size}) is hand-crafted from high-quality solid oak with all wood surfaces finished in durable clear polyurethane. The 20" surface height makes it well-suited for floor-level transfers, mat work, and pediatric or geriatric therapy.`,
+          "The tabletop includes 2\" medium-density foam covered in Naugahyde® upholstery, offered in 11 stocking colors.",
         ],
-      },
-      {
-        title: "Construction",
-        rows: [
-          { label: "Frame", value: "Solid oak with clear polyurethane finish" },
-          { label: "Upholstery", value: "Naugahyde® — 11 stocking colors" },
-          { label: "Weight capacity", value: "500 lbs" },
-          { label: "Origin", value: "Made in the USA" },
+        highlights: [
+          `Size: ${s.size}`,
+          "Hand-crafted solid oak construction",
+          "Durable clear polyurethane finish",
+          "2\" medium-density foam top with Naugahyde® upholstery",
+          "Surface height: 20\"",
+          "11 stocking Naugahyde® colors",
+          "500 lb weight capacity",
+          "Made in the USA",
         ],
-      },
-    ],
-    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/mat-tables/fixed-height_2/tru-deluxe-oak-mat-tables/",
-    seo: {
-      title: "GMTS Deluxe Oak Mat Tables | GM Therapy",
-      description: "Solid oak fixed-height mat tables at 20\" surface height. Four sizes, 11 Naugahyde® colors, 2\" foam top, and 500 lb capacity. Made in USA.",
-    },
-  },
+        gallery: [
+          { src: "/assets/products/gmts/oak-mat-tables/view-1.jpg", alt: `GMTS Deluxe Oak Mat Table ${s.alt}` },
+        ],
+        specGroups: [
+          {
+            title: "Dimensions",
+            rows: [
+              { label: "Size", value: s.size },
+              { label: "Surface height", value: "20\"" },
+              { label: "Foam thickness", value: "2\" medium-density" },
+            ],
+          },
+          {
+            title: "Construction",
+            rows: [
+              { label: "Frame", value: "Solid oak with clear polyurethane finish" },
+              { label: "Upholstery", value: "Naugahyde® — 11 stocking colors" },
+              { label: "Weight capacity", value: "500 lbs" },
+              { label: "Origin", value: "Made in the USA" },
+            ],
+          },
+        ],
+        sourceUrl: "https://www.tru-medical.com/shop/tables-traction/mat-tables/fixed-height_2/tru-deluxe-oak-mat-tables/",
+        seo: {
+          title: `GMTS Deluxe Oak Mat Table ${s.size} | GM Therapy`,
+          description: `Solid oak fixed-height mat table, ${s.size}, with 20" surface, 2" foam top, 11 Naugahyde® colors, and 500 lb capacity. Made in USA.`,
+        },
+      };
+    }
+    return out;
+  })(),
   "12": {
     productId: "12",
     slug: "gmts-deluxe-convertible-ada-staircase",
