@@ -8244,6 +8244,263 @@ export const productDetails: Record<string, ProductDetail> = {
         "Ancore Rack Mount turns any 2\"–4\" squat rack upright into a portable cable training station. Aluminum + steel construction, quick-attach.",
     },
   },
+
+  // ANCORE Pro — Portable Cable Trainer — product id "202"
+  "202": {
+    productId: "202",
+    slug: "ancore-pro",
+    tagline:
+      "Portable cable resistance — pro-grade training without a cable column.",
+    overview: [
+      "The ANCORE Pro delivers portable cable resistance for clinics, training rooms, and home gyms that need pro-grade cable training without the space or cost of a traditional cable machine.",
+      "Its torque-loaded spring resistance mechanism produces a flat, consistent resistance curve and a true 1:1 ratio — meaning 65 lb on the Pro feels like roughly 130 lb on a standard 2:1 cable machine. Mounts to racks, poles, beams, or walls and unlocks 220+ exercise variations.",
+    ],
+    highlights: [
+      "Resistance: 5–65 lb, 1:1 ratio (≈10–130 lb equivalent on 2:1 cables)",
+      "Torque-loaded spring mechanism with flat torque curve",
+      "8 ft Dyneema® cable",
+      "12\" L × 4.75\" W × 3\" H, 9 lb fully loaded",
+      "Strap, wall, rack, sliding-track, and plate-dock mounts available",
+      "220+ exercise variations",
+      "USA assembled, 2-year warranty",
+    ],
+    gallery: [
+      { src: "/assets/products/ancore-pro-1.png", alt: "ANCORE Pro portable cable trainer — product view" },
+      { src: "/assets/products/ancore-pro-2.png", alt: "ANCORE Pro — what's included" },
+      { src: "/assets/products/ancore-pro-3.png", alt: "ANCORE Pro carrying case" },
+      { src: "/assets/products/ancore-pro-4.png", alt: "ANCORE Pro vertical product image" },
+      { src: "/assets/products/ancore-pro-5.png", alt: "ANCORE Pro schematic" },
+      { src: "/assets/products/ancore-pro-6.png", alt: "ANCORE Pro with packaging" },
+    ],
+    specGroups: [
+      {
+        title: "Resistance",
+        rows: [
+          { label: "Range", value: "5–65 lb (1:1 ratio)" },
+          { label: "Equivalent on 2:1 cable machine", value: "~10–130 lb" },
+          { label: "Mechanism", value: "Torque-loaded spring with flat torque curve" },
+        ],
+      },
+      {
+        title: "Cable & Build",
+        rows: [
+          { label: "Cable length", value: "8 ft" },
+          { label: "Cable material", value: "Dyneema® synthetic fiber" },
+          { label: "Dimensions", value: "12\" L × 4.75\" W × 3\" H (fully loaded)" },
+          { label: "Weight", value: "9 lb fully loaded" },
+        ],
+      },
+      {
+        title: "Mounting & Catalog",
+        rows: [
+          { label: "Mount options", value: "Strap, Wall, Rack, Sliding Track, Plate Dock" },
+          { label: "Origin", value: "USA assembled" },
+          { label: "Warranty", value: "2-year" },
+          { label: "SKU", value: "ANC AP-65-01" },
+        ],
+      },
+    ],
+    sourceUrl: "https://ancoretraining.com/products/ancore-pro",
+    seo: {
+      title: "ANCORE Pro Portable Cable Trainer (5–65 lb) | GM Therapy",
+      description:
+        "ANCORE Pro portable cable trainer with 5–65 lb 1:1 resistance, 8 ft Dyneema cable, and 220+ exercise variations. Ideal for rehab and training spaces.",
+    },
+  },
+
+  // ANCORE Ankle Strap Attachment — product id "203"
+  "203": {
+    productId: "203",
+    slug: "ancore-ankle-strap",
+    tagline:
+      "Padded ankle strap for lower-body cable training with the ANCORE.",
+    overview: [
+      "Training without limits doesn't stop at the upper body. The ANCORE Ankle Strap clips into the ANCORE or ANCORE Pro via a universal carabiner and fastens securely around the ankle, opening up kickbacks, hip abductions/adductions, and leg curls.",
+      "Padded for high-volume training and compatible with all ANCORE models.",
+    ],
+    highlights: [
+      "Padded ankle cuff for high-volume work",
+      "Universal carabiner — fits all ANCORE models",
+      "Built for kickbacks, hip abductions, and leg curls",
+      "Compatible with ANCORE and ANCORE Pro",
+    ],
+    gallery: [
+      { src: "/assets/products/ancore-ankle-strap-1.png", alt: "ANCORE Ankle Strap — product view" },
+      { src: "/assets/products/ancore-ankle-strap-2.png", alt: "Ankle strap clipped to ANCORE trainer" },
+      { src: "/assets/products/ancore-ankle-strap-3.png", alt: "Ankle strap in use — exercise 1" },
+      { src: "/assets/products/ancore-ankle-strap-4.png", alt: "Ankle strap in use — exercise 2" },
+    ],
+    specGroups: [
+      {
+        title: "Compatibility & Catalog",
+        rows: [
+          { label: "Fits", value: "ANCORE and ANCORE Pro" },
+          { label: "Attachment", value: "Universal carabiner clip" },
+          { label: "Includes", value: "1 ankle strap" },
+          { label: "SKU", value: "ANC AT-AS-01" },
+        ],
+      },
+    ],
+    sourceUrl: "https://ancoretraining.com/products/ancore-ankle-strap",
+    seo: {
+      title: "ANCORE Ankle Strap Attachment | GM Therapy",
+      description:
+        "Padded ankle strap for the ANCORE portable cable trainer. Universal carabiner clip fits ANCORE and ANCORE Pro for kickbacks, abductions, and leg curls.",
+    },
+  },
+
+  // ANCORE Plate Dock — Strap Mount — product id "204"
+  "204": {
+    productId: "204",
+    slug: "ancore-plate-dock",
+    tagline:
+      "Aluminum dock that keeps ANCORE Pro resistance plates organized and at hand.",
+    overview: [
+      "The Plate Dock seamlessly stores ANCORE Pro resistance plates at your facility or home gym without taking up floor space. Plates click directly into the dock for fast access between sets and patients.",
+      "This strap-mount version wraps around squat racks, poles, or other rounded fixtures with a 10–14\" circumference — no installation required.",
+    ],
+    highlights: [
+      "Aluminum storage dock for ANCORE Pro resistance plates",
+      "Strap mount fits 10–14\" round fixtures",
+      "Plates click in for fast access",
+      "No installation required",
+      "Great complement to any ANCORE training setup",
+    ],
+    gallery: [
+      { src: "/assets/products/ancore-plate-dock-1.png", alt: "ANCORE Plate Dock — product view" },
+      { src: "/assets/products/ancore-plate-dock-2.png", alt: "Plate Dock in environment" },
+      { src: "/assets/products/ancore-plate-dock-3.png", alt: "Plate Dock in use" },
+      { src: "/assets/products/ancore-plate-dock-4.png", alt: "Plate Dock alternate view" },
+      { src: "/assets/products/ancore-plate-dock-5.png", alt: "Plate Dock detail" },
+      { src: "/assets/products/ancore-plate-dock-6.png", alt: "Plate Dock wall-mounted variant" },
+    ],
+    specGroups: [
+      {
+        title: "Mounting",
+        rows: [
+          { label: "Type", value: "Strap mount" },
+          { label: "Fits fixtures", value: "10–14\" circumference" },
+          { label: "Installation", value: "None — strap-on" },
+        ],
+      },
+      {
+        title: "Compatibility & Catalog",
+        rows: [
+          { label: "Compatible plates", value: "ANCORE Pro resistance plates" },
+          { label: "Material", value: "Aluminum" },
+          { label: "SKU", value: "ANC AT-PD-01-SM" },
+        ],
+      },
+    ],
+    sourceUrl: "https://ancoretraining.com/products/plate-dock",
+    seo: {
+      title: "ANCORE Plate Dock — Strap Mount | GM Therapy",
+      description:
+        "Aluminum strap-mount Plate Dock for ANCORE Pro resistance plates. Wraps around 10–14\" rack uprights or rounded fixtures for fast plate access.",
+    },
+  },
+
+  // ANCORE 2.5 lb Resistance Plates (Pair) — product id "205"
+  "205": {
+    productId: "205",
+    slug: "ancore-resistance-plates-2-5",
+    tagline:
+      "Fine-tune ANCORE Pro resistance for early-stage rehab and progressive overload.",
+    overview: [
+      "ANCORE Resistance Plates click directly onto the ANCORE Pro base unit and stack to customize resistance for any exercise. Stackable, portable, and designed for fast swap-outs between protocols.",
+      "This pair of 2.5 lb plates is the smallest available — critical for early-stage rehab loading and incremental progressive overload.",
+    ],
+    highlights: [
+      "Pair of 2.5 lb resistance plates",
+      "Smallest plate increment for ANCORE Pro",
+      "Click directly onto ANCORE Pro base unit",
+      "Stackable with other ANCORE plates",
+      "Ideal for early-stage rehab and fine progression",
+    ],
+    gallery: [
+      { src: "/assets/products/ancore-resistance-plates-1.png", alt: "ANCORE Resistance Plates — product view" },
+      { src: "/assets/products/ancore-resistance-plates-2.png", alt: "ANCORE Resistance Plates alternate view" },
+      { src: "/assets/products/ancore-resistance-plates-3.png", alt: "Resistance plate detail" },
+      { src: "/assets/products/ancore-resistance-plates-4.png", alt: "Resistance plates in action" },
+      { src: "/assets/products/ancore-resistance-plates-5.png", alt: "Resistance plate detail closeup" },
+      { src: "/assets/products/ancore-resistance-plates-6.png", alt: "Resistance plates with Pro PT bundle" },
+    ],
+    specGroups: [
+      {
+        title: "Plates",
+        rows: [
+          { label: "Weight per plate", value: "~2.5 lb" },
+          { label: "Quantity", value: "Pair (2)" },
+          { label: "Attachment", value: "Twist-on / click-on to ANCORE Pro" },
+        ],
+      },
+      {
+        title: "Catalog",
+        rows: [
+          { label: "Compatibility", value: "ANCORE Pro" },
+          { label: "SKU", value: "ANC AT-RP-01-25" },
+        ],
+      },
+    ],
+    sourceUrl: "https://ancoretraining.com/products/resistance-plates",
+    seo: {
+      title: "ANCORE 2.5 lb Resistance Plates (Pair) | GM Therapy",
+      description:
+        "Pair of 2.5 lb ANCORE Pro resistance plates for fine-tuned progression and early-stage rehab loading. Click-on, stackable design.",
+    },
+  },
+
+  // ANCORE Sliding Track Mount — 6 ft Wall Track — product id "206"
+  "206": {
+    productId: "206",
+    slug: "ancore-sliding-track-mount",
+    tagline:
+      "Permanent 6 ft wall track — full vertical adjustability without sacrificing floor space.",
+    overview: [
+      "The ANCORE Sliding Track Mount delivers complete and effortless vertical adjustability for the ANCORE portable cable trainer without occupying any floor space. Ideal for clinics with dedicated treatment walls and facilities with structured training zones.",
+      "Handcrafted in the USA from premium materials, the 6-foot track installs into wood studs with all hardware included. The smooth slider lets staff change height in seconds between patients or athletes.",
+    ],
+    highlights: [
+      "Permanent 6 ft wall-mounted sliding track",
+      "Full vertical adjustability without floor footprint",
+      "Smooth slider for fast height changes",
+      "Handcrafted in the USA",
+      "Installs into wood studs — hardware included",
+      "ANCORE unit sold separately",
+    ],
+    gallery: [
+      { src: "/assets/products/ancore-sliding-track-mount-1.png", alt: "ANCORE Sliding Track Mount — product view" },
+      { src: "/assets/products/ancore-sliding-track-mount-2.png", alt: "Sliding Track Mount installed in environment" },
+      { src: "/assets/products/ancore-sliding-track-mount-3.png", alt: "Sliding Track Mount with ANCORE attached" },
+      { src: "/assets/products/ancore-sliding-track-mount-4.png", alt: "Sliding Track Mount in use — exercise 1" },
+      { src: "/assets/products/ancore-sliding-track-mount-5.png", alt: "Sliding Track Mount in use — exercise 2" },
+    ],
+    specGroups: [
+      {
+        title: "Track",
+        rows: [
+          { label: "Length", value: "6 ft" },
+          { label: "Mounting", value: "Wall — into wood studs" },
+          { label: "Adjustability", value: "Full vertical via smooth slider" },
+          { label: "Hardware", value: "All included" },
+        ],
+      },
+      {
+        title: "Catalog",
+        rows: [
+          { label: "Origin", value: "Handcrafted in USA" },
+          { label: "Compatibility", value: "ANCORE / ANCORE Pro (sold separately)" },
+          { label: "SKU", value: "ANC AT-TM-01" },
+        ],
+      },
+    ],
+    sourceUrl: "https://ancoretraining.com/products/sliding-track-mount",
+    seo: {
+      title: "ANCORE Sliding Track Mount — 6 ft Wall Track | GM Therapy",
+      description:
+        "Permanent 6 ft sliding wall track for the ANCORE portable cable trainer. Full vertical adjustability, handcrafted in the USA, hardware included.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
