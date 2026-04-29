@@ -8186,6 +8186,64 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "4-tier customizable TKO storage rack with dumbbell shelf (92ATT-DB). 3\"×3\" steel, styrene-lined shelves, 82\"×34\"×72\".",
     },
   },
+
+  // Ancore Rack Mount — product id "344"
+  "344": {
+    productId: "344",
+    slug: "ancore-rack-mount",
+    tagline:
+      "Transform any squat rack into a portable cable trainer in seconds.",
+    overview: [
+      "The Ancore Rack Mount turns a standard squat or power rack into a full-featured cable training station. Built with a durable aluminum plate, steel rod, and spring-locking knob, it attaches in seconds and holds the Ancore portable cable trainer securely at any height along the upright.",
+      "Compatible with any squat rack with uprights ranging from 2\" to 4\", the Rack Mount unlocks a full library of pulling, pressing, rotational, and functional cable movements — without dedicating floor space to a stand-alone cable column.",
+    ],
+    highlights: [
+      "Fits squat racks with 2\"–4\" uprights",
+      "Quick-attach with spring-locking knob",
+      "Durable aluminum plate + steel rod construction",
+      "Adjustable to any height along the rack",
+      "Pairs with the Ancore portable cable trainer",
+      "Adds cable training to any rack-equipped space",
+    ],
+    gallery: [
+      { src: "/assets/products/ancore-rack-mount.png", alt: "Ancore Rack Mount — product view" },
+      { src: "/assets/products/ancore-rack-mount-with-trainer.png", alt: "Ancore Rack Mount with Ancore cable trainer attached" },
+      { src: "/assets/products/ancore-rack-mount-environment.png", alt: "Ancore Rack Mount installed in a training environment" },
+      { src: "/assets/products/ancore-rack-mount-detail1.png", alt: "Ancore Rack Mount detail view" },
+      { src: "/assets/products/ancore-rack-mount-detail2.png", alt: "Ancore Rack Mount mounting hardware detail" },
+      { src: "/assets/products/ancore-rack-mount-pieces.png", alt: "Ancore Rack Mount components" },
+    ],
+    specGroups: [
+      {
+        title: "Compatibility",
+        rows: [
+          { label: "Rack uprights", value: "2\" to 4\" (square)" },
+          { label: "Trainer compatibility", value: "Ancore portable cable trainer" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Plate", value: "Durable aluminum" },
+          { label: "Rod", value: "Steel" },
+          { label: "Locking", value: "Spring-locking knob" },
+        ],
+      },
+      {
+        title: "Catalog",
+        rows: [
+          { label: "SKU", value: "ANC AT-RM-01" },
+          { label: "Manufacturer", value: "Ancore" },
+        ],
+      },
+    ],
+    sourceUrl: "https://ancoretraining.com/products/rack-mount",
+    seo: {
+      title: "Ancore Rack Mount (AT-RM-01) — Cable Trainer Rack Attachment | GM Therapy",
+      description:
+        "Ancore Rack Mount turns any 2\"–4\" squat rack upright into a portable cable training station. Aluminum + steel construction, quick-attach.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
