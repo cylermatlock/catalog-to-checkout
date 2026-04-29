@@ -31,6 +31,7 @@ const BRAND_MATCHERS: { label: string; test: (name: string) => boolean }[] = [
   { label: "Squid", test: (n) => /\bsquid\b/i.test(n) },
   { label: "Biofreeze", test: (n) => /\bbiofreeze\b/i.test(n) },
   { label: "Sup-R", test: (n) => /\bsup-?r\b/i.test(n) },
+  { label: "Ancore", test: (n) => /\bancore\b/i.test(n) },
 ];
 
 const getBrand = (p: Product): string => {
