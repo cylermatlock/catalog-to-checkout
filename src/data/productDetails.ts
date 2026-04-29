@@ -6722,6 +6722,323 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Pneumatic rolling clinic stool with five-star fiberglass base, 5 casters, flame-retardant vinyl seat, 18\"–23.5\" height range, and 300 lb capacity.",
     },
   },
+
+  // Armedica AM-TM700 — product id "9"
+  "9": {
+    productId: "9",
+    slug: "armedica-am-tm700-power-parallel-bars",
+    tagline:
+      "10' electric platform-mount parallel bars with microprocessor-controlled height, digital display, and four memory presets.",
+    overview: [
+      "The AM-TM700 is Armedica's flagship power parallel bar — a 10' two-piece platform-mount system designed for high-volume gait, balance, and lower-extremity rehab. A microprocessor control unit drives all four columns synchronously so the bars rise and fall perfectly level under load.",
+      "A user-friendly digital display shows the exact bar height, and four memory buttons let therapists save and recall preferred settings for repeat patients. Built-in height monitoring shuts the system off safely in the event of a fall or obstruction. ETL approved with stainless steel hand rails and a slip-resistant 48\" platform.",
+    ],
+    highlights: [
+      "500 lb load capacity",
+      "Bars adjust 20\"–34\"W and 26\"–54\"H",
+      "10' length, 48\"W two-piece slip-resistant platform",
+      "Microprocessor sync across all four columns",
+      "Digital height display + 4 memory presets",
+      "Height monitoring with safe switch-off",
+      "Stainless steel 1.5\" diameter hand rails",
+      "ETL approved",
+    ],
+    gallery: [
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AMTM%20700%2010%20Parallel%20Bars-clipped.png", alt: "Armedica AM-TM700 10' Electric Platform Mount Parallel Bars" },
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-TM700%20with%20End%20Control.png", alt: "AM-TM700 with end control panel" },
+    ],
+    specGroups: [
+      {
+        title: "Capacity & Dimensions",
+        rows: [
+          { label: "Load capacity", value: "500 lbs" },
+          { label: "Bar width range", value: '20" – 34"' },
+          { label: "Bar height range", value: '26" – 54"' },
+          { label: "Overall length", value: "120\" (10')" },
+          { label: "Platform", value: '48"W, two-piece, slip-resistant' },
+          { label: "Hand rails", value: '1.5" diameter stainless steel' },
+        ],
+      },
+      {
+        title: "Controls & Safety",
+        rows: [
+          { label: "Drive", value: "Electric, four-column microprocessor synchronized" },
+          { label: "Display", value: "Digital readout of exact bar height" },
+          { label: "Memory presets", value: "4 user-programmable" },
+          { label: "Safety", value: "Height monitoring with automatic switch-off" },
+          { label: "Certification", value: "ETL approved" },
+        ],
+      },
+      {
+        title: "Available Accessories",
+        rows: [
+          { label: "AM-714", value: 'Abduction board — 0.75"W x 94"L x 5"H' },
+          { label: "AM-715", value: 'Balance beam — 5"W x 80"L x 2.5"H' },
+          { label: "AM-716", value: 'Foot placement ladder — 24"W x 84"L x 4"H' },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.armedicamfg.com/hubfs/Armedica%20Data%20Sheets/Electric%20Platform%20Mount.pdf",
+    sourceUrl: "https://www.armedicamfg.com/products/_rehab-equipment/am-700-power-platform-parallel-bars",
+    seo: {
+      title: "Armedica AM-TM700 Power Parallel Bars (10') | GM Therapy",
+      description: "Electric platform-mount parallel bars with microprocessor sync, digital height display, 4 memory presets, 500 lb capacity, ETL approved.",
+    },
+  },
+
+  // Armedica AM-BA350 Bar Activated Treatment Table — product id "154"
+  "154": {
+    productId: "154",
+    slug: "armedica-am-ba350-bar-activated-treatment-table",
+    tagline:
+      "3-section bar-activated hi-lo treatment table with hands-free dual foot bar control and 500 lb capacity.",
+    overview: [
+      "The AM-BA350 is a 3-section hi-lo treatment table built around Armedica's bar-activated steel base. Dual foot bars run along the perimeter so therapists can raise or lower the table from any side without taking their hands off the patient.",
+      "The top is wrapped in 34 oz heavy-duty vinyl with Permablok 3® bacterial protection over 1.5\" high-density foam. Generous articulation — head section +45° to -90°, lower extremity 0° to 78°, armrests +45° to -90° — supports almost any clinical position. Four total-locking casters and an ADA-compliant low height round out the package.",
+    ],
+    highlights: [
+      "500 lb load capacity",
+      '27"W x 76"L, 18"–37"H 3-section top',
+      "Dual foot bar height control — hands-free from any side",
+      "Head section +45° to -90°, lower extremity 0–78°",
+      "Armrests +45° to -90°",
+      '34 oz heavy-duty vinyl with Permablok 3® bacterial protection',
+      '1.5" high-density foam, rounded corners',
+      "(4) total locking casters · ADA compliant",
+      "White powder-coat steel base (custom colors available)",
+    ],
+    gallery: [
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-BA350_650x650.png", alt: "Armedica AM-BA350 hi-lo treatment table — primary view" },
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-BA350-1-1.png", alt: "AM-BA350 angled view" },
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-BA350-2.png", alt: "AM-BA350 side profile" },
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-BA350-3.png", alt: "AM-BA350 detail view" },
+      { src: "https://www.armedicamfg.com/hubfs/Product%20Images/PT3613_Dual_Foot_Bar_600.png", alt: "Dual foot bar height-control mechanism" },
+    ],
+    specGroups: [
+      {
+        title: "Top & Capacity",
+        rows: [
+          { label: "Load capacity", value: "500 lbs" },
+          { label: "Top dimensions", value: '27"W x 76"L' },
+          { label: "Height range", value: '18" – 37" (ADA compliant)' },
+          { label: "Sections", value: "3-section" },
+          { label: "Foam", value: '1.5" high-density' },
+          { label: "Upholstery", value: "34 oz heavy-duty vinyl with Permablok 3® bacterial protection" },
+        ],
+      },
+      {
+        title: "Articulation",
+        rows: [
+          { label: "Head section", value: "+45° to -90°" },
+          { label: "Lower extremity", value: "0° to 78°" },
+          { label: "Armrests", value: "+45° to -90°" },
+        ],
+      },
+      {
+        title: "Base",
+        rows: [
+          { label: "Control", value: "Dual foot bar — hands-free from any side" },
+          { label: "Frame", value: "Welded steel, white powder coat" },
+          { label: "Casters", value: "(4) total locking" },
+          { label: "Custom base colors", value: "Black · Metallic Silver · Steel Gray (optional)" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.armedicamfg.com/hubfs/Armedica%20Data%20Sheets/AM-BA%2027.pdf",
+    sourceUrl: "https://www.armedicamfg.com/products/_treatment-tables/am-ba-350-treatment-table",
+    seo: {
+      title: "Armedica AM-BA350 Bar-Activated Hi-Lo Treatment Table | GM Therapy",
+      description: "3-section bar-activated hi-lo table with dual foot-bar control, 500 lb capacity, full articulation, Permablok 3® vinyl, ADA compliant.",
+    },
+  },
+
+  // Armedica AM-400 Four-Section Hi-Lo Traction Table — product id "200"
+  "200": {
+    productId: "200",
+    slug: "armedica-am-400-traction-table",
+    tagline:
+      "4-section bar-activated hi-lo traction table with full positional articulation and 500 lb capacity.",
+    overview: [
+      "The AM-400 is a four-section hi-lo treatment and traction table designed to give clinicians complete positional control. Each section moves independently so the table can be configured for cervical traction, lumbar traction, seated upright work, or flat treatment without leaving the patient.",
+      "Like the rest of the Armedica BA line, height is controlled by dual foot bars — therapists can raise or lower from any side, hands-free. The 99\" overall length accommodates traction setups, and the 34 oz Permablok 3® vinyl over 1.5\" high-density foam holds up under heavy clinical use.",
+    ],
+    highlights: [
+      "500 lb load capacity",
+      '27"W x 76"L top, 99" overall length',
+      'Height range 18" – 37" via dual foot bars',
+      "4-section top — full independent articulation",
+      "Head section +45° to -90°",
+      "Lower extremity 0° to 80°",
+      '34 oz heavy-duty vinyl with Permablok 3® bacterial protection',
+      '1.5" high-density foam, rounded corners',
+      "Compatible with traction units (sold separately)",
+    ],
+    gallery: [
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-400.png", alt: "Armedica AM-400 4-section hi-lo traction table" },
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-BA400.png", alt: "AM-BA400 alternate view" },
+      { src: "https://www.armedicamfg.com/hubfs/Product%20Images/TRACTION-4_600.png", alt: "Traction-ready 4-section configuration" },
+    ],
+    specGroups: [
+      {
+        title: "Top & Capacity",
+        rows: [
+          { label: "Load capacity", value: "500 lbs" },
+          { label: "Top dimensions", value: '27"W x 76"L' },
+          { label: "Overall length", value: '99"' },
+          { label: "Height range", value: '18" – 37"' },
+          { label: "Sections", value: "4-section" },
+          { label: "Foam", value: '1.5" high-density' },
+          { label: "Upholstery", value: "34 oz heavy-duty vinyl with Permablok 3® bacterial protection" },
+        ],
+      },
+      {
+        title: "Articulation",
+        rows: [
+          { label: "Head section", value: "+45° to -90°" },
+          { label: "Lower extremity", value: "0° to 80°" },
+        ],
+      },
+      {
+        title: "Base",
+        rows: [
+          { label: "Control", value: "Dual foot bar — hands-free from any side" },
+          { label: "Frame", value: "Welded steel, white powder coat" },
+          { label: "Optional casters", value: "AM-T1024 — base with (4) total-lock swivel casters" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.armedicamfg.com/hubfs/2023%20Armedica%20Data%20Sheets/Traction%20Tables_I08.15.23.pdf",
+    sourceUrl: "https://www.armedicamfg.com/products/_traction-tables/am-ba-400-treatment-table",
+    seo: {
+      title: "Armedica AM-400 Four-Section Hi-Lo Traction Table | GM Therapy",
+      description: "4-section bar-activated hi-lo traction table with full articulation, 500 lb capacity, 99\" overall length, Permablok 3® vinyl.",
+    },
+  },
+
+  // Armedica AM-BA134 Bariatric Bar-Activated Treatment Table — product id "201"
+  "201": {
+    productId: "201",
+    slug: "armedica-am-ba134-bariatric-treatment-table",
+    tagline:
+      '34" extra-wide bariatric hi-lo treatment table with bar-activated foot control and 500 lb capacity.',
+    overview: [
+      "The AM-BA134 is Armedica's wide-bariatric hi-lo treatment table — a single-section top measuring 34\"W x 76\"L on the same proven bar-activated steel base used across the BA line. The extra-wide top gives larger patients a stable, comfortable surface; the dual foot bars let the therapist control table height hands-free from any side.",
+      "Built with 34 oz heavy-duty vinyl over 1.5\" high-density foam, welded steel frame, and four total-locking casters. ADA-compliant low height makes patient transfers straightforward.",
+    ],
+    highlights: [
+      "500 lb load capacity",
+      '34"W x 76"L extra-wide single-section top',
+      'Height range 18" – 37" (ADA compliant)',
+      "Bar-activated dual foot bar control — hands-free",
+      '34 oz heavy-duty vinyl with Permablok 3® bacterial protection',
+      '1.5" high-density foam, rounded corners',
+      "(4) total locking casters",
+      "White powder-coat steel base (custom colors available)",
+    ],
+    gallery: [
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-BA134.png", alt: "Armedica AM-BA134 bariatric hi-lo treatment table" },
+      { src: "https://www.armedicamfg.com/hubfs/Product%20Images/PT3613_Dual_Foot_Bar_600.png", alt: "Dual foot bar height-control mechanism" },
+    ],
+    specGroups: [
+      {
+        title: "Top & Capacity",
+        rows: [
+          { label: "Load capacity", value: "500 lbs" },
+          { label: "Top dimensions", value: '34"W x 76"L' },
+          { label: "Height range", value: '18" – 37" (ADA compliant)' },
+          { label: "Sections", value: "1-section" },
+          { label: "Foam", value: '1.5" high-density' },
+          { label: "Upholstery", value: "34 oz heavy-duty vinyl with Permablok 3® bacterial protection" },
+        ],
+      },
+      {
+        title: "Base",
+        rows: [
+          { label: "Control", value: "Bar-activated dual foot bar — hands-free from any side" },
+          { label: "Frame", value: "Welded steel, white powder coat" },
+          { label: "Casters", value: "(4) total locking" },
+          { label: "Custom base colors", value: "Black · Metallic Silver · Steel Gray (optional)" },
+        ],
+      },
+      {
+        title: "Available Options",
+        rows: [
+          { label: "AM-18", value: "Face cutout" },
+          { label: "AM-17", value: "Face plug (requires AM-18)" },
+          { label: "AM-91", value: 'Add 1" extra-soft foam' },
+          { label: "19859", value: "Add-on belt & brackets" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.armedicamfg.com/hubfs/Armedica%20Data%20Sheets/AM-BA%2034.pdf",
+    sourceUrl: "https://www.armedicamfg.com/products/_treatment-tables/am-ba134-bar-activated-bariatric-treatment-table",
+    seo: {
+      title: 'Armedica AM-BA134 Bariatric 34" Hi-Lo Treatment Table | GM Therapy',
+      description: '34" wide bariatric bar-activated hi-lo treatment table with hands-free foot control, 500 lb capacity, Permablok 3® vinyl, ADA compliant.',
+    },
+  },
+
+  // Armedica AMTM-660 6' x 8' Electric Hi-Lo Mat Platform — product id "257"
+  "257": {
+    productId: "257",
+    slug: "armedica-amtm-660-electric-mat-platform",
+    tagline:
+      "6' x 8' electric hi-lo mat platform on a welded steel frame with 1,000 lb capacity for neuro, pediatric, and high-volume rehab.",
+    overview: [
+      "The AMTM-660 is Armedica's 6' x 8' electric hi-lo mat platform — a workhorse for neuro rehab, pediatric therapy, and any setting where you need a generous, low-transfer treatment surface that rises to a comfortable working height for the therapist.",
+      "Welded steel frame, 2\" high-density foam, and 34 oz Permablok 3® vinyl give the platform the durability to handle continuous clinical use. Standard hand control raises and lowers the deck across a 20\"–30\" range; foot switches and dual controls are available as options. Side bumpers (sold separately) protect both patient and walls.",
+    ],
+    highlights: [
+      "1,000 lb load capacity",
+      '72"W x 96"L (6\' x 8\') platform',
+      'Electric height elevation 20" – 30"',
+      "Welded steel frame",
+      '34 oz heavy-duty vinyl with Permablok 3® bacterial protection',
+      '2" high-density foam, rounded corners',
+      "Hand control standard; foot switch & dual controls optional",
+      "Side bumpers available (AMSBO-068)",
+    ],
+    gallery: [
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-660_550x450.png", alt: "Armedica AMTM-660 6' x 8' electric hi-lo mat platform" },
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/Side_Bumper.png", alt: "Optional AMSBO side bumpers" },
+    ],
+    specGroups: [
+      {
+        title: "Platform & Capacity",
+        rows: [
+          { label: "Load capacity", value: "1,000 lbs" },
+          { label: "Dimensions", value: '72"W x 96"L (6\' x 8\')' },
+          { label: "Height range", value: '20" – 30"' },
+          { label: "Frame", value: "Welded steel" },
+          { label: "Foam", value: '2" high-density' },
+          { label: "Upholstery", value: "34 oz heavy-duty vinyl with Permablok 3® bacterial protection" },
+        ],
+      },
+      {
+        title: "Controls",
+        rows: [
+          { label: "Standard", value: "Single mounted hand control" },
+          { label: "AMTM-03611-FS", value: "Substitute foot switch for hand control" },
+          { label: "AMTM-03611-FS-2", value: "Add a second foot switch (not with hand control)" },
+          { label: "AMTM-03619-BMS-2", value: "Add a second hand control (not with foot switch)" },
+        ],
+      },
+      {
+        title: "Accessories",
+        rows: [
+          { label: "AMSBO-068", value: "Side bumpers for 6' x 8' mat table" },
+          { label: "AMSBO-057", value: "Side bumpers for 5' x 7' mat table" },
+          { label: "AMSBO-047", value: "Side bumpers for 4' x 7' mat table" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://www.armedicamfg.com/hubfs/Armedica%20Data%20Sheets/Electric_Mat_03.12.24.pdf",
+    sourceUrl: "https://www.armedicamfg.com/products/_treatment-tables/amtm-660-mat-table",
+    seo: {
+      title: "Armedica AMTM-660 6' x 8' Electric Hi-Lo Mat Platform | GM Therapy",
+      description: "6' x 8' electric hi-lo mat platform with 1,000 lb capacity, 20\"–30\" height range, welded steel frame, Permablok 3® vinyl.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
