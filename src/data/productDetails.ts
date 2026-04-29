@@ -6998,7 +6998,7 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     gallery: [
       { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-660_550x450.png", alt: "Armedica AMTM-660 6' x 8' electric hi-lo mat platform" },
-      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/Side_Bumper.png", alt: "Optional AMSBO side bumpers" },
+      
     ],
     specGroups: [
       {
