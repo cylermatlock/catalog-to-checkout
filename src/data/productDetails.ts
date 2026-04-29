@@ -6338,10 +6338,11 @@ export const productDetails: Record<string, ProductDetail> = {
   "18": {
     productId: "18",
     slug: "gmts-traction-hi-lo-treatment-table-with-stool",
-    tagline: "4-section electric traction hi-lo treatment table with low-friction gliding lumbar section and turret-mounted traction pedestal.",
+    tagline: "4-section electric traction hi-lo treatment table with low-friction gliding lumbar section and turret-mounted traction pedestal — stool included.",
     overview: [
-      "Designed specifically for lumbar traction and other therapeutic techniques, the GMTS Traction Hi-Lo Treatment Table is ideal for rehabilitation and sports therapy centers. The four-cushion-section table features a low-friction gliding lumbar section and a turret-mounted traction pedestal for precise, repeatable traction setups.",
-      "An industry-leading linear actuator produces an unmatched 7,000 Newtons of force and electrically adjusts table height from 18\"–38\". Foot-pedal controls on all four sides make access easy, and the anti-microbial surface provides a sanitary, easy-to-clean treatment area. Backed by a three-year warranty.",
+      "Designed specifically for lumbar traction and other therapeutic techniques, the GMTS Traction Hi-Lo Treatment Table is ideal for rehabilitation and sports therapy centers. The four-cushion-section design features a low-friction gliding lumbar section and a turret-mounted traction pedestal for precise, repeatable traction setups.",
+      "An industry-leading linear actuator produces an unmatched 7,000 Newtons of force and electrically adjusts table height from 18\"–38\" for easy patient access. Foot-pedal controls on all four sides keep clinicians hands-free during setup, and gas-assisted struts control section movement smoothly.",
+      "An anti-microbial top surface provides a sanitary, easy-to-clean treatment area, while the 3\" non-slip cushion is gently contoured for both patient and practitioner comfort. Integrated retractable casters make the table easy to reposition. Includes a matching stool and is backed by a three-year warranty.",
     ],
     highlights: [
       "Four cushion-sections with low-friction gliding lumbar section",
@@ -6356,41 +6357,47 @@ export const productDetails: Record<string, ProductDetail> = {
       "500 lb weight capacity",
       "110V power",
       "Available in Black, Grey, or Blue",
-      "Includes stool",
+      "Stool included",
       "3-year warranty",
     ],
     gallery: [
-      { src: "/assets/products/gmts-traction-package.png", alt: "GMTS TRACTION TABLE with Stool" },
+      { src: "/assets/products/gmts-traction-package.png", alt: "GMTS Traction Hi-Lo Treatment Table with Stool" },
     ],
     specGroups: [
       {
-        title: "Dimensions & Capacity",
+        title: "Table & Capacity",
         rows: [
-          { label: "Cushion sections", value: "4, with gliding lumbar section" },
-          { label: "Height range", value: "18\"–38\" (electric)" },
+          { label: "Cushion sections", value: "4, with low-friction gliding lumbar section" },
           { label: "Cushion thickness", value: "3\" non-slip, contoured" },
+          { label: "Height range", value: "18\"–38\" (electric)" },
           { label: "Weight capacity", value: "500 lb" },
         ],
       },
       {
-        title: "Power & Features",
+        title: "Power & Controls",
         rows: [
           { label: "Power", value: "110V" },
-          { label: "Actuator", value: "Linear, 7,000 N force" },
+          { label: "Actuator", value: "Linear — 7,000 N force" },
           { label: "Controls", value: "Foot pedals on all four sides" },
+          { label: "Section control", value: "Gas-assisted struts" },
           { label: "Traction", value: "Turret-mounted traction pedestal" },
+        ],
+      },
+      {
+        title: "Surface & Mobility",
+        rows: [
           { label: "Surface", value: "Anti-microbial, easy-to-clean" },
           { label: "Casters", value: "Integrated, retractable" },
           { label: "Color options", value: "Black, Grey, Blue" },
-          { label: "Includes", value: "Stool" },
+          { label: "Includes", value: "Matching stool" },
           { label: "Warranty", value: "3 years" },
         ],
       },
     ],
     sourceUrl: "https://medsurface.com/treatment-tables/traction-hi-lo-table-with-stool/",
     seo: {
-      title: "GMTS TRACTION TABLE with Stool | GM Therapy",
-      description: "4-section electric traction hi-lo treatment table with gliding lumbar section, turret-mounted traction pedestal, 18\"–38\" range, 7,000 N actuator, and 500 lb capacity.",
+      title: "GMTS Traction Hi-Lo Treatment Table with Stool | GM Therapy",
+      description: "4-section electric traction hi-lo treatment table with low-friction gliding lumbar section, turret-mounted traction pedestal, 18\"–38\" range, 7,000 N actuator, foot-pedal controls, and 500 lb capacity. Stool included.",
     },
   },
 };
