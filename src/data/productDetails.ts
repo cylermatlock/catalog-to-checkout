@@ -5645,31 +5645,31 @@ export const productDetails: Record<string, ProductDetail> = {
   },
   "5": {
     productId: "5",
-    slug: "gmts-electric-hi-low-mat-tables",
-    tagline: "Electric height-adjustable hi-low mat tables in solid oak.",
+    slug: "gmts-electric-hi-low-mat-table-4x7",
+    tagline: "4' × 7' electric height-adjustable hi-low mat table in solid oak.",
     overview: [
-      "GMTS Electric Hi-Low Mat Tables are hand-crafted from high-quality solid oak and feature a 120V, 60 Hz motor that smoothly adjusts table height from 21\" to 32\". A hand control is standard for easy operation during patient transfers and treatment.",
-      "All wood surfaces are finished in durable clear polyurethane. The tabletop includes 2\" medium-density foam covered in Naugahyde® upholstery and is offered in 11 stocking colors. Available in three sizes for different clinical footprints.",
+      "GMTS Electric Hi-Low Mat Table (4' × 7') is hand-crafted from high-quality solid oak and features a 120V, 60 Hz motor that smoothly adjusts table height from 21\" to 32\". A hand control is standard for easy operation during patient transfers and treatment.",
+      "All wood surfaces are finished in durable clear polyurethane. The tabletop includes 2\" medium-density foam covered in Naugahyde® upholstery and is offered in 11 stocking colors.",
     ],
     highlights: [
+      "Size: 4' × 7'",
       "Hand-crafted solid oak construction",
       "120V, 60 Hz motor — electronic height adjustment",
       "Height range: 21\"–32\"",
       "Hand control standard",
       "2\" medium-density foam top with Naugahyde® upholstery",
-      "Available in 4' × 7', 5' × 7', and 6' × 8'",
       "11 stocking Naugahyde® colors",
       "700 lb weight capacity",
       "Made in the USA",
     ],
     gallery: [
-      { src: "/assets/products/gmts/electric-hilo-mat-tables/view-1.jpg", alt: "GMTS Electric Hi-Low Mat Table" },
+      { src: "/assets/products/gmts/electric-hilo-mat-tables/view-1.jpg", alt: "GMTS Electric Hi-Low Mat Table 4' × 7'" },
     ],
     specGroups: [
       {
         title: "Dimensions",
         rows: [
-          { label: "Sizes", value: "4' × 7', 5' × 7', 6' × 8'" },
+          { label: "Size", value: "4' × 7'" },
           { label: "Height range", value: "21\"–32\" (electric)" },
           { label: "Foam thickness", value: "2\" medium-density" },
         ],
@@ -5688,8 +5688,106 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://www.tru-medical.com/shop/tables-traction/mat-tables/hi-low_2/tru-electric-hi-low-mat-tables/",
     seo: {
-      title: "GMTS Electric Hi-Low Mat Tables | GM Therapy",
-      description: "Solid oak electric hi-low mat tables with 21\"–32\" height range, 120V motor, hand control, and 700 lb capacity. Three sizes, 11 upholstery colors.",
+      title: "GMTS Electric Hi-Low Mat Table 4' × 7' | GM Therapy",
+      description: "Solid oak electric hi-low mat table, 4' × 7', with 21\"–32\" height range, 120V motor, hand control, and 700 lb capacity. 11 upholstery colors.",
+    },
+  },
+  "337": {
+    productId: "337",
+    slug: "gmts-electric-hi-low-mat-table-5x7",
+    tagline: "5' × 7' electric height-adjustable hi-low mat table in solid oak.",
+    overview: [
+      "GMTS Electric Hi-Low Mat Table (5' × 7') is hand-crafted from high-quality solid oak and features a 120V, 60 Hz motor that smoothly adjusts table height from 21\" to 32\". A hand control is standard for easy operation during patient transfers and treatment.",
+      "All wood surfaces are finished in durable clear polyurethane. The tabletop includes 2\" medium-density foam covered in Naugahyde® upholstery and is offered in 11 stocking colors.",
+    ],
+    highlights: [
+      "Size: 5' × 7'",
+      "Hand-crafted solid oak construction",
+      "120V, 60 Hz motor — electronic height adjustment",
+      "Height range: 21\"–32\"",
+      "Hand control standard",
+      "2\" medium-density foam top with Naugahyde® upholstery",
+      "11 stocking Naugahyde® colors",
+      "700 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/electric-hilo-mat-tables/view-1.jpg", alt: "GMTS Electric Hi-Low Mat Table 5' × 7'" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Size", value: "5' × 7'" },
+          { label: "Height range", value: "21\"–32\" (electric)" },
+          { label: "Foam thickness", value: "2\" medium-density" },
+        ],
+      },
+      {
+        title: "Power & Construction",
+        rows: [
+          { label: "Motor", value: "120V, 60 Hz" },
+          { label: "Controls", value: "Hand control standard" },
+          { label: "Frame", value: "Solid oak with clear polyurethane finish" },
+          { label: "Upholstery", value: "Naugahyde® — 11 stocking colors" },
+          { label: "Weight capacity", value: "700 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/mat-tables/hi-low_2/tru-electric-hi-low-mat-tables/",
+    seo: {
+      title: "GMTS Electric Hi-Low Mat Table 5' × 7' | GM Therapy",
+      description: "Solid oak electric hi-low mat table, 5' × 7', with 21\"–32\" height range, 120V motor, hand control, and 700 lb capacity. 11 upholstery colors.",
+    },
+  },
+  "338": {
+    productId: "338",
+    slug: "gmts-electric-hi-low-mat-table-6x8",
+    tagline: "6' × 8' electric height-adjustable hi-low mat table in solid oak.",
+    overview: [
+      "GMTS Electric Hi-Low Mat Table (6' × 8') is hand-crafted from high-quality solid oak and features a 120V, 60 Hz motor that smoothly adjusts table height from 21\" to 32\". The largest size in the line, ideal for neuro, pediatric, and bariatric rehab. A hand control is standard for easy operation during patient transfers and treatment.",
+      "All wood surfaces are finished in durable clear polyurethane. The tabletop includes 2\" medium-density foam covered in Naugahyde® upholstery and is offered in 11 stocking colors.",
+    ],
+    highlights: [
+      "Size: 6' × 8' — largest clinical mat size",
+      "Hand-crafted solid oak construction",
+      "120V, 60 Hz motor — electronic height adjustment",
+      "Height range: 21\"–32\"",
+      "Hand control standard",
+      "2\" medium-density foam top with Naugahyde® upholstery",
+      "11 stocking Naugahyde® colors",
+      "700 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/electric-hilo-mat-tables/view-1.jpg", alt: "GMTS Electric Hi-Low Mat Table 6' × 8'" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Size", value: "6' × 8'" },
+          { label: "Height range", value: "21\"–32\" (electric)" },
+          { label: "Foam thickness", value: "2\" medium-density" },
+        ],
+      },
+      {
+        title: "Power & Construction",
+        rows: [
+          { label: "Motor", value: "120V, 60 Hz" },
+          { label: "Controls", value: "Hand control standard" },
+          { label: "Frame", value: "Solid oak with clear polyurethane finish" },
+          { label: "Upholstery", value: "Naugahyde® — 11 stocking colors" },
+          { label: "Weight capacity", value: "700 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/mat-tables/hi-low_2/tru-electric-hi-low-mat-tables/",
+    seo: {
+      title: "GMTS Electric Hi-Low Mat Table 6' × 8' | GM Therapy",
+      description: "Solid oak electric hi-low mat table, 6' × 8', with 21\"–32\" height range, 120V motor, hand control, and 700 lb capacity. 11 upholstery colors.",
     },
   },
   "6": {
