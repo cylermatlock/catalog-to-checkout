@@ -32,6 +32,11 @@ const BRAND_MATCHERS: { label: string; test: (name: string) => boolean }[] = [
   { label: "Biofreeze", test: (n) => /\bbiofreeze\b/i.test(n) },
   { label: "Sup-R", test: (n) => /\bsup-?r\b/i.test(n) },
   { label: "Ancore", test: (n) => /\bancore\b/i.test(n) },
+  { label: "Stroops", test: (n) => /\bstroops\b/i.test(n) },
+  { label: "Ader", test: (n) => /\bader\b/i.test(n) },
+  { label: "TRX", test: (n) => /\btrx\b/i.test(n) },
+  { label: "Merrithew", test: (n) => /\bmerrithew\b/i.test(n) },
+  { label: "BodyKore", test: (n) => /\bbody-?kore\b/i.test(n) },
 ];
 
 const getBrand = (p: Product): string => {
