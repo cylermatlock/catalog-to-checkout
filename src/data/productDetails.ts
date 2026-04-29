@@ -6745,7 +6745,6 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     gallery: [
       { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AMTM%20700%2010%20Parallel%20Bars-clipped.png", alt: "Armedica AM-TM700 10' Electric Platform Mount Parallel Bars" },
-      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-TM700%20with%20End%20Control.png", alt: "AM-TM700 with end control panel" },
     ],
     specGroups: [
       {
