@@ -7578,6 +7578,439 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "10 lb Olympic rubber-encased grip plate with bi-lateral handles, steel insert, and 5-year commercial warranty.",
     },
   },
+
+  // IDs 301–305 — TKO Olympic Rubber Grip Plate (2.5 / 25 / 35 / 45 / 5 lb variants)
+  ...(() => {
+    const galleryShared: GalleryImage[] = [
+      { src: "https://www.tkostrength.com/cdn/shop/files/803OROlympicRubberPlatesStacked_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plates — stacked set" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/2.5_ed9cac88-4255-484e-9f45-1bb937860e1c_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 2.5 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/5plate_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 5 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/10plate_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 10 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/25plate_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 25 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/35plate_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 35 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/45lb_Plate_1024x1024.jpg?v=1747188672", alt: "TKO Olympic Rubber Grip Plate — 45 lb" },
+    ];
+    const specGroupsShared: SpecGroup[] = [
+      {
+        title: "Construction",
+        rows: [
+          { label: "Material", value: "Steel insert with non-odor rubber encasement" },
+          { label: "Center hole", value: "2\" Olympic" },
+          { label: "Grip", value: "Bi-lateral handles" },
+          { label: "Available range", value: "2.5 / 5 / 10 / 25 / 35 / 45 lb" },
+          { label: "Warranty", value: "5-year full commercial" },
+        ],
+      },
+    ];
+    const make = (id: string, weight: string, sku: string): ProductDetail => ({
+      productId: id,
+      slug: `tko-olympic-rubber-grip-plate-${weight.replace(/\s/g, "").replace(".", "-")}`,
+      tagline: `${weight} Olympic rubber-encased grip plate with bi-lateral handles.`,
+      overview: [
+        "TKO's Olympic Rubber Grip Plate is non-odor rubber-encased over a solid steel insert, built to deliver years of trouble-free use without cracking or fading. Bi-lateral grips make plate carries, loading, and farmers walks easier on the hands.",
+        "Sold individually so you can spec the exact range your facility needs.",
+      ],
+      highlights: [
+        `${weight} Olympic rubber-coated grip plate`,
+        "Bi-lateral grip design — two handles per plate",
+        "Durable, non-odor rubber encasement",
+        "Solid steel insert for precision Olympic fit",
+        "Protects floors and equipment",
+        "5-year full-commercial warranty",
+      ],
+      gallery: galleryShared,
+      specGroups: [
+        ...specGroupsShared,
+        {
+          title: "This Variant",
+          rows: [
+            { label: "Weight", value: weight },
+            { label: "SKU", value: sku },
+          ],
+        },
+      ],
+      specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/803OR.pdf",
+      sourceUrl: "https://www.tkostrength.com/products/rubber-grip-plate",
+      seo: {
+        title: `TKO ${weight} Olympic Rubber Grip Plate | GM Therapy`,
+        description: `${weight} Olympic rubber-encased grip plate with bi-lateral handles, steel insert, and 5-year commercial warranty.`,
+      },
+    });
+    return {
+      "301": make("301", "2.5 lb", "803OR-2.5"),
+      "302": make("302", "25 lb", "803OR-25"),
+      "303": make("303", "35 lb", "803OR-35"),
+      "304": make("304", "45 lb", "803OR-45"),
+      "305": make("305", "5 lb", "803OR-5"),
+    };
+  })(),
+
+  // IDs 306–313 — TKO Rubber Hex Dumbbell w/ Chrome Contoured Grip (15–50 lb variants)
+  ...(() => {
+    const galleryShared: GalleryImage[] = [
+      { src: "https://www.tkostrength.com/cdn/shop/files/804RXContourHandleRubberHexDumbbellPair_1024x1024.jpg?v=1747188538", alt: "TKO Rubber Hex Dumbbell with chrome contour grip — pair" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/804RXContourHandleRubberHexDumbbellSingle_1024x1024.jpg?v=1747188538", alt: "TKO Rubber Hex Dumbbell — single" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/804RXContourHandleRubberHexDumbbellMulti_1024x1024.jpg?v=1747188538", alt: "TKO Rubber Hex Dumbbell — full set" },
+    ];
+    const specGroupsShared: SpecGroup[] = [
+      {
+        title: "Construction",
+        rows: [
+          { label: "Head", value: "Steel, friction-welded, rubber-encased hex" },
+          { label: "Handle", value: "Chrome-plated, ergonomically contoured" },
+          { label: "Anti-roll", value: "Hexagonal heads prevent rolling" },
+          { label: "Available range", value: "3, 5–50 lb (5 lb increments), 8, 12 lb" },
+          { label: "Sold", value: "Individually" },
+        ],
+      },
+    ];
+    const make = (id: string, weight: string, sku: string): ProductDetail => ({
+      productId: id,
+      slug: `tko-rubber-hex-dumbbell-${weight.replace(/\s/g, "")}`,
+      tagline: `${weight} rubber hex dumbbell with chrome contoured grip.`,
+      overview: [
+        "TKO's standard rubber hex dumbbell is a quality, longevity-first design ideal for home, vertical, and commercial markets. Heavy-duty rubber-encased heads minimize noise and reduce wear on the dumbbell, the floor, and the equipment around it.",
+        "The chrome-plated, ergonomically contoured handle delivers a firm-but-comfortable feel across grip styles. Sold individually so you can build the exact rack your facility needs.",
+      ],
+      highlights: [
+        `${weight} rubber hex dumbbell`,
+        "Chrome-plated, ergonomically contoured handle",
+        "Hexagonal heads prevent rolling",
+        "Rubber-encased heads protect floors and reduce noise",
+        "Steel, friction-welded head construction",
+        "Sold individually",
+      ],
+      gallery: galleryShared,
+      specGroups: [
+        ...specGroupsShared,
+        {
+          title: "This Variant",
+          rows: [
+            { label: "Weight", value: weight },
+            { label: "SKU", value: sku },
+          ],
+        },
+      ],
+      sourceUrl: "https://www.tkostrength.com/products/copy-of-tri-grip-hex-dumbbell-1",
+      seo: {
+        title: `TKO ${weight} Rubber Hex Dumbbell — Contour Grip | GM Therapy`,
+        description: `${weight} rubber hex dumbbell with chrome contour handle. Friction-welded steel head, rubber encasement. Built for commercial use.`,
+      },
+    });
+    return {
+      "306": make("306", "15 lb", "804RX-15"),
+      "307": make("307", "20 lb", "804RX-20"),
+      "308": make("308", "25 lb", "804RX-25"),
+      "309": make("309", "30 lb", "804RX-30"),
+      "310": make("310", "35 lb", "804RX-35"),
+      "311": make("311", "40 lb", "804RX-40"),
+      "312": make("312", "45 lb", "804RX-45"),
+      "313": make("313", "50 lb", "804RX-50"),
+    };
+  })(),
+
+  // ID 314 — TKO Olympic Power Bar (7' / 500 lb test)
+  "314": {
+    productId: "314",
+    slug: "tko-olympic-power-bar-7ft",
+    tagline: "7 ft Olympic Power Bar with hardened chrome finish, brass bushings, and 1,000 lb capacity.",
+    overview: [
+      "TKO's Olympic Power Bar is built to tight tolerances with a hardened, tempered 30 mm shaft and a hardened chrome finish for corrosion resistance. Every bar is individually tested for strength, integrity, and straightness.",
+      "Oil-impregnated brass bushings deliver smooth sleeve rotation, while medium knurling provides secure grip without center knurl — ideal for general strength training and rehab settings.",
+    ],
+    highlights: [
+      "7 ft (86\") Olympic bar, 20 kg (44 lb)",
+      "30 mm hardened, tempered shaft",
+      "152,000 psi tensile strength, 1,000 lb capacity",
+      "Hardened chrome finish for corrosion resistance",
+      "Oil-impregnated brass bushings",
+      "Medium knurl, no center knurling",
+      "Double snap-ring sleeve construction",
+      "Every bar individually tested and measured",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/products/1_d38d1473-1954-42dc-a7f0-7c95da055bc9_1024x1024.jpg?v=1747188624", alt: "TKO Olympic Power Bar" },
+    ],
+    specGroups: [
+      {
+        title: "Bar",
+        rows: [
+          { label: "Length", value: "86\" (7 ft)" },
+          { label: "Weight", value: "20 kg (44 lb)" },
+          { label: "Shaft diameter", value: "30 mm, hardened & tempered" },
+          { label: "Tensile strength", value: "152,000 psi" },
+          { label: "Capacity", value: "1,000 lb" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Finish", value: "Hardened chrome (corrosion resistant)" },
+          { label: "Sleeves", value: "Double snap-ring, oil-impregnated brass bushings" },
+          { label: "Knurl", value: "Medium pattern, no center knurl" },
+          { label: "SKU", value: "812OB-86 (catalog: 811OB-86)" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/8120B-86_fa6023a9-c4b3-42cb-b7cd-20a21ad4cf71.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/olympic-power-bar",
+    seo: {
+      title: "TKO 7' Olympic Power Bar — Chrome | GM Therapy",
+      description: "7 ft Olympic Power Bar. 30 mm hardened shaft, 152k psi, 1,000 lb capacity, brass bushings, hardened chrome finish.",
+    },
+  },
+
+  // ID 315 — TKO Lock Jaw Pro Collar (pair)
+  "315": {
+    productId: "315",
+    slug: "tko-lock-jaw-collar",
+    tagline: "Lock-Jaw Pro Olympic collars — sold as a pair, with 50% more holding power than the classic.",
+    overview: [
+      "The Lock-Jaw Pro Collar uses a larger lever and spring-loaded snap-latch to deliver 50% more clamping force than the classic version, while remaining quick to install and remove during workouts.",
+      "Elastomer pads on a tough resin frame protect both the bar and the plates — making this the right collar choice for serious lifters, high-impact training, and any time bumper plates are on the bar.",
+    ],
+    highlights: [
+      "Olympic lock-jaw collars — sold as a pair",
+      "50% more holding power vs. classic Lock-Jaw",
+      "Larger lever, spring-loaded snap-latch",
+      "Elastomer pressure pads protect bar and plates",
+      "Injection-molded resin frame",
+      "Locking tab for secure fit",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/products/PR2_BLK1_1024x1024.jpg?v=1747188827", alt: "TKO Lock Jaw Pro Collar — front" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/PR2_BLK2_1024x1024.jpg?v=1747188827", alt: "TKO Lock Jaw Pro Collar — back" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Sold as", value: "Pair" },
+          { label: "Bar fit", value: "2\" Olympic" },
+          { label: "Frame", value: "Injection-molded resin" },
+          { label: "Pads", value: "Elastomer (bar/plate protection)" },
+          { label: "SKU", value: "812LBC" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/143SCO_812LBC.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/lock-jaw-collar",
+    seo: {
+      title: "TKO Lock Jaw Pro Olympic Collar (Pair) | GM Therapy",
+      description: "Lock-Jaw Pro Olympic collars (pair). Spring-loaded snap-latch, 50% more holding power, elastomer bar/plate protection.",
+    },
+  },
+
+  // ID 316 — TKO Middle Weight Power Bar (7')
+  "316": {
+    productId: "316",
+    slug: "tko-middle-weight-power-bar",
+    tagline: "7 ft Middle-Weight Power Bar — 28.5 mm shaft, 208,000 psi, 1,500 lb capacity.",
+    overview: [
+      "TKO's Middle-Weight Power Bar pairs a 28.5 mm (1.125\") hardened, tempered shaft with a 208,000 psi tensile rating and a 1,500 lb load capacity — ready for heavy training without the weight of a full power bar.",
+      "Hardened chrome finish resists corrosion. Heavy-duty, high-spin, low-friction needle bearings (two per sleeve) keep the sleeves moving cleanly. Every bar is individually measured for straightness and tested for integrity.",
+    ],
+    highlights: [
+      "87\" overall length, 20 kg (44 lb)",
+      "28.5 mm (1.125\") hardened, tempered shaft",
+      "208,000 psi tensile strength, 1,500 lb capacity",
+      "Hardened chrome finish (corrosion resistant)",
+      "High-spin needle bearings — 2 per sleeve",
+      "Medium knurl, no center knurling",
+      "Double snap-ring sleeve construction",
+      "Every bar tested and measured for straightness",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/products/1_4d4432b6-b0a7-4cf0-b419-36c77d5e3573_1024x1024.jpg?v=1747188777", alt: "TKO Middle Weight Power Bar" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/4_db0e352e-5c3a-46ed-8e8e-8879bf17f011_1024x1024.jpg?v=1747188777", alt: "TKO Middle Weight Power Bar — knurl detail" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/2_8eb468af-febe-4fa1-87f5-9096e8ea8a45_1024x1024.jpg?v=1747188777", alt: "TKO Middle Weight Power Bar — sleeve" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/3_d63b0b61-d4bf-46e4-aec4-ffa9f66990dd_1024x1024.jpg?v=1747188777", alt: "TKO Middle Weight Power Bar — end view" },
+    ],
+    specGroups: [
+      {
+        title: "Bar",
+        rows: [
+          { label: "Length", value: "87\"" },
+          { label: "Weight", value: "20 kg (44 lb)" },
+          { label: "Shaft diameter", value: "28.5 mm (1.125\")" },
+          { label: "Tensile strength", value: "208,000 psi" },
+          { label: "Capacity", value: "1,500 lb" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Finish", value: "Hardened chrome" },
+          { label: "Sleeves", value: "Double snap-ring, 2× needle bearings/sleeve" },
+          { label: "Knurl", value: "Medium pattern, no center knurl" },
+          { label: "SKU", value: "813OB-86MB" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tkostrength.com/products/middle-weight-power-bar",
+    seo: {
+      title: "TKO Middle Weight Power Bar (7') | GM Therapy",
+      description: "7 ft Middle-Weight Power Bar. 28.5 mm shaft, 208,000 psi, 1,500 lb capacity, needle-bearing sleeves, hardened chrome.",
+    },
+  },
+
+  // ID 317 — TKO Commercial FID Dumbbell Bench (Black)
+  "317": {
+    productId: "317",
+    slug: "tko-fid-bench-black",
+    tagline: "Commercial flat / incline / decline bench with rear transport wheels.",
+    overview: [
+      "TKO's FID Bench is built for home, vertical, and commercial use, adjusting fluidly across flat, incline, and decline positions. The wider profile increases stability under load, and the new easy-handle design pairs with rear transport wheels for fast repositioning.",
+      "Incline adjusts 0°–80°, decline to -10°, with a +10° seat incline for a true 90° set-up. Rubber feet protect floors, and commercial-grade upholstery stands up to high-volume use.",
+    ],
+    highlights: [
+      "Flat / Incline / Decline adjustment",
+      "Incline 0°–80°, decline -10°, seat +10° for 90°",
+      "Wider profile for increased stability",
+      "Easy-handle design with rear transport wheels",
+      "Rubber feet to protect floors",
+      "Commercial-grade upholstery, black frame",
+      "Size: 53\"L × 24\"W × 18\"H",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/files/824FID-BKangled_1024x1024.png?v=1747188835", alt: "TKO FID Bench — angled" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/824FID-BK5_1024x1024.jpg?v=1747188835", alt: "TKO FID Bench — incline" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/824FID-BK7_1024x1024.jpg?v=1747188836", alt: "TKO FID Bench — decline" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/824FID-BK6_1024x1024.jpg?v=1747188836", alt: "TKO FID Bench — flat" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/824FID-BK1_1024x1024.jpg?v=1747188836", alt: "TKO FID Bench — handle/wheels" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/824-BKphotowithmodel_1024x1024.jpg?v=1747188836", alt: "TKO FID Bench — in use" },
+    ],
+    specGroups: [
+      {
+        title: "Adjustment",
+        rows: [
+          { label: "Incline", value: "0° – 80°" },
+          { label: "Decline", value: "-10°" },
+          { label: "Seat", value: "+10° (90° set-up)" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Dimensions", value: "53\"L × 24\"W × 18\"H" },
+          { label: "Frame", value: "Black, commercial-grade" },
+          { label: "Mobility", value: "Rear transport wheels, easy handle" },
+          { label: "Feet", value: "Rubber, floor-protecting" },
+          { label: "SKU", value: "824FID-BK" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tkostrength.com/products/tko-fid-bench",
+    seo: {
+      title: "TKO Commercial FID Bench — Black | GM Therapy",
+      description: "Commercial Flat/Incline/Decline bench. 0°–80° incline, -10° decline, transport wheels, 53\"×24\"×18\".",
+    },
+  },
+
+  // ID 318 — TKO Stability Ball Rack
+  "318": {
+    productId: "318",
+    slug: "tko-stability-ball-rack",
+    tagline: "Stability ball storage rack — heavy-gauge tubing, holds three fitness balls.",
+    overview: [
+      "A safe and effective storage system for stability balls, manufactured from high-quality sturdy metal and tubing. Heavy-gauge construction provides stability, and the rack keeps balls organized and off the floor in clinical or group exercise rooms.",
+      "Holds (3) fitness balls. Requires self-assembly. Balls sold separately.",
+    ],
+    highlights: [
+      "Holds (3) fitness balls",
+      "Heavy-gauge tubing for stability",
+      "Keeps stability balls off the floor",
+      "Saves floor space in clinical and group rooms",
+      "Self-assembly required",
+      "Black finish",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/files/853FBR3-BStabilityBallRackloaded_1024x1024.jpg?v=1747188490", alt: "TKO Stability Ball Rack — loaded" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/853FBR3-BFront_1024x1024.jpg?v=1747188490", alt: "TKO Stability Ball Rack — front" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/853FBR3-BBase_1024x1024.jpg?v=1747188490", alt: "TKO Stability Ball Rack — base" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/853FBR3-BRing_1024x1024.jpg?v=1747188490", alt: "TKO Stability Ball Rack — ring detail" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/853FBR3-BStabilityBallRack_1024x1024.jpg?v=1747188490", alt: "TKO Stability Ball Rack — empty" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Capacity", value: "3 fitness balls" },
+          { label: "Material", value: "Heavy-gauge metal tubing" },
+          { label: "Finish", value: "Black" },
+          { label: "Assembly", value: "Self-assembly required" },
+          { label: "Balls", value: "Sold separately" },
+          { label: "SKU", value: "853FBR3-B" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/853FBR3-B_Stability_ball_rack_sell_sheet_db7d3b77-ee7b-4f87-bc85-2b0b38954e64.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/stability-ball-rack-1",
+    seo: {
+      title: "TKO Stability Ball Rack | GM Therapy",
+      description: "Heavy-gauge stability ball storage rack. Holds 3 fitness balls, keeps them off the floor in clinical or group rooms.",
+    },
+  },
+
+  // IDs 319–320 — TKO Vinyl-Dipped Kettlebells (15 / 20 lb variants)
+  ...(() => {
+    const galleryShared: GalleryImage[] = [
+      { src: "https://www.tkostrength.com/cdn/shop/products/857KBV-all_1024x1024.jpg?v=1747188857", alt: "TKO Vinyl Coated Kettlebells — full color set" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/857KBV-15_1000_1024x1024.jpg?v=1747188857", alt: "TKO Vinyl Coated Kettlebell — 15 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/857KBV-20_1000_1024x1024.jpg?v=1747188857", alt: "TKO Vinyl Coated Kettlebell — 20 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/857KBV-25_1000_1024x1024.jpg?v=1747188857", alt: "TKO Vinyl Coated Kettlebell — 25 lb" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/857KBV-40_1000_1024x1024.jpg?v=1747188857", alt: "TKO Vinyl Coated Kettlebell — 40 lb" },
+    ];
+    const specGroupsShared: SpecGroup[] = [
+      {
+        title: "Construction",
+        rows: [
+          { label: "Material", value: "Cast iron with vinyl coating" },
+          { label: "Handle", value: "Smooth, ergonomic grip" },
+          { label: "Base", value: "Stable flat base" },
+          { label: "Color coding", value: "By weight" },
+          { label: "Use", value: "Commercial / high-volume" },
+        ],
+      },
+    ];
+    const make = (id: string, weight: string, sku: string): ProductDetail => ({
+      productId: id,
+      slug: `tko-vinyl-kettlebell-${weight.replace(/\s/g, "")}`,
+      tagline: `${weight} vinyl-dipped kettlebell — color-coded, smooth grip handle.`,
+      overview: [
+        "TKO's Vinyl Coated Kettlebells are built to last and look great doing it. Color-coded by weight for fast identification in group settings, with a smooth ergonomic handle and stable flat base for clean swings, cleans, and goblet work.",
+        "Vinyl coating protects floors and reduces noise. Sold individually.",
+      ],
+      highlights: [
+        `${weight} vinyl-dipped kettlebell`,
+        "Smooth, ergonomic grip handle",
+        "Color-coded by weight",
+        "Vinyl coating protects floors and reduces noise",
+        "Stable flat base",
+        "Built for high-volume use",
+      ],
+      gallery: galleryShared,
+      specGroups: [
+        ...specGroupsShared,
+        {
+          title: "This Variant",
+          rows: [
+            { label: "Weight", value: weight },
+            { label: "SKU", value: sku },
+          ],
+        },
+      ],
+      sourceUrl: "https://www.tkostrength.com/products/tko-vinyl-coated-kettlebells",
+      seo: {
+        title: `TKO ${weight} Vinyl-Dipped Kettlebell | GM Therapy`,
+        description: `${weight} vinyl-coated kettlebell. Color-coded, smooth handle, flat base. Built for commercial and group exercise use.`,
+      },
+    });
+    return {
+      "319": make("319", "15 lb", "857KBV-15"),
+      "320": make("320", "20 lb", "857KBV-20"),
+    };
+  })(),
 };
 
 export const hasDetailPage = (productId: string): boolean =>
