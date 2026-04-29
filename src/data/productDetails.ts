@@ -6400,6 +6400,66 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "4-section electric traction hi-lo treatment table with low-friction gliding lumbar section, turret-mounted traction pedestal, 18\"–38\" range, 7,000 N actuator, foot-pedal controls, and 500 lb capacity. Flexion stool included.",
     },
   },
+  "15": {
+    productId: "15",
+    slug: "gmts-medium-enclosed-storage-weight-rack",
+    tagline: "Multi-purpose enclosed storage and weight rack with pegboard for therapy weights, dumbbell hooks, and four oak-door storage shelves.",
+    overview: [
+      "Beautiful craftsmanship on this multi-purpose storage and weight rack. The front of the rack features an almond-coated pegboard sized for nine therapy weights, and ships with eleven pegboard safety hooks for therapy weight storage.",
+      "Five dumbbell hooks on the left side and five on the right hold one full 1–10 lb dumbbell set or two 1–5 lb dumbbell sets. The back of the rack offers four large enclosed storage shelves behind beautiful oak doors to keep clinic supplies organized and out of sight.",
+      "Available in a durable black or natural oak finish and rolls easily on four 3\" diameter casters. Made in the USA. Weights and bands sold separately.",
+    ],
+    highlights: [
+      "Multi-purpose storage and weight rack",
+      "Almond-coated front pegboard sized for 9 therapy weights",
+      "Includes 11 pegboard safety hooks for therapy weights",
+      "5 dumbbell hooks on each side (10 total)",
+      "Holds (1) 1–10 lb dumbbell set or (2) 1–5 lb dumbbell sets",
+      "Four large enclosed storage shelves behind oak doors on back",
+      "Available in black or natural oak finish",
+      "Four 3\" diameter easy-rolling casters",
+      "Dimensions: 52.5\"H × 34\"W × 19\"D",
+      "Weights and bands sold separately",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts-mini-storage-rack.png", alt: "GMTS Medium Enclosed Storage / Weight Rack" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Height", value: "52.5\"" },
+          { label: "Width", value: "34\"" },
+          { label: "Depth", value: "19\"" },
+          { label: "Casters", value: "(4) 3\" diameter, easy-rolling" },
+        ],
+      },
+      {
+        title: "Storage Capacity",
+        rows: [
+          { label: "Front pegboard", value: "Almond-coated, sized for 9 therapy weights" },
+          { label: "Pegboard hooks", value: "(11) safety hooks included" },
+          { label: "Dumbbell hooks", value: "(5) left side + (5) right side" },
+          { label: "Dumbbell capacity", value: "(1) 1–10 lb set or (2) 1–5 lb sets" },
+          { label: "Enclosed shelves", value: "(4) large shelves behind oak doors" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Finish options", value: "Black or natural oak" },
+          { label: "Origin", value: "Made in the USA" },
+          { label: "Note", value: "Weights and bands sold separately" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/clinic-equipment/tru-medium-enclosed-storage-weight-rack/",
+    seo: {
+      title: "GMTS Medium Enclosed Storage / Weight Rack | GM Therapy",
+      description: "Multi-purpose 52.5\" × 34\" × 19\" enclosed storage and weight rack with front pegboard for therapy weights, dumbbell hooks, four oak-door shelves, and 3\" casters.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
