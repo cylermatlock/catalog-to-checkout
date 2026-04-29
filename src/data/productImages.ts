@@ -330,7 +330,7 @@ export const productImages: Record<string, string> = {
   "337": productAsset("bsw/tms-730259.png"),
   "338": productAsset("bsw/tms-730260.png"),
   "339": productAsset("bsw/tms-730400-002.png"),
-  "340": productAsset("bsw/tms-730547.png"),
+  "340": productAsset("gmts/oak-treatment-tables/view-1.jpg"),
   // GMTS Deluxe Oak Mat Tables - size variants (share image with id 6)
   "341": productAsset("gmts-low-mat-table.png"),
   "342": productAsset("gmts-low-mat-table.png"),
