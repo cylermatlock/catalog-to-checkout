@@ -6122,6 +6122,56 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Oak training stairs with (2) 6\" + (3) 4\" steps, ergonomic handrails, anti-slip treads, and 400 lb capacity. Available with or without bus step.",
     },
   },
+  "340": {
+    productId: "340",
+    slug: "gmts-deluxe-oak-treatment-table-30x72-lift-back-shelf",
+    tagline: "30\" × 72\" hand-crafted oak treatment table with lift back and storage shelf.",
+    overview: [
+      "This GMTS Deluxe Oak Treatment Table is hand-crafted from high-quality solid oak with all wood surfaces finished in durable clear polyurethane. The 30\" × 72\" top features 2\" medium-density foam with Naugahyde® upholstery and is configured with an adjustable lift back for patient positioning plus an upholstered shelf below for storage.",
+      "An \"H\" brace is standard for extra stability. Available in 11 stocking Naugahyde® colors and built to a 500 lb weight capacity. Made in the USA.",
+    ],
+    highlights: [
+      "30\" × 72\" hand-crafted solid oak treatment table",
+      "Adjustable lift back for patient positioning",
+      "Upholstered storage shelf below",
+      "2\" medium-density foam top with Naugahyde® upholstery",
+      "Durable clear polyurethane wood finish",
+      "Standard \"H\" brace for extra stability",
+      "Surface height: 30\"",
+      "11 stocking Naugahyde® colors",
+      "500 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/oak-treatment-tables/view-1.jpg", alt: "GMTS 30\" × 72\" Standard Oak Treatment Table with lift back and shelf" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Top size", value: "30\" × 72\"" },
+          { label: "Surface height", value: "30\"" },
+          { label: "Foam thickness", value: "2\" medium-density" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Frame", value: "Solid oak with clear polyurethane finish" },
+          { label: "Bracing", value: "Standard \"H\" brace" },
+          { label: "Upholstery", value: "Naugahyde® — 11 stocking colors" },
+          { label: "Configuration", value: "Lift back + upholstered storage shelf" },
+          { label: "Weight capacity", value: "500 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/treatment-tables/fixed-height/tru-deluxe-oak-treatment-tables/",
+    seo: {
+      title: "GMTS 30\" × 72\" Oak Treatment Table w/ Lift Back & Shelf | GM Therapy",
+      description: "Hand-crafted 30\" × 72\" solid oak treatment table with adjustable lift back, upholstered storage shelf, 2\" foam, Naugahyde® upholstery, and 500 lb capacity.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
