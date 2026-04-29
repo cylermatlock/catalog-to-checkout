@@ -6675,6 +6675,53 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "36\" × 60\" hi-low butcher block work and hand therapy table with 1.5\" solid hardwood top, 27\"–38\" height range, and electric or manual crank options. Made in the USA.",
     },
   },
+  "19": {
+    productId: "19",
+    slug: "gmts-pneumatic-stool",
+    tagline: "Pneumatic rolling stool with sturdy five-star base, smooth casters, and effortless lever height adjustment from 18\" to 23.5\".",
+    overview: [
+      "The GMTS Pneumatic Rolling Stool is a perfect complement to any office or clinic environment, featuring a sturdy five-star base with five smooth-rolling casters for easy repositioning during patient care.",
+      "The seat is upholstered in heavy gauge flame retardant vinyl for durability and easy cleaning, and rides on a high-density, impact-resistant fiberglass base. An effortless height-adjustment lever lets the clinician dial in seat height from 18\" up to 23.5\".",
+      "Supports up to 300 lbs. Note: user must weigh at least 90 lbs to actuate the pneumatic height adjustment.",
+    ],
+    highlights: [
+      "Soft, durable heavy-gauge flame retardant vinyl seat",
+      "High-density, impact-resistant fiberglass five-star base",
+      "Five smooth-rolling casters",
+      "Effortless pneumatic height-adjustment lever",
+      "Adjustable seat height: 18\" – 23.5\"",
+      "Weight capacity: 300 lbs",
+      "Color: Black",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts-stools.png", alt: "GMTS Pneumatic Stool" },
+    ],
+    specGroups: [
+      {
+        title: "Seat & Base",
+        rows: [
+          { label: "Seat upholstery", value: "Heavy-gauge flame retardant vinyl" },
+          { label: "Base", value: "High-density, impact-resistant fiberglass, five-star" },
+          { label: "Casters", value: "(5) smooth-rolling" },
+          { label: "Color", value: "Black" },
+        ],
+      },
+      {
+        title: "Adjustment & Capacity",
+        rows: [
+          { label: "Height adjustment", value: "Pneumatic lever" },
+          { label: "Seat height range", value: "18\" – 23.5\"" },
+          { label: "Weight capacity", value: "300 lbs" },
+          { label: "Min. user weight", value: "90 lbs (to actuate height adjustment)" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.richmarweb.com/accessories/pneumatic-stool",
+    seo: {
+      title: "GMTS Pneumatic Stool | GM Therapy",
+      description: "Pneumatic rolling clinic stool with five-star fiberglass base, 5 casters, flame-retardant vinyl seat, 18\"–23.5\" height range, and 300 lb capacity.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
