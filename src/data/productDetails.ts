@@ -6807,10 +6807,8 @@ export const productDetails: Record<string, ProductDetail> = {
       "White powder-coat steel base (custom colors available)",
     ],
     gallery: [
-      
+      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-BA350_650x650.png", alt: "Armedica AM-BA350 hi-lo treatment table — primary view" },
       { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-BA350-1-1.png", alt: "AM-BA350 angled view" },
-      
-      { src: "https://www.armedicamfg.com/hubfs/Images/Product%20Images/AM-BA350-3.png", alt: "AM-BA350 detail view" },
       { src: "https://www.armedicamfg.com/hubfs/Product%20Images/PT3613_Dual_Foot_Bar_600.png", alt: "Dual foot bar height-control mechanism" },
     ],
     specGroups: [
