@@ -8009,8 +8009,183 @@ export const productDetails: Record<string, ProductDetail> = {
     return {
       "319": make("319", "15 lb", "857KBV-15"),
       "320": make("320", "20 lb", "857KBV-20"),
+      "321": make("321", "25 lb", "857KBV-25"),
+      "322": make("322", "30 lb", "857KBV-30"),
+      "323": make("323", "35 lb", "857KBV-35"),
+      "324": make("324", "40 lb", "857KBV-40"),
     };
   })(),
+
+  // ID 325 — TKO AirRaid Air Bike
+  "325": {
+    productId: "325",
+    slug: "tko-airraid-air-bike",
+    tagline: "Commercial air bike with belt drive, programmable console, and dual-action arms.",
+    overview: [
+      "TKO's AirRaid Bike combines a durable commercial frame with a modern exterior and a smooth, maintenance-free belt drive system. Built for HIIT, conditioning, and rehab cardio without putting unnecessary stress on joints.",
+      "The console runs HRC, THR, and 10/20, 20/10 and custom interval programs and reads out time, speed, distance, calories, watts, heart rate, and RPM. Four-way smart seat adjustment, foot pegs for upper-body-only work, and transport wheels round out the package.",
+    ],
+    highlights: [
+      "Belt-drive air bike — smooth and maintenance-free",
+      "Dual-action arms for full-body conditioning",
+      "Console: time, speed, distance, calories, watts, HR, RPM",
+      "Programs: HRC, THR, Interval 10/20 & 20/10, Custom",
+      "Four-way smart seat adjustment",
+      "Foot pegs for upper-body-only work",
+      "Transport wheels for easy mobility",
+      "Max user weight: 350 lb",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/files/8AB4_2026Rightangle_1024x1024.jpg?v=1776110894", alt: "TKO AirRaid Bike — right angled" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/8AB4_2026leftangle_1024x1024.jpg?v=1776110894", alt: "TKO AirRaid Bike — left angled" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/8AB4_2026Right_1024x1024.jpg?v=1776110894", alt: "TKO AirRaid Bike — right side" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/8AB4_2026Back_1024x1024.jpg?v=1776110894", alt: "TKO AirRaid Bike — back" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/8AB4_2026Front_1024x1024.jpg?v=1776110894", alt: "TKO AirRaid Bike — front" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/8AB4_2026SeatPost_1024x1024.jpg?v=1776110894", alt: "TKO AirRaid Bike — seat post detail" },
+    ],
+    specGroups: [
+      {
+        title: "Bike",
+        rows: [
+          { label: "Drive", value: "Belt drive (maintenance-free)" },
+          { label: "Resistance", value: "Air / fan" },
+          { label: "Arms", value: "Dual-action upper + lower body" },
+          { label: "Seat", value: "Four-way smart adjustment" },
+        ],
+      },
+      {
+        title: "Console & Dimensions",
+        rows: [
+          { label: "Readouts", value: "Time, Speed, Distance, Cal, Watt, HR, RPM" },
+          { label: "Programs", value: "HRC, THR, Interval 10/20, 20/10, Custom" },
+          { label: "Dimensions", value: "48.75\" × 26\" × 54.6\"" },
+          { label: "Weight", value: "141 lb" },
+          { label: "Max user weight", value: "350 lb" },
+          { label: "SKU", value: "8AB" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/8AB_AirRaid_Bike_4_2026.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/tko-air-bike",
+    seo: {
+      title: "TKO AirRaid Air Bike | GM Therapy",
+      description: "Commercial air bike with belt drive, dual-action arms, programmable console (HRC/THR/intervals). 350 lb capacity.",
+    },
+  },
+
+  // ID 326 — TKO Half Rack
+  "326": {
+    productId: "326",
+    slug: "tko-half-rack",
+    tagline: "Open-front half rack with 3×3 uprights, polyurethane J-cups and safety arms, and integrated storage.",
+    overview: [
+      "TKO's Half Rack is a commercial-grade open-front design built around 3×3 steel uprights with a laser-cut numbering system for fast, repeatable bar placement. Polyurethane J-cups and safety arms protect bar finishes during heavy training.",
+      "Comes loaded with storage and accessory mounts so the rack stays productive between sets — 8 plate holders, 2 Olympic bar holders, and 3 lower band pegs are integrated.",
+    ],
+    highlights: [
+      "Open-front half rack design",
+      "3×3 steel uprights — built for commercial use",
+      "Laser-cut numbering system on uprights",
+      "Polyurethane J-cups & safety arms protect bars",
+      "8 plate holders integrated",
+      "2 Olympic bar holders",
+      "3 lower band pegs",
+      "Compatible with TKO storage and accessory add-ons",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/files/921HRHalfRackfront_1024x1024.jpg?v=1756301936", alt: "TKO Half Rack — front" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/921HRHalfRackangled_1024x1024.jpg?v=1756301936", alt: "TKO Half Rack — angled" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/921HRHalfRackwithattachments_1024x1024.jpg?v=1756305349", alt: "TKO Half Rack — with attachments" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/IMG_1495_1024x1024.jpg?v=1756305349", alt: "TKO Half Rack — detail 1" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/IMG_1530_1024x1024.jpg?v=1756305349", alt: "TKO Half Rack — detail 2" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/IMG_1542_1024x1024.jpg?v=1756305349", alt: "TKO Half Rack — detail 3" },
+    ],
+    specGroups: [
+      {
+        title: "Frame",
+        rows: [
+          { label: "Uprights", value: "3×3 steel" },
+          { label: "Numbering", value: "Laser-cut, repeatable bar placement" },
+          { label: "J-cups / safety arms", value: "Polyurethane (bar-protecting)" },
+          { label: "Assembled size", value: "68\"L × 65\"W × 96\"H" },
+          { label: "Weight", value: "475 lb" },
+        ],
+      },
+      {
+        title: "Integrated Storage",
+        rows: [
+          { label: "Plate holders", value: "8" },
+          { label: "Olympic bar holders", value: "2" },
+          { label: "Lower band pegs", value: "3" },
+          { label: "Pull-up bar", value: "Included" },
+          { label: "SKU", value: "921HR" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/921HR_BLACK_25.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/half-rack",
+    seo: {
+      title: "TKO Half Rack | GM Therapy",
+      description: "Commercial half rack with 3×3 steel uprights, polyurethane J-cups & safety arms, 8 plate holders, 2 bar holders, 3 band pegs.",
+    },
+  },
+
+  // ID 327 — TKO Customizable Storage Rack (with Dumbbell Storage attachment, 92ATT-DB)
+  "327": {
+    productId: "327",
+    slug: "tko-customizable-storage-rack",
+    tagline: "4-tier customizable storage rack — bumper plates, dumbbells, kettlebells, or med/wall balls.",
+    overview: [
+      "TKO's Customizable Storage Rack is a 4-tier system you spec to match your facility — bumper plate storage, dumbbell shelf, kettlebell shelf, or a med/wall ball rail. Heavy-gauge shelves are lined with TKO's styrene to protect the surface and the product stored on it.",
+      "Built around 3\"×3\" square tubing with a bar holder integrated into each upright for additional storage. Rubber feet protect floors. The 92ATT-DB attachment configures this rack for dumbbell storage.",
+    ],
+    highlights: [
+      "4-tier customizable storage system",
+      "Configurable: bumper plates / dumbbells / kettlebells / med-wall balls",
+      "92ATT-DB dumbbell-storage configuration",
+      "3\"×3\" square steel tubing",
+      "Bar holder on each upright (additional storage)",
+      "Heavy-gauge shelves with styrene liner",
+      "Rubber feet to protect floors",
+      "Dimensions: 82\"L × 34\"W × 72\"H",
+    ],
+    gallery: [
+      { src: "https://www.tkostrength.com/cdn/shop/files/92ATTCustomizableStorageSystemaloneangled_1024x1024.jpg?v=1747188596", alt: "TKO Customizable Storage Rack — angled" },
+      { src: "https://www.tkostrength.com/cdn/shop/files/92ATTCustomizableStorageSystem_1024x1024.jpg?v=1747188596", alt: "TKO Customizable Storage Rack — front" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/1_3aef86d4-a29c-4a4f-b7be-0bd5e670845c_1024x1024.jpg?v=1747188596", alt: "TKO Customizable Storage Rack — detail 1" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/4_39e507f4-c3e2-4e2b-90a0-f2328443c0d2_1024x1024.jpg?v=1747188596", alt: "TKO Customizable Storage Rack — detail 2" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/10_2a09e05a-1608-4199-987d-ce61209768ca_1024x1024.jpg?v=1747188596", alt: "TKO Customizable Storage Rack — detail 3" },
+      { src: "https://www.tkostrength.com/cdn/shop/products/8_6bc89885-e255-4016-a799-9848014bd5d5_1024x1024.jpg?v=1747188596", alt: "TKO Customizable Storage Rack — detail 4" },
+    ],
+    specGroups: [
+      {
+        title: "Frame",
+        rows: [
+          { label: "Tubing", value: "3\"×3\" square steel" },
+          { label: "Tiers", value: "4" },
+          { label: "Dimensions", value: "82\"L × 34\"W × 72\"H" },
+          { label: "Feet", value: "Rubber, floor-protecting" },
+        ],
+      },
+      {
+        title: "Storage Options",
+        rows: [
+          { label: "Bumper plate storage", value: "92ATT-BP" },
+          { label: "Dumbbell storage", value: "92ATT-DB" },
+          { label: "Kettlebell storage", value: "92ATT-KB" },
+          { label: "Med/Wall ball storage", value: "92ATT-MR" },
+          { label: "Upright bar holder", value: "92ATT-UP" },
+          { label: "Catalog SKU (this entry)", value: "92ATT-DB" },
+        ],
+      },
+    ],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/92ATT_Customizable_Storage_Rack_8_25_0fb898e1-64b2-4af0-99af-3f79930391e9.pdf",
+    sourceUrl: "https://www.tkostrength.com/products/customizable-storage-rack",
+    seo: {
+      title: "TKO Customizable Storage Rack — Dumbbell Configuration | GM Therapy",
+      description: "4-tier customizable TKO storage rack with dumbbell shelf (92ATT-DB). 3\"×3\" steel, styrene-lined shelves, 82\"×34\"×72\".",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
