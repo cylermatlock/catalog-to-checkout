@@ -5489,6 +5489,110 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "The Shuttle Rebound raises the bar for performance and convenience. Our engineering team has successfully addressed the shortcomings found in other rebound...",
     },
   },
+  "7": {
+    productId: "7",
+    slug: "gmts-platform-mounted-parallel-bars-10ft",
+    tagline: "Heavy-duty 10 ft platform-mounted parallel bars for gait training and rehab.",
+    overview: [
+      "GMTS 10 ft Platform-Mounted Parallel Bars provide a stable, adjustable training surface for gait training, balance work, and neurological rehabilitation. The satin-finish oak platform features tapered ends for easy wheelchair access and floor mounting.",
+      "Width adjusts from 15\" to 28\" using ergonomic control knobs on each upright. Each upright telescopes in 1½\" increments and locks into ten height positions with a fail-safe ball-tip locking pin (29\"–42\" range).",
+    ],
+    highlights: [
+      "10 ft length, 38\" wide platform",
+      "Width adjusts 15\"–28\" via ergonomic control knobs",
+      "Height adjusts 29\"–42\" in 1½\" increments — 10 lock positions",
+      "Fail-safe ball-tip locking pins",
+      "1 5/8\" diameter one-piece stainless steel handrails",
+      "Satin-finish oak platform with tapered ends for wheelchair access",
+      "Two anti-slip treads on each end",
+      "Heavy-gauge white powder-coated steel uprights and fittings",
+      "500 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/parallel-bars/view-1.jpg", alt: "GMTS 10 ft Platform-Mounted Parallel Bars" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Length", value: "10 ft" },
+          { label: "Platform width", value: "38\"" },
+          { label: "Clearance between uprights", value: "30\"" },
+          { label: "Width adjustment", value: "15\"–28\"" },
+          { label: "Height adjustment", value: "29\"–42\" (1½\" increments, 10 positions)" },
+          { label: "Handrail diameter", value: "1 5/8\" stainless steel, one-piece" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Platform", value: "Satin-finish oak with tapered ends" },
+          { label: "Uprights", value: "Heavy-gauge white powder-coated steel" },
+          { label: "Safety", value: "Two anti-slip treads on each end; ball-tip locking pins" },
+          { label: "Weight capacity", value: "500 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/balance-stability/tru-parallel-bars/",
+    seo: {
+      title: "GMTS 10' Platform-Mounted Parallel Bars | GM Therapy",
+      description: "Heavy-duty 10 ft platform-mounted parallel bars with adjustable height and width, oak platform, and 500 lb weight capacity for gait training and rehab.",
+    },
+  },
+  "333": {
+    productId: "333",
+    slug: "gmts-platform-mounted-parallel-bars-7ft",
+    tagline: "Heavy-duty 7 ft platform-mounted parallel bars for gait training and rehab.",
+    overview: [
+      "GMTS 7 ft Platform-Mounted Parallel Bars provide a stable, adjustable training surface for gait training, balance work, and neurological rehabilitation. The satin-finish oak platform features tapered ends for easy wheelchair access and floor mounting.",
+      "Width adjusts from 15\" to 28\" using ergonomic control knobs on each upright. Each upright telescopes in 1½\" increments and locks into ten height positions with a fail-safe ball-tip locking pin (29\"–42\" range).",
+    ],
+    highlights: [
+      "7 ft length, 38\" wide platform",
+      "Width adjusts 15\"–28\" via ergonomic control knobs",
+      "Height adjusts 29\"–42\" in 1½\" increments — 10 lock positions",
+      "Fail-safe ball-tip locking pins",
+      "1 5/8\" diameter one-piece stainless steel handrails",
+      "Satin-finish oak platform with tapered ends for wheelchair access",
+      "Two anti-slip treads on each end",
+      "Heavy-gauge white powder-coated steel uprights and fittings",
+      "500 lb weight capacity",
+      "Made in the USA",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts/parallel-bars/view-1.jpg", alt: "GMTS 7 ft Platform-Mounted Parallel Bars" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Length", value: "7 ft" },
+          { label: "Platform width", value: "38\"" },
+          { label: "Clearance between uprights", value: "30\"" },
+          { label: "Width adjustment", value: "15\"–28\"" },
+          { label: "Height adjustment", value: "29\"–42\" (1½\" increments, 10 positions)" },
+          { label: "Handrail diameter", value: "1 5/8\" stainless steel, one-piece" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Platform", value: "Satin-finish oak with tapered ends" },
+          { label: "Uprights", value: "Heavy-gauge white powder-coated steel" },
+          { label: "Safety", value: "Two anti-slip treads on each end; ball-tip locking pins" },
+          { label: "Weight capacity", value: "500 lbs" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/balance-stability/tru-parallel-bars/",
+    seo: {
+      title: "GMTS 7' Platform-Mounted Parallel Bars | GM Therapy",
+      description: "Heavy-duty 7 ft platform-mounted parallel bars with adjustable height and width, oak platform, and 500 lb weight capacity for gait training and rehab.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
