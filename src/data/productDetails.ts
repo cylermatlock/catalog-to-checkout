@@ -6396,8 +6396,8 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://medsurface.com/treatment-tables/traction-hi-lo-table-with-stool/",
     seo: {
-      title: "GMTS Traction Hi-Lo Treatment Table with Stool | GM Therapy",
-      description: "4-section electric traction hi-lo treatment table with low-friction gliding lumbar section, turret-mounted traction pedestal, 18\"–38\" range, 7,000 N actuator, foot-pedal controls, and 500 lb capacity. Stool included.",
+      title: "GMTS TRACTION TABLE W/ FLEXION STOOL | GM Therapy",
+      description: "4-section electric traction hi-lo treatment table with low-friction gliding lumbar section, turret-mounted traction pedestal, 18\"–38\" range, 7,000 N actuator, foot-pedal controls, and 500 lb capacity. Flexion stool included.",
     },
   },
 };
