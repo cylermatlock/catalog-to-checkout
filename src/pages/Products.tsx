@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { products, categories, type Product } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
