@@ -9458,37 +9458,38 @@ export const productDetails: Record<string, ProductDetail> = {
 
   "371": {
     productId: "371",
-    slug: "theraband-latex-free-red-medium-6yd",
-    tagline: "Latex-free TheraBand exercise band — Red Medium, 6 yd.",
+    slug: "theraband-latex-free-band-roll-black-special-heavy-50yd",
+    tagline: "Bulk latex-free TheraBand roll — Black (Special Heavy), 50 yards.",
     overview: [
-      "Latex-free TheraBand® gives patients with latex allergies access to the same proven progressive resistance system. Red is Medium resistance — a common middle-tier progression target.",
-      "Sold in 6-yard rolls — cuts to length for individualized exercises.",
+      "Latex-free TheraBand® bulk roll lets clinics cut bands to any length while supporting patients with latex allergies. Black is Special Heavy resistance — the highest standard resistance level — ideal for advanced strengthening and high-load rehab protocols.",
+      "Color-coded resistance lets clinicians document and progress with the same TheraBand standard used worldwide.",
     ],
     highlights: [
       "Latex-free — safe for latex-allergy patients",
-      "Red — Medium resistance",
-      "6 yd roll — cuts to length",
-      "Color-coded progressive resistance system",
-      "Lightweight and portable",
+      "Black — Special Heavy resistance",
+      "50 yard bulk roll — cuts to length",
+      "Color-coded progressive resistance",
+      "Ideal for advanced strengthening protocols",
     ],
     gallery: [
-      { src: "/assets/products/fab/10-1199.jpg", alt: "TheraBand Latex-Free Exercise Band — Red Medium 6 yd" },
+      { src: "/assets/products/fab/10-1199.jpg", alt: "TheraBand Latex-Free Exercise Band Roll — Black Special Heavy 50 yd" },
     ],
     specGroups: [
       {
         title: "Specifications",
         rows: [
-          { label: "Length", value: "6 yd" },
-          { label: "Resistance", value: "Red — Medium" },
+          { label: "Type", value: "Bulk band roll" },
+          { label: "Resistance", value: "Black — Special Heavy" },
+          { label: "Length", value: "50 yd" },
           { label: "Material", value: "Latex-free synthetic" },
           { label: "SKU", value: "FAB 10-1199" },
         ],
       },
     ],
-    sourceUrl: "https://www.fab-ent.com/exercise/resistance-bands/rep-band-latex-free-exercise-band/",
+    sourceUrl: "https://www.fab-ent.com/exercise/resistance-bands/theraband-latex-free-exercise-band/",
     seo: {
-      title: "TheraBand Latex-Free Red Medium 6 yd (FAB 10-1199) | GM Therapy",
-      description: "Latex-free exercise band, Red Medium resistance, 6-yd roll. Cuts to length for individual exercises.",
+      title: "TheraBand Latex-Free Black Special Heavy 50 yd (FAB 10-1199) | GM Therapy",
+      description: "Bulk latex-free TheraBand roll, Black Special Heavy resistance, 50 yards. Cuts to length.",
     },
   },
 
