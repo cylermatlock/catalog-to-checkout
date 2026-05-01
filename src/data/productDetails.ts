@@ -9060,74 +9060,42 @@ export const productDetails: Record<string, ProductDetail> = {
 
   "359": {
     productId: "359",
-    slug: "theraband-loop-yellow-thin",
-    tagline: "Pre-formed TheraBand exercise loop — Yellow (Thin), ready to use.",
+    slug: "theraband-band-roll-black-xheavy-50yd",
+    tagline: "Bulk TheraBand resistance roll — Black (X-Heavy), 5\" × 50 yards.",
     overview: [
-      "Closed-loop TheraBand® eliminates tying — patients get the same proven progressive resistance with a faster setup. Yellow is the Thin / lightest resistance level — ideal for early-stage rehab, hip and knee strengthening, and Pilates.",
-      "Color-coded resistance lets clinicians document and progress exactly the same as standard TheraBand.",
+      "TheraBand® bulk roll lets clinics cut bands to any length needed for individual patient programs. Black is the X-Heavy resistance level — the highest standard TheraBand resistance — ideal for advanced strengthening, larger muscle groups, and high-load rehabilitation protocols.",
+      "Color-coded resistance lets clinicians document and progress with the same TheraBand standard used worldwide.",
     ],
     highlights: [
-      "Pre-formed closed loop — no tying required",
-      "Yellow — Thin / lightest resistance",
+      "Bulk roll — cut to length",
+      "Black — X-Heavy resistance",
+      "5\" wide × 50 yard roll",
       "Color-coded progressive resistance",
       "Latex (natural rubber)",
-      "Ideal for hip, knee, shoulder rehab and Pilates",
+      "Ideal for advanced strengthening protocols",
     ],
     gallery: [
-      { src: "/assets/products/fab/10-1010.jpg", alt: "TheraBand exercise band loop — Yellow (Thin)" },
+      { src: "/assets/products/fab/10-1010.jpg", alt: "TheraBand exercise band roll — Black (X-Heavy) 50 yard" },
     ],
     specGroups: [
       {
         title: "Specifications",
         rows: [
-          { label: "Type", value: "Closed-loop band" },
-          { label: "Resistance", value: "Yellow — Thin" },
+          { label: "Type", value: "Bulk band roll" },
+          { label: "Resistance", value: "Black — X-Heavy" },
+          { label: "Dimensions", value: "5\" × 50 yards" },
           { label: "Material", value: "Latex" },
           { label: "SKU", value: "FAB 10-1010" },
         ],
       },
     ],
-    sourceUrl: "https://www.fab-ent.com/exercise/resistance-bands/theraband-exercise-band-loops/",
+    sourceUrl: "https://www.fab-ent.com/exercise/resistance-bands/",
     seo: {
-      title: "TheraBand Loop — Yellow Thin (FAB 10-1010) | GM Therapy",
-      description: "Pre-formed TheraBand exercise loop, Yellow Thin resistance. Latex, ready-to-use closed loop.",
+      title: "TheraBand Band Roll — Black X-Heavy 50yd (FAB 10-1010) | GM Therapy",
+      description: "Bulk TheraBand resistance roll, Black X-Heavy, 5\" × 50 yards. Latex, color-coded progressive resistance.",
     },
   },
 
-  "360": {
-    productId: "360",
-    slug: "skate-board-rom-exerciser",
-    tagline: "Wheeled skate board for upper-extremity ROM and strengthening.",
-    overview: [
-      "The Skate Board ROM Exerciser is a classic clinical tool for upper-extremity range-of-motion and strengthening. Patient places the affected arm on the board and glides it across a tabletop or therapy mat — promoting smooth, low-resistance motion through painful or guarded ranges.",
-      "Especially useful for shoulder flexion, abduction, and scapular mobility post-surgery or post-stroke.",
-    ],
-    highlights: [
-      "Wheeled board glides smoothly on tabletop or therapy mat",
-      "Promotes shoulder flexion, abduction, and scapular mobility",
-      "Reduces friction for early-stage ROM",
-      "Durable hardwood with non-marking wheels",
-      "Standard clinical PT/OT exerciser",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/10-1130.jpg", alt: "Skate Board ROM Exerciser" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Type", value: "Wheeled ROM skate board" },
-          { label: "Construction", value: "Hardwood with non-marking wheels" },
-          { label: "SKU", value: "FAB 10-1130" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/exercise/range-of-motion/skate-board-rom-exercisers/",
-    seo: {
-      title: "Skate Board ROM Exerciser (FAB 10-1130) | GM Therapy",
-      description: "Wheeled skate board for upper-extremity ROM and strengthening — shoulder, scapular mobility.",
-    },
-  },
 
   "361": {
     productId: "361",
