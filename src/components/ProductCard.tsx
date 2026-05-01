@@ -124,9 +124,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
 
         <div className="p-4 flex flex-col flex-1">
           <p className="text-xs text-muted-foreground">SKU: {product.sku}</p>
-          {import.meta.env.DEV && (
-            <p className="text-[10px] font-mono text-primary/70 mt-0.5">ID: {product.id}</p>
-          )}
+          <p className="text-[10px] font-mono text-primary/70 mt-0.5">ID: {product.id}</p>
 
           <ul className="mt-3 space-y-1 flex-1">
             {product.description.map((item, i) => (
@@ -181,9 +179,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
           {product.name}
         </h3>
         <p className="text-xs text-muted-foreground mt-1">SKU: {product.sku}</p>
-        {import.meta.env.DEV && (
-          <p className="text-[10px] font-mono text-primary/70 mt-0.5">ID: {product.id}</p>
-        )}
+        <p className="text-[10px] font-mono text-primary/70 mt-0.5">ID: {product.id}</p>
 
         <ul className="mt-3 space-y-1">
           {product.description.map((item, i) => (
