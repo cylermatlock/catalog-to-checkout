@@ -8985,6 +8985,725 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "4-piece hip / total-joint replacement ADL kit: reacher, sock aid, 24\" shoehorn, bath sponge.",
     },
   },
+
+  "357": {
+    productId: "357",
+    slug: "cando-twist-bend-shake-24in-tan",
+    tagline: "Versatile 24\" rubber bar — twist, bend, or shake exercises.",
+    overview: [
+      "The CanDo Twist-Bend-Shake bar is a clinical favorite for upper-extremity strengthening. The 24\" rubber bar can be used three ways: twist (flex one wrist while extending the other), bend (flex the bar in the middle), or shake (rapid rotational/oscillation work).",
+      "Tan is XX-Light — the lightest resistance — ideal for early-stage rehab, geriatric patients, and pediatric use.",
+    ],
+    highlights: [
+      "24\" rubber bar — twist, bend, and shake exercises",
+      "Tan — XX-Light (lightest) resistance",
+      "Color-coded progressive resistance system",
+      "Strengthens wrists, forearms, and shoulders",
+      "Consistent diameter and length across all resistances",
+      "Ideal for tennis elbow, lateral epicondylitis, and grip rehab",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1525.jpg", alt: "CanDo Twist-Bend-Shake 24\" Tan exerciser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Length", value: "24\"" },
+          { label: "Resistance", value: "Tan — XX-Light" },
+          { label: "Material", value: "Natural rubber" },
+          { label: "SKU", value: "FAB 10-1525" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/wrists-shoulder/cando-twist-bend-shake-exercisers/",
+    seo: {
+      title: "CanDo Twist-Bend-Shake 24\" Tan (FAB 10-1525) | GM Therapy",
+      description: "24\" twist-bend-shake exerciser, Tan XX-Light resistance. Wrist, forearm, and shoulder rehab.",
+    },
+  },
+
+  "358": {
+    productId: "358",
+    slug: "cando-multi-axial-positioning-system",
+    tagline: "Multi-axial wobble platform for graded balance and proprioception training.",
+    overview: [
+      "The CanDo Multi-Axial Positioning System (MAPS) is a clinical balance platform with adjustable instability — letting clinicians grade difficulty as patients progress through balance and proprioception protocols.",
+      "Trains ankle and knee stability, core control, and dynamic balance. Used widely in lower-extremity rehab and athletic performance training.",
+    ],
+    highlights: [
+      "Multi-axial wobble platform with adjustable instability",
+      "Graded difficulty for progressive balance training",
+      "Trains proprioception, ankle/knee stability, and core control",
+      "Lower-extremity rehab and sports performance",
+      "Durable clinical construction",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1750.jpg", alt: "CanDo Multi-Axial Positioning System (MAPS) wobble board" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Multi-axial wobble platform" },
+          { label: "Adjustability", value: "Multiple difficulty levels" },
+          { label: "SKU", value: "FAB 10-1750" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/balance-boards-pads/multi-axial-positioning-system/",
+    seo: {
+      title: "CanDo Multi-Axial Positioning System (FAB 10-1750) | GM Therapy",
+      description: "MAPS wobble platform with adjustable instability for graded balance and proprioception training.",
+    },
+  },
+
+  "359": {
+    productId: "359",
+    slug: "theraband-loop-yellow-thin",
+    tagline: "Pre-formed TheraBand exercise loop — Yellow (Thin), ready to use.",
+    overview: [
+      "Closed-loop TheraBand® eliminates tying — patients get the same proven progressive resistance with a faster setup. Yellow is the Thin / lightest resistance level — ideal for early-stage rehab, hip and knee strengthening, and Pilates.",
+      "Color-coded resistance lets clinicians document and progress exactly the same as standard TheraBand.",
+    ],
+    highlights: [
+      "Pre-formed closed loop — no tying required",
+      "Yellow — Thin / lightest resistance",
+      "Color-coded progressive resistance",
+      "Latex (natural rubber)",
+      "Ideal for hip, knee, shoulder rehab and Pilates",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1010.jpg", alt: "TheraBand exercise band loop — Yellow (Thin)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Closed-loop band" },
+          { label: "Resistance", value: "Yellow — Thin" },
+          { label: "Material", value: "Latex" },
+          { label: "SKU", value: "FAB 10-1010" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/resistance-bands/theraband-exercise-band-loops/",
+    seo: {
+      title: "TheraBand Loop — Yellow Thin (FAB 10-1010) | GM Therapy",
+      description: "Pre-formed TheraBand exercise loop, Yellow Thin resistance. Latex, ready-to-use closed loop.",
+    },
+  },
+
+  "360": {
+    productId: "360",
+    slug: "skate-board-rom-exerciser",
+    tagline: "Wheeled skate board for upper-extremity ROM and strengthening.",
+    overview: [
+      "The Skate Board ROM Exerciser is a classic clinical tool for upper-extremity range-of-motion and strengthening. Patient places the affected arm on the board and glides it across a tabletop or therapy mat — promoting smooth, low-resistance motion through painful or guarded ranges.",
+      "Especially useful for shoulder flexion, abduction, and scapular mobility post-surgery or post-stroke.",
+    ],
+    highlights: [
+      "Wheeled board glides smoothly on tabletop or therapy mat",
+      "Promotes shoulder flexion, abduction, and scapular mobility",
+      "Reduces friction for early-stage ROM",
+      "Durable hardwood with non-marking wheels",
+      "Standard clinical PT/OT exerciser",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1130.jpg", alt: "Skate Board ROM Exerciser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Wheeled ROM skate board" },
+          { label: "Construction", value: "Hardwood with non-marking wheels" },
+          { label: "SKU", value: "FAB 10-1130" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/range-of-motion/skate-board-rom-exercisers/",
+    seo: {
+      title: "Skate Board ROM Exerciser (FAB 10-1130) | GM Therapy",
+      description: "Wheeled skate board for upper-extremity ROM and strengthening — shoulder, scapular mobility.",
+    },
+  },
+
+  "361": {
+    productId: "361",
+    slug: "cando-twist-n-bend-yellow-xlight",
+    tagline: "Flexible exercise bar — twist or bend — Yellow X-Light.",
+    overview: [
+      "The CanDo Twist-n-Bend bar is a flexible rubber bar that resists both twisting and bending. Yellow is X-Light — a great starting resistance for grip rehab and lateral epicondylitis (tennis elbow) protocols.",
+      "Compact and portable — ideal for home programs and travel kits.",
+    ],
+    highlights: [
+      "Flexible rubber exercise bar",
+      "Yellow — X-Light resistance",
+      "Twist or bend — wrist, forearm, and grip",
+      "Color-coded progressive resistance",
+      "Tennis elbow / lateral epicondylitis rehab",
+      "Compact and portable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1510.jpg", alt: "CanDo Twist-n-Bend Yellow X-Light exerciser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Resistance", value: "Yellow — X-Light" },
+          { label: "Material", value: "Natural rubber" },
+          { label: "SKU", value: "FAB 10-1510" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/wrists-shoulder/cando-twist-n-bend-exercisers/",
+    seo: {
+      title: "CanDo Twist-n-Bend Yellow X-Light (FAB 10-1510) | GM Therapy",
+      description: "Flexible exercise bar for twist and bend — Yellow X-Light resistance. Tennis elbow rehab.",
+    },
+  },
+
+  "362": {
+    productId: "362",
+    slug: "cando-gel-ball-yellow-xsoft",
+    tagline: "Gel-filled hand exercise ball — Yellow X-Soft.",
+    overview: [
+      "CanDo Gel Ball is a squeezable gel-filled hand exerciser. Yellow X-Soft is the lightest resistance — a good starting point for early-stage hand rehab, post-injury, and stress-relief use.",
+      "Color-coded for clear progression. Latex-free and non-toxic.",
+    ],
+    highlights: [
+      "Gel-filled hand exercise ball",
+      "Yellow — X-Soft resistance",
+      "Color-coded progressive resistance",
+      "Latex-free, non-toxic",
+      "Ideal for hand rehab, grip strengthening, and stress relief",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1295.jpg", alt: "CanDo Gel Ball Hand Exerciser — Yellow X-Soft" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Resistance", value: "Yellow — X-Soft" },
+          { label: "Fill", value: "Gel" },
+          { label: "Material", value: "Latex-free, non-toxic" },
+          { label: "SKU", value: "FAB 10-1295" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/hand-flexion/gel-ball-hand-exercisers/",
+    seo: {
+      title: "CanDo Gel Ball Yellow X-Soft (FAB 10-1295) | GM Therapy",
+      description: "Gel-filled hand exercise ball, Yellow X-Soft resistance. Latex-free hand rehab.",
+    },
+  },
+
+  "363": {
+    productId: "363",
+    slug: "cando-adjustable-hand-grip-yellow",
+    tagline: "Adjustable resistance hand grip exerciser — Yellow Light.",
+    overview: [
+      "Adjustable hand grip exercisers let patients dial resistance up or down on the fly via a tension knob. Yellow is the Light tier — a popular starting point for progressive grip strengthening.",
+      "Compact and portable — ideal for home programs.",
+    ],
+    highlights: [
+      "Adjustable tension dial",
+      "Yellow — Light resistance",
+      "Strengthens forearm, wrist, and grip",
+      "Compact and portable",
+      "Progressive grip-strength training",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1825.jpg", alt: "CanDo Adjustable Hand Grip Exerciser — Yellow Light" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Adjustable hand grip" },
+          { label: "Resistance", value: "Yellow — Light" },
+          { label: "SKU", value: "FAB 10-1825" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/hand-flexion/adjustable-hand-grip-exercisers/",
+    seo: {
+      title: "CanDo Adjustable Hand Grip — Yellow (FAB 10-1825) | GM Therapy",
+      description: "Adjustable resistance hand grip exerciser — Yellow Light. Progressive grip-strength training.",
+    },
+  },
+
+  "364": {
+    productId: "364",
+    slug: "cando-power-hand-grip-light",
+    tagline: "Spring-loaded hand grip exerciser — Light resistance.",
+    overview: [
+      "The CanDo Power Hand Grip is a classic spring-loaded grip exerciser. Light resistance is a good starting point for early-stage rehab and patients new to grip strengthening.",
+      "Compact, portable, and affordable.",
+    ],
+    highlights: [
+      "Spring-loaded hand grip",
+      "Light resistance — early-stage rehab",
+      "Color-coded by resistance",
+      "Compact and portable",
+      "Strengthens forearm, wrist, and grip",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0815.jpg", alt: "CanDo Power Hand Grip — Light" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Spring-loaded hand grip" },
+          { label: "Resistance", value: "Light" },
+          { label: "SKU", value: "FAB 10-0815" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/hand-flexion/power-hand-grip/",
+    seo: {
+      title: "CanDo Power Hand Grip — Light (FAB 10-0815) | GM Therapy",
+      description: "Spring-loaded hand grip exerciser, Light resistance. Forearm, wrist, and grip strengthening.",
+    },
+  },
+
+  "365": {
+    productId: "365",
+    slug: "theraband-flexbar-yellow-xlight",
+    tagline: "Clinical-grade flexible resistance bar — Yellow X-Light.",
+    overview: [
+      "The TheraBand® FlexBar is the clinical standard for upper-extremity rehab and is the bar used in the published Tyler Twist protocol — proven effective for lateral epicondylitis (tennis elbow). Yellow is the X-Light / lightest resistance.",
+      "Strengthens grip, forearm, wrist, elbow, and shoulder. Made in the USA from clinical-grade rubber.",
+    ],
+    highlights: [
+      "Yellow — X-Light / lightest resistance",
+      "Tyler Twist protocol — proven for tennis elbow",
+      "Strengthens grip, forearm, wrist, and shoulder",
+      "Color-coded progressive resistance",
+      "Clinical-grade rubber",
+      "Made in USA",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1350.jpg", alt: "TheraBand FlexBar Yellow X-Light" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Resistance", value: "Yellow — X-Light" },
+          { label: "Material", value: "Clinical-grade rubber" },
+          { label: "SKU", value: "FAB 10-1350" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/wrists-shoulder/theraband-flexbar-exercisers/",
+    seo: {
+      title: "TheraBand FlexBar Yellow X-Light (FAB 10-1350) | GM Therapy",
+      description: "Clinical-grade FlexBar, Yellow X-Light. Tyler Twist protocol for tennis elbow rehab.",
+    },
+  },
+
+  "366": {
+    productId: "366",
+    slug: "cando-weight-bar-3lb",
+    tagline: "Padded weighted exercise bar — 3 lb.",
+    overview: [
+      "CanDo Weight Bars are foam-padded weighted bars used widely in clinical exercise classes, ROM programs, and core strengthening. 3 lb is a common starting weight for early-stage strengthening.",
+      "Comfortable foam grip surface; color-coded by weight.",
+    ],
+    highlights: [
+      "3 lb — light resistance",
+      "Color-coded by weight",
+      "Comfortable foam grip surface",
+      "Ideal for ROM, postural, and core exercises",
+      "Standard clinical strengthening tool",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1620.jpg", alt: "CanDo Weight Bar 3 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Weight", value: "3 lb" },
+          { label: "Surface", value: "Foam-padded grip" },
+          { label: "SKU", value: "FAB 10-1620" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/weights/cando-weight-bars/",
+    seo: {
+      title: "CanDo Weight Bar — 3 lb (FAB 10-1620) | GM Therapy",
+      description: "Padded weighted exercise bar, 3 lb. ROM, postural, and core exercises.",
+    },
+  },
+
+  "367": {
+    productId: "367",
+    slug: "the-cuff-deluxe-1lb",
+    tagline: "Deluxe wrist/ankle cuff weight — 1 lb.",
+    overview: [
+      "the Cuff® Deluxe is the premium soft cuff weight — featuring a durable steel-shot fill and a soft, comfortable shell. 1 lb is color-coded yellow.",
+      "Used clinically for rehab strengthening, ROM, and gait training. Sold individually so clinics can build the exact set they need.",
+    ],
+    highlights: [
+      "Deluxe construction — soft padded shell",
+      "1 lb — color-coded yellow",
+      "Steel-shot fill",
+      "Hook-and-loop closure adjusts to most patients",
+      "Wrist or ankle use",
+      "Sold individually",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-2500.jpg", alt: "the Cuff Deluxe 1 lb wrist/ankle weight" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Weight", value: "1 lb" },
+          { label: "Color", value: "Yellow" },
+          { label: "Closure", value: "Hook-and-loop" },
+          { label: "Use", value: "Wrist or ankle" },
+          { label: "SKU", value: "FAB 10-2500" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/weights/the-cuff-weights-deluxe/",
+    seo: {
+      title: "the Cuff Deluxe 1 lb (FAB 10-2500) | GM Therapy",
+      description: "Deluxe wrist/ankle cuff weight, 1 lb. Steel-shot fill, soft padded shell.",
+    },
+  },
+
+  "368": {
+    productId: "368",
+    slug: "cando-platform-system",
+    tagline: "Adjustable-instability balance platform for graded training.",
+    overview: [
+      "The CanDo Platform System is a balance training platform with adjustable instability — letting clinicians grade difficulty as patients progress through balance protocols.",
+      "Trains proprioception and dynamic stability for lower-extremity rehab and athletic training.",
+    ],
+    highlights: [
+      "Adjustable instability balance platform",
+      "Multiple difficulty settings for progressive training",
+      "Trains proprioception and dynamic stability",
+      "Lower-extremity rehab and athletic training",
+      "Durable platform with non-slip surface",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1700.jpg", alt: "CanDo Platform System balance board" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Adjustable balance platform" },
+          { label: "Surface", value: "Non-slip" },
+          { label: "SKU", value: "FAB 10-1700" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/balance-boards-pads/cando-platform-system/",
+    seo: {
+      title: "CanDo Platform System (FAB 10-1700) | GM Therapy",
+      description: "Adjustable-instability balance platform for graded balance and proprioception training.",
+    },
+  },
+
+  "369": {
+    productId: "369",
+    slug: "cando-wobble-board-14in",
+    tagline: "14\" round wobble board for ankle and knee proprioception.",
+    overview: [
+      "The CanDo 14\" Wobble Board is a clinical-standard round balance trainer. The fixed-height base provides multi-directional instability for training ankle and knee proprioception.",
+      "Ideal for sports rehab, fall prevention, and dynamic balance progression.",
+    ],
+    highlights: [
+      "14\" diameter — clinical standard",
+      "Multi-directional wobble base",
+      "Trains ankle and knee proprioception",
+      "Improves balance and dynamic stability",
+      "Non-slip top surface",
+      "Sports rehab and fall prevention",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1715.jpg", alt: "CanDo Wobble Board — 14\" diameter" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Diameter", value: "14\"" },
+          { label: "Type", value: "Round wobble board" },
+          { label: "Surface", value: "Non-slip" },
+          { label: "SKU", value: "FAB 10-1715" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/balance-boards-pads/miscellaneous-balance-boards-pads/",
+    seo: {
+      title: "CanDo Wobble Board — 14\" (FAB 10-1715) | GM Therapy",
+      description: "14\" round wobble board for ankle/knee proprioception and balance training.",
+    },
+  },
+
+  "370": {
+    productId: "370",
+    slug: "cando-mvp-balance-system",
+    tagline: "Multi-Variable Platform balance system with three difficulty levels.",
+    overview: [
+      "The CanDo MVP (Multi-Variable Platform) Balance System provides three progressive difficulty levels via interchangeable bases — letting clinicians easily grade balance training as patients progress.",
+      "Used in PT/OT, athletic training rooms, and fall-prevention programs.",
+    ],
+    highlights: [
+      "Multi-Variable Platform (MVP) balance system",
+      "Three difficulty levels via interchangeable bases",
+      "Progressive instability training",
+      "Trains balance, proprioception, and core stability",
+      "PT/OT, athletic training, and fall prevention",
+      "Durable clinical construction",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1760.jpg", alt: "CanDo MVP Balance System" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Multi-Variable Platform balance system" },
+          { label: "Levels", value: "3 difficulty levels (interchangeable bases)" },
+          { label: "SKU", value: "FAB 10-1760" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/balance-boards-pads/mvp-balance-system/",
+    seo: {
+      title: "CanDo MVP Balance System (FAB 10-1760) | GM Therapy",
+      description: "MVP balance platform with 3 difficulty levels for graded balance training.",
+    },
+  },
+
+  "371": {
+    productId: "371",
+    slug: "theraband-latex-free-red-medium-6yd",
+    tagline: "Latex-free TheraBand exercise band — Red Medium, 6 yd.",
+    overview: [
+      "Latex-free TheraBand® gives patients with latex allergies access to the same proven progressive resistance system. Red is Medium resistance — a common middle-tier progression target.",
+      "Sold in 6-yard rolls — cuts to length for individualized exercises.",
+    ],
+    highlights: [
+      "Latex-free — safe for latex-allergy patients",
+      "Red — Medium resistance",
+      "6 yd roll — cuts to length",
+      "Color-coded progressive resistance system",
+      "Lightweight and portable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1199.jpg", alt: "TheraBand Latex-Free Exercise Band — Red Medium 6 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Length", value: "6 yd" },
+          { label: "Resistance", value: "Red — Medium" },
+          { label: "Material", value: "Latex-free synthetic" },
+          { label: "SKU", value: "FAB 10-1199" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/resistance-bands/rep-band-latex-free-exercise-band/",
+    seo: {
+      title: "TheraBand Latex-Free Red Medium 6 yd (FAB 10-1199) | GM Therapy",
+      description: "Latex-free exercise band, Red Medium resistance, 6-yd roll. Cuts to length for individual exercises.",
+    },
+  },
+
+  "372": {
+    productId: "372",
+    slug: "exercise-band-tubing-storage-rack",
+    tagline: "Wall-mounted dispenser/storage rack for exercise band rolls.",
+    overview: [
+      "Keep clinic exercise bands organized and easily accessible with this wall-mounted storage rack. Holds multiple rolls of bands or tubing — saves counter space in busy treatment rooms and therapy gyms.",
+      "Heavy-duty steel construction — built for clinical use.",
+    ],
+    highlights: [
+      "Wall-mounted band/tubing storage rack",
+      "Holds multiple rolls of bands",
+      "Saves counter space",
+      "Heavy-duty steel construction",
+      "Ideal for PT/OT clinics and therapy gyms",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1570.jpg", alt: "Exercise Band & Tubing Storage Rack" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Wall-mounted band/tubing storage rack" },
+          { label: "Construction", value: "Heavy-duty steel" },
+          { label: "SKU", value: "FAB 10-1570" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/resistance-bands/exercise-band-and-tubing-storage-racks/",
+    seo: {
+      title: "Exercise Band & Tubing Storage Rack (FAB 10-1570) | GM Therapy",
+      description: "Wall-mounted storage rack for exercise band and tubing rolls. Heavy-duty steel.",
+    },
+  },
+
+  "373": {
+    productId: "373",
+    slug: "val-u-putty-yellow-xsoft-2oz",
+    tagline: "Economy hand-therapy putty — Yellow X-Soft, 2 oz.",
+    overview: [
+      "Val-u-Putty is the economy alternative to TheraPutty® — same color-coded progressive resistance system at a value price. Yellow is X-Soft, the lightest resistance, ideal for early-stage rehab and pediatric use.",
+      "Non-toxic, non-staining, latex-free.",
+    ],
+    highlights: [
+      "Economy alternative to TheraPutty",
+      "Yellow — X-Soft resistance",
+      "2 oz portion",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Ideal for early-stage rehab and pediatric use",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-3900.jpg", alt: "Val-u-Putty Yellow X-Soft 2 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Resistance", value: "Yellow — X-Soft" },
+          { label: "Size", value: "2 oz" },
+          { label: "Material", value: "Latex-free, non-toxic" },
+          { label: "SKU", value: "FAB 10-3900" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/exercise-putty/val-u-putty-exercise-putty/",
+    seo: {
+      title: "Val-u-Putty Yellow X-Soft 2 oz (FAB 10-3900) | GM Therapy",
+      description: "Economy hand-therapy putty, Yellow X-Soft 2 oz. Latex-free, color-coded resistance.",
+    },
+  },
+
+  "374": {
+    productId: "374",
+    slug: "upper-body-rom-shoulder-wheel",
+    tagline: "Wall-mounted shoulder wheel for upper-extremity ROM.",
+    overview: [
+      "The Upper Body ROM Exerciser (shoulder wheel) is a classic clinical tool for shoulder ROM and strengthening. Wall-mounted with adjustable height, it trains shoulder flexion, extension, abduction, and circumduction.",
+      "Adjustable resistance lets clinicians progress patients through rehab — and an integrated ROM scale supports documentation.",
+    ],
+    highlights: [
+      "Wall-mounted shoulder wheel",
+      "Adjustable resistance and height",
+      "Trains shoulder flexion, extension, abduction, circumduction",
+      "Visible ROM scale for documentation",
+      "Standard clinical upper-extremity rehab tool",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-2900.jpg", alt: "Upper Body ROM Exerciser — Shoulder Wheel" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Wall-mounted shoulder wheel" },
+          { label: "Resistance", value: "Adjustable" },
+          { label: "Height", value: "Adjustable" },
+          { label: "SKU", value: "FAB 10-2900" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/range-of-motion/upper-body-rom-exercisers/",
+    seo: {
+      title: "Upper Body ROM Shoulder Wheel (FAB 10-2900) | GM Therapy",
+      description: "Wall-mounted shoulder wheel for upper-extremity ROM. Adjustable resistance and height.",
+    },
+  },
+
+  "375": {
+    productId: "375",
+    slug: "cando-bungee-cord-exerciser-system",
+    tagline: "Bungee cord resistance training system — full-body functional training.",
+    overview: [
+      "The CanDo Bungee Cord Exerciser System uses color-coded bungee cords for progressive resistance training. Includes attachment hardware for door, wall, or rack mounting — turning any treatment room into a versatile functional-training station.",
+      "A compact, latex-free alternative to cable machines.",
+    ],
+    highlights: [
+      "Color-coded progressive bungee cord resistance",
+      "Includes attachment hardware (door, wall, rack)",
+      "Versatile — full-body functional resistance training",
+      "Latex-free bungee cords",
+      "Compact alternative to cable machines",
+      "Durable clinical construction",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5800.jpg", alt: "CanDo Bungee Cord Exerciser System" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Bungee cord resistance system" },
+          { label: "Resistance", value: "Color-coded progressive levels" },
+          { label: "Mounting", value: "Door, wall, or rack hardware included" },
+          { label: "SKU", value: "FAB 10-5800" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/resistance-tubing/cando-bungee-cord-exerciser-system/",
+    seo: {
+      title: "CanDo Bungee Cord Exerciser System (FAB 10-5800) | GM Therapy",
+      description: "Bungee cord resistance training system with door/wall/rack mounts. Latex-free progressive resistance.",
+    },
+  },
+
+  "376": {
+    productId: "376",
+    slug: "agility-cone-set-9in",
+    tagline: "9\" stand-up agility cones for gait training and drills.",
+    overview: [
+      "Agility / marker cone set with 9\" stand-up bases. High-visibility color coding makes them ideal for gait training, agility drills, obstacle courses, and group exercise classes.",
+      "Lightweight molded plastic — stackable for storage.",
+    ],
+    highlights: [
+      "9\" tall stand-up cones",
+      "High-visibility colors (orange/yellow/green/red)",
+      "Ideal for gait training, agility drills, obstacle courses",
+      "Durable molded plastic",
+      "Lightweight and stackable for storage",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-4200.jpg", alt: "Agility Cone Set — 9\" stand-up base" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Height", value: "9\"" },
+          { label: "Base", value: "Stand-up" },
+          { label: "Material", value: "Molded plastic" },
+          { label: "SKU", value: "FAB 10-4200" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/exercise/fitness-accessories/agility-cone/",
+    seo: {
+      title: "Agility Cone Set — 9\" (FAB 10-4200) | GM Therapy",
+      description: "9\" stand-up agility cones for gait training, agility drills, and obstacle courses.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
