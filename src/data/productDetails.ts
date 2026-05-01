@@ -8616,6 +8616,375 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "MedSurface 3-Section Hydraulic Hi-Lo treatment table with manual 18\"–38\" height adjustment, 500 lb capacity, and anti-microbial surface — no electricity required.",
     },
   },
+
+  // ===== Clinical Supplies — FAB batch 1 (IDs 347–356) =====
+
+  "347": {
+    productId: "347",
+    slug: "baseline-fingertip-pulse-oximeter",
+    tagline: "Portable fingertip pulse oximeter for fast SpO₂ and pulse readings.",
+    overview: [
+      "The Baseline® Fingertip Pulse Oximeter is a compact, non-invasive device for measuring blood oxygen saturation (SpO₂) and pulse rate. Designed for clinical and home use.",
+      "A bright OLED display with multi-directional readout makes results easy to read from any angle. Auto on/off conserves battery life — simply clip it on a finger to begin a reading.",
+    ],
+    highlights: [
+      "Measures SpO₂ and pulse rate",
+      "Bright multi-directional OLED display",
+      "Auto on/off — fits adult and pediatric fingers",
+      "Lightweight and portable",
+      "Includes lanyard and 2 AAA batteries",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1926.jpg", alt: "Baseline Fingertip Pulse Oximeter" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Measures", value: "SpO₂ and pulse rate" },
+          { label: "Display", value: "Multi-directional OLED" },
+          { label: "Power", value: "2 AAA batteries (included)" },
+          { label: "Use", value: "Adult and pediatric fingertip" },
+          { label: "SKU", value: "FAB 12-1926" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/evaluation/bp-oxygen-pulse/pulse-oximeters/",
+    seo: {
+      title: "Baseline Fingertip Pulse Oximeter (FAB 12-1926) | GM Therapy",
+      description: "Compact Baseline fingertip pulse oximeter measuring SpO₂ and pulse rate with bright OLED display.",
+    },
+  },
+
+  "348": {
+    productId: "348",
+    slug: "fablife-mini-massager",
+    tagline: "Compact handheld mini-massager with interchangeable heads.",
+    overview: [
+      "The FabLife Mini-Massager delivers comfortable vibrating massage to neck, back, shoulders, arms, and legs. Compact and portable — small enough to fit in a purse or bag.",
+      "Variable-speed vibration combined with multiple interchangeable accessory heads makes it easy to target tight spots and promote circulation.",
+    ],
+    highlights: [
+      "Compact handheld design",
+      "Variable-speed vibration",
+      "Multiple interchangeable accessory heads",
+      "Battery powered — clinic or home use",
+      "Helps relieve muscle tension and promote circulation",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/14-1050.jpg", alt: "FabLife Mini-Massager with Accessories" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Type", value: "Battery-powered handheld vibrating massager" },
+          { label: "Heads", value: "Multiple interchangeable accessories" },
+          { label: "Power", value: "C battery (check packaging)" },
+          { label: "SKU", value: "FAB 14-1050" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/massage/electric-massagers/point-relief-battery-powered-mini-massagers/",
+    seo: {
+      title: "FabLife Mini-Massager with Accessories (FAB 14-1050) | GM Therapy",
+      description: "Compact handheld mini-massager with multiple accessory heads for soft-tissue work and circulation.",
+    },
+  },
+
+  "349": {
+    productId: "349",
+    slug: "baseline-tactile-monofilament-5-07-disposable-20pk",
+    tagline: "Disposable 5.07 (10 g) monofilament — diabetic foot screening, 20-pack.",
+    overview: [
+      "Disposable Baseline® Tactile Monofilament evaluators measure cutaneous sensory perception threshold. The 5.07 (10 gram) filament is the ADA-recommended standard for diabetic foot screening.",
+      "Single-patient, disposable design reduces cross-contamination risk in busy clinical settings.",
+    ],
+    highlights: [
+      "ADA-recommended 5.07 (10 g) filament",
+      "Disposable — single-patient use",
+      "20 units per pack",
+      "Color-coded for easy identification",
+      "Reduces cross-contamination risk",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1671-20.jpg", alt: "Disposable Baseline Tactile Monofilament 5.07 (10g) — 20 pack" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Force", value: "5.07 (10 grams)" },
+          { label: "Use", value: "Diabetic foot / sensation screening" },
+          { label: "Quantity", value: "20 disposable units per pack" },
+          { label: "SKU", value: "FAB 12-1671-20" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/evaluation/sensation/baseline-tactile-monofilaments/",
+    seo: {
+      title: "Disposable Baseline Tactile Monofilament 5.07, 20-pack (FAB 12-1671-20) | GM Therapy",
+      description: "ADA-recommended 5.07 (10g) disposable monofilaments for diabetic foot screening — 20 per pack.",
+    },
+  },
+
+  "350": {
+    productId: "350",
+    slug: "theraputty-red-soft-2oz",
+    tagline: "Color-coded resistance putty for hand and finger therapy — Red (Soft).",
+    overview: [
+      "TheraPutty® exercise putty is a clinical standard for hand, finger, and wrist rehabilitation. Color-coded resistance levels make it easy to progress patients through a graded exercise program.",
+      "Red is soft resistance — appropriate for early-stage strengthening, ROM, and fine-motor tasks.",
+    ],
+    highlights: [
+      "Red — soft resistance",
+      "2 oz portion",
+      "Non-toxic, non-staining",
+      "Gluten-free, latex-free",
+      "Reusable; cleans up easily",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0901.jpg", alt: "TheraPutty Red (Soft) 2 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Resistance", value: "Soft (Red)" },
+          { label: "Size", value: "2 oz" },
+          { label: "Material", value: "Non-toxic, latex-free, gluten-free silicone putty" },
+          { label: "SKU", value: "FAB 10-0901" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/",
+    seo: {
+      title: "TheraPutty Red (Soft) 2 oz (FAB 10-0901) | GM Therapy",
+      description: "Soft-resistance TheraPutty for hand and finger rehab. Color-coded, latex-free, 2 oz portion.",
+    },
+  },
+
+  "351": {
+    productId: "351",
+    slug: "theraputty-yellow-xsoft-2oz",
+    tagline: "Lightest resistance hand-therapy putty — Yellow (X-Soft).",
+    overview: [
+      "TheraPutty® exercise putty in yellow provides extra-soft resistance — the lightest in the color-coded line. Ideal for early-stage rehab, pediatric use, and patients with significant weakness.",
+      "Color-coded so therapists and patients can easily track progression to firmer resistances.",
+    ],
+    highlights: [
+      "Yellow — extra-soft (lightest) resistance",
+      "2 oz portion",
+      "Non-toxic, non-staining",
+      "Gluten-free, latex-free",
+      "Ideal for early-stage and pediatric rehab",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0900.jpg", alt: "TheraPutty Yellow (X-Soft) 2 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Resistance", value: "X-Soft (Yellow)" },
+          { label: "Size", value: "2 oz" },
+          { label: "Material", value: "Non-toxic, latex-free, gluten-free silicone putty" },
+          { label: "SKU", value: "FAB 10-0900" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/",
+    seo: {
+      title: "TheraPutty Yellow (X-Soft) 2 oz (FAB 10-0900) | GM Therapy",
+      description: "Lightest-resistance TheraPutty for early-stage hand rehab. Color-coded, latex-free, 2 oz.",
+    },
+  },
+
+  "352": {
+    productId: "352",
+    slug: "fablife-hip-kit-3",
+    tagline: "5-piece ADL kit for hip and total-joint replacement recovery.",
+    overview: [
+      "The FabLife Hip Kit #3 packages five essential aids-to-daily-living tools for patients recovering from hip or total-joint replacement. Helps patients dress and bathe without bending past 90° — a key post-surgical precaution.",
+      "Convenient bundled packaging makes this an excellent discharge handout for orthopedic units.",
+    ],
+    highlights: [
+      "5-piece ADL kit",
+      "26\" reacher",
+      "Contoured bath sponge",
+      "Sock aid",
+      "18\" plastic shoehorn",
+      "Dressing stick",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/86-0074.jpg", alt: "FabLife Hip Kit #3 — 5-piece ADL kit" },
+    ],
+    specGroups: [
+      {
+        title: "Kit Contents",
+        rows: [
+          { label: "Reacher", value: "26\"" },
+          { label: "Bath sponge", value: "Contoured" },
+          { label: "Sock aid", value: "Included" },
+          { label: "Shoehorn", value: "18\" plastic" },
+          { label: "Dressing stick", value: "Included" },
+          { label: "SKU", value: "FAB 86-0074" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/adl/hip-kits/",
+    seo: {
+      title: "FabLife Hip Kit #3 — 5-Piece ADL Kit (FAB 86-0074) | GM Therapy",
+      description: "5-piece hip / total-joint replacement ADL kit: reacher, bath sponge, sock aid, shoehorn, dressing stick.",
+    },
+  },
+
+  "353": {
+    productId: "353",
+    slug: "theraputty-green-medium-2oz",
+    tagline: "Medium-resistance hand-therapy putty — Green.",
+    overview: [
+      "TheraPutty® green provides medium resistance — a common progression target for grip and pinch strengthening programs.",
+      "Color-coded for clear documentation and patient progression tracking.",
+    ],
+    highlights: [
+      "Green — medium resistance",
+      "2 oz portion",
+      "Non-toxic, non-staining",
+      "Gluten-free, latex-free",
+      "Ideal for progressive grip and pinch strengthening",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0902.jpg", alt: "TheraPutty Green (Medium) 2 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Resistance", value: "Medium (Green)" },
+          { label: "Size", value: "2 oz" },
+          { label: "Material", value: "Non-toxic, latex-free, gluten-free silicone putty" },
+          { label: "SKU", value: "FAB 10-0902" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/",
+    seo: {
+      title: "TheraPutty Green (Medium) 2 oz (FAB 10-0902) | GM Therapy",
+      description: "Medium-resistance TheraPutty for hand rehab. Color-coded, latex-free, 2 oz portion.",
+    },
+  },
+
+  "354": {
+    productId: "354",
+    slug: "baseline-360-plastic-goniometer-12in",
+    tagline: "Clear 360° plastic goniometer with 12\" arms for large-joint ROM.",
+    overview: [
+      "The Baseline® 360° Plastic Goniometer permits observation of a joint's axis of motion and its range of motion. Transparent plastic allows the clinician to see anatomical landmarks through the device.",
+      "12\" arms make this size ideal for measuring large joints — hip, knee, and shoulder.",
+    ],
+    highlights: [
+      "Transparent plastic — see landmarks through the device",
+      "360° head with 1° increments",
+      "12\" arms — large joints (hip, knee, shoulder)",
+      "Lightweight, durable, easy to read",
+      "Standard PT/OT documentation tool",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1000.jpg", alt: "Baseline 360° Plastic Goniometer — 12\" arms" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Arm length", value: "12\"" },
+          { label: "Scale", value: "360° head, 1° increments" },
+          { label: "Material", value: "Transparent plastic" },
+          { label: "SKU", value: "FAB 12-1000" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/evaluation/range-of-motion/baseline-plastic-goniometers/",
+    seo: {
+      title: "Baseline 360° Plastic Goniometer 12\" (FAB 12-1000) | GM Therapy",
+      description: "Transparent 360° plastic goniometer with 12\" arms — ideal for hip, knee, and shoulder ROM.",
+    },
+  },
+
+  "355": {
+    productId: "355",
+    slug: "theraputty-plus-antimicrobial-green-medium-2oz",
+    tagline: "Antimicrobial-treated TheraPutty — Green (Medium), 2 oz.",
+    overview: [
+      "TheraPutty® Plus is treated with an antimicrobial agent that inhibits the growth of bacteria, mold, and mildew on the putty itself — a smart choice for shared clinical use.",
+      "Green provides medium resistance, the most commonly prescribed progression level for hand rehab.",
+    ],
+    highlights: [
+      "Antimicrobial-treated putty",
+      "Green — medium resistance",
+      "2 oz portion",
+      "Inhibits bacteria, mold, and mildew",
+      "Non-toxic, non-staining, gluten-free, latex-free",
+      "Ideal for shared clinical use",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-2603.jpg", alt: "TheraPutty Plus Antimicrobial Green (Medium) 2 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Resistance", value: "Medium (Green)" },
+          { label: "Size", value: "2 oz" },
+          { label: "Treatment", value: "Antimicrobial" },
+          { label: "Material", value: "Non-toxic, latex-free, gluten-free silicone putty" },
+          { label: "SKU", value: "FAB 10-2603" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/",
+    seo: {
+      title: "TheraPutty Plus Antimicrobial Green (Medium) 2 oz (FAB 10-2603) | GM Therapy",
+      description: "Antimicrobial-treated medium-resistance TheraPutty for shared clinical use. 2 oz, latex-free.",
+    },
+  },
+
+  "356": {
+    productId: "356",
+    slug: "fablife-hip-kit-2",
+    tagline: "4-piece ADL kit for hip and total-joint replacement recovery.",
+    overview: [
+      "The FabLife Hip Kit #2 is a 4-piece bundle of essential aids-to-daily-living tools for patients following hip precautions. A practical mid-tier kit between Hip Kit #1 and Hip Kit #3.",
+      "Helps patients dress and bathe without bending past 90° during post-surgical recovery.",
+    ],
+    highlights: [
+      "4-piece ADL kit",
+      "26\" reacher",
+      "Sock and stocking aid",
+      "24\" metal shoehorn",
+      "Contoured bath sponge",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/86-0072.jpg", alt: "FabLife Hip Kit #2 — 4-piece ADL kit" },
+    ],
+    specGroups: [
+      {
+        title: "Kit Contents",
+        rows: [
+          { label: "Reacher", value: "26\"" },
+          { label: "Sock aid", value: "Sock and stocking aid" },
+          { label: "Shoehorn", value: "24\" metal" },
+          { label: "Bath sponge", value: "Contoured" },
+          { label: "SKU", value: "FAB 86-0072" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/adl/hip-kits/",
+    seo: {
+      title: "FabLife Hip Kit #2 — 4-Piece ADL Kit (FAB 86-0072) | GM Therapy",
+      description: "4-piece hip / total-joint replacement ADL kit: reacher, sock aid, 24\" shoehorn, bath sponge.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
