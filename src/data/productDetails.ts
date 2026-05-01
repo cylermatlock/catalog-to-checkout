@@ -9565,42 +9565,6 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
-  "374": {
-    productId: "374",
-    slug: "upper-body-rom-shoulder-wheel",
-    tagline: "Wall-mounted shoulder wheel for upper-extremity ROM.",
-    overview: [
-      "The Upper Body ROM Exerciser (shoulder wheel) is a classic clinical tool for shoulder ROM and strengthening. Wall-mounted with adjustable height, it trains shoulder flexion, extension, abduction, and circumduction.",
-      "Adjustable resistance lets clinicians progress patients through rehab — and an integrated ROM scale supports documentation.",
-    ],
-    highlights: [
-      "Wall-mounted shoulder wheel",
-      "Adjustable resistance and height",
-      "Trains shoulder flexion, extension, abduction, circumduction",
-      "Visible ROM scale for documentation",
-      "Standard clinical upper-extremity rehab tool",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/10-2900.jpg", alt: "Upper Body ROM Exerciser — Shoulder Wheel" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Type", value: "Wall-mounted shoulder wheel" },
-          { label: "Resistance", value: "Adjustable" },
-          { label: "Height", value: "Adjustable" },
-          { label: "SKU", value: "FAB 10-2900" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/exercise/range-of-motion/upper-body-rom-exercisers/",
-    seo: {
-      title: "Upper Body ROM Shoulder Wheel (FAB 10-2900) | GM Therapy",
-      description: "Wall-mounted shoulder wheel for upper-extremity ROM. Adjustable resistance and height.",
-    },
-  },
-
   "375": {
     productId: "375",
     slug: "cando-bungee-cord-exerciser-system",
