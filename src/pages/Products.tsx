@@ -46,15 +46,28 @@ const getBrand = (p: Product): string => {
 };
 
 const Products = () => {
-  // Hidden review mode: /products?review=1 — for internal photo QA only.
-  const reviewMode =
-    typeof window !== "undefined" &&
-    new URLSearchParams(window.location.search).get("review") === "1";
+  const location = useLocation();
+  const navigate = useNavigate();
 
-  const [selectedCategory, setSelectedCategory] = useState<string>("All");
-  const [selectedBrand, setSelectedBrand] = useState<string>("All");
-  const [search, setSearch] = useState("");
-  const [bswOnly, setBswOnly] = useState(reviewMode);
+  // Parse query params from the hash route (HashRouter puts ?query after the path inside the hash).
+  const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
+
+  // Hidden review mode: /products?review=1 — for internal photo QA only.
+  const reviewMode = queryParams.get("review") === "1";
+
+  const [selectedCategory, setSelectedCategory] = useState<string>(
+    () => queryParams.get("category") || "All"
+  );
+  const [selectedBrand, setSelectedBrand] = useState<string>(
+    () => queryParams.get("brand") || "All"
+  );
+  const [search, setSearch] = useState(() => queryParams.get("q") || "");
+  const [bswOnly, setBswOnly] = useState(
+    () => queryParams.get("bsw") === "1" || reviewMode
+  );
+  const [selectedSub, setSelectedSub] = useState<string>(
+    () => queryParams.get("sub") || "All"
+  );
 
   // Force BSW filter on whenever review mode is active.
   useEffect(() => {
@@ -71,7 +84,27 @@ const Products = () => {
     return Array.from(subs);
   }, [selectedCategory]);
 
-  const [selectedSub, setSelectedSub] = useState<string>("All");
+  // Sync filters to URL + sessionStorage so the product detail back link can return here.
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (selectedCategory !== "All") params.set("category", selectedCategory);
+    if (selectedSub !== "All") params.set("sub", selectedSub);
+    if (selectedBrand !== "All") params.set("brand", selectedBrand);
+    if (search) params.set("q", search);
+    if (bswOnly && !reviewMode) params.set("bsw", "1");
+    if (reviewMode) params.set("review", "1");
+    const qs = params.toString();
+    const newSearch = qs ? `?${qs}` : "";
+    if (newSearch !== location.search) {
+      navigate(`/products${newSearch}`, { replace: true });
+    }
+    try {
+      sessionStorage.setItem("productsReturnUrl", `/products${newSearch}`);
+    } catch {
+      /* ignore */
+    }
+  }, [selectedCategory, selectedSub, selectedBrand, search, bswOnly, reviewMode, location.search, navigate]);
+
 
   // Brands available within the currently selected category (or all).
   const brands = useMemo(() => {
