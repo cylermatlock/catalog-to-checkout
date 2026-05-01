@@ -68,11 +68,11 @@ const ProductDetail = () => {
       <main className="flex-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <Link
-            to="/products"
+            to={(typeof window !== "undefined" && sessionStorage.getItem("productsReturnUrl")) || "/products"}
             className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-primary transition-colors"
           >
             <ChevronLeft className="w-4 h-4" />
-            Back to all products
+            Back to products
           </Link>
         </div>
 
