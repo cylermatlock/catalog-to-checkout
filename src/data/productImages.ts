@@ -339,4 +339,15 @@ export const productImages: Record<string, string> = {
   "344": productAsset("ancore-rack-mount.png"),
   "345": productAsset("ancore-pro-1.png"),
   "346": productAsset("medsurface/ms-33100-3-section-hilo.png"),
+  // Clinical Supplies — FAB batch 1
+  "347": productAsset("fab/12-1926.jpg"),
+  "348": productAsset("fab/14-1050.jpg"),
+  "349": productAsset("fab/12-1671-20.jpg"),
+  "350": productAsset("fab/10-0901.jpg"),
+  "351": productAsset("fab/10-0900.jpg"),
+  "352": productAsset("fab/86-0074.jpg"),
+  "353": productAsset("fab/10-0902.jpg"),
+  "354": productAsset("fab/12-1000.jpg"),
+  "355": productAsset("fab/10-2603.jpg"),
+  "356": productAsset("fab/86-0072.jpg"),
 };
