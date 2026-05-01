@@ -338,4 +338,5 @@ export const productImages: Record<string, string> = {
   // Ancore
   "344": productAsset("ancore-rack-mount.png"),
   "345": productAsset("ancore-pro-1.png"),
+  "346": productAsset("medsurface/ms-33100-3-section-hilo.png"),
 };

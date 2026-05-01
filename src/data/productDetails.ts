@@ -8564,6 +8564,60 @@ export const productDetails: Record<string, ProductDetail> = {
         "Standard ANCORE Pro portable cable trainer with 5–55 lb 1:1 resistance, 8 ft Dyneema cable, and 220+ exercise variations.",
     },
   },
+  "346": {
+    productId: "346",
+    slug: "medsurface-3-section-hydraulic-hi-lo-table",
+    tagline: "Durable, full-featured 3-section electric hi-lo treatment table with foot-pedal control on all four sides and a 500 lb weight capacity.",
+    overview: [
+      "The MedSurface 3-Section Hi-Lo Table delivers the functional flexibility clinics and hospitals need at a price that respects the bottom line. Designed for a wide range of treatments and therapies, it features full electric height adjustment, a multi-section top with flexible head positioning, and a comfortable, sanitary surface that's easy to clean and disinfect.",
+      "An industry-leading linear actuator silently generates 7,000 newtons of force to move the table smoothly through its full 18\"–38\" range. Foot-pedal controls on all four sides allow hands-free operation from any position, while gas-assisted struts manage the recessed headrest. The 3\" thick, gently contoured non-slip cushion is covered in MedSurface's anti-microbial upholstery for a sanitary patient surface. Integrated retractable casters make the table easy to reposition. Backed by a 3-year warranty.",
+    ],
+    highlights: [
+      "Electric height adjustment, 18\"–38\"",
+      "Head section raises 70° and lowers a full 90°",
+      "Gas-assisted struts control the recessed headrest",
+      "Foot-pedal control standard on all four sides",
+      "Linear actuator silently generates 7,000 N of force",
+      "MedSurface anti-microbial, easy-clean surface",
+      "3\" thick non-slip contoured cushion",
+      "Integrated retractable casters included",
+      "500 lb weight capacity",
+      "110V — 3-year warranty",
+      "Available in Black, Grey, or Blue",
+    ],
+    gallery: [
+      { src: "/assets/products/medsurface/ms-33100-3-section-hilo.png", alt: "MedSurface 3-Section Hydraulic Hi-Lo Treatment Table" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions & Adjustment",
+        rows: [
+          { label: "Height range", value: "18\"–38\" (electric)" },
+          { label: "Head section", value: "+70° / -90°" },
+          { label: "Sections", value: "3-section top" },
+          { label: "Controls", value: "Foot pedal on all 4 sides" },
+        ],
+      },
+      {
+        title: "Capacity & Construction",
+        rows: [
+          { label: "Weight capacity", value: "500 lb" },
+          { label: "Cushion", value: "3\" thick non-slip, contoured" },
+          { label: "Upholstery", value: "MedSurface anti-microbial — Black, Grey, or Blue" },
+          { label: "Actuator", value: "Linear actuator, 7,000 N force" },
+          { label: "Casters", value: "Integrated retractable" },
+          { label: "Power", value: "110V" },
+          { label: "Warranty", value: "3 years" },
+          { label: "SKU", value: "MS 33100" },
+        ],
+      },
+    ],
+    sourceUrl: "https://medsurface.com/treatment-tables/3-section-hi-lo-table/",
+    seo: {
+      title: "MedSurface 3-Section Hydraulic Hi-Lo Table (MS 33100) | GM Therapy",
+      description: "MedSurface 3-Section Hi-Lo treatment table with electric 18\"–38\" height adjustment, foot-pedal control on all four sides, 500 lb capacity, and anti-microbial surface.",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
