@@ -147,10 +147,6 @@ const ProductDetail = () => {
                   fetchPriority="high"
                   decoding="async"
                 />
-                {/* Preload remaining gallery images so thumbnail clicks are instant */}
-                {detail.gallery.slice(0, 6).map((g, i) =>
-                  i === activeIdx ? null : <link key={g.src} rel="preload" as="image" href={g.src} />
-                )}
               </div>
               <div className="mt-3 grid grid-cols-5 sm:grid-cols-6 gap-2">
                 {detail.gallery.map((img, i) => (
