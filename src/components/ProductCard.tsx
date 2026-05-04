@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { type Product } from "@/data/products";
 import { productImages } from "@/data/productImages";
 import { hasDetailPage } from "@/data/productDetails";
+import { getBrand } from "@/lib/brand";
 import { Phone, Plus, Minus, ShoppingCart, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/contexts/CartContext";
