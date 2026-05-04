@@ -126,7 +126,7 @@ def compose(prod: dict, img_rel_path: str) -> Image.Image:
     # Logo top
     try:
         logo = Image.open(LOGO).convert("RGBA")
-        lh = 110
+        lh = 170
         lw = int(logo.width * (lh / logo.height))
         logo_r = logo.resize((lw, lh), Image.LANCZOS)
         canvas.paste(logo_r, (rx, 40), logo_r)
