@@ -11375,39 +11375,6 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Deluxe formed sock aid with continuous loop handle",
     },
   },
-  "435": {
-    productId: "435",
-    slug: "cando-round-foam-roller-6-x-36-blue-medium-density",
-    tagline: "Round foam roller \u2014 6\" diameter x 36\" length",
-    overview: [
-      "CanDo Round Foam Roller \u2014 6\" x 36\", Blue (Medium Density) \u2014 Round foam roller \u2014 6\" diameter x 36\" length.",
-      "Blue, medium density \u2014 softer than standard white For self-myofascial release, balance, and core training.",
-    ],
-    highlights: [
-      "Round foam roller \u2014 6\" diameter x 36\" length",
-      "Blue, medium density \u2014 softer than standard white",
-      "For self-myofascial release, balance, and core training",
-      "Closed-cell foam construction",
-      "Comfortable for sensitive patients",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/30-2150.jpg", alt: "CanDo Round Foam Roller \u2014 6\" x 36\", Blue (Medium Density)" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Foam Rollers" },
-          { label: "SKU", value: "FAB 30-2150" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/302150",
-    seo: {
-      title: "CanDo Round Foam Roller \u2014 6\" x 36\", Blue (Medium Density) (FAB 30-2150) | GM Therapy",
-      description: "Round foam roller \u2014 6\" diameter x 36\" length",
-    },
-  },
   "436": {
     productId: "436",
     slug: "waxwel-paraffin-wax-refill-unscented-6-x-1-lb-blocks",
@@ -11472,39 +11439,6 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "CanDo Exercise Band \u2014 Blue (Heavy), 50 yd Dispenser (FAB 10-5224) | GM Therapy",
       description: "CanDo latex resistance band \u2014 Blue (Heavy)",
-    },
-  },
-  "438": {
-    productId: "438",
-    slug: "evenup-shoe-leveler-medium-sizes-9-11",
-    tagline: "Shoe leveler/lift for use with walking boots and casts",
-    overview: [
-      "Evenup Shoe Leveler \u2014 Medium (Sizes 9\u201311) \u2014 Shoe leveler/lift for use with walking boots and casts.",
-      "Medium size \u2014 fits shoe sizes 9\u201311 Equalizes leg length to reduce gait imbalance.",
-    ],
-    highlights: [
-      "Shoe leveler/lift for use with walking boots and casts",
-      "Medium size \u2014 fits shoe sizes 9\u201311",
-      "Equalizes leg length to reduce gait imbalance",
-      "Helps prevent secondary back, hip, and knee pain",
-      "Attaches to standard footwear",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/43-2091.jpg", alt: "Evenup Shoe Leveler \u2014 Medium (Sizes 9\u201311)" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "DME" },
-          { label: "SKU", value: "FAB 43-2091" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/432091",
-    seo: {
-      title: "Evenup Shoe Leveler \u2014 Medium (Sizes 9\u201311) (FAB 43-2091) | GM Therapy",
-      description: "Shoe leveler/lift for use with walking boots and casts",
     },
   },
   "439": {
@@ -11737,39 +11671,6 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "CanDo Extension/Flexion Web \u2014 Multi-Resistance (Yellow/Green), 14\" (FAB 10-0857) | GM Therapy",
       description: "14\" hand exercise web \u2014 multi-resistance (Yellow/Green)",
-    },
-  },
-  "446": {
-    productId: "446",
-    slug: "fablife-straight-handle-contoured-bath-sponge",
-    tagline: "Long-handle contoured bath sponge",
-    overview: [
-      "FabLife Straight-Handle Contoured Bath Sponge \u2014 Long-handle contoured bath sponge.",
-      "Straight handle for extended reach Helps patients bathe back, legs, and feet without bending.",
-    ],
-    highlights: [
-      "Long-handle contoured bath sponge",
-      "Straight handle for extended reach",
-      "Helps patients bathe back, legs, and feet without bending",
-      "Ideal for hip, back, and shoulder restrictions",
-      "Standard clinical ADL aid",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/45-2381.jpg", alt: "FabLife Straight-Handle Contoured Bath Sponge" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "ADL / Daily Living" },
-          { label: "SKU", value: "FAB 45-2381" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/452381",
-    seo: {
-      title: "FabLife Straight-Handle Contoured Bath Sponge (FAB 45-2381) | GM Therapy",
-      description: "Long-handle contoured bath sponge",
     },
   },
   "447": {
