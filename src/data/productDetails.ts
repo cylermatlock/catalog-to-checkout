@@ -12253,6 +12253,706 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Latex-free resistance band — Black (X-Heavy)",
     },
   },
+  "476": {
+    productId: "476",
+    slug: "nustep-t5-recumbent-cross-trainer",
+    tagline: "Low-impact total body recumbent cross trainer",
+    overview: [
+      "NuStep T5 Recumbent Cross Trainer — Low-impact total body recumbent cross trainer. Smooth-stepping motion engages arms and legs",
+    ],
+    highlights: [
+      "Low-impact total body recumbent cross trainer", "Smooth-stepping motion engages arms and legs", "Easy step-through swivel seat for accessibility", "Adjustable resistance levels for all fitness levels", "Quiet hybrid brake system", "Ideal for rehab and senior wellness programs",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5982.jpg", alt: "NuStep T5 Recumbent Cross Trainer" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Cardio" },
+          { label: "SKU", value: "FAB 10-5982" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105982",
+    seo: {
+      title: "NuStep T5 Recumbent Cross Trainer (FAB 10-5982) | GM Therapy",
+      description: "Low-impact total body recumbent cross trainer",
+    },
+  },
+  "477": {
+    productId: "477",
+    slug: "endurance-bed-1-0-gray",
+    tagline: "Heavy-duty endurance treatment bed — gray upholstery",
+    overview: [
+      "Endurance Bed 1.0 — Gray — Heavy-duty endurance treatment bed — gray upholstery. Durable steel frame for long clinical life",
+    ],
+    highlights: [
+      "Heavy-duty endurance treatment bed — gray upholstery", "Durable steel frame for long clinical life", "Reinforced padding for patient comfort", "Designed for high-traffic therapy environments", "Easy-to-clean vinyl surface",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/15-5399.jpg", alt: "Endurance Bed 1.0 — Gray" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Treatment Furniture" },
+          { label: "SKU", value: "FAB 15-5399" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/155399",
+    seo: {
+      title: "Endurance Bed 1.0 — Gray (FAB 15-5399) | GM Therapy",
+      description: "Heavy-duty endurance treatment bed — gray upholstery",
+    },
+  },
+  "478": {
+    productId: "478",
+    slug: "strapit-athletic-tape-1-5-roll-box-of-32",
+    tagline: "Premium athletic tape — 1.5\" (38 mm) wide",
+    overview: [
+      "Strapit Athletic Tape — 1.5\" Roll, Box of 32 — Premium athletic tape — 1.5\" (38 mm) wide. Box of 32 rolls — bulk clinical pack",
+    ],
+    highlights: [
+      "Premium athletic tape — 1.5\" (38 mm) wide", "Box of 32 rolls — bulk clinical pack", "High-tack adhesive that stays put", "Excellent unwind and tear control", "Trusted for ankle and joint stabilization", "Standard for sports medicine and PT clinics",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/24-0191.jpg", alt: "Strapit Athletic Tape — 1.5\" Roll, Box of 32" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Splints & Support" },
+          { label: "SKU", value: "FAB 24-0191" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/240191",
+    seo: {
+      title: "Strapit Athletic Tape — 1.5\" Roll, Box of 32 (FAB 24-0191) | GM Therapy",
+      description: "Premium athletic tape — 1.5\" (38 mm) wide",
+    },
+  },
+  "479": {
+    productId: "479",
+    slug: "cando-pneumatic-stool-without-back-black",
+    tagline: "Pneumatic-adjust clinician stool — black",
+    overview: [
+      "CanDo Pneumatic Stool — Without Back, Black — Pneumatic-adjust clinician stool — black. Smooth height adjustment via gas lift",
+    ],
+    highlights: [
+      "Pneumatic-adjust clinician stool — black", "Smooth height adjustment via gas lift", "Sturdy 5-caster base for mobility", "Padded seat for all-day comfort", "Backless design for unrestricted movement", "Ideal for treatment rooms and labs",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/07-7063.jpg", alt: "CanDo Pneumatic Stool — Without Back, Black" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Treatment Furniture" },
+          { label: "SKU", value: "FAB 07-7063" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/077063",
+    seo: {
+      title: "CanDo Pneumatic Stool — Without Back, Black (FAB 07-7063) | GM Therapy",
+      description: "Pneumatic-adjust clinician stool — black",
+    },
+  },
+  "480": {
+    productId: "480",
+    slug: "airex-balance-pad-elite-blue-20-x-16-x-2-5",
+    tagline: "Premium Airex balance pad — Elite series",
+    overview: [
+      "Airex Balance Pad Elite — Blue, 20\" x 16\" x 2.5\" — Premium Airex balance pad — Elite series. Dimensions: 20\" x 16\" x 2.5\"",
+    ],
+    highlights: [
+      "Premium Airex balance pad — Elite series", "Dimensions: 20\" x 16\" x 2.5\"", "Soft, supportive foam for proprioceptive training", "Non-slip textured surface", "Closed-cell foam — easy to clean", "Made in Switzerland — clinical-grade quality",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-1915.jpg", alt: "Airex Balance Pad Elite — Blue, 20\" x 16\" x 2.5\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Balance" },
+          { label: "SKU", value: "FAB 30-1915" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/301915",
+    seo: {
+      title: "Airex Balance Pad Elite — Blue, 20\" x 16\" x 2.5\" (FAB 30-1915) | GM Therapy",
+      description: "Premium Airex balance pad — Elite series",
+    },
+  },
+  "481": {
+    productId: "481",
+    slug: "manual-track-stair-chair-4-wheels-yellow",
+    tagline: "Manual stair chair with continuous track",
+    overview: [
+      "Manual Track Stair Chair — 4 Wheels, Yellow — Manual stair chair with continuous track. 4-wheel design for smooth transport",
+    ],
+    highlights: [
+      "Manual stair chair with continuous track", "4-wheel design for smooth transport", "High-visibility yellow finish", "Safe descent on stairs in emergencies", "Sturdy folding frame for storage", "Ideal for evacuation and patient transport",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/16-1902.jpg", alt: "Manual Track Stair Chair — 4 Wheels, Yellow" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "DME" },
+          { label: "SKU", value: "FAB 16-1902" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/161902",
+    seo: {
+      title: "Manual Track Stair Chair — 4 Wheels, Yellow (FAB 16-1902) | GM Therapy",
+      description: "Manual stair chair with continuous track",
+    },
+  },
+  "482": {
+    productId: "482",
+    slug: "cando-exercise-band-black-x-heavy-50-yd-dispenser",
+    tagline: "Latex resistance band — Black (X-Heavy)",
+    overview: [
+      "CanDo Exercise Band — Black (X-Heavy), 50 yd Dispenser — Latex resistance band — Black (X-Heavy). 50 yard dispenser roll",
+    ],
+    highlights: [
+      "Latex resistance band — Black (X-Heavy)", "50 yard dispenser roll", "Cut to length for individual exercises", "Color-coded progressive resistance", "Trusted CanDo quality for clinical use",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5225.jpg", alt: "CanDo Exercise Band — Black (X-Heavy), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5225" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105225",
+    seo: {
+      title: "CanDo Exercise Band — Black (X-Heavy), 50 yd Dispenser (FAB 10-5225) | GM Therapy",
+      description: "Latex resistance band — Black (X-Heavy)",
+    },
+  },
+  "483": {
+    productId: "483",
+    slug: "lafayette-manual-muscle-tester-rechargeable-w-bluetooth",
+    tagline: "Lafayette MMT handheld dynamometer",
+    overview: [
+      "Lafayette Manual Muscle Tester — Rechargeable w/ Bluetooth — Lafayette MMT handheld dynamometer. Rechargeable battery — no disposable cells",
+    ],
+    highlights: [
+      "Lafayette MMT handheld dynamometer", "Rechargeable battery — no disposable cells", "Bluetooth module for wireless data transfer", "Objective MMT documentation", "Lightweight ergonomic design", "Industry standard for muscle strength testing",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-0380.jpg", alt: "Lafayette Manual Muscle Tester — Rechargeable w/ Bluetooth" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-0380" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/120380",
+    seo: {
+      title: "Lafayette Manual Muscle Tester — Rechargeable w/ Bluetooth (FAB 12-0380) | GM Therapy",
+      description: "Lafayette MMT handheld dynamometer",
+    },
+  },
+  "484": {
+    productId: "484",
+    slug: "rep-latex-free-exercise-band-orange-light-50-yd",
+    tagline: "REP latex-free resistance band — Orange (Light)",
+    overview: [
+      "REP Latex-Free Exercise Band — Orange (Light), 50 yd — REP latex-free resistance band — Orange (Light). 50 yard dispenser roll",
+    ],
+    highlights: [
+      "REP latex-free resistance band — Orange (Light)", "50 yard dispenser roll", "Cuts to any length for clinical or home use", "Color-coded progressive resistance", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1090.jpg", alt: "REP Latex-Free Exercise Band — Orange (Light), 50 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-1090" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/101090",
+    seo: {
+      title: "REP Latex-Free Exercise Band — Orange (Light), 50 yd (FAB 10-1090) | GM Therapy",
+      description: "REP latex-free resistance band — Orange (Light)",
+    },
+  },
+  "485": {
+    productId: "485",
+    slug: "stepone-total-body-recumbent-stepper-premium-seat",
+    tagline: "StepONE total-body recumbent stepper — Premium Seat",
+    overview: [
+      "StepONE Total Body Recumbent Stepper — Premium Seat — StepONE total-body recumbent stepper — Premium Seat. Combined upper and lower body workout",
+    ],
+    highlights: [
+      "StepONE total-body recumbent stepper — Premium Seat", "Combined upper and lower body workout", "Smooth, low-impact stepping motion", "Wide swivel seat with comfort upholstery", "Easy step-through access", "Ideal for rehab and adaptive fitness",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6038.jpg", alt: "StepONE Total Body Recumbent Stepper — Premium Seat" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Cardio" },
+          { label: "SKU", value: "FAB 10-6038" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106038",
+    seo: {
+      title: "StepONE Total Body Recumbent Stepper — Premium Seat (FAB 10-6038) | GM Therapy",
+      description: "StepONE total-body recumbent stepper — Premium Seat",
+    },
+  },
+  "486": {
+    productId: "486",
+    slug: "buhl-portable-spirometer-with-mouthpieces",
+    tagline: "Buhl portable spirometer for pulmonary assessment",
+    overview: [
+      "Buhl Portable Spirometer — with Mouthpieces — Buhl portable spirometer for pulmonary assessment. Includes disposable mouthpieces",
+    ],
+    highlights: [
+      "Buhl portable spirometer for pulmonary assessment", "Includes disposable mouthpieces", "Compact and lightweight for clinical use", "Measures FEV1, FVC, and other key values", "Easy-to-read display", "Ideal for pulmonary screening",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1710.jpg", alt: "Buhl Portable Spirometer — with Mouthpieces" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1710" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121710",
+    seo: {
+      title: "Buhl Portable Spirometer — with Mouthpieces (FAB 12-1710) | GM Therapy",
+      description: "Buhl portable spirometer for pulmonary assessment",
+    },
+  },
+  "487": {
+    productId: "487",
+    slug: "cando-exercise-band-yellow-x-light-50-yd-dispenser",
+    tagline: "Latex resistance band — Yellow (X-Light)",
+    overview: [
+      "CanDo Exercise Band — Yellow (X-Light), 50 yd Dispenser — Latex resistance band — Yellow (X-Light). 50 yard dispenser roll",
+    ],
+    highlights: [
+      "Latex resistance band — Yellow (X-Light)", "50 yard dispenser roll", "Cuts to any length", "Color-coded progressive resistance", "Ideal for early-stage rehabilitation",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5221.jpg", alt: "CanDo Exercise Band — Yellow (X-Light), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5221" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105221",
+    seo: {
+      title: "CanDo Exercise Band — Yellow (X-Light), 50 yd Dispenser (FAB 10-5221) | GM Therapy",
+      description: "Latex resistance band — Yellow (X-Light)",
+    },
+  },
+  "488": {
+    productId: "488",
+    slug: "airex-balance-pad-elite-lava-black-20-x-16-x-2-5",
+    tagline: "Premium Airex balance pad — Elite series",
+    overview: [
+      "Airex Balance Pad Elite — Lava/Black, 20\" x 16\" x 2.5\" — Premium Airex balance pad — Elite series. Lava/black colorway",
+    ],
+    highlights: [
+      "Premium Airex balance pad — Elite series", "Lava/black colorway", "Dimensions: 20\" x 16\" x 2.5\"", "Soft supportive foam for proprioception", "Non-slip textured surface", "Made in Switzerland — clinical grade",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-1915LAV.jpg", alt: "Airex Balance Pad Elite — Lava/Black, 20\" x 16\" x 2.5\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Balance" },
+          { label: "SKU", value: "FAB 30-1915LAV" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/301915LAV",
+    seo: {
+      title: "Airex Balance Pad Elite — Lava/Black, 20\" x 16\" x 2.5\" (FAB 30-1915LAV) | GM Therapy",
+      description: "Premium Airex balance pad — Elite series",
+    },
+  },
+  "489": {
+    productId: "489",
+    slug: "dycem-non-slip-material-roll-blue-16-x-10-yd",
+    tagline: "Non-slip Dycem material roll — Blue",
+    overview: [
+      "Dycem Non-Slip Material Roll — Blue, 16\" x 10 yd — Non-slip Dycem material roll — Blue. 16\" wide x 10 yard length — bulk size",
+    ],
+    highlights: [
+      "Non-slip Dycem material roll — Blue", "16\" wide x 10 yard length — bulk size", "Cuts to any size for versatile use", "Stabilizes plates, cups, books, and equipment", "Latex-free, washable, reusable", "Ideal for ADL training and patient stability",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/50-1505B.jpg", alt: "Dycem Non-Slip Material Roll — Blue, 16\" x 10 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 50-1505B" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/501505B",
+    seo: {
+      title: "Dycem Non-Slip Material Roll — Blue, 16\" x 10 yd (FAB 50-1505B) | GM Therapy",
+      description: "Non-slip Dycem material roll — Blue",
+    },
+  },
+  "490": {
+    productId: "490",
+    slug: "rep-latex-free-exercise-band-blue-heavy-50-yd",
+    tagline: "REP latex-free resistance band — Blue (Heavy)",
+    overview: [
+      "REP Latex-Free Exercise Band — Blue (Heavy), 50 yd — REP latex-free resistance band — Blue (Heavy). 50 yard dispenser roll",
+    ],
+    highlights: [
+      "REP latex-free resistance band — Blue (Heavy)", "50 yard dispenser roll", "Cuts to any length", "Color-coded progressive resistance", "Safe for latex-sensitive patients",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1092.jpg", alt: "REP Latex-Free Exercise Band — Blue (Heavy), 50 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-1092" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/101092",
+    seo: {
+      title: "REP Latex-Free Exercise Band — Blue (Heavy), 50 yd (FAB 10-1092) | GM Therapy",
+      description: "REP latex-free resistance band — Blue (Heavy)",
+    },
+  },
+  "491": {
+    productId: "491",
+    slug: "baseline-hydraulic-hand-dynamometer-digital-lcd-er-300-lb",
+    tagline: "Baseline hydraulic hand dynamometer",
+    overview: [
+      "Baseline Hydraulic Hand Dynamometer — Digital LCD, ER 300 lb — Baseline hydraulic hand dynamometer. Digital LCD gauge — Extended Range 300 lb",
+    ],
+    highlights: [
+      "Baseline hydraulic hand dynamometer", "Digital LCD gauge — Extended Range 300 lb", "Highly accurate hand-grip strength measurement", "Industry standard for clinical evaluation", "Comfortable adjustable handle", "Includes carrying case",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-0247.jpg", alt: "Baseline Hydraulic Hand Dynamometer — Digital LCD, ER 300 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-0247" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/120247",
+    seo: {
+      title: "Baseline Hydraulic Hand Dynamometer — Digital LCD, ER 300 lb (FAB 12-0247) | GM Therapy",
+      description: "Baseline hydraulic hand dynamometer",
+    },
+  },
+  "492": {
+    productId: "492",
+    slug: "val-u-band-latex-free-resistance-band-plum-5-50-yd",
+    tagline: "Val-u-Band latex-free resistance band — Plum (Level 5)",
+    overview: [
+      "Val-u-Band Latex-Free Resistance Band — Plum (5), 50 yd — Val-u-Band latex-free resistance band — Plum (Level 5). 50 yard roll",
+    ],
+    highlights: [
+      "Val-u-Band latex-free resistance band — Plum (Level 5)", "50 yard roll", "Economy alternative to TheraBand", "Color-coded progressive resistance", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6125.jpg", alt: "Val-u-Band Latex-Free Resistance Band — Plum (5), 50 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-6125" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106125",
+    seo: {
+      title: "Val-u-Band Latex-Free Resistance Band — Plum (5), 50 yd (FAB 10-6125) | GM Therapy",
+      description: "Val-u-Band latex-free resistance band — Plum (Level 5)",
+    },
+  },
+  "493": {
+    productId: "493",
+    slug: "baseline-lite-hydraulic-hand-dynamometer-200-lb",
+    tagline: "Baseline LITE hydraulic hand dynamometer",
+    overview: [
+      "Baseline LITE Hydraulic Hand Dynamometer — 200 lb — Baseline LITE hydraulic hand dynamometer. Capacity: 200 lb",
+    ],
+    highlights: [
+      "Baseline LITE hydraulic hand dynamometer", "Capacity: 200 lb", "Lightweight, easy-to-read analog dial", "Reliable grip-strength evaluation", "Compact for portable use", "Includes carrying case",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-0241.jpg", alt: "Baseline LITE Hydraulic Hand Dynamometer — 200 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-0241" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/120241",
+    seo: {
+      title: "Baseline LITE Hydraulic Hand Dynamometer — 200 lb (FAB 12-0241) | GM Therapy",
+      description: "Baseline LITE hydraulic hand dynamometer",
+    },
+  },
+  "494": {
+    productId: "494",
+    slug: "cando-pt-soft-medicine-ball-set-5-pc-2-4-7-11-15-lb",
+    tagline: "CanDo PT soft medicine ball set — 5 pieces",
+    overview: [
+      "CanDo PT Soft Medicine Ball Set — 5 pc (2, 4, 7, 11, 15 lb) — CanDo PT soft medicine ball set — 5 pieces. Includes one each: 2, 4, 7, 11, and 15 lb",
+    ],
+    highlights: [
+      "CanDo PT soft medicine ball set — 5 pieces", "Includes one each: 2, 4, 7, 11, and 15 lb", "Soft, no-bounce surface — safe for indoor use", "Color-coded by weight", "Ideal for rehab and conditioning programs",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-3176.jpg", alt: "CanDo PT Soft Medicine Ball Set — 5 pc (2, 4, 7, 11, 15 lb)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Exercise" },
+          { label: "SKU", value: "FAB 10-3176" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/103176",
+    seo: {
+      title: "CanDo PT Soft Medicine Ball Set — 5 pc (2, 4, 7, 11, 15 lb) (FAB 10-3176) | GM Therapy",
+      description: "CanDo PT soft medicine ball set — 5 pieces",
+    },
+  },
+  "495": {
+    productId: "495",
+    slug: "cando-twin-pak-exercise-band-green-medium-100-yd",
+    tagline: "CanDo Twin-Pak — two 50-yd boxes (100 yd total)",
+    overview: [
+      "CanDo Twin-Pak Exercise Band — Green (Medium), 100 yd — CanDo Twin-Pak — two 50-yd boxes (100 yd total). Green — Medium resistance",
+    ],
+    highlights: [
+      "CanDo Twin-Pak — two 50-yd boxes (100 yd total)", "Green — Medium resistance", "Bulk clinical value", "Color-coded progressive resistance", "Made in USA",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5493.jpg", alt: "CanDo Twin-Pak Exercise Band — Green (Medium), 100 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5493" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105493",
+    seo: {
+      title: "CanDo Twin-Pak Exercise Band — Green (Medium), 100 yd (FAB 10-5493) | GM Therapy",
+      description: "CanDo Twin-Pak — two 50-yd boxes (100 yd total)",
+    },
+  },
+  "496": {
+    productId: "496",
+    slug: "cando-rickshaw-rehabilitation-exerciser",
+    tagline: "CanDo Rickshaw rehabilitation exerciser",
+    overview: [
+      "CanDo Rickshaw Rehabilitation Exerciser — CanDo Rickshaw rehabilitation exerciser. Adjustable resistance for upper-body strengthening",
+    ],
+    highlights: [
+      "CanDo Rickshaw rehabilitation exerciser", "Adjustable resistance for upper-body strengthening", "Heavy-duty steel construction", "Pulley-based dynamic resistance", "Ideal for shoulder, arm, and core rehab", "Used in clinical and athletic settings",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0690.jpg", alt: "CanDo Rickshaw Rehabilitation Exerciser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Exercise" },
+          { label: "SKU", value: "FAB 10-0690" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100690",
+    seo: {
+      title: "CanDo Rickshaw Rehabilitation Exerciser (FAB 10-0690) | GM Therapy",
+      description: "CanDo Rickshaw rehabilitation exerciser",
+    },
+  },
+  "497": {
+    productId: "497",
+    slug: "airex-balance-pad-mini-10-x-16-x-2-5",
+    tagline: "Compact Airex balance pad — Mini",
+    overview: [
+      "Airex Balance Pad Mini — 10\" x 16\" x 2.5\" — Compact Airex balance pad — Mini. Dimensions: 10\" x 16\" x 2.5\"",
+    ],
+    highlights: [
+      "Compact Airex balance pad — Mini", "Dimensions: 10\" x 16\" x 2.5\"", "Soft foam for proprioceptive training", "Non-slip textured surface", "Closed-cell foam — easy to clean", "Made in Switzerland",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-1909.jpg", alt: "Airex Balance Pad Mini — 10\" x 16\" x 2.5\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Balance" },
+          { label: "SKU", value: "FAB 30-1909" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/301909",
+    seo: {
+      title: "Airex Balance Pad Mini — 10\" x 16\" x 2.5\" (FAB 30-1909) | GM Therapy",
+      description: "Compact Airex balance pad — Mini",
+    },
+  },
+  "498": {
+    productId: "498",
+    slug: "sup-r-band-latex-free-black-x-heavy-50-yd",
+    tagline: "Sup-R Band latex-free resistance band — Black (X-Heavy)",
+    overview: [
+      "Sup-R Band Latex-Free — Black (X-Heavy), 50 yd — Sup-R Band latex-free resistance band — Black (X-Heavy). 50 yard roll",
+    ],
+    highlights: [
+      "Sup-R Band latex-free resistance band — Black (X-Heavy)", "50 yard roll", "Highest tear and snap resistance in its class", "Color-coded progressive resistance", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6325.jpg", alt: "Sup-R Band Latex-Free — Black (X-Heavy), 50 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-6325" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106325",
+    seo: {
+      title: "Sup-R Band Latex-Free — Black (X-Heavy), 50 yd (FAB 10-6325) | GM Therapy",
+      description: "Sup-R Band latex-free resistance band — Black (X-Heavy)",
+    },
+  },
+  "499": {
+    productId: "499",
+    slug: "cando-twin-pak-exercise-band-red-light-100-yd",
+    tagline: "CanDo Twin-Pak — two 50-yd boxes (100 yd total)",
+    overview: [
+      "CanDo Twin-Pak Exercise Band — Red (Light), 100 yd — CanDo Twin-Pak — two 50-yd boxes (100 yd total). Red — Light resistance",
+    ],
+    highlights: [
+      "CanDo Twin-Pak — two 50-yd boxes (100 yd total)", "Red — Light resistance", "Bulk clinical value", "Color-coded progressive resistance", "Made in USA",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5492.jpg", alt: "CanDo Twin-Pak Exercise Band — Red (Light), 100 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5492" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105492",
+    seo: {
+      title: "CanDo Twin-Pak Exercise Band — Red (Light), 100 yd (FAB 10-5492) | GM Therapy",
+      description: "CanDo Twin-Pak — two 50-yd boxes (100 yd total)",
+    },
+  },
+  "500": {
+    productId: "500",
+    slug: "jamar-plus-electronic-hand-dynamometer-200-lb",
+    tagline: "Jamar Plus+ electronic hand dynamometer",
+    overview: [
+      "Jamar Plus+ Electronic Hand Dynamometer — 200 lb — Jamar Plus+ electronic hand dynamometer. Capacity: 200 lb",
+    ],
+    highlights: [
+      "Jamar Plus+ electronic hand dynamometer", "Capacity: 200 lb", "Digital LCD display with peak-hold function", "Industry-standard grip strength evaluator", "Stores up to 19 trial readings", "Includes carrying case",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-0604.jpg", alt: "Jamar Plus+ Electronic Hand Dynamometer — 200 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-0604" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/120604",
+    seo: {
+      title: "Jamar Plus+ Electronic Hand Dynamometer — 200 lb (FAB 12-0604) | GM Therapy",
+      description: "Jamar Plus+ electronic hand dynamometer",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
