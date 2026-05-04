@@ -13395,6 +13395,706 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Sup-R Band latex-free resistance band — Silver (XX-Heavy)",
     },
   },
+  "526": {
+    productId: "526",
+    slug: "disposable-baseline-tactile-monofilament-evaluator-5-07-10g-20-pack-leap",
+    tagline: "Disposable monofilament evaluator — 5.07 (10 gram)",
+    overview: [
+      "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20-pack (LEAP) — Disposable monofilament evaluator — 5.07 (10 gram).",
+    ],
+    highlights: [
+      "Disposable tactile monofilament evaluator", "5.07 (10 gram) calibration", "20 evaluators per pack — LEAP program", "Used for diabetic foot screening", "Single-use for infection control",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1670-20.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20-pack (LEAP)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1670-20" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121670-20",
+    seo: {
+      title: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20-pack (LEAP) (FAB 12-1670-20) | GM Therapy",
+      description: "Disposable monofilament evaluator — 5.07 (10 gram)",
+    },
+  },
+  "527": {
+    productId: "527",
+    slug: "cando-7-day-pill-organizer",
+    tagline: "Weekly pill organizer for medication management",
+    overview: [
+      "CanDo 7-Day Pill Organizer — Weekly pill organizer for medication management.",
+    ],
+    highlights: [
+      "7-day pill organizer", "Helps maintain medication adherence", "Easy-open compartments", "Color-coded daily slots", "Compact and portable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/85-0101.jpg", alt: "CanDo 7-Day Pill Organizer" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL" },
+          { label: "SKU", value: "FAB 85-0101" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/850101",
+    seo: {
+      title: "CanDo 7-Day Pill Organizer (FAB 85-0101) | GM Therapy",
+      description: "Weekly pill organizer for medication management",
+    },
+  },
+  "528": {
+    productId: "528",
+    slug: "disposable-baseline-tactile-monofilament-evaluator-5-07-10g-40-pack-ada",
+    tagline: "Disposable monofilament evaluator — 40 pack",
+    overview: [
+      "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 40-pack (ADA) — Disposable monofilament evaluator — 40 pack.",
+    ],
+    highlights: [
+      "Disposable tactile monofilament evaluator", "5.07 (10 gram) calibration", "40 evaluators per pack — ADA program", "Standard diabetic neuropathy screening", "Single-use for infection control",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1671-40.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 40-pack (ADA)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1671-40" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121671-40",
+    seo: {
+      title: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 40-pack (ADA) (FAB 12-1671-40) | GM Therapy",
+      description: "Disposable monofilament evaluator — 40 pack",
+    },
+  },
+  "529": {
+    productId: "529",
+    slug: "cando-kegel-kit",
+    tagline: "Pelvic floor exercise weight kit",
+    overview: [
+      "CanDo Kegel Kit — Pelvic floor exercise weight kit.",
+    ],
+    highlights: [
+      "Kegel exercise weight kit", "Progressive resistance pelvic floor training", "Helps with bladder control", "Discreet and easy to use", "Includes multiple weight levels",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-4225.jpg", alt: "CanDo Kegel Kit" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 13-4225" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/134225",
+    seo: {
+      title: "CanDo Kegel Kit (FAB 13-4225) | GM Therapy",
+      description: "Pelvic floor exercise weight kit",
+    },
+  },
+  "530": {
+    productId: "530",
+    slug: "disposable-baseline-tactile-monofilament-evaluator-w-sleeve-5-07-10g-leap",
+    tagline: "Single disposable monofilament with sleeve",
+    overview: [
+      "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP — Single disposable monofilament with sleeve.",
+    ],
+    highlights: [
+      "Disposable tactile monofilament with protective sleeve", "5.07 (10 gram) calibration", "LEAP protocol screening", "Diabetic foot sensation testing", "Single-use sterile evaluator",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1670.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1670" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121670",
+    seo: {
+      title: "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP (FAB 12-1670) | GM Therapy",
+      description: "Single disposable monofilament with sleeve",
+    },
+  },
+  "531": {
+    productId: "531",
+    slug: "cando-round-foam-roller-blue-6-x-36",
+    tagline: "Round foam roller for myofascial release",
+    overview: [
+      "CanDo Round Foam Roller — Blue, 6\" x 36\" — Round foam roller for myofascial release.",
+    ],
+    highlights: [
+      "6\" diameter x 36\" length", "Blue, medium-firm density", "Myofascial release and self-massage", "Core stability and balance training", "Lightweight closed-cell foam",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-2150.jpg", alt: "CanDo Round Foam Roller — Blue, 6\" x 36\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Exercise" },
+          { label: "SKU", value: "FAB 30-2150" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/302150",
+    seo: {
+      title: "CanDo Round Foam Roller — Blue, 6\" x 36\" (FAB 30-2150) | GM Therapy",
+      description: "Round foam roller for myofascial release",
+    },
+  },
+  "532": {
+    productId: "532",
+    slug: "evenup-shoe-leveler-medium-sizes-9-11",
+    tagline: "Shoe leveler to compensate for leg length discrepancy",
+    overview: [
+      "Evenup Shoe Leveler — Medium (sizes 9-11) — Shoe leveler to compensate for leg length discrepancy.",
+    ],
+    highlights: [
+      "Compensates for leg length discrepancy", "Medium — fits shoe sizes 9-11", "Reduces gait asymmetry", "Slip-on attachment to existing shoe", "Sold individually",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/43-2091.jpg", alt: "Evenup Shoe Leveler — Medium (sizes 9-11)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "DME" },
+          { label: "SKU", value: "FAB 43-2091" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/432091",
+    seo: {
+      title: "Evenup Shoe Leveler — Medium (sizes 9-11) (FAB 43-2091) | GM Therapy",
+      description: "Shoe leveler to compensate for leg length discrepancy",
+    },
+  },
+  "533": {
+    productId: "533",
+    slug: "straight-handle-contoured-sponge",
+    tagline: "Long-handle contoured bath sponge",
+    overview: [
+      "Straight Handle Contoured Sponge — Long-handle contoured bath sponge.",
+    ],
+    highlights: [
+      "Straight long handle for extended reach", "Contoured sponge head", "Helps users with limited mobility bathe independently", "Lightweight and easy to grip", "ADL self-care aid",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/45-2381.jpg", alt: "Straight Handle Contoured Sponge" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "DME" },
+          { label: "SKU", value: "FAB 45-2381" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/452381",
+    seo: {
+      title: "Straight Handle Contoured Sponge (FAB 45-2381) | GM Therapy",
+      description: "Long-handle contoured bath sponge",
+    },
+  },
+  "534": {
+    productId: "534",
+    slug: "cando-inflatable-sitting-wedge-child",
+    tagline: "Inflatable child sitting wedge for active sitting",
+    overview: [
+      "CanDo Inflatable Sitting Wedge — Child — Inflatable child sitting wedge for active sitting.",
+    ],
+    highlights: [
+      "Inflatable air-filled wedge", "Child-sized", "Promotes active sitting and posture", "Improves core engagement", "Textured surface for sensory input",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-1926.jpg", alt: "CanDo Inflatable Sitting Wedge — Child" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Exercise" },
+          { label: "SKU", value: "FAB 30-1926" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/301926",
+    seo: {
+      title: "CanDo Inflatable Sitting Wedge — Child (FAB 30-1926) | GM Therapy",
+      description: "Inflatable child sitting wedge for active sitting",
+    },
+  },
+  "535": {
+    productId: "535",
+    slug: "cando-hand-therapy-blocks-assorted-pack-of-12",
+    tagline: "Hand therapy blocks — Extra-Soft through Firm",
+    overview: [
+      "CanDo Hand Therapy Blocks — Assorted, Pack of 12 — Hand therapy blocks — Extra-Soft through Firm.",
+    ],
+    highlights: [
+      "Hand therapy progressive resistance blocks", "Pack of 12 — assorted resistances", "Extra-Soft through Firm", "Strengthens grip, fingers, and forearm", "Color-coded resistance levels",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-2468.jpg", alt: "CanDo Hand Therapy Blocks — Assorted, Pack of 12" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Exercise" },
+          { label: "SKU", value: "FAB 10-2468" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/102468",
+    seo: {
+      title: "CanDo Hand Therapy Blocks — Assorted, Pack of 12 (FAB 10-2468) | GM Therapy",
+      description: "Hand therapy blocks — Extra-Soft through Firm",
+    },
+  },
+  "536": {
+    productId: "536",
+    slug: "atx-straight-knee-wrap-one-size",
+    tagline: "ATX straight knee wrap for cold compression",
+    overview: [
+      "ATX Straight Knee Wrap — One Size — ATX straight knee wrap for cold compression.",
+    ],
+    highlights: [
+      "ATX cold compression straight knee wrap", "One size fits all", "Targeted cold therapy and compression", "Used with ATX dual-temperature systems", "Post-surgical and rehab applications",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-2514.jpg", alt: "ATX Straight Knee Wrap — One Size" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 13-2514" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/132514",
+    seo: {
+      title: "ATX Straight Knee Wrap — One Size (FAB 13-2514) | GM Therapy",
+      description: "ATX straight knee wrap for cold compression",
+    },
+  },
+  "537": {
+    productId: "537",
+    slug: "fabstim-premium-gel-self-adhesive-electrode-2-round-40-bag",
+    tagline: "Premium 2\" round self-adhesive electrodes",
+    overview: [
+      "FabStim Premium Gel Self-Adhesive Electrode — 2\" Round, 40/bag — Premium 2\" round self-adhesive electrodes.",
+    ],
+    highlights: [
+      "FabStim Premium gel self-adhesive electrodes", "2\" round — white foam", "40 per bag (10 sheets of 4)", "High-quality conductive gel for TENS/EMS", "Long-lasting adhesive",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-1287-10.jpg", alt: "FabStim Premium Gel Self-Adhesive Electrode — 2\" Round, 40/bag" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 13-1287-10" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/131287-10",
+    seo: {
+      title: "FabStim Premium Gel Self-Adhesive Electrode — 2\" Round, 40/bag (FAB 13-1287-10) | GM Therapy",
+      description: "Premium 2\" round self-adhesive electrodes",
+    },
+  },
+  "538": {
+    productId: "538",
+    slug: "hot-water-bottle-2-quart",
+    tagline: "Classic 2-quart rubber hot water bottle",
+    overview: [
+      "Hot Water Bottle — 2 Quart — Classic 2-quart rubber hot water bottle.",
+    ],
+    highlights: [
+      "2-quart capacity", "Durable rubber construction", "Provides moist heat therapy", "Reusable and refillable", "Soothes muscle aches and cramps",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1140.jpg", alt: "Hot Water Bottle — 2 Quart" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1140" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111140",
+    seo: {
+      title: "Hot Water Bottle — 2 Quart (FAB 11-1140) | GM Therapy",
+      description: "Classic 2-quart rubber hot water bottle",
+    },
+  },
+  "539": {
+    productId: "539",
+    slug: "atx-ankle-wrap-large",
+    tagline: "ATX ankle wrap, large (men's shoe sizes ≤11)",
+    overview: [
+      "ATX Ankle Wrap — Large — ATX ankle wrap, large (men's shoe sizes ≤11).",
+    ],
+    highlights: [
+      "ATX cold compression ankle wrap", "Large — fits men's shoe sizes 11 and under", "Targeted cold therapy with compression", "Used with ATX dual-temperature systems", "Post-surgical and acute injury support",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-2511.jpg", alt: "ATX Ankle Wrap — Large" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 13-2511" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/132511",
+    seo: {
+      title: "ATX Ankle Wrap — Large (FAB 13-2511) | GM Therapy",
+      description: "ATX ankle wrap, large (men's shoe sizes ≤11)",
+    },
+  },
+  "540": {
+    productId: "540",
+    slug: "atx-shoulder-wrap-large-right",
+    tagline: "ATX shoulder wrap, large right (chest 40-55\")",
+    overview: [
+      "ATX Shoulder Wrap — Large, Right — ATX shoulder wrap, large right (chest 40-55\").",
+    ],
+    highlights: [
+      "ATX cold compression shoulder wrap", "Large — right shoulder", "Fits chest sizes 40\"-55\"", "Targeted cold and compression therapy", "Post-surgical and rehab applications",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-2526.jpg", alt: "ATX Shoulder Wrap — Large, Right" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 13-2526" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/132526",
+    seo: {
+      title: "ATX Shoulder Wrap — Large, Right (FAB 13-2526) | GM Therapy",
+      description: "ATX shoulder wrap, large right (chest 40-55\")",
+    },
+  },
+  "541": {
+    productId: "541",
+    slug: "atx-articulated-knee-wrap-one-size",
+    tagline: "ATX articulated knee wrap for cold compression",
+    overview: [
+      "ATX Articulated Knee Wrap — One Size — ATX articulated knee wrap for cold compression.",
+    ],
+    highlights: [
+      "ATX articulated cold compression knee wrap", "One size fits all", "Articulated design for full ROM", "Used with ATX dual-temperature systems", "Post-op knee rehabilitation",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-2515.jpg", alt: "ATX Articulated Knee Wrap — One Size" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 13-2515" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/132515",
+    seo: {
+      title: "ATX Articulated Knee Wrap — One Size (FAB 13-2515) | GM Therapy",
+      description: "ATX articulated knee wrap for cold compression",
+    },
+  },
+  "542": {
+    productId: "542",
+    slug: "atx-dual-connector-hose-sport",
+    tagline: "Dual connector hose for ATX Sport system",
+    overview: [
+      "ATX Dual Connector Hose — Sport — Dual connector hose for ATX Sport system.",
+    ],
+    highlights: [
+      "Dual connector hose accessory", "For ATX Sport cold compression system", "Connects two wraps simultaneously", "Durable kink-resistant tubing", "Replacement / accessory part",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-2542.jpg", alt: "ATX Dual Connector Hose — Sport" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 13-2542" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/132542",
+    seo: {
+      title: "ATX Dual Connector Hose — Sport (FAB 13-2542) | GM Therapy",
+      description: "Dual connector hose for ATX Sport system",
+    },
+  },
+  "543": {
+    productId: "543",
+    slug: "scotsman-prodigy-plus-nugget-ice-maker-420-lb",
+    tagline: "Commercial nugget ice maker — 420 lb production",
+    overview: [
+      "Scotsman Prodigy Plus Nugget Ice Maker — 420 lb — Commercial nugget ice maker — 420 lb production.",
+    ],
+    highlights: [
+      "Scotsman Prodigy Plus commercial ice maker", "Nugget-style ice — 420 lb daily production", "420 lb storage bin", "Energy-efficient design", "Ideal for clinical hot/cold therapy programs",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/66-0015.jpg", alt: "Scotsman Prodigy Plus Nugget Ice Maker — 420 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 66-0015" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/660015",
+    seo: {
+      title: "Scotsman Prodigy Plus Nugget Ice Maker — 420 lb (FAB 66-0015) | GM Therapy",
+      description: "Commercial nugget ice maker — 420 lb production",
+    },
+  },
+  "544": {
+    productId: "544",
+    slug: "relief-pak-heat-pack-cover-velour-with-foam-standard-with-pocket",
+    tagline: "Standard hydrocollator pack cover with pocket",
+    overview: [
+      "Relief Pak Heat Pack Cover — Velour with Foam, Standard with Pocket — Standard hydrocollator pack cover with pocket.",
+    ],
+    highlights: [
+      "Relief Pak moist heat pack cover", "Velour exterior with foam insulation", "Standard size with pocket", "Insulates patient from hot pack", "Machine washable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1364.jpg", alt: "Relief Pak Heat Pack Cover — Velour with Foam, Standard with Pocket" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1364" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111364",
+    seo: {
+      title: "Relief Pak Heat Pack Cover — Velour with Foam, Standard with Pocket (FAB 11-1364) | GM Therapy",
+      description: "Standard hydrocollator pack cover with pocket",
+    },
+  },
+  "545": {
+    productId: "545",
+    slug: "fabstim-premium-gel-self-adhesive-electrode-3-round-40-bag",
+    tagline: "Premium 3\" round self-adhesive electrodes",
+    overview: [
+      "FabStim Premium Gel Self-Adhesive Electrode — 3\" Round, 40/bag — Premium 3\" round self-adhesive electrodes.",
+    ],
+    highlights: [
+      "FabStim Premium gel self-adhesive electrodes", "3\" round — white foam", "40 per bag (10 sheets of 4)", "High-quality conductive gel for TENS/EMS", "Long-lasting adhesive",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-1288-10.jpg", alt: "FabStim Premium Gel Self-Adhesive Electrode — 3\" Round, 40/bag" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 13-1288-10" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/131288-10",
+    seo: {
+      title: "FabStim Premium Gel Self-Adhesive Electrode — 3\" Round, 40/bag (FAB 13-1288-10) | GM Therapy",
+      description: "Premium 3\" round self-adhesive electrodes",
+    },
+  },
+  "546": {
+    productId: "546",
+    slug: "relief-pak-heat-pack-cover-all-velour-standard",
+    tagline: "Standard all-velour hydrocollator pack cover",
+    overview: [
+      "Relief Pak Heat Pack Cover — All Velour, Standard — Standard all-velour hydrocollator pack cover.",
+    ],
+    highlights: [
+      "Relief Pak moist heat pack cover", "All-velour construction", "Standard size", "Soft, comfortable contact surface", "Machine washable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1366.jpg", alt: "Relief Pak Heat Pack Cover — All Velour, Standard" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1366" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111366",
+    seo: {
+      title: "Relief Pak Heat Pack Cover — All Velour, Standard (FAB 11-1366) | GM Therapy",
+      description: "Standard all-velour hydrocollator pack cover",
+    },
+  },
+  "547": {
+    productId: "547",
+    slug: "relief-pak-heat-pack-cover-all-velour-neck",
+    tagline: "Neck-shape all-velour hydrocollator pack cover",
+    overview: [
+      "Relief Pak Heat Pack Cover — All Velour, Neck — Neck-shape all-velour hydrocollator pack cover.",
+    ],
+    highlights: [
+      "Relief Pak moist heat pack cover", "All-velour construction", "Neck (cervical) shape", "Soft, comfortable contact surface", "Machine washable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1367.jpg", alt: "Relief Pak Heat Pack Cover — All Velour, Neck" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1367" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111367",
+    seo: {
+      title: "Relief Pak Heat Pack Cover — All Velour, Neck (FAB 11-1367) | GM Therapy",
+      description: "Neck-shape all-velour hydrocollator pack cover",
+    },
+  },
+  "548": {
+    productId: "548",
+    slug: "relief-pak-heat-pack-cover-all-velour-oversize",
+    tagline: "Oversize all-velour hydrocollator pack cover",
+    overview: [
+      "Relief Pak Heat Pack Cover — All Velour, Oversize — Oversize all-velour hydrocollator pack cover.",
+    ],
+    highlights: [
+      "Relief Pak moist heat pack cover", "All-velour construction", "Oversize", "Soft, comfortable contact surface", "Machine washable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1368.jpg", alt: "Relief Pak Heat Pack Cover — All Velour, Oversize" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1368" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111368",
+    seo: {
+      title: "Relief Pak Heat Pack Cover — All Velour, Oversize (FAB 11-1368) | GM Therapy",
+      description: "Oversize all-velour hydrocollator pack cover",
+    },
+  },
+  "549": {
+    productId: "549",
+    slug: "relief-pak-heat-pack-cover-all-velour-halfsize",
+    tagline: "Halfsize all-velour hydrocollator pack cover",
+    overview: [
+      "Relief Pak Heat Pack Cover — All Velour, Halfsize — Halfsize all-velour hydrocollator pack cover.",
+    ],
+    highlights: [
+      "Relief Pak moist heat pack cover", "All-velour construction", "Halfsize", "Soft, comfortable contact surface", "Machine washable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1369.jpg", alt: "Relief Pak Heat Pack Cover — All Velour, Halfsize" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1369" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111369",
+    seo: {
+      title: "Relief Pak Heat Pack Cover — All Velour, Halfsize (FAB 11-1369) | GM Therapy",
+      description: "Halfsize all-velour hydrocollator pack cover",
+    },
+  },
+  "550": {
+    productId: "550",
+    slug: "relief-pak-black-urethane-reusable-cold-pack-circular-10-diameter",
+    tagline: "Heavy-duty 10\" circular urethane cold pack",
+    overview: [
+      "Relief Pak Black Urethane Reusable Cold Pack — Circular (10\" diameter) — Heavy-duty 10\" circular urethane cold pack.",
+    ],
+    highlights: [
+      "Heavy-duty reusable cold pack", "Black urethane construction — puncture resistant", "Circular — 10\" diameter", "Stays flexible when frozen", "Ideal for shoulders, hips, and large joints",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1257.jpg", alt: "Relief Pak Black Urethane Reusable Cold Pack — Circular (10\" diameter)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1257" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111257",
+    seo: {
+      title: "Relief Pak Black Urethane Reusable Cold Pack — Circular (10\" diameter) (FAB 11-1257) | GM Therapy",
+      description: "Heavy-duty 10\" circular urethane cold pack",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
