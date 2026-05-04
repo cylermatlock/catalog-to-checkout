@@ -11805,90 +11805,6 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Hand-therapy exercise putty \u2014 Green (Medium)",
     },
   },
-  "451": {
-    productId: "451",
-    slug: "disposable-baseline-tactile-monofilament-evaluator-5-07-10g-20-pack-leap",
-    tagline: "Disposable 5.07 (10g) tactile monofilament evaluator",
-    overview: [
-      "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20/Pack (LEAP) — Disposable 5.07 (10g) tactile monofilament evaluator. 20-pack — LEAP protocol.",
-    ],
-    highlights: [
-      "Disposable 5.07 (10g) tactile monofilament evaluator", "20-pack — LEAP protocol", "Single-patient use — prevents cross-contamination", "Standard for diabetic foot screening", "Detects loss of protective sensation",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/12-1670-20.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20/Pack (LEAP)" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Evaluation" },
-          { label: "SKU", value: "FAB 12-1670-20" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/121670-20",
-    seo: {
-      title: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20/Pack (LEAP) (FAB 12-1670-20) | GM Therapy",
-      description: "Disposable 5.07 (10g) tactile monofilament evaluator",
-    },
-  },
-  "452": {
-    productId: "452",
-    slug: "cando-7-day-pill-organizer",
-    tagline: "7-day pill organizer",
-    overview: [
-      "CanDo 7-Day Pill Organizer — 7-day pill organizer. Clear hinged lids — easy to see contents.",
-    ],
-    highlights: [
-      "7-day pill organizer", "Clear hinged lids — easy to see contents", "Helps patients manage daily medication regimens", "Compact, portable design", "Standard clinical ADL aid",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/85-0101.jpg", alt: "CanDo 7-Day Pill Organizer" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "ADL / Daily Living" },
-          { label: "SKU", value: "FAB 85-0101" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/850101",
-    seo: {
-      title: "CanDo 7-Day Pill Organizer (FAB 85-0101) | GM Therapy",
-      description: "7-day pill organizer",
-    },
-  },
-  "453": {
-    productId: "453",
-    slug: "disposable-baseline-tactile-monofilament-evaluator-5-07-10g-40-pack-ada",
-    tagline: "Disposable 5.07 (10g) tactile monofilament evaluator",
-    overview: [
-      "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 40/Pack (ADA) — Disposable 5.07 (10g) tactile monofilament evaluator. 40-pack — ADA protocol.",
-    ],
-    highlights: [
-      "Disposable 5.07 (10g) tactile monofilament evaluator", "40-pack — ADA protocol", "Single-patient use — prevents cross-contamination", "Standard for diabetic foot screening", "Detects loss of protective sensation",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/12-1671-40.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 40/Pack (ADA)" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Evaluation" },
-          { label: "SKU", value: "FAB 12-1671-40" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/121671-40",
-    seo: {
-      title: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 40/Pack (ADA) (FAB 12-1671-40) | GM Therapy",
-      description: "Disposable 5.07 (10g) tactile monofilament evaluator",
-    },
-  },
   "454": {
     productId: "454",
     slug: "cando-exercise-band-loop-red-light-10",
@@ -11915,62 +11831,6 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "CanDo Exercise Band Loop — Red (Light), 10\" (FAB 10-5252) | GM Therapy",
       description: "Pre-made latex exercise band loop",
-    },
-  },
-  "455": {
-    productId: "455",
-    slug: "cando-kegel-kit",
-    tagline: "Pelvic floor / Kegel exerciser kit",
-    overview: [
-      "CanDo Kegel Kit — Pelvic floor / Kegel exerciser kit. Progressive resistance for pelvic floor strengthening.",
-    ],
-    highlights: [
-      "Pelvic floor / Kegel exerciser kit", "Progressive resistance for pelvic floor strengthening", "Discreet, easy-to-use design", "Includes instructional materials", "Ideal for incontinence and post-partum rehab",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/13-4225.jpg", alt: "CanDo Kegel Kit" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Modalities" },
-          { label: "SKU", value: "FAB 13-4225" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/134225",
-    seo: {
-      title: "CanDo Kegel Kit (FAB 13-4225) | GM Therapy",
-      description: "Pelvic floor / Kegel exerciser kit",
-    },
-  },
-  "456": {
-    productId: "456",
-    slug: "disposable-baseline-tactile-monofilament-evaluator-w-sleeve-5-07-10g-leap",
-    tagline: "Disposable 5.07 (10g) tactile monofilament evaluator with sleeve",
-    overview: [
-      "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP — Disposable 5.07 (10g) tactile monofilament evaluator with sleeve. LEAP protocol.",
-    ],
-    highlights: [
-      "Disposable 5.07 (10g) tactile monofilament evaluator with sleeve", "LEAP protocol", "Single-patient use — prevents cross-contamination", "Standard for diabetic foot screening", "Detects loss of protective sensation",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/12-1670.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Evaluation" },
-          { label: "SKU", value: "FAB 12-1670" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/121670",
-    seo: {
-      title: "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP (FAB 12-1670) | GM Therapy",
-      description: "Disposable 5.07 (10g) tactile monofilament evaluator with sleeve",
     },
   },
   "457": {
@@ -12169,34 +12029,6 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Scented hand-therapy exercise putty",
     },
   },
-  "464": {
-    productId: "464",
-    slug: "cando-inflatable-sitting-wedge-child",
-    tagline: "Inflatable sitting wedge — child size",
-    overview: [
-      "CanDo Inflatable Sitting Wedge — Child — Inflatable sitting wedge — child size. Promotes active sitting and core engagement.",
-    ],
-    highlights: [
-      "Inflatable sitting wedge — child size", "Promotes active sitting and core engagement", "Adjustable inflation for variable instability", "Textured top surface for sensory input", "Ideal for classroom, therapy, and home use",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/30-1926.jpg", alt: "CanDo Inflatable Sitting Wedge — Child" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Balance" },
-          { label: "SKU", value: "FAB 30-1926" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/301926",
-    seo: {
-      title: "CanDo Inflatable Sitting Wedge — Child (FAB 30-1926) | GM Therapy",
-      description: "Inflatable sitting wedge — child size",
-    },
-  },
   "465": {
     productId: "465",
     slug: "theraputty-exercise-putty-yellow-x-soft-1-lb",
@@ -12253,34 +12085,6 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Adjustable cuff weight — 4 lb (Turquoise)",
     },
   },
-  "467": {
-    productId: "467",
-    slug: "cando-hand-therapy-blocks-assorted-x-soft-firm-12-pack",
-    tagline: "Hand therapy blocks — pack of 12",
-    overview: [
-      "CanDo Hand Therapy Blocks — Assorted (X-Soft–Firm), 12 Pack — Hand therapy blocks — pack of 12. Assorted resistances: Extra-Soft through Firm.",
-    ],
-    highlights: [
-      "Hand therapy blocks — pack of 12", "Assorted resistances: Extra-Soft through Firm", "Combines compressive and pinching exercises", "Color-coded progressive resistance", "Latex-free, washable", "Ideal for hand and finger rehabilitation",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/10-2468.jpg", alt: "CanDo Hand Therapy Blocks — Assorted (X-Soft–Firm), 12 Pack" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Hand Exercisers" },
-          { label: "SKU", value: "FAB 10-2468" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/102468",
-    seo: {
-      title: "CanDo Hand Therapy Blocks — Assorted (X-Soft–Firm), 12 Pack (FAB 10-2468) | GM Therapy",
-      description: "Hand therapy blocks — pack of 12",
-    },
-  },
   "468": {
     productId: "468",
     slug: "cando-high-density-black-foam-roller-6-x-36",
@@ -12335,34 +12139,6 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "Sup-R Band Latex-Free Exercise Band — Blue (Heavy), 50 yd Dispenser (FAB 10-6324) | GM Therapy",
       description: "Sup-R Band latex-free resistance band — Blue (Heavy)",
-    },
-  },
-  "470": {
-    productId: "470",
-    slug: "airex-fitline-180-mat-charcoal-23-x-72-x-0-4-with-eyelets",
-    tagline: "Airex Fitline 180 exercise mat — Charcoal",
-    overview: [
-      "Airex Fitline 180 Mat — Charcoal, 23\" x 72\" x 0.4\" with Eyelets — Airex Fitline 180 exercise mat — Charcoal. 23\" x 72\" x 0.4\" thick.",
-    ],
-    highlights: [
-      "Airex Fitline 180 exercise mat — Charcoal", "23\" x 72\" x 0.4\" thick", "Closed-cell foam construction", "Eyelets (grommets) for hanging storage", "Non-slip, washable surface", "Ideal for floor exercise, Pilates, and rehab",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/32-1247C-EYE.jpg", alt: "Airex Fitline 180 Mat — Charcoal, 23\" x 72\" x 0.4\" with Eyelets" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Mats" },
-          { label: "SKU", value: "FAB 32-1247C-EYE" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/321247C-EYE",
-    seo: {
-      title: "Airex Fitline 180 Mat — Charcoal, 23\" x 72\" x 0.4\" with Eyelets (FAB 32-1247C-EYE) | GM Therapy",
-      description: "Airex Fitline 180 exercise mat — Charcoal",
     },
   },
   "471": {
@@ -12475,34 +12251,6 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "CanDo Latex-Free Exercise Band — Black (X-Heavy), 50 yd Dispenser (FAB 10-5625) | GM Therapy",
       description: "Latex-free resistance band — Black (X-Heavy)",
-    },
-  },
-  "475": {
-    productId: "475",
-    slug: "hot-water-bottle-2-quart",
-    tagline: "Standard rubber hot water bottle",
-    overview: [
-      "Hot Water Bottle — 2 Quart — Standard rubber hot water bottle. 2 quart capacity.",
-    ],
-    highlights: [
-      "Standard rubber hot water bottle", "2 quart capacity", "Provides soothing heat therapy", "Durable, leak-resistant construction", "Ideal for muscle relaxation and pain relief",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/11-1140.jpg", alt: "Hot Water Bottle — 2 Quart" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Hot & Cold Therapy" },
-          { label: "SKU", value: "FAB 11-1140" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/111140",
-    seo: {
-      title: "Hot Water Bottle — 2 Quart (FAB 11-1140) | GM Therapy",
-      description: "Standard rubber hot water bottle",
     },
   },
 };
