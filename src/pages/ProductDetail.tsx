@@ -44,6 +44,9 @@ const ProductDetail = () => {
         <title>{detail.seo.title}</title>
         <meta name="description" content={detail.seo.description} />
         <link rel="canonical" href={canonical} />
+        {detail.gallery[0]?.src && (
+          <link rel="preload" as="image" href={detail.gallery[0].src} fetchpriority="high" />
+        )}
         <meta property="og:type" content="product" />
         <meta property="og:site_name" content="GM Therapy Solutions" />
         <meta property="og:title" content={detail.seo.title} />
