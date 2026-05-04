@@ -12751,6 +12751,706 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Sup-R Band latex-free resistance band — Black (X-Heavy)",
     },
   },
+  "501": {
+    productId: "501",
+    slug: "theraputty-exercise-putty-yellow-x-soft-5-lb",
+    tagline: "Bulk hand-therapy exercise putty — Yellow (X-Soft)",
+    overview: [
+      "TheraPutty Exercise Putty — Yellow (X-Soft), 5 lb — Bulk hand-therapy exercise putty — Yellow (X-Soft). 5 lb tub for clinic-wide use",
+    ],
+    highlights: [
+      "Bulk hand-therapy exercise putty — Yellow (X-Soft)", "5 lb tub for clinic-wide use", "Color-coded progressive resistance", "Non-toxic, non-staining, latex-free", "Ideal for early-stage hand rehab",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0923.jpg", alt: "TheraPutty Exercise Putty — Yellow (X-Soft), 5 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0923" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100923",
+    seo: {
+      title: "TheraPutty Exercise Putty — Yellow (X-Soft), 5 lb (FAB 10-0923) | GM Therapy",
+      description: "Bulk hand-therapy exercise putty — Yellow (X-Soft)",
+    },
+  },
+  "502": {
+    productId: "502",
+    slug: "theraputty-exercise-putty-red-soft-5-lb",
+    tagline: "Bulk hand-therapy exercise putty — Red (Soft)",
+    overview: [
+      "TheraPutty Exercise Putty — Red (Soft), 5 lb — Bulk hand-therapy exercise putty — Red (Soft). 5 lb tub for clinic-wide use",
+    ],
+    highlights: [
+      "Bulk hand-therapy exercise putty — Red (Soft)", "5 lb tub for clinic-wide use", "Color-coded progressive resistance", "Non-toxic, non-staining, latex-free", "Strengthens grip, fingers, and intrinsic hand muscles",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0924.jpg", alt: "TheraPutty Exercise Putty — Red (Soft), 5 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0924" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100924",
+    seo: {
+      title: "TheraPutty Exercise Putty — Red (Soft), 5 lb (FAB 10-0924) | GM Therapy",
+      description: "Bulk hand-therapy exercise putty — Red (Soft)",
+    },
+  },
+  "503": {
+    productId: "503",
+    slug: "rep-latex-free-exercise-band-lime-x-heavy-50-yd",
+    tagline: "REP latex-free resistance band — Lime (X-Heavy)",
+    overview: [
+      "REP Latex-Free Exercise Band — Lime (X-Heavy), 50 yd — REP latex-free resistance band — Lime (X-Heavy). 50 yard dispenser roll",
+    ],
+    highlights: [
+      "REP latex-free resistance band — Lime (X-Heavy)", "50 yard dispenser roll", "Cuts to any length for clinical or home use", "Color-coded progressive resistance", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1091.jpg", alt: "REP Latex-Free Exercise Band — Lime (X-Heavy), 50 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-1091" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/101091",
+    seo: {
+      title: "REP Latex-Free Exercise Band — Lime (X-Heavy), 50 yd (FAB 10-1091) | GM Therapy",
+      description: "REP latex-free resistance band — Lime (X-Heavy)",
+    },
+  },
+  "504": {
+    productId: "504",
+    slug: "rep-latex-free-exercise-band-5-piece-50-yd-set-peach-plum",
+    tagline: "Complete REP band set — five 50-yard rolls",
+    overview: [
+      "REP Latex-Free Exercise Band — 5-Piece 50 yd Set (Peach–Plum) — Complete REP band set — five 50-yard rolls. Color progression: Peach, Orange, Lime, Blueberry, Plum",
+    ],
+    highlights: [
+      "Complete REP band set — five 50-yard rolls", "Color progression: Peach, Orange, Lime, Blueberry, Plum", "Cuts to any length for clinical use", "Color-coded progressive resistance", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1095.jpg", alt: "REP Latex-Free Exercise Band — 5-Piece 50 yd Set (Peach–Plum)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-1095" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/101095",
+    seo: {
+      title: "REP Latex-Free Exercise Band — 5-Piece 50 yd Set (Peach–Plum) (FAB 10-1095) | GM Therapy",
+      description: "Complete REP band set — five 50-yard rolls",
+    },
+  },
+  "505": {
+    productId: "505",
+    slug: "cando-latex-free-5-foot-singles-green-medium-30-dispenser",
+    tagline: "Pre-cut 5-foot resistance band singles — Green (Medium)",
+    overview: [
+      "CanDo Latex-Free 5-Foot Singles — Green (Medium), 30/Dispenser — Pre-cut 5-foot resistance band singles — Green (Medium). 30-piece dispenser",
+    ],
+    highlights: [
+      "Pre-cut 5-foot resistance band singles — Green (Medium)", "30-piece dispenser", "Latex-free for sensitive patients", "Color-coded progressive resistance", "Convenient ready-to-use clinical format",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5743.jpg", alt: "CanDo Latex-Free 5-Foot Singles — Green (Medium), 30/Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5743" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105743",
+    seo: {
+      title: "CanDo Latex-Free 5-Foot Singles — Green (Medium), 30/Dispenser (FAB 10-5743) | GM Therapy",
+      description: "Pre-cut 5-foot resistance band singles — Green (Medium)",
+    },
+  },
+  "506": {
+    productId: "506",
+    slug: "magneciser-arm-leg-pedal-exerciser",
+    tagline: "Compact pedal exerciser for arms or legs",
+    overview: [
+      "Magneciser Arm/Leg Pedal Exerciser — Compact pedal exerciser for arms or legs. Magnetic resistance — smooth and quiet",
+    ],
+    highlights: [
+      "Compact pedal exerciser for arms or legs", "Magnetic resistance — smooth and quiet", "Adjustable tension knob", "Lightweight, portable design", "Ideal for low-impact rehab and circulation",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/01-8030.jpg", alt: "Magneciser Arm/Leg Pedal Exerciser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Exercise" },
+          { label: "SKU", value: "FAB 01-8030" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/018030",
+    seo: {
+      title: "Magneciser Arm/Leg Pedal Exerciser (FAB 01-8030) | GM Therapy",
+      description: "Compact pedal exerciser for arms or legs",
+    },
+  },
+  "507": {
+    productId: "507",
+    slug: "soothing-touch-basics-massage-cream-unscented-1-gallon",
+    tagline: "Professional massage cream — unscented",
+    overview: [
+      "Soothing Touch Basics Massage Cream — Unscented, 1 Gallon — Professional massage cream — unscented. 1 gallon size for clinical use",
+    ],
+    highlights: [
+      "Professional massage cream — unscented", "1 gallon size for clinical use", "Smooth, non-greasy formula", "Excellent glide and absorption", "Ideal for deep-tissue and Swedish massage",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-3224.jpg", alt: "Soothing Touch Basics Massage Cream — Unscented, 1 Gallon" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Massage Supplies" },
+          { label: "SKU", value: "FAB 13-3224" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/133224",
+    seo: {
+      title: "Soothing Touch Basics Massage Cream — Unscented, 1 Gallon (FAB 13-3224) | GM Therapy",
+      description: "Professional massage cream — unscented",
+    },
+  },
+  "508": {
+    productId: "508",
+    slug: "soothing-touch-fragrance-free-lite-oil-1-gallon",
+    tagline: "Lightweight massage oil — fragrance free",
+    overview: [
+      "Soothing Touch Fragrance-Free Lite Oil — 1 Gallon — Lightweight massage oil — fragrance free. 1 gallon size for clinical use",
+    ],
+    highlights: [
+      "Lightweight massage oil — fragrance free", "1 gallon size for clinical use", "Smooth glide for extended sessions", "Non-staining, easily absorbed", "Ideal for sensitive-skin clients",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-3225.jpg", alt: "Soothing Touch Fragrance-Free Lite Oil — 1 Gallon" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Massage Supplies" },
+          { label: "SKU", value: "FAB 13-3225" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/133225",
+    seo: {
+      title: "Soothing Touch Fragrance-Free Lite Oil — 1 Gallon (FAB 13-3225) | GM Therapy",
+      description: "Lightweight massage oil — fragrance free",
+    },
+  },
+  "509": {
+    productId: "509",
+    slug: "relief-pak-12-pack-mobile-heating-unit-110v",
+    tagline: "Mobile hydrocollator heating unit",
+    overview: [
+      "Relief Pak 12-Pack Mobile Heating Unit — 110V — Mobile hydrocollator heating unit. Holds 12 moist heat packs",
+    ],
+    highlights: [
+      "Mobile hydrocollator heating unit", "Holds 12 moist heat packs", "Includes (3) standard, (3) neck, (3) oversize packs", "110V operation", "Locking casters for clinical mobility", "Stainless-steel construction",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1965-2.jpg", alt: "Relief Pak 12-Pack Mobile Heating Unit — 110V" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1965-2" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111965-2",
+    seo: {
+      title: "Relief Pak 12-Pack Mobile Heating Unit — 110V (FAB 11-1965-2) | GM Therapy",
+      description: "Mobile hydrocollator heating unit",
+    },
+  },
+  "510": {
+    productId: "510",
+    slug: "neckpro-ii-cervical-traction-system",
+    tagline: "Over-door cervical traction device",
+    overview: [
+      "NeckPro II Cervical Traction System — Over-door cervical traction device. Adjustable traction force for home or clinical use",
+    ],
+    highlights: [
+      "Over-door cervical traction device", "Adjustable traction force for home or clinical use", "Compact, easy-to-set-up design", "Provides gentle decompression for the cervical spine", "Helps relieve neck pain and stiffness",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/00-4395.jpg", alt: "NeckPro II Cervical Traction System" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 00-4395" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/004395",
+    seo: {
+      title: "NeckPro II Cervical Traction System (FAB 00-4395) | GM Therapy",
+      description: "Over-door cervical traction device",
+    },
+  },
+  "511": {
+    productId: "511",
+    slug: "baseline-lite-hydraulic-pinch-gauge-50-lb",
+    tagline: "Baseline LITE hydraulic pinch gauge",
+    overview: [
+      "Baseline LITE Hydraulic Pinch Gauge — 50 lb — Baseline LITE hydraulic pinch gauge. 50 lb capacity",
+    ],
+    highlights: [
+      "Baseline LITE hydraulic pinch gauge", "50 lb capacity", "Measures tip, key, and palmar pinch", "Easy-to-read analog dial", "Lightweight clinical evaluation tool", "Includes carrying case",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-0226.jpg", alt: "Baseline LITE Hydraulic Pinch Gauge — 50 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-0226" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/120226",
+    seo: {
+      title: "Baseline LITE Hydraulic Pinch Gauge — 50 lb (FAB 12-0226) | GM Therapy",
+      description: "Baseline LITE hydraulic pinch gauge",
+    },
+  },
+  "512": {
+    productId: "512",
+    slug: "baseline-electronic-smedley-hand-dynamometer-adult-200-lb-90-kg",
+    tagline: "Electronic Smedley-style hand dynamometer",
+    overview: [
+      "Baseline Electronic Smedley Hand Dynamometer — Adult, 200 lb / 90 kg — Electronic Smedley-style hand dynamometer. Capacity: 200 lb / 90 kg",
+    ],
+    highlights: [
+      "Electronic Smedley-style hand dynamometer", "Capacity: 200 lb / 90 kg", "Digital LCD display", "Adult adjustable handle", "Reliable grip-strength evaluation", "Compact and portable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-0286.jpg", alt: "Baseline Electronic Smedley Hand Dynamometer — Adult, 200 lb / 90 kg" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-0286" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/120286",
+    seo: {
+      title: "Baseline Electronic Smedley Hand Dynamometer — Adult, 200 lb / 90 kg (FAB 12-0286) | GM Therapy",
+      description: "Electronic Smedley-style hand dynamometer",
+    },
+  },
+  "513": {
+    productId: "513",
+    slug: "relief-pak-moist-heat-pack-halfsize",
+    tagline: "Moist heat therapy pack — halfsize",
+    overview: [
+      "Relief Pak Moist Heat Pack — Halfsize — Moist heat therapy pack — halfsize. Hydrocollator-style — retains heat 30+ minutes",
+    ],
+    highlights: [
+      "Moist heat therapy pack — halfsize", "Hydrocollator-style — retains heat 30+ minutes", "Filled with hydrophilic silicate beads", "Smaller size ideal for joints and extremities", "Provides deep, soothing moist heat",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1313.jpg", alt: "Relief Pak Moist Heat Pack — Halfsize" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1313" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111313",
+    seo: {
+      title: "Relief Pak Moist Heat Pack — Halfsize (FAB 11-1313) | GM Therapy",
+      description: "Moist heat therapy pack — halfsize",
+    },
+  },
+  "514": {
+    productId: "514",
+    slug: "relief-pak-velour-cover-w-foam-standard",
+    tagline: "Velour-with-foam cover for moist heat packs",
+    overview: [
+      "Relief Pak Velour Cover w/ Foam — Standard — Velour-with-foam cover for moist heat packs. Standard size",
+    ],
+    highlights: [
+      "Velour-with-foam cover for moist heat packs", "Standard size", "Soft velour exterior with foam insulation", "Protects skin and extends pack heat retention", "Machine-washable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1360.jpg", alt: "Relief Pak Velour Cover w/ Foam — Standard" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1360" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111360",
+    seo: {
+      title: "Relief Pak Velour Cover w/ Foam — Standard (FAB 11-1360) | GM Therapy",
+      description: "Velour-with-foam cover for moist heat packs",
+    },
+  },
+  "515": {
+    productId: "515",
+    slug: "relief-pak-velour-cover-w-foam-neck",
+    tagline: "Velour-with-foam cover for moist heat packs",
+    overview: [
+      "Relief Pak Velour Cover w/ Foam — Neck — Velour-with-foam cover for moist heat packs. Neck contour size",
+    ],
+    highlights: [
+      "Velour-with-foam cover for moist heat packs", "Neck contour size", "Soft velour exterior with foam insulation", "Protects skin and extends pack heat retention", "Machine-washable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1361.jpg", alt: "Relief Pak Velour Cover w/ Foam — Neck" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1361" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111361",
+    seo: {
+      title: "Relief Pak Velour Cover w/ Foam — Neck (FAB 11-1361) | GM Therapy",
+      description: "Velour-with-foam cover for moist heat packs",
+    },
+  },
+  "516": {
+    productId: "516",
+    slug: "relief-pak-velour-cover-w-foam-oversize",
+    tagline: "Velour-with-foam cover for moist heat packs",
+    overview: [
+      "Relief Pak Velour Cover w/ Foam — Oversize — Velour-with-foam cover for moist heat packs. Oversize for back, hips, or shoulders",
+    ],
+    highlights: [
+      "Velour-with-foam cover for moist heat packs", "Oversize for back, hips, or shoulders", "Soft velour exterior with foam insulation", "Protects skin and extends pack heat retention", "Machine-washable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1362.jpg", alt: "Relief Pak Velour Cover w/ Foam — Oversize" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1362" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111362",
+    seo: {
+      title: "Relief Pak Velour Cover w/ Foam — Oversize (FAB 11-1362) | GM Therapy",
+      description: "Velour-with-foam cover for moist heat packs",
+    },
+  },
+  "517": {
+    productId: "517",
+    slug: "fabstim-iontophoresis-kit-6-patch-vial-80-ma-min",
+    tagline: "FabStim iontophoresis treatment kit",
+    overview: [
+      "FabStim Iontophoresis Kit — 6 Patch/Vial, 80 mA-min — FabStim iontophoresis treatment kit. 6 patches and 6 vials per kit",
+    ],
+    highlights: [
+      "FabStim iontophoresis treatment kit", "6 patches and 6 vials per kit", "80 mA-min dosage", "Self-contained for in-clinic use", "Helps deliver medication through the skin", "Compatible with standard iontophoresis controllers",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-5270.jpg", alt: "FabStim Iontophoresis Kit — 6 Patch/Vial, 80 mA-min" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 13-5270" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/135270",
+    seo: {
+      title: "FabStim Iontophoresis Kit — 6 Patch/Vial, 80 mA-min (FAB 13-5270) | GM Therapy",
+      description: "FabStim iontophoresis treatment kit",
+    },
+  },
+  "518": {
+    productId: "518",
+    slug: "relief-pak-black-urethane-reusable-cold-pack-standard-11-x-14",
+    tagline: "Heavy-duty reusable cold pack",
+    overview: [
+      "Relief Pak Black Urethane Reusable Cold Pack — Standard (11 x 14\") — Heavy-duty reusable cold pack. Black urethane construction — puncture resistant",
+    ],
+    highlights: [
+      "Heavy-duty reusable cold pack", "Black urethane construction — puncture resistant", "Standard size: 11\" x 14\"", "Stays flexible when frozen", "Conforms to body contours", "Ideal for clinical cryotherapy",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1250.jpg", alt: "Relief Pak Black Urethane Reusable Cold Pack — Standard (11 x 14\")" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1250" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111250",
+    seo: {
+      title: "Relief Pak Black Urethane Reusable Cold Pack — Standard (11 x 14\") (FAB 11-1250) | GM Therapy",
+      description: "Heavy-duty reusable cold pack",
+    },
+  },
+  "519": {
+    productId: "519",
+    slug: "relief-pak-black-urethane-reusable-cold-pack-neck-6-x-23",
+    tagline: "Heavy-duty reusable cold pack",
+    overview: [
+      "Relief Pak Black Urethane Reusable Cold Pack — Neck (6 x 23\") — Heavy-duty reusable cold pack. Black urethane construction — puncture resistant",
+    ],
+    highlights: [
+      "Heavy-duty reusable cold pack", "Black urethane construction — puncture resistant", "Neck contour size: 6\" x 23\"", "Stays flexible when frozen", "Wraps around the cervical spine", "Ideal for clinical cryotherapy",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1251.jpg", alt: "Relief Pak Black Urethane Reusable Cold Pack — Neck (6 x 23\")" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1251" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111251",
+    seo: {
+      title: "Relief Pak Black Urethane Reusable Cold Pack — Neck (6 x 23\") (FAB 11-1251) | GM Therapy",
+      description: "Heavy-duty reusable cold pack",
+    },
+  },
+  "520": {
+    productId: "520",
+    slug: "relief-pak-black-urethane-reusable-cold-pack-oversize-11-x-21",
+    tagline: "Heavy-duty reusable cold pack",
+    overview: [
+      "Relief Pak Black Urethane Reusable Cold Pack — Oversize (11 x 21\") — Heavy-duty reusable cold pack. Black urethane construction — puncture resistant",
+    ],
+    highlights: [
+      "Heavy-duty reusable cold pack", "Black urethane construction — puncture resistant", "Oversize: 11\" x 21\"", "Stays flexible when frozen", "Large coverage for back, hips, or thighs", "Ideal for clinical cryotherapy",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1252.jpg", alt: "Relief Pak Black Urethane Reusable Cold Pack — Oversize (11 x 21\")" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1252" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111252",
+    seo: {
+      title: "Relief Pak Black Urethane Reusable Cold Pack — Oversize (11 x 21\") (FAB 11-1252) | GM Therapy",
+      description: "Heavy-duty reusable cold pack",
+    },
+  },
+  "521": {
+    productId: "521",
+    slug: "relief-pak-black-urethane-reusable-cold-pack-halfsize-7-x-11",
+    tagline: "Heavy-duty reusable cold pack",
+    overview: [
+      "Relief Pak Black Urethane Reusable Cold Pack — Halfsize (7 x 11\") — Heavy-duty reusable cold pack. Black urethane construction — puncture resistant",
+    ],
+    highlights: [
+      "Heavy-duty reusable cold pack", "Black urethane construction — puncture resistant", "Halfsize: 7\" x 11\"", "Stays flexible when frozen", "Ideal for joints and small areas", "Clinical cryotherapy use",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1253.jpg", alt: "Relief Pak Black Urethane Reusable Cold Pack — Halfsize (7 x 11\")" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1253" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111253",
+    seo: {
+      title: "Relief Pak Black Urethane Reusable Cold Pack — Halfsize (7 x 11\") (FAB 11-1253) | GM Therapy",
+      description: "Heavy-duty reusable cold pack",
+    },
+  },
+  "522": {
+    productId: "522",
+    slug: "sup-r-band-latex-free-tan-xx-light-50-yd",
+    tagline: "Sup-R Band latex-free resistance band — Tan (XX-Light)",
+    overview: [
+      "Sup-R Band Latex-Free — Tan (XX-Light), 50 yd — Sup-R Band latex-free resistance band — Tan (XX-Light). 50 yard roll",
+    ],
+    highlights: [
+      "Sup-R Band latex-free resistance band — Tan (XX-Light)", "50 yard roll", "Highest tear and snap resistance in its class", "Color-coded progressive resistance", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6320.jpg", alt: "Sup-R Band Latex-Free — Tan (XX-Light), 50 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-6320" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106320",
+    seo: {
+      title: "Sup-R Band Latex-Free — Tan (XX-Light), 50 yd (FAB 10-6320) | GM Therapy",
+      description: "Sup-R Band latex-free resistance band — Tan (XX-Light)",
+    },
+  },
+  "523": {
+    productId: "523",
+    slug: "sup-r-band-latex-free-yellow-x-light-50-yd",
+    tagline: "Sup-R Band latex-free resistance band — Yellow (X-Light)",
+    overview: [
+      "Sup-R Band Latex-Free — Yellow (X-Light), 50 yd — Sup-R Band latex-free resistance band — Yellow (X-Light). 50 yard roll",
+    ],
+    highlights: [
+      "Sup-R Band latex-free resistance band — Yellow (X-Light)", "50 yard roll", "Highest tear and snap resistance in its class", "Color-coded progressive resistance", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6321.jpg", alt: "Sup-R Band Latex-Free — Yellow (X-Light), 50 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-6321" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106321",
+    seo: {
+      title: "Sup-R Band Latex-Free — Yellow (X-Light), 50 yd (FAB 10-6321) | GM Therapy",
+      description: "Sup-R Band latex-free resistance band — Yellow (X-Light)",
+    },
+  },
+  "524": {
+    productId: "524",
+    slug: "sup-r-band-latex-free-silver-xx-heavy-50-yd",
+    tagline: "Sup-R Band latex-free resistance band — Silver (XX-Heavy)",
+    overview: [
+      "Sup-R Band Latex-Free — Silver (XX-Heavy), 50 yd — Sup-R Band latex-free resistance band — Silver (XX-Heavy). 50 yard roll",
+    ],
+    highlights: [
+      "Sup-R Band latex-free resistance band — Silver (XX-Heavy)", "50 yard roll", "Highest tear and snap resistance in its class", "Color-coded progressive resistance", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6326.jpg", alt: "Sup-R Band Latex-Free — Silver (XX-Heavy), 50 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-6326" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106326",
+    seo: {
+      title: "Sup-R Band Latex-Free — Silver (XX-Heavy), 50 yd (FAB 10-6326) | GM Therapy",
+      description: "Sup-R Band latex-free resistance band — Silver (XX-Heavy)",
+    },
+  },
+  "525": {
+    productId: "525",
+    slug: "sup-r-band-latex-free-gold-xxx-heavy-50-yd",
+    tagline: "Sup-R Band latex-free resistance band — Gold (XXX-Heavy)",
+    overview: [
+      "Sup-R Band Latex-Free — Gold (XXX-Heavy), 50 yd — Sup-R Band latex-free resistance band — Gold (XXX-Heavy). 50 yard roll",
+    ],
+    highlights: [
+      "Sup-R Band latex-free resistance band — Gold (XXX-Heavy)", "50 yard roll", "Highest tear and snap resistance in its class", "Color-coded progressive resistance", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6327.jpg", alt: "Sup-R Band Latex-Free — Gold (XXX-Heavy), 50 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-6327" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106327",
+    seo: {
+      title: "Sup-R Band Latex-Free — Gold (XXX-Heavy), 50 yd (FAB 10-6327) | GM Therapy",
+      description: "Sup-R Band latex-free resistance band — Gold (XXX-Heavy)",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
