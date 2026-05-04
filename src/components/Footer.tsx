@@ -47,7 +47,7 @@ const Footer = () => (
           <h4 className="font-semibold mb-3">Quick Links</h4>
           <div className="space-y-2 text-sm opacity-80">
             <a href="https://gmtherapytx.com" className="block hover:text-primary">← Main Site</a>
-            <a href="https://gmtherapytx.com/services" className="block hover:text-primary">Services</a>
+            <a href="https://gmtherapytx.com/services/" className="block hover:text-primary">Services</a>
             <a href="https://gmtherapytx.com/about-us/" className="block hover:text-primary">About Us</a>
             <a href="https://gmtherapytx.com/contact-us/" className="block hover:text-primary">Contact</a>
             <a href="https://gmtherapytx.com/past-projects/" className="block hover:text-primary">Past Projects</a>
