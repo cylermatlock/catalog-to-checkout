@@ -123,13 +123,13 @@ def compose(prod: dict, img_rel_path: str) -> Image.Image:
     rx = panel_w + 50
     rw = W - rx - 50
 
-    # Logo top-right (right-aligned)
+    # Logo top
     try:
         logo = Image.open(LOGO).convert("RGBA")
-        lh = 56
+        lh = 110
         lw = int(logo.width * (lh / logo.height))
         logo_r = logo.resize((lw, lh), Image.LANCZOS)
-        canvas.paste(logo_r, (rx, 50), logo_r)
+        canvas.paste(logo_r, (rx, 40), logo_r)
     except Exception:
         pass
 
