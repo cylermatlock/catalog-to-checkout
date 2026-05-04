@@ -13955,6 +13955,258 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Heavy-duty 10\" circular urethane cold pack",
     },
   },
+  "551": {
+    productId: "551",
+    slug: "relief-pak-heat-pack-cover-terry-with-foam-halfsize",
+    tagline: "Halfsize hydrocollator pack cover with foam",
+    overview: [
+      "Relief Pak Heat Pack Cover — Terry with Foam, Halfsize — Halfsize hydrocollator pack cover with foam.",
+    ],
+    highlights: [
+      "Relief Pak moist heat pack cover", "Terry exterior with foam insulation", "Halfsize", "Insulates patient from hot pack", "Machine washable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1363.jpg", alt: "Relief Pak Heat Pack Cover — Terry with Foam, Halfsize" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1363" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111363",
+    seo: {
+      title: "Relief Pak Heat Pack Cover — Terry with Foam, Halfsize (FAB 11-1363) | GM Therapy",
+      description: "Halfsize hydrocollator pack cover with foam",
+    },
+  },
+  "552": {
+    productId: "552",
+    slug: "fabstim-premium-gel-self-adhesive-electrode-2-square-40-bag",
+    tagline: "Premium 2\" square self-adhesive electrodes",
+    overview: [
+      "FabStim Premium Gel Self-Adhesive Electrode — 2\" Square, 40/bag — Premium 2\" square self-adhesive electrodes.",
+    ],
+    highlights: [
+      "FabStim Premium gel self-adhesive electrodes", "2\" square — white foam", "40 per bag (10 sheets of 4)", "High-quality conductive gel for TENS/EMS", "Long-lasting adhesive",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-1291-10.jpg", alt: "FabStim Premium Gel Self-Adhesive Electrode — 2\" Square, 40/bag" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 13-1291-10" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/131291-10",
+    seo: {
+      title: "FabStim Premium Gel Self-Adhesive Electrode — 2\" Square, 40/bag (FAB 13-1291-10) | GM Therapy",
+      description: "Premium 2\" square self-adhesive electrodes",
+    },
+  },
+  "553": {
+    productId: "553",
+    slug: "fabstim-premium-gel-electrode-2-x-3-5-rectangle-40-bag",
+    tagline: "Premium 2 x 3.5\" rectangle self-adhesive electrodes",
+    overview: [
+      "FabStim Premium Gel Electrode — 2 x 3.5\" Rectangle, 40/bag — Premium 2 x 3.5\" rectangle self-adhesive electrodes.",
+    ],
+    highlights: [
+      "FabStim Premium gel self-adhesive electrodes", "2\" x 3.5\" rectangle — white foam", "40 per bag (10 sheets of 4)", "High-quality conductive gel for TENS/EMS", "Long-lasting adhesive",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-1293-10.jpg", alt: "FabStim Premium Gel Electrode — 2 x 3.5\" Rectangle, 40/bag" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 13-1293-10" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/131293-10",
+    seo: {
+      title: "FabStim Premium Gel Electrode — 2 x 3.5\" Rectangle, 40/bag (FAB 13-1293-10) | GM Therapy",
+      description: "Premium 2 x 3.5\" rectangle self-adhesive electrodes",
+    },
+  },
+  "554": {
+    productId: "554",
+    slug: "point-relief-coldspot-gel-pump-16-oz",
+    tagline: "Cooling analgesic gel pump, 16 ounce",
+    overview: [
+      "Point Relief ColdSpot Gel Pump — 16 oz — Cooling analgesic gel pump, 16 ounce.",
+    ],
+    highlights: [
+      "Point Relief ColdSpot topical analgesic", "Cooling menthol formula", "16 oz pump bottle", "Fast-absorbing — non-greasy", "Provides temporary relief from minor aches and pains",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-0710-1.jpg", alt: "Point Relief ColdSpot Gel Pump — 16 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 11-0710-1" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/110710-1",
+    seo: {
+      title: "Point Relief ColdSpot Gel Pump — 16 oz (FAB 11-0710-1) | GM Therapy",
+      description: "Cooling analgesic gel pump, 16 ounce",
+    },
+  },
+  "555": {
+    productId: "555",
+    slug: "point-relief-coldspot-gel-pump-32-oz",
+    tagline: "Cooling analgesic gel pump, 32 ounce",
+    overview: [
+      "Point Relief ColdSpot Gel Pump — 32 oz — Cooling analgesic gel pump, 32 ounce.",
+    ],
+    highlights: [
+      "Point Relief ColdSpot topical analgesic", "Cooling menthol formula", "32 oz pump bottle", "Fast-absorbing — non-greasy", "Clinical-size pump for high-volume use",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-0711-1.jpg", alt: "Point Relief ColdSpot Gel Pump — 32 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 11-0711-1" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/110711-1",
+    seo: {
+      title: "Point Relief ColdSpot Gel Pump — 32 oz (FAB 11-0711-1) | GM Therapy",
+      description: "Cooling analgesic gel pump, 32 ounce",
+    },
+  },
+  "556": {
+    productId: "556",
+    slug: "point-relief-coldspot-gel-pump-128-oz-1-gallon",
+    tagline: "Cooling analgesic gel pump, 1 gallon",
+    overview: [
+      "Point Relief ColdSpot Gel Pump — 128 oz (1 gallon) — Cooling analgesic gel pump, 1 gallon.",
+    ],
+    highlights: [
+      "Point Relief ColdSpot topical analgesic", "Cooling menthol formula", "128 oz (1 gallon) pump", "Fast-absorbing — non-greasy", "Bulk size for clinics and refill use",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-0712-1.jpg", alt: "Point Relief ColdSpot Gel Pump — 128 oz (1 gallon)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 11-0712-1" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/110712-1",
+    seo: {
+      title: "Point Relief ColdSpot Gel Pump — 128 oz (1 gallon) (FAB 11-0712-1) | GM Therapy",
+      description: "Cooling analgesic gel pump, 1 gallon",
+    },
+  },
+  "557": {
+    productId: "557",
+    slug: "point-relief-coldspot-roll-on-3-oz",
+    tagline: "Cooling analgesic roll-on, 3 ounce",
+    overview: [
+      "Point Relief ColdSpot Roll-On — 3 oz — Cooling analgesic roll-on, 3 ounce.",
+    ],
+    highlights: [
+      "Point Relief ColdSpot topical analgesic", "Cooling menthol formula", "3 oz roll-on applicator", "Mess-free targeted application", "Travel-friendly size",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-0720-1.jpg", alt: "Point Relief ColdSpot Roll-On — 3 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 11-0720-1" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/110720-1",
+    seo: {
+      title: "Point Relief ColdSpot Roll-On — 3 oz (FAB 11-0720-1) | GM Therapy",
+      description: "Cooling analgesic roll-on, 3 ounce",
+    },
+  },
+  "558": {
+    productId: "558",
+    slug: "point-relief-coldspot-gel-tube-4-oz",
+    tagline: "Cooling analgesic gel tube, 4 ounce",
+    overview: [
+      "Point Relief ColdSpot Gel Tube — 4 oz — Cooling analgesic gel tube, 4 ounce.",
+    ],
+    highlights: [
+      "Point Relief ColdSpot topical analgesic", "Cooling menthol formula", "4 oz tube", "Fast-absorbing — non-greasy", "Convenient personal-size tube",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-0730-1.jpg", alt: "Point Relief ColdSpot Gel Tube — 4 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 11-0730-1" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/110730-1",
+    seo: {
+      title: "Point Relief ColdSpot Gel Tube — 4 oz (FAB 11-0730-1) | GM Therapy",
+      description: "Cooling analgesic gel tube, 4 ounce",
+    },
+  },
+  "559": {
+    productId: "559",
+    slug: "point-relief-coldspot-gel-pack-5g-dispenser-of-100",
+    tagline: "5g single-use gel packs, 100 per dispenser",
+    overview: [
+      "Point Relief ColdSpot Gel Pack — 5g, Dispenser of 100 — 5g single-use gel packs, 100 per dispenser.",
+    ],
+    highlights: [
+      "Point Relief ColdSpot single-use gel packets", "5 gram each", "100 packets per dispenser", "Hygienic single-application servings", "Ideal for trial use and clinical handouts",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-0740-100.jpg", alt: "Point Relief ColdSpot Gel Pack — 5g, Dispenser of 100" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 11-0740-100" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/110740-100",
+    seo: {
+      title: "Point Relief ColdSpot Gel Pack — 5g, Dispenser of 100 (FAB 11-0740-100) | GM Therapy",
+      description: "5g single-use gel packs, 100 per dispenser",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
