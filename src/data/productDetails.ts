@@ -9637,6 +9637,1678 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "9\" stand-up agility cones for gait training, agility drills, and obstacle courses.",
     },
   },
+  "377": {
+    productId: "377",
+    slug: "soothing-touch-basics-lotion-unscented-1-gallon",
+    tagline: "Professional massage lotion — unscented",
+    overview: [
+      "Soothing Touch Basics Lotion — Unscented, 1 Gallon — Professional massage lotion — unscented.",
+      "1 gallon size for clinical use Light, non-greasy formula.",
+    ],
+    highlights: [
+      "Professional massage lotion — unscented",
+      "1 gallon size for clinical use",
+      "Light, non-greasy formula",
+      "Absorbs smoothly without staining linens",
+      "Ideal for massage therapy and bodywork",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-3231.jpg", alt: "Soothing Touch Basics Lotion — Unscented, 1 Gallon" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Massage Supplies" },
+          { label: "SKU", value: "FAB 13-3231" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/133231",
+    seo: {
+      title: "Soothing Touch Basics Lotion — Unscented, 1 Gallon (FAB 13-3231) | GM Therapy",
+      description: "Professional massage lotion — unscented",
+    },
+  },
+
+  "378": {
+    productId: "378",
+    slug: "fablife-reaching-aid-pistol-grip-open-jaw-26",
+    tagline: "26\\\" reaching aid with pistol grip handle",
+    overview: [
+      "FabLife Reaching Aid — Pistol Grip, Open Jaw, 26\\\" — 26\\\" reaching aid with pistol grip handle.",
+      "Open-jaw design for grasping a variety of items Lightweight aluminum shaft.",
+    ],
+    highlights: [
+      "26\\\" reaching aid with pistol grip handle",
+      "Open-jaw design for grasping a variety of items",
+      "Lightweight aluminum shaft",
+      "Magnetic tip for picking up small metal objects",
+      "Ideal for ADL training and post-surgical recovery",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/50-1100.jpg", alt: "FabLife Reaching Aid — Pistol Grip, Open Jaw, 26\\\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 50-1100" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/501100",
+    seo: {
+      title: "FabLife Reaching Aid — Pistol Grip, Open Jaw, 26\\\" (FAB 50-1100) | GM Therapy",
+      description: "26\\\" reaching aid with pistol grip handle",
+    },
+  },
+
+  "379": {
+    productId: "379",
+    slug: "cando-latex-free-exercise-band-red-light-50-yd-dispenser",
+    tagline: "Latex-free resistance band — Red (Light)",
+    overview: [
+      "CanDo Latex-Free Exercise Band — Red (Light), 50 yd Dispenser — Latex-free resistance band — Red (Light).",
+      "50 yard dispenser roll Cuts to any length for clinical or home use.",
+    ],
+    highlights: [
+      "Latex-free resistance band — Red (Light)",
+      "50 yard dispenser roll",
+      "Cuts to any length for clinical or home use",
+      "Color-coded progressive resistance",
+      "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5622.jpg", alt: "CanDo Latex-Free Exercise Band — Red (Light), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5622" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105622",
+    seo: {
+      title: "CanDo Latex-Free Exercise Band — Red (Light), 50 yd Dispenser (FAB 10-5622) | GM Therapy",
+      description: "Latex-free resistance band — Red (Light)",
+    },
+  },
+
+  "380": {
+    productId: "380",
+    slug: "theraputty-exercise-putty-set-4-pieces-2-oz-yellow-blue",
+    tagline: "Set of 4 TheraPutty exercise putty containers, 2 oz each",
+    overview: [
+      "TheraPutty Exercise Putty Set — 4 pieces, 2 oz (Yellow–Blue) — Set of 4 TheraPutty exercise putty containers, 2 oz each.",
+      "Includes one each: Yellow (X-Soft), Red (Soft), Green (Medium), Blue (Firm) Color-coded progressive hand and finger resistance.",
+    ],
+    highlights: [
+      "Set of 4 TheraPutty exercise putty containers, 2 oz each",
+      "Includes one each: Yellow (X-Soft), Red (Soft), Green (Medium), Blue (Firm)",
+      "Color-coded progressive hand and finger resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Ideal starter set for hand therapy",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1474.jpg", alt: "TheraPutty Exercise Putty Set — 4 pieces, 2 oz (Yellow–Blue)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-1474" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/101474",
+    seo: {
+      title: "TheraPutty Exercise Putty Set — 4 pieces, 2 oz (Yellow–Blue) (FAB 10-1474) | GM Therapy",
+      description: "Set of 4 TheraPutty exercise putty containers, 2 oz each",
+    },
+  },
+
+  "383": {
+    productId: "383",
+    slug: "cando-latex-free-exercise-band-green-medium-50-yd-dispenser",
+    tagline: "Latex-free resistance band — Green (Medium)",
+    overview: [
+      "CanDo Latex-Free Exercise Band — Green (Medium), 50 yd Dispenser — Latex-free resistance band — Green (Medium).",
+      "50 yard dispenser roll Cuts to any length for clinical or home use.",
+    ],
+    highlights: [
+      "Latex-free resistance band — Green (Medium)",
+      "50 yard dispenser roll",
+      "Cuts to any length for clinical or home use",
+      "Color-coded progressive resistance",
+      "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5623.jpg", alt: "CanDo Latex-Free Exercise Band — Green (Medium), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5623" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105623",
+    seo: {
+      title: "CanDo Latex-Free Exercise Band — Green (Medium), 50 yd Dispenser (FAB 10-5623) | GM Therapy",
+      description: "Latex-free resistance band — Green (Medium)",
+    },
+  },
+
+  "384": {
+    productId: "384",
+    slug: "theraputty-exercise-putty-blue-firm-2-oz",
+    tagline: "Hand-therapy exercise putty — Blue (Firm)",
+    overview: [
+      "TheraPutty Exercise Putty — Blue (Firm), 2 oz — Hand-therapy exercise putty — Blue (Firm).",
+      "2 oz portion Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty — Blue (Firm)",
+      "2 oz portion",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Strengthens grip, fingers, and intrinsic hand muscles",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0903.jpg", alt: "TheraPutty Exercise Putty — Blue (Firm), 2 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0903" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100903",
+    seo: {
+      title: "TheraPutty Exercise Putty — Blue (Firm), 2 oz (FAB 10-0903) | GM Therapy",
+      description: "Hand-therapy exercise putty — Blue (Firm)",
+    },
+  },
+
+  "385": {
+    productId: "385",
+    slug: "soothing-touch-jojoba-lotion-unscented-1-gallon",
+    tagline: "Premium jojoba-based massage lotion",
+    overview: [
+      "Soothing Touch Jojoba Lotion — Unscented, 1 Gallon — Premium jojoba-based massage lotion.",
+      "Unscented — 1 gallon size Smooth glide with excellent absorption.",
+    ],
+    highlights: [
+      "Premium jojoba-based massage lotion",
+      "Unscented — 1 gallon size",
+      "Smooth glide with excellent absorption",
+      "Non-greasy, non-staining formula",
+      "Ideal for sensitive skin and clinical massage therapy",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-3227.jpg", alt: "Soothing Touch Jojoba Lotion — Unscented, 1 Gallon" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Massage Supplies" },
+          { label: "SKU", value: "FAB 13-3227" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/133227",
+    seo: {
+      title: "Soothing Touch Jojoba Lotion — Unscented, 1 Gallon (FAB 13-3227) | GM Therapy",
+      description: "Premium jojoba-based massage lotion",
+    },
+  },
+
+  "387": {
+    productId: "387",
+    slug: "soothing-touch-unscented-oil-nut-free-1-gallon",
+    tagline: "Professional massage oil — unscented and nut-free",
+    overview: [
+      "Soothing Touch Unscented Oil — Nut Free, 1 Gallon — Professional massage oil — unscented and nut-free.",
+      "1 gallon size for clinical use Smooth, long-lasting glide.",
+    ],
+    highlights: [
+      "Professional massage oil — unscented and nut-free",
+      "1 gallon size for clinical use",
+      "Smooth, long-lasting glide",
+      "Safe for patients with nut allergies",
+      "Ideal for deep-tissue and Swedish massage techniques",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-3226.jpg", alt: "Soothing Touch Unscented Oil — Nut Free, 1 Gallon" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Massage Supplies" },
+          { label: "SKU", value: "FAB 13-3226" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/133226",
+    seo: {
+      title: "Soothing Touch Unscented Oil — Nut Free, 1 Gallon (FAB 13-3226) | GM Therapy",
+      description: "Professional massage oil — unscented and nut-free",
+    },
+  },
+
+  "388": {
+    productId: "388",
+    slug: "baseline-digital-timer",
+    tagline: "Digital timer for clinical and therapy use",
+    overview: [
+      "Baseline Digital Timer — Digital timer for clinical and therapy use.",
+      "Large LCD display — easy to read Count-up and count-down modes.",
+    ],
+    highlights: [
+      "Digital timer for clinical and therapy use",
+      "Large LCD display — easy to read",
+      "Count-up and count-down modes",
+      "Magnetic back, clip, and stand for flexible placement",
+      "Loud alarm — ideal for treatment sessions and exercise timing",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/68-0016.jpg", alt: "Baseline Digital Timer" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Assessment Tools" },
+          { label: "SKU", value: "FAB 68-0016" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/680016",
+    seo: {
+      title: "Baseline Digital Timer (FAB 68-0016) | GM Therapy",
+      description: "Digital timer for clinical and therapy use",
+    },
+  },
+
+  "389": {
+    productId: "389",
+    slug: "relief-pak-moist-heat-pack-neck",
+    tagline: "Moist heat therapy pack — neck/contour size",
+    overview: [
+      "Relief Pak Moist Heat Pack — Neck — Moist heat therapy pack — neck/contour size.",
+      "Hydrocollator-style — retains heat for 30+ minutes Filled with hydrophilic silicate beads.",
+    ],
+    highlights: [
+      "Moist heat therapy pack — neck/contour size",
+      "Hydrocollator-style — retains heat for 30+ minutes",
+      "Filled with hydrophilic silicate beads",
+      "Provides deep, soothing moist heat",
+      "Ideal for cervical and upper-back pain relief",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1311.jpg", alt: "Relief Pak Moist Heat Pack — Neck" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1311" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111311",
+    seo: {
+      title: "Relief Pak Moist Heat Pack — Neck (FAB 11-1311) | GM Therapy",
+      description: "Moist heat therapy pack — neck/contour size",
+    },
+  },
+
+  "392": {
+    productId: "392",
+    slug: "cuff-weight-1-lb-blue",
+    tagline: "Adjustable cuff weight — 1 lb (Blue)",
+    overview: [
+      "Cuff Weight — 1 lb, Blue — Adjustable cuff weight — 1 lb (Blue).",
+      "Soft, comfortable nylon shell with hook-and-loop closure Fits wrist or ankle.",
+    ],
+    highlights: [
+      "Adjustable cuff weight — 1 lb (Blue)",
+      "Soft, comfortable nylon shell with hook-and-loop closure",
+      "Fits wrist or ankle",
+      "Color-coded by weight for easy identification",
+      "Ideal for gait training, ROM, and strengthening exercises",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0203.jpg", alt: "Cuff Weight — 1 lb, Blue" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Weights" },
+          { label: "SKU", value: "FAB 10-0203" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100203",
+    seo: {
+      title: "Cuff Weight — 1 lb, Blue (FAB 10-0203) | GM Therapy",
+      description: "Adjustable cuff weight — 1 lb (Blue)",
+    },
+  },
+
+  "393": {
+    productId: "393",
+    slug: "theraputty-exercise-putty-green-medium-4-oz",
+    tagline: "Hand-therapy exercise putty — Green (Medium)",
+    overview: [
+      "TheraPutty Exercise Putty — Green (Medium), 4 oz — Hand-therapy exercise putty — Green (Medium).",
+      "4 oz portion — larger size for extended use Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty — Green (Medium)",
+      "4 oz portion — larger size for extended use",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Strengthens grip, fingers, and intrinsic hand muscles",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0907.jpg", alt: "TheraPutty Exercise Putty — Green (Medium), 4 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0907" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100907",
+    seo: {
+      title: "TheraPutty Exercise Putty — Green (Medium), 4 oz (FAB 10-0907) | GM Therapy",
+      description: "Hand-therapy exercise putty — Green (Medium)",
+    },
+  },
+
+  "395": {
+    productId: "395",
+    slug: "relief-pak-moist-heat-pack-oversize",
+    tagline: "Moist heat therapy pack — oversize",
+    overview: [
+      "Relief Pak Moist Heat Pack — Oversize — Moist heat therapy pack — oversize.",
+      "Hydrocollator-style — retains heat for 30+ minutes Filled with hydrophilic silicate beads.",
+    ],
+    highlights: [
+      "Moist heat therapy pack — oversize",
+      "Hydrocollator-style — retains heat for 30+ minutes",
+      "Filled with hydrophilic silicate beads",
+      "Large coverage area for back, hips, or shoulders",
+      "Provides deep, soothing moist heat",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1312.jpg", alt: "Relief Pak Moist Heat Pack — Oversize" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1312" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111312",
+    seo: {
+      title: "Relief Pak Moist Heat Pack — Oversize (FAB 11-1312) | GM Therapy",
+      description: "Moist heat therapy pack — oversize",
+    },
+  },
+
+  "397": {
+    productId: "397",
+    slug: "cando-exercise-band-loop-yellow-x-light-10",
+    tagline: "Pre-made latex exercise band loop",
+    overview: [
+      "CanDo Exercise Band Loop — Yellow (X-Light), 10\\\" — Pre-made latex exercise band loop.",
+      "10\\\" length — Yellow / X-Light resistance Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Pre-made latex exercise band loop",
+      "10\\\" length — Yellow / X-Light resistance",
+      "Color-coded progressive resistance",
+      "Ideal for hip, glute, and lower-extremity activation",
+      "Convenient closed-loop design — no tying required",
+      "Sold individually",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5251.jpg", alt: "CanDo Exercise Band Loop — Yellow (X-Light), 10\\\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5251" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105251",
+    seo: {
+      title: "CanDo Exercise Band Loop — Yellow (X-Light), 10\\\" (FAB 10-5251) | GM Therapy",
+      description: "Pre-made latex exercise band loop",
+    },
+  },
+
+  "398": {
+    productId: "398",
+    slug: "theraputty-exercise-putty-blue-firm-4-oz",
+    tagline: "Hand-therapy exercise putty — Blue (Firm)",
+    overview: [
+      "TheraPutty Exercise Putty — Blue (Firm), 4 oz — Hand-therapy exercise putty — Blue (Firm).",
+      "4 oz portion — larger size for extended use Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty — Blue (Firm)",
+      "4 oz portion — larger size for extended use",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Strengthens grip, fingers, and intrinsic hand muscles",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0908.jpg", alt: "TheraPutty Exercise Putty — Blue (Firm), 4 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0908" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100908",
+    seo: {
+      title: "TheraPutty Exercise Putty — Blue (Firm), 4 oz (FAB 10-0908) | GM Therapy",
+      description: "Hand-therapy exercise putty — Blue (Firm)",
+    },
+  },
+
+  "399": {
+    productId: "399",
+    slug: "theraputty-exercise-putty-red-soft-6-oz",
+    tagline: "Hand-therapy exercise putty — Red (Soft)",
+    overview: [
+      "TheraPutty Exercise Putty — Red (Soft), 6 oz — Hand-therapy exercise putty — Red (Soft).",
+      "6 oz portion — extended-use size Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty — Red (Soft)",
+      "6 oz portion — extended-use size",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Strengthens grip, fingers, and intrinsic hand muscles",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0911.jpg", alt: "TheraPutty Exercise Putty — Red (Soft), 6 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0911" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100911",
+    seo: {
+      title: "TheraPutty Exercise Putty — Red (Soft), 6 oz (FAB 10-0911) | GM Therapy",
+      description: "Hand-therapy exercise putty — Red (Soft)",
+    },
+  },
+
+  "400": {
+    productId: "400",
+    slug: "theraputty-exercise-putty-red-soft-1-lb",
+    tagline: "Hand-therapy exercise putty — Red (Soft)",
+    overview: [
+      "TheraPutty Exercise Putty — Red (Soft), 1 lb — Hand-therapy exercise putty — Red (Soft).",
+      "1 lb bulk size for clinic use Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty — Red (Soft)",
+      "1 lb bulk size for clinic use",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Cost-effective for high-volume rehab",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0919.jpg", alt: "TheraPutty Exercise Putty — Red (Soft), 1 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0919" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100919",
+    seo: {
+      title: "TheraPutty Exercise Putty — Red (Soft), 1 lb (FAB 10-0919) | GM Therapy",
+      description: "Hand-therapy exercise putty — Red (Soft)",
+    },
+  },
+
+  "401": {
+    productId: "401",
+    slug: "cando-exercise-band-green-medium-50-yd-dispenser",
+    tagline: "Latex resistance band — Green (Medium)",
+    overview: [
+      "CanDo Exercise Band — Green (Medium), 50 yd Dispenser — Latex resistance band — Green (Medium).",
+      "50 yard dispenser roll Cuts to any length for clinical or home use.",
+    ],
+    highlights: [
+      "Latex resistance band — Green (Medium)",
+      "50 yard dispenser roll",
+      "Cuts to any length for clinical or home use",
+      "Color-coded progressive resistance",
+      "Standard clinical strengthening tool",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5223.jpg", alt: "CanDo Exercise Band — Green (Medium), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5223" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105223",
+    seo: {
+      title: "CanDo Exercise Band — Green (Medium), 50 yd Dispenser (FAB 10-5223) | GM Therapy",
+      description: "Latex resistance band — Green (Medium)",
+    },
+  },
+
+  "402": {
+    productId: "402",
+    slug: "relief-pak-moist-heat-pack-standard",
+    tagline: "Moist heat therapy pack — standard size",
+    overview: [
+      "Relief Pak Moist Heat Pack — Standard — Moist heat therapy pack — standard size.",
+      "Hydrocollator-style — retains heat for 30+ minutes Filled with hydrophilic silicate beads.",
+    ],
+    highlights: [
+      "Moist heat therapy pack — standard size",
+      "Hydrocollator-style — retains heat for 30+ minutes",
+      "Filled with hydrophilic silicate beads",
+      "Provides deep, soothing moist heat",
+      "Ideal for general muscle relaxation and pain relief",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1310.jpg", alt: "Relief Pak Moist Heat Pack — Standard" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1310" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111310",
+    seo: {
+      title: "Relief Pak Moist Heat Pack — Standard (FAB 11-1310) | GM Therapy",
+      description: "Moist heat therapy pack — standard size",
+    },
+  },
+
+  "403": {
+    productId: "403",
+    slug: "cando-exercise-band-red-light-50-yd-dispenser",
+    tagline: "Latex resistance band — Red (Light)",
+    overview: [
+      "CanDo Exercise Band — Red (Light), 50 yd Dispenser — Latex resistance band — Red (Light).",
+      "50 yard dispenser roll Cuts to any length for clinical or home use.",
+    ],
+    highlights: [
+      "Latex resistance band — Red (Light)",
+      "50 yard dispenser roll",
+      "Cuts to any length for clinical or home use",
+      "Color-coded progressive resistance",
+      "Standard clinical strengthening tool",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5222.jpg", alt: "CanDo Exercise Band — Red (Light), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5222" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105222",
+    seo: {
+      title: "CanDo Exercise Band — Red (Light), 50 yd Dispenser (FAB 10-5222) | GM Therapy",
+      description: "Latex resistance band — Red (Light)",
+    },
+  },
+
+  "404": {
+    productId: "404",
+    slug: "hip-kit-1-reacher-sponge-sock-aid-shoehorn",
+    tagline: "Complete post-op hip kit for ADL training",
+    overview: [
+      "Hip Kit #1 — Reacher, Sponge, Sock Aid, Shoehorn — Complete post-op hip kit for ADL training.",
+      "26\\\" reacher Contoured long-handle bath sponge.",
+    ],
+    highlights: [
+      "Complete post-op hip kit for ADL training",
+      "26\\\" reacher",
+      "Contoured long-handle bath sponge",
+      "Sock and stocking aid",
+      "18\\\" plastic shoehorn",
+      "Ideal for hip/knee replacement recovery",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/86-0070.jpg", alt: "Hip Kit #1 — Reacher, Sponge, Sock Aid, Shoehorn" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 86-0070" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/860070",
+    seo: {
+      title: "Hip Kit #1 — Reacher, Sponge, Sock Aid, Shoehorn (FAB 86-0070) | GM Therapy",
+      description: "Complete post-op hip kit for ADL training",
+    },
+  },
+
+  "405": {
+    productId: "405",
+    slug: "valutrode-electrodes-white-foam-3-x-5-pair",
+    tagline: "Reusable self-adhesive electrodes",
+    overview: [
+      "ValuTrode Electrodes — White Foam, 3\\\" x 5\\\" (Pair) — Reusable self-adhesive electrodes.",
+      "3\\\" x 5\\\" rectangular — pair White foam backing with multi-stick gel.",
+    ],
+    highlights: [
+      "Reusable self-adhesive electrodes",
+      "3\\\" x 5\\\" rectangular — pair",
+      "White foam backing with multi-stick gel",
+      "Compatible with most TENS, EMS, and IF stim units",
+      "Long-lasting clinical-grade adhesive",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-1235-2.jpg", alt: "ValuTrode Electrodes — White Foam, 3\\\" x 5\\\" (Pair)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Electrodes & Supplies" },
+          { label: "SKU", value: "FAB 13-1235-2" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/1312352",
+    seo: {
+      title: "ValuTrode Electrodes — White Foam, 3\\\" x 5\\\" (Pair) (FAB 13-1235-2) | GM Therapy",
+      description: "Reusable self-adhesive electrodes",
+    },
+  },
+
+  "406": {
+    productId: "406",
+    slug: "cuff-weight-2-5-lb-red",
+    tagline: "Adjustable cuff weight — 2.5 lb (Red)",
+    overview: [
+      "Cuff Weight — 2.5 lb, Red — Adjustable cuff weight — 2.5 lb (Red).",
+      "Soft, comfortable nylon shell with hook-and-loop closure Fits wrist or ankle.",
+    ],
+    highlights: [
+      "Adjustable cuff weight — 2.5 lb (Red)",
+      "Soft, comfortable nylon shell with hook-and-loop closure",
+      "Fits wrist or ankle",
+      "Color-coded by weight for easy identification",
+      "Ideal for gait training, ROM, and strengthening exercises",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0206.jpg", alt: "Cuff Weight — 2.5 lb, Red" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Weights" },
+          { label: "SKU", value: "FAB 10-0206" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100206",
+    seo: {
+      title: "Cuff Weight — 2.5 lb, Red (FAB 10-0206) | GM Therapy",
+      description: "Adjustable cuff weight — 2.5 lb (Red)",
+    },
+  },
+
+  "407": {
+    productId: "407",
+    slug: "cando-latex-free-exercise-band-blue-heavy-50-yd-dispenser",
+    tagline: "Latex-free resistance band — Blue (Heavy)",
+    overview: [
+      "CanDo Latex-Free Exercise Band — Blue (Heavy), 50 yd Dispenser — Latex-free resistance band — Blue (Heavy).",
+      "50 yard dispenser roll Cuts to any length for clinical or home use.",
+    ],
+    highlights: [
+      "Latex-free resistance band — Blue (Heavy)",
+      "50 yard dispenser roll",
+      "Cuts to any length for clinical or home use",
+      "Color-coded progressive resistance",
+      "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5624.jpg", alt: "CanDo Latex-Free Exercise Band — Blue (Heavy), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5624" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105624",
+    seo: {
+      title: "CanDo Latex-Free Exercise Band — Blue (Heavy), 50 yd Dispenser (FAB 10-5624) | GM Therapy",
+      description: "Latex-free resistance band — Blue (Heavy)",
+    },
+  },
+
+  "408": {
+    productId: "408",
+    slug: "theraputty-exercise-putty-yellow-x-soft-4-oz",
+    tagline: "Hand-therapy exercise putty — Yellow (X-Soft)",
+    overview: [
+      "TheraPutty Exercise Putty — Yellow (X-Soft), 4 oz — Hand-therapy exercise putty — Yellow (X-Soft).",
+      "4 oz portion — larger size for extended use Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty — Yellow (X-Soft)",
+      "4 oz portion — larger size for extended use",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Ideal for early-stage hand rehab",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0905.jpg", alt: "TheraPutty Exercise Putty — Yellow (X-Soft), 4 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0905" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100905",
+    seo: {
+      title: "TheraPutty Exercise Putty — Yellow (X-Soft), 4 oz (FAB 10-0905) | GM Therapy",
+      description: "Hand-therapy exercise putty — Yellow (X-Soft)",
+    },
+  },
+
+  "409": {
+    productId: "409",
+    slug: "cuff-weight-2-lb-white",
+    tagline: "Adjustable cuff weight — 2 lb (White)",
+    overview: [
+      "Cuff Weight — 2 lb, White — Adjustable cuff weight — 2 lb (White).",
+      "Soft, comfortable nylon shell with hook-and-loop closure Fits wrist or ankle.",
+    ],
+    highlights: [
+      "Adjustable cuff weight — 2 lb (White)",
+      "Soft, comfortable nylon shell with hook-and-loop closure",
+      "Fits wrist or ankle",
+      "Color-coded by weight for easy identification",
+      "Ideal for gait training, ROM, and strengthening exercises",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0205.jpg", alt: "Cuff Weight — 2 lb, White" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Weights" },
+          { label: "SKU", value: "FAB 10-0205" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100205",
+    seo: {
+      title: "Cuff Weight — 2 lb, White (FAB 10-0205) | GM Therapy",
+      description: "Adjustable cuff weight — 2 lb (White)",
+    },
+  },
+
+  "410": {
+    productId: "410",
+    slug: "cuff-weight-3-lb-gold",
+    tagline: "Adjustable cuff weight — 3 lb (Gold)",
+    overview: [
+      "Cuff Weight — 3 lb, Gold — Adjustable cuff weight — 3 lb (Gold).",
+      "Soft, comfortable nylon shell with hook-and-loop closure Fits wrist or ankle.",
+    ],
+    highlights: [
+      "Adjustable cuff weight — 3 lb (Gold)",
+      "Soft, comfortable nylon shell with hook-and-loop closure",
+      "Fits wrist or ankle",
+      "Color-coded by weight for easy identification",
+      "Ideal for gait training, ROM, and strengthening exercises",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0207.jpg", alt: "Cuff Weight — 3 lb, Gold" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Weights" },
+          { label: "SKU", value: "FAB 10-0207" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100207",
+    seo: {
+      title: "Cuff Weight — 3 lb, Gold (FAB 10-0207) | GM Therapy",
+      description: "Adjustable cuff weight — 3 lb (Gold)",
+    },
+  },
+
+  "411": {
+    productId: "411",
+    slug: "palmer-s-cocoa-butter-7-25-oz-jar",
+    tagline: "Palmer's Cocoa Butter Formula — 7.25 oz jar",
+    overview: [
+      "Palmer's Cocoa Butter — 7.25 oz Jar — Palmer's Cocoa Butter Formula — 7.25 oz jar.",
+      "Rich, creamy moisturizer with vitamin E Helps soften scars, stretch marks, and dry skin.",
+    ],
+    highlights: [
+      "Palmer's Cocoa Butter Formula — 7.25 oz jar",
+      "Rich, creamy moisturizer with vitamin E",
+      "Helps soften scars, stretch marks, and dry skin",
+      "Ideal for massage and post-treatment skin care",
+      "Pleasant cocoa butter scent",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/70-0170.jpg", alt: "Palmer's Cocoa Butter — 7.25 oz Jar" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Massage Supplies" },
+          { label: "SKU", value: "FAB 70-0170" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/700170",
+    seo: {
+      title: "Palmer's Cocoa Butter — 7.25 oz Jar (FAB 70-0170) | GM Therapy",
+      description: "Palmer's Cocoa Butter Formula — 7.25 oz jar",
+    },
+  },
+
+  "412": {
+    productId: "412",
+    slug: "cando-latex-free-exercise-band-yellow-x-light-50-yd-dispense",
+    tagline: "Latex-free resistance band — Yellow (X-Light)",
+    overview: [
+      "CanDo Latex-Free Exercise Band — Yellow (X-Light), 50 yd Dispenser — Latex-free resistance band — Yellow (X-Light).",
+      "50 yard dispenser roll Cuts to any length for clinical or home use.",
+    ],
+    highlights: [
+      "Latex-free resistance band — Yellow (X-Light)",
+      "50 yard dispenser roll",
+      "Cuts to any length for clinical or home use",
+      "Color-coded progressive resistance",
+      "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5621.jpg", alt: "CanDo Latex-Free Exercise Band — Yellow (X-Light), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5621" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105621",
+    seo: {
+      title: "CanDo Latex-Free Exercise Band — Yellow (X-Light), 50 yd Dispenser (FAB 10-5621) | GM Therapy",
+      description: "Latex-free resistance band — Yellow (X-Light)",
+    },
+  },
+
+  "413": {
+    productId: "413",
+    slug: "cando-overdoor-shoulder-pulley-with-anchor",
+    tagline: "Overdoor shoulder exerciser with pulley and anchor nub",
+    overview: [
+      "CanDo Overdoor Shoulder Pulley with Anchor — Overdoor shoulder exerciser with pulley and anchor nub.",
+      "Improves shoulder ROM and flexibility Easy setup — anchors over any standard door.",
+    ],
+    highlights: [
+      "Overdoor shoulder exerciser with pulley and anchor nub",
+      "Improves shoulder ROM and flexibility",
+      "Easy setup — anchors over any standard door",
+      "Padded handles for comfortable grip",
+      "Ideal for post-op shoulder rehab and frozen shoulder",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/50-1023.jpg", alt: "CanDo Overdoor Shoulder Pulley with Anchor" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Shoulder Rehab" },
+          { label: "SKU", value: "FAB 50-1023" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/501023",
+    seo: {
+      title: "CanDo Overdoor Shoulder Pulley with Anchor (FAB 50-1023) | GM Therapy",
+      description: "Overdoor shoulder exerciser with pulley and anchor nub",
+    },
+  },
+
+  "414": {
+    productId: "414",
+    slug: "theraputty-exercise-putty-set-6-pieces-2-oz",
+    tagline: "Complete TheraPutty set — 6 colors, 2 oz each",
+    overview: [
+      "TheraPutty Exercise Putty Set — 6 pieces, 2 oz — Complete TheraPutty set — 6 colors, 2 oz each.",
+      "Includes Tan (XX-Soft), Yellow (X-Soft), Red (Soft), Green (Medium), Blue (Firm), Black (X-Firm) Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Complete TheraPutty set — 6 colors, 2 oz each",
+      "Includes Tan (XX-Soft), Yellow (X-Soft), Red (Soft), Green (Medium), Blue (Firm), Black (X-Firm)",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Full progression set for hand-therapy programs",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1480.jpg", alt: "TheraPutty Exercise Putty Set — 6 pieces, 2 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-1480" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/101480",
+    seo: {
+      title: "TheraPutty Exercise Putty Set — 6 pieces, 2 oz (FAB 10-1480) | GM Therapy",
+      description: "Complete TheraPutty set — 6 colors, 2 oz each",
+    },
+  },
+
+  "415": {
+    productId: "415",
+    slug: "val-u-band-latex-free-exercise-band-lime-level-3-50-yd-dispe",
+    tagline: "Val-u-Band latex-free resistance band — Lime / Level 3",
+    overview: [
+      "Val-u-Band Latex-Free Exercise Band — Lime (Level 3), 50 yd Dispenser — Val-u-Band latex-free resistance band — Lime / Level 3.",
+      "50 yard dispenser roll Cuts to any length for clinical or home use.",
+    ],
+    highlights: [
+      "Val-u-Band latex-free resistance band — Lime / Level 3",
+      "50 yard dispenser roll",
+      "Cuts to any length for clinical or home use",
+      "Color-coded progressive resistance",
+      "Economy alternative to TheraBand",
+      "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6123.jpg", alt: "Val-u-Band Latex-Free Exercise Band — Lime (Level 3), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-6123" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106123",
+    seo: {
+      title: "Val-u-Band Latex-Free Exercise Band — Lime (Level 3), 50 yd Dispenser (FAB 10-6123) | GM Therapy",
+      description: "Val-u-Band latex-free resistance band — Lime / Level 3",
+    },
+  },
+
+  "416": {
+    productId: "416",
+    slug: "iontopatch-stat-iontophoresis-patches-80-ma-min-6-pack",
+    tagline: "Self-contained iontophoresis delivery system",
+    overview: [
+      "IontoPatch STAT Iontophoresis Patches — 80 mA-min, 6/Pack — Self-contained iontophoresis delivery system.",
+      "80 mA-min dose — STAT (rapid) version 6 patch/vial sets per pack.",
+    ],
+    highlights: [
+      "Self-contained iontophoresis delivery system",
+      "80 mA-min dose — STAT (rapid) version",
+      "6 patch/vial sets per pack",
+      "No external controller required",
+      "Discrete, wearable patch design",
+      "Used for delivery of charged medications via the skin",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-5223.jpg", alt: "IontoPatch STAT Iontophoresis Patches — 80 mA-min, 6/Pack" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 13-5223" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/135223",
+    seo: {
+      title: "IontoPatch STAT Iontophoresis Patches — 80 mA-min, 6/Pack (FAB 13-5223) | GM Therapy",
+      description: "Self-contained iontophoresis delivery system",
+    },
+  },
+
+  "417": {
+    productId: "417",
+    slug: "theraputty-exercise-putty-red-soft-4-oz",
+    tagline: "Hand-therapy exercise putty — Red (Soft)",
+    overview: [
+      "TheraPutty Exercise Putty — Red (Soft), 4 oz — Hand-therapy exercise putty — Red (Soft).",
+      "4 oz portion — extended-use size Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty — Red (Soft)",
+      "4 oz portion — extended-use size",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Strengthens grip, fingers, and intrinsic hand muscles",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0906.jpg", alt: "TheraPutty Exercise Putty — Red (Soft), 4 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0906" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100906",
+    seo: {
+      title: "TheraPutty Exercise Putty — Red (Soft), 4 oz (FAB 10-0906) | GM Therapy",
+      description: "Hand-therapy exercise putty — Red (Soft)",
+    },
+  },
+
+  "418": {
+    productId: "418",
+    slug: "cando-round-foam-roller-6-x-36-white",
+    tagline: "Round foam roller — 6\\\" diameter x 36\\\" length",
+    overview: [
+      "CanDo Round Foam Roller — 6\\\" x 36\\\", White — Round foam roller — 6\\\" diameter x 36\\\" length.",
+      "White, standard density For self-myofascial release, balance, and core training.",
+    ],
+    highlights: [
+      "Round foam roller — 6\\\" diameter x 36\\\" length",
+      "White, standard density",
+      "For self-myofascial release, balance, and core training",
+      "Lightweight closed-cell foam construction",
+      "Smooth surface — clinical clinic standard",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-2100.jpg", alt: "CanDo Round Foam Roller — 6\\\" x 36\\\", White" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Foam Rollers" },
+          { label: "SKU", value: "FAB 30-2100" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/302100",
+    seo: {
+      title: "CanDo Round Foam Roller — 6\\\" x 36\\\", White (FAB 30-2100) | GM Therapy",
+      description: "Round foam roller — 6\\\" diameter x 36\\\" length",
+    },
+  },
+
+  "419": {
+    productId: "419",
+    slug: "cando-high-density-half-foam-roller-6-x-36-black",
+    tagline: "Half-round foam roller — 6\\\" x 36\\\"",
+    overview: [
+      "CanDo High-Density Half Foam Roller — 6\\\" x 36\\\", Black — Half-round foam roller — 6\\\" x 36\\\".",
+      "High-density black foam — firmer than standard rollers Flat side prevents rolling — ideal for stability work.",
+    ],
+    highlights: [
+      "Half-round foam roller — 6\\\" x 36\\\"",
+      "High-density black foam — firmer than standard rollers",
+      "Flat side prevents rolling — ideal for stability work",
+      "Used for balance, core, and proprioception training",
+      "Durable closed-cell foam construction",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-2290.jpg", alt: "CanDo High-Density Half Foam Roller — 6\\\" x 36\\\", Black" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Foam Rollers" },
+          { label: "SKU", value: "FAB 30-2290" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/302290",
+    seo: {
+      title: "CanDo High-Density Half Foam Roller — 6\\\" x 36\\\", Black (FAB 30-2290) | GM Therapy",
+      description: "Half-round foam roller — 6\\\" x 36\\\"",
+    },
+  },
+
+  "420": {
+    productId: "420",
+    slug: "cando-band-tubing-accessory-kit-loop-stirrup-door-disc-handl",
+    tagline: "Accessory kit for resistance bands and tubing",
+    overview: [
+      "CanDo Band & Tubing Accessory Kit — Loop Stirrup, Door Disc, Handles — Accessory kit for resistance bands and tubing.",
+      "Includes loop stirrup, door anchor disc, and handle pair Expands the use of standard bands and tubing.",
+    ],
+    highlights: [
+      "Accessory kit for resistance bands and tubing",
+      "Includes loop stirrup, door anchor disc, and handle pair",
+      "Expands the use of standard bands and tubing",
+      "Compatible with most clinical resistance bands",
+      "Ideal for clinics and home programs",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5334.jpg", alt: "CanDo Band & Tubing Accessory Kit — Loop Stirrup, Door Disc, Handles" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5334" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105334",
+    seo: {
+      title: "CanDo Band & Tubing Accessory Kit — Loop Stirrup, Door Disc, Handles (FAB 10-5334) | GM Therapy",
+      description: "Accessory kit for resistance bands and tubing",
+    },
+  },
+
+  "421": {
+    productId: "421",
+    slug: "fablife-dressing-stick-24",
+    tagline: "24\\\" dressing stick with vinyl-coated hook and push/pull C-hook",
+    overview: [
+      "FabLife Dressing Stick — 24\\\" — 24\\\" dressing stick with vinyl-coated hook and push/pull C-hook.",
+      "Helps don and doff clothing, jackets, and shoes Ideal for hip and shoulder restrictions.",
+    ],
+    highlights: [
+      "24\\\" dressing stick with vinyl-coated hook and push/pull C-hook",
+      "Helps don and doff clothing, jackets, and shoes",
+      "Ideal for hip and shoulder restrictions",
+      "Lightweight wood shaft",
+      "Standard clinical ADL aid",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/86-0030.jpg", alt: "FabLife Dressing Stick — 24\\\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 86-0030" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/860030",
+    seo: {
+      title: "FabLife Dressing Stick — 24\\\" (FAB 86-0030) | GM Therapy",
+      description: "24\\\" dressing stick with vinyl-coated hook and push/pull C-hook",
+    },
+  },
+
+  "422": {
+    productId: "422",
+    slug: "cuff-weight-5-lb-black",
+    tagline: "Adjustable cuff weight — 5 lb (Black)",
+    overview: [
+      "Cuff Weight — 5 lb, Black — Adjustable cuff weight — 5 lb (Black).",
+      "Soft, comfortable nylon shell with hook-and-loop closure Fits wrist or ankle.",
+    ],
+    highlights: [
+      "Adjustable cuff weight — 5 lb (Black)",
+      "Soft, comfortable nylon shell with hook-and-loop closure",
+      "Fits wrist or ankle",
+      "Color-coded by weight for easy identification",
+      "Ideal for gait training, ROM, and strengthening exercises",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0209.jpg", alt: "Cuff Weight — 5 lb, Black" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Weights" },
+          { label: "SKU", value: "FAB 10-0209" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100209",
+    seo: {
+      title: "Cuff Weight — 5 lb, Black (FAB 10-0209) | GM Therapy",
+      description: "Adjustable cuff weight — 5 lb (Black)",
+    },
+  },
+
+  "423": {
+    productId: "423",
+    slug: "cando-dynamic-stretch-strap",
+    tagline: "Multi-loop dynamic stretching strap",
+    overview: [
+      "CanDo Dynamic Stretch Strap — Multi-loop dynamic stretching strap.",
+      "Multiple grip loops for progressive stretches Ideal for hamstring, hip, and shoulder mobility.",
+    ],
+    highlights: [
+      "Multi-loop dynamic stretching strap",
+      "Multiple grip loops for progressive stretches",
+      "Ideal for hamstring, hip, and shoulder mobility",
+      "Improves flexibility and ROM",
+      "Compact and easy to use in clinic or at home",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-1385.jpg", alt: "CanDo Dynamic Stretch Strap" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Other" },
+          { label: "SKU", value: "FAB 10-1385" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/101385",
+    seo: {
+      title: "CanDo Dynamic Stretch Strap (FAB 10-1385) | GM Therapy",
+      description: "Multi-loop dynamic stretching strap",
+    },
+  },
+
+  "424": {
+    productId: "424",
+    slug: "point-relief-lidospot-pain-relieving-patch-universal-4-x-6-5",
+    tagline: "Topical lidocaine pain-relieving patch",
+    overview: [
+      "Point Relief LidoSpot Pain-Relieving Patch — Universal 4\\\" x 6\\\", 5/Pack — Topical lidocaine pain-relieving patch.",
+      "Universal size — 4\\\" x 6\\\" 5 patches per pack.",
+    ],
+    highlights: [
+      "Topical lidocaine pain-relieving patch",
+      "Universal size — 4\\\" x 6\\\"",
+      "5 patches per pack",
+      "Provides targeted relief for muscle and joint pain",
+      "Easy peel-and-stick application",
+      "Discreet, wearable design",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-5310-5.jpg", alt: "Point Relief LidoSpot Pain-Relieving Patch — Universal 4\\\" x 6\\\", 5/Pack" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 13-5310-5" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/1353105",
+    seo: {
+      title: "Point Relief LidoSpot Pain-Relieving Patch — Universal 4\\\" x 6\\\", 5/Pack (FAB 13-5310-5) | GM Therapy",
+      description: "Topical lidocaine pain-relieving patch",
+    },
+  },
+
+  "425": {
+    productId: "425",
+    slug: "fablife-hip-kit-3-5-piece-adl-kit-32-reacher",
+    tagline: "5-piece hip / ADL kit with 32\\\" reacher",
+    overview: [
+      "FabLife Hip Kit #3 — 5-Piece ADL Kit (32\\\" Reacher) — 5-piece hip / ADL kit with 32\\\" reacher.",
+      "Includes: 32\\\" reacher, straight-handle bath sponge, deluxe sock aid, shoehorn, dressing stick Standard kit for post-op hip and knee precautions.",
+    ],
+    highlights: [
+      "5-piece hip / ADL kit with 32\\\" reacher",
+      "Includes: 32\\\" reacher, straight-handle bath sponge, deluxe sock aid, shoehorn, dressing stick",
+      "Standard kit for post-op hip and knee precautions",
+      "Helps patients dress, bathe, and reach independently",
+      "Convenient bundle for discharge planning",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/86-0075.jpg", alt: "FabLife Hip Kit #3 — 5-Piece ADL Kit (32\\\" Reacher)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 86-0075" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/860075",
+    seo: {
+      title: "FabLife Hip Kit #3 — 5-Piece ADL Kit (32\\\" Reacher) (FAB 86-0075) | GM Therapy",
+      description: "5-piece hip / ADL kit with 32\\\" reacher",
+    },
+  },
+
+  "426": {
+    productId: "426",
+    slug: "theraputty-plus-antimicrobial-exercise-putty-green-medium-4-",
+    tagline: "Antimicrobial hand-therapy putty — Green (Medium)",
+    overview: [
+      "TheraPutty Plus Antimicrobial Exercise Putty — Green (Medium), 4 oz — Antimicrobial hand-therapy putty — Green (Medium).",
+      "4 oz portion — extended-use size Built-in antimicrobial agent inhibits bacteria, mold, and mildew.",
+    ],
+    highlights: [
+      "Antimicrobial hand-therapy putty — Green (Medium)",
+      "4 oz portion — extended-use size",
+      "Built-in antimicrobial agent inhibits bacteria, mold, and mildew",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-2623.jpg", alt: "TheraPutty Plus Antimicrobial Exercise Putty — Green (Medium), 4 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-2623" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/102623",
+    seo: {
+      title: "TheraPutty Plus Antimicrobial Exercise Putty — Green (Medium), 4 oz (FAB 10-2623) | GM Therapy",
+      description: "Antimicrobial hand-therapy putty — Green (Medium)",
+    },
+  },
+
+  "427": {
+    productId: "427",
+    slug: "cando-latex-free-band-pep-pack-easy-yellow-red-green",
+    tagline: "PEP (Progressive Exercise Program) pack — Easy",
+    overview: [
+      "CanDo Latex-Free Band PEP Pack — Easy (Yellow / Red / Green) — PEP (Progressive Exercise Program) pack — Easy.",
+      "Includes 3 latex-free bands: Yellow (X-Light), Red (Light), Green (Medium) Pre-cut lengths for individual home programs.",
+    ],
+    highlights: [
+      "PEP (Progressive Exercise Program) pack — Easy",
+      "Includes 3 latex-free bands: Yellow (X-Light), Red (Light), Green (Medium)",
+      "Pre-cut lengths for individual home programs",
+      "Color-coded progressive resistance",
+      "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5680.jpg", alt: "CanDo Latex-Free Band PEP Pack — Easy (Yellow / Red / Green)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5680" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105680",
+    seo: {
+      title: "CanDo Latex-Free Band PEP Pack — Easy (Yellow / Red / Green) (FAB 10-5680) | GM Therapy",
+      description: "PEP (Progressive Exercise Program) pack — Easy",
+    },
+  },
+
+  "428": {
+    productId: "428",
+    slug: "cando-yoga-mat-68-x-24-x-1-6-blue-eco-friendly",
+    tagline: "Eco-friendly yoga / exercise mat",
+    overview: [
+      "CanDo Yoga Mat — 68\\\" x 24\\\" x 1/6\\\", Blue (Eco-Friendly) — Eco-friendly yoga / exercise mat.",
+      "68\\\" x 24\\\" x 1/6\\\" — blue Non-slip textured surface.",
+    ],
+    highlights: [
+      "Eco-friendly yoga / exercise mat",
+      "68\\\" x 24\\\" x 1/6\\\" — blue",
+      "Non-slip textured surface",
+      "Lightweight and easy to roll up for storage",
+      "Ideal for floor exercises, stretching, and yoga",
+      "PVC-free, latex-free",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-2400B.jpg", alt: "CanDo Yoga Mat — 68\\\" x 24\\\" x 1/6\\\", Blue (Eco-Friendly)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Other" },
+          { label: "SKU", value: "FAB 30-2400B" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/302400b",
+    seo: {
+      title: "CanDo Yoga Mat — 68\\\" x 24\\\" x 1/6\\\", Blue (Eco-Friendly) (FAB 30-2400B) | GM Therapy",
+      description: "Eco-friendly yoga / exercise mat",
+    },
+  },
+
+  "429": {
+    productId: "429",
+    slug: "theraputty-exercise-putty-tan-xx-soft-2-oz",
+    tagline: "Hand-therapy exercise putty — Tan (XX-Soft)",
+    overview: [
+      "TheraPutty Exercise Putty — Tan (XX-Soft), 2 oz — Hand-therapy exercise putty — Tan (XX-Soft).",
+      "2 oz portion Lightest resistance — ideal for early rehab.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty — Tan (XX-Soft)",
+      "2 oz portion",
+      "Lightest resistance — ideal for early rehab",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0956.jpg", alt: "TheraPutty Exercise Putty — Tan (XX-Soft), 2 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0956" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100956",
+    seo: {
+      title: "TheraPutty Exercise Putty — Tan (XX-Soft), 2 oz (FAB 10-0956) | GM Therapy",
+      description: "Hand-therapy exercise putty — Tan (XX-Soft)",
+    },
+  },
+
+  "430": {
+    productId: "430",
+    slug: "waxwel-paraffin-bath-6-lb-unscented-paraffin-liners-mitt-boo",
+    tagline: "Complete paraffin bath therapy kit, 110V",
+    overview: [
+      "WaxWel Paraffin Bath — 6 lb Unscented Paraffin, Liners, Mitt & Bootie, 110V — Complete paraffin bath therapy kit, 110V.",
+      "Includes 6 lb unscented paraffin, liners, terry mitt, and bootie Soothing moist heat for hands and feet.",
+    ],
+    highlights: [
+      "Complete paraffin bath therapy kit, 110V",
+      "Includes 6 lb unscented paraffin, liners, terry mitt, and bootie",
+      "Soothing moist heat for hands and feet",
+      "Ideal for arthritis and stiff joints",
+      "Standard clinical paraffin unit",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1600.jpg", alt: "WaxWel Paraffin Bath — 6 lb Unscented Paraffin, Liners, Mitt & Bootie, 110V" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1600" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111600",
+    seo: {
+      title: "WaxWel Paraffin Bath — 6 lb Unscented Paraffin, Liners, Mitt & Bootie, 110V (FAB 11-1600) | GM Therapy",
+      description: "Complete paraffin bath therapy kit, 110V",
+    },
+  },
+
+  "431": {
+    productId: "431",
+    slug: "theraputty-exercise-putty-red-soft-3-oz",
+    tagline: "Hand-therapy exercise putty — Red (Soft)",
+    overview: [
+      "TheraPutty Exercise Putty — Red (Soft), 3 oz — Hand-therapy exercise putty — Red (Soft).",
+      "3 oz portion Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty — Red (Soft)",
+      "3 oz portion",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Strengthens grip, fingers, and intrinsic hand muscles",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0968.jpg", alt: "TheraPutty Exercise Putty — Red (Soft), 3 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0968" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100968",
+    seo: {
+      title: "TheraPutty Exercise Putty — Red (Soft), 3 oz (FAB 10-0968) | GM Therapy",
+      description: "Hand-therapy exercise putty — Red (Soft)",
+    },
+  },
+
+  "432": {
+    productId: "432",
+    slug: "sup-r-band-latex-free-exercise-band-green-medium-50-yd-dispe",
+    tagline: "Sup-R Band latex-free resistance band — Green (Medium)",
+    overview: [
+      "Sup-R Band Latex-Free Exercise Band — Green (Medium), 50 yd Dispenser — Sup-R Band latex-free resistance band — Green (Medium).",
+      "50 yard dispenser roll Cuts to any length for clinical or home use.",
+    ],
+    highlights: [
+      "Sup-R Band latex-free resistance band — Green (Medium)",
+      "50 yard dispenser roll",
+      "Cuts to any length for clinical or home use",
+      "Color-coded progressive resistance",
+      "Premium latex-free band — superior tear resistance vs economy bands",
+      "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6323.jpg", alt: "Sup-R Band Latex-Free Exercise Band — Green (Medium), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-6323" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106323",
+    seo: {
+      title: "Sup-R Band Latex-Free Exercise Band — Green (Medium), 50 yd Dispenser (FAB 10-6323) | GM Therapy",
+      description: "Sup-R Band latex-free resistance band — Green (Medium)",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
