@@ -9,6 +9,10 @@ const Footer = () => (
           <img
             src={logo}
             alt="GM Therapy Solutions"
+            width={200}
+            height={64}
+            loading="lazy"
+            decoding="async"
             className="h-16 w-auto object-contain bg-background/95 p-2 rounded mb-3"
           />
           <p className="text-sm opacity-70">
