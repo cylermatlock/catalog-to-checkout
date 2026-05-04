@@ -36,7 +36,12 @@ const ProductDetail = () => {
   };
 
   const canonical = `https://products.gmtherapytx.com/product/${product.id}`;
-  const ogImage = detail.gallery[0]?.src;
+  const rawOgImage = detail.gallery[0]?.src;
+  const ogImage = rawOgImage
+    ? rawOgImage.startsWith("http")
+      ? rawOgImage
+      : `https://products.gmtherapytx.com${rawOgImage.startsWith("/") ? "" : "/"}${rawOgImage}`
+    : "https://products.gmtherapytx.com/og-image.jpg";
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -45,11 +50,16 @@ const ProductDetail = () => {
         <meta name="description" content={detail.seo.description} />
         <link rel="canonical" href={canonical} />
         <meta property="og:type" content="product" />
+        <meta property="og:site_name" content="GM Therapy Solutions" />
         <meta property="og:title" content={detail.seo.title} />
         <meta property="og:description" content={detail.seo.description} />
-        {ogImage && <meta property="og:image" content={ogImage} />}
+        <meta property="og:image" content={ogImage} />
+        <meta property="og:image:alt" content={product.name} />
         <meta property="og:url" content={canonical} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={detail.seo.title} />
+        <meta name="twitter:description" content={detail.seo.description} />
+        <meta name="twitter:image" content={ogImage} />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
