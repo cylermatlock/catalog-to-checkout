@@ -106,7 +106,7 @@ const ProductDetail = () => {
               <div className="aspect-[4/3] bg-secondary rounded-lg overflow-hidden border border-border flex items-center justify-center">
                 <img
                   src={detail.gallery[activeIdx]?.src}
-                  alt={detail.gallery[activeIdx]?.alt}
+                  alt={detail.gallery[activeIdx]?.alt || `${getBrand(product)} ${product.name} — ${product.subcategory}`}
                   className="w-full h-full object-contain p-4"
                 />
               </div>
@@ -123,7 +123,7 @@ const ProductDetail = () => {
                         : "border-border hover:border-primary/50"
                     }`}
                   >
-                    <img src={img.src} alt="" loading="lazy" className="w-full h-full object-contain p-1" />
+                    <img src={img.src} alt={`${product.name} thumbnail ${i + 1}`} loading="lazy" className="w-full h-full object-contain p-1" />
                   </button>
                 ))}
               </div>
