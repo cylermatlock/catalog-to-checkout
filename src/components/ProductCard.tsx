@@ -42,7 +42,9 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
         src={image}
         alt={`${getBrand(product)} ${product.name} — ${product.subcategory} (SKU ${product.sku})`}
         className={className}
-        loading="lazy"
+        loading={featured ? "eager" : "lazy"}
+        decoding="async"
+        fetchPriority={featured ? "high" : "auto"}
       />
     );
     if (showDetails) {

@@ -44,6 +44,9 @@ const ProductDetail = () => {
         <title>{detail.seo.title}</title>
         <meta name="description" content={detail.seo.description} />
         <link rel="canonical" href={canonical} />
+        {detail.gallery[0]?.src && (
+          <link rel="preload" as="image" href={detail.gallery[0].src} fetchPriority="high" />
+        )}
         <meta property="og:type" content="product" />
         <meta property="og:site_name" content="GM Therapy Solutions" />
         <meta property="og:title" content={detail.seo.title} />
@@ -144,6 +147,8 @@ const ProductDetail = () => {
                   src={detail.gallery[activeIdx]?.src}
                   alt={detail.gallery[activeIdx]?.alt || `${getBrand(product)} ${product.name} — ${product.subcategory}`}
                   className="w-full h-full object-contain p-4"
+                  fetchPriority="high"
+                  decoding="async"
                 />
               </div>
               <div className="mt-3 grid grid-cols-5 sm:grid-cols-6 gap-2">
