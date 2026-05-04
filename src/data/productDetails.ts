@@ -13089,16 +13089,16 @@ export const productDetails: Record<string, ProductDetail> = {
   },
   "514": {
     productId: "514",
-    slug: "relief-pak-velour-cover-w-foam-standard",
-    tagline: "Velour-with-foam cover for moist heat packs",
+    slug: "relief-pak-terry-cover-w-foam-standard",
+    tagline: "Terry-with-foam cover for moist heat packs",
     overview: [
-      "Relief Pak Velour Cover w/ Foam — Standard — Velour-with-foam cover for moist heat packs. Standard size",
+      "Relief Pak Terry Cover w/ Foam — Standard — Terry-with-foam cover for moist heat packs. Standard size",
     ],
     highlights: [
-      "Velour-with-foam cover for moist heat packs", "Standard size", "Soft velour exterior with foam insulation", "Protects skin and extends pack heat retention", "Machine-washable",
+      "Terry-with-foam cover for moist heat packs", "Standard size", "Soft terry exterior with foam insulation", "Protects skin and extends pack heat retention", "Machine-washable",
     ],
     gallery: [
-      { src: "/assets/products/fab/11-1360.jpg", alt: "Relief Pak Velour Cover w/ Foam — Standard" },
+      { src: "/assets/products/fab/11-1360.jpg", alt: "Relief Pak Terry Cover w/ Foam — Standard" },
     ],
     specGroups: [
       {
@@ -13111,22 +13111,22 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://www.fab-ent.com/111360",
     seo: {
-      title: "Relief Pak Velour Cover w/ Foam — Standard (FAB 11-1360) | GM Therapy",
-      description: "Velour-with-foam cover for moist heat packs",
+      title: "Relief Pak Terry Cover w/ Foam — Standard (FAB 11-1360) | GM Therapy",
+      description: "Terry-with-foam cover for moist heat packs",
     },
   },
   "515": {
     productId: "515",
-    slug: "relief-pak-velour-cover-w-foam-neck",
-    tagline: "Velour-with-foam cover for moist heat packs",
+    slug: "relief-pak-terry-cover-w-foam-neck",
+    tagline: "Terry-with-foam cover for moist heat packs",
     overview: [
-      "Relief Pak Velour Cover w/ Foam — Neck — Velour-with-foam cover for moist heat packs. Neck contour size",
+      "Relief Pak Terry Cover w/ Foam — Neck — Terry-with-foam cover for moist heat packs. Neck contour size",
     ],
     highlights: [
-      "Velour-with-foam cover for moist heat packs", "Neck contour size", "Soft velour exterior with foam insulation", "Protects skin and extends pack heat retention", "Machine-washable",
+      "Terry-with-foam cover for moist heat packs", "Neck contour size", "Soft terry exterior with foam insulation", "Protects skin and extends pack heat retention", "Machine-washable",
     ],
     gallery: [
-      { src: "/assets/products/fab/11-1361.jpg", alt: "Relief Pak Velour Cover w/ Foam — Neck" },
+      { src: "/assets/products/fab/11-1361.jpg", alt: "Relief Pak Terry Cover w/ Foam — Neck" },
     ],
     specGroups: [
       {
@@ -13139,22 +13139,22 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://www.fab-ent.com/111361",
     seo: {
-      title: "Relief Pak Velour Cover w/ Foam — Neck (FAB 11-1361) | GM Therapy",
-      description: "Velour-with-foam cover for moist heat packs",
+      title: "Relief Pak Terry Cover w/ Foam — Neck (FAB 11-1361) | GM Therapy",
+      description: "Terry-with-foam cover for moist heat packs",
     },
   },
   "516": {
     productId: "516",
-    slug: "relief-pak-velour-cover-w-foam-oversize",
-    tagline: "Velour-with-foam cover for moist heat packs",
+    slug: "relief-pak-terry-cover-w-foam-oversize",
+    tagline: "Terry-with-foam cover for moist heat packs",
     overview: [
-      "Relief Pak Velour Cover w/ Foam — Oversize — Velour-with-foam cover for moist heat packs. Oversize for back, hips, or shoulders",
+      "Relief Pak Terry Cover w/ Foam — Oversize — Terry-with-foam cover for moist heat packs. Oversize for back, hips, or shoulders",
     ],
     highlights: [
-      "Velour-with-foam cover for moist heat packs", "Oversize for back, hips, or shoulders", "Soft velour exterior with foam insulation", "Protects skin and extends pack heat retention", "Machine-washable",
+      "Terry-with-foam cover for moist heat packs", "Oversize for back, hips, or shoulders", "Soft terry exterior with foam insulation", "Protects skin and extends pack heat retention", "Machine-washable",
     ],
     gallery: [
-      { src: "/assets/products/fab/11-1362.jpg", alt: "Relief Pak Velour Cover w/ Foam — Oversize" },
+      { src: "/assets/products/fab/11-1362.jpg", alt: "Relief Pak Terry Cover w/ Foam — Oversize" },
     ],
     specGroups: [
       {
@@ -13167,8 +13167,8 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://www.fab-ent.com/111362",
     seo: {
-      title: "Relief Pak Velour Cover w/ Foam — Oversize (FAB 11-1362) | GM Therapy",
-      description: "Velour-with-foam cover for moist heat packs",
+      title: "Relief Pak Terry Cover w/ Foam — Oversize (FAB 11-1362) | GM Therapy",
+      description: "Terry-with-foam cover for moist heat packs",
     },
   },
   "517": {
@@ -13395,62 +13395,6 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Sup-R Band latex-free resistance band — Silver (XX-Heavy)",
     },
   },
-  "526": {
-    productId: "526",
-    slug: "disposable-baseline-tactile-monofilament-evaluator-5-07-10g-20-pack-leap",
-    tagline: "Disposable monofilament evaluator — 5.07 (10 gram)",
-    overview: [
-      "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20-pack (LEAP) — Disposable monofilament evaluator — 5.07 (10 gram).",
-    ],
-    highlights: [
-      "Disposable tactile monofilament evaluator", "5.07 (10 gram) calibration", "20 evaluators per pack — LEAP program", "Used for diabetic foot screening", "Single-use for infection control",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/12-1670-20.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20-pack (LEAP)" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Evaluation" },
-          { label: "SKU", value: "FAB 12-1670-20" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/121670-20",
-    seo: {
-      title: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20-pack (LEAP) (FAB 12-1670-20) | GM Therapy",
-      description: "Disposable monofilament evaluator — 5.07 (10 gram)",
-    },
-  },
-  "527": {
-    productId: "527",
-    slug: "cando-7-day-pill-organizer",
-    tagline: "Weekly pill organizer for medication management",
-    overview: [
-      "CanDo 7-Day Pill Organizer — Weekly pill organizer for medication management.",
-    ],
-    highlights: [
-      "7-day pill organizer", "Helps maintain medication adherence", "Easy-open compartments", "Color-coded daily slots", "Compact and portable",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/85-0101.jpg", alt: "CanDo 7-Day Pill Organizer" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "ADL" },
-          { label: "SKU", value: "FAB 85-0101" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/850101",
-    seo: {
-      title: "CanDo 7-Day Pill Organizer (FAB 85-0101) | GM Therapy",
-      description: "Weekly pill organizer for medication management",
-    },
-  },
   "528": {
     productId: "528",
     slug: "disposable-baseline-tactile-monofilament-evaluator-5-07-10g-40-pack-ada",
@@ -13477,62 +13421,6 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 40-pack (ADA) (FAB 12-1671-40) | GM Therapy",
       description: "Disposable monofilament evaluator — 40 pack",
-    },
-  },
-  "529": {
-    productId: "529",
-    slug: "cando-kegel-kit",
-    tagline: "Pelvic floor exercise weight kit",
-    overview: [
-      "CanDo Kegel Kit — Pelvic floor exercise weight kit.",
-    ],
-    highlights: [
-      "Kegel exercise weight kit", "Progressive resistance pelvic floor training", "Helps with bladder control", "Discreet and easy to use", "Includes multiple weight levels",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/13-4225.jpg", alt: "CanDo Kegel Kit" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Modalities" },
-          { label: "SKU", value: "FAB 13-4225" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/134225",
-    seo: {
-      title: "CanDo Kegel Kit (FAB 13-4225) | GM Therapy",
-      description: "Pelvic floor exercise weight kit",
-    },
-  },
-  "530": {
-    productId: "530",
-    slug: "disposable-baseline-tactile-monofilament-evaluator-w-sleeve-5-07-10g-leap",
-    tagline: "Single disposable monofilament with sleeve",
-    overview: [
-      "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP — Single disposable monofilament with sleeve.",
-    ],
-    highlights: [
-      "Disposable tactile monofilament with protective sleeve", "5.07 (10 gram) calibration", "LEAP protocol screening", "Diabetic foot sensation testing", "Single-use sterile evaluator",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/12-1670.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Evaluation" },
-          { label: "SKU", value: "FAB 12-1670" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/121670",
-    seo: {
-      title: "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP (FAB 12-1670) | GM Therapy",
-      description: "Single disposable monofilament with sleeve",
     },
   },
   "531": {
@@ -13731,34 +13619,6 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Premium 2\" round self-adhesive electrodes",
     },
   },
-  "538": {
-    productId: "538",
-    slug: "hot-water-bottle-2-quart",
-    tagline: "Classic 2-quart rubber hot water bottle",
-    overview: [
-      "Hot Water Bottle — 2 Quart — Classic 2-quart rubber hot water bottle.",
-    ],
-    highlights: [
-      "2-quart capacity", "Durable rubber construction", "Provides moist heat therapy", "Reusable and refillable", "Soothes muscle aches and cramps",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/11-1140.jpg", alt: "Hot Water Bottle — 2 Quart" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Hot & Cold Therapy" },
-          { label: "SKU", value: "FAB 11-1140" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/111140",
-    seo: {
-      title: "Hot Water Bottle — 2 Quart (FAB 11-1140) | GM Therapy",
-      description: "Classic 2-quart rubber hot water bottle",
-    },
-  },
   "539": {
     productId: "539",
     slug: "atx-ankle-wrap-large",
@@ -13901,16 +13761,16 @@ export const productDetails: Record<string, ProductDetail> = {
   },
   "544": {
     productId: "544",
-    slug: "relief-pak-heat-pack-cover-velour-with-foam-standard-with-pocket",
+    slug: "relief-pak-heat-pack-cover-terry-with-foam-standard-with-pocket",
     tagline: "Standard hydrocollator pack cover with pocket",
     overview: [
-      "Relief Pak Heat Pack Cover — Velour with Foam, Standard with Pocket — Standard hydrocollator pack cover with pocket.",
+      "Relief Pak Heat Pack Cover — Terry with Foam, Standard with Pocket — Standard hydrocollator pack cover with pocket.",
     ],
     highlights: [
-      "Relief Pak moist heat pack cover", "Velour exterior with foam insulation", "Standard size with pocket", "Insulates patient from hot pack", "Machine washable",
+      "Relief Pak moist heat pack cover", "Terry exterior with foam insulation", "Standard size with pocket", "Insulates patient from hot pack", "Machine washable",
     ],
     gallery: [
-      { src: "/assets/products/fab/11-1364.jpg", alt: "Relief Pak Heat Pack Cover — Velour with Foam, Standard with Pocket" },
+      { src: "/assets/products/fab/11-1364.jpg", alt: "Relief Pak Heat Pack Cover — Terry with Foam, Standard with Pocket" },
     ],
     specGroups: [
       {
@@ -13923,7 +13783,7 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://www.fab-ent.com/111364",
     seo: {
-      title: "Relief Pak Heat Pack Cover — Velour with Foam, Standard with Pocket (FAB 11-1364) | GM Therapy",
+      title: "Relief Pak Heat Pack Cover — Terry with Foam, Standard with Pocket (FAB 11-1364) | GM Therapy",
       description: "Standard hydrocollator pack cover with pocket",
     },
   },
@@ -13957,16 +13817,16 @@ export const productDetails: Record<string, ProductDetail> = {
   },
   "546": {
     productId: "546",
-    slug: "relief-pak-heat-pack-cover-all-velour-standard",
-    tagline: "Standard all-velour hydrocollator pack cover",
+    slug: "relief-pak-heat-pack-cover-all-terry-standard",
+    tagline: "Standard all-terry hydrocollator pack cover",
     overview: [
-      "Relief Pak Heat Pack Cover — All Velour, Standard — Standard all-velour hydrocollator pack cover.",
+      "Relief Pak Heat Pack Cover — All Terry, Standard — Standard all-terry hydrocollator pack cover.",
     ],
     highlights: [
-      "Relief Pak moist heat pack cover", "All-velour construction", "Standard size", "Soft, comfortable contact surface", "Machine washable",
+      "Relief Pak moist heat pack cover", "All-terry construction", "Standard size", "Soft, comfortable contact surface", "Machine washable",
     ],
     gallery: [
-      { src: "/assets/products/fab/11-1366.jpg", alt: "Relief Pak Heat Pack Cover — All Velour, Standard" },
+      { src: "/assets/products/fab/11-1366.jpg", alt: "Relief Pak Heat Pack Cover — All Terry, Standard" },
     ],
     specGroups: [
       {
@@ -13979,22 +13839,22 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://www.fab-ent.com/111366",
     seo: {
-      title: "Relief Pak Heat Pack Cover — All Velour, Standard (FAB 11-1366) | GM Therapy",
-      description: "Standard all-velour hydrocollator pack cover",
+      title: "Relief Pak Heat Pack Cover — All Terry, Standard (FAB 11-1366) | GM Therapy",
+      description: "Standard all-terry hydrocollator pack cover",
     },
   },
   "547": {
     productId: "547",
-    slug: "relief-pak-heat-pack-cover-all-velour-neck",
-    tagline: "Neck-shape all-velour hydrocollator pack cover",
+    slug: "relief-pak-heat-pack-cover-all-terry-neck",
+    tagline: "Neck-shape all-terry hydrocollator pack cover",
     overview: [
-      "Relief Pak Heat Pack Cover — All Velour, Neck — Neck-shape all-velour hydrocollator pack cover.",
+      "Relief Pak Heat Pack Cover — All Terry, Neck — Neck-shape all-terry hydrocollator pack cover.",
     ],
     highlights: [
-      "Relief Pak moist heat pack cover", "All-velour construction", "Neck (cervical) shape", "Soft, comfortable contact surface", "Machine washable",
+      "Relief Pak moist heat pack cover", "All-terry construction", "Neck (cervical) shape", "Soft, comfortable contact surface", "Machine washable",
     ],
     gallery: [
-      { src: "/assets/products/fab/11-1367.jpg", alt: "Relief Pak Heat Pack Cover — All Velour, Neck" },
+      { src: "/assets/products/fab/11-1367.jpg", alt: "Relief Pak Heat Pack Cover — All Terry, Neck" },
     ],
     specGroups: [
       {
@@ -14007,22 +13867,22 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://www.fab-ent.com/111367",
     seo: {
-      title: "Relief Pak Heat Pack Cover — All Velour, Neck (FAB 11-1367) | GM Therapy",
-      description: "Neck-shape all-velour hydrocollator pack cover",
+      title: "Relief Pak Heat Pack Cover — All Terry, Neck (FAB 11-1367) | GM Therapy",
+      description: "Neck-shape all-terry hydrocollator pack cover",
     },
   },
   "548": {
     productId: "548",
-    slug: "relief-pak-heat-pack-cover-all-velour-oversize",
-    tagline: "Oversize all-velour hydrocollator pack cover",
+    slug: "relief-pak-heat-pack-cover-all-terry-oversize",
+    tagline: "Oversize all-terry hydrocollator pack cover",
     overview: [
-      "Relief Pak Heat Pack Cover — All Velour, Oversize — Oversize all-velour hydrocollator pack cover.",
+      "Relief Pak Heat Pack Cover — All Terry, Oversize — Oversize all-terry hydrocollator pack cover.",
     ],
     highlights: [
-      "Relief Pak moist heat pack cover", "All-velour construction", "Oversize", "Soft, comfortable contact surface", "Machine washable",
+      "Relief Pak moist heat pack cover", "All-terry construction", "Oversize", "Soft, comfortable contact surface", "Machine washable",
     ],
     gallery: [
-      { src: "/assets/products/fab/11-1368.jpg", alt: "Relief Pak Heat Pack Cover — All Velour, Oversize" },
+      { src: "/assets/products/fab/11-1368.jpg", alt: "Relief Pak Heat Pack Cover — All Terry, Oversize" },
     ],
     specGroups: [
       {
@@ -14035,22 +13895,22 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://www.fab-ent.com/111368",
     seo: {
-      title: "Relief Pak Heat Pack Cover — All Velour, Oversize (FAB 11-1368) | GM Therapy",
-      description: "Oversize all-velour hydrocollator pack cover",
+      title: "Relief Pak Heat Pack Cover — All Terry, Oversize (FAB 11-1368) | GM Therapy",
+      description: "Oversize all-terry hydrocollator pack cover",
     },
   },
   "549": {
     productId: "549",
-    slug: "relief-pak-heat-pack-cover-all-velour-halfsize",
-    tagline: "Halfsize all-velour hydrocollator pack cover",
+    slug: "relief-pak-heat-pack-cover-all-terry-halfsize",
+    tagline: "Halfsize all-terry hydrocollator pack cover",
     overview: [
-      "Relief Pak Heat Pack Cover — All Velour, Halfsize — Halfsize all-velour hydrocollator pack cover.",
+      "Relief Pak Heat Pack Cover — All Terry, Halfsize — Halfsize all-terry hydrocollator pack cover.",
     ],
     highlights: [
-      "Relief Pak moist heat pack cover", "All-velour construction", "Halfsize", "Soft, comfortable contact surface", "Machine washable",
+      "Relief Pak moist heat pack cover", "All-terry construction", "Halfsize", "Soft, comfortable contact surface", "Machine washable",
     ],
     gallery: [
-      { src: "/assets/products/fab/11-1369.jpg", alt: "Relief Pak Heat Pack Cover — All Velour, Halfsize" },
+      { src: "/assets/products/fab/11-1369.jpg", alt: "Relief Pak Heat Pack Cover — All Terry, Halfsize" },
     ],
     specGroups: [
       {
@@ -14063,8 +13923,8 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://www.fab-ent.com/111369",
     seo: {
-      title: "Relief Pak Heat Pack Cover — All Velour, Halfsize (FAB 11-1369) | GM Therapy",
-      description: "Halfsize all-velour hydrocollator pack cover",
+      title: "Relief Pak Heat Pack Cover — All Terry, Halfsize (FAB 11-1369) | GM Therapy",
+      description: "Halfsize all-terry hydrocollator pack cover",
     },
   },
   "550": {
