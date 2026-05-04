@@ -10693,40 +10693,6 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
-  "415": {
-    productId: "415",
-    slug: "val-u-band-latex-free-exercise-band-lime-level-3-50-yd-dispe",
-    tagline: "Val-u-Band latex-free resistance band — Lime / Level 3",
-    overview: [
-      "Val-u-Band Latex-Free Exercise Band — Lime (Level 3), 50 yd Dispenser — Val-u-Band latex-free resistance band — Lime / Level 3.",
-      "50 yard dispenser roll Cuts to any length for clinical or home use.",
-    ],
-    highlights: [
-      "Val-u-Band latex-free resistance band — Lime / Level 3",
-      "50 yard dispenser roll",
-      "Cuts to any length for clinical or home use",
-      "Color-coded progressive resistance",
-      "Economy alternative to TheraBand",
-      "Safe for patients with latex allergies",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/10-6123.jpg", alt: "Val-u-Band Latex-Free Exercise Band — Lime (Level 3), 50 yd Dispenser" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Bands & Tubing" },
-          { label: "SKU", value: "FAB 10-6123" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/106123",
-    seo: {
-      title: "Val-u-Band Latex-Free Exercise Band — Lime (Level 3), 50 yd Dispenser (FAB 10-6123) | GM Therapy",
-      description: "Val-u-Band latex-free resistance band — Lime / Level 3",
-    },
-  },
 
   "416": {
     productId: "416",
@@ -12643,34 +12609,6 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "Baseline Hydraulic Hand Dynamometer — Digital LCD, ER 300 lb (FAB 12-0247) | GM Therapy",
       description: "Baseline hydraulic hand dynamometer",
-    },
-  },
-  "492": {
-    productId: "492",
-    slug: "val-u-band-latex-free-resistance-band-plum-5-50-yd",
-    tagline: "Val-u-Band latex-free resistance band — Plum (Level 5)",
-    overview: [
-      "Val-u-Band Latex-Free Resistance Band — Plum (5), 50 yd — Val-u-Band latex-free resistance band — Plum (Level 5). 50 yard roll",
-    ],
-    highlights: [
-      "Val-u-Band latex-free resistance band — Plum (Level 5)", "50 yard roll", "Economy alternative to TheraBand", "Color-coded progressive resistance", "Safe for patients with latex allergies",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/10-6125.jpg", alt: "Val-u-Band Latex-Free Resistance Band — Plum (5), 50 yd" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Bands & Tubing" },
-          { label: "SKU", value: "FAB 10-6125" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/106125",
-    seo: {
-      title: "Val-u-Band Latex-Free Resistance Band — Plum (5), 50 yd (FAB 10-6125) | GM Therapy",
-      description: "Val-u-Band latex-free resistance band — Plum (Level 5)",
     },
   },
   "493": {
