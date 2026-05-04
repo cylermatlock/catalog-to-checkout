@@ -11805,6 +11805,706 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Hand-therapy exercise putty \u2014 Green (Medium)",
     },
   },
+  "451": {
+    productId: "451",
+    slug: "disposable-baseline-tactile-monofilament-evaluator-5-07-10g-20-pack-leap",
+    tagline: "Disposable 5.07 (10g) tactile monofilament evaluator",
+    overview: [
+      "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20/Pack (LEAP) — Disposable 5.07 (10g) tactile monofilament evaluator. 20-pack — LEAP protocol.",
+    ],
+    highlights: [
+      "Disposable 5.07 (10g) tactile monofilament evaluator", "20-pack — LEAP protocol", "Single-patient use — prevents cross-contamination", "Standard for diabetic foot screening", "Detects loss of protective sensation",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1670-20.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20/Pack (LEAP)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1670-20" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121670-20",
+    seo: {
+      title: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 20/Pack (LEAP) (FAB 12-1670-20) | GM Therapy",
+      description: "Disposable 5.07 (10g) tactile monofilament evaluator",
+    },
+  },
+  "452": {
+    productId: "452",
+    slug: "cando-7-day-pill-organizer",
+    tagline: "7-day pill organizer",
+    overview: [
+      "CanDo 7-Day Pill Organizer — 7-day pill organizer. Clear hinged lids — easy to see contents.",
+    ],
+    highlights: [
+      "7-day pill organizer", "Clear hinged lids — easy to see contents", "Helps patients manage daily medication regimens", "Compact, portable design", "Standard clinical ADL aid",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/85-0101.jpg", alt: "CanDo 7-Day Pill Organizer" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 85-0101" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/850101",
+    seo: {
+      title: "CanDo 7-Day Pill Organizer (FAB 85-0101) | GM Therapy",
+      description: "7-day pill organizer",
+    },
+  },
+  "453": {
+    productId: "453",
+    slug: "disposable-baseline-tactile-monofilament-evaluator-5-07-10g-40-pack-ada",
+    tagline: "Disposable 5.07 (10g) tactile monofilament evaluator",
+    overview: [
+      "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 40/Pack (ADA) — Disposable 5.07 (10g) tactile monofilament evaluator. 40-pack — ADA protocol.",
+    ],
+    highlights: [
+      "Disposable 5.07 (10g) tactile monofilament evaluator", "40-pack — ADA protocol", "Single-patient use — prevents cross-contamination", "Standard for diabetic foot screening", "Detects loss of protective sensation",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1671-40.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 40/Pack (ADA)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1671-40" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121671-40",
+    seo: {
+      title: "Disposable Baseline Tactile Monofilament Evaluator — 5.07 (10g), 40/Pack (ADA) (FAB 12-1671-40) | GM Therapy",
+      description: "Disposable 5.07 (10g) tactile monofilament evaluator",
+    },
+  },
+  "454": {
+    productId: "454",
+    slug: "cando-exercise-band-loop-red-light-10",
+    tagline: "Pre-made latex exercise band loop",
+    overview: [
+      "CanDo Exercise Band Loop — Red (Light), 10\" — Pre-made latex exercise band loop. 10\" length — Red / Light resistance.",
+    ],
+    highlights: [
+      "Pre-made latex exercise band loop", "10\" length — Red / Light resistance", "Color-coded progressive resistance", "Ideal for hip, glute, and lower-extremity activation", "Convenient closed-loop design — no tying required", "Sold individually",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5252.jpg", alt: "CanDo Exercise Band Loop — Red (Light), 10\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5252" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105252",
+    seo: {
+      title: "CanDo Exercise Band Loop — Red (Light), 10\" (FAB 10-5252) | GM Therapy",
+      description: "Pre-made latex exercise band loop",
+    },
+  },
+  "455": {
+    productId: "455",
+    slug: "cando-kegel-kit",
+    tagline: "Pelvic floor / Kegel exerciser kit",
+    overview: [
+      "CanDo Kegel Kit — Pelvic floor / Kegel exerciser kit. Progressive resistance for pelvic floor strengthening.",
+    ],
+    highlights: [
+      "Pelvic floor / Kegel exerciser kit", "Progressive resistance for pelvic floor strengthening", "Discreet, easy-to-use design", "Includes instructional materials", "Ideal for incontinence and post-partum rehab",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-4225.jpg", alt: "CanDo Kegel Kit" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 13-4225" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/134225",
+    seo: {
+      title: "CanDo Kegel Kit (FAB 13-4225) | GM Therapy",
+      description: "Pelvic floor / Kegel exerciser kit",
+    },
+  },
+  "456": {
+    productId: "456",
+    slug: "disposable-baseline-tactile-monofilament-evaluator-w-sleeve-5-07-10g-leap",
+    tagline: "Disposable 5.07 (10g) tactile monofilament evaluator with sleeve",
+    overview: [
+      "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP — Disposable 5.07 (10g) tactile monofilament evaluator with sleeve. LEAP protocol.",
+    ],
+    highlights: [
+      "Disposable 5.07 (10g) tactile monofilament evaluator with sleeve", "LEAP protocol", "Single-patient use — prevents cross-contamination", "Standard for diabetic foot screening", "Detects loss of protective sensation",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1670.jpg", alt: "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1670" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121670",
+    seo: {
+      title: "Disposable Baseline Tactile Monofilament Evaluator w/Sleeve — 5.07 (10g), LEAP (FAB 12-1670) | GM Therapy",
+      description: "Disposable 5.07 (10g) tactile monofilament evaluator with sleeve",
+    },
+  },
+  "457": {
+    productId: "457",
+    slug: "cando-exercise-band-loop-green-medium-10",
+    tagline: "Pre-made latex exercise band loop",
+    overview: [
+      "CanDo Exercise Band Loop — Green (Medium), 10\" — Pre-made latex exercise band loop. 10\" length — Green / Medium resistance.",
+    ],
+    highlights: [
+      "Pre-made latex exercise band loop", "10\" length — Green / Medium resistance", "Color-coded progressive resistance", "Ideal for hip, glute, and lower-extremity activation", "Convenient closed-loop design — no tying required", "Sold individually",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5253.jpg", alt: "CanDo Exercise Band Loop — Green (Medium), 10\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5253" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105253",
+    seo: {
+      title: "CanDo Exercise Band Loop — Green (Medium), 10\" (FAB 10-5253) | GM Therapy",
+      description: "Pre-made latex exercise band loop",
+    },
+  },
+  "458": {
+    productId: "458",
+    slug: "dycem-non-slip-material-roll-blue-16-x-6-5-ft",
+    tagline: "Non-slip Dycem material roll — Blue",
+    overview: [
+      "Dycem Non-Slip Material Roll — Blue, 16\" x 6.5 ft — Non-slip Dycem material roll — Blue. 16\" wide x 6.5 foot length.",
+    ],
+    highlights: [
+      "Non-slip Dycem material roll — Blue", "16\" wide x 6.5 foot length", "Cuts to any size — versatile clinical aid", "Stabilizes plates, cups, books, and equipment", "Latex-free, washable, reusable", "Ideal for ADL training and patient stability",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/50-1506B.jpg", alt: "Dycem Non-Slip Material Roll — Blue, 16\" x 6.5 ft" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 50-1506B" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/501506B",
+    seo: {
+      title: "Dycem Non-Slip Material Roll — Blue, 16\" x 6.5 ft (FAB 50-1506B) | GM Therapy",
+      description: "Non-slip Dycem material roll — Blue",
+    },
+  },
+  "459": {
+    productId: "459",
+    slug: "dycem-non-slip-material-roll-blue-8-x-6-5-ft",
+    tagline: "Non-slip Dycem material roll — Blue",
+    overview: [
+      "Dycem Non-Slip Material Roll — Blue, 8\" x 6.5 ft — Non-slip Dycem material roll — Blue. 8\" wide x 6.5 foot length.",
+    ],
+    highlights: [
+      "Non-slip Dycem material roll — Blue", "8\" wide x 6.5 foot length", "Cuts to any size — versatile clinical aid", "Stabilizes plates, cups, books, and equipment", "Latex-free, washable, reusable", "Ideal for ADL training and patient stability",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/50-1501B.jpg", alt: "Dycem Non-Slip Material Roll — Blue, 8\" x 6.5 ft" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 50-1501B" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/501501B",
+    seo: {
+      title: "Dycem Non-Slip Material Roll — Blue, 8\" x 6.5 ft (FAB 50-1501B) | GM Therapy",
+      description: "Non-slip Dycem material roll — Blue",
+    },
+  },
+  "460": {
+    productId: "460",
+    slug: "iontopatch-80-ma-min-6-patches-vials",
+    tagline: "Self-contained iontophoresis patch system",
+    overview: [
+      "IontoPatch — 80 mA-min, 6 Patches/Vials — Self-contained iontophoresis patch system. 80 mA-min dose — 6 patches with drug vials.",
+    ],
+    highlights: [
+      "Self-contained iontophoresis patch system", "80 mA-min dose — 6 patches with drug vials", "Wearable — no separate stim unit required", "Ideal for localized anti-inflammatory delivery", "Single-use, disposable design", "For licensed clinicians",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/13-5220.jpg", alt: "IontoPatch — 80 mA-min, 6 Patches/Vials" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 13-5220" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/135220",
+    seo: {
+      title: "IontoPatch — 80 mA-min, 6 Patches/Vials (FAB 13-5220) | GM Therapy",
+      description: "Self-contained iontophoresis patch system",
+    },
+  },
+  "461": {
+    productId: "461",
+    slug: "theraputty-plus-antimicrobial-exercise-putty-yellow-x-soft-4-oz",
+    tagline: "Antimicrobial hand-therapy exercise putty — Yellow (X-Soft)",
+    overview: [
+      "TheraPutty Plus Antimicrobial Exercise Putty — Yellow (X-Soft), 4 oz — Antimicrobial hand-therapy exercise putty — Yellow (X-Soft). 4 oz portion.",
+    ],
+    highlights: [
+      "Antimicrobial hand-therapy exercise putty — Yellow (X-Soft)", "4 oz portion", "Built-in antimicrobial protection", "Color-coded progressive resistance", "Non-toxic, non-staining, latex-free", "Ideal for clinical / multi-patient settings",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-2621.jpg", alt: "TheraPutty Plus Antimicrobial Exercise Putty — Yellow (X-Soft), 4 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-2621" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/102621",
+    seo: {
+      title: "TheraPutty Plus Antimicrobial Exercise Putty — Yellow (X-Soft), 4 oz (FAB 10-2621) | GM Therapy",
+      description: "Antimicrobial hand-therapy exercise putty — Yellow (X-Soft)",
+    },
+  },
+  "462": {
+    productId: "462",
+    slug: "plastic-hand-foot-liners-for-paraffin-bath-100-pack",
+    tagline: "Disposable plastic liners for paraffin therapy",
+    overview: [
+      "Plastic Hand/Foot Liners for Paraffin Bath — 100/Pack — Disposable plastic liners for paraffin therapy. 100 liners per pack.",
+    ],
+    highlights: [
+      "Disposable plastic liners for paraffin therapy", "100 liners per pack", "Fits hands and feet", "Prevents cross-contamination", "Compatible with all standard paraffin baths",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1713.jpg", alt: "Plastic Hand/Foot Liners for Paraffin Bath — 100/Pack" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1713" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111713",
+    seo: {
+      title: "Plastic Hand/Foot Liners for Paraffin Bath — 100/Pack (FAB 11-1713) | GM Therapy",
+      description: "Disposable plastic liners for paraffin therapy",
+    },
+  },
+  "463": {
+    productId: "463",
+    slug: "theraputty-scented-exercise-putty-banana-yellow-x-light-2-oz",
+    tagline: "Scented hand-therapy exercise putty",
+    overview: [
+      "TheraPutty Scented Exercise Putty — Banana / Yellow (X-Light), 2 oz — Scented hand-therapy exercise putty. Banana scent — Yellow / X-Light resistance.",
+    ],
+    highlights: [
+      "Scented hand-therapy exercise putty", "Banana scent — Yellow / X-Light resistance", "2 oz portion", "Color-coded progressive resistance", "Non-toxic, non-staining, latex-free", "Engaging option for pediatric hand therapy",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-2761.jpg", alt: "TheraPutty Scented Exercise Putty — Banana / Yellow (X-Light), 2 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-2761" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/102761",
+    seo: {
+      title: "TheraPutty Scented Exercise Putty — Banana / Yellow (X-Light), 2 oz (FAB 10-2761) | GM Therapy",
+      description: "Scented hand-therapy exercise putty",
+    },
+  },
+  "464": {
+    productId: "464",
+    slug: "cando-inflatable-sitting-wedge-child",
+    tagline: "Inflatable sitting wedge — child size",
+    overview: [
+      "CanDo Inflatable Sitting Wedge — Child — Inflatable sitting wedge — child size. Promotes active sitting and core engagement.",
+    ],
+    highlights: [
+      "Inflatable sitting wedge — child size", "Promotes active sitting and core engagement", "Adjustable inflation for variable instability", "Textured top surface for sensory input", "Ideal for classroom, therapy, and home use",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-1926.jpg", alt: "CanDo Inflatable Sitting Wedge — Child" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Balance" },
+          { label: "SKU", value: "FAB 30-1926" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/301926",
+    seo: {
+      title: "CanDo Inflatable Sitting Wedge — Child (FAB 30-1926) | GM Therapy",
+      description: "Inflatable sitting wedge — child size",
+    },
+  },
+  "465": {
+    productId: "465",
+    slug: "theraputty-exercise-putty-yellow-x-soft-1-lb",
+    tagline: "Hand-therapy exercise putty — Yellow (X-Soft)",
+    overview: [
+      "TheraPutty Exercise Putty — Yellow (X-Soft), 1 lb — Hand-therapy exercise putty — Yellow (X-Soft). 1 lb bulk size for clinic use.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty — Yellow (X-Soft)", "1 lb bulk size for clinic use", "Color-coded progressive resistance", "Non-toxic, non-staining, latex-free", "Cost-effective for high-volume rehab", "Ideal for early-stage hand rehab",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0918.jpg", alt: "TheraPutty Exercise Putty — Yellow (X-Soft), 1 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0918" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100918",
+    seo: {
+      title: "TheraPutty Exercise Putty — Yellow (X-Soft), 1 lb (FAB 10-0918) | GM Therapy",
+      description: "Hand-therapy exercise putty — Yellow (X-Soft)",
+    },
+  },
+  "466": {
+    productId: "466",
+    slug: "cuff-weight-4-lb-turquoise",
+    tagline: "Adjustable cuff weight — 4 lb (Turquoise)",
+    overview: [
+      "Cuff Weight — 4 lb, Turquoise — Adjustable cuff weight — 4 lb (Turquoise). Soft, comfortable nylon shell with hook-and-loop closure.",
+    ],
+    highlights: [
+      "Adjustable cuff weight — 4 lb (Turquoise)", "Soft, comfortable nylon shell with hook-and-loop closure", "Fits wrist or ankle", "Color-coded by weight for easy identification", "Ideal for gait training, ROM, and strengthening exercises",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0208.jpg", alt: "Cuff Weight — 4 lb, Turquoise" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Weights" },
+          { label: "SKU", value: "FAB 10-0208" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100208",
+    seo: {
+      title: "Cuff Weight — 4 lb, Turquoise (FAB 10-0208) | GM Therapy",
+      description: "Adjustable cuff weight — 4 lb (Turquoise)",
+    },
+  },
+  "467": {
+    productId: "467",
+    slug: "cando-hand-therapy-blocks-assorted-x-soft-firm-12-pack",
+    tagline: "Hand therapy blocks — pack of 12",
+    overview: [
+      "CanDo Hand Therapy Blocks — Assorted (X-Soft–Firm), 12 Pack — Hand therapy blocks — pack of 12. Assorted resistances: Extra-Soft through Firm.",
+    ],
+    highlights: [
+      "Hand therapy blocks — pack of 12", "Assorted resistances: Extra-Soft through Firm", "Combines compressive and pinching exercises", "Color-coded progressive resistance", "Latex-free, washable", "Ideal for hand and finger rehabilitation",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-2468.jpg", alt: "CanDo Hand Therapy Blocks — Assorted (X-Soft–Firm), 12 Pack" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-2468" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/102468",
+    seo: {
+      title: "CanDo Hand Therapy Blocks — Assorted (X-Soft–Firm), 12 Pack (FAB 10-2468) | GM Therapy",
+      description: "Hand therapy blocks — pack of 12",
+    },
+  },
+  "468": {
+    productId: "468",
+    slug: "cando-high-density-black-foam-roller-6-x-36",
+    tagline: "High-density round foam roller",
+    overview: [
+      "CanDo High-Density Black Foam Roller — 6\" x 36\" — High-density round foam roller. 6\" diameter x 36\" length — full size.",
+    ],
+    highlights: [
+      "High-density round foam roller", "6\" diameter x 36\" length — full size", "Black, extra-firm density", "Maintains shape under repeated use", "Ideal for myofascial release, balance, and core training",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-2280.jpg", alt: "CanDo High-Density Black Foam Roller — 6\" x 36\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Foam Rollers" },
+          { label: "SKU", value: "FAB 30-2280" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/302280",
+    seo: {
+      title: "CanDo High-Density Black Foam Roller — 6\" x 36\" (FAB 30-2280) | GM Therapy",
+      description: "High-density round foam roller",
+    },
+  },
+  "469": {
+    productId: "469",
+    slug: "sup-r-band-latex-free-exercise-band-blue-heavy-50-yd-dispenser",
+    tagline: "Sup-R Band latex-free resistance band — Blue (Heavy)",
+    overview: [
+      "Sup-R Band Latex-Free Exercise Band — Blue (Heavy), 50 yd Dispenser — Sup-R Band latex-free resistance band — Blue (Heavy). 50 yard dispenser roll.",
+    ],
+    highlights: [
+      "Sup-R Band latex-free resistance band — Blue (Heavy)", "50 yard dispenser roll", "Cuts to any length for clinical or home use", "Color-coded progressive resistance", "Premium latex-free band — superior tear resistance vs economy bands", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6324.jpg", alt: "Sup-R Band Latex-Free Exercise Band — Blue (Heavy), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-6324" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106324",
+    seo: {
+      title: "Sup-R Band Latex-Free Exercise Band — Blue (Heavy), 50 yd Dispenser (FAB 10-6324) | GM Therapy",
+      description: "Sup-R Band latex-free resistance band — Blue (Heavy)",
+    },
+  },
+  "470": {
+    productId: "470",
+    slug: "airex-fitline-180-mat-charcoal-23-x-72-x-0-4-with-eyelets",
+    tagline: "Airex Fitline 180 exercise mat — Charcoal",
+    overview: [
+      "Airex Fitline 180 Mat — Charcoal, 23\" x 72\" x 0.4\" with Eyelets — Airex Fitline 180 exercise mat — Charcoal. 23\" x 72\" x 0.4\" thick.",
+    ],
+    highlights: [
+      "Airex Fitline 180 exercise mat — Charcoal", "23\" x 72\" x 0.4\" thick", "Closed-cell foam construction", "Eyelets (grommets) for hanging storage", "Non-slip, washable surface", "Ideal for floor exercise, Pilates, and rehab",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/32-1247C-EYE.jpg", alt: "Airex Fitline 180 Mat — Charcoal, 23\" x 72\" x 0.4\" with Eyelets" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Mats" },
+          { label: "SKU", value: "FAB 32-1247C-EYE" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/321247C-EYE",
+    seo: {
+      title: "Airex Fitline 180 Mat — Charcoal, 23\" x 72\" x 0.4\" with Eyelets (FAB 32-1247C-EYE) | GM Therapy",
+      description: "Airex Fitline 180 exercise mat — Charcoal",
+    },
+  },
+  "471": {
+    productId: "471",
+    slug: "baseline-sit-and-reach-box",
+    tagline: "Standard sit-and-reach flexibility test box",
+    overview: [
+      "Baseline Sit-and-Reach Box — Standard sit-and-reach flexibility test box. Assesses lower-back and hamstring flexibility.",
+    ],
+    highlights: [
+      "Standard sit-and-reach flexibility test box", "Assesses lower-back and hamstring flexibility", "Sliding measurement scale", "Used in fitness assessments and PE programs", "Standard clinical evaluation tool",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1085.jpg", alt: "Baseline Sit-and-Reach Box" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1085" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121085",
+    seo: {
+      title: "Baseline Sit-and-Reach Box (FAB 12-1085) | GM Therapy",
+      description: "Standard sit-and-reach flexibility test box",
+    },
+  },
+  "472": {
+    productId: "472",
+    slug: "cuff-weight-set-9-pieces-1-1-5-2-2-5-3-4-5-7-5-10-lb",
+    tagline: "Complete cuff weight set — 9 pieces",
+    overview: [
+      "Cuff Weight Set — 9 Pieces (1, 1.5, 2, 2.5, 3, 4, 5, 7.5, 10 lb) — Complete cuff weight set — 9 pieces. One each: 1, 1.5, 2, 2.5, 3, 4, 5, 7.5, 10 lb.",
+    ],
+    highlights: [
+      "Complete cuff weight set — 9 pieces", "One each: 1, 1.5, 2, 2.5, 3, 4, 5, 7.5, 10 lb", "Color-coded by weight", "Soft nylon shell with hook-and-loop closure", "Fits wrist or ankle", "Ideal for clinical strengthening programs",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0274.jpg", alt: "Cuff Weight Set — 9 Pieces (1, 1.5, 2, 2.5, 3, 4, 5, 7.5, 10 lb)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Weights" },
+          { label: "SKU", value: "FAB 10-0274" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100274",
+    seo: {
+      title: "Cuff Weight Set — 9 Pieces (1, 1.5, 2, 2.5, 3, 4, 5, 7.5, 10 lb) (FAB 10-0274) | GM Therapy",
+      description: "Complete cuff weight set — 9 pieces",
+    },
+  },
+  "473": {
+    productId: "473",
+    slug: "dycem-non-slip-material-roll-blue-8-x-10-yd",
+    tagline: "Non-slip Dycem material roll — Blue",
+    overview: [
+      "Dycem Non-Slip Material Roll — Blue, 8\" x 10 yd — Non-slip Dycem material roll — Blue. 8\" wide x 10 yard length — bulk size.",
+    ],
+    highlights: [
+      "Non-slip Dycem material roll — Blue", "8\" wide x 10 yard length — bulk size", "Cuts to any size — versatile clinical aid", "Stabilizes plates, cups, books, and equipment", "Latex-free, washable, reusable", "Ideal for ADL training and patient stability",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/50-1500B.jpg", alt: "Dycem Non-Slip Material Roll — Blue, 8\" x 10 yd" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 50-1500B" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/501500B",
+    seo: {
+      title: "Dycem Non-Slip Material Roll — Blue, 8\" x 10 yd (FAB 50-1500B) | GM Therapy",
+      description: "Non-slip Dycem material roll — Blue",
+    },
+  },
+  "474": {
+    productId: "474",
+    slug: "cando-latex-free-exercise-band-black-x-heavy-50-yd-dispenser",
+    tagline: "Latex-free resistance band — Black (X-Heavy)",
+    overview: [
+      "CanDo Latex-Free Exercise Band — Black (X-Heavy), 50 yd Dispenser — Latex-free resistance band — Black (X-Heavy). 50 yard dispenser roll.",
+    ],
+    highlights: [
+      "Latex-free resistance band — Black (X-Heavy)", "50 yard dispenser roll", "Cuts to any length for clinical or home use", "Color-coded progressive resistance", "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5625.jpg", alt: "CanDo Latex-Free Exercise Band — Black (X-Heavy), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5625" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105625",
+    seo: {
+      title: "CanDo Latex-Free Exercise Band — Black (X-Heavy), 50 yd Dispenser (FAB 10-5625) | GM Therapy",
+      description: "Latex-free resistance band — Black (X-Heavy)",
+    },
+  },
+  "475": {
+    productId: "475",
+    slug: "hot-water-bottle-2-quart",
+    tagline: "Standard rubber hot water bottle",
+    overview: [
+      "Hot Water Bottle — 2 Quart — Standard rubber hot water bottle. 2 quart capacity.",
+    ],
+    highlights: [
+      "Standard rubber hot water bottle", "2 quart capacity", "Provides soothing heat therapy", "Durable, leak-resistant construction", "Ideal for muscle relaxation and pain relief",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1140.jpg", alt: "Hot Water Bottle — 2 Quart" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1140" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/111140",
+    seo: {
+      title: "Hot Water Bottle — 2 Quart (FAB 11-1140) | GM Therapy",
+      description: "Standard rubber hot water bottle",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
