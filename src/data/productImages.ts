@@ -427,7 +427,7 @@ export const productImages: Record<string, string> = {
   "434": productAsset("fab/86-0040.jpg"),
   "436": productAsset("fab/11-1720-6.jpg"),
   "437": productAsset("fab/10-5224.jpg?v=2"),
-  "439": productAsset("fab/10-0920.jpg"),
+  "439": productAsset("fab/10-0920.jpg?v=2"),
   "440": productAsset("fab/10-6322.jpg"),
   "441": productAsset("fab/12-1500.jpg"),
   "442": productAsset("fab/12-1935.jpg"),
