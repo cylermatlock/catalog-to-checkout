@@ -1,5 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { products, categories, type Product } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
@@ -146,8 +147,33 @@ const Products = () => {
     return matched;
   }, [selectedCategory, selectedSub, selectedBrand, bswOnly, search]);
 
+  // Dynamic SEO meta based on active filters.
+  const seo = useMemo(() => {
+    const parts: string[] = [];
+    if (selectedBrand !== "All") parts.push(selectedBrand);
+    if (selectedSub !== "All") parts.push(selectedSub);
+    else if (selectedCategory !== "All") parts.push(selectedCategory);
+    const scope = parts.length ? parts.join(" ") : "PT & Rehab Equipment";
+    const title = `${scope} | GM Therapy Solutions`;
+    const description =
+      `Browse ${filtered.length}+ ${scope.toLowerCase()} products from GM Therapy Solutions — ` +
+      `clinical pricing on rehab tables, modalities, cardio, strength, and clinical supplies. Texas-based dealer.`;
+    return { title: title.slice(0, 60), description: description.slice(0, 160) };
+  }, [selectedCategory, selectedSub, selectedBrand, filtered.length]);
+
+  const canonical = `https://products.gmtherapytx.com${location.pathname}${location.search}`;
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <Helmet>
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
+        <link rel="canonical" href={canonical} />
+        <meta property="og:title" content={seo.title} />
+        <meta property="og:description" content={seo.description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={canonical} />
+      </Helmet>
       <Header />
 
       {/* Hero */}

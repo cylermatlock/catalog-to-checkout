@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import { products } from "@/data/products";
 import { productDetails } from "@/data/productDetails";
 import { useCart } from "@/contexts/CartContext";
+import { getBrand } from "@/lib/brand";
 import { toast } from "sonner";
 
 const ProductDetail = () => {
@@ -55,10 +56,27 @@ const ProductDetail = () => {
             "@type": "Product",
             name: product.name,
             sku: product.sku,
+            mpn: product.sku,
             category: `${product.category} > ${product.subcategory}`,
             description: detail.tagline,
             image: detail.gallery.map((g) => g.src),
-            brand: { "@type": "Brand", name: "NuStep" },
+            brand: { "@type": "Brand", name: getBrand(product) },
+            offers: {
+              "@type": "Offer",
+              url: canonical,
+              priceCurrency: "USD",
+              availability: "https://schema.org/InStock",
+              priceSpecification: {
+                "@type": "PriceSpecification",
+                priceCurrency: "USD",
+                description: "Contact for pricing",
+              },
+              seller: {
+                "@type": "Organization",
+                name: "GM Therapy Solutions",
+                url: "https://products.gmtherapytx.com",
+              },
+            },
           })}
         </script>
       </Helmet>
