@@ -50,6 +50,7 @@ const Footer = () => (
             <a href="https://gmtherapytx.com/services" className="block hover:text-primary">Services</a>
             <a href="https://gmtherapytx.com/about" className="block hover:text-primary">About Us</a>
             <a href="https://gmtherapytx.com/contact" className="block hover:text-primary">Contact</a>
+            <a href="https://gmtherapytx.com/past-projects" className="block hover:text-primary">Past Projects</a>
             <a href="/products" className="block hover:text-primary">Product Catalog</a>
           </div>
         </div>
