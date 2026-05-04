@@ -13003,34 +13003,6 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Mobile hydrocollator heating unit",
     },
   },
-  "510": {
-    productId: "510",
-    slug: "neckpro-ii-cervical-traction-system",
-    tagline: "Over-door cervical traction device",
-    overview: [
-      "NeckPro II Cervical Traction System — Over-door cervical traction device. Adjustable traction force for home or clinical use",
-    ],
-    highlights: [
-      "Over-door cervical traction device", "Adjustable traction force for home or clinical use", "Compact, easy-to-set-up design", "Provides gentle decompression for the cervical spine", "Helps relieve neck pain and stiffness",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/00-4395.jpg", alt: "NeckPro II Cervical Traction System" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Modalities" },
-          { label: "SKU", value: "FAB 00-4395" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/004395",
-    seo: {
-      title: "NeckPro II Cervical Traction System (FAB 00-4395) | GM Therapy",
-      description: "Over-door cervical traction device",
-    },
-  },
   "511": {
     productId: "511",
     slug: "baseline-lite-hydraulic-pinch-gauge-50-lb",
