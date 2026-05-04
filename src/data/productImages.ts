@@ -501,11 +501,7 @@ export const productImages: Record<string, string> = {
   "524": productAsset("fab/10-6326.jpg"),
   
   // Clinical Supplies — FAB batch 10
-  "526": productAsset("fab/12-1670-20.jpg"),
-  "527": productAsset("fab/85-0101.jpg"),
   "528": productAsset("fab/12-1671-40.jpg"),
-  "529": productAsset("fab/13-4225.jpg"),
-  "530": productAsset("fab/12-1670.jpg"),
   "531": productAsset("fab/30-2150.jpg"),
   "532": productAsset("fab/43-2091.jpg"),
   "533": productAsset("fab/45-2381.jpg"),
@@ -513,7 +509,6 @@ export const productImages: Record<string, string> = {
   "535": productAsset("fab/10-2468.jpg"),
   "536": productAsset("fab/13-2514.jpg"),
   "537": productAsset("fab/13-1287-10.jpg"),
-  "538": productAsset("fab/11-1140.jpg"),
   "539": productAsset("fab/13-2511.jpg"),
   "540": productAsset("fab/13-2526.jpg"),
   "541": productAsset("fab/13-2515.jpg"),
