@@ -148,7 +148,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
             {ViewDetailsLink}
             {!product.price && (
               <a
-                href="tel:940-600-1311"
+                href="tel:940-334-5169"
                 className="mt-2 flex items-center justify-center gap-2 w-full text-xs text-muted-foreground hover:text-primary transition-colors"
               >
                 <Phone className="w-3 h-3" />
@@ -203,7 +203,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
           {ViewDetailsLink}
           {!product.price && (
             <a
-              href="tel:940-600-1311"
+              href="tel:940-334-5169"
               className="mt-2 inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-primary"
             >
               <Phone className="w-3 h-3" />

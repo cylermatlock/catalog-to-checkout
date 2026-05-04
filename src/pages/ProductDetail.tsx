@@ -223,11 +223,11 @@ const ProductDetail = () => {
                 </div>
                 {!product.price && (
                   <a
-                    href="tel:940-600-1311"
+                    href="tel:940-334-5169"
                     className="mt-3 flex items-center justify-center gap-2 w-full text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Phone className="w-4 h-4" />
-                    Or call 940-600-1311 for pricing
+                    Or call 940-334-5169 for pricing
                   </a>
                 )}
               </div>
