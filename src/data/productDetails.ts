@@ -12393,34 +12393,6 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Premium Airex balance pad — Elite series",
     },
   },
-  "481": {
-    productId: "481",
-    slug: "manual-track-stair-chair-4-wheels-yellow",
-    tagline: "Manual stair chair with continuous track",
-    overview: [
-      "Manual Track Stair Chair — 4 Wheels, Yellow — Manual stair chair with continuous track. 4-wheel design for smooth transport",
-    ],
-    highlights: [
-      "Manual stair chair with continuous track", "4-wheel design for smooth transport", "High-visibility yellow finish", "Safe descent on stairs in emergencies", "Sturdy folding frame for storage", "Ideal for evacuation and patient transport",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/16-1902.jpg", alt: "Manual Track Stair Chair — 4 Wheels, Yellow" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "DME" },
-          { label: "SKU", value: "FAB 16-1902" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/161902",
-    seo: {
-      title: "Manual Track Stair Chair — 4 Wheels, Yellow (FAB 16-1902) | GM Therapy",
-      description: "Manual stair chair with continuous track",
-    },
-  },
   "482": {
     productId: "482",
     slug: "cando-exercise-band-black-x-heavy-50-yd-dispenser",
@@ -12531,34 +12503,6 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "StepONE Total Body Recumbent Stepper — Premium Seat (FAB 10-6038) | GM Therapy",
       description: "StepONE total-body recumbent stepper — Premium Seat",
-    },
-  },
-  "486": {
-    productId: "486",
-    slug: "buhl-portable-spirometer-with-mouthpieces",
-    tagline: "Buhl portable spirometer for pulmonary assessment",
-    overview: [
-      "Buhl Portable Spirometer — with Mouthpieces — Buhl portable spirometer for pulmonary assessment. Includes disposable mouthpieces",
-    ],
-    highlights: [
-      "Buhl portable spirometer for pulmonary assessment", "Includes disposable mouthpieces", "Compact and lightweight for clinical use", "Measures FEV1, FVC, and other key values", "Easy-to-read display", "Ideal for pulmonary screening",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/12-1710.jpg", alt: "Buhl Portable Spirometer — with Mouthpieces" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Evaluation" },
-          { label: "SKU", value: "FAB 12-1710" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/121710",
-    seo: {
-      title: "Buhl Portable Spirometer — with Mouthpieces (FAB 12-1710) | GM Therapy",
-      description: "Buhl portable spirometer for pulmonary assessment",
     },
   },
   "487": {
@@ -12785,34 +12729,6 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "CanDo PT soft medicine ball set — 5 pieces",
     },
   },
-  "495": {
-    productId: "495",
-    slug: "cando-twin-pak-exercise-band-green-medium-100-yd",
-    tagline: "CanDo Twin-Pak — two 50-yd boxes (100 yd total)",
-    overview: [
-      "CanDo Twin-Pak Exercise Band — Green (Medium), 100 yd — CanDo Twin-Pak — two 50-yd boxes (100 yd total). Green — Medium resistance",
-    ],
-    highlights: [
-      "CanDo Twin-Pak — two 50-yd boxes (100 yd total)", "Green — Medium resistance", "Bulk clinical value", "Color-coded progressive resistance", "Made in USA",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/10-5493.jpg", alt: "CanDo Twin-Pak Exercise Band — Green (Medium), 100 yd" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Bands & Tubing" },
-          { label: "SKU", value: "FAB 10-5493" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/105493",
-    seo: {
-      title: "CanDo Twin-Pak Exercise Band — Green (Medium), 100 yd (FAB 10-5493) | GM Therapy",
-      description: "CanDo Twin-Pak — two 50-yd boxes (100 yd total)",
-    },
-  },
   "496": {
     productId: "496",
     slug: "cando-rickshaw-rehabilitation-exerciser",
@@ -12895,62 +12811,6 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "Sup-R Band Latex-Free — Black (X-Heavy), 50 yd (FAB 10-6325) | GM Therapy",
       description: "Sup-R Band latex-free resistance band — Black (X-Heavy)",
-    },
-  },
-  "499": {
-    productId: "499",
-    slug: "cando-twin-pak-exercise-band-red-light-100-yd",
-    tagline: "CanDo Twin-Pak — two 50-yd boxes (100 yd total)",
-    overview: [
-      "CanDo Twin-Pak Exercise Band — Red (Light), 100 yd — CanDo Twin-Pak — two 50-yd boxes (100 yd total). Red — Light resistance",
-    ],
-    highlights: [
-      "CanDo Twin-Pak — two 50-yd boxes (100 yd total)", "Red — Light resistance", "Bulk clinical value", "Color-coded progressive resistance", "Made in USA",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/10-5492.jpg", alt: "CanDo Twin-Pak Exercise Band — Red (Light), 100 yd" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Bands & Tubing" },
-          { label: "SKU", value: "FAB 10-5492" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/105492",
-    seo: {
-      title: "CanDo Twin-Pak Exercise Band — Red (Light), 100 yd (FAB 10-5492) | GM Therapy",
-      description: "CanDo Twin-Pak — two 50-yd boxes (100 yd total)",
-    },
-  },
-  "500": {
-    productId: "500",
-    slug: "jamar-plus-electronic-hand-dynamometer-200-lb",
-    tagline: "Jamar Plus+ electronic hand dynamometer",
-    overview: [
-      "Jamar Plus+ Electronic Hand Dynamometer — 200 lb — Jamar Plus+ electronic hand dynamometer. Capacity: 200 lb",
-    ],
-    highlights: [
-      "Jamar Plus+ electronic hand dynamometer", "Capacity: 200 lb", "Digital LCD display with peak-hold function", "Industry-standard grip strength evaluator", "Stores up to 19 trial readings", "Includes carrying case",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/12-0604.jpg", alt: "Jamar Plus+ Electronic Hand Dynamometer — 200 lb" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Evaluation" },
-          { label: "SKU", value: "FAB 12-0604" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/120604",
-    seo: {
-      title: "Jamar Plus+ Electronic Hand Dynamometer — 200 lb (FAB 12-0604) | GM Therapy",
-      description: "Jamar Plus+ electronic hand dynamometer",
     },
   },
 };
