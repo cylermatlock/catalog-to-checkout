@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import { products } from "@/data/products";
 import { productDetails } from "@/data/productDetails";
 import { useCart } from "@/contexts/CartContext";
+import { getBrand } from "@/lib/brand";
 import { toast } from "sonner";
 
 const ProductDetail = () => {
