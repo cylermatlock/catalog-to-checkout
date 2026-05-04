@@ -123,24 +123,24 @@ def compose(prod: dict, img_rel_path: str) -> Image.Image:
     rx = panel_w + 50
     rw = W - rx - 50
 
-    # Logo top-right (right-aligned)
+    # Logo top
     try:
         logo = Image.open(LOGO).convert("RGBA")
-        lh = 56
+        lh = 110
         lw = int(logo.width * (lh / logo.height))
         logo_r = logo.resize((lw, lh), Image.LANCZOS)
-        canvas.paste(logo_r, (rx, 50), logo_r)
+        canvas.paste(logo_r, (rx, 40), logo_r)
     except Exception:
         pass
 
     # Category eyebrow
     eyebrow = f"{prod['cat']}  ·  {prod['sub']}".upper()
     ef = font(OPENSANS, 20, weight=700)
-    d.text((rx, 140), eyebrow, font=ef, fill=ORANGE)
+    d.text((rx, 180), eyebrow, font=ef, fill=ORANGE)
 
     # Product name
     title_font, lines, size = fit_lines(d, prod["name"], CABIN_BOLD, rw, max_lines=4, start=58, min_=36)
-    y = 180
+    y = 220
     line_h = int(size * 1.15)
     for ln in lines:
         d.text((rx, y), ln, font=title_font, fill=INK)
