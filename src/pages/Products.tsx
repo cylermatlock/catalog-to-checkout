@@ -161,7 +161,9 @@ const Products = () => {
     return { title: title.slice(0, 60), description: description.slice(0, 160) };
   }, [selectedCategory, selectedSub, selectedBrand, filtered.length]);
 
-  const canonical = `https://products.gmtherapytx.com${location.pathname}${location.search}`;
+  // Canonical: always point filter/search variants and both `/` and `/products`
+  // to a single canonical URL so Google doesn't see duplicate content.
+  const canonical = `https://products.gmtherapytx.com/products`;
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
