@@ -53,11 +53,11 @@ const Header = () => {
 
         <div className="hidden md:flex items-stretch">
           <a
-            href="tel:940-600-1311"
+            href="tel:940-334-5169"
             className="flex items-center gap-3 bg-primary text-primary-foreground px-6 font-display text-base font-bold hover:opacity-90 transition-opacity"
           >
             <Phone className="w-5 h-5" />
-            940-600-1311
+            940-334-5169
           </a>
           <button
             onClick={openCart}
@@ -116,11 +116,11 @@ const Header = () => {
             </Link>
           ))}
           <a
-            href="tel:940-600-1311"
+            href="tel:940-334-5169"
             className="mt-2 flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 font-display font-bold w-fit"
           >
             <Phone className="w-4 h-4" />
-            940-600-1311
+            940-334-5169
           </a>
         </div>
       )}
