@@ -84,6 +84,42 @@ const ProductDetail = () => {
             },
           })}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://products.gmtherapytx.com/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Products",
+                item: "https://products.gmtherapytx.com/products",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: product.category,
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                name: product.subcategory,
+              },
+              {
+                "@type": "ListItem",
+                position: 5,
+                name: product.name,
+                item: canonical,
+              },
+            ],
+          })}
+        </script>
       </Helmet>
 
       <Header />
