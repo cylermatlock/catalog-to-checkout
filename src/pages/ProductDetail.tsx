@@ -36,12 +36,7 @@ const ProductDetail = () => {
   };
 
   const canonical = `https://products.gmtherapytx.com/product/${product.id}`;
-  const rawOgImage = detail.gallery[0]?.src;
-  const ogImage = rawOgImage
-    ? rawOgImage.startsWith("http")
-      ? rawOgImage
-      : `https://products.gmtherapytx.com${rawOgImage.startsWith("/") ? "" : "/"}${rawOgImage}`
-    : "https://products.gmtherapytx.com/og-image.jpg";
+  const ogImage = `https://products.gmtherapytx.com/og/products/${product.id}.jpg`;
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
