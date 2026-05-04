@@ -40,7 +40,7 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
     const img = (
       <img
         src={image}
-        alt={product.name}
+        alt={`${getBrand(product)} ${product.name} — ${product.subcategory} (SKU ${product.sku})`}
         className={className}
         loading="lazy"
       />
