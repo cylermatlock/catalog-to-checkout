@@ -11309,6 +11309,601 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Sup-R Band latex-free resistance band — Green (Medium)",
     },
   },
+  "433": {
+    productId: "433",
+    slug: "cando-digi-flex-hand-finger-exerciser-red-3-0-lb",
+    tagline: "Hand and finger exerciser \u2014 Red (3.0 lb resistance)",
+    overview: [
+      "CanDo Digi-Flex Hand/Finger Exerciser \u2014 Red (3.0 lb) \u2014 Hand and finger exerciser \u2014 Red (3.0 lb resistance).",
+      "Independent finger pistons isolate each digit Strengthens grip, fingers, and intrinsic hand muscles.",
+    ],
+    highlights: [
+      "Hand and finger exerciser \u2014 Red (3.0 lb resistance)",
+      "Independent finger pistons isolate each digit",
+      "Strengthens grip, fingers, and intrinsic hand muscles",
+      "Color-coded progressive resistance",
+      "Compact, portable design",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0741.jpg", alt: "CanDo Digi-Flex Hand/Finger Exerciser \u2014 Red (3.0 lb)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0741" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100741",
+    seo: {
+      title: "CanDo Digi-Flex Hand/Finger Exerciser \u2014 Red (3.0 lb) (FAB 10-0741) | GM Therapy",
+      description: "Hand and finger exerciser \u2014 Red (3.0 lb resistance)",
+    },
+  },
+  "434": {
+    productId: "434",
+    slug: "fablife-deluxe-formed-sock-aid-continuous-loop-handle",
+    tagline: "Deluxe formed sock aid with continuous loop handle",
+    overview: [
+      "FabLife Deluxe Formed Sock Aid \u2014 Continuous Loop Handle \u2014 Deluxe formed sock aid with continuous loop handle.",
+      "Helps patients don socks without bending Ideal for hip and back precautions.",
+    ],
+    highlights: [
+      "Deluxe formed sock aid with continuous loop handle",
+      "Helps patients don socks without bending",
+      "Ideal for hip and back precautions",
+      "Lightweight, durable plastic frame",
+      "Standard clinical ADL aid",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/86-0040.jpg", alt: "FabLife Deluxe Formed Sock Aid \u2014 Continuous Loop Handle" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 86-0040" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/860040",
+    seo: {
+      title: "FabLife Deluxe Formed Sock Aid \u2014 Continuous Loop Handle (FAB 86-0040) | GM Therapy",
+      description: "Deluxe formed sock aid with continuous loop handle",
+    },
+  },
+  "435": {
+    productId: "435",
+    slug: "cando-round-foam-roller-6-x-36-blue-medium-density",
+    tagline: "Round foam roller \u2014 6\" diameter x 36\" length",
+    overview: [
+      "CanDo Round Foam Roller \u2014 6\" x 36\", Blue (Medium Density) \u2014 Round foam roller \u2014 6\" diameter x 36\" length.",
+      "Blue, medium density \u2014 softer than standard white For self-myofascial release, balance, and core training.",
+    ],
+    highlights: [
+      "Round foam roller \u2014 6\" diameter x 36\" length",
+      "Blue, medium density \u2014 softer than standard white",
+      "For self-myofascial release, balance, and core training",
+      "Closed-cell foam construction",
+      "Comfortable for sensitive patients",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-2150.jpg", alt: "CanDo Round Foam Roller \u2014 6\" x 36\", Blue (Medium Density)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Foam Rollers" },
+          { label: "SKU", value: "FAB 30-2150" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/302150",
+    seo: {
+      title: "CanDo Round Foam Roller \u2014 6\" x 36\", Blue (Medium Density) (FAB 30-2150) | GM Therapy",
+      description: "Round foam roller \u2014 6\" diameter x 36\" length",
+    },
+  },
+  "436": {
+    productId: "436",
+    slug: "waxwel-paraffin-wax-refill-unscented-6-x-1-lb-blocks",
+    tagline: "Unscented paraffin wax refill blocks",
+    overview: [
+      "WaxWel Paraffin Wax Refill \u2014 Unscented, 6 x 1 lb Blocks \u2014 Unscented paraffin wax refill blocks.",
+      "Six 1-lb blocks (6 lb total) Compatible with WaxWel and most clinical paraffin baths.",
+    ],
+    highlights: [
+      "Unscented paraffin wax refill blocks",
+      "Six 1-lb blocks (6 lb total)",
+      "Compatible with WaxWel and most clinical paraffin baths",
+      "Soothing moist heat for hands and feet",
+      "Ideal for arthritis and stiff joints",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-1720-6.jpg", alt: "WaxWel Paraffin Wax Refill \u2014 Unscented, 6 x 1 lb Blocks" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hot & Cold Therapy" },
+          { label: "SKU", value: "FAB 11-1720-6" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/1117206",
+    seo: {
+      title: "WaxWel Paraffin Wax Refill \u2014 Unscented, 6 x 1 lb Blocks (FAB 11-1720-6) | GM Therapy",
+      description: "Unscented paraffin wax refill blocks",
+    },
+  },
+  "437": {
+    productId: "437",
+    slug: "cando-exercise-band-blue-heavy-50-yd-dispenser",
+    tagline: "CanDo latex resistance band \u2014 Blue (Heavy)",
+    overview: [
+      "CanDo Exercise Band \u2014 Blue (Heavy), 50 yd Dispenser \u2014 CanDo latex resistance band \u2014 Blue (Heavy).",
+      "50 yard dispenser roll Cuts to any length for clinical or home use.",
+    ],
+    highlights: [
+      "CanDo latex resistance band \u2014 Blue (Heavy)",
+      "50 yard dispenser roll",
+      "Cuts to any length for clinical or home use",
+      "Color-coded progressive resistance",
+      "Economical clinical-grade band",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-5224.jpg", alt: "CanDo Exercise Band \u2014 Blue (Heavy), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-5224" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/105224",
+    seo: {
+      title: "CanDo Exercise Band \u2014 Blue (Heavy), 50 yd Dispenser (FAB 10-5224) | GM Therapy",
+      description: "CanDo latex resistance band \u2014 Blue (Heavy)",
+    },
+  },
+  "438": {
+    productId: "438",
+    slug: "evenup-shoe-leveler-medium-sizes-9-11",
+    tagline: "Shoe leveler/lift for use with walking boots and casts",
+    overview: [
+      "Evenup Shoe Leveler \u2014 Medium (Sizes 9\u201311) \u2014 Shoe leveler/lift for use with walking boots and casts.",
+      "Medium size \u2014 fits shoe sizes 9\u201311 Equalizes leg length to reduce gait imbalance.",
+    ],
+    highlights: [
+      "Shoe leveler/lift for use with walking boots and casts",
+      "Medium size \u2014 fits shoe sizes 9\u201311",
+      "Equalizes leg length to reduce gait imbalance",
+      "Helps prevent secondary back, hip, and knee pain",
+      "Attaches to standard footwear",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/43-2091.jpg", alt: "Evenup Shoe Leveler \u2014 Medium (Sizes 9\u201311)" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "DME" },
+          { label: "SKU", value: "FAB 43-2091" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/432091",
+    seo: {
+      title: "Evenup Shoe Leveler \u2014 Medium (Sizes 9\u201311) (FAB 43-2091) | GM Therapy",
+      description: "Shoe leveler/lift for use with walking boots and casts",
+    },
+  },
+  "439": {
+    productId: "439",
+    slug: "theraputty-exercise-putty-green-medium-1-lb",
+    tagline: "Hand-therapy exercise putty \u2014 Green (Medium)",
+    overview: [
+      "TheraPutty Exercise Putty \u2014 Green (Medium), 1 lb \u2014 Hand-therapy exercise putty \u2014 Green (Medium).",
+      "1 lb portion \u2014 clinical / multi-patient size Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty \u2014 Green (Medium)",
+      "1 lb portion \u2014 clinical / multi-patient size",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Strengthens grip, fingers, and intrinsic hand muscles",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0920.jpg", alt: "TheraPutty Exercise Putty \u2014 Green (Medium), 1 lb" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0920" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100920",
+    seo: {
+      title: "TheraPutty Exercise Putty \u2014 Green (Medium), 1 lb (FAB 10-0920) | GM Therapy",
+      description: "Hand-therapy exercise putty \u2014 Green (Medium)",
+    },
+  },
+  "440": {
+    productId: "440",
+    slug: "sup-r-band-latex-free-exercise-band-red-light-50-yd-dispense",
+    tagline: "Sup-R Band latex-free resistance band \u2014 Red (Light)",
+    overview: [
+      "Sup-R Band Latex-Free Exercise Band \u2014 Red (Light), 50 yd Dispenser \u2014 Sup-R Band latex-free resistance band \u2014 Red (Light).",
+      "50 yard dispenser roll Cuts to any length for clinical or home use.",
+    ],
+    highlights: [
+      "Sup-R Band latex-free resistance band \u2014 Red (Light)",
+      "50 yard dispenser roll",
+      "Cuts to any length for clinical or home use",
+      "Color-coded progressive resistance",
+      "Premium latex-free band \u2014 superior tear resistance vs economy bands",
+      "Safe for patients with latex allergies",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-6322.jpg", alt: "Sup-R Band Latex-Free Exercise Band \u2014 Red (Light), 50 yd Dispenser" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Bands & Tubing" },
+          { label: "SKU", value: "FAB 10-6322" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/106322",
+    seo: {
+      title: "Sup-R Band Latex-Free Exercise Band \u2014 Red (Light), 50 yd Dispenser (FAB 10-6322) | GM Therapy",
+      description: "Sup-R Band latex-free resistance band \u2014 Red (Light)",
+    },
+  },
+  "441": {
+    productId: "441",
+    slug: "baseline-taylor-reflex-hammer",
+    tagline: "Standard Taylor (tomahawk) reflex hammer",
+    overview: [
+      "Baseline Taylor Reflex Hammer \u2014 Standard Taylor (tomahawk) reflex hammer.",
+      "Triangular rubber head for percussion Lightweight metal handle.",
+    ],
+    highlights: [
+      "Standard Taylor (tomahawk) reflex hammer",
+      "Triangular rubber head for percussion",
+      "Lightweight metal handle",
+      "Standard clinical neuro evaluation tool",
+      "Used to elicit deep tendon reflexes",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1500.jpg", alt: "Baseline Taylor Reflex Hammer" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1500" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121500",
+    seo: {
+      title: "Baseline Taylor Reflex Hammer (FAB 12-1500) | GM Therapy",
+      description: "Standard Taylor (tomahawk) reflex hammer",
+    },
+  },
+  "442": {
+    productId: "442",
+    slug: "baseline-pediatric-fingertip-pulse-oximeter",
+    tagline: "Pediatric fingertip pulse oximeter",
+    overview: [
+      "Baseline Pediatric Fingertip Pulse Oximeter \u2014 Pediatric fingertip pulse oximeter.",
+      "Measures SpO\u2082 and pulse rate Sized for pediatric fingertips.",
+    ],
+    highlights: [
+      "Pediatric fingertip pulse oximeter",
+      "Measures SpO\u2082 and pulse rate",
+      "Sized for pediatric fingertips",
+      "Bright LED display",
+      "Batteries included",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1935.jpg", alt: "Baseline Pediatric Fingertip Pulse Oximeter" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1935" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121935",
+    seo: {
+      title: "Baseline Pediatric Fingertip Pulse Oximeter (FAB 12-1935) | GM Therapy",
+      description: "Pediatric fingertip pulse oximeter",
+    },
+  },
+  "443": {
+    productId: "443",
+    slug: "deluxe-cuff-weight-2-lb-white",
+    tagline: "Deluxe adjustable cuff weight \u2014 2 lb (White)",
+    overview: [
+      "Deluxe Cuff Weight \u2014 2 lb, White \u2014 Deluxe adjustable cuff weight \u2014 2 lb (White).",
+      "Soft, comfortable nylon shell with hook-and-loop closure Fits wrist or ankle.",
+    ],
+    highlights: [
+      "Deluxe adjustable cuff weight \u2014 2 lb (White)",
+      "Soft, comfortable nylon shell with hook-and-loop closure",
+      "Fits wrist or ankle",
+      "Color-coded by weight for easy identification",
+      "Ideal for gait training, ROM, and strengthening exercises",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-2505.jpg", alt: "Deluxe Cuff Weight \u2014 2 lb, White" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Weights" },
+          { label: "SKU", value: "FAB 10-2505" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/102505",
+    seo: {
+      title: "Deluxe Cuff Weight \u2014 2 lb, White (FAB 10-2505) | GM Therapy",
+      description: "Deluxe adjustable cuff weight \u2014 2 lb (White)",
+    },
+  },
+  "444": {
+    productId: "444",
+    slug: "baseline-180-plastic-pocket-goniometer-6",
+    tagline: "180\u00b0 clear plastic pocket goniometer",
+    overview: [
+      "Baseline 180\u00b0 Plastic Pocket Goniometer \u2014 6\" \u2014 180\u00b0 clear plastic pocket goniometer.",
+      "6 inch length \u2014 fits in lab coat pocket Measures joint range of motion.",
+    ],
+    highlights: [
+      "180\u00b0 clear plastic pocket goniometer",
+      "6 inch length \u2014 fits in lab coat pocket",
+      "Measures joint range of motion",
+      "Clear plastic for easy alignment",
+      "Standard clinical evaluation tool",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1005.jpg", alt: "Baseline 180\u00b0 Plastic Pocket Goniometer \u2014 6\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1005" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121005",
+    seo: {
+      title: "Baseline 180\u00b0 Plastic Pocket Goniometer \u2014 6\" (FAB 12-1005) | GM Therapy",
+      description: "180\u00b0 clear plastic pocket goniometer",
+    },
+  },
+  "445": {
+    productId: "445",
+    slug: "cando-extension-flexion-web-multi-resistance-yellow-green-14",
+    tagline: "14\" hand exercise web \u2014 multi-resistance (Yellow/Green)",
+    overview: [
+      "CanDo Extension/Flexion Web \u2014 Multi-Resistance (Yellow/Green), 14\" \u2014 14\" hand exercise web \u2014 multi-resistance (Yellow/Green).",
+      "Two resistance levels in a single web Trains finger extension and flexion.",
+    ],
+    highlights: [
+      "14\" hand exercise web \u2014 multi-resistance (Yellow/Green)",
+      "Two resistance levels in a single web",
+      "Trains finger extension and flexion",
+      "Latex web with finger loops",
+      "Ideal for hand and finger rehabilitation",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0857.jpg", alt: "CanDo Extension/Flexion Web \u2014 Multi-Resistance (Yellow/Green), 14\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0857" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100857",
+    seo: {
+      title: "CanDo Extension/Flexion Web \u2014 Multi-Resistance (Yellow/Green), 14\" (FAB 10-0857) | GM Therapy",
+      description: "14\" hand exercise web \u2014 multi-resistance (Yellow/Green)",
+    },
+  },
+  "446": {
+    productId: "446",
+    slug: "fablife-straight-handle-contoured-bath-sponge",
+    tagline: "Long-handle contoured bath sponge",
+    overview: [
+      "FabLife Straight-Handle Contoured Bath Sponge \u2014 Long-handle contoured bath sponge.",
+      "Straight handle for extended reach Helps patients bathe back, legs, and feet without bending.",
+    ],
+    highlights: [
+      "Long-handle contoured bath sponge",
+      "Straight handle for extended reach",
+      "Helps patients bathe back, legs, and feet without bending",
+      "Ideal for hip, back, and shoulder restrictions",
+      "Standard clinical ADL aid",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/45-2381.jpg", alt: "FabLife Straight-Handle Contoured Bath Sponge" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "ADL / Daily Living" },
+          { label: "SKU", value: "FAB 45-2381" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/452381",
+    seo: {
+      title: "FabLife Straight-Handle Contoured Bath Sponge (FAB 45-2381) | GM Therapy",
+      description: "Long-handle contoured bath sponge",
+    },
+  },
+  "447": {
+    productId: "447",
+    slug: "cando-round-foam-roller-3-x-12-white",
+    tagline: "Round foam roller \u2014 3\" diameter x 12\" length",
+    overview: [
+      "CanDo Round Foam Roller \u2014 3\" x 12\", White \u2014 Round foam roller \u2014 3\" diameter x 12\" length.",
+      "White, standard density Compact size \u2014 ideal for cervical, hand, or targeted use.",
+    ],
+    highlights: [
+      "Round foam roller \u2014 3\" diameter x 12\" length",
+      "White, standard density",
+      "Compact size \u2014 ideal for cervical, hand, or targeted use",
+      "Closed-cell foam construction",
+      "Lightweight and portable",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/30-2107.jpg", alt: "CanDo Round Foam Roller \u2014 3\" x 12\", White" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Foam Rollers" },
+          { label: "SKU", value: "FAB 30-2107" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/302107",
+    seo: {
+      title: "CanDo Round Foam Roller \u2014 3\" x 12\", White (FAB 30-2107) | GM Therapy",
+      description: "Round foam roller \u2014 3\" diameter x 12\" length",
+    },
+  },
+  "448": {
+    productId: "448",
+    slug: "baseline-360-plastic-goniometer-6",
+    tagline: "360\u00b0 clear plastic goniometer",
+    overview: [
+      "Baseline 360\u00b0 Plastic Goniometer \u2014 6\" \u2014 360\u00b0 clear plastic goniometer.",
+      "6 inch length Measures joint range of motion in all directions.",
+    ],
+    highlights: [
+      "360\u00b0 clear plastic goniometer",
+      "6 inch length",
+      "Measures joint range of motion in all directions",
+      "Clear plastic for easy alignment",
+      "Standard clinical evaluation tool",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/12-1002.jpg", alt: "Baseline 360\u00b0 Plastic Goniometer \u2014 6\"" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Evaluation" },
+          { label: "SKU", value: "FAB 12-1002" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/121002",
+    seo: {
+      title: "Baseline 360\u00b0 Plastic Goniometer \u2014 6\" (FAB 12-1002) | GM Therapy",
+      description: "360\u00b0 clear plastic goniometer",
+    },
+  },
+  "449": {
+    productId: "449",
+    slug: "aps-dry-needling-needle-0-30-x-50-mm-pink-tip-100-box",
+    tagline: "Single-use dry needling needles",
+    overview: [
+      "APS Dry Needling Needle \u2014 0.30 x 50 mm, Pink Tip, 100/Box \u2014 Single-use dry needling needles.",
+      "0.30 mm x 50 mm \u2014 pink tip color code 100 needles per box.",
+    ],
+    highlights: [
+      "Single-use dry needling needles",
+      "0.30 mm x 50 mm \u2014 pink tip color code",
+      "100 needles per box",
+      "Sterile, individually packaged",
+      "For licensed clinicians trained in dry needling",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/11-0338.jpg", alt: "APS Dry Needling Needle \u2014 0.30 x 50 mm, Pink Tip, 100/Box" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Modalities" },
+          { label: "SKU", value: "FAB 11-0338" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/110338",
+    seo: {
+      title: "APS Dry Needling Needle \u2014 0.30 x 50 mm, Pink Tip, 100/Box (FAB 11-0338) | GM Therapy",
+      description: "Single-use dry needling needles",
+    },
+  },
+  "450": {
+    productId: "450",
+    slug: "theraputty-exercise-putty-green-medium-6-oz",
+    tagline: "Hand-therapy exercise putty \u2014 Green (Medium)",
+    overview: [
+      "TheraPutty Exercise Putty \u2014 Green (Medium), 6 oz \u2014 Hand-therapy exercise putty \u2014 Green (Medium).",
+      "6 oz portion Color-coded progressive resistance.",
+    ],
+    highlights: [
+      "Hand-therapy exercise putty \u2014 Green (Medium)",
+      "6 oz portion",
+      "Color-coded progressive resistance",
+      "Non-toxic, non-staining, latex-free",
+      "Strengthens grip, fingers, and intrinsic hand muscles",
+    ],
+    gallery: [
+      { src: "/assets/products/fab/10-0912.jpg", alt: "TheraPutty Exercise Putty \u2014 Green (Medium), 6 oz" },
+    ],
+    specGroups: [
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Subcategory", value: "Hand Exercisers" },
+          { label: "SKU", value: "FAB 10-0912" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.fab-ent.com/100912",
+    seo: {
+      title: "TheraPutty Exercise Putty \u2014 Green (Medium), 6 oz (FAB 10-0912) | GM Therapy",
+      description: "Hand-therapy exercise putty \u2014 Green (Medium)",
+    },
+  },
 };
 
 export const hasDetailPage = (productId: string): boolean =>
