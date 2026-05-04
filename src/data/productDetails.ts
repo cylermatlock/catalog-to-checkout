@@ -13003,34 +13003,6 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Mobile hydrocollator heating unit",
     },
   },
-  "510": {
-    productId: "510",
-    slug: "neckpro-ii-cervical-traction-system",
-    tagline: "Over-door cervical traction device",
-    overview: [
-      "NeckPro II Cervical Traction System — Over-door cervical traction device. Adjustable traction force for home or clinical use",
-    ],
-    highlights: [
-      "Over-door cervical traction device", "Adjustable traction force for home or clinical use", "Compact, easy-to-set-up design", "Provides gentle decompression for the cervical spine", "Helps relieve neck pain and stiffness",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/00-4395.jpg", alt: "NeckPro II Cervical Traction System" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Modalities" },
-          { label: "SKU", value: "FAB 00-4395" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/004395",
-    seo: {
-      title: "NeckPro II Cervical Traction System (FAB 00-4395) | GM Therapy",
-      description: "Over-door cervical traction device",
-    },
-  },
   "511": {
     productId: "511",
     slug: "baseline-lite-hydraulic-pinch-gauge-50-lb",
@@ -13421,34 +13393,6 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "Sup-R Band Latex-Free — Silver (XX-Heavy), 50 yd (FAB 10-6326) | GM Therapy",
       description: "Sup-R Band latex-free resistance band — Silver (XX-Heavy)",
-    },
-  },
-  "525": {
-    productId: "525",
-    slug: "sup-r-band-latex-free-gold-xxx-heavy-50-yd",
-    tagline: "Sup-R Band latex-free resistance band — Gold (XXX-Heavy)",
-    overview: [
-      "Sup-R Band Latex-Free — Gold (XXX-Heavy), 50 yd — Sup-R Band latex-free resistance band — Gold (XXX-Heavy). 50 yard roll",
-    ],
-    highlights: [
-      "Sup-R Band latex-free resistance band — Gold (XXX-Heavy)", "50 yard roll", "Highest tear and snap resistance in its class", "Color-coded progressive resistance", "Safe for patients with latex allergies",
-    ],
-    gallery: [
-      { src: "/assets/products/fab/10-6327.jpg", alt: "Sup-R Band Latex-Free — Gold (XXX-Heavy), 50 yd" },
-    ],
-    specGroups: [
-      {
-        title: "Specifications",
-        rows: [
-          { label: "Subcategory", value: "Bands & Tubing" },
-          { label: "SKU", value: "FAB 10-6327" },
-        ],
-      },
-    ],
-    sourceUrl: "https://www.fab-ent.com/106327",
-    seo: {
-      title: "Sup-R Band Latex-Free — Gold (XXX-Heavy), 50 yd (FAB 10-6327) | GM Therapy",
-      description: "Sup-R Band latex-free resistance band — Gold (XXX-Heavy)",
     },
   },
 };

@@ -484,7 +484,7 @@ export const productImages: Record<string, string> = {
   "507": productAsset("fab/13-3224.jpg"),
   "508": productAsset("fab/13-3225.jpg"),
   "509": productAsset("fab/11-1965-2.jpg"),
-  "510": productAsset("fab/00-4395.jpg"),
+  
   "511": productAsset("fab/12-0226.jpg"),
   "512": productAsset("fab/12-0286.jpg"),
   "513": productAsset("fab/11-1313.jpg"),
@@ -499,5 +499,5 @@ export const productImages: Record<string, string> = {
   "522": productAsset("fab/10-6320.jpg"),
   "523": productAsset("fab/10-6321.jpg"),
   "524": productAsset("fab/10-6326.jpg"),
-  "525": productAsset("fab/10-6327.jpg"),
+  
 };
