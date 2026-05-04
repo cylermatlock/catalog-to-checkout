@@ -123,7 +123,6 @@ export const productImages: Record<string, string> = {
   "102": productAsset("baseline-pinch-gauge.jpg"),
   "103": productAsset("baseline-hand-eval.jpg"),
   // Clinical Supplies
-  "104": productAsset("cs-stability-balls-page.jpg"),
   "105": productAsset("finger-webs.png"),
   "106": productAsset("twist-bend-bars.png"),
   "107": productAsset("digi-flex.png"),
@@ -134,8 +133,6 @@ export const productImages: Record<string, string> = {
   "112": productAsset("ultrasound-gel.jpg"),
   "113": productAsset("moist-heat-packs.jpg"),
   "114": productAsset("bolsters-wedges.png"),
-  "115": productAsset("cando-foam-rollers.jpg"),
-  "116": productAsset("cuff-weights-7-piece-set.png"),
   // Matrix Fitness - Endurance Series
   "117": productAsset("matrix-endurance-treadmill-led.jpg"),
   "118": productAsset("matrix-endurance-elliptical-led.jpg"),
