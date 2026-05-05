@@ -4,6 +4,9 @@
 const STORAGE_BASE =
   "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery";
 
+const IMG = (id: string) => `/assets/products/biodex/${id}.png`;
+const SOURCE = (slug: string) => `https://smti.co/products/${slug}`;
+
 export interface GalleryImage {
   src: string;
   alt: string;
@@ -14207,6 +14210,822 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "5g single-use gel packs, 100 per dispenser",
     },
   },
+
+  // ===== Biodex / Sport Medical (exclusive dealer TX/OK/NM) =====
+  "600": {
+    productId: "600",
+    slug: "biodex-system-4-pro",
+    tagline:
+      "The gold-standard multi-mode robotic dynamometer for objective strength assessment, isokinetic testing, and joint rehabilitation.",
+    overview: [
+      "The Biodex/Sport Medical System 4 Pro is the world's first multi-mode computerized robotic dynamometer and remains the most-cited isokinetic system in peer-reviewed research. Its versatile positioning chair offers 360° rotation, motorized seat adjustment, and exceptional stability — accommodating virtually every test position and exercise pattern in clinical practice today.",
+      "The System 4 Pro provides isokinetic, isotonic, isometric, passive, and reactive eccentric resistance modes — letting clinicians identify, treat, and document neuromuscular, musculoskeletal, and orthopedic deficits across the full continuum of care. From sports medicine and return-to-play decision-making to neurorehabilitation and pediatric therapy, the System 4 Pro delivers the objective, normative-referenced data needed to communicate need, progress, and outcome with confidence.",
+      "Advantage BX™ software produces easy-to-read color graphic reports — comparing patient results against extensive normative databases — so referring physicians, payers, and patients all see measurable evidence of recovery. As your authorized dealer for Texas, Oklahoma, and New Mexico, GM Therapy Solutions provides on-site installation, in-service training for your clinical team, software support, and factory-direct calibration & service.",
+    ],
+    highlights: [
+      "Five resistance modes: isokinetic, isotonic, isometric, passive, reactive eccentric",
+      "Versatile positioning chair — 360° rotation, motorized fore/aft & seat height",
+      "Fastest patient setup in the industry with preset positions",
+      "Color graphic reports vs. extensive normative database",
+      "Industry-standard for ACL, shoulder, knee, and return-to-play research",
+      "Used in top sports medicine, university, and military research facilities",
+      "Advantage BX™ software with pediatric, isolated joint, and CPM protocols",
+      "On-site clinical training included with GM Therapy installation",
+    ],
+    gallery: [{ src: IMG("600"), alt: "Biodex/Sport Medical System 4 Pro multi-mode dynamometer" }],
+    specGroups: [
+      {
+        title: "Capabilities",
+        rows: [
+          { label: "Resistance modes", value: "Isokinetic, isotonic, isometric, passive, reactive eccentric" },
+          { label: "Concentric speed", value: "0–500°/sec (isokinetic)" },
+          { label: "Eccentric speed", value: "0–300°/sec (passive & reactive eccentric)" },
+          { label: "Torque (concentric)", value: "Up to 500 ft-lb (680 Nm)" },
+          { label: "Torque (eccentric)", value: "Up to 360 ft-lb (490 Nm)" },
+          { label: "Test positions", value: "20+ pre-programmed joint patterns (knee, shoulder, hip, ankle, elbow, wrist, trunk)" },
+        ],
+      },
+      {
+        title: "Chair & Dynamometer",
+        rows: [
+          { label: "Seat rotation", value: "360°" },
+          { label: "Seat travel", value: "Motorized fore/aft and height adjust" },
+          { label: "Patient capacity", value: "350 lb (159 kg)" },
+          { label: "Footprint", value: 'Approx. 96"L x 72"W operational area' },
+          { label: "Power", value: "120 V AC, 60 Hz (220/240 V available)" },
+          { label: "Software", value: "Advantage BX™ — Windows-based" },
+        ],
+      },
+      {
+        title: "Clinical Documentation",
+        rows: [
+          { label: "Reports", value: "Single-test, progress, bilateral comparison, return-to-play" },
+          { label: "Normative data", value: "Pediatric through geriatric, sport-specific" },
+          { label: "Export", value: "PDF, EMR-ready CSV" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Installation", value: "White-glove on-site setup by GM Therapy" },
+          { label: "Training", value: "On-site clinical in-service for your therapy team" },
+          { label: "Service", value: "Factory-authorized calibration & repair" },
+          { label: "Warranty", value: "Manufacturer parts & labor — extended plans available" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("system-4-pro"),
+    seo: {
+      title: "Biodex/Sport Medical System 4 Pro Dynamometer — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Multi-mode robotic dynamometer for isokinetic testing, strength assessment, and rehab. Authorized dealer for Texas, Oklahoma, and New Mexico — call 940-334-5169.",
+    },
+  },
+
+  "601": {
+    productId: "601",
+    slug: "biodex-system-4-quick-set",
+    tagline:
+      "Streamlined fixed-height isokinetic dynamometer designed for high-volume clinics that demand fast patient setup.",
+    overview: [
+      "The Biodex/Sport Medical System 4 Quick-Set delivers all of the testing and rehabilitation power of the System 4 Pro in a streamlined fixed-height chair built for fast, repeatable patient setup. Ideal for high-volume sports medicine clinics, university athletic programs, and outpatient rehab centers that need to move efficiently from one patient to the next without sacrificing the depth of Biodex/Sport Medical objective data.",
+      "The Quick-Set retains every multi-mode capability — isokinetic, isotonic, isometric, passive, and reactive eccentric — and runs the same Advantage BX™ software with normative comparisons, return-to-play protocols, and EMR-ready reporting. The 360° rotating chair with front/back travel allows fast access for knee, shoulder, hip, ankle, elbow, and trunk testing.",
+      "GM Therapy Solutions delivers the Quick-Set with on-site installation, clinician training, and factory-direct service across Texas, Oklahoma, and New Mexico.",
+    ],
+    highlights: [
+      "Fixed-height positioning chair with 360° rotation & front/back travel",
+      "Same five resistance modes as the System 4 Pro",
+      "Faster patient setup — ideal for high-volume clinics",
+      "Advantage BX™ software with normative comparisons",
+      "Return-to-play & ACL protocols built-in",
+      "Lower investment than System 4 Pro — full Biodex/Sport Medical clinical depth",
+      "Local installation and clinical training included",
+    ],
+    gallery: [{ src: IMG("601"), alt: "Biodex/Sport Medical System 4 Quick-Set isokinetic dynamometer" }],
+    specGroups: [
+      {
+        title: "Capabilities",
+        rows: [
+          { label: "Resistance modes", value: "Isokinetic, isotonic, isometric, passive, reactive eccentric" },
+          { label: "Concentric speed", value: "0–500°/sec" },
+          { label: "Eccentric speed", value: "0–300°/sec" },
+          { label: "Torque (concentric)", value: "Up to 500 ft-lb (680 Nm)" },
+          { label: "Torque (eccentric)", value: "Up to 360 ft-lb (490 Nm)" },
+        ],
+      },
+      {
+        title: "Chair & Setup",
+        rows: [
+          { label: "Chair type", value: "Fixed-height with 360° rotation, front/back travel" },
+          { label: "Patient capacity", value: "350 lb (159 kg)" },
+          { label: "Setup time", value: "Up to 50% faster than full System 4 Pro" },
+          { label: "Software", value: "Advantage BX™" },
+          { label: "Power", value: "120 V AC, 60 Hz" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Installation", value: "On-site setup by GM Therapy" },
+          { label: "Training", value: "Clinical in-service included" },
+          { label: "Service", value: "Factory-authorized calibration & repair" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("system-4-quick-set"),
+    seo: {
+      title: "Biodex/Sport Medical System 4 Quick-Set — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Fast-setup isokinetic dynamometer with full multi-mode resistance and Advantage BX software. Authorized dealer for TX, OK, NM — call 940-334-5169.",
+    },
+  },
+
+  "602": {
+    productId: "602",
+    slug: "biodex-sit2stand-trainer",
+    tagline:
+      "Squat-assist trainer that strengthens lower extremities and reinforces the most fundamental functional movement: sit-to-stand.",
+    overview: [
+      "The ability to rise from a seated position is the single most fundamental movement for functional independence. The Biodex/Sport Medical Sit2Stand™ Squat-Assist Trainer makes it possible to safely train this motion in a progressive, repeatable environment — building lower-extremity strength, endurance, and confidence across a wide range of patient populations.",
+      "Variable assistance levels allow clinicians to scale the work to each patient — from older adults rebuilding independence after a fall, to post-surgical knee and hip rehab, to athletes targeting eccentric quad strength. The Sit2Stand also engages upper-extremity musculature, helping correct compensatory patterns that often develop with lower-extremity weakness.",
+      "Conveniently located adjustment levers for seat height and assistance make patient turnover fast, and the open architecture lets therapists guide form and progression hands-on. Delivered, installed, and supported across Texas, Oklahoma, and New Mexico by GM Therapy Solutions.",
+    ],
+    highlights: [
+      "Safely trains the sit-to-stand motion — the foundation of independence",
+      "Variable squat assistance — scales from frail elderly to athletic populations",
+      "Builds lower-extremity strength, endurance, and confidence",
+      "Engages upper extremities to correct compensatory patterns",
+      "Quick-adjust seat height and assistance levers — fast patient turnover",
+      "Low-impact, joint-friendly progressive loading",
+      "Ideal for older adults, post-op knee/hip, neuro rehab, and wellness",
+    ],
+    gallery: [{ src: IMG("602"), alt: "Biodex/Sport Medical Sit2Stand Squat-Assist Trainer" }],
+    specGroups: [
+      {
+        title: "Training",
+        rows: [
+          { label: "Modes", value: "Variable squat assistance, eccentric loading" },
+          { label: "Patient populations", value: "Geriatric, post-op ortho, neuro, wellness, athletic" },
+          { label: "Adjustments", value: "Quick-set seat height & assistance levers" },
+        ],
+      },
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Patient capacity", value: "300 lb (136 kg)" },
+          { label: "Footprint", value: 'Approx. 48"L x 32"W' },
+          { label: "Power", value: "Self-contained — no external power required for assistance mechanism" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Installation", value: "Local delivery & setup by GM Therapy" },
+          { label: "Training", value: "Clinical protocols in-service available" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("sit2stand-squat-assist-trainer"),
+    seo: {
+      title: "Biodex/Sport Medical Sit2Stand Squat-Assist Trainer — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Progressive squat-assist trainer that safely rebuilds sit-to-stand strength and independence. Authorized dealer for TX, OK, NM.",
+    },
+  },
+
+  "603": {
+    productId: "603",
+    slug: "biodex-balance-system-sd",
+    tagline:
+      "The clinical standard for static and dynamic balance assessment, fall-risk screening, concussion management, and balance training.",
+    overview: [
+      "The Biodex/Sport Medical Balance System SD is the most widely-cited clinical platform for balance assessment and training. A single device supports static and dynamic testing, fall risk screening with normative data, athletic and tactical conditioning, neurocom-compatible CTSIB protocols, and the full Concussion Management Program — making it a foundational investment for any rehab, sports medicine, vestibular, or geriatric program.",
+      "The instrumented platform provides 12 levels of progressive resistance and a large color touchscreen with intuitive interactive training games. Standardized testing modes — including Postural Stability, Limits of Stability, Fall Risk, and the Clinical Test of Sensory Integration on Balance (CTSIB) — produce objective, normative-referenced reports that document outcomes for payers, families, and referring physicians.",
+      "GM Therapy Solutions installs every Balance System SD on-site across Texas, Oklahoma, and New Mexico, including clinician in-service training and ongoing software support.",
+    ],
+    highlights: [
+      "Static + dynamic balance testing & training in one platform",
+      "Fall Risk Screening with normative data by age",
+      "Concussion Management Program included",
+      "Athletic Single-Leg Stability & Limits of Stability protocols",
+      "CTSIB (modified Clinical Test of Sensory Integration of Balance)",
+      "12 levels of progressive instability",
+      "Large color touchscreen — intuitive interactive games",
+      "Objective documentation for payers, families, & physicians",
+    ],
+    gallery: [{ src: IMG("603"), alt: "Biodex/Sport Medical Balance System SD" }],
+    specGroups: [
+      {
+        title: "Testing & Training",
+        rows: [
+          { label: "Standardized tests", value: "Postural Stability, Limits of Stability, Fall Risk, CTSIB, Athletic Single-Leg" },
+          { label: "Programs", value: "Concussion Management, Sensory Integration, Bilateral Comparison" },
+          { label: "Stability levels", value: "12 (static through fully dynamic)" },
+          { label: "Training modes", value: "Maze Control, Random Control, Weight Shift, Limits of Stability" },
+        ],
+      },
+      {
+        title: "Hardware",
+        rows: [
+          { label: "Platform", value: 'Instrumented 21.5" diameter' },
+          { label: "Display", value: "Large color touchscreen, articulating arm" },
+          { label: "Patient capacity", value: "400 lb (181 kg)" },
+          { label: "Footprint", value: 'Approx. 40"L x 26"W x 60"H' },
+          { label: "Power", value: "120 V AC" },
+        ],
+      },
+      {
+        title: "Documentation",
+        rows: [
+          { label: "Reports", value: "Single test, progress, bilateral, normative comparison" },
+          { label: "Export", value: "PDF, USB" },
+          { label: "Software", value: "Latest v4.0+ — free updates via authorized dealer" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Installation", value: "On-site setup & calibration by GM Therapy" },
+          { label: "Training", value: "Clinical in-service on all programs included" },
+          { label: "Software", value: "Update support handled locally" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("balance-system-sd"),
+    seo: {
+      title: "Biodex/Sport Medical Balance System SD — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Clinical balance, fall-risk, and concussion-management platform. Authorized dealer for Texas, Oklahoma, and New Mexico — installation and training included.",
+    },
+  },
+
+  "604": {
+    productId: "604",
+    slug: "biodex-biosway",
+    tagline:
+      "Portable, lightweight balance assessment and training system that sets up in minutes — the Balance System SD's clinical depth in a mobile platform.",
+    overview: [
+      "The Biodex/Sport Medical BioSway™ is a portable balance system ideal for clinicians on the go. The lightweight instrumented platform with large touchscreen display is easy to transport and sets up in minutes — providing static balance testing and training capabilities in any environment: clinics, schools, athletic training rooms, home-health visits, and community fall-prevention screenings.",
+      "BioSway runs the same standardized clinical protocols as the Balance System SD — Postural Stability, Limits of Stability, Fall Risk Test & Conditioning, Athletic Single-Leg Stability, and the Clinical Test of Sensory Integration on Balance (CTSIB). Choose from interactive training modes or standardized testing environments and export normative-referenced reports directly from the device.",
+      "GM Therapy Solutions delivers and supports BioSway across Texas, Oklahoma, and New Mexico — including clinician training on protocols and reporting.",
+    ],
+    highlights: [
+      "Portable — sets up in minutes anywhere",
+      "Lightweight instrumented platform with large touchscreen",
+      "Same standardized protocols as Balance System SD (static)",
+      "Fall Risk Test & Conditioning Program",
+      "CTSIB & Limits of Stability built in",
+      "Wireless data export & on-board reporting",
+      "Ideal for home health, schools, screenings, athletic training",
+    ],
+    gallery: [{ src: IMG("604"), alt: "Biodex/Sport Medical BioSway portable balance system" }],
+    specGroups: [
+      {
+        title: "Testing & Training",
+        rows: [
+          { label: "Standardized tests", value: "Postural Stability, Limits of Stability, Fall Risk, CTSIB, Athletic Single-Leg" },
+          { label: "Training modes", value: "Maze Control, Random Control, Weight Shift" },
+          { label: "Platform", value: "Static (instrumented force plate)" },
+        ],
+      },
+      {
+        title: "Portability",
+        rows: [
+          { label: "Total weight", value: "Approx. 25 lb (11 kg)" },
+          { label: "Setup time", value: "< 5 minutes" },
+          { label: "Power", value: "Battery + AC" },
+          { label: "Display", value: "Large color touchscreen" },
+        ],
+      },
+      {
+        title: "Documentation",
+        rows: [
+          { label: "Reports", value: "Single test, progress, bilateral, normative" },
+          { label: "Export", value: "USB, wireless" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Installation", value: "Local delivery + walkthrough by GM Therapy" },
+          { label: "Training", value: "Clinical in-service on protocols included" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("biosway"),
+    seo: {
+      title: "Biodex/Sport Medical BioSway Portable Balance System — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Portable static balance assessment & training. Same clinical protocols as Balance System SD. Authorized dealer for TX, OK, NM.",
+    },
+  },
+
+  "605": {
+    productId: "605",
+    slug: "biodex-freesway-handles",
+    tagline:
+      'The "training wheels for balance" — floating handles that give patients confidence without compromising natural balance reactions.',
+    overview: [
+      "It is widely accepted that patients should avoid holding on during balance training in order to reap full functional benefits. But patients with a fear of falling require some degree of stability — and traditional handrails defeat the purpose. The Biodex/Sport Medical FreeSway™ Handles solve this problem.",
+      "The handles \"float\" securely within support rings. If the patient sways too far or loses their balance, the handles touch the outer edge of the ring and allow the patient to correct the movement — giving them security without preventing the natural balance reactions that drive recovery. Think of them as training wheels for balance.",
+      "FreeSway Handles enable fall-risk exercise for a much larger percentage of older adults who would otherwise avoid balance programs out of fear. Compatible with the Balance System SD. Available across Texas, Oklahoma, and New Mexico through GM Therapy Solutions.",
+    ],
+    highlights: [
+      "Floating handles — security without impeding natural balance reactions",
+      'The "training wheels" of balance therapy',
+      "Enables fall-risk exercise for fearful older adults",
+      "Compatible with Biodex/Sport Medical Balance System SD",
+      "Improves safety AND treatment efficacy simultaneously",
+      "Versatile, simple to install, easy to use",
+    ],
+    gallery: [{ src: IMG("605"), alt: "Biodex/Sport Medical FreeSway Handles for Balance System SD" }],
+    specGroups: [
+      {
+        title: "Compatibility",
+        rows: [
+          { label: "Works with", value: "Biodex/Sport Medical Balance System SD" },
+          { label: "Installation", value: "Tool-free — mounts to existing platform" },
+        ],
+      },
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Handle motion", value: "Floating within support rings" },
+          { label: "Material", value: "Powder-coated steel & high-grip polymer" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Delivery & setup", value: "Local by GM Therapy" },
+          { label: "Training", value: "Protocol guidance included" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("freesway-handles"),
+    seo: {
+      title: "Biodex/Sport Medical FreeSway Handles — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Floating balance-training handles for the Balance System SD. Confidence without compromising natural balance reactions. Authorized dealer for TX, OK, NM.",
+    },
+  },
+
+  "606": {
+    productId: "606",
+    slug: "biodex-vibrotactile-system",
+    tagline:
+      "Wireless vibrotactile biofeedback for vestibular rehabilitation — adds an objective sensory channel beyond visual and auditory cueing.",
+    overview: [
+      'You are expecting a call. You\'re in a place where a ringing cell phone is bad form, so you put your phone on vibrate. When the phone "rings" you don\'t see it or hear it — but you know exactly where it is. That is vibrotactile cueing.',
+      "Real-time biofeedback is essential during balance and vestibular rehabilitation. Therapists typically cue patients with a tap or verbal command, but the Biodex/Sport Medical VibroTactile System replaces those subjective cues with a mechanized, reproducible, and objective sensory feedback channel. Once integrated with the Balance System SD or the portable BioSway, the VibroTactile System uses wireless wearable sensors to detect changes in postural sway and deliver directional vibration to help patients self-correct.",
+      "Vibrotactile cueing is especially powerful for vestibular patients because it lets them safely train with their eyes closed — eliminating overreliance on the visual system and forcing the vestibular system to engage. Evidence-based and clinically proven, this is an essential add-on for any vestibular or fall-prevention program.",
+    ],
+    highlights: [
+      "Wireless wearable sensor — directional vibration biofeedback",
+      "Integrates with Balance System SD and BioSway",
+      "Objective, reproducible sensory cueing",
+      "Specifically designed for vestibular rehabilitation",
+      "Lets patients safely train with eyes closed",
+      "Evidence-based — improves postural control outcomes",
+    ],
+    gallery: [{ src: IMG("606"), alt: "Biodex/Sport Medical VibroTactile vestibular biofeedback system" }],
+    specGroups: [
+      {
+        title: "Compatibility",
+        rows: [
+          { label: "Works with", value: "Biodex/Sport Medical Balance System SD, BioSway" },
+          { label: "Connection", value: "Wireless" },
+        ],
+      },
+      {
+        title: "Clinical Use",
+        rows: [
+          { label: "Indications", value: "Vestibular disorders, postural sway, fall prevention" },
+          { label: "Feedback type", value: "Directional vibrotactile (worn by patient)" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Delivery & setup", value: "Local by GM Therapy" },
+          { label: "Training", value: "Vestibular protocols in-service available" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("vibrotactile-system"),
+    seo: {
+      title: "Biodex/Sport Medical VibroTactile System — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Wireless vibrotactile biofeedback for vestibular rehab. Integrates with Balance System SD & BioSway. Authorized dealer for TX, OK, NM.",
+    },
+  },
+
+  "607": {
+    productId: "607",
+    slug: "biodex-gait-trainer-3",
+    tagline:
+      "The only treadmill with an instrumented deck — measures step length, speed, and symmetry while delivering audio and visual biofeedback.",
+    overview: [
+      "The Biodex/Sport Medical Gait Trainer 3 is the only treadmill on the market with an instrumented deck that monitors and records step length, step speed, and step symmetry — letting clinicians prove patients are getting better, faster, and document the results for payers and physicians.",
+      "More than a treadmill, the Gait Trainer 3 puts evidence-based gait training techniques at your fingertips. By combining audio cueing with real-time visual biofeedback, the Gait Trainer 3 promotes neuroplasticity — creating new pathways to movement. Patients see a comparison of their actual footfall to a target step length on the display, helping them stay on target through every phase of recovery.",
+      "Designed specifically for the rehabilitation clinic, the Gait Trainer 3 features true zero starting speed, forward and reverse directions, powered incline AND decline, and a low-step-up deck. Music-enhanced training is supported through the integrated audio system. Installed and clinically supported across Texas, Oklahoma, and New Mexico by GM Therapy Solutions.",
+    ],
+    highlights: [
+      "Instrumented deck — records step length, speed, symmetry",
+      "Real-time visual biofeedback comparing footfall to target step length",
+      "Audio cueing for cadence training",
+      "True zero starting speed (0.1 mph minimum)",
+      "Forward and reverse — powered incline AND decline",
+      "Designed for the rehab clinic — low step-up, full handrails",
+      "Documents outcomes objectively for payers and physicians",
+      "Pairs with NxStep Unweighing System for body-weight-supported training",
+    ],
+    gallery: [{ src: IMG("607"), alt: "Biodex/Sport Medical Gait Trainer 3 with instrumented deck" }],
+    specGroups: [
+      {
+        title: "Treadmill",
+        rows: [
+          { label: "Speed", value: "0.1 – 10 mph (true zero start)" },
+          { label: "Direction", value: "Forward & reverse" },
+          { label: "Incline", value: "Powered, –3% to +15%" },
+          { label: "Belt size", value: 'Approx. 22" x 70" (56 x 178 cm)' },
+          { label: "Step-up height", value: "Low — accessible for rehab" },
+        ],
+      },
+      {
+        title: "Gait Analysis & Biofeedback",
+        rows: [
+          { label: "Measurements", value: "Step length, step speed, step symmetry, time on each foot" },
+          { label: "Visual biofeedback", value: "Real-time footfall vs. target overlay" },
+          { label: "Audio cueing", value: "Adjustable cadence + music input" },
+          { label: "Reports", value: "Color graphic, normative-referenced" },
+        ],
+      },
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Patient capacity", value: "400 lb (181 kg)" },
+          { label: "Power", value: "120 V AC, dedicated 20 A circuit" },
+          { label: "Footprint", value: 'Approx. 84"L x 38"W' },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Installation", value: "On-site setup, calibration & deck-load test by GM Therapy" },
+          { label: "Training", value: "Gait protocols & biofeedback in-service included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("gait-trainer-3"),
+    seo: {
+      title: "Biodex/Sport Medical Gait Trainer 3 — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Instrumented-deck gait training treadmill with real-time biofeedback. Authorized dealer for Texas, Oklahoma, and New Mexico.",
+    },
+  },
+
+  "608": {
+    productId: "608",
+    slug: "biodex-reactive-step-trainer",
+    tagline:
+      "Adds controllable perturbations — Slip, Trip, Step, Walk, e-Trip — to the Gait Trainer for evidence-based fall-recovery training.",
+    overview: [
+      "The Biodex/Sport Medical Reactive Step Trainer (RST) is the next evolution of the Gait Trainer 3. RST delivers pre-selected, fully controllable perturbation challenges — Slip, Trip, Step, Walk, and e-Trip patterns — that train patients to improve their compensatory step strategies and reduce the risk of falls.",
+      "Combining all of the Gait Trainer's instrumented-deck biofeedback with customizable perturbation speed and intensity, RST is both a gait assessment tool and a fall-recovery training platform. It provides objective measurements of specific gait parameters as well as physiological measures of kinesthetic, proprioceptive, and neuromuscular control. RST must always be used in conjunction with a patient unweighing system — pairs perfectly with the Biodex/Sport Medical NxStep.",
+      "Used in leading research and clinical fall-prevention programs nationwide. Installed and supported across Texas, Oklahoma, and New Mexico by GM Therapy Solutions.",
+    ],
+    highlights: [
+      "All Gait Trainer 3 capabilities, plus reactive perturbation training",
+      "Five perturbation types: Slip, Trip, Step, Walk, e-Trip",
+      "Customizable perturbation speed and intensity",
+      "Trains compensatory step strategies — reduces fall risk",
+      "Objective measurement of kinesthetic & proprioceptive abilities",
+      "Pairs with NxStep Unweighing System for safe training",
+      "Evidence-based — used in leading fall-prevention research",
+    ],
+    gallery: [{ src: IMG("608"), alt: "Biodex/Sport Medical Reactive Step Trainer (RST)" }],
+    specGroups: [
+      {
+        title: "Reactive Step Training",
+        rows: [
+          { label: "Perturbation types", value: "Slip, Trip, Step, Walk, e-Trip" },
+          { label: "Customization", value: "Speed & intensity adjustable per patient" },
+          { label: "Required pairing", value: "Patient unweighing system (e.g., NxStep)" },
+        ],
+      },
+      {
+        title: "Treadmill / Gait Analysis",
+        rows: [
+          { label: "Speed", value: "0.1 – 10 mph (true zero start)" },
+          { label: "Direction", value: "Forward & reverse" },
+          { label: "Incline", value: "Powered, –3% to +15%" },
+          { label: "Measurements", value: "Step length, speed, symmetry + perturbation response" },
+        ],
+      },
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Patient capacity", value: "400 lb (181 kg)" },
+          { label: "Power", value: "120 V AC, dedicated 20 A" },
+          { label: "Footprint", value: 'Approx. 84"L x 38"W (plus unweighing system)' },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Installation", value: "Combined RST + NxStep setup by GM Therapy" },
+          { label: "Training", value: "Fall-prevention & perturbation protocols included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("reactive-step-trainer-rst"),
+    seo: {
+      title: "Biodex/Sport Medical Reactive Step Trainer (RST) — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Perturbation-based fall-recovery treadmill with instrumented deck. Authorized dealer for Texas, Oklahoma, and New Mexico.",
+    },
+  },
+
+  "609": {
+    productId: "609",
+    slug: "biodex-nxstep-unweighing-system",
+    tagline:
+      "Single-point body-weight-supported training that preserves natural pelvic rotation and gives therapists open access to the patient.",
+    overview: [
+      "The Biodex/Sport Medical NxStep™ Unweighing System enables partial weight-bearing therapy with full open access to the patient. Offloading a percentage of body weight allows the opportunity for early rehabilitation while providing a safe environment for patient and therapist. Therapists can focus on treating their patients — not catching them.",
+      "Unlike two-point suspension systems that restrict horizontal rotation, NxStep uses a dynamic single-point suspension that accommodates pelvic rotation and up to four inches of vertical displacement. This permits functional, neurologically-correct gait patterns to be practiced — including side-stepping, retro-walking, and turning — without compromising kinematics.",
+      "The unique forward corner-mounted design lets therapists view patients from all angles, gives patients full visibility of the treadmill display, and allows natural arm swing — an essential component of neuroplasticity. NxStep pairs perfectly with the Gait Trainer 3 and the Reactive Step Trainer for a complete BWSTT environment. Installed and supported across TX, OK, and NM by GM Therapy Solutions.",
+    ],
+    highlights: [
+      "Single-point dynamic suspension — preserves pelvic rotation",
+      "Up to 4\" of vertical displacement at walking speed",
+      "Forward corner-mounted design — open access to the patient",
+      "Required pairing for Reactive Step Trainer (RST)",
+      "Pairs with Gait Trainer 3 for full instrumented BWSTT",
+      "Enables early rehab post-stroke, post-op, and SCI",
+      "Supports side-stepping, retro-walking, turning",
+      "Allows natural arm swing for neuroplasticity",
+    ],
+    gallery: [{ src: IMG("609"), alt: "Biodex/Sport Medical NxStep Unweighing System" }],
+    specGroups: [
+      {
+        title: "Unweighing",
+        rows: [
+          { label: "Suspension type", value: "Single-point, dynamic" },
+          { label: "Vertical displacement", value: 'Up to 4" at walking speed' },
+          { label: "Patient capacity", value: "400 lb (181 kg)" },
+        ],
+      },
+      {
+        title: "Compatibility",
+        rows: [
+          { label: "Pairs with", value: "Biodex/Sport Medical Gait Trainer 3, Reactive Step Trainer (RST)" },
+          { label: "Use case", value: "BWSTT, early rehab, RST perturbation training" },
+        ],
+      },
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Mount", value: "Forward corner-mounted frame" },
+          { label: "Footprint", value: "Wraps over treadmill — open patient access" },
+          { label: "Power", value: "Self-contained suspension system" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Installation", value: "On-site assembly & treadmill alignment by GM Therapy" },
+          { label: "Training", value: "BWSTT & harness fitting in-service included" },
+        ],
+      },
+    ],
+    sourceUrl: "https://smti.co/nxstep-unweighing-system",
+    seo: {
+      title: "Biodex/Sport Medical NxStep Unweighing System — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Single-point dynamic body-weight-supported training. Pairs with Gait Trainer 3 and RST. Authorized dealer for TX, OK, NM.",
+    },
+  },
+
+  "610": {
+    productId: "610",
+    slug: "biodex-mobility-assist",
+    tagline:
+      "Motorized stand-assist device that brings patients from seated to standing with the protection of a safety harness — and lets them ambulate anywhere.",
+    overview: [
+      "Getting patients up and walking is one of the most important things therapists do. This basic activity overcomes circulation problems, prevents disuse atrophy, stimulates neural pathways, and plays a critical role in the psychology of a patient's sense of independence.",
+      "The Biodex/Sport Medical Mobility Assist™ is a motorized stand-assist device that brings patients from a seated to standing position with the protection of a safety harness. As the patient stands using correct biomechanics, their center of gravity remains within the support of the device. Once standing, the patient has controlled body weight and standing balance — and can initiate ambulation. From bedside or wheelchair to anywhere in the clinic, hospital, or even outside, the Mobility Assist goes where the patient needs to go.",
+      "Beyond patient safety, the Mobility Assist protects therapists, rehabilitation nurses, caregivers, and visiting family from the high-risk activity of manually lifting patients. Research increasingly supports using equipment for safety AND faster patient recovery. Available across Texas, Oklahoma, and New Mexico through GM Therapy Solutions.",
+    ],
+    highlights: [
+      "Motorized sit-to-stand assistance with safety harness",
+      "Patient ambulates anywhere — clinic, hospital, outdoors",
+      "Maintains correct standing biomechanics",
+      "Reduces caregiver/therapist injury risk during transfers",
+      "Promotes early mobility and faster recovery",
+      "Bedside, wheelchair, or chair transfers",
+      "Battery-powered — no tether required",
+    ],
+    gallery: [{ src: IMG("610"), alt: "Biodex/Sport Medical Mobility Assist sit-to-stand & ambulation aid" }],
+    specGroups: [
+      {
+        title: "Capabilities",
+        rows: [
+          { label: "Function", value: "Motorized sit-to-stand + ambulation aid" },
+          { label: "Harness", value: "Multiple sizes available" },
+          { label: "Mobility", value: "Maneuverable — clinic, hospital, outdoor surfaces" },
+        ],
+      },
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Patient capacity", value: "Up to 400 lb (181 kg)" },
+          { label: "Power", value: "Rechargeable battery" },
+          { label: "Footprint", value: "Maneuverable through standard doorways" },
+        ],
+      },
+      {
+        title: "Safety",
+        rows: [
+          { label: "Caregiver protection", value: "Reduces manual lifting risk" },
+          { label: "Patient protection", value: "Safety harness + controlled ascent" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Delivery & setup", value: "Local by GM Therapy" },
+          { label: "Training", value: "Safe-handling & harness fitting in-service included" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("mobility-assist"),
+    seo: {
+      title: "Biodex/Sport Medical Mobility Assist — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Motorized sit-to-stand & ambulation aid. Protects patients and caregivers. Authorized dealer for Texas, Oklahoma, and New Mexico.",
+    },
+  },
+
+  "611": {
+    productId: "611",
+    slug: "biodex-body-weight-support-harnesses",
+    tagline:
+      "Comfortable, clinical-grade harnesses for partial weight-bearing therapy with the NxStep Unweighing System and other PWBT devices.",
+    overview: [
+      "Biodex/Sport Medical body-weight-support harnesses are designed to provide comfortable, secure support for patients during partial weight-bearing therapy (PWBT). Multiple sizes accommodate everyone from pediatric lightweights to bariatric patients — ensuring proper fit, distributed load, and comfortable extended-session use.",
+      "Use with the Biodex/Sport Medical NxStep Unweighing System or other PWBT devices. Selecting the correct harness size and style is critical for both patient comfort and therapy outcomes — GM Therapy Solutions provides on-site fitting guidance and clinical training as part of every order across Texas, Oklahoma, and New Mexico.",
+    ],
+    highlights: [
+      "Multiple sizes — pediatric through bariatric",
+      "Distributed load for comfortable extended sessions",
+      "Clinical-grade construction and washable materials",
+      "Compatible with Biodex/Sport Medical NxStep & other PWBT systems",
+      "On-site fitting guidance from GM Therapy",
+    ],
+    gallery: [{ src: IMG("611"), alt: "Biodex/Sport Medical body weight support harnesses" }],
+    specGroups: [
+      {
+        title: "Sizing & Fit",
+        rows: [
+          { label: "Sizes", value: "Pediatric, small, medium, large, bariatric (call for fit guidance)" },
+          { label: "Adjustments", value: "Multi-point straps for personalized fit" },
+        ],
+      },
+      {
+        title: "Compatibility",
+        rows: [
+          { label: "Designed for", value: "Biodex/Sport Medical NxStep Unweighing System" },
+          { label: "Also fits", value: "Most single-point PWBT devices (verify with GM Therapy)" },
+        ],
+      },
+      {
+        title: "Care",
+        rows: [
+          { label: "Cleaning", value: "Washable per manufacturer instructions" },
+          { label: "Replacement", value: "Recommended per manufacturer wear schedule" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Fitting", value: "On-site fitting guidance by GM Therapy" },
+          { label: "Reorders", value: "Local stocking and quick replacement" },
+        ],
+      },
+    ],
+    sourceUrl: "https://smti.co/our-products/body-weight-supported-training/harnesses",
+    seo: {
+      title: "Biodex/Sport Medical Body Weight Support Harnesses — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Clinical-grade harnesses for the NxStep Unweighing System and other PWBT devices. Authorized dealer for TX, OK, NM.",
+    },
+  },
+
+  "612": {
+    productId: "612",
+    slug: "biodex-biostep-2",
+    tagline:
+      "Semi-recumbent elliptical cross-trainer — smooth, low-impact total-body cardio with the comfort, safety, and stability of a seated position.",
+    overview: [
+      "The feature-rich, durable Biodex/Sport Medical BioStep™ 2 Semi-Recumbent Elliptical accommodates a wide variety of users and promotes general strengthening and conditioning for any age group. Simple to use, requiring minimal supervision, and allowing exercise to progress at a natural pace, BioStep 2 is the workhorse of the rehab and wellness gym.",
+      "The BioStep 2's elliptical motion is naturally smooth and continuous — exceptionally comfortable. Unlike recumbent steppers, the low-impact elliptical motion eliminates the jarring start/stop direction change and removes the need to lift or strike feet on the walking surface. The fluid motion is forgiving on knees, ankles, hips, and lower back: a natural closed-chain, low-impact, functional exercise.",
+      "Ideal for older adults, post-cardiac patients, neurorehabilitation, and general wellness — the BioStep 2 strengthens the muscles most critical to maintaining function and independence. Easy step-through entry, comfortable supportive seat, and arm-and-leg engagement for true total-body cardio. Installed and supported across TX, OK, and NM by GM Therapy Solutions.",
+    ],
+    highlights: [
+      "Smooth, continuous elliptical motion — no jarring direction change",
+      "Semi-recumbent — comfort, safety, stability of a seated position",
+      "Low-impact, closed-chain — easy on knees, ankles, hips, lower back",
+      "Total-body — upper and lower extremity engagement",
+      "Easy step-through entry — accommodates a wide range of users",
+      "Ideal for older adults, post-cardiac, neuro rehab, wellness",
+      "Self-powered — no electrical outlet required",
+      "Heavy-duty construction for high-use clinical environments",
+    ],
+    gallery: [{ src: IMG("612"), alt: "Biodex/Sport Medical BioStep 2 Semi-Recumbent Elliptical" }],
+    specGroups: [
+      {
+        title: "Motion",
+        rows: [
+          { label: "Type", value: "Semi-recumbent elliptical (continuous, low-impact)" },
+          { label: "Engagement", value: "Upper + lower extremity (total-body)" },
+          { label: "Resistance", value: "Magnetic, multi-level" },
+        ],
+      },
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Patient capacity", value: "400 lb (181 kg)" },
+          { label: "Power", value: "Self-powered — no outlet required" },
+          { label: "Entry", value: "Easy step-through" },
+          { label: "Footprint", value: 'Approx. 60"L x 30"W' },
+        ],
+      },
+      {
+        title: "Console",
+        rows: [
+          { label: "Display", value: "Time, distance, RPM, calories, watts, heart rate" },
+          { label: "Programs", value: "Quick-start, manual, interval, custom" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Installation", value: "Local delivery & setup by GM Therapy" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("biostep-2-semi-recumbent-elliptical"),
+    seo: {
+      title: "Biodex/Sport Medical BioStep 2 Semi-Recumbent Elliptical — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Total-body, low-impact semi-recumbent elliptical for rehab and wellness. Authorized dealer for TX, OK, NM.",
+    },
+  },
+
+  "613": {
+    productId: "613",
+    slug: "biodex-upper-body-cycle",
+    tagline:
+      "Self-powered upper-extremity ergometer built for high-use clinical environments — portable, durable, and ready wherever the patient is.",
+    overview: [
+      "The Biodex/Sport Medical Upper Body Cycle is a self-powered upper-extremity ergometer designed specifically for the demands of high-use clinical environments. Compact, portable, and user-friendly, it delivers smooth, consistent resistance for upper-body cardiovascular training, conditioning, and rehabilitation — from shoulder rehab to wheelchair-user fitness to general wellness.",
+      "Because it is self-powered, the Upper Body Cycle goes wherever the patient is — bedside, in the gym, or at the wheelchair. No outlet, no battery, no setup time. Ergonomic handles, smooth bidirectional rotation, and quick-set resistance make it equally suited for the first day of post-op rehab and high-intensity conditioning sessions.",
+      "Installed and supported across Texas, Oklahoma, and New Mexico by GM Therapy Solutions.",
+    ],
+    highlights: [
+      "Self-powered — no outlet or battery required",
+      "Portable — bring it to the patient",
+      "Built for high-use clinical environments",
+      "Bidirectional smooth rotation",
+      "Ergonomic handles for shoulder/elbow rehab and conditioning",
+      "Quick-adjust resistance",
+      "Ideal for upper-extremity rehab, wheelchair-user fitness, general wellness",
+    ],
+    gallery: [{ src: IMG("613"), alt: "Biodex/Sport Medical Upper Body Cycle ergometer" }],
+    specGroups: [
+      {
+        title: "Capabilities",
+        rows: [
+          { label: "Type", value: "Self-powered upper extremity ergometer" },
+          { label: "Rotation", value: "Bidirectional, smooth" },
+          { label: "Resistance", value: "Quick-set, multi-level" },
+        ],
+      },
+      {
+        title: "Specifications",
+        rows: [
+          { label: "Power", value: "Self-powered — no outlet required" },
+          { label: "Portability", value: "Tabletop or stand-mount" },
+          { label: "Construction", value: "Heavy-duty for clinical use" },
+        ],
+      },
+      {
+        title: "Dealer Support (TX/OK/NM)",
+        rows: [
+          { label: "Delivery", value: "Local by GM Therapy" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    sourceUrl: SOURCE("upper-body-cycle"),
+    seo: {
+      title: "Biodex/Sport Medical Upper Body Cycle — Authorized Dealer TX/OK/NM | GM Therapy",
+      description: "Self-powered upper-extremity ergometer for clinical rehab and conditioning. Authorized dealer for TX, OK, NM.",
+    },
+  },
+
 };
 
 export const hasDetailPage = (productId: string): boolean =>

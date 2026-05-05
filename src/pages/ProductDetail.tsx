@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams, Navigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { ChevronLeft, Plus, Minus, ShoppingCart, FileDown, ExternalLink, Phone } from "lucide-react";
+import { ChevronLeft, Plus, Minus, ShoppingCart, FileDown, ExternalLink, Phone, Star, Award, Wrench, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -178,7 +178,13 @@ const ProductDetail = () => {
               <h1 className="font-display text-3xl md:text-4xl font-bold mt-1 leading-tight">
                 {product.name}
               </h1>
-              <p className="text-muted-foreground mt-2">{detail.tagline}</p>
+              {product.exclusiveDealer && (
+                <span className="mt-3 inline-flex items-center gap-1.5 bg-primary text-primary-foreground text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded">
+                  <Star className="w-3 h-3 fill-current" />
+                  Exclusive Dealer · TX / OK / NM
+                </span>
+              )}
+              <p className="text-muted-foreground mt-3">{detail.tagline}</p>
               <p className="text-xs text-muted-foreground mt-2">SKU: {product.sku}</p>
 
               <ul className="mt-5 space-y-1.5">
@@ -276,6 +282,67 @@ const ProductDetail = () => {
               ))}
             </div>
           </section>
+
+          {/* Exclusive dealer callout — TX/OK/NM emphasis */}
+          {product.exclusiveDealer && (
+            <section className="mt-12 rounded-lg overflow-hidden border-2 border-primary">
+              <div className="bg-primary text-primary-foreground px-6 py-5">
+                <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider opacity-90">
+                  <Star className="w-3.5 h-3.5 fill-current" />
+                  Why Buy From GM Therapy
+                </div>
+                <h2 className="font-display text-2xl md:text-3xl font-bold mt-1">
+                  Authorized Biodex/Sport Medical Dealer · TX, OK & NM
+                </h2>
+                <p className="opacity-90 mt-2 max-w-3xl">
+                  We are the exclusive sales, service, and clinical-training partner for
+                  Biodex/Sport Medical equipment across Texas, Oklahoma, and New Mexico.
+                  Every purchase includes local delivery, on-site setup, and clinician in-service.
+                </p>
+              </div>
+              <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-border bg-card">
+                {[
+                  { icon: Award, title: "On-Site Installation", body: "White-glove setup, calibration, and load-testing handled by our team — not a freight-only delivery." },
+                  { icon: MapPin, title: "Local Clinical Training", body: "In-service training for your therapists on every protocol — included with every order." },
+                  { icon: Wrench, title: "Factory-Authorized Service", body: "Direct manufacturer service path with regional response — calibration, repair, and parts." },
+                ].map((c) => (
+                  <div key={c.title} className="p-5">
+                    <c.icon className="w-7 h-7 text-primary mb-2" />
+                    <h3 className="font-display font-bold mb-1">{c.title}</h3>
+                    <p className="text-sm text-muted-foreground">{c.body}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="bg-secondary px-6 py-5 flex flex-wrap items-center justify-between gap-3 border-t border-border">
+                <div>
+                  <p className="font-display font-bold">Ready for a demo or quote?</p>
+                  <p className="text-sm text-muted-foreground">We&apos;ll bring this product to your facility for evaluation.</p>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <Button asChild size="lg" className="font-semibold">
+                    <a href="tel:940-334-5169">
+                      <Phone className="w-4 h-4 mr-2" /> Call 940-334-5169
+                    </a>
+                  </Button>
+                  <Button asChild size="lg" variant="outline" className="font-semibold">
+                    <Link to="/biodex">
+                      Browse Full Biodex/Sport Medical Line
+                    </Link>
+                  </Button>
+                </div>
+              </div>
+            </section>
+          )}
+
+          {/* Source link */}
+          {detail.sourceUrl && (
+            <p className="mt-10 text-xs text-muted-foreground">
+              Manufacturer reference: {" "}
+              <a href={detail.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:text-primary">
+                {detail.sourceUrl} <ExternalLink className="w-3 h-3" />
+              </a>
+            </p>
+          )}
         </div>
       </main>
 
