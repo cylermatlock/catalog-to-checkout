@@ -24,6 +24,7 @@ export function sitemapPlugin(): Plugin {
         const staticUrls = [
           { loc: `${SITE_URL}/`, priority: "1.0", changefreq: "weekly" },
           { loc: `${SITE_URL}/products`, priority: "0.9", changefreq: "weekly" },
+          { loc: `${SITE_URL}/biodex`, priority: "0.9", changefreq: "monthly" },
         ];
 
         const productUrls = ids.map((id) => ({
