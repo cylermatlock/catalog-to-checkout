@@ -14209,7 +14209,7 @@ export const productDetails: Record<string, ProductDetail> = {
       title: "Point Relief ColdSpot Gel Pack — 5g, Dispenser of 100 (FAB 11-0740-100) | GM Therapy",
       description: "5g single-use gel packs, 100 per dispenser",
     },
-  },,
+  },
 
   // ===== Biodex / Sport Medical (exclusive dealer TX/OK/NM) =====
   "600": {
