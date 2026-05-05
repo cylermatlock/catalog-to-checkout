@@ -52,6 +52,7 @@ const Footer = () => (
             <a href="https://gmtherapytx.com/contact-us/" className="block hover:text-primary">Contact</a>
             <a href="https://gmtherapytx.com/past-projects/" className="block hover:text-primary">Past Projects</a>
             <a href="/products" className="block hover:text-primary">Product Catalog</a>
+            <a href="/biodex" className="block hover:text-primary font-semibold text-primary">★ Biodex / Sport Medical</a>
           </div>
         </div>
       </div>
