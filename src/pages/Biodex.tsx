@@ -23,14 +23,14 @@ const Biodex = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Helmet>
-        <title>Biodex Dealer — Texas, Oklahoma & New Mexico | GM Therapy</title>
+        <title>Biodex/Sport Medical Dealer — Texas, Oklahoma & New Mexico | GM Therapy</title>
         <meta
           name="description"
           content="GM Therapy Solutions is the exclusive Biodex / Sport Medical dealer for TX, OK, and NM. System 4, Balance System SD, BioSway, Gait Trainer 3, and more — local sales, service, and clinical training."
         />
         <link rel="canonical" href={canonical} />
-        <meta property="og:title" content="Biodex Dealer — Texas, Oklahoma & New Mexico" />
-        <meta property="og:description" content="Exclusive Biodex / Sport Medical dealer for TX, OK, NM. Local sales, service, and clinical support." />
+        <meta property="og:title" content="Biodex/Sport Medical Dealer — Texas, Oklahoma & New Mexico" />
+        <meta property="og:description" content="Exclusive Biodex/Sport Medical dealer for TX, OK, NM. Local sales, service, and clinical support." />
         <meta property="og:url" content={canonical} />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify({
@@ -42,7 +42,7 @@ const Biodex = () => {
           areaServed: ["Texas", "Oklahoma", "New Mexico"],
           makesOffer: biodexProducts.map((p) => ({
             "@type": "Offer",
-            itemOffered: { "@type": "Product", name: p.name, sku: p.sku, brand: "Biodex" },
+            itemOffered: { "@type": "Product", name: p.name, sku: p.sku, brand: "Biodex/Sport Medical" },
           })),
         })}</script>
       </Helmet>
@@ -53,7 +53,7 @@ const Biodex = () => {
       <section className="relative bg-foreground text-background overflow-hidden">
         <img
           src={heroImage}
-          alt="Biodex rehabilitation equipment in a modern clinic"
+          alt="Biodex/Sport Medical rehabilitation equipment in a modern clinic"
           width={1600}
           height={896}
           className="absolute inset-0 w-full h-full object-cover opacity-30"
@@ -66,10 +66,10 @@ const Biodex = () => {
               Exclusive Dealer · TX / OK / NM
             </span>
             <h1 className="font-display text-4xl md:text-6xl font-bold leading-tight">
-              Biodex <span className="text-primary">/ Sport Medical</span>
+              Biodex<span className="text-primary">/Sport Medical</span>
             </h1>
             <p className="mt-4 text-lg md:text-xl opacity-90 max-w-2xl">
-              GM Therapy Solutions is the authorized exclusive dealer for Biodex
+              GM Therapy Solutions is the authorized exclusive dealer for Biodex/Sport Medical
               physical-medicine equipment across Texas, Oklahoma, and New Mexico
               — backed by local clinical training, service, and support.
             </p>
@@ -94,9 +94,9 @@ const Biodex = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: Award, title: "Authorized Exclusive Dealer", body: "The only authorized Biodex / Sport Medical sales partner across Texas, Oklahoma, and New Mexico." },
+              { icon: Award, title: "Authorized Exclusive Dealer", body: "The only authorized Biodex/Sport Medical sales partner across Texas, Oklahoma, and New Mexico." },
               { icon: MapPin, title: "Local Clinical Support", body: "On-site demos, in-service training, and installation — all coordinated from our Ponder, TX headquarters." },
-              { icon: Wrench, title: "Service & Calibration", body: "Direct manufacturer service path with regional response times for Biodex System 4, Balance, and Gait products." },
+              { icon: Wrench, title: "Service & Calibration", body: "Direct manufacturer service path with regional response times for Biodex/Sport Medical System 4, Balance, and Gait products." },
             ].map((c) => (
               <div key={c.title} className="bg-card border border-border rounded-lg p-6">
                 <c.icon className="w-8 h-8 text-primary mb-3" />
@@ -111,7 +111,7 @@ const Biodex = () => {
       {/* Catalog grouped by sub */}
       <section id="catalog" className="container mx-auto px-4 py-16 flex-1">
         <div className="max-w-2xl mb-10">
-          <h2 className="font-display text-3xl md:text-4xl font-bold">The Full Biodex Line</h2>
+          <h2 className="font-display text-3xl md:text-4xl font-bold">The Full Biodex/Sport Medical Line</h2>
           <p className="text-muted-foreground mt-3">
             From the gold-standard System 4 isokinetic dynamometer to portable balance
             and gait systems — call for clinical pricing on any product.
@@ -143,7 +143,7 @@ const Biodex = () => {
         <div className="container mx-auto px-4 text-center">
           <ShieldCheck className="w-10 h-10 mx-auto mb-3" />
           <h2 className="font-display text-2xl md:text-3xl font-bold">Ready for a demo or quote?</h2>
-          <p className="mt-2 opacity-90">We&apos;ll bring Biodex equipment to your facility for evaluation.</p>
+          <p className="mt-2 opacity-90">We&apos;ll bring Biodex/Sport Medical equipment to your facility for evaluation.</p>
           <div className="mt-6 flex flex-wrap gap-3 justify-center">
             <Button asChild size="lg" variant="secondary" className="font-semibold">
               <a href="tel:940-334-5169">
