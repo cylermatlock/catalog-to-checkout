@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { products } from "@/data/products";
 import heroImage from "@/assets/biodex-hero.jpg";
 
-const biodexProducts = products.filter((p) => p.category === "Biodex / Sport Medical");
+const biodexProducts = products.filter((p) => p.category === "Biodex/Sport Medical");
 
 const groups: { title: string; tagline: string }[] = [
   { title: "Strength", tagline: "Objective isokinetic testing & training" },
@@ -26,7 +26,7 @@ const Biodex = () => {
         <title>Biodex/Sport Medical Dealer — Texas, Oklahoma & New Mexico | GM Therapy</title>
         <meta
           name="description"
-          content="GM Therapy Solutions is the exclusive Biodex / Sport Medical dealer for TX, OK, and NM. System 4, Balance System SD, BioSway, Gait Trainer 3, and more — local sales, service, and clinical training."
+          content="GM Therapy Solutions is the exclusive Biodex/Sport Medical dealer for TX, OK, and NM. System 4, Balance System SD, BioSway, Gait Trainer 3, and more — local sales, service, and clinical training."
         />
         <link rel="canonical" href={canonical} />
         <meta property="og:title" content="Biodex/Sport Medical Dealer — Texas, Oklahoma & New Mexico" />
