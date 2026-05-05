@@ -44,9 +44,12 @@ const Header = () => {
               className={`font-display text-sm font-semibold uppercase tracking-wide transition-colors hover:text-primary ${
                 location.pathname === link.to
                   ? "text-primary"
+                  : link.highlight
+                  ? "text-primary"
                   : "text-foreground"
               }`}
             >
+              {link.highlight && <span className="mr-1">★</span>}
               {link.label}
             </Link>
           ))}
