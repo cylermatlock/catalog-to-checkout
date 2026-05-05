@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams, Navigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { ChevronLeft, Plus, Minus, ShoppingCart, FileDown, ExternalLink, Phone } from "lucide-react";
+import { ChevronLeft, Plus, Minus, ShoppingCart, FileDown, ExternalLink, Phone, Star, Award, Wrench, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -178,7 +178,13 @@ const ProductDetail = () => {
               <h1 className="font-display text-3xl md:text-4xl font-bold mt-1 leading-tight">
                 {product.name}
               </h1>
-              <p className="text-muted-foreground mt-2">{detail.tagline}</p>
+              {product.exclusiveDealer && (
+                <span className="mt-3 inline-flex items-center gap-1.5 bg-primary text-primary-foreground text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded">
+                  <Star className="w-3 h-3 fill-current" />
+                  Exclusive Dealer · TX / OK / NM
+                </span>
+              )}
+              <p className="text-muted-foreground mt-3">{detail.tagline}</p>
               <p className="text-xs text-muted-foreground mt-2">SKU: {product.sku}</p>
 
               <ul className="mt-5 space-y-1.5">
