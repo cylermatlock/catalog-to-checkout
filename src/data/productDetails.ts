@@ -14232,7 +14232,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Advantage BX™ software with pediatric, isolated joint, and CPM protocols",
       "On-site clinical training included with GM Therapy installation",
     ],
-    gallery: [{ src: IMG("600"), alt: "Biodex/Sport Medical System 4 Pro multi-mode dynamometer" }],
+    gallery: [
+      { src: IMG("600"), alt: "Biodex/Sport Medical product hero — id 600" },
+      { src: "/assets/products/biodex/600-a.png", alt: "Biodex/Sport Medical product detail — 600-a.png" },
+      { src: "/assets/products/biodex/600-b.png", alt: "Biodex/Sport Medical product detail — 600-b.png" },
+      { src: "/assets/products/biodex/600-c.png", alt: "Biodex/Sport Medical product detail — 600-c.png" },
+      { src: "/assets/products/biodex/600-d.png", alt: "Biodex/Sport Medical product detail — 600-d.png" },
+      { src: "/assets/products/biodex/600-e.jpg", alt: "Biodex/Sport Medical product detail — 600-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Capabilities",
@@ -14300,7 +14307,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Lower investment than System 4 Pro — full Biodex/Sport Medical clinical depth",
       "Local installation and clinical training included",
     ],
-    gallery: [{ src: IMG("601"), alt: "Biodex/Sport Medical System 4 Quick-Set isokinetic dynamometer" }],
+    gallery: [
+      { src: IMG("601"), alt: "Biodex/Sport Medical product hero — id 601" },
+      { src: "/assets/products/biodex/601-a.png", alt: "Biodex/Sport Medical product detail — 601-a.png" },
+      { src: "/assets/products/biodex/601-b.png", alt: "Biodex/Sport Medical product detail — 601-b.png" },
+      { src: "/assets/products/biodex/601-c.png", alt: "Biodex/Sport Medical product detail — 601-c.png" },
+      { src: "/assets/products/biodex/601-d.png", alt: "Biodex/Sport Medical product detail — 601-d.png" },
+      { src: "/assets/products/biodex/601-e.jpg", alt: "Biodex/Sport Medical product detail — 601-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Capabilities",
@@ -14357,7 +14371,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Low-impact, joint-friendly progressive loading",
       "Ideal for older adults, post-op knee/hip, neuro rehab, and wellness",
     ],
-    gallery: [{ src: IMG("602"), alt: "Biodex/Sport Medical Sit2Stand Squat-Assist Trainer" }],
+    gallery: [
+      { src: IMG("602"), alt: "Biodex/Sport Medical product hero — id 602" },
+      { src: "/assets/products/biodex/602-a.png", alt: "Biodex/Sport Medical product detail — 602-a.png" },
+      { src: "/assets/products/biodex/602-b.png", alt: "Biodex/Sport Medical product detail — 602-b.png" },
+      { src: "/assets/products/biodex/602-c.png", alt: "Biodex/Sport Medical product detail — 602-c.png" },
+      { src: "/assets/products/biodex/602-d.png", alt: "Biodex/Sport Medical product detail — 602-d.png" },
+      { src: "/assets/products/biodex/602-e.jpg", alt: "Biodex/Sport Medical product detail — 602-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Training",
@@ -14410,7 +14431,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Large color touchscreen — intuitive interactive games",
       "Objective documentation for payers, families, & physicians",
     ],
-    gallery: [{ src: IMG("603"), alt: "Biodex/Sport Medical Balance System SD" }],
+    gallery: [
+      { src: IMG("603"), alt: "Biodex/Sport Medical product hero — id 603" },
+      { src: "/assets/products/biodex/603-a.png", alt: "Biodex/Sport Medical product detail — 603-a.png" },
+      { src: "/assets/products/biodex/603-b.png", alt: "Biodex/Sport Medical product detail — 603-b.png" },
+      { src: "/assets/products/biodex/603-c.png", alt: "Biodex/Sport Medical product detail — 603-c.png" },
+      { src: "/assets/products/biodex/603-d.png", alt: "Biodex/Sport Medical product detail — 603-d.png" },
+      { src: "/assets/products/biodex/603-e.jpg", alt: "Biodex/Sport Medical product detail — 603-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Testing & Training",
@@ -14474,7 +14502,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Wireless data export & on-board reporting",
       "Ideal for home health, schools, screenings, athletic training",
     ],
-    gallery: [{ src: IMG("604"), alt: "Biodex/Sport Medical BioSway portable balance system" }],
+    gallery: [
+      { src: IMG("604"), alt: "Biodex/Sport Medical product hero — id 604" },
+      { src: "/assets/products/biodex/604-a.png", alt: "Biodex/Sport Medical product detail — 604-a.png" },
+      { src: "/assets/products/biodex/604-b.png", alt: "Biodex/Sport Medical product detail — 604-b.png" },
+      { src: "/assets/products/biodex/604-c.jpg", alt: "Biodex/Sport Medical product detail — 604-c.jpg" },
+      { src: "/assets/products/biodex/604-d.png", alt: "Biodex/Sport Medical product detail — 604-d.png" },
+      { src: "/assets/products/biodex/604-e.png", alt: "Biodex/Sport Medical product detail — 604-e.png" },
+    ],
     specGroups: [
       {
         title: "Testing & Training",
@@ -14533,7 +14568,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Improves safety AND treatment efficacy simultaneously",
       "Versatile, simple to install, easy to use",
     ],
-    gallery: [{ src: IMG("605"), alt: "Biodex/Sport Medical FreeSway Handles for Balance System SD" }],
+    gallery: [
+      { src: IMG("605"), alt: "Biodex/Sport Medical product hero — id 605" },
+      { src: "/assets/products/biodex/605-a.png", alt: "Biodex/Sport Medical product detail — 605-a.png" },
+      { src: "/assets/products/biodex/605-b.png", alt: "Biodex/Sport Medical product detail — 605-b.png" },
+      { src: "/assets/products/biodex/605-c.png", alt: "Biodex/Sport Medical product detail — 605-c.png" },
+      { src: "/assets/products/biodex/605-d.png", alt: "Biodex/Sport Medical product detail — 605-d.png" },
+      { src: "/assets/products/biodex/605-e.jpg", alt: "Biodex/Sport Medical product detail — 605-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Compatibility",
@@ -14582,7 +14624,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Lets patients safely train with eyes closed",
       "Evidence-based — improves postural control outcomes",
     ],
-    gallery: [{ src: IMG("606"), alt: "Biodex/Sport Medical VibroTactile vestibular biofeedback system" }],
+    gallery: [
+      { src: IMG("606"), alt: "Biodex/Sport Medical product hero — id 606" },
+      { src: "/assets/products/biodex/606-a.png", alt: "Biodex/Sport Medical product detail — 606-a.png" },
+      { src: "/assets/products/biodex/606-b.png", alt: "Biodex/Sport Medical product detail — 606-b.png" },
+      { src: "/assets/products/biodex/606-c.png", alt: "Biodex/Sport Medical product detail — 606-c.png" },
+      { src: "/assets/products/biodex/606-d.png", alt: "Biodex/Sport Medical product detail — 606-d.png" },
+      { src: "/assets/products/biodex/606-e.jpg", alt: "Biodex/Sport Medical product detail — 606-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Compatibility",
@@ -14633,7 +14682,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Documents outcomes objectively for payers and physicians",
       "Pairs with NxStep Unweighing System for body-weight-supported training",
     ],
-    gallery: [{ src: IMG("607"), alt: "Biodex/Sport Medical Gait Trainer 3 with instrumented deck" }],
+    gallery: [
+      { src: IMG("607"), alt: "Biodex/Sport Medical product hero — id 607" },
+      { src: "/assets/products/biodex/607-a.png", alt: "Biodex/Sport Medical product detail — 607-a.png" },
+      { src: "/assets/products/biodex/607-b.png", alt: "Biodex/Sport Medical product detail — 607-b.png" },
+      { src: "/assets/products/biodex/607-c.png", alt: "Biodex/Sport Medical product detail — 607-c.png" },
+      { src: "/assets/products/biodex/607-d.png", alt: "Biodex/Sport Medical product detail — 607-d.png" },
+      { src: "/assets/products/biodex/607-e.jpg", alt: "Biodex/Sport Medical product detail — 607-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Treadmill",
@@ -14697,7 +14753,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Pairs with NxStep Unweighing System for safe training",
       "Evidence-based — used in leading fall-prevention research",
     ],
-    gallery: [{ src: IMG("608"), alt: "Biodex/Sport Medical Reactive Step Trainer (RST)" }],
+    gallery: [
+      { src: IMG("608"), alt: "Biodex/Sport Medical product hero — id 608" },
+      { src: "/assets/products/biodex/608-a.png", alt: "Biodex/Sport Medical product detail — 608-a.png" },
+      { src: "/assets/products/biodex/608-b.png", alt: "Biodex/Sport Medical product detail — 608-b.png" },
+      { src: "/assets/products/biodex/608-c.png", alt: "Biodex/Sport Medical product detail — 608-c.png" },
+      { src: "/assets/products/biodex/608-d.png", alt: "Biodex/Sport Medical product detail — 608-d.png" },
+      { src: "/assets/products/biodex/608-e.jpg", alt: "Biodex/Sport Medical product detail — 608-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Reactive Step Training",
@@ -14760,7 +14823,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Supports side-stepping, retro-walking, turning",
       "Allows natural arm swing for neuroplasticity",
     ],
-    gallery: [{ src: IMG("609"), alt: "Biodex/Sport Medical NxStep Unweighing System" }],
+    gallery: [
+      { src: IMG("609"), alt: "Biodex/Sport Medical product hero — id 609" },
+      { src: "/assets/products/biodex/609-a.png", alt: "Biodex/Sport Medical product detail — 609-a.png" },
+      { src: "/assets/products/biodex/609-b.png", alt: "Biodex/Sport Medical product detail — 609-b.png" },
+      { src: "/assets/products/biodex/609-c.png", alt: "Biodex/Sport Medical product detail — 609-c.png" },
+      { src: "/assets/products/biodex/609-d.png", alt: "Biodex/Sport Medical product detail — 609-d.png" },
+      { src: "/assets/products/biodex/609-e.jpg", alt: "Biodex/Sport Medical product detail — 609-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Unweighing",
@@ -14819,7 +14889,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Bedside, wheelchair, or chair transfers",
       "Battery-powered — no tether required",
     ],
-    gallery: [{ src: IMG("610"), alt: "Biodex/Sport Medical Mobility Assist sit-to-stand & ambulation aid" }],
+    gallery: [
+      { src: IMG("610"), alt: "Biodex/Sport Medical product hero — id 610" },
+      { src: "/assets/products/biodex/610-a.png", alt: "Biodex/Sport Medical product detail — 610-a.png" },
+      { src: "/assets/products/biodex/610-b.png", alt: "Biodex/Sport Medical product detail — 610-b.png" },
+      { src: "/assets/products/biodex/610-c.png", alt: "Biodex/Sport Medical product detail — 610-c.png" },
+      { src: "/assets/products/biodex/610-d.png", alt: "Biodex/Sport Medical product detail — 610-d.png" },
+      { src: "/assets/products/biodex/610-e.jpg", alt: "Biodex/Sport Medical product detail — 610-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Capabilities",
@@ -14875,7 +14952,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Compatible with Biodex/Sport Medical NxStep & other PWBT systems",
       "On-site fitting guidance from GM Therapy",
     ],
-    gallery: [{ src: IMG("611"), alt: "Biodex/Sport Medical body weight support harnesses" }],
+    gallery: [
+      { src: IMG("611"), alt: "Biodex/Sport Medical product hero — id 611" },
+      { src: "/assets/products/biodex/611-a.jpg", alt: "Biodex/Sport Medical product detail — 611-a.jpg" },
+      { src: "/assets/products/biodex/611-b.png", alt: "Biodex/Sport Medical product detail — 611-b.png" },
+      { src: "/assets/products/biodex/611-c.png", alt: "Biodex/Sport Medical product detail — 611-c.png" },
+      { src: "/assets/products/biodex/611-d.png", alt: "Biodex/Sport Medical product detail — 611-d.png" },
+      { src: "/assets/products/biodex/611-e.png", alt: "Biodex/Sport Medical product detail — 611-e.png" },
+    ],
     specGroups: [
       {
         title: "Sizing & Fit",
@@ -14933,7 +15017,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Self-powered — no electrical outlet required",
       "Heavy-duty construction for high-use clinical environments",
     ],
-    gallery: [{ src: IMG("612"), alt: "Biodex/Sport Medical BioStep 2 Semi-Recumbent Elliptical" }],
+    gallery: [
+      { src: IMG("612"), alt: "Biodex/Sport Medical product hero — id 612" },
+      { src: "/assets/products/biodex/612-a.png", alt: "Biodex/Sport Medical product detail — 612-a.png" },
+      { src: "/assets/products/biodex/612-b.png", alt: "Biodex/Sport Medical product detail — 612-b.png" },
+      { src: "/assets/products/biodex/612-c.png", alt: "Biodex/Sport Medical product detail — 612-c.png" },
+      { src: "/assets/products/biodex/612-d.png", alt: "Biodex/Sport Medical product detail — 612-d.png" },
+      { src: "/assets/products/biodex/612-e.jpg", alt: "Biodex/Sport Medical product detail — 612-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Motion",
@@ -14993,7 +15084,14 @@ export const productDetails: Record<string, ProductDetail> = {
       "Quick-adjust resistance",
       "Ideal for upper-extremity rehab, wheelchair-user fitness, general wellness",
     ],
-    gallery: [{ src: IMG("613"), alt: "Biodex/Sport Medical Upper Body Cycle ergometer" }],
+    gallery: [
+      { src: IMG("613"), alt: "Biodex/Sport Medical product hero — id 613" },
+      { src: "/assets/products/biodex/613-a.png", alt: "Biodex/Sport Medical product detail — 613-a.png" },
+      { src: "/assets/products/biodex/613-b.png", alt: "Biodex/Sport Medical product detail — 613-b.png" },
+      { src: "/assets/products/biodex/613-c.png", alt: "Biodex/Sport Medical product detail — 613-c.png" },
+      { src: "/assets/products/biodex/613-d.png", alt: "Biodex/Sport Medical product detail — 613-d.png" },
+      { src: "/assets/products/biodex/613-e.jpg", alt: "Biodex/Sport Medical product detail — 613-e.jpg" },
+    ],
     specGroups: [
       {
         title: "Capabilities",
