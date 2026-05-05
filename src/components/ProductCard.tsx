@@ -181,6 +181,14 @@ const ProductCard = ({ product, featured = false }: ProductCardProps) => {
             BSW
           </span>
         )}
+        {product.exclusiveDealer && (
+          <span
+            className="absolute bottom-2 left-2 right-2 bg-primary/95 text-primary-foreground text-[9px] font-bold uppercase tracking-wider px-2 py-1 rounded shadow-md text-center"
+            title="GM Therapy is the exclusive dealer in Texas, Oklahoma, and New Mexico"
+          >
+            ★ Exclusive Dealer · TX/OK/NM
+          </span>
+        )}
       </div>
       <div className="p-4">
         <span className="font-medium text-primary uppercase tracking-wide text-sm">
