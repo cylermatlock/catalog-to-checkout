@@ -11,6 +11,7 @@ const Header = () => {
 
   const links = [
     { to: "/products", label: "Products" },
+    { to: "/biodex", label: "Biodex", highlight: true },
   ];
 
   return (
