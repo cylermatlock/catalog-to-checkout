@@ -528,4 +528,20 @@ export const productImages: Record<string, string> = {
   "557": productAsset("fab/11-0720-1.jpg"),
   "558": productAsset("fab/11-0730-1.jpg"),
   "559": productAsset("fab/11-0740-100.jpg"),
+
+  // Biodex / Sport Medical — sourced from smti.co
+  "600": productAsset("biodex/600.jpg"),
+  "601": productAsset("biodex/601.jpg"),
+  "602": productAsset("biodex/602.jpeg"),
+  "603": productAsset("biodex/603.jpg"),
+  "604": productAsset("biodex/604.jpg"),
+  "605": productAsset("biodex/605.jpg"),
+  "606": productAsset("biodex/606.jpg"),
+  "607": productAsset("biodex/607.jpg"),
+  "608": productAsset("biodex/608.jpg"),
+  "609": productAsset("biodex/609.jpg"),
+  "610": productAsset("biodex/610.jpg"),
+  "611": productAsset("biodex/611.jpg"),
+  "612": productAsset("biodex/612.jpg"),
+  "613": productAsset("biodex/613.jpg"),
 };
