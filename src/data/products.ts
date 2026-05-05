@@ -9,9 +9,12 @@ export interface Product {
   image?: string;
   /** True for items previously purchased by Baylor Scott & White. Renders a BSW badge. */
   bsw?: boolean;
+  /** True for products where GM Therapy is the exclusive dealer in TX/OK/NM. */
+  exclusiveDealer?: boolean;
 }
 
 export const categories = [
+  "Biodex / Sport Medical",
   "Rehab Furniture",
   "Modalities",
   "Cardio",
