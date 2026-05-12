@@ -544,4 +544,5 @@ export const productImages: Record<string, string> = {
   "611": productAsset("biodex/611.png"),
   "612": productAsset("biodex/612.png"),
   "613": productAsset("biodex/613.png"),
+  "614": productAsset("matrix-t3xm-treadmill.jpg"),
 };
