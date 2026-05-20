@@ -26,6 +26,7 @@ export interface ProductDetail {
   gallery: GalleryImage[];
   specGroups: SpecGroup[];
   specSheetUrl?: string;
+  brochureUrl?: string;
   sourceUrl: string;
   seo: {
     title: string;
