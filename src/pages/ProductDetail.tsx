@@ -35,7 +35,7 @@ const ProductDetail = () => {
     setQty(1);
   };
 
-  const brochurePreviewImage = product.id === "615" ? "/assets/docs/previews/615.jpg" : undefined;
+  
   const canonical = `https://products.gmtherapytx.com/product/${product.id}`;
   const ogImage = `https://products.gmtherapytx.com/og/products/${product.id}.jpg`;
 
