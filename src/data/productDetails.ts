@@ -15183,7 +15183,7 @@ export const productDetails: Record<string, ProductDetail> = {
         ],
       },
       {
-        title: "Dealer Support (TX/OK/NM)",
+        title: "Dealer Support",
         rows: [
           { label: "Delivery", value: "Local by GM Therapy" },
           { label: "Training", value: "Clinical onboarding & protocol setup included" },
