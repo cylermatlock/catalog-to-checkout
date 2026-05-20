@@ -26,6 +26,7 @@ export interface ProductDetail {
   gallery: GalleryImage[];
   specGroups: SpecGroup[];
   specSheetUrl?: string;
+  brochureTitle?: string;
   brochureUrl?: string;
   sourceUrl: string;
   seo: {
@@ -15187,6 +15188,7 @@ export const productDetails: Record<string, ProductDetail> = {
         ],
       },
     ],
+    brochureTitle: "Kinvent K-Deltas",
     brochureUrl: "/assets/products/kinvent/brochures/Kinvent-K-Deltas.pdf",
     sourceUrl: "https://kinvent.com/kinvent-product/force-plates-vertical-jump-k-deltas/",
     seo: {
