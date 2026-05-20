@@ -35,32 +35,7 @@ const ProductDetail = () => {
     setQty(1);
   };
 
-  const handleOpenBrochure = async () => {
-    if (!detail.brochureUrl) return;
-
-    const previewWindow = window.open("about:blank", "_blank");
-
-    try {
-      const response = await fetch(detail.brochureUrl, { cache: "no-store" });
-      if (!response.ok) throw new Error("Unable to load PDF");
-
-      const blobUrl = URL.createObjectURL(await response.blob());
-      if (previewWindow) {
-        previewWindow.opener = null;
-        previewWindow.location.href = blobUrl;
-      } else {
-        const link = document.createElement("a");
-        link.href = blobUrl;
-        link.download = `${detail.brochureTitle ?? "product-document"}.pdf`;
-        link.click();
-      }
-      window.setTimeout(() => URL.revokeObjectURL(blobUrl), 60_000);
-    } catch {
-      previewWindow?.close();
-      toast.error("The PDF was blocked by the browser. Disable the ad blocker for this site and try again.");
-    }
-  };
-
+  const brochurePreviewImage = product.id === "615" ? "/assets/docs/previews/615.jpg" : undefined;
   const canonical = `https://products.gmtherapytx.com/product/${product.id}`;
   const ogImage = `https://products.gmtherapytx.com/og/products/${product.id}.jpg`;
 
@@ -267,9 +242,19 @@ const ProductDetail = () => {
               {(detail.specSheetUrl || detail.brochureUrl) && (
                 <div className="mt-4 flex flex-wrap gap-2">
                   {detail.brochureUrl && (
-                    <Button type="button" onClick={handleOpenBrochure} variant="default" size="sm">
-                      <FileDown className="w-4 h-4 mr-1.5" />
-                      {detail.brochureTitle ?? "GM Therapy brochure"} (PDF)
+                    <Button asChild variant="default" size="sm">
+                      <a href={detail.brochureUrl} download={`${detail.brochureTitle ?? "product-brochure"}.pdf`}>
+                        <FileDown className="w-4 h-4 mr-1.5" />
+                        Download {detail.brochureTitle ?? "brochure"} PDF
+                      </a>
+                    </Button>
+                  )}
+                  {brochurePreviewImage && (
+                    <Button asChild variant="outline" size="sm">
+                      <a href="#brochure-preview">
+                        <ExternalLink className="w-4 h-4 mr-1.5" />
+                        View brochure preview
+                      </a>
                     </Button>
                   )}
                   {detail.specSheetUrl && (
@@ -294,6 +279,25 @@ const ProductDetail = () => {
               ))}
             </div>
           </section>
+
+          {brochurePreviewImage && (
+            <section id="brochure-preview" className="mt-12 scroll-mt-24">
+              <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+                <h2 className="font-display text-2xl font-bold">Brochure Preview</h2>
+                {detail.brochureUrl && (
+                  <Button asChild variant="outline" size="sm">
+                    <a href={detail.brochureUrl} download={`${detail.brochureTitle ?? "product-brochure"}.pdf`}>
+                      <FileDown className="w-4 h-4 mr-1.5" />
+                      Download PDF
+                    </a>
+                  </Button>
+                )}
+              </div>
+              <a href={brochurePreviewImage} target="_blank" rel="noopener noreferrer" className="block max-w-3xl rounded-lg border border-border bg-card overflow-hidden">
+                <img src={brochurePreviewImage} alt={`${detail.brochureTitle ?? product.name} brochure preview`} loading="lazy" className="w-full h-auto" />
+              </a>
+            </section>
+          )}
 
           {/* Specs */}
           <section className="mt-12">
