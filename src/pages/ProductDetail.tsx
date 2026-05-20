@@ -238,14 +238,24 @@ const ProductDetail = () => {
                 )}
               </div>
 
-      {detail.specSheetUrl && (
+      {(detail.specSheetUrl || detail.brochureUrl) && (
                 <div className="mt-4 flex flex-wrap gap-2">
-                  <Button asChild variant="outline" size="sm">
-                    <a href={detail.specSheetUrl} target="_blank" rel="noopener noreferrer">
-                      <FileDown className="w-4 h-4 mr-1.5" />
-                      Download spec sheet (PDF)
-                    </a>
-                  </Button>
+                  {detail.brochureUrl && (
+                    <Button asChild variant="default" size="sm">
+                      <a href={detail.brochureUrl} target="_blank" rel="noopener noreferrer">
+                        <FileDown className="w-4 h-4 mr-1.5" />
+                        Download GM Therapy brochure (PDF)
+                      </a>
+                    </Button>
+                  )}
+                  {detail.specSheetUrl && (
+                    <Button asChild variant="outline" size="sm">
+                      <a href={detail.specSheetUrl} target="_blank" rel="noopener noreferrer">
+                        <FileDown className="w-4 h-4 mr-1.5" />
+                        Download spec sheet (PDF)
+                      </a>
+                    </Button>
+                  )}
                 </div>
               )}
             </section>
