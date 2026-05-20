@@ -35,6 +35,32 @@ const ProductDetail = () => {
     setQty(1);
   };
 
+  const handleOpenBrochure = async () => {
+    if (!detail.brochureUrl) return;
+
+    const previewWindow = window.open("about:blank", "_blank");
+
+    try {
+      const response = await fetch(detail.brochureUrl, { cache: "no-store" });
+      if (!response.ok) throw new Error("Unable to load PDF");
+
+      const blobUrl = URL.createObjectURL(await response.blob());
+      if (previewWindow) {
+        previewWindow.opener = null;
+        previewWindow.location.href = blobUrl;
+      } else {
+        const link = document.createElement("a");
+        link.href = blobUrl;
+        link.download = `${detail.brochureTitle ?? "product-document"}.pdf`;
+        link.click();
+      }
+      window.setTimeout(() => URL.revokeObjectURL(blobUrl), 60_000);
+    } catch {
+      previewWindow?.close();
+      toast.error("The PDF was blocked by the browser. Disable the ad blocker for this site and try again.");
+    }
+  };
+
   const canonical = `https://products.gmtherapytx.com/product/${product.id}`;
   const ogImage = `https://products.gmtherapytx.com/og/products/${product.id}.jpg`;
 
@@ -241,11 +267,9 @@ const ProductDetail = () => {
               {(detail.specSheetUrl || detail.brochureUrl) && (
                 <div className="mt-4 flex flex-wrap gap-2">
                   {detail.brochureUrl && (
-                    <Button asChild variant="default" size="sm">
-                      <a href={detail.brochureUrl} target="_blank" rel="noopener noreferrer" type="application/pdf">
-                        <FileDown className="w-4 h-4 mr-1.5" />
-                        {detail.brochureTitle ?? "GM Therapy brochure"} (PDF)
-                      </a>
+                    <Button type="button" onClick={handleOpenBrochure} variant="default" size="sm">
+                      <FileDown className="w-4 h-4 mr-1.5" />
+                      {detail.brochureTitle ?? "GM Therapy brochure"} (PDF)
                     </Button>
                   )}
                   {detail.specSheetUrl && (

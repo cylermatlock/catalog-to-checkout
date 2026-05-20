@@ -15192,7 +15192,7 @@ export const productDetails: Record<string, ProductDetail> = {
       },
     ],
     brochureTitle: "Kinvent K-Deltas",
-    brochureUrl: "/assets/products/kinvent/kinvent-k-deltas-guide.pdf",
+    brochureUrl: "/assets/docs/615.pdf",
     sourceUrl: "https://kinvent.com/kinvent-product/force-plates-vertical-jump-k-deltas/",
     seo: {
       title: "Kinvent K-Deltas Portable Force Plates — Authorized Dealer TX/OK/NM | GM Therapy",
