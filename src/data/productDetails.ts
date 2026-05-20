@@ -15151,6 +15151,9 @@ export const productDetails: Record<string, ProductDetail> = {
       { src: "/assets/products/kinvent/k-deltas.jpg", alt: "Kinvent K-Deltas portable force plates" },
       { src: "/assets/products/kinvent/k-deltas-banner.jpg", alt: "Kinvent K-Deltas in use for vertical jump assessment" },
       { src: "/assets/products/kinvent/k-deltas-app.png", alt: "Kinvent App showing force plate data and analytics" },
+      { src: "/assets/products/kinvent/k-deltas-3d.png", alt: "Kinvent K-Deltas force plate — product render" },
+      { src: "/assets/products/kinvent/k-deltas-cmj-tablet.png", alt: "Kinvent K-Deltas CMJ jump test results on tablet" },
+      { src: "/assets/products/kinvent/k-deltas-cmj-unipodal.jpg", alt: "Athlete performing unipodal CMJ on Kinvent K-Deltas" },
     ],
     specGroups: [
       {
