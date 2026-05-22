@@ -26,6 +26,7 @@ export interface ProductDetail {
   gallery: GalleryImage[];
   specGroups: SpecGroup[];
   specSheetUrl?: string;
+  specSheetTitle?: string;
   brochureTitle?: string;
   brochureUrl?: string;
   sourceUrl: string;
@@ -15193,6 +15194,8 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     brochureTitle: "Kinvent K-Deltas",
     brochureUrl: "/assets/docs/615.pdf",
+    specSheetUrl: "/assets/products/kinvent/downloads/product-sheet-3d-deltas-en.pdf",
+    specSheetTitle: "Product Sheet (English)",
     sourceUrl: "https://kinvent.com/kinvent-product/force-plates-vertical-jump-k-deltas/",
     seo: {
       title: "Kinvent K-Deltas Portable Force Plates — Authorized Dealer TX/OK/NM | GM Therapy",

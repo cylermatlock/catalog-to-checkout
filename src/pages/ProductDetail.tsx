@@ -253,7 +253,7 @@ const ProductDetail = () => {
                     <Button asChild variant="outline" size="sm">
                       <a href={detail.specSheetUrl} target="_blank" rel="noopener noreferrer">
                         <FileDown className="w-4 h-4 mr-1.5" />
-                        Download spec sheet (PDF)
+                        {detail.specSheetTitle ?? "Download spec sheet (PDF)"}
                       </a>
                     </Button>
                   )}
