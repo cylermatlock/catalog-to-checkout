@@ -15226,12 +15226,11 @@ export const productDetails: Record<string, ProductDetail> = {
       "Compatible with the full Kinvent ecosystem (K-Push, K-Pull, K-Power, K-Myo, K-Move)",
     ],
     gallery: [
-      { src: "/assets/products/kinvent/k-deltas.jpg", alt: "Kinvent K-Deltas XL portable force plates" },
-      { src: "/assets/products/kinvent/k-deltas-banner.jpg", alt: "Kinvent K-Deltas XL in use for vertical jump assessment" },
-      { src: "/assets/products/kinvent/k-deltas-app.png", alt: "Kinvent App showing force plate data and analytics" },
-      { src: "/assets/products/kinvent/k-deltas-3d.png", alt: "Kinvent K-Deltas XL force plate — product render" },
-      { src: "/assets/products/kinvent/k-deltas-cmj-tablet.png", alt: "Kinvent K-Deltas XL CMJ jump test results on tablet" },
-      { src: "/assets/products/kinvent/k-deltas-cmj-unipodal.jpg", alt: "Athlete performing unipodal CMJ on Kinvent K-Deltas XL" },
+      { src: "/assets/products/kinvent/k-deltas-xl/DELTAS-1.png", alt: "Kinvent K-Deltas XL portable force plates" },
+      { src: "/assets/products/kinvent/k-deltas-xl/DELTAS-2.png", alt: "Kinvent K-Deltas XL — plate detail" },
+      { src: "/assets/products/kinvent/k-deltas-xl/DELTAS-3.png", alt: "Kinvent K-Deltas XL — product view" },
+      { src: "/assets/products/kinvent/k-deltas-xl/DELTAS-9.png", alt: "Kinvent K-Deltas XL — assessment view" },
+      { src: "/assets/products/kinvent/k-deltas-xl/DELTAS-10.png", alt: "Kinvent K-Deltas XL — application detail" },
     ],
     specGroups: [
       {

@@ -546,7 +546,7 @@ export const productImages: Record<string, string> = {
   "613": productAsset("biodex/613.png"),
   "614": productAsset("matrix-t3xm-treadmill.jpg"),
   "615": productAsset("kinvent/k-deltas.jpg"),
-  "616": productAsset("kinvent/k-deltas.jpg"),
+  "616": productAsset("kinvent/k-deltas-xl/DELTAS-1.png"),
   "617": productAsset("kinvent/k-power/GG3A2584-scaled.jpg"),
 };
 
