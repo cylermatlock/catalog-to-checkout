@@ -26,6 +26,7 @@ export interface ProductDetail {
   gallery: GalleryImage[];
   specGroups: SpecGroup[];
   specSheetUrl?: string;
+  specSheetTitle?: string;
   brochureTitle?: string;
   brochureUrl?: string;
   sourceUrl: string;
