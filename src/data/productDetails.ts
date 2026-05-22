@@ -15644,6 +15644,77 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Kinvent K-Bubble Wireless Inclinometer — product id "622"
+  "622": {
+    productId: "622",
+    slug: "kinvent-k-bubble-inclinometer",
+    tagline:
+      "Wireless inclinometer for objective range-of-motion assessment — powered by the Kinvent app.",
+    overview: [
+      "The Kinvent K-Bubble is a connected, portable wireless inclinometer that turns any clinic, gym, or performance lab into an objective range-of-motion testing environment. It pairs with the Kinvent App on iOS or Android to deliver real-time joint angle data for active and passive ROM protocols.",
+      "Used by physical therapists, sports medicine clinicians, and strength coaches, the K-Bubble quantifies what used to be subjective: joint angles, end-range positions, and Limb Symmetry Index (LSI) across upper- and lower-extremity mobility assessments.",
+      "K-Bubble integrates with the broader Kinvent ecosystem — K-Deltas, K-Push, K-Pull, K-Power, K-Myo — so you can build a complete assessment battery and trend patient progress over time inside one app.",
+    ],
+    highlights: [
+      "Wireless inclinometer — objective range-of-motion testing",
+      "Quantify joint angles for active and passive ROM",
+      "Bilateral comparison with Limb Symmetry Index (LSI)",
+      "Upper- and lower-extremity mobility protocols",
+      "Real-time biofeedback via the Kinvent App (iOS / Android)",
+      "Exportable PDF reports & longitudinal patient tracking",
+      "Rechargeable, fully portable — set up anywhere in seconds",
+      "Compatible with the full Kinvent ecosystem (K-Deltas, K-Push, K-Pull, K-Power, K-Myo)",
+    ],
+    gallery: [
+      { src: "/assets/products/kinvent/k-bubble/K-Bubble-8-scaled.png", alt: "Kinvent K-Bubble wireless inclinometer" },
+      { src: "/assets/products/kinvent/k-bubble/K-Bubble-3.jpg", alt: "Kinvent K-Bubble in clinical ROM assessment" },
+    ],
+    specGroups: [
+      {
+        title: "Hardware",
+        rows: [
+          { label: "Type", value: "Wireless inclinometer" },
+          { label: "Connectivity", value: "Bluetooth — pairs with Kinvent App (iOS / Android)" },
+          { label: "Power", value: "Rechargeable battery, fully portable" },
+          { label: "Attachments", value: "Compatible with standard goniometer placement protocols" },
+        ],
+      },
+      {
+        title: "Assessment Protocols",
+        rows: [
+          { label: "Range of motion", value: "Active and passive ROM — joint angle measurement" },
+          { label: "Asymmetry", value: "Bilateral comparison with Limb Symmetry Index (LSI)" },
+          { label: "Regions", value: "Upper- and lower-extremity mobility protocols" },
+          { label: "Tracking", value: "Trended progress across sessions" },
+        ],
+      },
+      {
+        title: "Software & Data",
+        rows: [
+          { label: "App", value: "Kinvent App — real-time biofeedback & reports" },
+          { label: "Reporting", value: "Exportable PDF reports, trended patient data" },
+          { label: "Ecosystem", value: "Integrates with K-Deltas, K-Push, K-Pull, K-Power, K-Myo" },
+        ],
+      },
+      {
+        title: "Dealer Support",
+        rows: [
+          { label: "Delivery", value: "Local by GM Therapy" },
+          { label: "Training", value: "Clinical onboarding & protocol setup included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    specSheetUrl: "/assets/products/kinvent/downloads/product-sheet-k-bubble-en.pdf",
+    specSheetTitle: "Product Sheet (English)",
+    sourceUrl: "https://kinvent.com/",
+    seo: {
+      title: "Kinvent K-Bubble Wireless Inclinometer | GM Therapy",
+      description:
+        "Wireless inclinometer for objective range-of-motion assessment and Limb Symmetry Index. Powered by the Kinvent App.",
+    },
+  },
+
 };
 
 
