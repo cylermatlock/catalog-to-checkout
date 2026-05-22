@@ -548,6 +548,7 @@ export const productImages: Record<string, string> = {
   "615": productAsset("kinvent/k-deltas.jpg"),
   "616": productAsset("kinvent/k-deltas-xl/DELTAS-1.png"),
   "617": productAsset("kinvent/k-power/GG3A2584-scaled.jpg"),
+  "618": productAsset("kinvent/3d-deltas/3d-deltas-6.png"),
 };
 
 
