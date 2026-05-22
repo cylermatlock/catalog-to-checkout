@@ -15496,6 +15496,80 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Kinvent K-Force Plates — product id "620"
+  "620": {
+    productId: "620",
+    slug: "kinvent-k-force-plates",
+    tagline:
+      "Wireless force plates for balance, strength, and vertical jump assessment — powered by the Kinvent app.",
+    overview: [
+      "The Kinvent K-Force Plates are connected, wireless force plates that turn any clinic, gym, or performance lab into an objective testing environment. Two plates pair with the Kinvent App on iOS or Android to deliver real-time force, power, and asymmetry data for jump, strength, and balance protocols.",
+      "Used by physical therapists, sports medicine clinicians, and strength coaches, the K-Force Plates quantify what used to be subjective: vertical jump mechanics (CMJ, SJ, Drop Jump, Reactive Strength Index), isometric strength (IMTP, ASH, McCall), Limb Symmetry Index (LSI), Force-Velocity profile, Dynamic Strength Index, and Center of Pressure for postural control.",
+      "The plates integrate with the broader Kinvent ecosystem — K-Push, K-Pull, K-Power, K-Myo, K-Move — so you can build a complete assessment battery and trend patient progress over time inside one app.",
+    ],
+    highlights: [
+      "Two wireless plates — large surface for double- and single-leg protocols",
+      "Vertical jump: CMJ, SJ, Drop Jump, RSI, peak power, jump height",
+      "Isometric strength: IMTP, ASH Test, McCall with Limb Symmetry Index",
+      "Balance & postural control: Center of Pressure, velocity, load distribution",
+      "Real-time biofeedback via the Kinvent App (iOS / Android)",
+      "Force-Velocity profile & Dynamic Strength Index (DSI)",
+      "Rechargeable, fully portable — set up anywhere in seconds",
+      "Compatible with the full Kinvent ecosystem (K-Push, K-Pull, K-Power, K-Myo, K-Move)",
+    ],
+    gallery: [
+      { src: "/assets/products/kinvent/k-force-plates/Force-Plates.png", alt: "Kinvent K-Force Plates" },
+      { src: "/assets/products/kinvent/k-force-plates/Force-Plates-10.png", alt: "Kinvent K-Force Plates — in use" },
+      { src: "/assets/products/kinvent/k-force-plates/Force-Plates-9.png", alt: "Kinvent K-Force Plates — assessment view" },
+      { src: "/assets/products/kinvent/k-force-plates/Force-Plates-15.png", alt: "Kinvent K-Force Plates — protocol detail" },
+      { src: "/assets/products/kinvent/k-force-plates/Unboxing-Force-Plates.png", alt: "Kinvent K-Force Plates — unboxing view" },
+    ],
+    specGroups: [
+      {
+        title: "Hardware",
+        rows: [
+          { label: "Configuration", value: "Two wireless plates (left / right)" },
+          { label: "Connectivity", value: "Bluetooth — pairs with Kinvent App (iOS / Android)" },
+          { label: "Power", value: "Rechargeable battery, fully portable" },
+          { label: "Surface", value: "Large plate area — supports double- and single-leg testing" },
+        ],
+      },
+      {
+        title: "Assessment Protocols",
+        rows: [
+          { label: "Jump tests", value: "CMJ, Squat Jump, Drop Jump, Repeated Jumps, RSI" },
+          { label: "Isometric strength", value: "IMTP, ASH Test, McCall — with LSI asymmetry" },
+          { label: "Balance", value: "Center of Pressure, sway velocity, load distribution" },
+          { label: "Advanced", value: "Force-Velocity profile, Dynamic Strength Index (DSI)" },
+        ],
+      },
+      {
+        title: "Software & Data",
+        rows: [
+          { label: "App", value: "Kinvent App — real-time biofeedback & reports" },
+          { label: "Reporting", value: "Exportable PDF reports, trended patient data" },
+          { label: "Ecosystem", value: "Integrates with K-Push, K-Pull, K-Power, K-Myo, K-Move" },
+        ],
+      },
+      {
+        title: "Dealer Support",
+        rows: [
+          { label: "Delivery", value: "Local by GM Therapy" },
+          { label: "Training", value: "Clinical onboarding & protocol setup included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    specSheetUrl: "/assets/products/kinvent/downloads/product-sheet-k-force-plates-en.pdf",
+    specSheetTitle: "Product Sheet (English)",
+    sourceUrl: "https://kinvent.com/",
+    seo: {
+      title: "Kinvent K-Force Plates | GM Therapy",
+      description:
+        "Wireless force plates for vertical jump, isometric strength, and balance assessment. Powered by the Kinvent App.",
+    },
+  },
+
 };
 
 
