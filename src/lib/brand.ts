@@ -10,6 +10,7 @@ const NAME_MATCHERS: { label: string; test: (n: string) => boolean }[] = [
   { label: "Relief Pak", test: (n) => /\brelief pak\b/i.test(n) },
   { label: "Point Relief", test: (n) => /\bpoint relief\b/i.test(n) },
   { label: "Shuttle", test: (n) => /\bshuttle\b/i.test(n) },
+  { label: "Kinvent", test: (n) => /\bkinvent\b/i.test(n) },
   { label: "Richmar", test: (n) => /\brichmar\b/i.test(n) },
   { label: "Chattanooga", test: (n) => /\bchattanooga\b/i.test(n) },
   { label: "Armedica", test: (n) => /\barmedica\b/i.test(n) },
