@@ -15570,6 +15570,80 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Kinvent K-Pull Wireless Dynamometer — product id "621"
+  "621": {
+    productId: "621",
+    slug: "kinvent-k-pull-dynamometer",
+    tagline:
+      "Wireless dynamometer for objective pulling strength testing — powered by the Kinvent app.",
+    overview: [
+      "The Kinvent K-Pull is a connected, portable wireless dynamometer that turns any clinic, gym, or performance lab into an objective pulling-strength testing environment. It pairs with the Kinvent App on iOS or Android to deliver real-time force and asymmetry data for isometric pulling protocols.",
+      "Used by physical therapists, sports medicine clinicians, and strength coaches, the K-Pull quantifies what used to be subjective: peak force, average force, time-to-peak, and Limb Symmetry Index (LSI) across upper- and lower-extremity pulling assessments.",
+      "K-Pull integrates with the broader Kinvent ecosystem — K-Deltas, K-Push, K-Power, K-Myo, K-Move — so you can build a complete assessment battery and trend patient progress over time inside one app.",
+    ],
+    highlights: [
+      "Wireless dynamometer — objective pulling strength testing",
+      "Quantify peak force, average force, and time-to-peak",
+      "Bilateral comparison with Limb Symmetry Index (LSI)",
+      "Upper- and lower-extremity isometric pulling protocols",
+      "Real-time biofeedback via the Kinvent App (iOS / Android)",
+      "Exportable PDF reports & longitudinal patient tracking",
+      "Rechargeable, fully portable — set up anywhere in seconds",
+      "Compatible with the full Kinvent ecosystem (K-Deltas, K-Push, K-Power, K-Myo, K-Move)",
+    ],
+    gallery: [
+      { src: "/assets/products/kinvent/k-pull/K-PULL1-1.png", alt: "Kinvent K-Pull wireless dynamometer" },
+      { src: "/assets/products/kinvent/k-pull/K-Pull-4-scaled.png", alt: "Kinvent K-Pull — product view" },
+      { src: "/assets/products/kinvent/k-pull/K-Pull-5-scaled.png", alt: "Kinvent K-Pull — device detail" },
+      { src: "/assets/products/kinvent/k-pull/GG3A5877.jpg", alt: "Kinvent K-Pull in clinical pulling assessment" },
+      { src: "/assets/products/kinvent/k-pull/GG3A5879.jpg", alt: "Kinvent K-Pull pulling strength protocol" },
+    ],
+    specGroups: [
+      {
+        title: "Hardware",
+        rows: [
+          { label: "Type", value: "Wireless pulling dynamometer" },
+          { label: "Connectivity", value: "Bluetooth — pairs with Kinvent App (iOS / Android)" },
+          { label: "Power", value: "Rechargeable battery, fully portable" },
+          { label: "Attachments", value: "Compatible with standard pulling straps and handles" },
+        ],
+      },
+      {
+        title: "Assessment Protocols",
+        rows: [
+          { label: "Strength", value: "Isometric pulling — peak force, average force, time-to-peak" },
+          { label: "Asymmetry", value: "Bilateral comparison with Limb Symmetry Index (LSI)" },
+          { label: "Regions", value: "Upper- and lower-extremity pulling protocols" },
+          { label: "Tracking", value: "Trended progress across sessions" },
+        ],
+      },
+      {
+        title: "Software & Data",
+        rows: [
+          { label: "App", value: "Kinvent App — real-time biofeedback & reports" },
+          { label: "Reporting", value: "Exportable PDF reports, trended patient data" },
+          { label: "Ecosystem", value: "Integrates with K-Deltas, K-Push, K-Power, K-Myo, K-Move" },
+        ],
+      },
+      {
+        title: "Dealer Support",
+        rows: [
+          { label: "Delivery", value: "Local by GM Therapy" },
+          { label: "Training", value: "Clinical onboarding & protocol setup included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    specSheetUrl: "/assets/products/kinvent/downloads/product-sheet-k-pull-en.pdf",
+    specSheetTitle: "Product Sheet (English)",
+    sourceUrl: "https://kinvent.com/",
+    seo: {
+      title: "Kinvent K-Pull Wireless Dynamometer | GM Therapy",
+      description:
+        "Wireless dynamometer for objective isometric pulling strength testing and Limb Symmetry Index. Powered by the Kinvent App.",
+    },
+  },
+
 };
 
 
