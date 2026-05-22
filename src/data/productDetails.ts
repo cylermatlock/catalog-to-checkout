@@ -15298,7 +15298,11 @@ export const productDetails: Record<string, ProductDetail> = {
       "Compatible with the full Kinvent ecosystem (K-Deltas, K-Push, K-Pull, K-Myo, K-Move)",
     ],
     gallery: [
-      { src: "/assets/products/kinvent/k-deltas.jpg", alt: "Kinvent K-Power wireless dynamometer" },
+      { src: "/assets/products/kinvent/k-power/GG3A2584-scaled.jpg", alt: "Kinvent K-Power wireless dynamometer — clinical use" },
+      { src: "/assets/products/kinvent/k-power/GG3A2580-scaled.jpg", alt: "Kinvent K-Power wireless dynamometer — handheld assessment" },
+      { src: "/assets/products/kinvent/k-power/GG3A2117-scaled.jpg", alt: "Kinvent K-Power wireless dynamometer — strength testing" },
+      { src: "/assets/products/kinvent/k-power/GG3A3070-scaled.jpg", alt: "Kinvent K-Power wireless dynamometer — protocol view" },
+      { src: "/assets/products/kinvent/k-power/GG3A2191-scaled.jpg", alt: "Kinvent K-Power wireless dynamometer — device detail" },
     ],
     specGroups: [
       {
