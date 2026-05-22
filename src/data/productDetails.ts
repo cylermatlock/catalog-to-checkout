@@ -15422,6 +15422,80 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Kinvent K-Myo Wireless EMG Sensors — product id "619"
+  "619": {
+    productId: "619",
+    slug: "kinvent-k-myo-emg-sensors",
+    tagline:
+      "Wireless surface EMG sensors for real-time muscle activity assessment — powered by the Kinvent app.",
+    overview: [
+      "The Kinvent K-Myo are connected, wireless surface EMG sensors that turn any clinic, gym, or performance lab into an objective neuromuscular assessment environment. They pair with the Kinvent App on iOS or Android to deliver real-time muscle activation data during functional, strength, and rehabilitation protocols.",
+      "Used by physical therapists, sports medicine clinicians, and strength coaches, the K-Myo quantify what used to be subjective: muscle activation amplitude, timing, fatigue, co-contraction ratios, and Limb Symmetry Index (LSI) across upper- and lower-extremity protocols.",
+      "K-Myo integrates with the broader Kinvent ecosystem — K-Deltas, K-Push, K-Pull, K-Power, K-Move — so you can pair EMG data with force, strength, and range-of-motion testing inside one app.",
+    ],
+    highlights: [
+      "Wireless surface EMG — real-time muscle activation",
+      "Quantify activation amplitude, timing, and fatigue",
+      "Bilateral comparison with Limb Symmetry Index (LSI)",
+      "Co-contraction and muscle balance analysis",
+      "Real-time biofeedback via the Kinvent App (iOS / Android)",
+      "Exportable PDF reports & longitudinal patient tracking",
+      "Rechargeable, fully portable — set up anywhere in seconds",
+      "Compatible with the full Kinvent ecosystem (K-Deltas, K-Push, K-Pull, K-Power, K-Move)",
+    ],
+    gallery: [
+      { src: "/assets/products/kinvent/k-myo/K-Myo-Blue.png", alt: "Kinvent K-Myo wireless EMG sensor" },
+      { src: "/assets/products/kinvent/k-myo/K-Myo-Wire-Blue-2.png", alt: "Kinvent K-Myo EMG sensor with electrode wire" },
+      { src: "/assets/products/kinvent/k-myo/K-Myo-Blue-Cable-2.png", alt: "Kinvent K-Myo EMG sensor with cable detail" },
+      { src: "/assets/products/kinvent/k-myo/EMG-6.png", alt: "Kinvent K-Myo in clinical EMG assessment" },
+      { src: "/assets/products/kinvent/k-myo/EMG-7.png", alt: "Kinvent K-Myo EMG protocol on Kinvent App" },
+    ],
+    specGroups: [
+      {
+        title: "Hardware",
+        rows: [
+          { label: "Type", value: "Wireless surface EMG sensors" },
+          { label: "Connectivity", value: "Bluetooth — pairs with Kinvent App (iOS / Android)" },
+          { label: "Power", value: "Rechargeable battery, fully portable" },
+          { label: "Placement", value: "Compatible with standard surface EMG electrodes" },
+        ],
+      },
+      {
+        title: "Assessment Protocols",
+        rows: [
+          { label: "Activation", value: "Real-time muscle activation amplitude & timing" },
+          { label: "Asymmetry", value: "Bilateral comparison with Limb Symmetry Index (LSI)" },
+          { label: "Fatigue", value: "Muscle fatigue and endurance tracking" },
+          { label: "Coordination", value: "Co-contraction and muscle balance analysis" },
+        ],
+      },
+      {
+        title: "Software & Data",
+        rows: [
+          { label: "App", value: "Kinvent App — real-time biofeedback & reports" },
+          { label: "Reporting", value: "Exportable PDF reports, trended patient data" },
+          { label: "Ecosystem", value: "Integrates with K-Deltas, K-Push, K-Pull, K-Power, K-Move" },
+        ],
+      },
+      {
+        title: "Dealer Support",
+        rows: [
+          { label: "Delivery", value: "Local by GM Therapy" },
+          { label: "Training", value: "Clinical onboarding & protocol setup included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    specSheetUrl: "/assets/products/kinvent/downloads/product-sheet-k-myo-en.pdf",
+    specSheetTitle: "Product Sheet (English)",
+    sourceUrl: "https://kinvent.com/",
+    seo: {
+      title: "Kinvent K-Myo Wireless EMG Sensors | GM Therapy",
+      description:
+        "Wireless surface EMG sensors for real-time muscle activation, fatigue, and asymmetry assessment. Powered by the Kinvent App.",
+    },
+  },
+
 };
 
 
