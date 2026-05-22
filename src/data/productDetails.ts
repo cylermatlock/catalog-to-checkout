@@ -15194,7 +15194,7 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     brochureTitle: "Kinvent K-Deltas",
     brochureUrl: "/assets/docs/615.pdf",
-    specSheetUrl: "/assets/products/kinvent/downloads/product-sheet-3d-deltas-en.pdf",
+    specSheetUrl: "/assets/products/kinvent/downloads/k-deltas-product-sheet-en.pdf",
     specSheetTitle: "Product Sheet (English)",
     sourceUrl: "https://kinvent.com/kinvent-product/force-plates-vertical-jump-k-deltas/",
     seo: {
@@ -15344,6 +15344,81 @@ export const productDetails: Record<string, ProductDetail> = {
       title: "Kinvent K-Power Wireless Dynamometer | GM Therapy",
       description:
         "Wireless handheld dynamometer for objective isometric strength testing and Limb Symmetry Index. Powered by the Kinvent App.",
+    },
+  },
+
+  // Kinvent 3D Deltas Force Plates — product id "618"
+  "618": {
+    productId: "618",
+    slug: "kinvent-3d-deltas-force-plates",
+    tagline:
+      "Next-generation 3D wireless force plates — tri-axial force measurement for complete biomechanical analysis, powered by the Kinvent app.",
+    overview: [
+      "The Kinvent 3D Deltas are next-generation connected force plates that measure forces in three dimensions — vertical, anterior-posterior, and medio-lateral — giving clinicians and performance specialists a complete biomechanical picture of every test.",
+      "Used by physical therapists, sports medicine clinicians, and strength coaches, the 3D Deltas quantify vertical jump mechanics (CMJ, SJ, Drop Jump, Reactive Strength Index), isometric strength (IMTP, ASH, McCall), Limb Symmetry Index (LSI), Force-Velocity profile, Dynamic Strength Index, and full 3D Center of Pressure for advanced postural control assessment.",
+      "The plates integrate with the broader Kinvent ecosystem — K-Push, K-Pull, K-Power, K-Myo, K-Move — so you can build a complete assessment battery and trend patient progress over time inside one app.",
+    ],
+    highlights: [
+      "Tri-axial 3D force measurement — vertical, AP, and ML components",
+      "Two wireless plates — large surface for double- and single-leg protocols",
+      "Vertical jump: CMJ, SJ, Drop Jump, RSI, peak power, jump height",
+      "Isometric strength: IMTP, ASH Test, McCall with Limb Symmetry Index",
+      "Advanced balance: 3D Center of Pressure, sway velocity, load distribution",
+      "Real-time biofeedback via the Kinvent App (iOS / Android)",
+      "Force-Velocity profile & Dynamic Strength Index (DSI)",
+      "Rechargeable, fully portable — set up anywhere in seconds",
+      "Compatible with the full Kinvent ecosystem (K-Push, K-Pull, K-Power, K-Myo, K-Move)",
+    ],
+    gallery: [
+      { src: "/assets/products/kinvent/3d-deltas/3d-deltas-6.png", alt: "Kinvent 3D Deltas force plates" },
+      { src: "/assets/products/kinvent/3d-deltas/3d-deltas-5.png", alt: "Kinvent 3D Deltas — product view" },
+      { src: "/assets/products/kinvent/3d-deltas/3d-deltas-1.png", alt: "Kinvent 3D Deltas — plate detail" },
+      { src: "/assets/products/kinvent/3d-deltas/3d-deltas-2.png", alt: "Kinvent 3D Deltas — assessment view" },
+      { src: "/assets/products/kinvent/3d-deltas/3d-deltas-4.png", alt: "Kinvent 3D Deltas — application detail" },
+    ],
+    specGroups: [
+      {
+        title: "Hardware",
+        rows: [
+          { label: "Configuration", value: "Two wireless 3D plates (left / right)" },
+          { label: "Force axes", value: "Tri-axial — vertical, anterior-posterior, medio-lateral" },
+          { label: "Connectivity", value: "Bluetooth — pairs with Kinvent App (iOS / Android)" },
+          { label: "Power", value: "Rechargeable battery, fully portable" },
+        ],
+      },
+      {
+        title: "Assessment Protocols",
+        rows: [
+          { label: "Jump tests", value: "CMJ, Squat Jump, Drop Jump, Repeated Jumps, RSI" },
+          { label: "Isometric strength", value: "IMTP, ASH Test, McCall — with LSI asymmetry" },
+          { label: "Balance", value: "3D Center of Pressure, sway velocity, load distribution" },
+          { label: "Advanced", value: "Force-Velocity profile, Dynamic Strength Index (DSI)" },
+        ],
+      },
+      {
+        title: "Software & Data",
+        rows: [
+          { label: "App", value: "Kinvent App — real-time biofeedback & reports" },
+          { label: "Reporting", value: "Exportable PDF reports, trended patient data" },
+          { label: "Ecosystem", value: "Integrates with K-Push, K-Pull, K-Power, K-Myo, K-Move" },
+        ],
+      },
+      {
+        title: "Dealer Support",
+        rows: [
+          { label: "Delivery", value: "Local by GM Therapy" },
+          { label: "Training", value: "Clinical onboarding & protocol setup included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    specSheetUrl: "/assets/products/kinvent/downloads/product-sheet-3d-deltas-en.pdf",
+    specSheetTitle: "Product Sheet (English)",
+    sourceUrl: "https://kinvent.com/",
+    seo: {
+      title: "Kinvent 3D Deltas Force Plates — Authorized Dealer | GM Therapy",
+      description:
+        "Next-generation 3D wireless force plates with tri-axial force measurement for vertical jump, isometric strength, and advanced balance assessment. Powered by the Kinvent App.",
     },
   },
 
