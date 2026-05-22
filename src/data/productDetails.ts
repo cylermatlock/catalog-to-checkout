@@ -15277,7 +15277,75 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Kinvent K-Power Wireless Dynamometer — product id "617"
+  "617": {
+    productId: "617",
+    slug: "kinvent-k-power-dynamometer",
+    tagline:
+      "Wireless handheld dynamometer for objective isometric strength testing — powered by the Kinvent app.",
+    overview: [
+      "The Kinvent K-Power is a connected, portable handheld dynamometer that turns any clinic, gym, or performance lab into an objective strength-testing environment. It pairs wirelessly with the Kinvent App on iOS or Android to deliver real-time force and asymmetry data for make/break isometric protocols.",
+      "Used by physical therapists, sports medicine clinicians, and strength coaches, the K-Power quantifies what used to be subjective: peak force, average force, time-to-peak, and Limb Symmetry Index (LSI) across upper- and lower-extremity protocols.",
+      "K-Power integrates with the broader Kinvent ecosystem — K-Deltas, K-Push, K-Pull, K-Myo, K-Move — so you can build a complete assessment battery and trend patient progress over time inside one app.",
+    ],
+    highlights: [
+      "Wireless handheld dynamometer — make/break isometric testing",
+      "Peak force, average force, time-to-peak metrics",
+      "Limb Symmetry Index (LSI) for objective asymmetry tracking",
+      "Real-time biofeedback via the Kinvent App (iOS / Android)",
+      "Exportable PDF reports & trended patient data",
+      "Rechargeable, fully portable — set up anywhere in seconds",
+      "Compatible with the full Kinvent ecosystem (K-Deltas, K-Push, K-Pull, K-Myo, K-Move)",
+    ],
+    gallery: [
+      { src: "/assets/products/kinvent/k-deltas.jpg", alt: "Kinvent K-Power wireless dynamometer" },
+    ],
+    specGroups: [
+      {
+        title: "Hardware",
+        rows: [
+          { label: "Configuration", value: "Handheld wireless dynamometer" },
+          { label: "Connectivity", value: "Bluetooth — pairs with Kinvent App (iOS / Android)" },
+          { label: "Power", value: "Rechargeable battery, fully portable" },
+        ],
+      },
+      {
+        title: "Assessment Protocols",
+        rows: [
+          { label: "Strength tests", value: "Make/break isometric protocols — upper & lower extremity" },
+          { label: "Metrics", value: "Peak force, average force, time-to-peak" },
+          { label: "Asymmetry", value: "Limb Symmetry Index (LSI)" },
+        ],
+      },
+      {
+        title: "Software & Data",
+        rows: [
+          { label: "App", value: "Kinvent App — real-time biofeedback & reports" },
+          { label: "Reporting", value: "Exportable PDF reports, trended patient data" },
+          { label: "Ecosystem", value: "Integrates with K-Deltas, K-Push, K-Pull, K-Myo, K-Move" },
+        ],
+      },
+      {
+        title: "Dealer Support",
+        rows: [
+          { label: "Delivery", value: "Local by GM Therapy" },
+          { label: "Training", value: "Clinical onboarding & protocol setup included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    specSheetUrl: "/assets/products/kinvent/downloads/product-sheet-k-power-en.pdf",
+    specSheetTitle: "Product Sheet (English)",
+    sourceUrl: "https://kinvent.com/",
+    seo: {
+      title: "Kinvent K-Power Wireless Dynamometer | GM Therapy",
+      description:
+        "Wireless handheld dynamometer for objective isometric strength testing and Limb Symmetry Index. Powered by the Kinvent App.",
+    },
+  },
+
 };
+
 
 
 export const hasDetailPage = (productId: string): boolean =>
