@@ -15,6 +15,7 @@ const BRAND_MATCHERS: { label: string; test: (name: string) => boolean }[] = [
   { label: "EasyStand", test: (n) => /\beasystand\b/i.test(n) },
   { label: "Therm-X", test: (n) => /\btherm-?x\b/i.test(n) },
   { label: "Shuttle", test: (n) => /\bshuttle\b/i.test(n) },
+  { label: "Kinvent", test: (n) => /\bkinvent\b/i.test(n) },
   { label: "GMTS", test: (n) => /\bgmts\b/i.test(n) },
   { label: "Richmar", test: (n) => /\brichmar\b/i.test(n) },
   { label: "Chattanooga", test: (n) => /\bchattanooga\b/i.test(n) },
