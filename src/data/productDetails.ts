@@ -15863,6 +15863,78 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Kinvent K-Move Wireless Motion Sensors — product id "625"
+  "625": {
+    productId: "625",
+    slug: "kinvent-k-move-motion-sensors",
+    tagline:
+      "Wireless motion sensors for objective movement and range-of-motion assessment — powered by the Kinvent app.",
+    overview: [
+      "The Kinvent K-Move are connected, wireless motion sensors that turn any clinic, gym, or performance lab into an objective movement-assessment environment. They pair with the Kinvent App on iOS or Android to deliver real-time joint angle, velocity, and movement-quality data for functional and rehabilitation protocols.",
+      "Used by physical therapists, sports medicine clinicians, and strength coaches, the K-Move quantify what used to be subjective: joint angles, angular velocity, movement symmetry, and Limb Symmetry Index (LSI) across upper- and lower-extremity protocols.",
+      "K-Move integrates with the broader Kinvent ecosystem — K-Deltas, K-Push, K-Pull, K-Power, K-Myo — so you can pair motion data with force, strength, and EMG testing inside one app.",
+    ],
+    highlights: [
+      "Wireless motion sensors — 3D joint angle and velocity",
+      "Quantify movement quality, range of motion, and timing",
+      "Bilateral comparison with Limb Symmetry Index (LSI)",
+      "Functional, rehabilitation, and return-to-sport protocols",
+      "Real-time biofeedback via the Kinvent App (iOS / Android)",
+      "Exportable PDF reports & longitudinal patient tracking",
+      "Rechargeable, fully portable — set up anywhere in seconds",
+      "Compatible with the full Kinvent ecosystem (K-Deltas, K-Push, K-Pull, K-Power, K-Myo)",
+    ],
+    gallery: [
+      { src: "/assets/products/kinvent/k-move/K-Move-5.png", alt: "Kinvent K-Move wireless motion sensor" },
+      { src: "/assets/products/kinvent/k-move/K-Move-7.png", alt: "Kinvent K-Move in clinical motion assessment" },
+      { src: "/assets/products/kinvent/k-move/K-Move-9.png", alt: "Kinvent K-Move motion protocol detail" },
+    ],
+    specGroups: [
+      {
+        title: "Hardware",
+        rows: [
+          { label: "Type", value: "Wireless inertial motion sensors (IMU)" },
+          { label: "Connectivity", value: "Bluetooth — pairs with Kinvent App (iOS / Android)" },
+          { label: "Power", value: "Rechargeable battery, fully portable" },
+          { label: "Placement", value: "Body-worn straps for joint and segment tracking" },
+        ],
+      },
+      {
+        title: "Assessment Protocols",
+        rows: [
+          { label: "Range of motion", value: "3D joint angles — active and passive ROM" },
+          { label: "Velocity", value: "Angular velocity and movement timing" },
+          { label: "Asymmetry", value: "Bilateral comparison with Limb Symmetry Index (LSI)" },
+          { label: "Applications", value: "Functional, rehabilitation, and return-to-sport" },
+        ],
+      },
+      {
+        title: "Software & Data",
+        rows: [
+          { label: "App", value: "Kinvent App — real-time biofeedback & reports" },
+          { label: "Reporting", value: "Exportable PDF reports, trended patient data" },
+          { label: "Ecosystem", value: "Integrates with K-Deltas, K-Push, K-Pull, K-Power, K-Myo" },
+        ],
+      },
+      {
+        title: "Dealer Support",
+        rows: [
+          { label: "Delivery", value: "Local by GM Therapy" },
+          { label: "Training", value: "Clinical onboarding & protocol setup included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    specSheetUrl: "/assets/products/kinvent/downloads/product-sheet-k-move-en.pdf",
+    specSheetTitle: "Product Sheet (English)",
+    sourceUrl: "https://kinvent.com/",
+    seo: {
+      title: "Kinvent K-Move Wireless Motion Sensors | GM Therapy",
+      description:
+        "Wireless motion sensors for objective movement, range-of-motion, and asymmetry assessment. Powered by the Kinvent App.",
+    },
+  },
+
 };
 
 
