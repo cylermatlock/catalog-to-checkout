@@ -15204,7 +15204,81 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Kinvent K-Deltas XL Portable Force Plates — product id "616"
+  "616": {
+    productId: "616",
+    slug: "kinvent-k-deltas-xl-force-plates",
+    tagline:
+      "Extra-large wireless portable force plates for balance, strength, and vertical jump assessment — powered by the Kinvent app.",
+    overview: [
+      "The Kinvent K-Deltas XL are connected, portable force plates with an expanded surface area that turns any clinic, gym, or performance lab into an objective testing environment. Two wireless plates pair with the Kinvent App on iOS or Android to deliver real-time force, power, and asymmetry data for jump, strength, and balance protocols — sized for taller athletes and wider-stance work.",
+      "Used by physical therapists, sports medicine clinicians, and strength coaches, the K-Deltas XL quantify what used to be subjective: vertical jump mechanics (CMJ, SJ, Drop Jump, Reactive Strength Index), isometric strength (IMTP, ASH, McCall), Limb Symmetry Index (LSI), Force-Velocity profile, Dynamic Strength Index, and Center of Pressure for postural control.",
+      "The plates integrate with the broader Kinvent ecosystem — K-Push, K-Pull, K-Power, K-Myo, K-Move — so you can build a complete assessment battery and trend patient progress over time inside one app.",
+    ],
+    highlights: [
+      "Two wireless XL plates — expanded surface for taller athletes & wider stances",
+      "Vertical jump: CMJ, SJ, Drop Jump, RSI, peak power, jump height",
+      "Isometric strength: IMTP, ASH Test, McCall with Limb Symmetry Index",
+      "Balance & postural control: Center of Pressure, velocity, load distribution",
+      "Real-time biofeedback via the Kinvent App (iOS / Android)",
+      "Force-Velocity profile & Dynamic Strength Index (DSI)",
+      "Rechargeable, fully portable — set up anywhere in seconds",
+      "Compatible with the full Kinvent ecosystem (K-Push, K-Pull, K-Power, K-Myo, K-Move)",
+    ],
+    gallery: [
+      { src: "/assets/products/kinvent/k-deltas.jpg", alt: "Kinvent K-Deltas XL portable force plates" },
+      { src: "/assets/products/kinvent/k-deltas-banner.jpg", alt: "Kinvent K-Deltas XL in use for vertical jump assessment" },
+      { src: "/assets/products/kinvent/k-deltas-app.png", alt: "Kinvent App showing force plate data and analytics" },
+      { src: "/assets/products/kinvent/k-deltas-3d.png", alt: "Kinvent K-Deltas XL force plate — product render" },
+      { src: "/assets/products/kinvent/k-deltas-cmj-tablet.png", alt: "Kinvent K-Deltas XL CMJ jump test results on tablet" },
+      { src: "/assets/products/kinvent/k-deltas-cmj-unipodal.jpg", alt: "Athlete performing unipodal CMJ on Kinvent K-Deltas XL" },
+    ],
+    specGroups: [
+      {
+        title: "Hardware",
+        rows: [
+          { label: "Configuration", value: "Two wireless XL plates (left / right)" },
+          { label: "Connectivity", value: "Bluetooth — pairs with Kinvent App (iOS / Android)" },
+          { label: "Power", value: "Rechargeable battery, fully portable" },
+          { label: "Surface", value: "Extra-large plate area — taller athletes & wider stance protocols" },
+        ],
+      },
+      {
+        title: "Assessment Protocols",
+        rows: [
+          { label: "Jump tests", value: "CMJ, Squat Jump, Drop Jump, Repeated Jumps, RSI" },
+          { label: "Isometric strength", value: "IMTP, ASH Test, McCall — with LSI asymmetry" },
+          { label: "Balance", value: "Center of Pressure, sway velocity, load distribution" },
+          { label: "Advanced", value: "Force-Velocity profile, Dynamic Strength Index (DSI)" },
+        ],
+      },
+      {
+        title: "Software & Data",
+        rows: [
+          { label: "App", value: "Kinvent App — real-time biofeedback & reports" },
+          { label: "Reporting", value: "Exportable PDF reports, trended patient data" },
+          { label: "Ecosystem", value: "Integrates with K-Push, K-Pull, K-Power, K-Myo, K-Move" },
+        ],
+      },
+      {
+        title: "Dealer Support",
+        rows: [
+          { label: "Delivery", value: "Local by GM Therapy" },
+          { label: "Training", value: "Clinical onboarding & protocol setup included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    sourceUrl: "https://kinvent.com/kinvent-product/force-plates-vertical-jump-k-deltas/",
+    seo: {
+      title: "Kinvent K-Deltas XL Portable Force Plates | GM Therapy",
+      description:
+        "Extra-large wireless portable force plates for vertical jump, isometric strength, and balance assessment. Powered by the Kinvent App.",
+    },
+  },
+
 };
+
 
 export const hasDetailPage = (productId: string): boolean =>
   Object.prototype.hasOwnProperty.call(productDetails, productId);
