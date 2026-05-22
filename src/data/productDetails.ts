@@ -15715,6 +15715,80 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Kinvent K-Grip Wireless Hand Dynamometer — product id "623"
+  "623": {
+    productId: "623",
+    slug: "kinvent-k-grip-hand-dynamometer",
+    tagline:
+      "Wireless hand dynamometer for objective grip strength testing — powered by the Kinvent app.",
+    overview: [
+      "The Kinvent K-Grip is a connected, portable wireless hand dynamometer that turns any clinic, gym, or performance lab into an objective grip-strength testing environment. It pairs with the Kinvent App on iOS or Android to deliver real-time force and asymmetry data for grip and pinch protocols.",
+      "Used by physical therapists, sports medicine clinicians, hand therapists, and strength coaches, the K-Grip quantifies what used to be subjective: peak grip force, average force, endurance, and Limb Symmetry Index (LSI) across bilateral grip assessments.",
+      "K-Grip integrates with the broader Kinvent ecosystem — K-Deltas, K-Push, K-Pull, K-Power, K-Myo, K-Bubble — so you can build a complete assessment battery and trend patient progress over time inside one app.",
+    ],
+    highlights: [
+      "Wireless hand dynamometer — objective grip strength testing",
+      "Quantify peak grip force, average force, and endurance",
+      "Bilateral comparison with Limb Symmetry Index (LSI)",
+      "Hand therapy, rehabilitation, and performance protocols",
+      "Real-time biofeedback via the Kinvent App (iOS / Android)",
+      "Exportable PDF reports & longitudinal patient tracking",
+      "Rechargeable, fully portable — set up anywhere in seconds",
+      "Compatible with the full Kinvent ecosystem (K-Deltas, K-Push, K-Pull, K-Power, K-Myo, K-Bubble)",
+    ],
+    gallery: [
+      { src: "/assets/products/kinvent/k-grip/K-Grip-6-scaled.png", alt: "Kinvent K-Grip wireless hand dynamometer" },
+      { src: "/assets/products/kinvent/k-grip/K-Grip-7-scaled.png", alt: "Kinvent K-Grip — product view" },
+      { src: "/assets/products/kinvent/k-grip/K-Grip-9-scaled.png", alt: "Kinvent K-Grip — device detail" },
+      { src: "/assets/products/kinvent/k-grip/K-Grip-2-scaled.jpg", alt: "Kinvent K-Grip in clinical grip assessment" },
+      { src: "/assets/products/kinvent/k-grip/K-Grip-3-scaled.jpg", alt: "Kinvent K-Grip grip strength protocol" },
+    ],
+    specGroups: [
+      {
+        title: "Hardware",
+        rows: [
+          { label: "Type", value: "Wireless hand dynamometer" },
+          { label: "Connectivity", value: "Bluetooth — pairs with Kinvent App (iOS / Android)" },
+          { label: "Power", value: "Rechargeable battery, fully portable" },
+          { label: "Ergonomics", value: "Adjustable grip handle for varied hand sizes" },
+        ],
+      },
+      {
+        title: "Assessment Protocols",
+        rows: [
+          { label: "Strength", value: "Grip force — peak, average, and endurance" },
+          { label: "Asymmetry", value: "Bilateral comparison with Limb Symmetry Index (LSI)" },
+          { label: "Applications", value: "Hand therapy, rehabilitation, and performance" },
+          { label: "Tracking", value: "Trended progress across sessions" },
+        ],
+      },
+      {
+        title: "Software & Data",
+        rows: [
+          { label: "App", value: "Kinvent App — real-time biofeedback & reports" },
+          { label: "Reporting", value: "Exportable PDF reports, trended patient data" },
+          { label: "Ecosystem", value: "Integrates with K-Deltas, K-Push, K-Pull, K-Power, K-Myo, K-Bubble" },
+        ],
+      },
+      {
+        title: "Dealer Support",
+        rows: [
+          { label: "Delivery", value: "Local by GM Therapy" },
+          { label: "Training", value: "Clinical onboarding & protocol setup included" },
+          { label: "Service", value: "Factory-authorized parts & repair" },
+        ],
+      },
+    ],
+    specSheetUrl: "/assets/products/kinvent/downloads/product-sheet-k-grip-en.pdf",
+    specSheetTitle: "Product Sheet (English)",
+    sourceUrl: "https://kinvent.com/",
+    seo: {
+      title: "Kinvent K-Grip Wireless Hand Dynamometer | GM Therapy",
+      description:
+        "Wireless hand dynamometer for objective grip strength testing and Limb Symmetry Index. Powered by the Kinvent App.",
+    },
+  },
+
 };
 
 
