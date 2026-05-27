@@ -15956,7 +15956,15 @@ export const productDetails: Record<string, ProductDetail> = {
       "350 lb max user weight",
     ],
     gallery: [
-      { src: "/assets/products/matrix/matrix-total-body-cycle.png", alt: "Matrix Total Body Cycle — group training cycle, three-quarter view" },
+      { src: "/assets/products/matrix/tbc/hero.jpg", alt: "Matrix Total Body Cycle — hero product view" },
+      { src: "/assets/products/matrix/tbc/side-by-side.jpg", alt: "Matrix Total Body Cycle — quick transitions, side-by-side bikes" },
+      { src: "/assets/products/matrix/tbc/built-to-last.jpg", alt: "Matrix Total Body Cycle — built-to-last seat and frame detail" },
+      { src: "/assets/products/matrix/tbc/360-backdrop.jpg", alt: "Matrix Total Body Cycle — 360 product view" },
+      { src: "/assets/products/matrix/tbc/intensity-challenge.jpg", alt: "Matrix Total Body Cycle — intensity challenge lifestyle" },
+      { src: "/assets/products/matrix/tbc/performance-tracking.jpg", alt: "Matrix Total Body Cycle — performance tracking" },
+      { src: "/assets/products/matrix/tbc/easy-transport.jpg", alt: "Matrix Total Body Cycle — easy transport" },
+      { src: "/assets/products/matrix/tbc/workout-variety.jpg", alt: "Matrix Total Body Cycle — workout variety" },
+      { src: "/assets/products/matrix/tbc/device-holder.jpg", alt: "Matrix Total Body Cycle — integrated device holder" },
     ],
     specGroups: [
       {
