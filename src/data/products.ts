@@ -98,7 +98,7 @@ export const products: Product[] = [
 
   // CARDIO - Spirit
   { id: "49", name: "Spirit CT800 Treadmill", category: "Cardio", subcategory: "Spirit", sku: "SFP CT800", description: ["85\"L x 35.8\"W x 60.6\"H", "Optional Medical Handrails", "0.5–12mph speed range", "450lb Weight Capacity", "5 Year Warranty"] },
-  { id: "50", name: "Spirit CR800 Recumbent Bike", category: "Cardio", subcategory: "Spirit", sku: "SFP CR800", description: ["59.4\"L x 29.1\"W x 50.8\"H", "Heart Rate Monitors", "Self Generating", "450lb Weight Capacity", "5 Year Warranty"] },
+  { id: "50", name: "Spirit CR800 Recumbent Bike", category: "Cardio", subcategory: "Recumbent Bikes", sku: "SFP CR800", description: ["59.4\"L x 29.1\"W x 50.8\"H", "Heart Rate Monitors", "Self Generating", "450lb Weight Capacity", "5 Year Warranty"] },
   { id: "51", name: "Spirit CE800 Elliptical", category: "Cardio", subcategory: "Spirit", sku: "SFP CE800", description: ["78\"L x 24.2\"W x 62.2\"H", "Easy Rear Access", "Self Generating", "450lb Weight Capacity"] },
   { id: "158", name: "Spirit CU800 Upright Bike", category: "Cardio", subcategory: "Spirit", sku: "SFP CU800", description: ["48.4\"L x 25.6\"W x 57.7\"H", "30 lb Flywheel, 40 Resistance Levels", "Self-Generating (Cordless)", "Bluetooth & Hand Pulse Heart Rate", "450lb Weight Capacity"] },
   
