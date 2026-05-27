@@ -15956,7 +15956,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "350 lb max user weight",
     ],
     gallery: [
-      { src: "/assets/products/matrix/matrix-total-body-cycle.jpg", alt: "Matrix Total Body Cycle — group training cycle, side view" },
+      { src: "/assets/products/matrix/matrix-total-body-cycle.png", alt: "Matrix Total Body Cycle — group training cycle, three-quarter view" },
     ],
     specGroups: [
       {
