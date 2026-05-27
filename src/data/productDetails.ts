@@ -15935,6 +15935,89 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  "626": {
+    productId: "626",
+    slug: "matrix-total-body-cycle",
+    tagline: "Air-resistance group training cycle with movable handlebars for a total-body, low-impact workout.",
+    overview: [
+      "The Matrix Total Body Cycle brings indoor cycling into the realm of total-body training. Movable handlebars engage the upper body while an air resistance flywheel delivers unlimited, self-regulated intensity — push harder, get more resistance.",
+      "Built on a Graphite Grey steel frame with a Flexonic belt drive (1:7 gear ratio) and forged-steel 170 mm cranks, the Total Body Cycle is engineered for high-volume group training environments. Quick-touch levers and aluminum pin-to-lock adjustments let users dial in fit in seconds.",
+    ],
+    highlights: [
+      "Air resistance — unlimited intensity",
+      "Movable handlebars for total-body engagement",
+      "Flexonic belt drive · 1:7 gear ratio",
+      "Power (Watt) display, battery powered",
+      "ANT+ / telemetric heart rate ready",
+      "Ergo-formed, multi-position soft PVC handlebars",
+      "Ergonomic saddle — vertical & horizontal adjustment",
+      "Forged steel 170 mm / 6.7\" crank",
+      "Graphite Grey steel frame with full-frame shrouds",
+      "350 lb max user weight",
+    ],
+    gallery: [
+      { src: "/assets/products/matrix/matrix-total-body-cycle.jpg", alt: "Matrix Total Body Cycle — group training cycle, side view" },
+    ],
+    specGroups: [
+      {
+        title: "Drive System",
+        rows: [
+          { label: "Drivetrain", value: "Flexonic belt" },
+          { label: "Drivetrain Gear Ratio", value: "1:7" },
+        ],
+      },
+      {
+        title: "Features",
+        rows: [
+          { label: "Power Display (Watt)", value: "Yes" },
+          { label: "Computer", value: "Yes" },
+          { label: "Computer Power Supply", value: "Batteries" },
+          { label: "Training Intensity Guide", value: "No" },
+          { label: "Connect Technology", value: "No" },
+          { label: "Workout Tracking", value: "No" },
+          { label: "Resistance System", value: "Air" },
+          { label: "Adjustment Type", value: "Quick-touch levers" },
+          { label: "Post & Slider", value: "Aluminum pin-to-lock adjustment" },
+          { label: "Handlebar", value: "Ergo-formed, multi-position, soft PVC" },
+          { label: "Handlebar Grip", value: "Vertical and horizontal" },
+          { label: "Saddle", value: "Ergonomically sculpted seat" },
+          { label: "Saddle Adjustments", value: "Vertical and horizontal" },
+          { label: "Water Bottle Holder", value: "Integrated between handlebars" },
+          { label: "ANT+ / Telemetric HR", value: "Yes" },
+          { label: "WiFi Enabled", value: "No" },
+          { label: "Bluetooth", value: "No" },
+        ],
+      },
+      {
+        title: "Frame",
+        rows: [
+          { label: "Frame Color", value: "Graphite Grey" },
+          { label: "Frame Material", value: "Steel" },
+          { label: "Shrouds & Guards", value: "Full frame" },
+          { label: "Crank Type", value: "Forged steel, 170 mm / 6.7\"" },
+          { label: "Pedal Type", value: "Wide pedal with anti-slip texture" },
+          { label: "Frame Stabilizer Bars", value: "Oversized, hidden bolts and fixings" },
+          { label: "Protection Plates", value: "Molded form-fit" },
+          { label: "Leveling Feet", value: "4" },
+          { label: "Transport Wheels", value: "2" },
+        ],
+      },
+      {
+        title: "Tech Specs",
+        rows: [
+          { label: "Overall Dimensions", value: "148 x 73 x 148 cm / 58.3\" x 28.7\" x 58.3\"" },
+          { label: "Product Weight", value: "74.2 kg / 163.6 lbs." },
+          { label: "Max User Weight", value: "159 kg / 350 lbs." },
+        ],
+      },
+    ],
+    sourceUrl: "https://us.matrixfitness.com/eng/group-training/cardio/total-body-cycle",
+    seo: {
+      title: "Matrix Total Body Cycle (MF-TBCC-02) | GM Therapy",
+      description: "Matrix Total Body Cycle — air-resistance group training cycle with movable handlebars for a total-body, low-impact workout. Flexonic belt drive, 350 lb capacity.",
+    },
+  },
+
 };
 
 
