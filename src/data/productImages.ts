@@ -557,6 +557,16 @@ export const productImages: Record<string, string> = {
   "624": productAsset("kinvent/k-push/K-Push-11.png"),
   "625": productAsset("kinvent/k-move/K-Move-5.png"),
   "626": productAsset("matrix/tbc/main.png"),
+  // Spirit Duals
+  "627": productAsset("spirit/duals/ab-back.webp"),
+  "628": productAsset("spirit/duals/biceps-triceps.webp"),
+  "629": productAsset("spirit/duals/chest-shoulder-press.webp"),
+  "630": productAsset("spirit/duals/inner-outer-thigh.webp"),
+  "631": productAsset("spirit/duals/lat-pulldown-row.webp"),
+  "632": productAsset("spirit/duals/pec-fly-rear-delt.webp"),
+  "633": productAsset("spirit/duals/pull-up-dip-assist.webp"),
 };
+
+
 
 

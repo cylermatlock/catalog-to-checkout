@@ -16022,7 +16022,408 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // ===== Spirit Duals (Commercial Strength) =====
+  "627": {
+    productId: "627",
+    slug: "spirit-dual-ab-back",
+    tagline: "Dual abdominal crunch and back extension on a single space-saving station.",
+    overview: [
+      "The Spirit Duals Ab/Back (CSD-ACBE) pairs an abdominal crunch and a back extension on one frame. An adjustable roller pad positions ideally across the upper chest or back, and dual foot bars stabilize the lower body for full range of motion on either exercise.",
+      "Built on a heavy-gauge steel frame with premium LOOS USA cables and an electrostatic powder coat finish — engineered for commercial gyms, clinics, and rehab settings.",
+    ],
+    highlights: [
+      "Easy entry and positioning for both abdominal and lower-back exercises",
+      "Adjustable roller pad fits users of all sizes",
+      "Dual foot bars for lower-body stabilization",
+      "Premium beveled pads with sport stitching",
+      "Integrated rep counter and built-in top-cap storage",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/duals/ab-back.webp", alt: "Spirit Dual Ab/Back CSD-ACBE — hero front view" },
+    ],
+    specGroups: [
+      { title: "Performance", rows: [
+        { label: "•", value: "200 lb Weight Stack" },
+        { label: "•", value: "5 lb Increment Weight" },
+        { label: "•", value: "20 lb Top Plate (2 x 10 lb Plates)" },
+        { label: "•", value: "9 x 10 lb Plates · 6 x 15 lb Plates" },
+        { label: "Pulley Ratio", value: "0.5 x Ab Weight, 0.7 x Back Weight" },
+      ]},
+      { title: "Frame", rows: [
+        { label: "•", value: "LOOS USA Cables" },
+        { label: "•", value: "Heavy Gauge Steel Frame" },
+        { label: "•", value: "Low Profile Design" },
+        { label: "•", value: "High-Quality Electrostatic Powder Coat Finish" },
+        { label: "•", value: "Fully Enclosed Weight Stack" },
+        { label: "•", value: "Steel Feet with Rubber Foot Covers" },
+      ]},
+      { title: "Convenience", rows: [
+        { label: "•", value: "Rep/Time Counter (2 C Batteries required, not included)" },
+        { label: "•", value: "Start/Finish Workout Diagrams" },
+        { label: "•", value: "Storage Trays (Top of Weight Tower)" },
+      ]},
+      { title: "Dimensions", rows: [
+        { label: "Set-Up Dimension", value: "51.7\" L x 44\" W x 62.2\" H" },
+        { label: "Assembled Unit Weight", value: "436.3 lb" },
+        { label: "Recommended User Height", value: "4’11” to 6’8”" },
+        { label: "Max User Weight Capacity", value: "360 lb" },
+      ]},
+      { title: "Warranty", rows: [
+        { label: "Coverage", value: "10 Years Frame · 5 Years Bushings, Bearings, Shocks, Pulleys, Guide Rods · 1 Year Paint and Finishes, Cables, Grips, Counter/Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts Not Mentioned · 6 Months Upholstery · 1 Year Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+      ]},
+    ],
+    sourceUrl: "https://www.spiritfitness.com/commercial/duals/duals-ab-back",
+    seo: {
+      title: "Spirit Dual Ab/Back (CSD-ACBE) | GM Therapy",
+      description: "Spirit CSD-ACBE dual abdominal crunch and back extension: 200 lb stack, adjustable roller pad, commercial-grade frame. Two essential core exercises in one.",
+    },
+  },
+
+  "628": {
+    productId: "628",
+    slug: "spirit-dual-biceps-triceps",
+    tagline: "Dual biceps curl and triceps extension with isolation-focused arm pad.",
+    overview: [
+      "The Spirit Duals Biceps/Triceps (CSD-BCTE) targets opposing arm muscles on one station. An angled arm pad limits shoulder movement so users can focus on either biceps or triceps, while a pivoting curl/extension bar adapts to different forearm lengths.",
+      "Heavy-gauge steel frame with LOOS USA cables and electrostatic powder coat finish for sustained commercial use.",
+    ],
+    highlights: [
+      "Angled arm pad limits shoulder movement",
+      "Pivoting arm with optimized axis of rotation",
+      "Multiple grip options",
+      "Adjustable seat height for proper elbow alignment",
+      "Integrated rep counter and built-in top-cap storage",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/duals/biceps-triceps.webp", alt: "Spirit Dual Biceps/Triceps CSD-BCTE — hero front view" },
+    ],
+    specGroups: [
+      { title: "Performance", rows: [
+        { label: "•", value: "180 lb Weight Stack" },
+        { label: "•", value: "5 lb Increment Weight" },
+        { label: "•", value: "15 lb Top Plate" },
+        { label: "•", value: "11 x 15 lb Plates" },
+        { label: "Pulley Ratio", value: "0.7 x Weight Curl, 0.5 x Weight Ext." },
+      ]},
+      { title: "Frame", rows: [
+        { label: "•", value: "LOOS USA Cables" },
+        { label: "•", value: "Heavy Gauge Steel Frame" },
+        { label: "•", value: "Low Profile Design" },
+        { label: "•", value: "High-Quality Electrostatic Powder Coat Finish" },
+        { label: "•", value: "Fully Enclosed Weight Stack" },
+        { label: "•", value: "Steel Feet with Rubber Foot Covers" },
+      ]},
+      { title: "Convenience", rows: [
+        { label: "•", value: "Rep/Time Counter (2 C Batteries required, not included)" },
+        { label: "•", value: "Adjustable Seat Height" },
+        { label: "•", value: "Start/Finish Workout Diagrams" },
+        { label: "•", value: "Multiple Grip Options" },
+        { label: "•", value: "Storage Trays (Top of Weight Tower)" },
+      ]},
+      { title: "Dimensions", rows: [
+        { label: "Set-Up Dimension", value: "43.9\" L x 51.6\" W x 62.2\" H" },
+        { label: "Assembled Unit Weight", value: "464.9 lb" },
+        { label: "Recommended User Height", value: "4’11” to 6’8”" },
+        { label: "Max User Weight Capacity", value: "360 lb" },
+      ]},
+      { title: "Warranty", rows: [
+        { label: "Coverage", value: "10 Years Frame · 5 Years Bushings, Bearings, Shocks, Pulleys, Guide Rods · 1 Year Paint and Finishes, Cables, Grips, Counter/Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts Not Mentioned · 6 Months Upholstery · 1 Year Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+      ]},
+    ],
+    sourceUrl: "https://www.spiritfitness.com/commercial/duals/duals-biceps-triceps",
+    seo: {
+      title: "Spirit Dual Biceps/Triceps (CSD-BCTE) | GM Therapy",
+      description: "Spirit CSD-BCTE dual biceps curl and triceps extension: 180 lb stack, angled isolation pad, pivoting arm. Opposing arm muscle groups in one machine.",
+    },
+  },
+
+  "629": {
+    productId: "629",
+    slug: "spirit-dual-chest-shoulder-press",
+    tagline: "Dual chest press and shoulder press with converging arm motion.",
+    overview: [
+      "The Spirit Duals Chest/Shoulder Press (CSD-CPSP) brings two essential upper-body presses to one footprint. A bilateral, converging-axis pressing arm and a 4-bar linkage gas-assisted seat make adjustment fast for users of all sizes.",
+      "Multiple grip options support both chest-press and overhead-press variations. Built on a heavy-gauge steel frame with LOOS USA cables for commercial-grade durability.",
+    ],
+    highlights: [
+      "Bilateral, converging-axis pressing motion",
+      "Simple work-arm adjustment for chest and overhead pressing",
+      "4-bar linkage seat with gas-assisted adjustment",
+      "Multiple grip options for chest and shoulder pressing",
+      "Premium beveled pads with sport stitching",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/duals/chest-shoulder-press.webp", alt: "Spirit Dual Chest/Shoulder Press CSD-CPSP — hero front view" },
+    ],
+    specGroups: [
+      { title: "Performance", rows: [
+        { label: "•", value: "200 lb Weight Stack" },
+        { label: "•", value: "5 lb Increment Weight" },
+        { label: "•", value: "10 lb Top Plate" },
+        { label: "•", value: "4 x 10 lb Plates · 10 x 15 lb Plates" },
+        { label: "Pulley Ratio", value: "1.4 x Weight" },
+      ]},
+      { title: "Frame", rows: [
+        { label: "•", value: "LOOS USA Cables" },
+        { label: "•", value: "Heavy Gauge Steel Frame" },
+        { label: "•", value: "Low Profile Design" },
+        { label: "•", value: "High-Quality Electrostatic Powder Coat Finish" },
+        { label: "•", value: "Fully Enclosed Weight Stack" },
+        { label: "•", value: "Steel Feet with Rubber Foot Covers" },
+      ]},
+      { title: "Convenience", rows: [
+        { label: "•", value: "Rep/Time Counter (2 C Batteries required, not included)" },
+        { label: "•", value: "4-Bar Linkage Seat Adjustment (Gas Assist)" },
+        { label: "•", value: "Start/Finish Workout Diagrams" },
+        { label: "•", value: "Multiple Grip Options" },
+        { label: "•", value: "Storage Trays (Top of Weight Tower)" },
+        { label: "•", value: "Easy-Adjust Seat Angle" },
+      ]},
+      { title: "Dimensions", rows: [
+        { label: "Set-Up Dimension", value: "53.14\" L x 78.11\" W x 66\" H" },
+        { label: "Assembled Unit Weight", value: "598.3 lb" },
+        { label: "Recommended User Height", value: "4’11” to 6’8”" },
+        { label: "Max User Weight Capacity", value: "360 lb" },
+      ]},
+      { title: "Warranty", rows: [
+        { label: "Coverage", value: "10 Years Frame · 5 Years Bushings, Bearings, Shocks, Pulleys, Guide Rods · 1 Year Paint and Finishes, Cables, Grips, Counter/Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts Not Mentioned · 6 Months Upholstery · 1 Year Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+      ]},
+    ],
+    sourceUrl: "https://www.spiritfitness.com/commercial/duals/duals-chest-shoulder-press",
+    seo: {
+      title: "Spirit Dual Chest/Shoulder Press (CSD-CPSP) | GM Therapy",
+      description: "Spirit CSD-CPSP dual chest and shoulder press: 200 lb stack, converging arm motion, multiple grips. Two essential upper-body presses in one station.",
+    },
+  },
+
+  "630": {
+    productId: "630",
+    slug: "spirit-dual-inner-outer-thigh",
+    tagline: "Dual hip adduction and abduction on a single space-saving frame.",
+    overview: [
+      "The Spirit Duals Inner/Outer Thigh (CSD-ITOT) combines hip adduction and abduction in a single low-profile design. Large thigh pads and foot supports provide comfort and stability throughout the full range of motion.",
+      "An entry/exit assist bar across the front of the weight tower helps users get in and out safely. Built with LOOS USA cables and a heavy-gauge steel frame for commercial use.",
+    ],
+    highlights: [
+      "Dual hip exercise machine saves floor space",
+      "Large thigh pads and foot supports",
+      "Entry/exit assist bar across the front of the weight tower",
+      "Premium beveled pads with sport stitching",
+      "Integrated rep counter and built-in top-cap storage",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/duals/inner-outer-thigh.webp", alt: "Spirit Dual Inner/Outer Thigh CSD-ITOT — hero front view" },
+    ],
+    specGroups: [
+      { title: "Performance", rows: [
+        { label: "•", value: "170 lb Weight Stack" },
+        { label: "•", value: "5 lb Increment Weight" },
+        { label: "•", value: "10 lb Top Plate" },
+        { label: "•", value: "10 x 10 lb Plates · 4 x 15 lb Plates" },
+        { label: "Pulley Ratio", value: "1.5 x Inner Weight, 1 x Outer Weight" },
+      ]},
+      { title: "Frame", rows: [
+        { label: "•", value: "LOOS USA Cables" },
+        { label: "•", value: "Heavy Gauge Steel Frame" },
+        { label: "•", value: "Low Profile Design" },
+        { label: "•", value: "High-Quality Electrostatic Powder Coat Finish" },
+        { label: "•", value: "Fully Enclosed Weight Stack" },
+        { label: "•", value: "Steel Feet with Rubber Foot Covers" },
+      ]},
+      { title: "Convenience", rows: [
+        { label: "•", value: "Rep/Time Counter (2 C Batteries required, not included)" },
+        { label: "•", value: "Start/Finish Workout Diagrams" },
+        { label: "•", value: "Storage Trays (Top of Weight Tower)" },
+      ]},
+      { title: "Dimensions", rows: [
+        { label: "Set-Up Dimension", value: "63.7\" L x 26.6\" W x 59\" H" },
+        { label: "Assembled Unit Weight", value: "436.3 lb" },
+        { label: "Recommended User Height", value: "4’11” to 6’8”" },
+        { label: "Max User Weight Capacity", value: "360 lb" },
+      ]},
+      { title: "Warranty", rows: [
+        { label: "Coverage", value: "10 Years Frame · 5 Years Bushings, Bearings, Shocks, Pulleys, Guide Rods · 1 Year Paint and Finishes, Cables, Grips, Counter/Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts Not Mentioned · 6 Months Upholstery · 1 Year Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+      ]},
+    ],
+    sourceUrl: "https://www.spiritfitness.com/commercial/duals/duals-inner-outer-thigh",
+    seo: {
+      title: "Spirit Dual Inner/Outer Thigh (CSD-ITOT) | GM Therapy",
+      description: "Spirit CSD-ITOT dual hip adduction/abduction: 170 lb stack, large thigh pads, low-profile frame. Two hip exercises in one space-saving machine.",
+    },
+  },
+
+  "631": {
+    productId: "631",
+    slug: "spirit-dual-lat-pulldown-row",
+    tagline: "Dual lat pulldown and seated row in a modern two-station back trainer.",
+    overview: [
+      "The Spirit Duals Lat Pulldown/Row (CSD-LPSR) combines the two most popular back exercises in one modern design. The traditional lat pulldown bar adjusts to user height, and a row position with foot brace and on-board storage hooks keeps the lat bar secured when not in use.",
+      "Includes lat bar, row bar, and extension chain. Built with LOOS USA cables on a heavy-gauge steel frame.",
+    ],
+    highlights: [
+      "Two most popular back exercises in one machine",
+      "Adjustable lat bar height with on-board storage hooks",
+      "Foot brace aids seated-row stabilization",
+      "200 lb stack, 1:1 ratio for honest resistance",
+      "Includes lat bar, row bar, and extension chain",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/duals/lat-pulldown-row.webp", alt: "Spirit Dual Lat Pulldown/Row CSD-LPSR — hero front view" },
+    ],
+    specGroups: [
+      { title: "Performance", rows: [
+        { label: "•", value: "200 lb Weight Stack" },
+        { label: "•", value: "5 lb Increment Weight" },
+        { label: "•", value: "10 lb Top Plate" },
+        { label: "•", value: "10 x 10 lb Plates · 6 x 15 lb Plates" },
+        { label: "Pulley Ratio", value: "1:1 Weight" },
+      ]},
+      { title: "Frame", rows: [
+        { label: "•", value: "LOOS USA Cables" },
+        { label: "•", value: "Heavy Gauge Steel Frame" },
+        { label: "•", value: "Low Profile Design" },
+        { label: "•", value: "High-Quality Electrostatic Powder Coat Finish" },
+        { label: "•", value: "Fully Enclosed Weight Stack" },
+      ]},
+      { title: "Convenience", rows: [
+        { label: "•", value: "Rep/Time Counter (2 C Batteries required, not included)" },
+        { label: "•", value: "Start/Finish Workout Diagrams" },
+        { label: "•", value: "Includes Lat Bar, Row Bar, and Extension Chain" },
+        { label: "•", value: "Multiple Grip Options" },
+        { label: "•", value: "Storage Trays (Top of Weight Tower)" },
+      ]},
+      { title: "Dimensions", rows: [
+        { label: "Set-Up Dimension", value: "71\" L x 47.8\" W x 89.4\" H" },
+        { label: "Assembled Unit Weight", value: "550.8 lb" },
+        { label: "Recommended User Height", value: "4’11” to 6’8”" },
+        { label: "Max Weight Capacity", value: "360 lb" },
+      ]},
+      { title: "Warranty", rows: [
+        { label: "Coverage", value: "10 Years Frame · 5 Years Bushings, Bearings, Shocks, Pulleys, Guide Rods · 1 Year Paint and Finishes, Cables, Grips, Counter/Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts Not Mentioned · 6 Months Upholstery · 1 Year Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+      ]},
+    ],
+    sourceUrl: "https://www.spiritfitness.com/commercial/duals/duals-lat-pulldown-row",
+    seo: {
+      title: "Spirit Dual Lat Pulldown/Row (CSD-LPSR) | GM Therapy",
+      description: "Spirit CSD-LPSR dual lat pulldown and seated row: 200 lb stack, 1:1 ratio, adjustable bar height. Two most popular back exercises in one station.",
+    },
+  },
+
+  "632": {
+    productId: "632",
+    slug: "spirit-dual-pec-fly-rear-delt",
+    tagline: "Dual pec fly and rear deltoid trainer with multi-grip arm options.",
+    overview: [
+      "The Spirit Duals Pec Fly/Rear Delt (CSD-PFRD) focuses on the pectoralis and posterior deltoid muscle groups in a single station. Multiple hand-grip options and an adjustable range of motion fit users of all sizes.",
+      "A gas-assisted 4-bar linkage seat keeps positioning quick, and grip bumpers help users avoid hitting hands during the rear-delt movement.",
+    ],
+    highlights: [
+      "Targets pectoralis and posterior deltoid muscle groups",
+      "Multiple hand grips and adjustable range of motion",
+      "Gas-assisted 4-bar linkage seat adjustment",
+      "Grip bumpers help avoid hitting hands",
+      "Integrated rep counter and built-in top-cap storage",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/duals/pec-fly-rear-delt.webp", alt: "Spirit Dual Pec Fly/Rear Delt CSD-PFRD — hero front view" },
+    ],
+    specGroups: [
+      { title: "Performance", rows: [
+        { label: "•", value: "200 lb Weight Stack" },
+        { label: "•", value: "10 lb Top Plate" },
+        { label: "•", value: "4 x 10 lb Plates · 10 x 15 lb Plates" },
+        { label: "Pulley Ratio", value: "0.33 x Weight/Side" },
+      ]},
+      { title: "Frame", rows: [
+        { label: "•", value: "LOOS USA Cables" },
+        { label: "•", value: "Heavy Gauge Steel Frame" },
+        { label: "•", value: "Low Profile Design" },
+        { label: "•", value: "High-Quality Electrostatic Powder Coat Finish" },
+        { label: "•", value: "Fully Enclosed Weight Stack" },
+      ]},
+      { title: "Convenience", rows: [
+        { label: "•", value: "Rep/Time Counter (2 C Batteries required, not included)" },
+        { label: "•", value: "4-Bar Linkage Seat Adjustment (Gas Assist)" },
+        { label: "•", value: "Start/Finish Workout Diagrams" },
+        { label: "•", value: "Grip Bumpers Help Avoid Hitting Hands" },
+        { label: "•", value: "Storage Trays (Top of Weight Tower)" },
+      ]},
+      { title: "Dimensions", rows: [
+        { label: "Set-Up Dimension", value: "57.1\" L x 57.6\" W x 78.1\" H" },
+        { label: "Assembled Unit Weight", value: "492.7 lb" },
+        { label: "Recommended User Height", value: "4’11” to 6’8”" },
+        { label: "Max Weight Capacity", value: "360 lb" },
+      ]},
+      { title: "Warranty", rows: [
+        { label: "Coverage", value: "10 Years Frame · 5 Years Bushings, Bearings, Shocks, Pulleys, Guide Rods · 1 Year Paint and Finishes, Cables, Grips, Counter/Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts Not Mentioned · 6 Months Upholstery · 1 Year Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+      ]},
+    ],
+    sourceUrl: "https://www.spiritfitness.com/commercial/duals/duals-pec-fly-rear-delt",
+    seo: {
+      title: "Spirit Dual Pec Fly/Rear Delt (CSD-PFRD) | GM Therapy",
+      description: "Spirit CSD-PFRD dual pec fly and rear delt: 200 lb stack, multi-grip arms, gas-assist seat. Chest and posterior delt training in one machine.",
+    },
+  },
+
+  "633": {
+    productId: "633",
+    slug: "spirit-dual-pull-up-dip-assist",
+    tagline: "Assisted pull-up and dip station with kneeling platform for secure form.",
+    overview: [
+      "The Spirit Duals Pull Up/Dip Assist (CSD-PUDA) uses a weight stack to offset the user’s body weight for assisted pull-ups and dips. A kneeling platform positions users securely, and rotating dip handles fit different shoulder widths.",
+      "230 lb graduated stack at a 1:1 ratio, with an integrated rep counter and premium beveled knee pad — built for commercial gyms and rehab settings.",
+    ],
+    highlights: [
+      "Assists pull-ups and dips by reducing body weight",
+      "Rotating dip handles for different shoulder widths",
+      "Kneeling platform for added security",
+      "230 lb stack, 1:1 ratio, 5 lb increments",
+      "Premium grips and beveled knee pad with sport stitching",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/duals/pull-up-dip-assist.webp", alt: "Spirit Dual Pull Up/Dip Assist CSD-PUDA — hero front view" },
+    ],
+    specGroups: [
+      { title: "Performance", rows: [
+        { label: "•", value: "230 lb Weight Stack" },
+        { label: "•", value: "5 lb Increment Weight" },
+        { label: "•", value: "40 lb Top Plate (4 x 10 lb Plates)" },
+        { label: "•", value: "1 x 10 lb Plate · 12 x 15 lb Plates" },
+        { label: "Pulley Ratio", value: "1:1 Weight" },
+      ]},
+      { title: "Frame", rows: [
+        { label: "•", value: "LOOS USA Cables" },
+        { label: "•", value: "Heavy Gauge Steel Frame" },
+        { label: "•", value: "Low Profile Design" },
+        { label: "•", value: "High-Quality Electrostatic Powder Coat Finish" },
+        { label: "•", value: "Fully Enclosed Weight Stack" },
+      ]},
+      { title: "Convenience", rows: [
+        { label: "•", value: "Rep/Time Counter (2 C Batteries required, not included)" },
+        { label: "•", value: "Start/Finish Workout Diagrams" },
+        { label: "•", value: "Pivoting Knee Pad" },
+        { label: "•", value: "Multiple Grip Options" },
+        { label: "•", value: "Storage Trays (Top of Weight Tower)" },
+      ]},
+      { title: "Dimensions", rows: [
+        { label: "Set-Up Dimension", value: "48.7\" L x 46.7\" W x 88\" H" },
+        { label: "Assembled Unit Weight", value: "582.8 lb" },
+        { label: "Recommended User Height", value: "4’11” to 6’8”" },
+        { label: "Max Weight Capacity", value: "360 lb" },
+      ]},
+      { title: "Warranty", rows: [
+        { label: "Coverage", value: "10 Years Frame · 5 Years Bushings, Bearings, Shocks, Pulleys, Guide Rods · 1 Year Paint and Finishes, Cables, Grips, Counter/Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts Not Mentioned · 6 Months Upholstery · 1 Year Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+      ]},
+    ],
+    sourceUrl: "https://www.spiritfitness.com/commercial/duals/duals-pull-up-dip-assist",
+    seo: {
+      title: "Spirit Dual Pull Up/Dip Assist (CSD-PUDA) | GM Therapy",
+      description: "Spirit CSD-PUDA assisted pull-up and dip station: 230 lb stack, rotating dip handles, kneeling platform. Two bodyweight movements in one commercial machine.",
+    },
+  },
+
 };
+
 
 
 
