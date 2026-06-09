@@ -599,6 +599,9 @@ export const products: Product[] = [
   { id: "631", name: "Spirit Dual Lat Pulldown/Row", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSD-LPSR", description: ["Combines the two most popular back exercises", "Adjustable lat bar height with on-board storage hooks", "Foot brace for seated row stabilization", "200 lb weight stack, 1:1 ratio, 5 lb increments", "71\"L x 47.8\"W x 89.4\"H", "360 lb user weight capacity"] },
   { id: "632", name: "Spirit Dual Pec Fly/Rear Delt", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSD-PFRD", description: ["Multiple hand-grip options and adjustable range of motion", "Gas-assisted 4-bar linkage seat adjustment", "200 lb weight stack", "Grip bumpers help avoid hitting hands", "57.1\"L x 57.6\"W x 78.1\"H", "360 lb user weight capacity"] },
   { id: "633", name: "Spirit Dual Pull Up/Dip Assist", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSD-PUDA", description: ["Weight stack reduces body weight for assisted pull-ups and dips", "Rotating dip handles fit different shoulder widths", "Kneeling platform for added security", "230 lb weight stack, 1:1 ratio, 5 lb increments", "48.7\"L x 46.7\"W x 88\"H", "360 lb user weight capacity"] },
+
+  // SPIRIT - Air Bike (Commercial Cardio)
+  { id: "634", name: "Spirit AB950 Airbike", category: "Cardio", subcategory: "Upright Bikes", sku: "SFP AB950", description: ["27\" 9-blade fan with infinite air resistance", "Simultaneous upper- and lower-body workout", "Oversized welded steel frame with bolt-on floor stabilizers", "Fully adjustable high-density foam seat (fore/aft/up/down)", "5.2\" x 2.6\" LCD with 8 programs", "Bluetooth + 5KHz heart rate receiver, SPIRIT+ app ready", "Integrated windscreen prevents blowback", "350 lb max user weight capacity", "47.4\"L x 27.7\"W x 54.2\"H"] },
 ];
 
 
