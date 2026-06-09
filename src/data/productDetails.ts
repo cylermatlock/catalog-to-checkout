@@ -16422,6 +16422,99 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Spirit AB950 Airbike — product id "634"
+  "634": {
+    productId: "634",
+    slug: "spirit-ab950",
+    tagline: "Commercial fan bike with 27\" 9-blade flywheel, infinite air resistance, and full upper/lower body engagement.",
+    overview: [
+      "Experience the smooth ride, exceptional quality, and comfort of the Spirit AB950 Airbike. A 27\" 9-blade fan delivers unlimited air resistance that challenges users of every level, while the simultaneous upper- and lower-body workout keeps the heart pumping and delivers the ultimate conditioning session.",
+      "An easy-to-read LCD display surfaces 9 metrics and 8 programs, and built-in Bluetooth pairs with the SPIRIT+ app or any compatible heart rate strap (Bluetooth or 5KHz, sold separately). A welded steel frame with bolt-on floor stabilizers, oversized contoured seat, integrated windscreen, and built-in transport wheels round out a bike built for years of clinic and gym use.",
+    ],
+    highlights: [
+      "Oversized frame tubing and bottom bracket for added strength",
+      "27\", 9-blade fan produces unlimited air resistance",
+      "Simultaneous upper- and lower-body workout",
+      "Standard integrated windscreen prevents blowback",
+      "Oversized, contoured, fully adjustable seat for maximum comfort",
+      "Bluetooth + 5KHz heart rate receiver; SPIRIT+ app ready",
+      "Built-in transport wheels and compact footprint",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/ab950/hero.jpg", alt: "Spirit AB950 Airbike — hero 3/4 view" },
+      { src: "/assets/products/spirit/ab950/view-1.jpg", alt: "Spirit AB950 Airbike — left side view" },
+      { src: "/assets/products/spirit/ab950/view-2.jpg", alt: "Spirit AB950 Airbike — rear view" },
+      { src: "/assets/products/spirit/ab950/view-3.jpg", alt: "Spirit AB950 Airbike — right front 3/4 view" },
+      { src: "/assets/products/spirit/ab950/view-4.png", alt: "Spirit AB950 Airbike — updated 2025 console" },
+      { src: "/assets/products/spirit/ab950/view-5.jpg", alt: "Spirit AB950 Airbike — adjustable seat" },
+      { src: "/assets/products/spirit/ab950/view-6.jpg", alt: "Spirit AB950 Airbike — pedal with traction pins" },
+      { src: "/assets/products/spirit/ab950/view-7.jpg", alt: "Spirit AB950 Airbike — transport wheels" },
+    ],
+    specGroups: [
+      {
+        title: "Performance",
+        rows: [
+          { label: "Power", value: "15A/20A; 4 AA Console Batteries" },
+          { label: "Drive System", value: "Dual Action Chain with Direct Drive" },
+          { label: "Flywheel", value: "27\", 9 Steel Blades" },
+          { label: "Resistance", value: "Infinite, Based on Speed" },
+        ],
+      },
+      {
+        title: "Console",
+        rows: [
+          { label: "Display", value: "5.2\" x 2.6\" LCD" },
+          { label: "Feedback", value: "RPM, Speed, Time, Distance, Calories, Watts, Pulse, Interval Prompt" },
+          { label: "Programs", value: "Target Time, Target Distance, Target Calories, Target Heart Rate, Interval 20-10, Interval 10-20, Interval Custom, Manual" },
+          { label: "Connectivity", value: "Built-in Bluetooth (Heart Rate, SPIRIT+ App, and 3rd Party Apps)" },
+        ],
+      },
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Set-Up Dimension", value: "47.4\" L x 27.7\" W x 54.2\" H" },
+          { label: "Box Dimension", value: "52\" L x 13\" W x 37\" H" },
+          { label: "Item Weight", value: "123.5 lb" },
+          { label: "Box Weight", value: "153.2 lb" },
+          { label: "Max User Weight Capacity", value: "350 lb" },
+          { label: "Recommended User Inseam", value: "28.9\" – 41.3\"" },
+        ],
+      },
+      {
+        title: "Frame",
+        rows: [
+          { label: "Q-Factor", value: "10\"" },
+          { label: "Crank Arm Length", value: "6.5\"" },
+          { label: "Stride Length", value: "13\"" },
+          { label: "Pedal", value: "Large Platforms with Molded Traction Pins" },
+          { label: "Seat", value: "High Density Foam" },
+          { label: "Seat Adjustments", value: "Up/Down/Fore/Aft" },
+          { label: "Handlebars", value: "Multi-Position Swing Arm" },
+        ],
+      },
+      {
+        title: "Convenience",
+        rows: [
+          { label: "Heart Rate", value: "Bluetooth and 5KHz Receiver (Chest Strap Sold Separately)" },
+          { label: "•", value: "Leveling Feet" },
+          { label: "•", value: "Transportation Wheels" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "US Commercial", value: "5 Years Frame · 2 Years Parts · 1 Year Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+        ],
+      },
+    ],
+    specSheetUrl: "https://drive.google.com/file/d/14pcWMvzPDjmps-QTL1ONunLkCNrkizDP/view",
+    sourceUrl: "https://www.spiritfitness.com/commercial/fitness-bikes/ab950-airbike",
+    seo: {
+      title: "Spirit AB950 Airbike — Commercial Fan Bike | GM Therapy",
+      description: "Spirit AB950 commercial airbike: 27\" 9-blade fan, infinite air resistance, full-body workout, Bluetooth + 5KHz HR, 350 lb capacity. Built for clinics and gyms.",
+    },
+  },
+
 };
 
 
