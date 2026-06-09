@@ -17148,7 +17148,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "1-year warranty",
     ],
     gallery: [
-      { src: "/assets/products/lumanova/lumabag/pro-main.jpg", alt: "LumaNova LumaBag red light therapy bag — hero view" },
+      { src: "/assets/products/lumanova/lumabag/pro-main.jpg", alt: "LumaNova LumaBag Red Light Sleeping Bag - Small — hero view" },
       { src: "/assets/products/lumanova/lumabag/lifestyle.jpg", alt: "User relaxing in glowing LumaBag" },
       { src: "/assets/products/lumanova/lumabag/view-1.jpg", alt: "LumaBag in use — full-body session" },
       { src: "/assets/products/lumanova/lumabag/view-2.png", alt: "LumaBag model demonstrating 360° coverage" },
@@ -17192,7 +17192,7 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://lumanova.com/products/lumabag360",
     seo: {
-      title: "LumaNova LumaBag Red Light Therapy Bag (1,800 LEDs) | GM Therapy",
+      title: "LumaNova LumaBag Red Light Sleeping Bag - Small (1,800 LEDs) | GM Therapy",
       description: "LumaNova LumaBag: travel-size 360° at-home red light therapy bag with 1,800 LEDs, 660 + 850 nm wavelengths, wireless remote. Texas dealer.",
     },
   },
