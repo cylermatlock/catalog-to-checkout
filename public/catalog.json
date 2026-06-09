@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T19:08:11.627Z",
+  "generatedAt": "2026-06-09T19:16:05.934Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -38144,19 +38144,19 @@
     },
     {
       "id": "640",
-      "name": "LumaNova LumaMobile Pro Mobile Red Light Tower",
+      "name": "LumaNova LumaMobile Professional Mobile Red Light Therapy Half-Bed",
       "category": "LumaNova - Red Light Therapy",
-      "subcategory": "Panels & Towers",
-      "sku": "LN-LM-Pro",
+      "subcategory": "Beds & Pods",
+      "sku": "LN-LM",
       "description": [
-        "Mobile rolling red light therapy tower",
-        "1,620 high-power 5W LEDs",
-        "5 wavelengths: 630, 660, 810, 850, 940 nm",
-        "Universal voltage AC85–265V",
-        "Adjustable angle and height",
-        "Dimensions: 1740 × 660 × 1400 mm"
+        "Professional mobile red-light therapy half-bed — fits over massage table or bed",
+        "5 clinical wavelengths: 633, 660, 810, 850, 940 nm (individually controllable, constant or pulsed)",
+        "~60 mW/cm² irradiance, 5-fan cooling",
+        "7\" color touchscreen, Bluetooth audio, built-in TENS unit",
+        "360° rotating arm with adjustable height",
+        "2-year warranty"
       ],
-      "image": "/assets/products/lumanova/lumamobile-pro.png",
+      "image": "/assets/products/lumanova/lumamobile/hero.jpg",
       "detail": null
     },
     {
@@ -38328,134 +38328,6 @@
       ],
       "image": "/assets/products/lumanova/lumaglove.png",
       "detail": null
-    },
-    {
-      "id": "652",
-      "name": "LumaNova LumaMobile Professional Mobile Red Light Therapy Half-Bed",
-      "category": "LumaNova - Red Light Therapy",
-      "subcategory": "Beds & Pods",
-      "sku": "LN-LM",
-      "description": [
-        "Professional mobile red-light therapy half-bed — fits over massage table or bed",
-        "5 clinical wavelengths: 633, 660, 810, 850, 940 nm (individually controllable, constant or pulsed)",
-        "~60 mW/cm² irradiance, 5-fan cooling",
-        "7\" color touchscreen, Bluetooth audio, built-in TENS unit",
-        "360° rotating arm with adjustable height",
-        "2-year warranty"
-      ],
-      "image": "/assets/products/lumanova/lumamobile/hero.jpg",
-      "detail": {
-        "productId": "652",
-        "slug": "lumanova-lumamobile",
-        "tagline": "Professional mobile red light therapy half-bed — clinical-grade light that goes over any massage table or bed.",
-        "overview": [
-          "The LumaMobile® is a professional-grade mobile red-light therapy half-bed designed for practitioners and individuals who need clinical-level treatments without dedicating a full room to a bed. It positions easily over a massage table or bed, delivering powerful five-wavelength light therapy in any treatment space.",
-          "Developed by world-renowned wellness expert Dr. Paul Barattiero, the LumaMobile® emits 633, 660, 810, 850, and 940 nm — individually controllable in constant or pulsed mode — at a clinical-grade ~60 mW/cm² irradiance. A 7\" color touchscreen controls every aspect of treatment, including time, panel height, wavelength selection, and pulse frequency.",
-          "Designed for flexibility: a 360° rotating arm, adjustable height, and a sturdy rolling frame with two locking wheels make it easy to move between rooms and clients. A built-in TENS unit (just connect the pads) and Bluetooth speakers for music round out a complete professional experience — all backed by a 2-year warranty."
-        ],
-        "highlights": [
-          "Mobile half-bed design fits over any massage table or bed",
-          "5 clinical wavelengths: 633, 660, 810, 850, 940 nm",
-          "Individually controllable wavelengths — constant or pulsed",
-          "~60 mW/cm² clinical-grade irradiance",
-          "360° rotating arm with adjustable height",
-          "7\" color touchscreen control system",
-          "Built-in TENS unit — connect pads and treat",
-          "Bluetooth™ audio with built-in speakers",
-          "5-fan cooling system for continuous use",
-          "Sturdy rolling frame with two locking wheels",
-          "2-year warranty on all components"
-        ],
-        "gallery": [
-          {
-            "src": "/assets/products/lumanova/lumamobile/hero.jpg",
-            "alt": "LumaNova LumaMobile mobile red light therapy half-bed — hero view"
-          },
-          {
-            "src": "/assets/products/lumanova/lumamobile/view-1.jpg",
-            "alt": "LumaNova LumaMobile positioned over treatment table"
-          }
-        ],
-        "specGroups": [
-          {
-            "title": "Light Performance",
-            "rows": [
-              {
-                "label": "Wavelengths",
-                "value": "633 nm, 660 nm, 810 nm, 850 nm, 940 nm"
-              },
-              {
-                "label": "Wavelength Control",
-                "value": "Each wavelength individually controllable"
-              },
-              {
-                "label": "Mode",
-                "value": "Constant or pulsed light"
-              },
-              {
-                "label": "Irradiance",
-                "value": "~60 mW/cm²"
-              }
-            ]
-          },
-          {
-            "title": "Controls & Experience",
-            "rows": [
-              {
-                "label": "Touchscreen",
-                "value": "7\" color touchscreen"
-              },
-              {
-                "label": "TENS Unit",
-                "value": "Built-in — connect pads and treat"
-              },
-              {
-                "label": "Audio",
-                "value": "Bluetooth™ with built-in speakers"
-              },
-              {
-                "label": "Cooling System",
-                "value": "5 fans"
-              }
-            ]
-          },
-          {
-            "title": "Mobility & Build",
-            "rows": [
-              {
-                "label": "Form Factor",
-                "value": "Mobile half-bed (fits over massage table or bed)"
-              },
-              {
-                "label": "Arm Movement",
-                "value": "360° rotating arm"
-              },
-              {
-                "label": "Height Adjustment",
-                "value": "Yes — fully adjustable"
-              },
-              {
-                "label": "Wheels",
-                "value": "Rolling frame with two locking wheels"
-              }
-            ]
-          },
-          {
-            "title": "Warranty",
-            "rows": [
-              {
-                "label": "Warranty",
-                "value": "2-year warranty on all components"
-              }
-            ]
-          }
-        ],
-        "sourceUrl": "https://lumanova.com/products/lumamobile",
-        "seo": {
-          "title": "LumaNova LumaMobile Mobile Red Light Therapy Half-Bed | GM Therapy",
-          "description": "LumaNova LumaMobile: professional mobile red light therapy half-bed with 5 wavelengths, ~60 mW/cm² irradiance, 360° rotating arm, TENS unit. Texas dealer."
-        }
-      }
     }
   ]
 }
