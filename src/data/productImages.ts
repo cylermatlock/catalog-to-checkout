@@ -578,7 +578,7 @@ export const productImages: Record<string, string> = {
   "642": productAsset("lumanova/lumad-commercial.png"),
   "643": productAsset("lumanova/lumabag/max-main.png"),
   "644": productAsset("lumanova/lumabag/pro-main.jpg"),
-  "645": productAsset("lumanova/lumabag.png"),
+  "645": productAsset("lumanova/lumabag/pro-main.jpg"),
   "646": productAsset("lumanova/lumavest.png"),
   "647": productAsset("lumanova/lumabelt.png"),
   "648": productAsset("lumanova/lumashoulder.png"),
