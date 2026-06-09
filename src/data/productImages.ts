@@ -585,6 +585,7 @@ export const productImages: Record<string, string> = {
   "649": productAsset("lumanova/lumapanel-face.png"),
   "650": productAsset("lumanova/lumapad-mini.png"),
   "651": productAsset("lumanova/lumaglove.png"),
+  "652": productAsset("lumanova/lumamobile/hero.jpg"),
 };
 
 
