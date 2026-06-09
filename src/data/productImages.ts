@@ -572,7 +572,7 @@ export const productImages: Record<string, string> = {
 
   // LumaNova - Red Light Therapy (Human Products)
   "638": productAsset("lumanova/lumapod-pro/hero.png"),
-  "639": productAsset("lumanova/lumapod.png"),
+  "639": productAsset("lumanova/lumapod/hero.png"),
   "640": productAsset("lumanova/lumamobile-pro.png"),
   "641": productAsset("lumanova/lumad-residential.png"),
   "642": productAsset("lumanova/lumad-commercial.png"),

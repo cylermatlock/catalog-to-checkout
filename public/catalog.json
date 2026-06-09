@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T18:57:45.223Z",
+  "generatedAt": "2026-06-09T19:02:59.413Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -37967,8 +37967,180 @@
         "220V / 30A power",
         "440 lb weight capacity"
       ],
-      "image": "/assets/products/lumanova/lumapod.png",
-      "detail": null
+      "image": "/assets/products/lumanova/lumapod/hero.png",
+      "detail": {
+        "productId": "639",
+        "slug": "lumanova-lumapod",
+        "tagline": "Powerful full-body red light therapy bed with 26,800 medical-grade LEDs and 5 therapeutic wavelengths.",
+        "overview": [
+          "The LumaPod® is LumaNova's flagship full-body red-light therapy bed — engineered for medical practices, elite facilities, and private wellness spaces that demand uncompromising performance, reliability, and results. With 26,800 high-quality German LEDs delivering five clinically researched wavelengths in equal proportions, it accelerates recovery, reduces inflammation, and drives measurable client and practice outcomes.",
+          "Developed by world-renowned wellness expert Dr. Paul Barattiero, the LumaPod® combines a patented design that maximizes light reflection and refraction with a lab-verified true irradiance up to 73.9 mW/cm² — meaning shorter sessions deliver the same effect as competitors' lower-irradiance products. A 9-fan cooling system keeps both bed and user comfortable during high-volume continuous use.",
+          "A user-friendly touchscreen ships with 63 expert-built preset protocols covering pain relief, recovery, skin health, and longevity, with full custom-protocol creation and Bluetooth™ audio. The spacious 77\" × 34\" treatment area accommodates users up to 450 lb, while the low-profile design ensures easy entry and exit."
+        ],
+        "highlights": [
+          "26,800 high-quality German LEDs with 100,000-hour lifespan",
+          "5 clinical wavelengths: 633, 660, 810, 850, 940 nm in equal proportions",
+          "Lab-verified true irradiance up to 73.9 mW/cm² (Light Lab International)",
+          "Patented design maximizes reflection, refraction & light absorption",
+          "63 preset Dr.-developed protocols + custom programs via touchscreen",
+          "Bluetooth™ audio for music & media during sessions",
+          "9-fan advanced cooling system for continual high-volume use",
+          "Spacious 77\" × 34\" laying area, supports users up to 450 lb",
+          "3-year warranty with limited lifetime LED guarantee",
+          "CE, RoHS, and FDA certified",
+          "Standard white-glove delivery included"
+        ],
+        "gallery": [
+          {
+            "src": "/assets/products/lumanova/lumapod/hero.png",
+            "alt": "LumaNova LumaPod red light therapy bed — hero front view"
+          },
+          {
+            "src": "/assets/products/lumanova/lumapod/lifestyle.png",
+            "alt": "LumaNova LumaPod interior glowing with red and near-infrared light"
+          },
+          {
+            "src": "/assets/products/lumanova/lumapod/view-1.jpg",
+            "alt": "LumaPod in gym setting"
+          },
+          {
+            "src": "/assets/products/lumanova/lumapod/view-2.jpg",
+            "alt": "LumaPod with model demonstrating bed access"
+          },
+          {
+            "src": "/assets/products/lumanova/lumapod/view-3.jpg",
+            "alt": "LumaPod installed in wellness facility"
+          }
+        ],
+        "specGroups": [
+          {
+            "title": "Light Performance",
+            "rows": [
+              {
+                "label": "Wavelengths",
+                "value": "633 nm, 660 nm, 810 nm, 850 nm, 940 nm (equal proportions)"
+              },
+              {
+                "label": "True Irradiance",
+                "value": "Up to 73.9 mW/cm² (3rd-party lab verified)"
+              },
+              {
+                "label": "LED Count",
+                "value": "26,800 high-quality German LEDs"
+              },
+              {
+                "label": "LED Lifespan",
+                "value": "100,000 hours"
+              }
+            ]
+          },
+          {
+            "title": "Controls & Experience",
+            "rows": [
+              {
+                "label": "Touchscreen",
+                "value": "Proprietary touchscreen control system"
+              },
+              {
+                "label": "Preset Protocols",
+                "value": "63 Dr.-developed presets"
+              },
+              {
+                "label": "Custom Protocols",
+                "value": "Yes — fully customizable wavelengths, timing, pulse frequency"
+              },
+              {
+                "label": "Audio",
+                "value": "Bluetooth™ enabled"
+              },
+              {
+                "label": "Cooling System",
+                "value": "9 fans"
+              }
+            ]
+          },
+          {
+            "title": "Dimensions & Capacity",
+            "rows": [
+              {
+                "label": "Laying Area",
+                "value": "77\" × 34\" (195.6 × 86.4 cm)"
+              },
+              {
+                "label": "Overall Length",
+                "value": "84.5\" / 7.04 ft (214.6 cm)"
+              },
+              {
+                "label": "Overall Width",
+                "value": "42\" (106.6 cm)"
+              },
+              {
+                "label": "Overall Height",
+                "value": "34\" (86.4 cm)"
+              },
+              {
+                "label": "Tunnel Height",
+                "value": "1.24 ft (37.8 cm)"
+              },
+              {
+                "label": "User Weight Capacity",
+                "value": "450 lb (250 kg)"
+              },
+              {
+                "label": "Bed Weight",
+                "value": "440 lb (200 kg)"
+              }
+            ]
+          },
+          {
+            "title": "Power & Certifications",
+            "rows": [
+              {
+                "label": "Power Requirement",
+                "value": "220V / 30 Amps"
+              },
+              {
+                "label": "Plug",
+                "value": "NEMA L6-30"
+              },
+              {
+                "label": "Certifications",
+                "value": "CE, RoHS, FDA"
+              },
+              {
+                "label": "Exterior Finish",
+                "value": "Piano Black"
+              }
+            ]
+          },
+          {
+            "title": "Delivery & Warranty",
+            "rows": [
+              {
+                "label": "Delivery",
+                "value": "Standard white-glove delivery included (room-of-choice optional)"
+              },
+              {
+                "label": "Warranty",
+                "value": "3-Year warranty on all components"
+              },
+              {
+                "label": "LED Guarantee",
+                "value": "Limited Lifetime LED Guarantee"
+              },
+              {
+                "label": "Included Support",
+                "value": "$5,000+ in staff training, marketing materials, patient resources & expert consultation; FREE Echo Clean™"
+              }
+            ]
+          }
+        ],
+        "sourceUrl": "https://lumanova.com/products/lumapod",
+        "seo": {
+          "title": "LumaNova LumaPod Red Light Therapy Bed | GM Therapy",
+          "description": "LumaNova LumaPod: full-body red light therapy bed with 26,800 LEDs, 5 wavelengths, up to 73.9 mW/cm² irradiance, 450 lb capacity. Texas dealer."
+        }
+      }
     },
     {
       "id": "640",
