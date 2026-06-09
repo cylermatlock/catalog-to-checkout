@@ -16515,6 +16515,78 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Spirit Smith Machine — product id "635"
+  "635": {
+    productId: "635",
+    slug: "spirit-smith-machine",
+    tagline: "Commercial vertical Smith machine with counterbalanced bar, adjustable bar stops, and 550 lb loading capacity.",
+    overview: [
+      "Safely perform squats, bench presses, shoulder shrugs and more with the Spirit Smith Machine. The vertical design makes set-up easy and accommodates most exercises, while the bar is counterbalanced to just 6.6 lb for a very low starting resistance — ideal for users of all levels.",
+      "Adjustable bar stops are easy to identify and adjust in small increments, keeping athletes confident through every rep. A heavy-gauge steel frame with commercial-grade components, non-slip rubber feet, and 6 weight storage horns round out a station built for years of high-traffic use.",
+    ],
+    highlights: [
+      "Vertical design accommodates most exercises and provides easier set-up",
+      "Bar counterbalanced to 6.6 lb for very low starting resistance",
+      "Adjustable bar stops in small increments for safety and confidence",
+      "6 weight storage horns keep plates organized",
+      "Heavy-gauge steel frame with high-quality powder coat finish",
+      "Non-slip rubber feet and durable PVC foot covers for stability",
+      "550 lb max bar loading capacity (275 lb each side)",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/smith/hero.jpg", alt: "Spirit Smith Machine — hero 3/4 view" },
+      { src: "/assets/products/spirit/smith/view-1.jpg", alt: "Spirit Smith Machine — front view" },
+      { src: "/assets/products/spirit/smith/view-2.jpg", alt: "Spirit Smith Machine — side view" },
+    ],
+    specGroups: [
+      {
+        title: "Performance",
+        rows: [
+          { label: "Design", value: "Vertical" },
+          { label: "Bar Stops", value: "Adjustable in small increments" },
+          { label: "Counterbalanced Bar", value: "6.6 lb starting resistance" },
+        ],
+      },
+      {
+        title: "Frame",
+        rows: [
+          { label: "Construction", value: "Heavy-Gauge Steel" },
+          { label: "Finish", value: "High-Quality Powder Coat" },
+          { label: "Foot Covers", value: "Durable PVC" },
+        ],
+      },
+      {
+        title: "Convenience",
+        rows: [
+          { label: "Weight Storage", value: "6 Storage Horns" },
+          { label: "Stability", value: "Non-Slip Rubber Feet" },
+        ],
+      },
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Set-Up Dimension", value: "85.2\" L x 62\" W x 94.1\" H" },
+          { label: "Box Dimension", value: "95\" L x 22\" W x 65\" H" },
+          { label: "Item Weight", value: "441 lb" },
+          { label: "Box Weight", value: "547 lb" },
+          { label: "Max Loading Capacity", value: "550 lb (275 lb each side)" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "US Commercial", value: "10 Years Frame/Welds/Cams/Plates · 5 Years Bushing/Bearings/Shocks/Pulleys/Guide Rods · 6 Months Upholstery · 1 Year Paint, Finishes, Cables, Grips, Counter Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts, Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+        ],
+      },
+    ],
+    specSheetUrl: "https://drive.google.com/file/d/1avI5peNP2QmQcXNZYBDO0-J0B79fIaMe/view?usp=drive_link",
+    sourceUrl: "https://www.spiritfitness.com/commercial/strength/csf-smth-smith-machine",
+    seo: {
+      title: "Spirit Smith Machine (CSF-SMTH) | GM Therapy",
+      description: "Spirit CSF-SMTH commercial Smith machine: vertical design, 6.6 lb counterbalanced bar, adjustable bar stops, 6 weight horns, 550 lb capacity. Built for clinics and gyms.",
+    },
+  },
+
 };
 
 
