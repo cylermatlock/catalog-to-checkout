@@ -16587,6 +16587,225 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Spirit Adjustable Bench — product id "636"
+  "636": {
+    productId: "636",
+    slug: "spirit-adjustable-bench",
+    tagline: "Commercial adjustable bench with 6 back pad angles, 3 seat positions, and 617 lb weight capacity.",
+    overview: [
+      "The Spirit Fitness CSF-ADJB Adjustable Bench is built for convenience, comfort, and durability. Designed to accommodate all types of bench exercises, the back pad easily adjusts from 0 to 90 degrees with spring-loaded lock pins for quick and effortless changes.",
+      "Premium contoured pads with sport stitching and high-density foam deliver comfort, durability, and easy cleaning. Built-in transport wheels and a comfort grip handle make it easy to move, while PVC foot covers add stability and protect your floor.",
+    ],
+    highlights: [
+      "Back pad adjusts from 0 to 90 degrees with spring-loaded lock pins",
+      "6 adjustable back pad angles and 3 seat angles for full versatility",
+      "Premium contoured pads with sport stitching and high-density foam",
+      "Minimized gap between back and seat pad for added comfort",
+      "Built-in transport wheels and comfort grip transport handle",
+      "Heavy-gauge steel frame with high-quality powder coat finish",
+      "617 lb max weight capacity",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/adjb/hero.webp", alt: "Spirit Adjustable Bench CSF-ADJB — hero front view" },
+      { src: "/assets/products/spirit/adjb/view-1.webp", alt: "Spirit Adjustable Bench — angled recline view" },
+      { src: "/assets/products/spirit/adjb/view-2.webp", alt: "Spirit Adjustable Bench — profile side view" },
+      { src: "/assets/products/spirit/adjb/view-3.webp", alt: "Spirit Adjustable Bench — flat position side view" },
+    ],
+    specGroups: [
+      {
+        title: "Performance",
+        rows: [
+          { label: "Backrest Adjustment", value: "Pop-Pin, 0° – 90°" },
+          { label: "Back Pad Angles", value: "6 positions" },
+          { label: "Seat Angles", value: "3 positions" },
+        ],
+      },
+      {
+        title: "Frame",
+        rows: [
+          { label: "Construction", value: "Heavy-Gauge Steel Frame" },
+          { label: "Finish", value: "High-Quality Powder Coat" },
+          { label: "Pads", value: "Premium Contoured Pads with Sport Stitching" },
+          { label: "Foot Covers", value: "Durable PVC" },
+        ],
+      },
+      {
+        title: "Convenience",
+        rows: [
+          { label: "Mobility", value: "Transportation Wheels" },
+          { label: "Handle", value: "Comfort Grip Transport Handle" },
+        ],
+      },
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Set-Up Dimension", value: "53.6\" L x 17.6\" W x 16.3\" H" },
+          { label: "Box Dimension", value: "52\" L x 19.3\" W x 15\" H" },
+          { label: "Item Weight", value: "80.5 lb" },
+          { label: "Box Weight", value: "92.6 lb" },
+          { label: "Max Weight Capacity", value: "617 lb" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "US Commercial", value: "10 Years Frame/Welds/Cams/Plates · 5 Years Bushing/Bearings/Shocks/Pulleys/Guide Rods · 6 Months Upholstery · 1 Year Paint, Finishes, Cables, Grips, Counter/Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts, Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+        ],
+      },
+    ],
+    specSheetUrl: "https://drive.google.com/file/d/1yLvnlqw3zK9ciEDTb3ne69Z4u8Dvi8Jd/view?usp=drive_link",
+    sourceUrl: "https://www.spiritfitness.com/commercial/strength/csf-adjb-flat-incline-bench",
+    seo: {
+      title: "Spirit Adjustable Bench (CSF-ADJB) | GM Therapy",
+      description: "Spirit CSF-ADJB commercial adjustable bench: 6 back angles, 3 seat angles, premium contoured pads, transport wheels, 617 lb capacity. Built for clinics and gyms.",
+    },
+  },
+
+  "635": {
+    productId: "635",
+    slug: "spirit-smith-machine",
+    tagline: "Commercial vertical Smith machine with counterbalanced bar, adjustable bar stops, and 550 lb loading capacity.",
+    overview: [
+      "Safely perform squats, bench presses, shoulder shrugs and more with the Spirit Smith Machine. The vertical design makes set-up easy and accommodates most exercises, while the bar is counterbalanced to just 6.6 lb for a very low starting resistance — ideal for users of all levels.",
+      "Adjustable bar stops are easy to identify and adjust in small increments, keeping athletes confident through every rep. A heavy-gauge steel frame with commercial-grade components, non-slip rubber feet, and 6 weight storage horns round out a station built for years of high-traffic use.",
+    ],
+    highlights: [
+      "Vertical design accommodates most exercises and provides easier set-up",
+      "Bar counterbalanced to 6.6 lb for very low starting resistance",
+      "Adjustable bar stops in small increments for safety and confidence",
+      "6 weight storage horns keep plates organized",
+      "Heavy-gauge steel frame with high-quality powder coat finish",
+      "Non-slip rubber feet and durable PVC foot covers for stability",
+      "550 lb max bar loading capacity (275 lb each side)",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/smith/hero.jpg", alt: "Spirit Smith Machine — hero 3/4 view" },
+      { src: "/assets/products/spirit/smith/view-1.jpg", alt: "Spirit Smith Machine — front view" },
+      { src: "/assets/products/spirit/smith/view-2.jpg", alt: "Spirit Smith Machine — side view" },
+    ],
+    specGroups: [
+      {
+        title: "Performance",
+        rows: [
+          { label: "Design", value: "Vertical" },
+          { label: "Bar Stops", value: "Adjustable in small increments" },
+          { label: "Counterbalanced Bar", value: "6.6 lb starting resistance" },
+        ],
+      },
+      {
+        title: "Frame",
+        rows: [
+          { label: "Construction", value: "Heavy-Gauge Steel" },
+          { label: "Finish", value: "High-Quality Powder Coat" },
+          { label: "Foot Covers", value: "Durable PVC" },
+        ],
+      },
+      {
+        title: "Convenience",
+        rows: [
+          { label: "Weight Storage", value: "6 Storage Horns" },
+          { label: "Stability", value: "Non-Slip Rubber Feet" },
+        ],
+      },
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Set-Up Dimension", value: "85.2\" L x 62\" W x 94.1\" H" },
+          { label: "Box Dimension", value: "95\" L x 22\" W x 65\" H" },
+          { label: "Item Weight", value: "441 lb" },
+          { label: "Box Weight", value: "547 lb" },
+          { label: "Max Loading Capacity", value: "550 lb (275 lb each side)" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "US Commercial", value: "10 Years Frame/Welds/Cams/Plates · 5 Years Bushing/Bearings/Shocks/Pulleys/Guide Rods · 6 Months Upholstery · 1 Year Paint, Finishes, Cables, Grips, Counter Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts, Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+        ],
+      },
+    ],
+    specSheetUrl: "https://drive.google.com/file/d/1avI5peNP2QmQcXNZYBDO0-J0B79fIaMe/view?usp=drive_link",
+    sourceUrl: "https://www.spiritfitness.com/commercial/strength/csf-smth-smith-machine",
+    seo: {
+      title: "Spirit Smith Machine (CSF-SMTH) | GM Therapy",
+      description: "Spirit CSF-SMTH commercial Smith machine: vertical design, 6.6 lb counterbalanced bar, adjustable bar stops, 6 weight horns, 550 lb capacity. Built for clinics and gyms.",
+    },
+  },
+
+  // Spirit Adjustable Bench — product id "636"
+  "636": {
+    productId: "636",
+    slug: "spirit-adjustable-bench",
+    tagline: "Commercial adjustable bench with 6 back pad angles, 3 seat positions, and 617 lb weight capacity.",
+    overview: [
+      "The Spirit Fitness CSF-ADJB Adjustable Bench is built for convenience, comfort, and durability. Designed to accommodate all types of bench exercises, the back pad easily adjusts from 0 to 90 degrees with spring-loaded lock pins for quick and effortless changes.",
+      "Premium contoured pads with sport stitching and high-density foam deliver comfort, durability, and easy cleaning. Built-in transport wheels and a comfort grip handle make it easy to move, while PVC foot covers add stability and protect your floor.",
+    ],
+    highlights: [
+      "Back pad adjusts from 0 to 90 degrees with spring-loaded lock pins",
+      "6 adjustable back pad angles and 3 seat angles for full versatility",
+      "Premium contoured pads with sport stitching and high-density foam",
+      "Minimized gap between back and seat pad for added comfort",
+      "Built-in transport wheels and comfort grip transport handle",
+      "Heavy-gauge steel frame with high-quality powder coat finish",
+      "617 lb max weight capacity",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/adjb/hero.webp", alt: "Spirit Adjustable Bench CSF-ADJB — hero front view" },
+      { src: "/assets/products/spirit/adjb/view-1.webp", alt: "Spirit Adjustable Bench — angled recline view" },
+      { src: "/assets/products/spirit/adjb/view-2.webp", alt: "Spirit Adjustable Bench — profile side view" },
+      { src: "/assets/products/spirit/adjb/view-3.webp", alt: "Spirit Adjustable Bench — flat position side view" },
+    ],
+    specGroups: [
+      {
+        title: "Performance",
+        rows: [
+          { label: "Backrest Adjustment", value: "Pop-Pin, 0° – 90°" },
+          { label: "Back Pad Angles", value: "6 positions" },
+          { label: "Seat Angles", value: "3 positions" },
+        ],
+      },
+      {
+        title: "Frame",
+        rows: [
+          { label: "Construction", value: "Heavy-Gauge Steel Frame" },
+          { label: "Finish", value: "High-Quality Powder Coat" },
+          { label: "Pads", value: "Premium Contoured Pads with Sport Stitching" },
+          { label: "Foot Covers", value: "Durable PVC" },
+        ],
+      },
+      {
+        title: "Convenience",
+        rows: [
+          { label: "Mobility", value: "Transportation Wheels" },
+          { label: "Handle", value: "Comfort Grip Transport Handle" },
+        ],
+      },
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Set-Up Dimension", value: "53.6\" L x 17.6\" W x 16.3\" H" },
+          { label: "Box Dimension", value: "52\" L x 19.3\" W x 15\" H" },
+          { label: "Item Weight", value: "80.5 lb" },
+          { label: "Box Weight", value: "92.6 lb" },
+          { label: "Max Weight Capacity", value: "617 lb" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "US Commercial", value: "10 Years Frame/Welds/Cams/Plates · 5 Years Bushing/Bearings/Shocks/Pulleys/Guide Rods · 6 Months Upholstery · 1 Year Paint, Finishes, Cables, Grips, Counter/Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts, Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+        ],
+      },
+    ],
+    specSheetUrl: "https://drive.google.com/file/d/1yLvnlqw3zK9ciEDTb3ne69Z4u8Dvi8Jd/view?usp=drive_link",
+    sourceUrl: "https://www.spiritfitness.com/commercial/strength/csf-adjb-flat-incline-bench",
+    seo: {
+      title: "Spirit Adjustable Bench (CSF-ADJB) | GM Therapy",
+      description: "Spirit CSF-ADJB commercial adjustable bench: 6 back angles, 3 seat angles, premium contoured pads, transport wheels, 617 lb capacity. Built for clinics and gyms.",
+    },
+  },
+
 };
 
 
