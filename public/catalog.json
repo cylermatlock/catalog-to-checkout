@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T19:02:59.413Z",
+  "generatedAt": "2026-06-09T19:07:51.521Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -38327,6 +38327,23 @@
         "Size: 9.84\" x 7.87\" (25 × 20 cm)"
       ],
       "image": "/assets/products/lumanova/lumaglove.png",
+      "detail": null
+    },
+    {
+      "id": "652",
+      "name": "LumaNova LumaMobile Professional Mobile Red Light Therapy Half-Bed",
+      "category": "LumaNova - Red Light Therapy",
+      "subcategory": "Beds & Pods",
+      "sku": "LN-LM",
+      "description": [
+        "Professional mobile red-light therapy half-bed — fits over massage table or bed",
+        "5 clinical wavelengths: 633, 660, 810, 850, 940 nm (individually controllable, constant or pulsed)",
+        "~60 mW/cm² irradiance, 5-fan cooling",
+        "7\" color touchscreen, Bluetooth audio, built-in TENS unit",
+        "360° rotating arm with adjustable height",
+        "2-year warranty"
+      ],
+      "image": null,
       "detail": null
     }
   ]
