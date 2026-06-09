@@ -3,6 +3,7 @@ import type { Product } from "@/data/products";
 // Ordered: longer/more-specific name matches first.
 const NAME_MATCHERS: { label: string; test: (n: string) => boolean }[] = [
   { label: "Biodex/Sport Medical", test: (n) => /\b(biodex|sport medical|smti)\b/i.test(n) },
+  { label: "LumaNova", test: (n) => /\b(lumanova|lumapod|lumamobile|lumabag|lumavest|lumabelt|lumashoulder|lumapanel|lumapad|lumaglove|lumad)\b/i.test(n) },
   { label: "Sports Art", test: (n) => /\b(sportsart|sports art)\b/i.test(n) },
   { label: "Game Ready", test: (n) => /\bgame ready\b/i.test(n) },
   { label: "EasyStand", test: (n) => /\beasystand\b/i.test(n) },

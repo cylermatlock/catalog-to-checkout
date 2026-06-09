@@ -15,6 +15,7 @@ export interface Product {
 
 export const categories = [
   "Biodex/Sport Medical",
+  "LumaNova - Red Light Therapy",
   "Rehab Furniture",
   "Modalities",
   "Cardio",
