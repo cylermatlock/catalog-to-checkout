@@ -605,6 +605,9 @@ export const products: Product[] = [
 
   // SPIRIT - Smith Machine (Free Weight)
   { id: "635", name: "Spirit Smith Machine", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSF-SMTH", description: ["Vertical design accommodates most exercises", "Bar counterbalanced to 6.6 lb for very low starting resistance", "Adjustable bar stops in small increments for safety", "6 weight storage horns keep plates organized", "Heavy-gauge steel frame with PVC foot covers", "Non-slip rubber feet for added stability", "550 lb max bar loading capacity (275 lb each side)", "85.2\"L x 62\"W x 94.1\"H"] },
+
+  // SPIRIT - Adjustable Bench (Free Weight)
+  { id: "636", name: "Spirit Adjustable Bench", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSF-ADJB", description: ["Back pad adjusts from 0 to 90 degrees", "6 adjustable back pad angles, 3 seat angles", "Premium contoured pads with sport stitching", "Transport wheels and comfort grip handle", "Heavy-gauge steel frame with powder coat finish", "617 lb max weight capacity", "53.6\"L x 17.6\"W x 16.3\"H"] },
 ];
 
 
