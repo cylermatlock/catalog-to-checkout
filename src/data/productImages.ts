@@ -565,6 +565,7 @@ export const productImages: Record<string, string> = {
   "631": productAsset("spirit/duals/lat-pulldown-row.webp"),
   "632": productAsset("spirit/duals/pec-fly-rear-delt.webp"),
   "633": productAsset("spirit/duals/pull-up-dip-assist.webp"),
+  "634": productAsset("spirit/ab950/hero.jpg"),
 };
 
 
