@@ -16984,6 +16984,148 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // LumaNova LumaD Light — Residential — product id "641"
+  "641": {
+    productId: "641",
+    slug: "lumanova-lumad-light-residential",
+    tagline: "Patented Vitamin D light for home use — boost Vitamin D3, Nitric Oxide & Serotonin with pro-grade UV light therapy in 2–4 minutes a day. 6-user license.",
+    overview: [
+      "The Luma D Light™ is a patented Vitamin D light that harnesses narrow-band UVB (>90%) with a small amount of UVA (<10%) to stimulate Vitamin D3, Nitric Oxide, and Serotonin production. Users can expect Vitamin D levels to double in 90 days with just 2–4 minutes of daily exposure.",
+      "Engineered for health professionals, athletes, biohackers, and wellness optimizers, the Luma D Light™ uses precise UVB LEDs with consistent dosing, uniform irradiance, and an eye-safe design — no skin burn, no fluorescent guesswork. Each session is personalized through the connected mobile app, which tracks usage, progress, and ensures precise exposure for every user.",
+      "This Residential model is ideal for in-home use or small businesses with a few employees. The 6-user license supports up to 6 individual accounts, each with their own app-tracked progress on any smartphone. Wall-mounted with adjustable height for stomach and back targeting, built with premium materials, and made in the USA.",
+    ],
+    highlights: [
+      "Patented Vitamin D light — UVB (>90%) + UVA (<10%) narrow-band LEDs",
+      "Doubles Vitamin D levels in ~90 days with 2–4 minutes daily",
+      "6-user license — ideal for in-home use or small businesses",
+      "App-controlled — tracks usage, progress, and personalizes each session",
+      "Wall-mounted with adjustable height for stomach & back targeting",
+      "Eye-safe design — no possibility of skin burn",
+      "Consistent dosing and uniform irradiance",
+      "110V electrical connection",
+      "Made in the USA",
+      "3-year warranty",
+    ],
+    gallery: [
+      { src: "/assets/products/lumanova/lumad-main.png", alt: "LumaNova Luma D Light Residential Vitamin D Lamp — hero view" },
+      { src: "/assets/products/lumanova/lumad-2.jpg", alt: "LumaNova Luma D Light wall-mounted in use" },
+      { src: "/assets/products/lumanova/lumad-3.jpg", alt: "LumaNova Luma D Light lifestyle view" },
+    ],
+    specGroups: [
+      {
+        title: "Light Performance",
+        rows: [
+          { label: "Light Type", value: "Narrow-band UVB LED" },
+          { label: "UVB Output", value: ">90% of emitted light" },
+          { label: "UVA Output", value: "<10% (for Nitric Oxide & Serotonin support)" },
+          { label: "Dosing", value: "Consistent — uniform irradiance" },
+          { label: "Session Length", value: "2–4 minutes daily" },
+        ],
+      },
+      {
+        title: "License & App",
+        rows: [
+          { label: "License Type", value: "Residential — 6 users" },
+          { label: "Ideal For", value: "Home use or small businesses with a few employees" },
+          { label: "App Control", value: "Yes — iOS/Android, tracks each user's progress" },
+          { label: "Personalization", value: "App adjusts timing, distance, and intensity per user" },
+        ],
+      },
+      {
+        title: "Build & Installation",
+        rows: [
+          { label: "Form Factor", value: "Wall-mounted" },
+          { label: "Height Adjustment", value: "Yes — for stomach & back targeting" },
+          { label: "Safety", value: "Eye-safe design, no skin burn risk" },
+          { label: "Power", value: "110V electrical connection required" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "Warranty", value: "3 years" },
+        ],
+      },
+    ],
+    sourceUrl: "https://lumanova.com/products/luma-d-light",
+    seo: {
+      title: "LumaNova Luma D Light — Residential Vitamin D Lamp (6 Users) | GM Therapy",
+      description: "Patented UV Vitamin D light for home use. Boost Vitamin D3, Nitric Oxide & Serotonin in 2–4 min/day. App-controlled, 6-user license, wall-mounted. Texas dealer.",
+    },
+  },
+
+  // LumaNova LumaD Light — Commercial — product id "642"
+  "642": {
+    productId: "642",
+    slug: "lumanova-lumad-light-commercial",
+    tagline: "Patented Vitamin D light for clinical & commercial use — pro-grade UVB therapy with an unlimited-user license for med spas, gyms, and medical practices.",
+    overview: [
+      "The Luma D Light™ is a patented Vitamin D light that harnesses narrow-band UVB (>90%) with a small amount of UVA (<10%) to stimulate Vitamin D3, Nitric Oxide, and Serotonin production. Users can expect Vitamin D levels to double in 90 days with just 2–4 minutes of daily exposure.",
+      "Engineered for health professionals, athletes, biohackers, and wellness optimizers, the Luma D Light™ uses precise UVB LEDs with consistent dosing, uniform irradiance, and an eye-safe design — no skin burn, no fluorescent guesswork. Each session is personalized through the connected mobile app, which tracks usage, progress, and ensures precise exposure for every user.",
+      "This Commercial model is ideal for medical practices, gyms, med spas, large employers, and other businesses that require unlimited individual accounts for customers or patients. Each user gets their own app-tracked profile from any smartphone. Wall-mounted with adjustable height for stomach and back targeting, built with premium materials, and made in the USA.",
+    ],
+    highlights: [
+      "Patented Vitamin D light — UVB (>90%) + UVA (<10%) narrow-band LEDs",
+      "Doubles Vitamin D levels in ~90 days with 2–4 minutes daily",
+      "Unlimited-user license — built for clinics, gyms, med spas & large employers",
+      "App-controlled — every customer/patient tracks progress on their own phone",
+      "Wall-mounted with adjustable height for stomach & back targeting",
+      "Eye-safe design — no possibility of skin burn",
+      "Consistent dosing and uniform irradiance",
+      "110V electrical connection",
+      "Made in the USA",
+      "3-year warranty",
+    ],
+    gallery: [
+      { src: "/assets/products/lumanova/lumad-main.png", alt: "LumaNova Luma D Light Commercial Vitamin D Lamp — hero view" },
+      { src: "/assets/products/lumanova/lumad-2.jpg", alt: "LumaNova Luma D Light wall-mounted in use" },
+      { src: "/assets/products/lumanova/lumad-3.jpg", alt: "LumaNova Luma D Light lifestyle view" },
+    ],
+    specGroups: [
+      {
+        title: "Light Performance",
+        rows: [
+          { label: "Light Type", value: "Narrow-band UVB LED" },
+          { label: "UVB Output", value: ">90% of emitted light" },
+          { label: "UVA Output", value: "<10% (for Nitric Oxide & Serotonin support)" },
+          { label: "Dosing", value: "Consistent — uniform irradiance" },
+          { label: "Session Length", value: "2–4 minutes daily" },
+        ],
+      },
+      {
+        title: "License & App",
+        rows: [
+          { label: "License Type", value: "Commercial — unlimited users" },
+          { label: "Ideal For", value: "Medical practices, gyms, med spas, large employers" },
+          { label: "App Control", value: "Yes — iOS/Android, each user tracks on their own phone" },
+          { label: "Personalization", value: "App adjusts timing, distance, and intensity per user" },
+        ],
+      },
+      {
+        title: "Build & Installation",
+        rows: [
+          { label: "Form Factor", value: "Wall-mounted" },
+          { label: "Height Adjustment", value: "Yes — for stomach & back targeting" },
+          { label: "Safety", value: "Eye-safe design, no skin burn risk" },
+          { label: "Power", value: "110V electrical connection required" },
+          { label: "Origin", value: "Made in the USA" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "Warranty", value: "3 years" },
+        ],
+      },
+    ],
+    sourceUrl: "https://lumanova.com/products/luma-d-light",
+    seo: {
+      title: "LumaNova Luma D Light — Commercial Vitamin D Lamp (Unlimited Users) | GM Therapy",
+      description: "Patented UV Vitamin D light for clinics, gyms & med spas. UVB therapy in 2–4 min/day, app-tracked unlimited users, wall-mounted, made in USA. Texas dealer.",
+    },
+  },
+
   // LumaNova LumaBag Max — product id "643"
   "643": {
     productId: "643",
