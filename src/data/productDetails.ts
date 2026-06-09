@@ -17192,7 +17192,7 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://lumanova.com/products/lumabag360",
     seo: {
-      title: "LumaNova LumaBag Red Light Therapy Bag (1,800 LEDs) | GM Therapy",
+      title: "LumaNova LumaBag Red Light Sleeping Bag - Small (1,800 LEDs) | GM Therapy",
       description: "LumaNova LumaBag: travel-size 360° at-home red light therapy bag with 1,800 LEDs, 660 + 850 nm wavelengths, wireless remote. Texas dealer.",
     },
   },
