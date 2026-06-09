@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { Phone, Sparkles, Activity, HeartPulse, ShieldCheck, ArrowRight, Star } from "lucide-react";
+import { Phone, Sparkles, Activity, HeartPulse, ArrowRight, Star } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
