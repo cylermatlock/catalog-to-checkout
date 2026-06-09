@@ -16915,9 +16915,9 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
-  // LumaNova LumaMobile — product id "652"
-  "652": {
-    productId: "652",
+  // LumaNova LumaMobile — product id "640"
+  "640": {
+    productId: "640",
     slug: "lumanova-lumamobile",
     tagline: "Professional mobile red light therapy half-bed — clinical-grade light that goes over any massage table or bed.",
     overview: [
@@ -16981,6 +16981,219 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "LumaNova LumaMobile Mobile Red Light Therapy Half-Bed | GM Therapy",
       description: "LumaNova LumaMobile: professional mobile red light therapy half-bed with 5 wavelengths, ~60 mW/cm² irradiance, 360° rotating arm, TENS unit. Texas dealer.",
+    },
+  },
+
+  // LumaNova LumaBag Max — product id "643"
+  "643": {
+    productId: "643",
+    slug: "lumanova-lumabag-max",
+    tagline: "Max-power 360° red light therapy bag with 3,600 LEDs — the most powerful at-home LumaBag.",
+    overview: [
+      "The LumaBag® Max is LumaNova's most powerful at-home red-light therapy bag, wrapping you in 360° of clinically researched red (660 nm) and near-infrared (850 nm) light. With 3,600 dual-chip LEDs delivering the highest output of the LumaBag lineup, Max is built for users who want the fastest therapeutic dose and the widest full-body coverage.",
+      "Unlike panels that only treat one side at a time, the LumaBag® Max surrounds your entire body in a single 20–30 minute session — no rotating, no flipping, no math. Switch between 660 nm only, 850 nm only, or both, with selectable 10 Hz or 40 Hz pulsing and 5 power levels controlled by a wireless remote.",
+      "A soft fabric exterior with a clear, wipe-clean inner layer makes the bag durable and easy to maintain. It folds down for storage in a closet, under a bed, or behind a couch — no dedicated room required — and ships with a 290-watt internationally certified power supply and a 1-year warranty.",
+    ],
+    highlights: [
+      "3,600 dual-chip LEDs — the highest LED count in the LumaBag lineup",
+      "Dual wavelengths: 660 nm + 850 nm (selectable 660-only, 850-only, or both)",
+      "360° full-body coverage in one 20–30 minute session",
+      "Pulsing modes: 10 Hz or 40 Hz",
+      "5 power levels with wireless remote control",
+      "Fabric exterior, clear easy-to-clean inner layer",
+      "Foldable for compact storage",
+      "290W internationally certified power supply",
+      "1-year warranty",
+    ],
+    gallery: [
+      { src: "/assets/products/lumanova/lumabag/hero.jpg", alt: "LumaNova LumaBag Max red light therapy bag — hero view" },
+      { src: "/assets/products/lumanova/lumabag/lifestyle.jpg", alt: "User relaxing in glowing LumaBag" },
+      { src: "/assets/products/lumanova/lumabag/view-1.jpg", alt: "LumaBag in use — full-body session" },
+      { src: "/assets/products/lumanova/lumabag/view-2.png", alt: "LumaBag model demonstrating 360° coverage" },
+      { src: "/assets/products/lumanova/lumabag/view-3.jpg", alt: "LumaBag therapy session detail" },
+      { src: "/assets/products/lumanova/lumabag/remote.png", alt: "LumaBag wireless remote control" },
+    ],
+    specGroups: [
+      {
+        title: "Light Performance",
+        rows: [
+          { label: "LED Count", value: "3,600 dual-chip LEDs" },
+          { label: "Wavelengths", value: "660 nm + 850 nm (selectable 660-only / 850-only / both)" },
+          { label: "Pulsing", value: "10 Hz or 40 Hz" },
+          { label: "Power Levels", value: "5 selectable levels" },
+        ],
+      },
+      {
+        title: "Controls & Build",
+        rows: [
+          { label: "Remote", value: "Wireless remote control" },
+          { label: "Exterior", value: "Fabric outside, clear easy-to-clean inner layer" },
+          { label: "Coverage", value: "360° full-body wrap" },
+        ],
+      },
+      {
+        title: "Dimensions & Power",
+        rows: [
+          { label: "Dimensions", value: "31.5 in. × 70 in., 11 in. deep" },
+          { label: "Weight", value: "12 lbs." },
+          { label: "Power Supply", value: "290 watts" },
+          { label: "Certifications", value: "ETL, CE, TUV, IC, EAC; conforms to UL STD. 62368-1 and CSA STD. C22.2" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "Warranty", value: "1-year warranty" },
+          { label: "Trial", value: "30-day money-back guarantee" },
+        ],
+      },
+    ],
+    sourceUrl: "https://lumanova.com/products/lumabag360",
+    seo: {
+      title: "LumaNova LumaBag Max Red Light Therapy Bag (3,600 LEDs) | GM Therapy",
+      description: "LumaNova LumaBag Max: 360° at-home red light therapy bag with 3,600 LEDs, 660 + 850 nm wavelengths, wireless remote. Texas dealer.",
+    },
+  },
+
+  // LumaNova LumaBag Pro — product id "644"
+  "644": {
+    productId: "644",
+    slug: "lumanova-lumabag-pro",
+    tagline: "Pro-power 360° red light therapy bag with 2,700 LEDs — the sweet spot for everyday full-body recovery.",
+    overview: [
+      "The LumaBag® Pro is LumaNova's most-recommended at-home red-light therapy bag — the sweet spot between power and portability. With 2,700 dual-chip LEDs delivering 360° of clinically researched red (660 nm) and near-infrared (850 nm) light, it's built for athletes, daily wellness users, and anyone managing chronic aches who wants serious full-body recovery without the footprint of a clinical bed.",
+      "Unlike panels that only treat one side at a time, the LumaBag® Pro surrounds your entire body in a single 20–30 minute session. Switch between 660 nm only, 850 nm only, or both, with selectable 10 Hz or 40 Hz pulsing and 5 power levels controlled by a wireless remote.",
+      "A soft fabric exterior with a clear, wipe-clean inner layer makes the bag durable and easy to maintain. It folds down for compact storage and ships with a 290-watt internationally certified power supply and a 1-year warranty.",
+    ],
+    highlights: [
+      "2,700 dual-chip LEDs — the recommended sweet spot",
+      "Dual wavelengths: 660 nm + 850 nm (selectable 660-only, 850-only, or both)",
+      "360° full-body coverage in one 20–30 minute session",
+      "Pulsing modes: 10 Hz or 40 Hz",
+      "5 power levels with wireless remote control",
+      "Fabric exterior, clear easy-to-clean inner layer",
+      "Foldable for compact storage",
+      "290W internationally certified power supply",
+      "1-year warranty",
+    ],
+    gallery: [
+      { src: "/assets/products/lumanova/lumabag/hero.jpg", alt: "LumaNova LumaBag Pro red light therapy bag — hero view" },
+      { src: "/assets/products/lumanova/lumabag/lifestyle.jpg", alt: "User relaxing in glowing LumaBag" },
+      { src: "/assets/products/lumanova/lumabag/view-1.jpg", alt: "LumaBag in use — full-body session" },
+      { src: "/assets/products/lumanova/lumabag/view-2.png", alt: "LumaBag model demonstrating 360° coverage" },
+      { src: "/assets/products/lumanova/lumabag/view-3.jpg", alt: "LumaBag therapy session detail" },
+      { src: "/assets/products/lumanova/lumabag/remote.png", alt: "LumaBag wireless remote control" },
+    ],
+    specGroups: [
+      {
+        title: "Light Performance",
+        rows: [
+          { label: "LED Count", value: "2,700 dual-chip LEDs" },
+          { label: "Wavelengths", value: "660 nm + 850 nm (selectable 660-only / 850-only / both)" },
+          { label: "Pulsing", value: "10 Hz or 40 Hz" },
+          { label: "Power Levels", value: "5 selectable levels" },
+        ],
+      },
+      {
+        title: "Controls & Build",
+        rows: [
+          { label: "Remote", value: "Wireless remote control" },
+          { label: "Exterior", value: "Fabric outside, clear easy-to-clean inner layer" },
+          { label: "Coverage", value: "360° full-body wrap" },
+        ],
+      },
+      {
+        title: "Dimensions & Power",
+        rows: [
+          { label: "Dimensions", value: "31.5 in. × 70 in., 11 in. deep" },
+          { label: "Weight", value: "12 lbs." },
+          { label: "Power Supply", value: "290 watts" },
+          { label: "Certifications", value: "ETL, CE, TUV, IC, EAC; conforms to UL STD. 62368-1 and CSA STD. C22.2" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "Warranty", value: "1-year warranty" },
+          { label: "Trial", value: "30-day money-back guarantee" },
+        ],
+      },
+    ],
+    sourceUrl: "https://lumanova.com/products/lumabag360",
+    seo: {
+      title: "LumaNova LumaBag Pro Red Light Therapy Bag (2,700 LEDs) | GM Therapy",
+      description: "LumaNova LumaBag Pro: 360° at-home red light therapy bag with 2,700 LEDs, 660 + 850 nm wavelengths, wireless remote. Texas dealer.",
+    },
+  },
+
+  // LumaNova LumaBag — product id "645"
+  "645": {
+    productId: "645",
+    slug: "lumanova-lumabag",
+    tagline: "Travel-size 360° red light therapy bag with 1,800 LEDs — easiest to take with you.",
+    overview: [
+      "The LumaBag® is LumaNova's most portable at-home red-light therapy bag — the travel-size of the lineup. With 1,800 dual-chip LEDs delivering 360° of clinically researched red (660 nm) and near-infrared (850 nm) light, it's built for daily wellness, mild aches, and recovery support in a footprint small enough to travel with you.",
+      "Unlike panels that only treat one side at a time, the LumaBag® surrounds your entire body in a single 20–30 minute session. Switch between 660 nm only, 850 nm only, or both, with selectable 10 Hz or 40 Hz pulsing and 5 power levels controlled by a wireless remote.",
+      "A soft fabric exterior with a clear, wipe-clean inner layer makes the bag durable and easy to maintain. It folds down for compact storage and travel, and ships with a 240-watt internationally certified power supply and a 1-year warranty.",
+    ],
+    highlights: [
+      "1,800 dual-chip LEDs — lightest and most portable LumaBag",
+      "Dual wavelengths: 660 nm + 850 nm (selectable 660-only, 850-only, or both)",
+      "360° full-body coverage in one 20–30 minute session",
+      "Pulsing modes: 10 Hz or 40 Hz",
+      "5 power levels with wireless remote control",
+      "Fabric exterior, clear easy-to-clean inner layer",
+      "Foldable, travel-friendly footprint — 10.5 lbs.",
+      "240W internationally certified power supply",
+      "1-year warranty",
+    ],
+    gallery: [
+      { src: "/assets/products/lumanova/lumabag/hero.jpg", alt: "LumaNova LumaBag red light therapy bag — hero view" },
+      { src: "/assets/products/lumanova/lumabag/lifestyle.jpg", alt: "User relaxing in glowing LumaBag" },
+      { src: "/assets/products/lumanova/lumabag/view-1.jpg", alt: "LumaBag in use — full-body session" },
+      { src: "/assets/products/lumanova/lumabag/view-2.png", alt: "LumaBag model demonstrating 360° coverage" },
+      { src: "/assets/products/lumanova/lumabag/view-3.jpg", alt: "LumaBag therapy session detail" },
+      { src: "/assets/products/lumanova/lumabag/remote.png", alt: "LumaBag wireless remote control" },
+    ],
+    specGroups: [
+      {
+        title: "Light Performance",
+        rows: [
+          { label: "LED Count", value: "1,800 dual-chip LEDs" },
+          { label: "Wavelengths", value: "660 nm + 850 nm (selectable 660-only / 850-only / both)" },
+          { label: "Pulsing", value: "10 Hz or 40 Hz" },
+          { label: "Power Levels", value: "5 selectable levels" },
+        ],
+      },
+      {
+        title: "Controls & Build",
+        rows: [
+          { label: "Remote", value: "Wireless remote control" },
+          { label: "Exterior", value: "Fabric outside, clear easy-to-clean inner layer" },
+          { label: "Coverage", value: "360° full-body wrap" },
+        ],
+      },
+      {
+        title: "Dimensions & Power",
+        rows: [
+          { label: "Dimensions", value: "23.6 in. × 70 in., 11 in. deep" },
+          { label: "Weight", value: "10.5 lbs." },
+          { label: "Power Supply", value: "240 watts" },
+          { label: "Certifications", value: "ETL, CE, TUV, IC, EAC; conforms to UL STD. 62368-1 and CSA STD. C22.2" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "Warranty", value: "1-year warranty" },
+          { label: "Trial", value: "30-day money-back guarantee" },
+        ],
+      },
+    ],
+    sourceUrl: "https://lumanova.com/products/lumabag360",
+    seo: {
+      title: "LumaNova LumaBag Red Light Therapy Bag (1,800 LEDs) | GM Therapy",
+      description: "LumaNova LumaBag: travel-size 360° at-home red light therapy bag with 1,800 LEDs, 660 + 850 nm wavelengths, wireless remote. Texas dealer.",
     },
   },
 
