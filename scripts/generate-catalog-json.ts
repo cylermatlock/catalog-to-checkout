@@ -37,7 +37,7 @@ export function catalogJsonPlugin(): Plugin {
         platform: "node",
         target: "node18",
         write: false,
-        logLevel: "silent",
+        logLevel: "warning",
         absWorkingDir: root,
         // Inject a virtual entry that re-exports everything we need.
         stdin: {
