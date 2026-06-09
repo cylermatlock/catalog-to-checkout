@@ -17077,7 +17077,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "1-year warranty",
     ],
     gallery: [
-      { src: "/assets/products/lumanova/lumabag/pro-main.png", alt: "LumaNova LumaBag Pro red light therapy bag — hero view" },
+      { src: "/assets/products/lumanova/lumabag/pro-main.jpg", alt: "LumaNova LumaBag Pro red light therapy bag — hero view" },
       { src: "/assets/products/lumanova/lumabag/lifestyle.jpg", alt: "User relaxing in glowing LumaBag" },
       { src: "/assets/products/lumanova/lumabag/view-1.jpg", alt: "LumaBag in use — full-body session" },
       { src: "/assets/products/lumanova/lumabag/view-2.png", alt: "LumaBag model demonstrating 360° coverage" },
