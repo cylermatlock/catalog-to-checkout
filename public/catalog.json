@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T19:16:52.811Z",
+  "generatedAt": "2026-06-09T19:39:14.030Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -38313,7 +38313,7 @@
         "Size: 180 × 90 × 30 cm",
         "Single-chip LED design"
       ],
-      "image": "/assets/products/lumanova/lumabag-max.png",
+      "image": "/assets/products/lumanova/lumabag/max-main.png",
       "detail": {
         "productId": "643",
         "slug": "lumanova-lumabag-max",
@@ -38336,7 +38336,7 @@
         ],
         "gallery": [
           {
-            "src": "/assets/products/lumanova/lumabag/hero.jpg",
+            "src": "/assets/products/lumanova/lumabag/max-main.png",
             "alt": "LumaNova LumaBag Max red light therapy bag — hero view"
           },
           {
@@ -38454,7 +38454,7 @@
         "Size: 180 × 90 × 30 cm",
         "Single-chip LED design"
       ],
-      "image": "/assets/products/lumanova/lumabag-pro.png",
+      "image": "/assets/products/lumanova/lumabag/pro-main.png",
       "detail": {
         "productId": "644",
         "slug": "lumanova-lumabag-pro",
@@ -38477,7 +38477,7 @@
         ],
         "gallery": [
           {
-            "src": "/assets/products/lumanova/lumabag/hero.jpg",
+            "src": "/assets/products/lumanova/lumabag/pro-main.png",
             "alt": "LumaNova LumaBag Pro red light therapy bag — hero view"
           },
           {
