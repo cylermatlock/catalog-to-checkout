@@ -10,6 +10,7 @@ import { Search, Filter } from "lucide-react";
 // Ordered list — longer/multi-word names first so they win over single-word matches.
 const BRAND_MATCHERS: { label: string; test: (name: string) => boolean }[] = [
   { label: "Biodex/Sport Medical", test: (n) => /\b(biodex|sport medical|smti)\b/i.test(n) },
+  { label: "LumaNova", test: (n) => /\bluma/i.test(n) },
   { label: "Sports Art", test: (n) => /\b(sportsart|sports art)\b/i.test(n) },
   { label: "Game Ready", test: (n) => /\bgame ready\b/i.test(n) },
   { label: "EasyStand", test: (n) => /\beasystand\b/i.test(n) },
