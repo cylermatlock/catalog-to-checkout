@@ -26,12 +26,6 @@ export function catalogJsonPlugin(): Plugin {
       // them at build time without a TS loader. They are pure data — no React
       // or DOM deps — so esbuild handles them cleanly.
       const result = await build({
-        entryPoints: [
-          {
-            in: path.resolve(root, "scripts/_catalog-entry.ts"),
-            out: "catalog-bundle",
-          } as any,
-        ],
         bundle: true,
         format: "esm",
         platform: "node",
