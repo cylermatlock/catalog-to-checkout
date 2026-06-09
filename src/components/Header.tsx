@@ -10,7 +10,7 @@ const Header = () => {
   const { itemCount, openCart } = useCart();
 
   const links = [
-    { to: "/products", label: "Products" },
+    { to: "/products", label: "ALL PRODUCTS", highlight: true },
     { to: "/biodex", label: "Biodex/Sport Medical", highlight: true },
     { to: "/lumanova", label: "LumaNova Red Light Therapy", highlight: true },
   ];
