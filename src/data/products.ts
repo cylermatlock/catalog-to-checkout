@@ -602,6 +602,9 @@ export const products: Product[] = [
 
   // SPIRIT - Air Bike (Commercial Cardio)
   { id: "634", name: "Spirit AB950 Airbike", category: "Cardio", subcategory: "Upright Bikes", sku: "SFP AB950", description: ["27\" 9-blade fan with infinite air resistance", "Simultaneous upper- and lower-body workout", "Oversized welded steel frame with bolt-on floor stabilizers", "Fully adjustable high-density foam seat (fore/aft/up/down)", "5.2\" x 2.6\" LCD with 8 programs", "Bluetooth + 5KHz heart rate receiver, SPIRIT+ app ready", "Integrated windscreen prevents blowback", "350 lb max user weight capacity", "47.4\"L x 27.7\"W x 54.2\"H"] },
+
+  // SPIRIT - Smith Machine (Free Weight)
+  { id: "635", name: "Spirit Smith Machine", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSF-SMTH", description: ["Vertical design accommodates most exercises", "Bar counterbalanced to 6.6 lb for very low starting resistance", "Adjustable bar stops in small increments for safety", "6 weight storage horns keep plates organized", "Heavy-gauge steel frame with PVC foot covers", "Non-slip rubber feet for added stability", "550 lb max bar loading capacity (275 lb each side)", "85.2\"L x 62\"W x 94.1\"H"] },
 ];
 
 
