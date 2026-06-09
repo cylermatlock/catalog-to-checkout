@@ -165,34 +165,6 @@ const Lumanova = () => {
         })}
       </section>
 
-      {/* CTA */}
-      <section className="bg-primary text-primary-foreground py-12">
-        <div className="container mx-auto px-4 text-center">
-          <ShieldCheck className="w-10 h-10 mx-auto mb-3" />
-          <h2 className="font-display text-2xl md:text-3xl font-bold">
-            Ready for a demo or quote?
-          </h2>
-          <p className="mt-2 opacity-90">
-            We&apos;ll help you find the right LumaNova device for your clinic, team, or home.
-          </p>
-          <div className="mt-6 flex flex-wrap gap-3 justify-center">
-            <Button asChild size="lg" variant="secondary" className="font-semibold">
-              <a href="tel:940-334-5169">
-                <Phone className="w-4 h-4 mr-2" /> 940-334-5169
-              </a>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="font-semibold bg-transparent border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
-            >
-              <Link to="/products">View Full Catalog</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
       <Footer />
     </div>
   );
