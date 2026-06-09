@@ -15,6 +15,7 @@ export interface Product {
 
 export const categories = [
   "Biodex/Sport Medical",
+  "LumaNova - Red Light Therapy",
   "Rehab Furniture",
   "Modalities",
   "Cardio",
@@ -611,6 +612,22 @@ export const products: Product[] = [
 
   // SPIRIT - 3-Tier Dumbbell Rack (Free Weight)
   { id: "637", name: "Spirit 3-Tier Dumbbell Rack", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSF-3TDB", description: ["3 shelves with 48\" length trays", "Adjustable shelf angles for dumbbells or kettlebells", "Heavy-gauge powder-coated steel frame", "Rubber foot covers for stability and floor protection", "Top/Mid tier 500 lb capacity, Lower tier 600 lb", "54.4\"L x 26.8\"W x 36.1\"H"] },
+
+  // LUMANOVA - Red Light Therapy (Human Products)
+  { id: "638", name: "LumaNova LumaPod Pro Red Light Therapy Bed", category: "LumaNova - Red Light Therapy", subcategory: "Beds & Pods", sku: "LN-LP-Pro", description: ["Full-body red & near-infrared light therapy pod", "45,000 medical-grade LEDs", "5 clinical wavelengths: 633, 660, 810, 850, 940 nm", "220V / 50A power", "650 lb weight capacity", "Premium commercial-grade build"] },
+  { id: "639", name: "LumaNova LumaPod Red Light Therapy Bed", category: "LumaNova - Red Light Therapy", subcategory: "Beds & Pods", sku: "LN-LP-Pod", description: ["Full-body red & near-infrared light therapy pod", "26,400 German-made LEDs", "5 clinical wavelengths: 633, 660, 810, 850, 940 nm", "220V / 30A power", "440 lb weight capacity"] },
+  { id: "640", name: "LumaNova LumaMobile Pro Mobile Red Light Tower", category: "LumaNova - Red Light Therapy", subcategory: "Panels & Towers", sku: "LN-LM-Pro", description: ["Mobile rolling red light therapy tower", "1,620 high-power 5W LEDs", "5 wavelengths: 630, 660, 810, 850, 940 nm", "Universal voltage AC85–265V", "Adjustable angle and height", "Dimensions: 1740 × 660 × 1400 mm"] },
+  { id: "641", name: "LumaNova LumaD Light — Residential Vitamin D Lamp", category: "LumaNova - Red Light Therapy", subcategory: "Vitamin D Lights", sku: "LN-LMDR-Light", description: ["Vitamin D production light for home use", "110V power, wall-mountable", "App-controlled with 6 user licenses", "Residential unit"] },
+  { id: "642", name: "LumaNova LumaD Light — Commercial Vitamin D Lamp", category: "LumaNova - Red Light Therapy", subcategory: "Vitamin D Lights", sku: "LN-LMDC-Light", description: ["Vitamin D production light for clinical/commercial use", "110V power, wall-mountable", "App-controlled with unlimited user licenses", "Commercial unit"] },
+  { id: "643", name: "LumaNova LumaBag MAX Full-Body Red Light Sleeping Bag", category: "LumaNova - Red Light Therapy", subcategory: "Bags & Mats", sku: "LN-Bag-Max", description: ["Full-body wrap-around red light therapy bag", "3,600 LEDs — dual wavelength 660 / 850 nm (1:1)", "280W power, DC36V", "Size: 180 × 90 × 30 cm", "Single-chip LED design"] },
+  { id: "644", name: "LumaNova LumaBag Pro Red Light Sleeping Bag", category: "LumaNova - Red Light Therapy", subcategory: "Bags & Mats", sku: "LN-Bag-Pro", description: ["Full-body wrap-around red light therapy bag", "2,700 LEDs — dual wavelength 660 / 850 nm (1:1)", "230W power, DC24V", "Size: 180 × 90 × 30 cm", "Single-chip LED design"] },
+  { id: "645", name: "LumaNova LumaBag Red Light Therapy Mat", category: "LumaNova - Red Light Therapy", subcategory: "Bags & Mats", sku: "LN-Bag-Luma", description: ["Full-body red light therapy mat", "1,800 LEDs — dual wavelength 660 / 850 nm (1:1)", "245W power, DC24V", "Size: 180 × 60 × 30 cm", "Single-chip LED design"] },
+  { id: "646", name: "LumaNova LumaVest Red Light Therapy Vest", category: "LumaNova - Red Light Therapy", subcategory: "Wearables", sku: "LN-Vest-Luma", description: ["Wearable red light therapy vest for torso & shoulders", "753 LEDs — 3-chip 660 / 850 nm (1:2)", "90W power, DC12V", "Size: 80 × 50 cm"] },
+  { id: "647", name: "LumaNova LumaBelt Red Light Therapy Belt", category: "LumaNova - Red Light Therapy", subcategory: "Wearables", sku: "LN-BELT-Luma", description: ["Targeted red light therapy waist belt", "240 LEDs — dual chip 660 / 850 nm (1:1)", "45W power, DC12V", "Size: 31.5\" x 7.8\" (80 × 20 cm)"] },
+  { id: "648", name: "LumaNova LumaShoulder Red Light Therapy Wrap", category: "LumaNova - Red Light Therapy", subcategory: "Wearables", sku: "LN-NECK-LUMA", description: ["Shoulder & neck red light therapy wrap", "288 LEDs — dual chip 660 / 850 nm (1:1)", "45W power, DC12V", "Size: 58 × 44 cm"] },
+  { id: "649", name: "LumaNova LumaPanel Face Red Light Therapy Panel", category: "LumaNova - Red Light Therapy", subcategory: "Panels & Towers", sku: "LN-PANEL-FACE", description: ["Targeted red light therapy panel for face & neck", "120 SMD3030 dual-chip LEDs — 660 / 850 nm (1:1)", "36W power, AC85–265V", "Size: 30 × 20 cm", "Adjustable stand included"] },
+  { id: "650", name: "LumaNova LumaPad Mini Red Light Therapy Pad", category: "LumaNova - Red Light Therapy", subcategory: "Pads & Accessories", sku: "LN-PAD-MINI", description: ["Compact spot-treatment red light therapy pad", "60 dual-chip LEDs — 660 / 850 nm (1:1)", "30W power, DC5V", "Size: 5.9\" x 9.8\" (15 × 25 cm)", "Portable & USB-powered"] },
+  { id: "651", name: "LumaNova LumaGlove Red Light Therapy Glove", category: "LumaNova - Red Light Therapy", subcategory: "Pads & Accessories", sku: "LN-GLOVE", description: ["Red light therapy glove for hands, wrists & joints", "78 3-chip LEDs — 660 / 850 nm (1:2)", "5W power, DC5V", "Size: 9.84\" x 7.87\" (25 × 20 cm)"] },
 ];
 
 
