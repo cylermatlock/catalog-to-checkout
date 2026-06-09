@@ -608,6 +608,9 @@ export const products: Product[] = [
 
   // SPIRIT - Adjustable Bench (Free Weight)
   { id: "636", name: "Spirit Adjustable Bench", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSF-ADJB", description: ["Back pad adjusts from 0 to 90 degrees", "6 adjustable back pad angles, 3 seat angles", "Premium contoured pads with sport stitching", "Transport wheels and comfort grip handle", "Heavy-gauge steel frame with powder coat finish", "617 lb max weight capacity", "53.6\"L x 17.6\"W x 16.3\"H"] },
+
+  // SPIRIT - 3-Tier Dumbbell Rack (Free Weight)
+  { id: "637", name: "Spirit 3-Tier Dumbbell Rack", category: "Strength Equipment", subcategory: "Spirit", sku: "SFP CSF-3TDB", description: ["3 shelves with 48\" length trays", "Adjustable shelf angles for dumbbells or kettlebells", "Heavy-gauge powder-coated steel frame", "Rubber foot covers for stability and floor protection", "Top/Mid tier 500 lb capacity, Lower tier 600 lb", "54.4\"L x 26.8\"W x 36.1\"H"] },
 ];
 
 

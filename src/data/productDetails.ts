@@ -16661,6 +16661,83 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // Spirit 3-Tier Dumbbell Rack — product id "637"
+  "637": {
+    productId: "637",
+    slug: "spirit-3-tier-dumbbell-rack",
+    tagline: "Commercial 3-tier dumbbell rack with adjustable shelf angles and 1,600 lb total capacity.",
+    overview: [
+      "An essential addition to any facility, the Spirit CSF-3TDB 3-Tier Adjustable Dumbbell Rack keeps weights off the floor and your space organized. The 48\" adjustable-angle shelves accommodate both kettlebells and dumbbells for convenient storage and easy accessibility.",
+      "Rubber foot covers help protect your flooring and increase stability so you can focus more on your workout and less on your equipment. The heavy-gauge powder-coated steel tubing is built to stand up to years of consistent commercial use.",
+    ],
+    highlights: [
+      "3 generously sized 48\" long angled shelves for easy weight selection",
+      "Adjustable shelf angles accommodate dumbbells or kettlebells",
+      "Front edge protection keeps weights securely in place",
+      "Heavy-gauge powder-coated steel frame for ultimate durability",
+      "Rubber foot covers increase stability and protect floors",
+      "1,600 lb total loading capacity across all three tiers",
+    ],
+    gallery: [
+      { src: "/assets/products/spirit/dumbbell-rack/hero.jpg", alt: "Spirit 3-Tier Dumbbell Rack CSF-3TDB — hero front view" },
+      { src: "/assets/products/spirit/dumbbell-rack/view-1.jpg", alt: "Spirit 3-Tier Dumbbell Rack — angled side view" },
+      { src: "/assets/products/spirit/dumbbell-rack/view-2.jpg", alt: "Spirit 3-Tier Dumbbell Rack — alternate angle" },
+    ],
+    specGroups: [
+      {
+        title: "Performance",
+        rows: [
+          { label: "Shelves", value: "3" },
+          { label: "Shelf Angles", value: "2 adjustable positions" },
+        ],
+      },
+      {
+        title: "Frame",
+        rows: [
+          { label: "Construction", value: "Heavy-Gauge Steel Frame" },
+          { label: "Finish", value: "High-Quality Powder Coat" },
+          { label: "Foot Covers", value: "Steel Feet with Rubber Foot Covers" },
+          { label: "Top Tier Capacity", value: "500 lb" },
+          { label: "Mid Tier Capacity", value: "500 lb" },
+          { label: "Lower Tier Capacity", value: "600 lb" },
+        ],
+      },
+      {
+        title: "Convenience",
+        rows: [
+          { label: "Shelf Adjustment", value: "Angles adjust to accommodate dumbbells or kettlebells" },
+        ],
+      },
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Set-Up Dimension", value: "54.4\" L x 26.8\" W x 36.1\" H" },
+          { label: "Tier Width", value: "48\"" },
+          { label: "Top Tier Depth", value: "13\"" },
+          { label: "Mid Tier Depth", value: "15\"" },
+          { label: "Lower Tier Depth", value: "17\"" },
+          { label: "Box Dimension", value: "2 Carton Shipment" },
+          { label: "Carton 1", value: "50\" L x 18.9\" W x 10.2\" H" },
+          { label: "Carton 2", value: "37.8\" L x 26.4\" W x 5.9\" H" },
+          { label: "Item Weight", value: "127.8 lb" },
+          { label: "Box Weight", value: "141.1 lb (cartons combined)" },
+        ],
+      },
+      {
+        title: "Warranty",
+        rows: [
+          { label: "US Commercial", value: "10 Years Frame/Welds/Cams/Plates · 5 Years Bushing/Bearings/Shocks/Pulleys/Guide Rods · 6 Months Upholstery · 1 Year Paint, Finishes, Cables, Grips, Counter/Timer, Pull-Pin Components, Rail Wheels, Attachments, All Other Parts, Labor · *Prisons and correctional facilities are excluded from warranty coverage." },
+        ],
+      },
+    ],
+    specSheetUrl: "https://drive.google.com/file/d/15t1Y-aIOAYGazJNtQ4ha--FjLCoarEd1/view?usp=drive_link",
+    sourceUrl: "https://www.spiritfitness.com/commercial/strength/csf-3tdb-dumbbell-rack",
+    seo: {
+      title: "Spirit 3-Tier Dumbbell Rack (CSF-3TDB) | GM Therapy",
+      description: "Spirit CSF-3TDB commercial 3-tier dumbbell rack: adjustable shelf angles, 48\" trays, 1,600 lb total capacity, heavy-gauge steel frame. Built for clinics and gyms.",
+    },
+  },
+
 };
 
 
