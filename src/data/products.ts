@@ -16,6 +16,7 @@ export interface Product {
 export const categories = [
   "Biodex/Sport Medical",
   "LumaNova - Red Light Therapy",
+  "BOOST Treadmills",
   "Rehab Furniture",
   "Modalities",
   "Cardio",
@@ -628,6 +629,19 @@ export const products: Product[] = [
   { id: "649", name: "LumaNova LumaPanel Face Red Light Therapy Panel", category: "LumaNova - Red Light Therapy", subcategory: "Panels & Towers", sku: "LN-PANEL-FACE", description: ["Targeted red light therapy panel for face & neck", "120 SMD3030 dual-chip LEDs — 660 / 850 nm (1:1)", "36W power, AC85–265V", "Size: 30 × 20 cm", "Adjustable stand included"] },
   { id: "650", name: "LumaNova LumaPad Mini Red Light Therapy Pad", category: "LumaNova - Red Light Therapy", subcategory: "Pads & Accessories", sku: "LN-PAD-MINI", description: ["Compact spot-treatment red light therapy pad", "60 dual-chip LEDs — 660 / 850 nm (1:1)", "30W power, DC5V", "Size: 5.9\" x 9.8\" (15 × 25 cm)", "Portable & USB-powered"] },
   { id: "651", name: "LumaNova LumaGlove Red Light Therapy Glove", category: "LumaNova - Red Light Therapy", subcategory: "Pads & Accessories", sku: "LN-GLOVE", description: ["Red light therapy glove for hands, wrists & joints", "78 3-chip LEDs — 660 / 850 nm (1:2)", "5W power, DC5V", "Size: 9.84\" x 7.87\" (25 × 20 cm)"] },
+
+  // BOOST TREADMILLS - Microgravity / Anti-Gravity Treadmills
+  { id: "700", name: "BOOST 2 Microgravity Treadmill", category: "BOOST Treadmills", subcategory: "Microgravity Treadmills", sku: "BOOST-2", description: ["Deload up to 80% of bodyweight using NASA-developed air pressure technology", "Adjustable from 20–100% bodyweight in 1% increments", "Speeds from 0.1 to 18 mph in 0.1 mph increments", "Incline 0–15% in 0.5% increments", "Patented Woodway 4Front slat-belt running surface", "Tracks calories, heart rate, relative weight impact, distance & pace", "325+ pre-programmed workouts", "Fits users from 4'6\" to 7' tall", "Trusted by NFL, MLB & D1 collegiate programs"] },
+  { id: "701", name: "BOOST 3 Microgravity Treadmill", category: "BOOST Treadmills", subcategory: "Microgravity Treadmills", sku: "BOOST-3", description: ["Next-generation microgravity treadmill platform", "Differential air-pressure unweighing for safe high-intensity training", "Wider deck and updated control interface", "Optimized for clinical rehab, return-to-sport & elite performance", "Built on the proven Woodway slat-belt running surface"] },
+  { id: "702", name: "B Strong Blood Flow Restriction Training System", category: "BOOST Treadmills", subcategory: "Training Accessories", sku: "BSTRONG-BFR", description: ["Blood flow restriction (BFR) bands for arms and legs", "Build strength & muscle with lighter loads", "Standard kit includes arm and leg bands", "Safe, research-backed BFR protocols", "Ideal for rehab, recovery & performance training"] },
+  { id: "703", name: "Therabody JetBoots Prime", category: "BOOST Treadmills", subcategory: "Recovery", sku: "TB-JETBOOTS-PRIME", description: ["Wireless pneumatic compression recovery boots", "Targeted leg recovery for athletes", "Multiple pressure levels & treatment modes", "Cordless, app-controlled experience", "Compatible with the Therabody recovery ecosystem"] },
+  { id: "704", name: "BOOST Double Zipper Shorts", category: "BOOST Treadmills", subcategory: "Apparel", sku: "BOOST-SHORTS-DZ", description: ["Required microgravity-treadmill shorts with dual side zippers", "Engineered for an airtight seal inside the BOOST chamber", "Lightweight, breathable performance fabric", "Sizes 2XS–5XL for all body types"] },
+  { id: "705", name: "BOOST Single Zipper Shorts", category: "BOOST Treadmills", subcategory: "Apparel", sku: "BOOST-SHORTS-SZ", description: ["Microgravity-treadmill shorts with single side zipper", "Designed for an airtight seal inside the BOOST chamber", "Lightweight, breathable performance fabric", "Sizes 2XS–5XL"] },
+  { id: "706", name: "BOOST Running Hat", category: "BOOST Treadmills", subcategory: "Apparel", sku: "BOOST-HAT-RUN", description: ["Lightweight 5-panel performance running hat", "Moisture-wicking fabric", "Adjustable rear strap", "BOOST branded"] },
+  { id: "707", name: "BOOST Snapback Hat", category: "BOOST Treadmills", subcategory: "Apparel", sku: "BOOST-HAT-SNAP", description: ["Classic 7-panel snapback hat", "Structured crown with flat brim", "Adjustable snap closure", "BOOST branded"] },
+  { id: "708", name: "BOOST Bucket Hat", category: "BOOST Treadmills", subcategory: "Apparel", sku: "BOOST-HAT-BUCKET", description: ["BOOST-branded bucket hat", "Lightweight cotton blend", "Stitched eyelet ventilation", "One size fits most"] },
+  { id: "709", name: "BOOST Tumbler", category: "BOOST Treadmills", subcategory: "Accessories", sku: "BOOST-TUMBLER", description: ["Insulated stainless-steel tumbler", "Keeps drinks cold for hours", "BOOST branded"] },
+  { id: "710", name: "BOOST Steel Cup", category: "BOOST Treadmills", subcategory: "Accessories", sku: "BOOST-STEEL-CUP", description: ["Durable stainless-steel cup", "Lightweight, dishwasher safe", "BOOST branded"] },
 ];
 
 
