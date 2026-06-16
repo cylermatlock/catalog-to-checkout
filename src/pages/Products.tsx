@@ -11,6 +11,9 @@ import { Search, Filter } from "lucide-react";
 const BRAND_MATCHERS: { label: string; test: (name: string) => boolean }[] = [
   { label: "Biodex/Sport Medical", test: (n) => /\b(biodex|sport medical|smti)\b/i.test(n) },
   { label: "LumaNova", test: (n) => /\bluma/i.test(n) },
+  { label: "BOOST Treadmills", test: (n) => /\bboost\b/i.test(n) },
+  { label: "B Strong", test: (n) => /\bb strong\b/i.test(n) },
+  { label: "Therabody", test: (n) => /\btherabody\b/i.test(n) },
   { label: "Sports Art", test: (n) => /\b(sportsart|sports art)\b/i.test(n) },
   { label: "Game Ready", test: (n) => /\bgame ready\b/i.test(n) },
   { label: "EasyStand", test: (n) => /\beasystand\b/i.test(n) },

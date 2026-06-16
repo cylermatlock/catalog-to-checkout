@@ -13,6 +13,7 @@ const Header = () => {
     { to: "/products", label: "ALL PRODUCTS", highlight: true },
     { to: "/biodex", label: "Biodex/Sport Medical", highlight: true },
     { to: "/lumanova", label: "LumaNova Red Light Therapy", highlight: true },
+    { to: "/boost", label: "BOOST Treadmills", highlight: true },
   ];
 
   return (
