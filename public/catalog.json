@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T21:19:53.948Z",
+  "generatedAt": "2026-06-16T21:31:06.600Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -39078,7 +39078,104 @@
         "Trusted by NFL, MLB & D1 collegiate programs"
       ],
       "image": "/assets/products/boost/boost2.jpg",
-      "detail": null
+      "detail": {
+        "productId": "700",
+        "slug": "boost-2-core",
+        "tagline": "Microgravity anti-gravity treadmill — reduce bodyweight up to 80% with NASA air-pressure technology.",
+        "overview": [
+          "The BOOST 2 Core is the standard configuration of the BOOST 2 microgravity treadmill, built on the patented Woodway 4Front slat-belt running surface and air-pressure unweighing chamber originally developed by NASA. Reduce a runner's effective bodyweight from 20–100% in 1% increments to train harder, recover faster, and rehab safer.",
+          "Trusted by NFL, MLB, and D1 collegiate athletic & sports medicine programs. The BOOST 2 Core delivers all of the unweighing, biomechanics tracking, and clinical programming of the BOOST platform with a 15 mph top speed — ideal for rehabilitation, return-to-sport, and general performance training."
+        ],
+        "highlights": [
+          "Reduce bodyweight up to 80% (20–100% in 1% increments)",
+          "Top speed 0.1–15 mph (0.1 mph increments)",
+          "Incline 0–15% in 0.5% increments",
+          "Patented Woodway 4Front slat-belt running surface",
+          "Tracks calories, heart rate, relative weight impact, distance & pace",
+          "325+ pre-programmed workouts",
+          "Fits users from 4'6\" to 7' tall",
+          "Trusted by NFL, MLB, and D1 collegiate programs"
+        ],
+        "gallery": [
+          {
+            "src": "/assets/products/boost/boost2.jpg",
+            "alt": "BOOST 2 Core microgravity anti-gravity treadmill — hero view"
+          },
+          {
+            "src": "/assets/products/boost/b2_18.webp",
+            "alt": "BOOST 2 Core treadmill — alternate angle"
+          },
+          {
+            "src": "/assets/products/boost/b2_20230617-722A1833_1.jpg",
+            "alt": "Athlete training inside the BOOST 2 air-pressure chamber"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Weight.webp",
+            "alt": "BOOST 2 touchscreen — bodyweight reduction control"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Incline.webp",
+            "alt": "BOOST 2 touchscreen — incline control"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Programs.webp",
+            "alt": "BOOST 2 touchscreen — pre-programmed workouts"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Tracking.webp",
+            "alt": "BOOST 2 touchscreen — performance tracking metrics"
+          }
+        ],
+        "specGroups": [
+          {
+            "title": "Performance",
+            "rows": [
+              {
+                "label": "Top speed",
+                "value": "15 mph"
+              },
+              {
+                "label": "Speed increments",
+                "value": "0.1 mph"
+              },
+              {
+                "label": "Incline",
+                "value": "0–15% in 0.5% increments"
+              },
+              {
+                "label": "Bodyweight reduction",
+                "value": "Up to 80% (20–100% in 1% increments)"
+              },
+              {
+                "label": "Running surface",
+                "value": "Patented Woodway 4Front slat belt"
+              }
+            ]
+          },
+          {
+            "title": "User & Programs",
+            "rows": [
+              {
+                "label": "User height",
+                "value": "4'6\" – 7'0\""
+              },
+              {
+                "label": "Tracked metrics",
+                "value": "Calories, heart rate, relative weight impact, distance, pace"
+              },
+              {
+                "label": "Programs",
+                "value": "325+ pre-programmed workouts"
+              }
+            ]
+          }
+        ],
+        "sourceUrl": "https://boosttreadmills.com/pages/boost-2",
+        "seo": {
+          "title": "BOOST 2 Core Microgravity Treadmill | GM Therapy Solutions",
+          "description": "BOOST 2 Core anti-gravity treadmill: reduce bodyweight up to 80%, 15 mph top speed, Woodway 4Front slat-belt surface. Texas/Oklahoma/New Mexico dealer."
+        }
+      }
     },
     {
       "id": "701",
@@ -39098,7 +39195,104 @@
         "Trusted by NFL, MLB & D1 collegiate programs"
       ],
       "image": "/assets/products/boost/boost2.jpg",
-      "detail": null
+      "detail": {
+        "productId": "701",
+        "slug": "boost-2-elite",
+        "tagline": "Elite-sprint configuration of the BOOST 2 microgravity treadmill — top speed 18 mph.",
+        "overview": [
+          "The BOOST 2 Elite is the high-speed configuration of the BOOST 2 microgravity treadmill. Mechanically identical to the BOOST 2 Core, the Elite is purpose-built for elite-sprint training with a top speed of 18 mph — the fastest in the microgravity category.",
+          "Combine 80% bodyweight reduction with sub-maximal sprint mechanics to keep elite athletes training at full speed while protecting joints and tissue. Trusted by NFL, MLB, and D1 collegiate programs nationwide."
+        ],
+        "highlights": [
+          "Top speed up to 18 mph — built for elite sprint training",
+          "Reduce bodyweight up to 80% (20–100% in 1% increments)",
+          "Incline 0–15% in 0.5% increments",
+          "Patented Woodway 4Front slat-belt running surface",
+          "Tracks calories, heart rate, relative weight impact, distance & pace",
+          "325+ pre-programmed workouts",
+          "Fits users from 4'6\" to 7' tall",
+          "Trusted by NFL, MLB, and D1 collegiate programs"
+        ],
+        "gallery": [
+          {
+            "src": "/assets/products/boost/boost2.jpg",
+            "alt": "BOOST 2 Elite microgravity anti-gravity treadmill — hero view"
+          },
+          {
+            "src": "/assets/products/boost/b2_18.webp",
+            "alt": "BOOST 2 Elite treadmill — alternate angle"
+          },
+          {
+            "src": "/assets/products/boost/b2_20230617-722A1833_1.jpg",
+            "alt": "Elite athlete sprint training inside BOOST 2 chamber"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Weight.webp",
+            "alt": "BOOST 2 touchscreen — bodyweight reduction control"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Incline.webp",
+            "alt": "BOOST 2 touchscreen — incline control"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Programs.webp",
+            "alt": "BOOST 2 touchscreen — pre-programmed workouts"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Tracking.webp",
+            "alt": "BOOST 2 touchscreen — performance tracking metrics"
+          }
+        ],
+        "specGroups": [
+          {
+            "title": "Performance",
+            "rows": [
+              {
+                "label": "Top speed",
+                "value": "18 mph (elite sprint)"
+              },
+              {
+                "label": "Speed increments",
+                "value": "0.1 mph"
+              },
+              {
+                "label": "Incline",
+                "value": "0–15% in 0.5% increments"
+              },
+              {
+                "label": "Bodyweight reduction",
+                "value": "Up to 80% (20–100% in 1% increments)"
+              },
+              {
+                "label": "Running surface",
+                "value": "Patented Woodway 4Front slat belt"
+              }
+            ]
+          },
+          {
+            "title": "User & Programs",
+            "rows": [
+              {
+                "label": "User height",
+                "value": "4'6\" – 7'0\""
+              },
+              {
+                "label": "Tracked metrics",
+                "value": "Calories, heart rate, relative weight impact, distance, pace"
+              },
+              {
+                "label": "Programs",
+                "value": "325+ pre-programmed workouts"
+              }
+            ]
+          }
+        ],
+        "sourceUrl": "https://boosttreadmills.com/pages/boost-2",
+        "seo": {
+          "title": "BOOST 2 Elite Microgravity Treadmill — 18 mph | GM Therapy Solutions",
+          "description": "BOOST 2 Elite anti-gravity treadmill: 18 mph top speed for elite sprint training, 80% bodyweight reduction, Woodway slat-belt surface. TX/OK/NM dealer."
+        }
+      }
     },
     {
       "id": "702",
@@ -39114,7 +39308,85 @@
         "Built on the proven Woodway slat-belt running surface"
       ],
       "image": "/assets/products/boost/boost3.jpg",
-      "detail": null
+      "detail": {
+        "productId": "702",
+        "slug": "boost-3",
+        "tagline": "Next-generation microgravity treadmill — refined chamber, updated controls, built for clinic and home.",
+        "overview": [
+          "The BOOST 3 is the next generation of the BOOST microgravity platform. It pairs a refined air-pressure chamber and updated control interface with the same differential air-pressure unweighing technology trusted by elite professional and collegiate programs.",
+          "Engineered for clinical rehab, return-to-sport, and at-home performance training, the BOOST 3 makes high-intensity training and post-injury rehabilitation accessible to a broader range of athletes and patients."
+        ],
+        "highlights": [
+          "Next-generation home & clinical microgravity treadmill",
+          "Differential air-pressure unweighing for safe high-intensity training",
+          "Updated control interface and refined chamber design",
+          "Built on the proven Woodway slat-belt running surface",
+          "Optimized for clinical rehab, return-to-sport & home performance",
+          "Trusted by NFL, MLB, and D1 collegiate programs"
+        ],
+        "gallery": [
+          {
+            "src": "/assets/products/boost/boost3.jpg",
+            "alt": "BOOST 3 microgravity treadmill — hero view"
+          },
+          {
+            "src": "/assets/products/boost/b3_10.webp",
+            "alt": "BOOST 3 treadmill — alternate angle"
+          },
+          {
+            "src": "/assets/products/boost/b2_20230617-722A1833_1.jpg",
+            "alt": "Athlete training inside a BOOST microgravity treadmill"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Weight.webp",
+            "alt": "BOOST touchscreen — bodyweight reduction control"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Incline.webp",
+            "alt": "BOOST touchscreen — incline control"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Programs.webp",
+            "alt": "BOOST touchscreen — pre-programmed workouts"
+          },
+          {
+            "src": "/assets/products/boost/b2_UI_Tracking.webp",
+            "alt": "BOOST touchscreen — performance tracking metrics"
+          }
+        ],
+        "specGroups": [
+          {
+            "title": "Performance",
+            "rows": [
+              {
+                "label": "Technology",
+                "value": "Differential air-pressure unweighing (NASA origin)"
+              },
+              {
+                "label": "Bodyweight reduction",
+                "value": "Up to 80%"
+              },
+              {
+                "label": "Running surface",
+                "value": "Woodway slat belt"
+              },
+              {
+                "label": "Control interface",
+                "value": "Updated next-gen touchscreen"
+              },
+              {
+                "label": "Use case",
+                "value": "Clinical rehab, return-to-sport, home performance"
+              }
+            ]
+          }
+        ],
+        "sourceUrl": "https://boosttreadmills.com/pages/boost-3",
+        "seo": {
+          "title": "BOOST 3 Microgravity Treadmill | GM Therapy Solutions",
+          "description": "BOOST 3 next-generation anti-gravity treadmill: refined air-pressure chamber, updated controls, Woodway slat-belt surface. TX/OK/NM dealer."
+        }
+      }
     }
   ]
 }
