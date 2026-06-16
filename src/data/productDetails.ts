@@ -17480,8 +17480,6 @@ export const productDetails: Record<string, ProductDetail> = {
       { src: "/assets/products/boost/b3_Z8A_2213-webres.jpg", alt: "BOOST 3 chamber detail" },
       { src: "/assets/products/boost/b3_Img17039-webres.jpg", alt: "Athlete running on the BOOST 3" },
       { src: "/assets/products/boost/b3_Img17098-webres_1.jpg", alt: "BOOST 3 rehab session" },
-      { src: "/assets/products/boost/b3_Screenshot_2025-09-04_at_12.32.19_PM.png", alt: "BOOST 3 next-gen touchscreen control interface" },
-      { src: "/assets/products/boost/b3_Screenshot_2025-09-25_at_3.25.11_PM.png", alt: "BOOST 3 control interface detail" },
     ],
     specGroups: [
       {
