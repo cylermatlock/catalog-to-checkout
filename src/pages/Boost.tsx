@@ -96,14 +96,14 @@ const Boost = () => {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
+                icon: Activity,
+                title: "Top speed up to 18 mph",
+                body: "Built for elite sprint training — speeds from 0.1 to 18 mph and 0–15% incline on the patented Woodway 4Front slat-belt surface.",
+              },
+              {
                 icon: Gauge,
                 title: "Reduce Bodyweight up to 80%",
                 body: "Adjust bodyweight from 20–100% in 1% increments. Train smarter, protect joints, return to sport faster.",
-              },
-              {
-                icon: Activity,
-                title: "Run Up to 18 MPH",
-                body: "Speeds from 0.1 to 18 mph and 0–15% incline on the patented Woodway 4Front slat-belt surface.",
               },
               {
                 icon: HeartPulse,
