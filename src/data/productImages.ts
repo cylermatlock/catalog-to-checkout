@@ -585,6 +585,11 @@ export const productImages: Record<string, string> = {
   "649": productAsset("lumanova/lumapanel-face.png"),
   "650": productAsset("lumanova/lumapad-mini.png"),
   "651": productAsset("lumanova/lumaglove.png"),
+
+  // BOOST Treadmills - official product photos from boosttreadmills.com
+  "700": productAsset("boost/boost2.jpg"),
+  "701": productAsset("boost/boost2.jpg"),
+  "702": productAsset("boost/boost3.jpg"),
 };
 
 

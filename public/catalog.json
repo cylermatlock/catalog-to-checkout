@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T21:11:55.656Z",
+  "generatedAt": "2026-06-16T21:19:53.948Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -39062,14 +39062,14 @@
     },
     {
       "id": "700",
-      "name": "BOOST 2 Microgravity Treadmill",
+      "name": "BOOST 2 Core Microgravity Treadmill",
       "category": "BOOST Treadmills",
       "subcategory": "Microgravity Treadmills",
-      "sku": "BOOST-2",
+      "sku": "BOOST-2-CORE",
       "description": [
         "Deload up to 80% of bodyweight using NASA-developed air pressure technology",
         "Adjustable from 20–100% bodyweight in 1% increments",
-        "Speeds from 0.1 to 18 mph in 0.1 mph increments",
+        "Top speed up to 15 mph (0.1 mph increments)",
         "Incline 0–15% in 0.5% increments",
         "Patented Woodway 4Front slat-belt running surface",
         "Tracks calories, heart rate, relative weight impact, distance & pace",
@@ -39077,158 +39077,43 @@
         "Fits users from 4'6\" to 7' tall",
         "Trusted by NFL, MLB & D1 collegiate programs"
       ],
-      "image": null,
+      "image": "/assets/products/boost/boost2.jpg",
       "detail": null
     },
     {
       "id": "701",
+      "name": "BOOST 2 Elite Microgravity Treadmill",
+      "category": "BOOST Treadmills",
+      "subcategory": "Microgravity Treadmills",
+      "sku": "BOOST-2-ELITE",
+      "description": [
+        "Deload up to 80% of bodyweight using NASA-developed air pressure technology",
+        "Adjustable from 20–100% bodyweight in 1% increments",
+        "Top speed up to 18 mph — built for elite sprint training",
+        "Incline 0–15% in 0.5% increments",
+        "Patented Woodway 4Front slat-belt running surface",
+        "Tracks calories, heart rate, relative weight impact, distance & pace",
+        "325+ pre-programmed workouts",
+        "Fits users from 4'6\" to 7' tall",
+        "Trusted by NFL, MLB & D1 collegiate programs"
+      ],
+      "image": "/assets/products/boost/boost2.jpg",
+      "detail": null
+    },
+    {
+      "id": "702",
       "name": "BOOST 3 Microgravity Treadmill",
       "category": "BOOST Treadmills",
       "subcategory": "Microgravity Treadmills",
       "sku": "BOOST-3",
       "description": [
-        "Next-generation microgravity treadmill platform",
+        "Next-generation home & clinical microgravity treadmill",
         "Differential air-pressure unweighing for safe high-intensity training",
-        "Wider deck and updated control interface",
-        "Optimized for clinical rehab, return-to-sport & elite performance",
+        "Updated control interface and refined chamber design",
+        "Optimized for clinical rehab, return-to-sport & home performance training",
         "Built on the proven Woodway slat-belt running surface"
       ],
-      "image": null,
-      "detail": null
-    },
-    {
-      "id": "702",
-      "name": "B Strong Blood Flow Restriction Training System",
-      "category": "BOOST Treadmills",
-      "subcategory": "Training Accessories",
-      "sku": "BSTRONG-BFR",
-      "description": [
-        "Blood flow restriction (BFR) bands for arms and legs",
-        "Build strength & muscle with lighter loads",
-        "Standard kit includes arm and leg bands",
-        "Safe, research-backed BFR protocols",
-        "Ideal for rehab, recovery & performance training"
-      ],
-      "image": null,
-      "detail": null
-    },
-    {
-      "id": "703",
-      "name": "Therabody JetBoots Prime",
-      "category": "BOOST Treadmills",
-      "subcategory": "Recovery",
-      "sku": "TB-JETBOOTS-PRIME",
-      "description": [
-        "Wireless pneumatic compression recovery boots",
-        "Targeted leg recovery for athletes",
-        "Multiple pressure levels & treatment modes",
-        "Cordless, app-controlled experience",
-        "Compatible with the Therabody recovery ecosystem"
-      ],
-      "image": null,
-      "detail": null
-    },
-    {
-      "id": "704",
-      "name": "BOOST Double Zipper Shorts",
-      "category": "BOOST Treadmills",
-      "subcategory": "Apparel",
-      "sku": "BOOST-SHORTS-DZ",
-      "description": [
-        "Required microgravity-treadmill shorts with dual side zippers",
-        "Engineered for an airtight seal inside the BOOST chamber",
-        "Lightweight, breathable performance fabric",
-        "Sizes 2XS–5XL for all body types"
-      ],
-      "image": null,
-      "detail": null
-    },
-    {
-      "id": "705",
-      "name": "BOOST Single Zipper Shorts",
-      "category": "BOOST Treadmills",
-      "subcategory": "Apparel",
-      "sku": "BOOST-SHORTS-SZ",
-      "description": [
-        "Microgravity-treadmill shorts with single side zipper",
-        "Designed for an airtight seal inside the BOOST chamber",
-        "Lightweight, breathable performance fabric",
-        "Sizes 2XS–5XL"
-      ],
-      "image": null,
-      "detail": null
-    },
-    {
-      "id": "706",
-      "name": "BOOST Running Hat",
-      "category": "BOOST Treadmills",
-      "subcategory": "Apparel",
-      "sku": "BOOST-HAT-RUN",
-      "description": [
-        "Lightweight 5-panel performance running hat",
-        "Moisture-wicking fabric",
-        "Adjustable rear strap",
-        "BOOST branded"
-      ],
-      "image": null,
-      "detail": null
-    },
-    {
-      "id": "707",
-      "name": "BOOST Snapback Hat",
-      "category": "BOOST Treadmills",
-      "subcategory": "Apparel",
-      "sku": "BOOST-HAT-SNAP",
-      "description": [
-        "Classic 7-panel snapback hat",
-        "Structured crown with flat brim",
-        "Adjustable snap closure",
-        "BOOST branded"
-      ],
-      "image": null,
-      "detail": null
-    },
-    {
-      "id": "708",
-      "name": "BOOST Bucket Hat",
-      "category": "BOOST Treadmills",
-      "subcategory": "Apparel",
-      "sku": "BOOST-HAT-BUCKET",
-      "description": [
-        "BOOST-branded bucket hat",
-        "Lightweight cotton blend",
-        "Stitched eyelet ventilation",
-        "One size fits most"
-      ],
-      "image": null,
-      "detail": null
-    },
-    {
-      "id": "709",
-      "name": "BOOST Tumbler",
-      "category": "BOOST Treadmills",
-      "subcategory": "Accessories",
-      "sku": "BOOST-TUMBLER",
-      "description": [
-        "Insulated stainless-steel tumbler",
-        "Keeps drinks cold for hours",
-        "BOOST branded"
-      ],
-      "image": null,
-      "detail": null
-    },
-    {
-      "id": "710",
-      "name": "BOOST Steel Cup",
-      "category": "BOOST Treadmills",
-      "subcategory": "Accessories",
-      "sku": "BOOST-STEEL-CUP",
-      "description": [
-        "Durable stainless-steel cup",
-        "Lightweight, dishwasher safe",
-        "BOOST branded"
-      ],
-      "image": null,
+      "image": "/assets/products/boost/boost3.jpg",
       "detail": null
     }
   ]
