@@ -97,7 +97,7 @@ const Boost = () => {
             {[
               {
                 icon: Gauge,
-                title: "Deload Up to 80%",
+                title: "Reduce Bodyweight up to 80%",
                 body: "Adjust bodyweight from 20–100% in 1% increments. Train smarter, protect joints, return to sport faster.",
               },
               {
