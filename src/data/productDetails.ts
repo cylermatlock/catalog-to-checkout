@@ -17422,9 +17422,9 @@ export const productDetails: Record<string, ProductDetail> = {
       { src: "/assets/products/boost/b2_18.webp", alt: "BOOST 2 Elite treadmill — alternate angle" },
       { src: "/assets/products/boost/b2_20230617-722A1833_1.jpg", alt: "Elite athlete sprint training inside BOOST 2 chamber" },
       { src: "/assets/products/boost/b2_UI_Weight.webp", alt: "BOOST 2 touchscreen — bodyweight reduction control" },
-      { src: "/assets/products/boost/b2_UI_Incline.webp", alt: "BOOST 2 touchscreen — incline control" },
-      { src: "/assets/products/boost/b2_UI_Programs.webp", alt: "BOOST 2 touchscreen — pre-programmed workouts" },
-      { src: "/assets/products/boost/b2_UI_Tracking.webp", alt: "BOOST 2 touchscreen — performance tracking metrics" },
+      { src: "/assets/products/boost/b2_20230618-722A1889.jpg", alt: "Athlete training inside the BOOST 2 microgravity chamber" },
+      { src: "/assets/products/boost/b2_20231113-722A2409.jpg", alt: "BOOST 2 microgravity treadmill in clinical setting" },
+      { src: "/assets/products/boost/b2_Untitled_design_30.jpg", alt: "BOOST 2 microgravity treadmill detail view" },
     ],
     specGroups: [
       {
