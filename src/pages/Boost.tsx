@@ -11,10 +11,6 @@ const boostProducts = products.filter((p) => p.category === "BOOST Treadmills");
 
 const groups: { title: string; tagline: string }[] = [
   { title: "Microgravity Treadmills", tagline: "NASA-developed air-pressure unweighing — run up to 80% lighter" },
-  { title: "Training Accessories", tagline: "Blood flow restriction & performance training tools" },
-  { title: "Recovery", tagline: "Pneumatic compression recovery for athletes" },
-  { title: "Apparel", tagline: "Required microgravity shorts and BOOST-branded performance apparel" },
-  { title: "Accessories", tagline: "BOOST drinkware and gear" },
 ];
 
 const Boost = () => {
@@ -26,11 +22,11 @@ const Boost = () => {
         <title>BOOST Microgravity Treadmills Dealer | GM Therapy Solutions</title>
         <meta
           name="description"
-          content="Shop BOOST Microgravity Treadmills — BOOST 2 & BOOST 3 anti-gravity treadmills, B Strong BFR, Therabody recovery, and BOOST apparel. Clinical pricing from GM Therapy Solutions."
+          content="Shop BOOST Microgravity Treadmills — BOOST 2 Core (15 mph), BOOST 2 Elite (18 mph) and BOOST 3 anti-gravity treadmills. Clinical pricing from GM Therapy Solutions."
         />
         <link rel="canonical" href={canonical} />
         <meta property="og:title" content="BOOST Microgravity Treadmills — GM Therapy Solutions" />
-        <meta property="og:description" content="BOOST 2 & BOOST 3 anti-gravity treadmills, B Strong BFR, Therabody recovery, and BOOST apparel." />
+        <meta property="og:description" content="BOOST 2 Core, BOOST 2 Elite, and BOOST 3 anti-gravity treadmills." />
         <meta property="og:url" content={canonical} />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify({
@@ -69,9 +65,9 @@ const Boost = () => {
               <span className="text-primary">BOOST</span> Microgravity Treadmills
             </h1>
             <p className="mt-4 text-lg md:text-xl opacity-90 max-w-2xl">
-              Run up to 80% lighter. Using air-pressure technology developed at NASA, the BOOST 2 &
-              BOOST 3 deload bodyweight so athletes can train harder, recover faster, and stay
-              injury-free.
+              Run up to 80% lighter. Using air-pressure technology developed at NASA, the BOOST 2
+              Core, BOOST 2 Elite, and BOOST 3 deload bodyweight so athletes can train harder,
+              recover faster, and stay injury-free.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg" className="font-semibold">
@@ -128,11 +124,10 @@ const Boost = () => {
       {/* Catalog */}
       <section id="catalog" className="container mx-auto px-4 py-16 flex-1">
         <div className="max-w-2xl mb-10">
-          <h2 className="font-display text-3xl md:text-4xl font-bold">The Full BOOST Lineup</h2>
+          <h2 className="font-display text-3xl md:text-4xl font-bold">The BOOST Lineup</h2>
           <p className="text-muted-foreground mt-3">
-            From BOOST 2 & BOOST 3 microgravity treadmills to B Strong blood flow restriction,
-            Therabody recovery, and the required microgravity apparel — call for clinical pricing on
-            any product.
+            Three microgravity treadmill models — BOOST 2 Core (15 mph), BOOST 2 Elite (18 mph), and
+            the next-generation BOOST 3. Call for clinical pricing.
           </p>
         </div>
 
