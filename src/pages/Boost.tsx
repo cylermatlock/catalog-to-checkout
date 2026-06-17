@@ -22,7 +22,7 @@ const Boost = () => {
         <title>BOOST Microgravity Treadmills Dealer | GM Therapy Solutions</title>
         <meta
           name="description"
-          content="Shop BOOST Microgravity Treadmills — BOOST 2 Core (15 mph), BOOST 2 Elite (18 mph) and BOOST 3 anti-gravity treadmills. Clinical pricing from GM Therapy Solutions."
+          content="Shop BOOST Microgravity Treadmills — BOOST 2 Core (12 mph), BOOST 2 Elite (18 mph) and BOOST 3 anti-gravity treadmills. Clinical pricing from GM Therapy Solutions."
         />
         <link rel="canonical" href={canonical} />
         <meta property="og:title" content="BOOST Microgravity Treadmills — GM Therapy Solutions" />
@@ -126,7 +126,7 @@ const Boost = () => {
         <div className="max-w-2xl mb-10">
           <h2 className="font-display text-3xl md:text-4xl font-bold">The BOOST Lineup</h2>
           <p className="text-muted-foreground mt-3">
-            Three microgravity treadmill models — BOOST 2 Core (15 mph), BOOST 2 Elite (18 mph), and
+            Three microgravity treadmill models — BOOST 2 Core (12 mph), BOOST 2 Elite (18 mph), and
             the next-generation BOOST 3. Call for clinical pricing.
           </p>
         </div>
