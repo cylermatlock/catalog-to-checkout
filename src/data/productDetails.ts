@@ -17348,11 +17348,11 @@ export const productDetails: Record<string, ProductDetail> = {
       "Microgravity anti-gravity treadmill — reduce bodyweight up to 80% with NASA air-pressure technology.",
     overview: [
       "The BOOST 2 Core is the standard configuration of the BOOST 2 microgravity treadmill, built on the patented Woodway 4Front slat-belt running surface and air-pressure unweighing chamber originally developed by NASA. Reduce a runner's effective bodyweight from 20–100% in 1% increments to train harder, recover faster, and rehab safer.",
-      "Trusted by NFL, MLB, and D1 collegiate athletic & sports medicine programs. The BOOST 2 Core delivers all of the unweighing, biomechanics tracking, and clinical programming of the BOOST platform with a 15 mph top speed — ideal for rehabilitation, return-to-sport, and general performance training.",
+      "Trusted by NFL, MLB, and D1 collegiate athletic & sports medicine programs. The BOOST 2 Core delivers all of the unweighing, biomechanics tracking, and clinical programming of the BOOST platform with a 12 mph top speed — ideal for rehabilitation, return-to-sport, and general performance training.",
     ],
     highlights: [
       "Reduce bodyweight up to 80% (20–100% in 1% increments)",
-      "Top speed 0.1–15 mph (0.1 mph increments)",
+      "Top speed 0.1–12 mph (0.1 mph increments)",
       "Incline 0–15% in 0.5% increments",
       "Patented Woodway 4Front slat-belt running surface",
       "Tracks calories, heart rate, relative weight impact, distance & pace",
@@ -17373,7 +17373,7 @@ export const productDetails: Record<string, ProductDetail> = {
       {
         title: "Performance",
         rows: [
-          { label: "Top speed", value: "15 mph" },
+          { label: "Top speed", value: "12 mph" },
           { label: "Speed increments", value: "0.1 mph" },
           { label: "Incline", value: "0–15% in 0.5% increments" },
           { label: "Bodyweight reduction", value: "Up to 80% (20–100% in 1% increments)" },
@@ -17393,7 +17393,7 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: {
       title: "BOOST 2 Core Microgravity Treadmill | GM Therapy Solutions",
       description:
-        "BOOST 2 Core anti-gravity treadmill: reduce bodyweight up to 80%, 15 mph top speed, Woodway 4Front slat-belt surface. Texas/Oklahoma/New Mexico dealer.",
+        "BOOST 2 Core anti-gravity treadmill: reduce bodyweight up to 80%, 12 mph top speed, Woodway 4Front slat-belt surface. Texas/Oklahoma/New Mexico dealer.",
     },
   },
 
@@ -17467,8 +17467,10 @@ export const productDetails: Record<string, ProductDetail> = {
     highlights: [
       "Next-generation home & clinical microgravity treadmill",
       "Differential air-pressure unweighing for safe high-intensity training",
+      "Top speed up to 10 mph",
+      "Max user height 6'10\"",
       "Updated control interface and refined chamber design",
-      "Built on the proven Woodway slat-belt running surface",
+      "Built on the proven Boost Belt",
       "Optimized for clinical rehab, return-to-sport & home performance",
       "Trusted by NFL, MLB, and D1 collegiate programs",
     ],
@@ -17486,8 +17488,10 @@ export const productDetails: Record<string, ProductDetail> = {
         title: "Performance",
         rows: [
           { label: "Technology", value: "Differential air-pressure unweighing (NASA origin)" },
+          { label: "Top speed", value: "10 mph" },
+          { label: "Max user height", value: "6'10\"" },
           { label: "Bodyweight reduction", value: "Up to 80%" },
-          { label: "Running surface", value: "Woodway slat belt" },
+          { label: "Running surface", value: "Boost Belt" },
           { label: "Control interface", value: "Updated next-gen touchscreen" },
           { label: "Use case", value: "Clinical rehab, return-to-sport, home performance" },
         ],

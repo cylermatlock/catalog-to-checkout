@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T20:54:13.402Z",
+  "generatedAt": "2026-06-17T20:58:44.697Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -39069,7 +39069,7 @@
       "description": [
         "Deload up to 80% of bodyweight using NASA-developed air pressure technology",
         "Adjustable from 20–100% bodyweight in 1% increments",
-        "Top speed up to 15 mph (0.1 mph increments)",
+        "Top speed up to 12 mph (0.1 mph increments)",
         "Incline 0–15% in 0.5% increments",
         "Patented Woodway 4Front slat-belt running surface",
         "Tracks calories, heart rate, relative weight impact, distance & pace",
@@ -39084,11 +39084,11 @@
         "tagline": "Microgravity anti-gravity treadmill — reduce bodyweight up to 80% with NASA air-pressure technology.",
         "overview": [
           "The BOOST 2 Core is the standard configuration of the BOOST 2 microgravity treadmill, built on the patented Woodway 4Front slat-belt running surface and air-pressure unweighing chamber originally developed by NASA. Reduce a runner's effective bodyweight from 20–100% in 1% increments to train harder, recover faster, and rehab safer.",
-          "Trusted by NFL, MLB, and D1 collegiate athletic & sports medicine programs. The BOOST 2 Core delivers all of the unweighing, biomechanics tracking, and clinical programming of the BOOST platform with a 15 mph top speed — ideal for rehabilitation, return-to-sport, and general performance training."
+          "Trusted by NFL, MLB, and D1 collegiate athletic & sports medicine programs. The BOOST 2 Core delivers all of the unweighing, biomechanics tracking, and clinical programming of the BOOST platform with a 12 mph top speed — ideal for rehabilitation, return-to-sport, and general performance training."
         ],
         "highlights": [
           "Reduce bodyweight up to 80% (20–100% in 1% increments)",
-          "Top speed 0.1–15 mph (0.1 mph increments)",
+          "Top speed 0.1–12 mph (0.1 mph increments)",
           "Incline 0–15% in 0.5% increments",
           "Patented Woodway 4Front slat-belt running surface",
           "Tracks calories, heart rate, relative weight impact, distance & pace",
@@ -39132,7 +39132,7 @@
             "rows": [
               {
                 "label": "Top speed",
-                "value": "15 mph"
+                "value": "12 mph"
               },
               {
                 "label": "Speed increments",
@@ -39173,7 +39173,7 @@
         "sourceUrl": "https://boosttreadmills.com/pages/boost-2",
         "seo": {
           "title": "BOOST 2 Core Microgravity Treadmill | GM Therapy Solutions",
-          "description": "BOOST 2 Core anti-gravity treadmill: reduce bodyweight up to 80%, 15 mph top speed, Woodway 4Front slat-belt surface. Texas/Oklahoma/New Mexico dealer."
+          "description": "BOOST 2 Core anti-gravity treadmill: reduce bodyweight up to 80%, 12 mph top speed, Woodway 4Front slat-belt surface. Texas/Oklahoma/New Mexico dealer."
         }
       }
     },
@@ -39303,9 +39303,11 @@
       "description": [
         "Next-generation home & clinical microgravity treadmill",
         "Differential air-pressure unweighing for safe high-intensity training",
+        "Top speed up to 10 mph",
+        "Max user height 6'10\"",
         "Updated control interface and refined chamber design",
         "Optimized for clinical rehab, return-to-sport & home performance training",
-        "Built on the proven Woodway slat-belt running surface"
+        "Built on the proven Boost Belt"
       ],
       "image": "/assets/products/boost/boost3.jpg",
       "detail": {
@@ -39319,8 +39321,10 @@
         "highlights": [
           "Next-generation home & clinical microgravity treadmill",
           "Differential air-pressure unweighing for safe high-intensity training",
+          "Top speed up to 10 mph",
+          "Max user height 6'10\"",
           "Updated control interface and refined chamber design",
-          "Built on the proven Woodway slat-belt running surface",
+          "Built on the proven Boost Belt",
           "Optimized for clinical rehab, return-to-sport & home performance",
           "Trusted by NFL, MLB, and D1 collegiate programs"
         ],
@@ -39363,12 +39367,20 @@
                 "value": "Differential air-pressure unweighing (NASA origin)"
               },
               {
+                "label": "Top speed",
+                "value": "10 mph"
+              },
+              {
+                "label": "Max user height",
+                "value": "6'10\""
+              },
+              {
                 "label": "Bodyweight reduction",
                 "value": "Up to 80%"
               },
               {
                 "label": "Running surface",
-                "value": "Woodway slat belt"
+                "value": "Boost Belt"
               },
               {
                 "label": "Control interface",
