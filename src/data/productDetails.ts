@@ -17505,7 +17505,73 @@ export const productDetails: Record<string, ProductDetail> = {
     },
   },
 
+  // GMTS Rolling Laptop Desk — product id "800"
+  "800": {
+    productId: "800",
+    slug: "gmts-rolling-laptop-desk",
+    tagline:
+      "Mobile sit-to-stand laptop workstation with hands-free foot-pedal height adjustment.",
+    overview: [
+      "The GMTS Rolling Laptop Desk is a compact mobile workstation built for clinics, offices, classrooms, and home workspaces where flexibility matters. A hands-free foot pedal lets you transition between seated and standing positions in seconds, with a working height range of 29.5\" to 43.7\".",
+      "A 23.6\" x 20.5\" desktop comfortably fits a laptop, peripherals, and a drink, while four smooth-rolling casters — two with locking brakes — make it easy to reposition for charting, presentations, telehealth sessions, or bedside work.",
+    ],
+    highlights: [
+      "Hands-free foot-pedal height adjustment",
+      "Height range: 29.5\" – 43.7\"",
+      "23.6\" x 20.5\" work surface",
+      "4 casters (2 with locking brakes)",
+      "Steel frame with aluminum legs",
+      "Supports up to 20 lb on the desktop",
+      "Sleek black finish",
+      "Quick tool-included assembly",
+    ],
+    gallery: [
+      { src: "/assets/products/gmts-rolling-desk/61g1iPdTw8L.jpg", alt: "GMTS Rolling Laptop Desk — hero view in black" },
+      { src: "/assets/products/gmts-rolling-desk/314aZIGQV3L.jpg", alt: "GMTS Rolling Laptop Desk — front angle" },
+      { src: "/assets/products/gmts-rolling-desk/41XS4lM1a+L.jpg", alt: "GMTS Rolling Laptop Desk — side profile showing height adjustment" },
+      { src: "/assets/products/gmts-rolling-desk/319LP2YCR2L.jpg", alt: "GMTS Rolling Laptop Desk — detail view" },
+      { src: "/assets/products/gmts-rolling-desk/412li+ycM7L.jpg", alt: "GMTS Rolling Laptop Desk — foot pedal and caster detail" },
+      { src: "/assets/products/gmts-rolling-desk/51l2z2iGF9L.jpg", alt: "GMTS Rolling Laptop Desk — workspace setup" },
+      { src: "/assets/products/gmts-rolling-desk/516-MUGglPL.jpg", alt: "GMTS Rolling Laptop Desk — in-use view" },
+    ],
+    specGroups: [
+      {
+        title: "Dimensions",
+        rows: [
+          { label: "Desktop size", value: "23.6\" W x 20.5\" D" },
+          { label: "Height range", value: "29.5\" – 43.7\"" },
+          { label: "Footprint", value: "20.5\" D x 23.6\" W" },
+          { label: "Weight", value: "2.5 lb (unit)" },
+        ],
+      },
+      {
+        title: "Construction",
+        rows: [
+          { label: "Frame", value: "Steel + aluminum legs" },
+          { label: "Top material", value: "Water-resistant eco-board, brushed metal finish" },
+          { label: "Color", value: "Black" },
+          { label: "Casters", value: "4 wheels — 2 with locking brakes" },
+          { label: "Desktop weight capacity", value: "20 lb" },
+        ],
+      },
+      {
+        title: "Adjustment",
+        rows: [
+          { label: "Height control", value: "Hands-free foot pedal" },
+          { label: "Mounting", value: "Freestanding / mobile" },
+        ],
+      },
+    ],
+    sourceUrl: "https://a.co/d/09sd16cU",
+    seo: {
+      title: "GMTS Rolling Laptop Desk — Mobile Sit-Stand Workstation | GM Therapy Solutions",
+      description:
+        "GMTS mobile rolling laptop desk: hands-free foot-pedal height adjustment (29.5\"–43.7\"), 23.6\" x 20.5\" top, lockable casters, black finish.",
+    },
+  },
+
 };
+
 
 
 
