@@ -590,6 +590,7 @@ export const productImages: Record<string, string> = {
   "700": productAsset("boost/boost2.jpg"),
   "701": productAsset("boost/boost2.jpg"),
   "702": productAsset("boost/boost3.jpg"),
+  "800": productAsset("gmts-rolling-desk/61g1iPdTw8L.jpg"),
 };
 
 
