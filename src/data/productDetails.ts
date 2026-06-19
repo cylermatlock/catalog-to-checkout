@@ -17564,7 +17564,7 @@ export const productDetails: Record<string, ProductDetail> = {
     ],
     sourceUrl: "https://a.co/d/09sd16cU",
     seo: {
-      title: "GMTS Rolling Laptop Desk — Mobile Sit-Stand Workstation | GM Therapy Solutions",
+      title: "GMTS Rolling Laptop Desk | GM Therapy Solutions",
       description:
         "GMTS mobile rolling laptop desk: hands-free foot-pedal height adjustment (29.5\"–43.7\"), 23.6\" x 20.5\" top, lockable casters, black finish.",
     },
