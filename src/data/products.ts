@@ -636,7 +636,7 @@ export const products: Product[] = [
   { id: "702", name: "BOOST 3 Microgravity Treadmill", category: "BOOST Treadmills", subcategory: "Microgravity Treadmills", sku: "BOOST-3", description: ["Next-generation home & clinical microgravity treadmill", "Differential air-pressure unweighing for safe high-intensity training", "Top speed up to 10 mph", "Max user height 6'10\"", "Updated control interface and refined chamber design", "Optimized for clinical rehab, return-to-sport & home performance training", "Built on the proven Boost Belt"] },
 
   // REHAB FURNITURE - Mobile Workstations
-  { id: "800", name: "GMTS Rolling Laptop Desk — Adjustable Height Mobile Workstation", category: "Rehab Furniture", subcategory: "Mobile Workstations", sku: "GMTS-RLD-2420", description: ["Hands-free foot-pedal height adjustment (29.5\"–43.7\")", "23.6\" x 20.5\" desktop — fits laptop, peripherals & accessories", "Four smooth-rolling casters (two with locking brakes)", "Steel frame + aluminum legs — holds up to 20 lb", "Sit-to-stand in seconds — supports ergonomic posture", "Tool-included 10-minute assembly", "Black finish"] },
+  { id: "800", name: "GMTS Rolling Laptop Desk", category: "Rehab Furniture", subcategory: "Mobile Workstations", sku: "AMZ OBT-BLACK", description: ["Hands-free foot-pedal height adjustment (29.5\"–43.7\")", "23.6\" x 20.5\" desktop — fits laptop, peripherals & accessories", "Four smooth-rolling casters (two with locking brakes)", "Steel frame + aluminum legs — holds up to 20 lb", "Sit-to-stand in seconds — supports ergonomic posture", "Tool-included 10-minute assembly", "Black finish"] },
 ];
 
 
