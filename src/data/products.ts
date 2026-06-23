@@ -637,6 +637,9 @@ export const products: Product[] = [
 
   // REHAB FURNITURE - Mobile Workstations
   { id: "800", name: "GMTS Rolling Laptop Desk", category: "Rehab Furniture", subcategory: "Mobile Workstations", sku: "AMZ OBT-BLACK", description: ["Hands-free foot-pedal height adjustment (29.5\"–43.7\")", "23.6\" x 20.5\" desktop — fits laptop, peripherals & accessories", "Four smooth-rolling casters (two with locking brakes)", "Steel frame + aluminum legs — holds up to 20 lb", "Sit-to-stand in seconds — supports ergonomic posture", "Tool-included 10-minute assembly", "Black finish"], image: "/assets/products/gmts-rolling-desk/61g1iPdTw8L.jpg" },
+
+  // SPIRIT ACCESSORIES
+  { id: "801", name: "Spirit CT800 Treadmill Extended Medical Handrails", category: "Cardio", subcategory: "Spirit", sku: "SFP 801824", description: ["Extended-length medical handrails for the Spirit CT800", "Provides added support for clinical & rehab users", "Bolt-on installation to the CT800 frame", "Set-Up Width with Extended Handrails: 36.6\"", "Sold as an accessory — treadmill not included"], image: "/assets/products/spirit/ct800-handrails/main.png" },
 ];
 
 

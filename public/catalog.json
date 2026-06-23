@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T20:32:28.415Z",
+  "generatedAt": "2026-06-23T19:41:39.576Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -39531,6 +39531,22 @@
           "description": "GMTS mobile rolling laptop desk: hands-free foot-pedal height adjustment (29.5\"–43.7\"), 23.6\" x 20.5\" top, lockable casters, black finish."
         }
       }
+    },
+    {
+      "id": "801",
+      "name": "Spirit CT800 Treadmill Extended Medical Handrails",
+      "category": "Cardio",
+      "subcategory": "Spirit",
+      "sku": "SFP 801824",
+      "description": [
+        "Extended-length medical handrails for the Spirit CT800",
+        "Provides added support for clinical & rehab users",
+        "Bolt-on installation to the CT800 frame",
+        "Set-Up Width with Extended Handrails: 36.6\"",
+        "Sold as an accessory — treadmill not included"
+      ],
+      "image": "/assets/products/spirit/ct800-handrails/main.png",
+      "detail": null
     }
   ]
 }
