@@ -591,7 +591,9 @@ export const productImages: Record<string, string> = {
   "701": productAsset("boost/boost2.jpg"),
   "702": productAsset("boost/boost3.jpg"),
   "800": productAsset("gmts-rolling-desk/61g1iPdTw8L.jpg"),
+  "801": productAsset("spirit/ct800-handrails/main.png"),
 };
+
 
 
 
