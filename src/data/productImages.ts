@@ -581,6 +581,33 @@ export const productImages: Record<string, string> = {
   "702": productAsset("boost/boost3.jpg"),
   "800": productAsset("gmts-rolling-desk/61g1iPdTw8L.jpg"),
   "801": productAsset("spirit/ct800-handrails/main.png"),
+
+  // ===== PRE-OWNED / USED EQUIPMENT (extracted from spreadsheet) =====
+  "U-AM-640": productAsset("used/U-AM-640.png"),
+  "U-BMS-950-240": productAsset("used/U-BMS-950-240.png"),
+  "U-BMS-UBC": productAsset("used/U-BMS-UBC.jpeg"),
+  "U-CD-2300": productAsset("used/U-CD-2300.png"),
+  "U-CD-5500": productAsset("used/U-CD-5500.png"),
+  "U-CG-2789": productAsset("used/U-CG-2789.png"),
+  "U-CG-6000": productAsset("used/U-CG-6000.jpeg"),
+  "U-CLIN-7360": productAsset("used/U-CLIN-7360.png"),
+  "U-DYN-708P": productAsset("used/U-DYN-708P.jpeg"),
+  "U-FS-UBMATRIX": productAsset("used/U-FS-UBMATRIX.jpeg"),
+  "U-ML-BUNGEE": productAsset("used/U-ML-BUNGEE.png"),
+  "U-NS-T4R": productAsset("used/U-NS-T4R.jpeg"),
+  "U-PB-10FT": productAsset("used/U-PB-10FT.png"),
+  "U-PRE-RBK": productAsset("used/U-PRE-RBK.png"),
+  "U-SAA-C545R": productAsset("used/U-SAA-C545R.png"),
+  "U-SAA-T615M": productAsset("used/U-SAA-T615M.png"),
+  "U-SAA-T635M": productAsset("used/U-SAA-T635M.jpeg"),
+  "U-SAA-T655M": productAsset("used/U-SAA-T655M.png"),
+  "U-SCI-PRO1": productAsset("used/U-SCI-PRO1.png"),
+  "U-SCI-PRO1000": productAsset("used/U-SCI-PRO1000.png"),
+  "U-SCI-PRO2": productAsset("used/U-SCI-PRO2.png"),
+  "U-SCI-SONE03": productAsset("used/U-SCI-SONE03.png"),
+  "U-TG-5200-E2": productAsset("used/U-TG-5200-E2.png"),
+  "U-TT-3HL": productAsset("used/U-TT-3HL.png"),
+  "U-WM-T12": productAsset("used/U-WM-T12.png"),
 };
 
 
