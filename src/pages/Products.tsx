@@ -89,6 +89,8 @@ const Products = () => {
   // Force BSW filter on whenever review mode is active.
   useEffect(() => {
     if (reviewMode) setBswOnly(true);
+  }, [reviewMode]);
+
 
   // When switching modes (All ↔ Pre-Owned) reset filters so we don't
   // end up showing 0 results because the previous category isn't valid.
