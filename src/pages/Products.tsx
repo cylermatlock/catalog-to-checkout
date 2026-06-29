@@ -91,15 +91,24 @@ const Products = () => {
     if (reviewMode) setBswOnly(true);
   }, [reviewMode]);
 
+  // Scope products to current "mode" (Pre-Owned tab vs. New/All Products).
+  const modeProducts = useMemo(
+    () =>
+      products.filter((p) =>
+        preOwnedMode ? p.condition === "pre-owned" : p.condition !== "pre-owned"
+      ),
+    [preOwnedMode]
+  );
+
   const subcategories = useMemo(() => {
     if (selectedCategory === "All") return [];
     const subs = new Set(
-      products
+      modeProducts
         .filter((p) => p.category === selectedCategory)
         .map((p) => p.subcategory)
     );
     return Array.from(subs);
-  }, [selectedCategory]);
+  }, [selectedCategory, modeProducts]);
 
   // Sync filters to URL + sessionStorage so the product detail back link can return here.
   useEffect(() => {
