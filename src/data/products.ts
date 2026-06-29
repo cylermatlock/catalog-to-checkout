@@ -11,6 +11,8 @@ export interface Product {
   bsw?: boolean;
   /** True for products where GM Therapy is the exclusive dealer in TX/OK/NM. */
   exclusiveDealer?: boolean;
+  /** "pre-owned" marks used / refurbished inventory shown under the Pre-Owned tab. */
+  condition?: "pre-owned";
 }
 
 export const categories = [
