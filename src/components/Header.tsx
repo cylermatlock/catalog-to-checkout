@@ -11,6 +11,7 @@ const Header = () => {
 
   const links = [
     { to: "/products", label: "ALL PRODUCTS", highlight: true },
+    { to: "/products?condition=pre-owned", label: "PRE-OWNED", highlight: true },
     { to: "/biodex", label: "Biodex/Sport Medical", highlight: true },
     { to: "/lumanova", label: "LumaNova Red Light Therapy", highlight: true },
     { to: "/boost", label: "BOOST Treadmills", highlight: true },
