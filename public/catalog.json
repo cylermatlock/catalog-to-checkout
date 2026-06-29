@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:12:22.021Z",
+  "generatedAt": "2026-06-29T20:12:26.202Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -38590,19 +38590,19 @@
       "detail": null
     },
     {
-      "id": "U-SCH-AIR",
-      "name": "Pre-Owned Schwinn Airdyne",
+      "id": "U-SCI-PRO1",
+      "name": "Pre-owned SciFit Pro 1 Upper Body Cycle (Standard Seat)",
       "category": "Cardio",
-      "subcategory": "Upright Bikes",
-      "sku": "U-SCH AIR",
+      "subcategory": "Upper Body Cycles",
+      "sku": "U-SCI PRO1",
       "description": [
         "Pre-owned",
-        "Schwinn Airdyne air-resistance bike",
-        "Total-body upper & lower drive",
+        "SciFit Pro 1 upper body cycle",
+        "Standard seat",
         "Call or Add to Quote Request for pricing and availability"
       ],
       "condition": "pre-owned",
-      "image": null,
+      "image": "/assets/products/used/U-SCI-PRO1.png",
       "detail": null
     },
     {
