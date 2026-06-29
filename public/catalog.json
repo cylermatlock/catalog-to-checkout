@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:54:30.583Z",
+  "generatedAt": "2026-06-29T20:56:40.193Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -38606,18 +38606,19 @@
       "detail": null
     },
     {
-      "id": "939",
-      "name": "Pre-Owned Spirit CE800 Elliptical",
-      "category": "Cardio",
-      "subcategory": "Ellipticals",
-      "sku": "U-SFP CE800",
+      "id": "940",
+      "name": "Pre-owned Total Gym RS Encompass",
+      "category": "Strength Equipment",
+      "subcategory": "Total Gym",
+      "sku": "U-TG 5200-E2",
       "description": [
         "Pre-owned",
-        "Spirit CE800 commercial elliptical",
+        "Total Gym RS Encompass",
+        "Incline body-weight resistance trainer",
         "Call or Add to Quote Request for pricing and availability"
       ],
       "condition": "pre-owned",
-      "image": null,
+      "image": "/assets/products/used/U-TG-5200-E2.png",
       "detail": null
     },
     {
