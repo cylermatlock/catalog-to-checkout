@@ -1,6 +1,9 @@
 import uAmBa350Asset from "../assets/products/used/U-AM-BA350.png.asset.json";
 import uSfpCt850Asset from "../assets/products/used/U-SFP-CT850.jpg.asset.json";
 import uGmtsTxTractionAsset from "../assets/products/used/U-GMTS-TX-TRACTION.jpg.asset.json";
+import uCg4759Asset from "../assets/products/used/U-CG-4759.jpg.asset.json";
+import uPb7ftAsset from "../assets/products/used/U-PB-7FT.jpg.asset.json";
+import uCg2788Asset from "../assets/products/used/U-CG-2788.jpg.asset.json";
 
 // Product image URLs are served from /public instead of eager-imported modules.
 // This keeps the catalog rendering even if a preview proxy misses an image file.
@@ -610,6 +613,9 @@ export const productImages: Record<string, string> = {
   "U-MS-32060": productAsset("used/U-MS-32060.jpg"),
   "U-GMTS-MIRRORRACK": productAsset("used/U-GMTS-MIRRORRACK.jpg"),
   "U-PB-10FT": productAsset("used/U-PB-10FT.png"),
+  "U-PB-7FT": uPb7ftAsset.url,
+  "U-CG-2788": uCg2788Asset.url,
+  "U-CG-4759": uCg4759Asset.url,
   "U-PRE-RBK": productAsset("used/U-PRE-RBK.png"),
   "U-SAA-C545R": productAsset("used/U-SAA-C545R.png"),
   "U-SAA-T615M": productAsset("used/U-SAA-T615M.png"),
