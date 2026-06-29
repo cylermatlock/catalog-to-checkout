@@ -89,7 +89,15 @@ const Products = () => {
   // Force BSW filter on whenever review mode is active.
   useEffect(() => {
     if (reviewMode) setBswOnly(true);
-  }, [reviewMode]);
+
+  // When switching modes (All ↔ Pre-Owned) reset filters so we don't
+  // end up showing 0 results because the previous category isn't valid.
+  useEffect(() => {
+    setSelectedCategory(queryParams.get("category") || "All");
+    setSelectedSub(queryParams.get("sub") || "All");
+    setSelectedBrand(queryParams.get("brand") || "All");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [preOwnedMode]);
 
   // Scope products to current "mode" (Pre-Owned tab vs. New/All Products).
   const modeProducts = useMemo(
