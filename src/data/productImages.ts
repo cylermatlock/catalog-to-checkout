@@ -1,5 +1,4 @@
 import uAmBa350Asset from "../assets/products/used/U-AM-BA350.png.asset.json";
-import uSfpCt850Asset from "../assets/products/used/U-SFP-CT850.jpg.asset.json";
 import uGmtsTxTractionAsset from "../assets/products/used/U-GMTS-TX-TRACTION.jpg.asset.json";
 import uCg4759Asset from "../assets/products/used/U-CG-4759.jpg.asset.json";
 import uPb7ftAsset from "../assets/products/used/U-PB-7FT.jpg.asset.json";
@@ -599,15 +598,12 @@ export const productImages: Record<string, string> = {
   "U-CG-2789": productAsset("used/U-CG-2789.png"),
   "U-CG-6000": productAsset("used/U-CG-6000.jpeg"),
   "U-CLIN-7360": productAsset("used/U-CLIN-7360.png"),
-  "U-DYN-708P": productAsset("used/U-DYN-708P.jpeg"),
   "U-FS-UBMATRIX": productAsset("used/U-FS-UBMATRIX.jpeg"),
   "U-ML-BUNGEE": productAsset("used/U-ML-BUNGEE.png"),
   "U-NS-T4": productAsset("used/U-NS-T4.jpg"),
   "U-NS-T4R": productAsset("used/U-NS-T4R.jpeg"),
   "U-NS-T5R": productAsset("used/U-NS-T5R.jpg"),
   "U-RICH-DQ8200": productAsset("used/U-RICH-DQ8200.jpg"),
-  "U-SFP-CR800": productAsset("used/U-SFP-CR800.jpg"),
-  "U-SFP-CT850": uSfpCt850Asset.url,
   "U-GMTS-3HL": productAsset("used/U-GMTS-3HL.jpg"),
   "U-GMTS-TX-TRACTION": uGmtsTxTractionAsset.url,
   "U-MS-32060": productAsset("used/U-MS-32060.jpg"),
