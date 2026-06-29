@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:43:59.431Z",
+  "generatedAt": "2026-06-29T20:46:55.540Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -38054,22 +38054,6 @@
       "detail": null
     },
     {
-      "id": "U-CD-3200",
-      "name": "Pre-Owned Shuttle MVP Pro",
-      "category": "Strength Equipment",
-      "subcategory": "Shuttle",
-      "sku": "U-CD3200",
-      "description": [
-        "Pre-owned",
-        "Shuttle MVP Pro",
-        "12 ElastiCords — max resistance 500 lbs",
-        "Call or Add to Quote Request for pricing and availability"
-      ],
-      "condition": "pre-owned",
-      "image": null,
-      "detail": null
-    },
-    {
       "id": "U-CD-5500",
       "name": "Pre-Owned Shuttle Recovery Senior",
       "category": "Strength Equipment",
@@ -38153,22 +38137,6 @@
       "detail": null
     },
     {
-      "id": "U-CG-E2",
-      "name": "Pre-owned Chattanooga E-2 Hydrocollator",
-      "category": "Modalities",
-      "subcategory": "Hydrocollator",
-      "sku": "U-CG E-2",
-      "description": [
-        "Pre-owned",
-        "Chattanooga E-2 hydrocollator",
-        "Stationary moist heat unit",
-        "Call or Add to Quote Request for pricing and availability"
-      ],
-      "condition": "pre-owned",
-      "image": null,
-      "detail": null
-    },
-    {
       "id": "U-CLIN-7360",
       "name": "Pre-owned Clinton Balance Platform",
       "category": "Balance Products",
@@ -38182,22 +38150,6 @@
       ],
       "condition": "pre-owned",
       "image": "/assets/products/used/U-CLIN-7360.png",
-      "detail": null
-    },
-    {
-      "id": "U-DYN-708P",
-      "name": "Pre-Owned Dynatron Solaris 708 Plus 2-Ch E-Stim w/ Ultrasound",
-      "category": "Modalities",
-      "subcategory": "E-Stim/Ultrasound",
-      "sku": "U-DYN 708+",
-      "description": [
-        "Pre-owned",
-        "Dynatron Solaris 708 Plus",
-        "2-channel e-stim w/ ultrasound",
-        "Call or Add to Quote Request for pricing and availability"
-      ],
-      "condition": "pre-owned",
-      "image": "/assets/products/used/U-DYN-708P.jpeg",
       "detail": null
     },
     {
@@ -38298,22 +38250,6 @@
       ],
       "condition": "pre-owned",
       "image": "/__l5e/assets-v1/16699ecd-1ccf-404a-a16e-7f0bf8d0da9c/U-GMTS-TX-TRACTION.jpg",
-      "detail": null
-    },
-    {
-      "id": "U-HI-5560",
-      "name": "Pre-owned Hausmann Multi-Purpose Combination Mirror Rack",
-      "category": "Rehab Furniture",
-      "subcategory": "Storage",
-      "sku": "U-HI 5560",
-      "description": [
-        "Pre-owned",
-        "Hausmann multi-purpose mirror rack",
-        "Combination storage & exercise mirror",
-        "Call or Add to Quote Request for pricing and availability"
-      ],
-      "condition": "pre-owned",
-      "image": null,
       "detail": null
     },
     {
@@ -38682,36 +38618,6 @@
       ],
       "condition": "pre-owned",
       "image": null,
-      "detail": null
-    },
-    {
-      "id": "U-SFP-CR800",
-      "name": "Pre-owned Spirit CR800 Recumbent Bike",
-      "category": "Cardio",
-      "subcategory": "Recumbent Bikes",
-      "sku": "U-SFP CR800",
-      "description": [
-        "Pre-owned",
-        "Spirit CR800 recumbent bike",
-        "Call or Add to Quote Request for pricing and availability"
-      ],
-      "condition": "pre-owned",
-      "image": "/assets/products/used/U-SFP-CR800.jpg",
-      "detail": null
-    },
-    {
-      "id": "U-SFP-CT850",
-      "name": "Pre-Owned Spirit CT850 Treadmill",
-      "category": "Cardio",
-      "subcategory": "Treadmills",
-      "sku": "U-SFP CR850",
-      "description": [
-        "Pre-owned",
-        "Spirit CT850 commercial treadmill",
-        "Call or Add to Quote Request for pricing and availability"
-      ],
-      "condition": "pre-owned",
-      "image": "/__l5e/assets-v1/49d4ba4c-d1ba-497f-89a8-5ac88dde7ba4/U-SFP-CT850.jpg",
       "detail": null
     },
     {
