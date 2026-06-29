@@ -1,3 +1,4 @@
+import uAmBa350Asset from "../assets/products/used/U-AM-BA350.png.asset.json";
 import uSfpCt850Asset from "../assets/products/used/U-SFP-CT850.jpg.asset.json";
 
 // Product image URLs are served from /public instead of eager-imported modules.
@@ -585,6 +586,7 @@ export const productImages: Record<string, string> = {
   "801": productAsset("spirit/ct800-handrails/main.png"),
 
   // ===== PRE-OWNED / USED EQUIPMENT (extracted from spreadsheet) =====
+  "U-AM-BA350": uAmBa350Asset.url,
   "U-AM-640": productAsset("used/U-AM-640.png"),
   "U-BMS-950-240": productAsset("used/U-BMS-950-240.png"),
   "U-BMS-UBC": productAsset("used/U-BMS-UBC.jpeg"),
