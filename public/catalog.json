@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:08:56.840Z",
+  "generatedAt": "2026-06-29T21:13:49.817Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -38347,22 +38347,6 @@
       "detail": null
     },
     {
-      "id": "924",
-      "name": "Pre-owned 10 ft Platform-Mounted Parallel Bars",
-      "category": "Rehab Furniture",
-      "subcategory": "Parallel Bars",
-      "sku": "U-PB 10FT",
-      "description": [
-        "Pre-owned",
-        "10 ft platform-mounted parallel bars",
-        "Manual height & width adjustment",
-        "Call or Add to Quote Request for pricing and availability"
-      ],
-      "condition": "pre-owned",
-      "image": "/assets/products/used/U-PB-10FT.png",
-      "detail": null
-    },
-    {
       "id": "925",
       "name": "Pre-owned 7 ft Platform-Mounted Parallel Bars",
       "category": "Rehab Furniture",
@@ -38526,22 +38510,6 @@
       "detail": null
     },
     {
-      "id": "935",
-      "name": "Pre-owned SciFit Pro 1 Upper Body Cycle (Standard Seat)",
-      "category": "Cardio",
-      "subcategory": "Upper Body Cycles",
-      "sku": "U-SCI PRO1",
-      "description": [
-        "Pre-owned",
-        "SciFit Pro 1 upper body cycle",
-        "Standard seat",
-        "Call or Add to Quote Request for pricing and availability"
-      ],
-      "condition": "pre-owned",
-      "image": "/assets/products/used/U-SCI-PRO1.png",
-      "detail": null
-    },
-    {
       "id": "936",
       "name": "Pre-Owned SciFit Pro 1000 Upper Body Cycle (Standard Seat)",
       "category": "Cardio",
@@ -38587,22 +38555,6 @@
       ],
       "condition": "pre-owned",
       "image": "/assets/products/used/U-SCI-SONE03.png",
-      "detail": null
-    },
-    {
-      "id": "940",
-      "name": "Pre-owned Total Gym RS Encompass",
-      "category": "Strength Equipment",
-      "subcategory": "Total Gym",
-      "sku": "U-TG 5200-E2",
-      "description": [
-        "Pre-owned",
-        "Total Gym RS Encompass",
-        "Incline body-weight resistance trainer",
-        "Call or Add to Quote Request for pricing and availability"
-      ],
-      "condition": "pre-owned",
-      "image": "/assets/products/used/U-TG-5200-E2.png",
       "detail": null
     },
     {
