@@ -14,15 +14,24 @@ const BRAND_MATCHERS: { label: string; test: (name: string) => boolean }[] = [
   { label: "BOOST Treadmills", test: (n) => /\bboost\b/i.test(n) },
   { label: "B Strong", test: (n) => /\bb strong\b/i.test(n) },
   { label: "Therabody", test: (n) => /\btherabody\b/i.test(n) },
-  { label: "Sports Art", test: (n) => /\b(sportsart|sports art)\b/i.test(n) },
+  { label: "SportsArt", test: (n) => /\b(sportsart|sports art|saa)\b/i.test(n) },
   { label: "Game Ready", test: (n) => /\bgame ready\b/i.test(n) },
   { label: "EasyStand", test: (n) => /\beasystand\b/i.test(n) },
   { label: "Therm-X", test: (n) => /\btherm-?x\b/i.test(n) },
   { label: "Shuttle", test: (n) => /\bshuttle\b/i.test(n) },
-  
+  { label: "Total Gym", test: (n) => /\btotal gym\b/i.test(n) },
+  { label: "Whitehall", test: (n) => /\bwhitehall\b/i.test(n) },
+  { label: "Hausmann", test: (n) => /\bhausmann\b/i.test(n) },
+  { label: "Medsurface", test: (n) => /\bmedsurface\b/i.test(n) },
+  { label: "Neurogym", test: (n) => /\bneurogym\b/i.test(n) },
+  { label: "Biostep", test: (n) => /\bbiostep\b/i.test(n) },
+  { label: "Precor", test: (n) => /\bprecor\b/i.test(n) },
+  { label: "Schwinn", test: (n) => /\bschwinn\b/i.test(n) },
+  { label: "Dynatron", test: (n) => /\bdyn?atron\b/i.test(n) },
   { label: "GMTS", test: (n) => /\bgmts\b/i.test(n) },
   { label: "Richmar", test: (n) => /\brichmar\b/i.test(n) },
   { label: "Chattanooga", test: (n) => /\bchattanooga\b/i.test(n) },
+  { label: "Clinton", test: (n) => /\bclinton\b/i.test(n) },
   { label: "Armedica", test: (n) => /\barmedica\b/i.test(n) },
   { label: "NuStep", test: (n) => /\bnustep\b/i.test(n) },
   { label: "Spirit", test: (n) => /\bspirit\b/i.test(n) },
@@ -75,25 +84,46 @@ const Products = () => {
   const [selectedSub, setSelectedSub] = useState<string>(
     () => queryParams.get("sub") || "All"
   );
+  const preOwnedMode = queryParams.get("condition") === "pre-owned";
 
   // Force BSW filter on whenever review mode is active.
   useEffect(() => {
     if (reviewMode) setBswOnly(true);
   }, [reviewMode]);
 
+
+  // When switching modes (All ↔ Pre-Owned) reset filters so we don't
+  // end up showing 0 results because the previous category isn't valid.
+  useEffect(() => {
+    setSelectedCategory(queryParams.get("category") || "All");
+    setSelectedSub(queryParams.get("sub") || "All");
+    setSelectedBrand(queryParams.get("brand") || "All");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [preOwnedMode]);
+
+  // Scope products to current "mode" (Pre-Owned tab vs. New/All Products).
+  const modeProducts = useMemo(
+    () =>
+      products.filter((p) =>
+        preOwnedMode ? p.condition === "pre-owned" : p.condition !== "pre-owned"
+      ),
+    [preOwnedMode]
+  );
+
   const subcategories = useMemo(() => {
     if (selectedCategory === "All") return [];
     const subs = new Set(
-      products
+      modeProducts
         .filter((p) => p.category === selectedCategory)
         .map((p) => p.subcategory)
     );
     return Array.from(subs);
-  }, [selectedCategory]);
+  }, [selectedCategory, modeProducts]);
 
   // Sync filters to URL + sessionStorage so the product detail back link can return here.
   useEffect(() => {
     const params = new URLSearchParams();
+    if (preOwnedMode) params.set("condition", "pre-owned");
     if (selectedCategory !== "All") params.set("category", selectedCategory);
     if (selectedSub !== "All") params.set("sub", selectedSub);
     if (selectedBrand !== "All") params.set("brand", selectedBrand);
@@ -110,12 +140,18 @@ const Products = () => {
     } catch {
       /* ignore */
     }
-  }, [selectedCategory, selectedSub, selectedBrand, search, bswOnly, reviewMode, location.search, navigate]);
+  }, [preOwnedMode, selectedCategory, selectedSub, selectedBrand, search, bswOnly, reviewMode, location.search, navigate]);
 
+
+  // Categories available within the current mode.
+  const availableCategories = useMemo(() => {
+    const set = new Set(modeProducts.map((p) => p.category));
+    return categories.filter((c) => set.has(c));
+  }, [modeProducts]);
 
   // Brands available within the currently selected category (or all).
   const brands = useMemo(() => {
-    const scoped = products.filter(
+    const scoped = modeProducts.filter(
       (p) => selectedCategory === "All" || p.category === selectedCategory
     );
     const set = new Set(scoped.map(getBrand));
@@ -124,10 +160,10 @@ const Products = () => {
       if (b === "Other") return -1;
       return a.localeCompare(b);
     });
-  }, [selectedCategory]);
+  }, [selectedCategory, modeProducts]);
 
   const filtered = useMemo(() => {
-    const matched = products.filter((p) => {
+    const matched = modeProducts.filter((p) => {
       const matchCat = selectedCategory === "All" || p.category === selectedCategory;
       const matchSub = selectedSub === "All" || p.subcategory === selectedSub;
       const matchBrand = selectedBrand === "All" || getBrand(p) === selectedBrand;
@@ -151,7 +187,7 @@ const Products = () => {
     }
 
     return matched;
-  }, [selectedCategory, selectedSub, selectedBrand, bswOnly, search]);
+  }, [modeProducts, selectedCategory, selectedSub, selectedBrand, bswOnly, search]);
 
   // Dynamic SEO meta based on active filters.
   const seo = useMemo(() => {
@@ -194,14 +230,26 @@ const Products = () => {
       {/* Hero */}
       <div className="bg-foreground text-background py-12">
         <div className="container mx-auto px-4">
+          {preOwnedMode && (
+            <span className="inline-block bg-primary text-primary-foreground text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded mb-3">
+              Pre-Owned / Refurbished
+            </span>
+          )}
           <h1 className="text-3xl md:text-4xl font-bold">
-            Product <span className="text-primary">Catalog</span>
+            {preOwnedMode ? (
+              <>Pre-Owned <span className="text-primary">Equipment</span></>
+            ) : (
+              <>Product <span className="text-primary">Catalog</span></>
+            )}
           </h1>
           <p className="text-sm opacity-70 mt-2">
-            Browse our full line of rehab and wellness equipment. Call for clinical pricing on any product.
+            {preOwnedMode
+              ? "Quality pre-owned and refurbished rehab equipment. Inventory changes frequently — call to confirm availability & condition."
+              : "Browse our full line of rehab and wellness equipment. Call for clinical pricing on any product."}
           </p>
         </div>
       </div>
+
 
       <div className="container mx-auto px-4 py-8 flex-1">
         {/* Search + Filters */}
@@ -228,7 +276,7 @@ const Products = () => {
               }}
             >
               <option value="All">All Categories</option>
-              {categories.map((cat) => (
+              {availableCategories.map((cat) => (
                 <option key={cat} value={cat}>
                   {cat}
                 </option>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T17:44:38.870Z",
+  "generatedAt": "2026-06-29T17:55:14.305Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -37971,6 +37971,794 @@
         "Sold as an accessory — treadmill not included"
       ],
       "image": "/assets/products/spirit/ct800-handrails/main.png",
+      "detail": null
+    },
+    {
+      "id": "U-AM-640",
+      "name": "Pre-owned Armedica 4'x7' Hi-Lo Mat Table w/ Hand Switch",
+      "category": "Rehab Furniture",
+      "subcategory": "Hi-Lo Tables",
+      "sku": "U-AM 640",
+      "description": [
+        "Pre-owned / refurbished",
+        "Armedica 4'x7' Hi-Lo Mat Table",
+        "Hand switch height control",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-AM-BA350",
+      "name": "Pre-owned Armedica Bar Activated 3 Section Hi-Lo Table",
+      "category": "Rehab Furniture",
+      "subcategory": "Hi-Lo Tables",
+      "sku": "U-AM BA350",
+      "description": [
+        "Pre-owned / refurbished",
+        "Bar-activated height control",
+        "3-section treatment table",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-BMS-950-240",
+      "name": "Pre-owned Biostep 2 Recumbent Elliptical",
+      "category": "Cardio",
+      "subcategory": "Recumbent Steppers",
+      "sku": "U-BMS 950-240",
+      "description": [
+        "Pre-owned / refurbished",
+        "Biostep 2 recumbent elliptical",
+        "Low-impact total body cardio",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-BMS-UBC",
+      "name": "Pre-Owned Biodex Upper Body Cycle",
+      "category": "Cardio",
+      "subcategory": "Upper Body Cycles",
+      "sku": "U-BMS UBC",
+      "description": [
+        "Pre-owned / refurbished",
+        "Biodex upper body ergometer",
+        "Bi-directional arm cycling",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-CD-2300",
+      "name": "Pre-owned Shuttle 2000-1 w/ PNF Towers",
+      "category": "Strength Equipment",
+      "subcategory": "Shuttle",
+      "sku": "U-CD 2300",
+      "description": [
+        "Pre-owned / refurbished",
+        "Shuttle 2000-1 leg press",
+        "Includes PNF towers",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-CD-3200",
+      "name": "Pre-Owned Shuttle MVP Pro",
+      "category": "Strength Equipment",
+      "subcategory": "Shuttle",
+      "sku": "U-CD3200",
+      "description": [
+        "Pre-owned / refurbished",
+        "Shuttle MVP Pro",
+        "12 ElastiCords — max resistance 500 lbs",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-CD-5500",
+      "name": "Pre-Owned Shuttle Recovery Senior",
+      "category": "Strength Equipment",
+      "subcategory": "Shuttle",
+      "sku": "U-CD 5500",
+      "description": [
+        "Pre-owned / refurbished",
+        "Shuttle Recovery Senior",
+        "Low-load leg press for older adults",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-CG-2788",
+      "name": "Pre-owned Chattanooga Intelect Legend XT 4-Ch E-Stim w/ Ultrasound",
+      "category": "Modalities",
+      "subcategory": "E-Stim/Ultrasound",
+      "sku": "U-CG 2788",
+      "description": [
+        "Pre-owned / refurbished",
+        "Chattanooga Intelect Legend XT",
+        "4 channels of electrical stim",
+        "Includes ultrasound",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-CG-2789",
+      "name": "Pre-owned Chattanooga Vectra Genisys 4-Ch E-Stim w/ Ultrasound (No Cart)",
+      "category": "Modalities",
+      "subcategory": "E-Stim/Ultrasound",
+      "sku": "U-CG 2789",
+      "description": [
+        "Pre-owned / refurbished",
+        "Chattanooga Vectra Genisys",
+        "4-channel e-stim w/ ultrasound",
+        "Cart NOT included",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-CG-4759",
+      "name": "Pre-Owned Chattanooga TX Traction",
+      "category": "Modalities",
+      "subcategory": "Traction",
+      "sku": "U-CG 4759",
+      "description": [
+        "Pre-owned / refurbished",
+        "Chattanooga TX Traction unit",
+        "Cervical & lumbar traction capable",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-CG-6000",
+      "name": "Pre-owned Chattanooga Vectra NEO 2-Ch E-Stim w/ Ultrasound (Cart Included)",
+      "category": "Modalities",
+      "subcategory": "E-Stim/Ultrasound",
+      "sku": "U-CG 6000",
+      "description": [
+        "Pre-owned / refurbished",
+        "Chattanooga Vectra NEO",
+        "2-channel e-stim w/ ultrasound",
+        "Cart INCLUDED",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-CG-E2",
+      "name": "Pre-owned Chattanooga E-2 Hydrocollator",
+      "category": "Modalities",
+      "subcategory": "Hydrocollator",
+      "sku": "U-CG E-2",
+      "description": [
+        "Pre-owned / refurbished",
+        "Chattanooga E-2 hydrocollator",
+        "Stationary moist heat unit",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-CLIN-7360",
+      "name": "Pre-owned Clinton Balance Platform",
+      "category": "Balance Products",
+      "subcategory": "Balance Platforms",
+      "sku": "U-CLIN 7360",
+      "description": [
+        "Pre-owned / refurbished",
+        "Clinton balance platform",
+        "Static & dynamic balance training",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-DYN-708P",
+      "name": "Pre-Owned Dynatron Solaris 708 Plus 2-Ch E-Stim w/ Ultrasound",
+      "category": "Modalities",
+      "subcategory": "E-Stim/Ultrasound",
+      "sku": "U-DYN 708+",
+      "description": [
+        "Pre-owned / refurbished",
+        "Dynatron Solaris 708 Plus",
+        "2-channel e-stim w/ ultrasound",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-FS-UBMATRIX",
+      "name": "Refurbished Matrix U5X Upright Bike",
+      "category": "Cardio",
+      "subcategory": "Upright Bikes",
+      "sku": "U-FS UBMATRIX",
+      "description": [
+        "Pre-owned / refurbished",
+        "Matrix U5X upright bike",
+        "Commercial-grade construction",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-GMTS-1020-30",
+      "name": "Pre-owned Wood Treatment Table w/ Adjustable Backrest & Storage Shelf",
+      "category": "Rehab Furniture",
+      "subcategory": "Wood Treatment Tables",
+      "sku": "U-GMTS 1020-30",
+      "description": [
+        "Pre-owned / refurbished",
+        "Wood treatment table",
+        "Adjustable backrest",
+        "Storage shelf",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-GMTS-3HL",
+      "name": "Pre-owned 3 Section Electric Hi-Lo Treatment Table — Black",
+      "category": "Rehab Furniture",
+      "subcategory": "Hi-Lo Tables",
+      "sku": "U-GMTS 3HL",
+      "description": [
+        "Pre-owned / refurbished",
+        "3-section electric Hi-Lo table",
+        "Black upholstery",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-GMTS-57HLMT",
+      "name": "Pre-owned 5' x 7' Electric Hi-Lo Mat Table — Black",
+      "category": "Rehab Furniture",
+      "subcategory": "Hi-Lo Tables",
+      "sku": "U-GMTS 57HLMT",
+      "description": [
+        "Pre-owned / refurbished",
+        "5' x 7' electric Hi-Lo mat table",
+        "Black upholstery",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-GMTS-MIRRORRACK",
+      "name": "Pre-owned Mirror Rack with Dumbbells & Cuff Weights",
+      "category": "Rehab Furniture",
+      "subcategory": "Storage",
+      "sku": "U-GMTS MIRRORRACK",
+      "description": [
+        "Pre-owned / refurbished",
+        "Mirror rack w/ accessory storage",
+        "Includes 1–10 lb dumbbells (2 each)",
+        "Includes 1, 2, 2.5, 3, 4.5, 5 lb cuff weights (2 each)",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-GMTS-TX-TRACTION",
+      "name": "Pre-owned Medsurface 4-Section Traction Table w/ Chattanooga TX Traction",
+      "category": "Rehab Furniture",
+      "subcategory": "Traction Tables",
+      "sku": "U-GMTS TX TRACTION",
+      "description": [
+        "Pre-owned / refurbished",
+        "Medsurface 4-section traction table",
+        "Black upholstery",
+        "Chattanooga TX Traction unit",
+        "Cervical clevis & universal lumbar harness",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-HI-5560",
+      "name": "Pre-owned Hausmann Multi-Purpose Combination Mirror Rack",
+      "category": "Rehab Furniture",
+      "subcategory": "Storage",
+      "sku": "U-HI 5560",
+      "description": [
+        "Pre-owned / refurbished",
+        "Hausmann multi-purpose mirror rack",
+        "Combination storage & exercise mirror",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-ML-BUNGEE",
+      "name": "Pre-owned Neurogym Bungee Mobility Trainer",
+      "category": "Rehab Furniture",
+      "subcategory": "Standing Frames",
+      "sku": "U-ML BUNGEE",
+      "description": [
+        "Pre-owned / refurbished",
+        "Neurogym Bungee Mobility Trainer",
+        "Body-weight-supported gait & balance training",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-MS-30364",
+      "name": "Pre-owned Medsurface Traction Table",
+      "category": "Rehab Furniture",
+      "subcategory": "Traction Tables",
+      "sku": "U-MS 30364",
+      "description": [
+        "Pre-owned / refurbished",
+        "Medsurface traction table",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-MS-32060",
+      "name": "Pre-owned Medsurface 2-Section Bo-Bath Hi-Lo Treatment Table 40\" Wide",
+      "category": "Rehab Furniture",
+      "subcategory": "Hi-Lo Tables",
+      "sku": "U-MS 32060",
+      "description": [
+        "Pre-owned / refurbished",
+        "Medsurface 2-section Bo-Bath",
+        "Hi-Lo electric treatment table",
+        "40\" wide cushion",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-NS-T4",
+      "name": "Pre-owned NuStep T4 Recumbent Cross Trainer",
+      "category": "Cardio",
+      "subcategory": "Recumbent Steppers",
+      "sku": "U-NS T4",
+      "description": [
+        "Pre-owned / refurbished",
+        "NuStep T4 recumbent cross trainer",
+        "Low-impact total body cardio",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-NS-T4R",
+      "name": "Pre-owned NuStep T4R Recumbent Cross Trainer",
+      "category": "Cardio",
+      "subcategory": "Recumbent Steppers",
+      "sku": "U-NS T4R",
+      "description": [
+        "Pre-owned / refurbished",
+        "NuStep T4R recumbent cross trainer",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-NS-T5R",
+      "name": "Pre-owned NuStep T5R Recumbent Cross Trainer",
+      "category": "Cardio",
+      "subcategory": "Recumbent Steppers",
+      "sku": "U-NS T5R",
+      "description": [
+        "Pre-owned / refurbished",
+        "NuStep T5R recumbent cross trainer",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-NS-T5XR",
+      "name": "Pre-owned NuStep T5XR Recumbent Cross Trainer",
+      "category": "Cardio",
+      "subcategory": "Recumbent Steppers",
+      "sku": "U-NS T5XR",
+      "description": [
+        "Pre-owned / refurbished",
+        "NuStep T5XR recumbent cross trainer",
+        "Premium swivel seat model",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-PB-10FT",
+      "name": "Pre-owned 10 ft Platform-Mounted Parallel Bars",
+      "category": "Rehab Furniture",
+      "subcategory": "Parallel Bars",
+      "sku": "U-PB 10FT",
+      "description": [
+        "Pre-owned / refurbished",
+        "10 ft platform-mounted parallel bars",
+        "Manual height & width adjustment",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-PB-7FT",
+      "name": "Pre-owned 7 ft Platform-Mounted Parallel Bars",
+      "category": "Rehab Furniture",
+      "subcategory": "Parallel Bars",
+      "sku": "U-PB 7FT",
+      "description": [
+        "Pre-owned / refurbished",
+        "7 ft platform-mounted parallel bars",
+        "Manual height & width adjustment",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-PRE-RBK",
+      "name": "Pre-owned Precor Recumbent Bike",
+      "category": "Cardio",
+      "subcategory": "Recumbent Bikes",
+      "sku": "U-PRE RBK",
+      "description": [
+        "Pre-owned / refurbished",
+        "Precor recumbent bike",
+        "Commercial-grade build",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-RICH-DQ8200",
+      "name": "Pre-owned Richmar CX4 4-Ch E-Stim w/ Ultrasound (Cart Included)",
+      "category": "Modalities",
+      "subcategory": "E-Stim/Ultrasound",
+      "sku": "U-RICH DQ8200",
+      "description": [
+        "Pre-owned / refurbished",
+        "Richmar CX4 combo unit",
+        "4-channel e-stim w/ ultrasound",
+        "Cart INCLUDED",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-RICH-DQ8222",
+      "name": "Pre-Owned Richmar TheraTouch CX2 (No Cart)",
+      "category": "Modalities",
+      "subcategory": "E-Stim/Ultrasound",
+      "sku": "U-RICH DQ8222",
+      "description": [
+        "Pre-owned / refurbished",
+        "Richmar TheraTouch CX2",
+        "Cart NOT included",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-RICH-HT-R12-DW",
+      "name": "Pre-owned Richmar Hydratherm Deluxe (Electric Drain Pump, Side Shelf)",
+      "category": "Modalities",
+      "subcategory": "Hydrocollator",
+      "sku": "U-RICH HT-R12-DW",
+      "description": [
+        "Pre-owned / refurbished",
+        "Richmar Hydratherm Deluxe",
+        "Electric drain pump",
+        "Side shelf",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SAA-C545R",
+      "name": "Pre-owned SportsArt C545R Recumbent Bike",
+      "category": "Cardio",
+      "subcategory": "Recumbent Bikes",
+      "sku": "U-SAA C545R",
+      "description": [
+        "Pre-owned / refurbished",
+        "SportsArt C545R recumbent bike",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SAA-T615M",
+      "name": "Pre-owned SportsArt T615M Treadmill w/ Full-Length Medical Handrails",
+      "category": "Cardio",
+      "subcategory": "Treadmills",
+      "sku": "U-SAA T615M",
+      "description": [
+        "Pre-owned / refurbished",
+        "SportsArt T615M medical treadmill",
+        "Full-length medical handrails",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SAA-T635M",
+      "name": "Pre-owned SportsArt T635M Medical Treadmill w/ Reverse Belt",
+      "category": "Cardio",
+      "subcategory": "Treadmills",
+      "sku": "U-SAA T635M",
+      "description": [
+        "Pre-owned / refurbished",
+        "SportsArt T635M medical treadmill",
+        "Full-length handrails",
+        "Reverse belt feature",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SAA-T655M",
+      "name": "Pre-owned SportsArt T655M Treadmill w/ Reverse Belt",
+      "category": "Cardio",
+      "subcategory": "Treadmills",
+      "sku": "U-SAA T655M",
+      "description": [
+        "Pre-owned / refurbished",
+        "SportsArt T655M medical treadmill",
+        "Full-length medical handrails",
+        "Reverse belt feature",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SCH-AIR",
+      "name": "Pre-Owned Schwinn Airdyne",
+      "category": "Cardio",
+      "subcategory": "Upright Bikes",
+      "sku": "U-SCH AIR",
+      "description": [
+        "Pre-owned / refurbished",
+        "Schwinn Airdyne air-resistance bike",
+        "Total-body upper & lower drive",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SCI-PRO1",
+      "name": "Pre-owned SciFit Pro 1 Upper Body Cycle (Standard Seat)",
+      "category": "Cardio",
+      "subcategory": "Upper Body Cycles",
+      "sku": "U-SCI PRO1",
+      "description": [
+        "Pre-owned / refurbished",
+        "SciFit Pro 1 upper body cycle",
+        "Standard seat",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SCI-PRO1000",
+      "name": "Pre-Owned SciFit Pro 1000 Upper Body Cycle (Standard Seat)",
+      "category": "Cardio",
+      "subcategory": "Upper Body Cycles",
+      "sku": "U-SCI PRO1000",
+      "description": [
+        "Pre-owned / refurbished",
+        "SciFit Pro 1000 upper body cycle",
+        "Standard seat",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SCI-PRO2",
+      "name": "Pre-owned SciFit Pro 2 Total Body Trainer",
+      "category": "Cardio",
+      "subcategory": "Upper Body Cycles",
+      "sku": "U-SCI PRO2",
+      "description": [
+        "Pre-owned / refurbished",
+        "SciFit Pro 2 total body trainer",
+        "Combined upper & lower body cycling",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SCI-SONE03",
+      "name": "Pre-owned SciFit StepOne Recumbent Stepper (Premium Swivel Seat)",
+      "category": "Cardio",
+      "subcategory": "Recumbent Steppers",
+      "sku": "U-SCI SONE03",
+      "description": [
+        "Pre-owned / refurbished",
+        "SciFit StepOne recumbent stepper",
+        "Premium swivel seat",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SFP-CE800",
+      "name": "Pre-Owned Spirit CE800 Elliptical",
+      "category": "Cardio",
+      "subcategory": "Ellipticals",
+      "sku": "U-SFP CE800",
+      "description": [
+        "Pre-owned / refurbished",
+        "Spirit CE800 commercial elliptical",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SFP-CR800",
+      "name": "Pre-owned Spirit CR800 Recumbent Bike",
+      "category": "Cardio",
+      "subcategory": "Recumbent Bikes",
+      "sku": "U-SFP CR800",
+      "description": [
+        "Pre-owned / refurbished",
+        "Spirit CR800 recumbent bike",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-SFP-CT850",
+      "name": "Pre-Owned Spirit CT850 Treadmill",
+      "category": "Cardio",
+      "subcategory": "Treadmills",
+      "sku": "U-SFP CR850",
+      "description": [
+        "Pre-owned / refurbished",
+        "Spirit CT850 commercial treadmill",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-TG-5200-E2",
+      "name": "Pre-owned Total Gym RS Encompass",
+      "category": "Strength Equipment",
+      "subcategory": "Total Gym",
+      "sku": "U-TG 5200-E2",
+      "description": [
+        "Pre-owned / refurbished",
+        "Total Gym RS Encompass",
+        "Incline body-weight resistance trainer",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-TT-3HL",
+      "name": "Pre-owned 3 Section Hi-Lo Table",
+      "category": "Rehab Furniture",
+      "subcategory": "Hi-Lo Tables",
+      "sku": "U-TT 3HL",
+      "description": [
+        "Pre-owned / refurbished",
+        "3-section Hi-Lo treatment table",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
+      "detail": null
+    },
+    {
+      "id": "U-WM-T12",
+      "name": "Pre-Owned Whitehall Hydrocollator",
+      "category": "Modalities",
+      "subcategory": "Hydrocollator",
+      "sku": "U-WM T12",
+      "description": [
+        "Pre-owned / refurbished",
+        "Whitehall T-12 hydrocollator",
+        "Stationary moist heat unit",
+        "Call for current condition & availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
       "detail": null
     }
   ]
