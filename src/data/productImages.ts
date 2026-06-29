@@ -3,6 +3,7 @@ import uGmtsTxTractionAsset from "../assets/products/used/U-GMTS-TX-TRACTION.jpg
 import uCg4759Asset from "../assets/products/used/U-CG-4759.jpg.asset.json";
 import uPb7ftAsset from "../assets/products/used/U-PB-7FT.jpg.asset.json";
 import uCg2788Asset from "../assets/products/used/U-CG-2788.jpg.asset.json";
+import rollingWorkTableAsset from "../assets/products/used/rolling-work-table.jpg.asset.json";
 
 // Product image URLs are served from /public instead of eager-imported modules.
 // This keeps the catalog rendering even if a preview proxy misses an image file.
@@ -624,6 +625,7 @@ export const productImages: Record<string, string> = {
   "940": productAsset("used/U-TG-5200-E2.png"),
   "941": productAsset("used/U-TT-3HL.png"),
   "942": productAsset("used/U-WM-T12.png"),
+  "943": rollingWorkTableAsset.url,
 };
 
 
