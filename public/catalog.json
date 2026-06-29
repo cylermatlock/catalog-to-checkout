@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:50:27.512Z",
+  "generatedAt": "2026-06-29T20:54:12.314Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -38665,6 +38665,24 @@
       ],
       "condition": "pre-owned",
       "image": "/assets/products/used/U-WM-T12.png",
+      "detail": null
+    },
+    {
+      "id": "943",
+      "name": "Pre-owned Rolling Work Table — Adjustable Height",
+      "category": "Rehab Furniture",
+      "subcategory": "Mobile Workstations",
+      "sku": "PARTS",
+      "description": [
+        "Pre-owned",
+        "Mobile rolling work table",
+        "Pneumatic height adjustment",
+        "Locking caster wheels",
+        "Silver finish with light gray top",
+        "Call or Add to Quote Request for pricing and availability"
+      ],
+      "condition": "pre-owned",
+      "image": null,
       "detail": null
     }
   ]
