@@ -113,6 +113,7 @@ const Products = () => {
   // Sync filters to URL + sessionStorage so the product detail back link can return here.
   useEffect(() => {
     const params = new URLSearchParams();
+    if (preOwnedMode) params.set("condition", "pre-owned");
     if (selectedCategory !== "All") params.set("category", selectedCategory);
     if (selectedSub !== "All") params.set("sub", selectedSub);
     if (selectedBrand !== "All") params.set("brand", selectedBrand);
@@ -129,12 +130,18 @@ const Products = () => {
     } catch {
       /* ignore */
     }
-  }, [selectedCategory, selectedSub, selectedBrand, search, bswOnly, reviewMode, location.search, navigate]);
+  }, [preOwnedMode, selectedCategory, selectedSub, selectedBrand, search, bswOnly, reviewMode, location.search, navigate]);
 
+
+  // Categories available within the current mode.
+  const availableCategories = useMemo(() => {
+    const set = new Set(modeProducts.map((p) => p.category));
+    return categories.filter((c) => set.has(c));
+  }, [modeProducts]);
 
   // Brands available within the currently selected category (or all).
   const brands = useMemo(() => {
-    const scoped = products.filter(
+    const scoped = modeProducts.filter(
       (p) => selectedCategory === "All" || p.category === selectedCategory
     );
     const set = new Set(scoped.map(getBrand));
@@ -143,10 +150,10 @@ const Products = () => {
       if (b === "Other") return -1;
       return a.localeCompare(b);
     });
-  }, [selectedCategory]);
+  }, [selectedCategory, modeProducts]);
 
   const filtered = useMemo(() => {
-    const matched = products.filter((p) => {
+    const matched = modeProducts.filter((p) => {
       const matchCat = selectedCategory === "All" || p.category === selectedCategory;
       const matchSub = selectedSub === "All" || p.subcategory === selectedSub;
       const matchBrand = selectedBrand === "All" || getBrand(p) === selectedBrand;
@@ -170,7 +177,7 @@ const Products = () => {
     }
 
     return matched;
-  }, [selectedCategory, selectedSub, selectedBrand, bswOnly, search]);
+  }, [modeProducts, selectedCategory, selectedSub, selectedBrand, bswOnly, search]);
 
   // Dynamic SEO meta based on active filters.
   const seo = useMemo(() => {
