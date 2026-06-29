@@ -220,14 +220,26 @@ const Products = () => {
       {/* Hero */}
       <div className="bg-foreground text-background py-12">
         <div className="container mx-auto px-4">
+          {preOwnedMode && (
+            <span className="inline-block bg-primary text-primary-foreground text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded mb-3">
+              Pre-Owned / Refurbished
+            </span>
+          )}
           <h1 className="text-3xl md:text-4xl font-bold">
-            Product <span className="text-primary">Catalog</span>
+            {preOwnedMode ? (
+              <>Pre-Owned <span className="text-primary">Equipment</span></>
+            ) : (
+              <>Product <span className="text-primary">Catalog</span></>
+            )}
           </h1>
           <p className="text-sm opacity-70 mt-2">
-            Browse our full line of rehab and wellness equipment. Call for clinical pricing on any product.
+            {preOwnedMode
+              ? "Quality pre-owned and refurbished rehab equipment. Inventory changes frequently — call to confirm availability & condition."
+              : "Browse our full line of rehab and wellness equipment. Call for clinical pricing on any product."}
           </p>
         </div>
       </div>
+
 
       <div className="container mx-auto px-4 py-8 flex-1">
         {/* Search + Filters */}
