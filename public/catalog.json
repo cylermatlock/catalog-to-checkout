@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:54:30.583Z",
+  "generatedAt": "2026-06-29T20:56:40.193Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -38603,6 +38603,22 @@
       ],
       "condition": "pre-owned",
       "image": "/assets/products/used/U-SCI-SONE03.png",
+      "detail": null
+    },
+    {
+      "id": "940",
+      "name": "Pre-owned Total Gym RS Encompass",
+      "category": "Strength Equipment",
+      "subcategory": "Total Gym",
+      "sku": "U-TG 5200-E2",
+      "description": [
+        "Pre-owned",
+        "Total Gym RS Encompass",
+        "Incline body-weight resistance trainer",
+        "Call or Add to Quote Request for pricing and availability"
+      ],
+      "condition": "pre-owned",
+      "image": "/assets/products/used/U-TG-5200-E2.png",
       "detail": null
     },
     {
