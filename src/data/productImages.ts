@@ -1,3 +1,5 @@
+import uSfpCt850Asset from "../assets/products/used/U-SFP-CT850.jpg.asset.json";
+
 // Product image URLs are served from /public instead of eager-imported modules.
 // This keeps the catalog rendering even if a preview proxy misses an image file.
 const productAsset = (path: string) => `/assets/products/${path}`;
