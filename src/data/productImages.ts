@@ -601,6 +601,7 @@ export const productImages: Record<string, string> = {
   "U-NS-T5R": productAsset("used/U-NS-T5R.jpg"),
   "U-RICH-DQ8200": productAsset("used/U-RICH-DQ8200.jpg"),
   "U-SFP-CR800": productAsset("used/U-SFP-CR800.jpg"),
+  "U-SFP-CT850": uSfpCt850Asset.url,
   "U-GMTS-3HL": productAsset("used/U-GMTS-3HL.jpg"),
   "U-MS-32060": productAsset("used/U-MS-32060.jpg"),
   "U-GMTS-MIRRORRACK": productAsset("used/U-GMTS-MIRRORRACK.jpg"),
