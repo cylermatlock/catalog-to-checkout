@@ -625,6 +625,7 @@ export const productImages: Record<string, string> = {
   "940": productAsset("used/U-TG-5200-E2.png"),
   "941": productAsset("used/U-TT-3HL.png"),
   "942": productAsset("used/U-WM-T12.png"),
+  "943": rollingWorkTableAsset.url,
 };
 
 
