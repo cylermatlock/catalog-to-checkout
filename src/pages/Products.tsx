@@ -84,6 +84,7 @@ const Products = () => {
   const [selectedSub, setSelectedSub] = useState<string>(
     () => queryParams.get("sub") || "All"
   );
+  const preOwnedMode = queryParams.get("condition") === "pre-owned";
 
   // Force BSW filter on whenever review mode is active.
   useEffect(() => {
