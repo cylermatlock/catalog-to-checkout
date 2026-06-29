@@ -628,6 +628,7 @@ export const productImages: Record<string, string> = {
   "942": productAsset("used/U-WM-T12.png"),
   "943": rollingWorkTableAsset.url,
   "944": woodTreatmentTableAsset.url,
+};
 
 
 
