@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:03:03.769Z",
+  "generatedAt": "2026-06-29T21:06:31.379Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -38253,19 +38253,18 @@
       "detail": null
     },
     {
-      "id": "917",
-      "name": "Pre-owned Neurogym Bungee Mobility Trainer",
+      "id": "918",
+      "name": "Pre-owned Medsurface Traction Table",
       "category": "Rehab Furniture",
-      "subcategory": "Standing Frames",
-      "sku": "U-ML BUNGEE",
+      "subcategory": "Traction Tables",
+      "sku": "U-MS 30364",
       "description": [
         "Pre-owned",
-        "Neurogym Bungee Mobility Trainer",
-        "Body-weight-supported gait & balance training",
+        "Medsurface traction table",
         "Call or Add to Quote Request for pricing and availability"
       ],
       "condition": "pre-owned",
-      "image": "/assets/products/used/U-ML-BUNGEE.png",
+      "image": null,
       "detail": null
     },
     {
@@ -38347,19 +38346,19 @@
       "detail": null
     },
     {
-      "id": "923",
-      "name": "Pre-owned NuStep T5XR Recumbent Cross Trainer",
-      "category": "Cardio",
-      "subcategory": "Recumbent Steppers",
-      "sku": "U-NS T5XR",
+      "id": "924",
+      "name": "Pre-owned 10 ft Platform-Mounted Parallel Bars",
+      "category": "Rehab Furniture",
+      "subcategory": "Parallel Bars",
+      "sku": "U-PB 10FT",
       "description": [
         "Pre-owned",
-        "NuStep T5XR recumbent cross trainer",
-        "Premium swivel seat model",
+        "10 ft platform-mounted parallel bars",
+        "Manual height & width adjustment",
         "Call or Add to Quote Request for pricing and availability"
       ],
       "condition": "pre-owned",
-      "image": null,
+      "image": "/assets/products/used/U-PB-10FT.png",
       "detail": null
     },
     {
