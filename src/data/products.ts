@@ -677,6 +677,7 @@ export const products: Product[] = [
   { id: "941", name: "Pre-owned 3 Section Hi-Lo Table", category: "Rehab Furniture", subcategory: "Hi-Lo Tables", sku: "U-TT 3HL", description: ["Pre-owned", "3-section Hi-Lo treatment table", "Call or Add to Quote Request for pricing and availability"], condition: "pre-owned" },
   { id: "942", name: "Pre-Owned Whitehall Hydrocollator", category: "Modalities", subcategory: "Hydrocollator", sku: "U-WM T12", description: ["Pre-owned", "Whitehall T-12 hydrocollator", "Stationary moist heat unit", "Call or Add to Quote Request for pricing and availability"], condition: "pre-owned" },
   { id: "943", name: "Pre-owned Rolling Work Table — Adjustable Height", category: "Rehab Furniture", subcategory: "Mobile Workstations", sku: "PARTS", description: ["Pre-owned", "Mobile rolling work table", "Pneumatic height adjustment", "Locking caster wheels", "Silver finish with light gray top", "Call or Add to Quote Request for pricing and availability"], condition: "pre-owned" },
+  { id: "944", name: "Pre-Owned GMTS Wood Treatment Table with Adjustable Backrest", category: "Rehab Furniture", subcategory: "Wood Treatment Tables", sku: "U-GMTS 1020", description: ["Pre-owned", "GMTS wood treatment table with adjustable backrest", "Nosehole", "Full laminate shelf", "Call or Add to Quote Request for pricing and availability"], condition: "pre-owned" },
 ];
 
 
