@@ -676,6 +676,7 @@ export const products: Product[] = [
   { id: "940", name: "Pre-owned Total Gym RS Encompass", category: "Strength Equipment", subcategory: "Total Gym", sku: "U-TG 5200-E2", description: ["Pre-owned", "Total Gym RS Encompass", "Incline body-weight resistance trainer", "Call or Add to Quote Request for pricing and availability"], condition: "pre-owned" },
   { id: "941", name: "Pre-owned 3 Section Hi-Lo Table", category: "Rehab Furniture", subcategory: "Hi-Lo Tables", sku: "U-TT 3HL", description: ["Pre-owned", "3-section Hi-Lo treatment table", "Call or Add to Quote Request for pricing and availability"], condition: "pre-owned" },
   { id: "942", name: "Pre-Owned Whitehall Hydrocollator", category: "Modalities", subcategory: "Hydrocollator", sku: "U-WM T12", description: ["Pre-owned", "Whitehall T-12 hydrocollator", "Stationary moist heat unit", "Call or Add to Quote Request for pricing and availability"], condition: "pre-owned" },
+  { id: "943", name: "Pre-owned Rolling Work Table — Adjustable Height", category: "Rehab Furniture", subcategory: "Mobile Workstations", sku: "PARTS", description: ["Pre-owned", "Mobile rolling work table", "Pneumatic height adjustment", "Locking caster wheels", "Silver finish with light gray top", "Call or Add to Quote Request for pricing and availability"], condition: "pre-owned" },
 ];
 
 
