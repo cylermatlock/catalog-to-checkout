@@ -11,6 +11,8 @@ import Lumanova from "./pages/Lumanova.tsx";
 import Boost from "./pages/Boost.tsx";
 import Diagnostics from "./pages/Diagnostics.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import Auth from "./pages/Auth.tsx";
+import Admin from "./pages/Admin.tsx";
 import { CartProvider } from "@/contexts/CartContext";
 import CartDrawer from "@/components/CartDrawer";
 
