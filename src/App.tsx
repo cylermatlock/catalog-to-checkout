@@ -35,6 +35,8 @@ const App = () => (
               <Route path="/lumanova" element={<Lumanova />} />
               <Route path="/boost" element={<Boost />} />
               <Route path="/diagnostics" element={<Diagnostics />} />
+              <Route path="/auth" element={<Auth />} />
+              <Route path="/admin" element={<Admin />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
