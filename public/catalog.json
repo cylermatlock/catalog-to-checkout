@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T21:49:19.658Z",
+  "generatedAt": "2026-07-10T21:49:40.378Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -5758,7 +5758,7 @@
       "detail": null
     },
     {
-      "id": "268",
+      "id": "159",
       "name": "GMTS RRB Floor-to-Knuckle Lifting Box",
       "category": "Work Hardening",
       "subcategory": "Work Hardening",
@@ -5769,60 +5769,8 @@
         "200 lb weight capacity",
         "WORKSteps Approved"
       ],
-      "image": "/assets/products/bsw/saa-p873.png",
-      "detail": {
-        "productId": "268",
-        "slug": "sportsart-p873",
-        "tagline": "This product allows users to quickly and easily switch between upper, lower, and core body exercises for a complete workout.",
-        "overview": [
-          "This product allows users to quickly and easily switch between upper, lower, and core body exercises for a complete workout. A lower stack height and compact footprint make it ideal for any sized facility."
-        ],
-        "highlights": [
-          "Dual swivel pulleys adjust vertically and lock into place, allowing for functional training from virtually any angle",
-          "36 incremental adjustments for the ultimate in customization",
-          "Easy grip bars stabilize during balance challenging workouts",
-          "4:1 (one pulley) and 2:1 (two pulleys) ratios provide versatility for personal and sport-specific training"
-        ],
-        "gallery": [
-          {
-            "src": "/assets/products/sportsart/p873/hero.png",
-            "alt": "P873 Cable Tower — hero view"
-          }
-        ],
-        "specGroups": [
-          {
-            "title": "Specifications",
-            "rows": [
-              {
-                "label": "Unit Weight",
-                "value": "340 lbs / 154 kg"
-              },
-              {
-                "label": "Dimensions (L x W x H)",
-                "value": "41 x 36.2 x 83.1 in / 104.1 x 91.9 x 211 cm"
-              },
-              {
-                "label": "Weight Stack",
-                "value": "176 lb / 80 kg"
-              },
-              {
-                "label": "Max User Weight",
-                "value": "500 lbs / 227 kg"
-              },
-              {
-                "label": "Starting Weight",
-                "value": "3.3 lbs / 1.5 kg"
-              }
-            ]
-          }
-        ],
-        "specSheetUrl": "https://embedded-links.us-1.lytho.us/links/9bf4b079-05ee-45a3-b853-ea390ab61b2a",
-        "sourceUrl": "https://www.gosportsart.com/product/p873-cable-tower/",
-        "seo": {
-          "title": "SportsArt P873 Cable Tower | GM Therapy",
-          "description": "This product allows users to quickly and easily switch between upper, lower, and core body exercises for a complete workout."
-        }
-      }
+      "image": null,
+      "detail": null
     },
     {
       "id": "101",
