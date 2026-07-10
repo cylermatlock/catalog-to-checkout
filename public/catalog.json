@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T21:49:48.390Z",
+  "generatedAt": "2026-07-10T21:59:09.331Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -5755,7 +5755,78 @@
         "WORKSteps Approved"
       ],
       "image": "/assets/products/gmts-rrb-148r.jpg",
-      "detail": null
+      "detail": {
+        "productId": "269",
+        "slug": "gmts-rrb-148r-shoulder-to-overhead-lifting-box",
+        "tagline": "Steel-reinforced lifting box with dowel rod for shoulder-to-overhead work hardening and functional capacity testing.",
+        "overview": [
+          "The GMTS RRB Shoulder to Overhead Lifting Box is built for work hardening, work conditioning, and functional capacity evaluations. Its steel-reinforced construction and integrated dowel rod allow clinicians to safely load the box for progressive shoulder-to-overhead lifting protocols.",
+          "Sized at 14\" x 8\" x 14\" with a 110 lb weight capacity, the box is compact enough for tight clinic footprints while still meeting the demands of industrial rehab. It is WORKSteps approved for use in standardized post-offer employment testing and return-to-work programs."
+        ],
+        "highlights": [
+          "Steel reinforced box with dowel rod",
+          "14\" x 8\" x 14\" dimensions",
+          "110 lb weight capacity",
+          "WORKSteps approved for FCE and post-offer testing",
+          "Molded handles on both sides for two-handed lifts",
+          "Durable powder-coat blue finish"
+        ],
+        "gallery": [
+          {
+            "src": "/assets/products/gmts-rrb-148r.jpg",
+            "alt": "GMTS RRB Shoulder to Overhead Lifting Box — three-quarter view"
+          },
+          {
+            "src": "/assets/products/gmts-rrb-148r-angle3.png",
+            "alt": "GMTS RRB Shoulder to Overhead Lifting Box — top-down three-quarter angle"
+          }
+        ],
+        "specGroups": [
+          {
+            "title": "Dimensions",
+            "rows": [
+              {
+                "label": "Size",
+                "value": "14\" x 8\" x 14\""
+              },
+              {
+                "label": "Weight capacity",
+                "value": "110 lbs"
+              },
+              {
+                "label": "Construction",
+                "value": "Steel reinforced with dowel rod"
+              },
+              {
+                "label": "Handles",
+                "value": "Molded side handles"
+              }
+            ]
+          },
+          {
+            "title": "Clinical Use",
+            "rows": [
+              {
+                "label": "Category",
+                "value": "Work Hardening / FCE"
+              },
+              {
+                "label": "Standard",
+                "value": "WORKSteps approved"
+              },
+              {
+                "label": "Applications",
+                "value": "Shoulder-to-overhead lifting, return-to-work testing"
+              }
+            ]
+          }
+        ],
+        "sourceUrl": "https://gmtherapytx.com",
+        "seo": {
+          "title": "GMTS RRB Shoulder to Overhead Lifting Box (148R) | GM Therapy",
+          "description": "GMTS RRB 148R steel-reinforced shoulder-to-overhead lifting box. 14\" x 8\" x 14\", 110 lb capacity, WORKSteps approved for work hardening and FCE."
+        }
+      }
     },
     {
       "id": "159",
@@ -5770,7 +5841,82 @@
         "WORKSteps Approved"
       ],
       "image": "/assets/products/gmts-rrb-1414r.jpg",
-      "detail": null
+      "detail": {
+        "productId": "159",
+        "slug": "gmts-rrb-1414r-floor-to-knuckle-lifting-box",
+        "tagline": "Steel-reinforced cube lifting box with integrated weight post for floor-to-knuckle work hardening and functional capacity testing.",
+        "overview": [
+          "The GMTS RRB Floor-to-Knuckle Lifting Box is designed for the heaviest work hardening protocols. Its 14\" cube form factor and integrated weight post allow clinicians to load the box progressively for floor-to-knuckle, floor-to-waist, and material handling tasks.",
+          "Steel reinforced construction supports up to 200 lbs of load, making it suitable for industrial rehab, FCE, and post-offer employment testing. WORKSteps approved for standardized use across return-to-work programs."
+        ],
+        "highlights": [
+          "Steel reinforced with integrated weight post",
+          "14\" x 14\" x 14\" cube dimensions",
+          "200 lb weight capacity",
+          "WORKSteps approved for FCE and post-offer testing",
+          "Molded handles on both sides for two-handed lifts",
+          "Durable powder-coat blue finish"
+        ],
+        "gallery": [
+          {
+            "src": "/assets/products/gmts-rrb-1414r.jpg",
+            "alt": "GMTS RRB Floor-to-Knuckle Lifting Box — three-quarter view"
+          },
+          {
+            "src": "/assets/products/gmts-rrb-1414r-angle2.png",
+            "alt": "GMTS RRB Floor-to-Knuckle Lifting Box — front view"
+          },
+          {
+            "src": "/assets/products/gmts-rrb-1414r-angle3.png",
+            "alt": "GMTS RRB Floor-to-Knuckle Lifting Box — elevated three-quarter angle"
+          }
+        ],
+        "specGroups": [
+          {
+            "title": "Dimensions",
+            "rows": [
+              {
+                "label": "Size",
+                "value": "14\" x 14\" x 14\""
+              },
+              {
+                "label": "Weight capacity",
+                "value": "200 lbs"
+              },
+              {
+                "label": "Construction",
+                "value": "Steel reinforced with weight post"
+              },
+              {
+                "label": "Handles",
+                "value": "Molded side handles"
+              }
+            ]
+          },
+          {
+            "title": "Clinical Use",
+            "rows": [
+              {
+                "label": "Category",
+                "value": "Work Hardening / FCE"
+              },
+              {
+                "label": "Standard",
+                "value": "WORKSteps approved"
+              },
+              {
+                "label": "Applications",
+                "value": "Floor-to-knuckle lifting, material handling, return-to-work testing"
+              }
+            ]
+          }
+        ],
+        "sourceUrl": "https://gmtherapytx.com",
+        "seo": {
+          "title": "GMTS RRB Floor-to-Knuckle Lifting Box (1414R) | GM Therapy",
+          "description": "GMTS RRB 1414R steel-reinforced floor-to-knuckle lifting box. 14\" cube, 200 lb capacity, WORKSteps approved for work hardening and FCE testing."
+        }
+      }
     },
     {
       "id": "101",
