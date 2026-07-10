@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T21:43:02.041Z",
+  "generatedAt": "2026-07-10T21:49:48.390Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -5755,6 +5755,21 @@
         "WORKSteps Approved"
       ],
       "image": "/assets/products/gmts-rrb-148r.jpg",
+      "detail": null
+    },
+    {
+      "id": "159",
+      "name": "GMTS RRB Floor-to-Knuckle Lifting Box",
+      "category": "Work Hardening",
+      "subcategory": "Work Hardening",
+      "sku": "GMTS RRB 1414R",
+      "description": [
+        "Steel reinforced w/ weight post",
+        "14\" x 14\" x 14\"",
+        "200 lb weight capacity",
+        "WORKSteps Approved"
+      ],
+      "image": "/assets/products/gmts-rrb-1414r.jpg",
       "detail": null
     },
     {
