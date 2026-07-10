@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T21:39:39.740Z",
+  "generatedAt": "2026-07-10T21:41:19.170Z",
   "site": "https://products.gmtherapytx.com",
   "categories": [
     "Biodex/Sport Medical",
@@ -14274,6 +14274,21 @@
       ],
       "bsw": true,
       "image": "/assets/products/bsw/gm-ws-shelf.png",
+      "detail": null
+    },
+    {
+      "id": "269",
+      "name": "RRB Shoulder to Overhead Lifting Box",
+      "category": "Work Hardening",
+      "subcategory": "Work Hardening",
+      "sku": "GMTS RRB 148R",
+      "description": [
+        "Steel reinforced box w/ dowel rod",
+        "14\" x 8\" x 14\"",
+        "110 lb weight capacity",
+        "WORKSteps Approved"
+      ],
+      "image": null,
       "detail": null
     },
     {
