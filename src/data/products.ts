@@ -160,6 +160,7 @@ export const products: Product[] = [
 
   // WORK HARDENING
   { id: "269", name: "GMTS RRB Shoulder to Overhead Lifting Box", category: "Work Hardening", subcategory: "Work Hardening", sku: "GMTS RRB 148R", description: ["Steel reinforced box w/ dowel rod", "14\" x 8\" x 14\"", "110 lb weight capacity", "WORKSteps Approved"] },
+  { id: "268", name: "GMTS RRB Floor-to-Knuckle Lifting Box", category: "Work Hardening", subcategory: "Work Hardening", sku: "GMTS RRB 1414R", description: ["Steel reinforced w/ weight post", "14\" x 14\" x 14\"", "200 lb weight capacity", "WORKSteps Approved"] },
   { id: "101", name: "Baseline Hand Dynamometer, 200 lb Capacity", category: "Work Hardening", subcategory: "Work Hardening", sku: "FAB 12-0240", description: ["Accurate grip strength readings", "Maximum reading remains until reset", "5 position adjustable handle"] },
   { id: "102", name: "Baseline Pinch Gauge, 50 lb Capacity", category: "Work Hardening", subcategory: "Work Hardening", sku: "FAB 12-0222", description: ["Hydraulic system for reliability", "50 pound hd standard head", "5 year manufacturers warranty"] },
   { id: "103", name: "Baseline Hand Evaluation, 3 Piece Set", category: "Work Hardening", subcategory: "Work Hardening", sku: "FAB 12-0220", description: ["Hydraulic hand dynamometer", "6\" stainless steel goniometer", "Hydraulic pinch gauge", "Protective carry case", "2 year warranty"] },
