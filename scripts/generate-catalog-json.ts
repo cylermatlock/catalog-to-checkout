@@ -149,7 +149,7 @@ def resolve_image_url(relative_path):
 
 def parse_estimate(pdf_path):
     """
-    Parse a ZohoBooks estimate PDF.
+    Parse a QuickBooks estimate PDF.
     Returns a dict with keys: quote_number, date, contact_name, clinic_name,
     address, city_state_zip, line_items (list of dicts with sku, description,
     quantity, condition).
@@ -171,7 +171,7 @@ def parse_estimate(pdf_path):
         # ── Quote number and date ──
         # Only take the first valid match for each — some PDFs repeat
         # "DATE" as a table column header further down the page, and
-        # ZohoBooks sometimes renders "ESTIMATE" without a trailing "#".
+        # QuickBooks sometimes renders "ESTIMATE" without a trailing "#".
         date_found = False
         for i, w in enumerate(words):
             if w["text"].upper() in ("ESTIMATE#", "ESTIMATE") and not result["quote_number"]:
@@ -237,7 +237,7 @@ def parse_estimate(pdf_path):
     return result
 
 
-# Full ZohoBooks line format is: "SKU  DESCRIPTION  QTY  RATE  AMOUNT[T]"
+# Full QuickBooks line format is: "SKU  DESCRIPTION  QTY  RATE  AMOUNT[T]"
 # e.g. "BK GR639 BodyKore Leg Extension & Leg Curl 1 2,995.00 2,995.00T"
 # First strip the trailing "QTY RATE AMOUNT[T]" tail, then split what's
 # left into the SKU (1-2 leading ALL-CAPS/digit/hyphen tokens) and the
@@ -256,7 +256,7 @@ CONTINUATION_SKIP = re.compile(r"^(page\s+\d+|subtotal|total|estimate|bill|ship|
 
 def _parse_line_item(line):
     """
-    Try to parse a single text line as a ZohoBooks line item.
+    Try to parse a single text line as a QuickBooks line item.
     Returns dict with sku, description, quantity, condition or None.
     """
     line = line.strip()
@@ -983,7 +983,7 @@ def _get_brand(product, fallback_name=""):
 
 def main():
     parser = argparse.ArgumentParser(description="GMTS Quote PDF Generator")
-    parser.add_argument("estimate_pdf", help="Path to ZohoBooks estimate PDF")
+    parser.add_argument("estimate_pdf", help="Path to QuickBooks estimate PDF")
     parser.add_argument("--preparer", default=DEFAULT_PREPARER,
                         help=f"Rep name (default: {DEFAULT_PREPARER})")
     parser.add_argument("--layout", default="auto",
