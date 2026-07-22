@@ -23,7 +23,6 @@ export function catalogJsonPlugin(): Plugin {
         const src = fs.readFileSync(productsPath, "utf8");
         
         // Use a simpler approach: extract the array contents using regex or string splitting
-        // We look for "export const products: Product[] = [" and the closing "];"
         const startMarker = "export const products: Product[] = [";
         const endMarker = "];";
         
@@ -33,7 +32,6 @@ export function catalogJsonPlugin(): Plugin {
           return;
         }
         
-        // Find the last index of ]; which should be after the startIdx
         const endIdx = src.lastIndexOf(endMarker);
         if (endIdx === -1 || endIdx < startIdx) {
           console.warn("[catalog-json] Could not find end of products array");
@@ -42,14 +40,9 @@ export function catalogJsonPlugin(): Plugin {
         
         const arrayStr = src.substring(startIdx + startMarker.length, endIdx).trim();
         
-        // We'll use a very basic "eval" like approach by wrapping it in JSON.parse after cleaning
-        // But the objects in the TS file are not valid JSON (no quotes on keys, comments, etc)
-        // So we'll use a regex to extract individual objects.
-        
         const objectMatches = Array.from(arrayStr.matchAll(/\{[\s\S]*?\}/g));
         const products = objectMatches.map(m => {
           const objStr = m[0];
-          // Simple key extraction
           const idMatch = objStr.match(/id:\s*"([^"]+)"/);
           const nameMatch = objStr.match(/name:\s*"([^"]+)"/);
           const categoryMatch = objStr.match(/category:\s*"([^"]+)"/);
@@ -77,11 +70,9 @@ export function catalogJsonPlugin(): Plugin {
           return product;
         });
 
-        // Try to match images from productImages.ts if possible
         if (fs.existsSync(productsImagesPath)) {
           const imgSrc = fs.readFileSync(productsImagesPath, "utf8");
           products.forEach(p => {
-            // Look for patterns like `900: "/assets/products/used/U-AM-640.png"`
             const imgMatch = imgSrc.match(new RegExp(`["']?${p.id}["']?\\s*:\\s*["']([^"']+)["']`));
             if (imgMatch) {
               p.image = imgMatch[1];
