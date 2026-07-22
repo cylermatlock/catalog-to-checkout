@@ -13,20 +13,85 @@ export function catalogJsonPlugin(): Plugin {
     buildStart() {
       try {
         const productsPath = path.resolve(process.cwd(), "src/data/products.ts");
-        const src = fs.readFileSync(productsPath, "utf8");
+        const productsImagesPath = path.resolve(process.cwd(), "src/data/productImages.ts");
+        
+        if (!fs.existsSync(productsPath)) {
+          console.warn("[catalog-json] src/data/products.ts not found");
+          return;
+        }
 
-        // Basic parsing of the products array from products.ts
-        // Since we know the structure is "export const products: Product[] = [ ... ];"
-        // We'll extract the products array. A more robust way would be to import it, 
-        // but since we are in a build hook and want to avoid complex TS execution if possible,
-        // we'll use a safer approach or just read the generated file if it exists.
+        const src = fs.readFileSync(productsPath, "utf8");
         
-        // Actually, the most reliable way to get the data is to evaluate the TS file,
-        // but for a Vite plugin running in Node, we can't easily import a .ts file without setup.
-        // Let's check if the previous agent had a different way.
+        // Use a simpler approach: extract the array contents using regex or string splitting
+        // We look for "export const products: Product[] = [" and the closing "];"
+        const startMarker = "export const products: Product[] = [";
+        const endMarker = "];";
         
-        // Wait, the error said "scripts/generate-catalog-json.ts:1:258: ERROR: Unterminated string literal"
-        // and showed a python-like docstring at the top. It seems it WAS a python script renamed to .ts.
+        const startIdx = src.indexOf(startMarker);
+        if (startIdx === -1) {
+          console.warn("[catalog-json] Could not find products array in products.ts");
+          return;
+        }
+        
+        // Find the last index of ]; which should be after the startIdx
+        const endIdx = src.lastIndexOf(endMarker);
+        if (endIdx === -1 || endIdx < startIdx) {
+          console.warn("[catalog-json] Could not find end of products array");
+          return;
+        }
+        
+        const arrayStr = src.substring(startIdx + startMarker.length, endIdx).trim();
+        
+        // We'll use a very basic "eval" like approach by wrapping it in JSON.parse after cleaning
+        // But the objects in the TS file are not valid JSON (no quotes on keys, comments, etc)
+        // So we'll use a regex to extract individual objects.
+        
+        const objectMatches = Array.from(arrayStr.matchAll(/\{[\s\S]*?\}/g));
+        const products = objectMatches.map(m => {
+          const objStr = m[0];
+          // Simple key extraction
+          const idMatch = objStr.match(/id:\s*"([^"]+)"/);
+          const nameMatch = objStr.match(/name:\s*"([^"]+)"/);
+          const categoryMatch = objStr.match(/category:\s*"([^"]+)"/);
+          const subcategoryMatch = objStr.match(/subcategory:\s*"([^"]+)"/);
+          const skuMatch = objStr.match(/sku:\s*"([^"]+)"/);
+          const descriptionMatch = objStr.match(/description:\s*\[([\s\S]*?)\]/);
+          const conditionMatch = objStr.match(/condition:\s*"([^"]+)"/);
+          
+          let description: string[] = [];
+          if (descriptionMatch) {
+            description = Array.from(descriptionMatch[1].matchAll(/"([^"]+)"/g)).map(dm => dm[1]);
+          }
+          
+          const product: any = {
+            id: idMatch ? idMatch[1] : "",
+            name: nameMatch ? nameMatch[1] : "",
+            category: categoryMatch ? categoryMatch[1] : "",
+            subcategory: subcategoryMatch ? subcategoryMatch[1] : "",
+            sku: skuMatch ? skuMatch[1] : "",
+            description: description,
+          };
+          
+          if (conditionMatch) product.condition = conditionMatch[1];
+          
+          return product;
+        });
+
+        // Try to match images from productImages.ts if possible
+        if (fs.existsSync(productsImagesPath)) {
+          const imgSrc = fs.readFileSync(productsImagesPath, "utf8");
+          products.forEach(p => {
+            // Look for patterns like `900: "/assets/products/used/U-AM-640.png"`
+            const imgMatch = imgSrc.match(new RegExp(`["']?${p.id}["']?\\s*:\\s*["']([^"']+)["']`));
+            if (imgMatch) {
+              p.image = imgMatch[1];
+            }
+          });
+        }
+
+        const outPath = path.resolve(process.cwd(), "public/catalog.json");
+        fs.writeFileSync(outPath, JSON.stringify({ products }, null, 2), "utf8");
+        console.log(`[catalog-json] wrote ${products.length} products to public/catalog.json`);
       } catch (err) {
         console.warn("[catalog-json] generation failed:", err);
       }
