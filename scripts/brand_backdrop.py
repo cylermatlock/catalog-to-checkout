@@ -44,17 +44,19 @@ def backdrop() -> Image.Image:
         v = int(238 + 14 * t)
         d.line([(0, y), (W, y)], fill=(v, v, v + 1 if v < 255 else 255))
 
-    # subtle chevron / wing line pattern (very light)
+    # subtle diagonal chevron pattern (very light, brand wing motif)
     patt = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     pd = ImageDraw.Draw(patt)
-    for i in range(-6, 14):
-        x0 = i * 130
+    step = 150
+    for i in range(-8, 16):
+        x0 = i * step
         for k in range(3):
-            off = k * 26
-            pd.line([(x0 + off, H * 0.05), (x0 + off + 300, H * 0.05),
-                     (x0 + off + 480, H * 0.62)], fill=(210, 212, 216, 90), width=7)
-    patt = patt.filter(ImageFilter.GaussianBlur(0.6))
+            off = k * 22
+            pd.line([(x0 + off, -60), (x0 + off + 340, H * 0.5),
+                     (x0 + off + 40, H + 60)], fill=(219, 221, 226, 70), width=6)
+    patt = patt.filter(ImageFilter.GaussianBlur(1.2))
     bg = Image.alpha_composite(bg.convert("RGBA"), patt)
+
 
     # orange corner triangle, top-right
     d2 = ImageDraw.Draw(bg)
