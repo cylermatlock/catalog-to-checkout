@@ -74,9 +74,28 @@ def backdrop() -> Image.Image:
 BASE = backdrop()
 
 
-def process(path: Path):
+def clean_mask(cut: Image.Image) -> Image.Image:
+    """Drop small disconnected specks so only the product remains."""
+    try:
+        import numpy as np
+        from scipy import ndimage
+    except Exception:
+        return cut
+    a = np.array(cut)
+    alpha = a[..., 3]
+    lbl, n = ndimage.label(alpha > 30)
+    if n <= 1:
+        return cut
+    sizes = ndimage.sum(alpha > 30, lbl, range(1, n + 1))
+    keep = sizes >= sizes.max() * 0.05
+    mask = np.isin(lbl, np.nonzero(keep)[0] + 1)
+    a[..., 3] = np.where(mask, alpha, 0)
+    return Image.fromarray(a)
+
+
+def process(path: Path, out_dir: Path | None = None):
     raw = Image.open(path).convert("RGBA")
-    cut = remove(raw, session=_session, post_process_mask=True)
+    cut = clean_mask(remove(raw, session=_session, post_process_mask=True))
     bbox = cut.getbbox()
     if not bbox:
         print(f"  ! no subject found: {path.name}")
@@ -105,11 +124,13 @@ def process(path: Path):
 
     canvas.alpha_composite(new, (x, y))
 
-    out = path.with_suffix(".png") if path.suffix.lower() != ".png" else path
-    canvas.convert("RGB").save(out.with_suffix(".jpg"), "JPEG", quality=90, optimize=True)
-    if out.with_suffix(".jpg") != path:
-        pass
+    out = (out_dir / path.name) if out_dir else path
+    if out.suffix.lower() == ".png":
+        canvas.convert("RGB").save(out, "PNG", optimize=True)
+    else:
+        canvas.convert("RGB").save(out, "JPEG", quality=90, optimize=True)
     return True
+
 
 
 def main():
