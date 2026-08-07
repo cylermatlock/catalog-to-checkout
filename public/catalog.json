@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T21:52:40.572Z",
+  "generatedAt": "2026-08-07T21:52:57.431Z",
   "products": [
     {
       "id": "1",
@@ -401,9 +401,9 @@
       "category": "Modalities",
       "subcategory": "Portable TENS",
       "condition": "new",
-      "image": "/assets/products/richmar-intensity-select-combo-ii.jpg?v=2",
+      "image": "/assets/products/richmar-intensity-select-combo-ii.jpg",
       "images": [
-        "/assets/products/richmar-intensity-select-combo-ii.jpg?v=2",
+        "/assets/products/richmar-intensity-select-combo-ii.jpg",
         "/assets/products/richmar/intensity-select-combo-ii/view-1.webp",
         "/assets/products/richmar/intensity-select-combo-ii/view-2.webp",
         "/assets/products/richmar/intensity-select-combo-ii/view-3.webp",
@@ -425,9 +425,9 @@
       "category": "Modalities",
       "subcategory": "Portable TENS",
       "condition": "new",
-      "image": "/assets/products/richmar-if-combo-ii.jpg?v=2",
+      "image": "/assets/products/richmar-if-combo-ii.jpg",
       "images": [
-        "/assets/products/richmar-if-combo-ii.jpg?v=2",
+        "/assets/products/richmar-if-combo-ii.jpg",
         "/assets/products/richmar/if-combo-ii/view-1.webp",
         "/assets/products/richmar/if-combo-ii/view-2.webp",
         "/assets/products/richmar/if-combo-ii/view-3.webp",
@@ -2864,9 +2864,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/anc-ap-65-01.png?v=2",
+      "image": "/assets/products/bsw/anc-ap-65-01.png",
       "images": [
-        "/assets/products/bsw/anc-ap-65-01.png?v=2",
+        "/assets/products/bsw/anc-ap-65-01.png",
         "/assets/products/ancore-pro-1.png",
         "/assets/products/ancore-pro-2.png",
         "/assets/products/ancore-pro-3.png",
@@ -2892,9 +2892,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/anc-at-as-01.png?v=3",
+      "image": "/assets/products/bsw/anc-at-as-01.png",
       "images": [
-        "/assets/products/bsw/anc-at-as-01.png?v=3",
+        "/assets/products/bsw/anc-at-as-01.png",
         "/assets/products/ancore-ankle-strap-1.png",
         "/assets/products/ancore-ankle-strap-2.png",
         "/assets/products/ancore-ankle-strap-3.png",
@@ -2916,9 +2916,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/anc-at-pd-01-sm.png?v=2",
+      "image": "/assets/products/bsw/anc-at-pd-01-sm.png",
       "images": [
-        "/assets/products/bsw/anc-at-pd-01-sm.png?v=2",
+        "/assets/products/bsw/anc-at-pd-01-sm.png",
         "/assets/products/ancore-plate-dock-1.png",
         "/assets/products/ancore-plate-dock-2.png",
         "/assets/products/ancore-plate-dock-3.png",
@@ -2942,9 +2942,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/anc-at-rp-01-25.jpg?v=2",
+      "image": "/assets/products/bsw/anc-at-rp-01-25.jpg",
       "images": [
-        "/assets/products/bsw/anc-at-rp-01-25.jpg?v=2",
+        "/assets/products/bsw/anc-at-rp-01-25.jpg",
         "/assets/products/ancore-resistance-plates-1.png",
         "/assets/products/ancore-resistance-plates-2.png",
         "/assets/products/ancore-resistance-plates-3.png",
@@ -2968,9 +2968,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/anc-at-tm-01.png?v=2",
+      "image": "/assets/products/bsw/anc-at-tm-01.png",
       "images": [
-        "/assets/products/bsw/anc-at-tm-01.png?v=2",
+        "/assets/products/bsw/anc-at-tm-01.png",
         "/assets/products/ancore-sliding-track-mount-1.png",
         "/assets/products/ancore-sliding-track-mount-2.png",
         "/assets/products/ancore-sliding-track-mount-3.png",
@@ -2994,9 +2994,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/asg-11360b-10.jpg?v=2",
+      "image": "/assets/products/bsw/asg-11360b-10.jpg",
       "images": [
-        "/assets/products/bsw/asg-11360b-10.jpg?v=2"
+        "/assets/products/bsw/asg-11360b-10.jpg"
       ],
       "description": [
         "10 lb Olympic iron plate, satin black enamel finish",
@@ -3014,9 +3014,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/asg-11360b-25.jpg?v=2",
+      "image": "/assets/products/bsw/asg-11360b-25.jpg",
       "images": [
-        "/assets/products/bsw/asg-11360b-25.jpg?v=2"
+        "/assets/products/bsw/asg-11360b-25.jpg"
       ],
       "description": [
         "25 lb Olympic iron plate, satin black enamel finish",
@@ -3054,9 +3054,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/asg-1136zr-10.png?v=9",
+      "image": "/assets/products/bsw/asg-1136zr-10.png",
       "images": [
-        "/assets/products/bsw/asg-1136zr-10.png?v=9"
+        "/assets/products/bsw/asg-1136zr-10.png"
       ],
       "description": [
         "10 lb Olympic rubber-coated plate with dual grip handles",
@@ -3096,9 +3096,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/asg-1136zr-35.png?v=8",
+      "image": "/assets/products/bsw/asg-1136zr-35.png",
       "images": [
-        "/assets/products/bsw/asg-1136zr-35.png?v=8"
+        "/assets/products/bsw/asg-1136zr-35.png"
       ],
       "description": [
         "35 lb Olympic rubber-coated plate with dual grip handles",
@@ -3157,9 +3157,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Bars",
       "condition": "new",
-      "image": "/assets/products/bsw/asg-ob-72al.jpg?v=2",
+      "image": "/assets/products/bsw/asg-ob-72al.jpg",
       "images": [
-        "/assets/products/bsw/asg-ob-72al.jpg?v=2"
+        "/assets/products/bsw/asg-ob-72al.jpg"
       ],
       "description": [
         "6 ft aluminum Olympic bar — ultra-lightweight",
@@ -3176,9 +3176,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Bars",
       "condition": "new",
-      "image": "/assets/products/bsw/asg-ob-86uc.jpg?v=2",
+      "image": "/assets/products/bsw/asg-ob-86uc.jpg",
       "images": [
-        "/assets/products/bsw/asg-ob-86uc.jpg?v=2"
+        "/assets/products/bsw/asg-ob-86uc.jpg"
       ],
       "description": [
         "7 ft round Olympic bar",
@@ -3257,9 +3257,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/asg-rss-165b.jpg?v=2",
+      "image": "/assets/products/bsw/asg-rss-165b.jpg",
       "images": [
-        "/assets/products/bsw/asg-rss-165b.jpg?v=2"
+        "/assets/products/bsw/asg-rss-165b.jpg"
       ],
       "description": [
         "Complete 165 lb Olympic plate set with 6' chrome bar",
@@ -3277,9 +3277,9 @@
       "category": "Strength Equipment",
       "subcategory": "Storage",
       "condition": "new",
-      "image": "/assets/products/bsw/asg-tph-1.jpg?v=2",
+      "image": "/assets/products/bsw/asg-tph-1.jpg",
       "images": [
-        "/assets/products/bsw/asg-tph-1.jpg?v=2"
+        "/assets/products/bsw/asg-tph-1.jpg"
       ],
       "description": [
         "1\" standard plate holder, black",
@@ -3297,9 +3297,9 @@
       "category": "Strength Equipment",
       "subcategory": "Storage",
       "condition": "new",
-      "image": "/assets/products/bsw/asg-tph-2.jpg?v=5",
+      "image": "/assets/products/bsw/asg-tph-2.jpg",
       "images": [
-        "/assets/products/bsw/asg-tph-2.jpg?v=5"
+        "/assets/products/bsw/asg-tph-2.jpg"
       ],
       "description": [
         "2\" Olympic plate holder, black",
@@ -3317,9 +3317,9 @@
       "category": "Strength Equipment",
       "subcategory": "Selectorized",
       "condition": "new",
-      "image": "/assets/products/bsw/bk-gr639.jpg?v=2",
+      "image": "/assets/products/bsw/bk-gr639.jpg",
       "images": [
-        "/assets/products/bsw/bk-gr639.jpg?v=2"
+        "/assets/products/bsw/bk-gr639.jpg"
       ],
       "description": [
         "Frame Material: Heavy-duty commercial-grade steel tubing",
@@ -3338,9 +3338,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/clin-5-4334.png?v=9",
+      "image": "/assets/products/bsw/clin-5-4334.png",
       "images": [
-        "/assets/products/bsw/clin-5-4334.png?v=9"
+        "/assets/products/bsw/clin-5-4334.png"
       ],
       "description": [
         "Load Capacity: 250 lbs",
@@ -3357,9 +3357,9 @@
       "category": "Rehab Furniture",
       "subcategory": "Traction Tables",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-00-1410.png?v=2",
+      "image": "/assets/products/bsw/fab-00-1410.png",
       "images": [
-        "/assets/products/bsw/fab-00-1410.png?v=2"
+        "/assets/products/bsw/fab-00-1410.png"
       ],
       "description": [
         "Universal traction belt system for clinical traction tables",
@@ -3378,9 +3378,9 @@
       "category": "Modalities",
       "subcategory": "Cold Compression",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-00-3102.png?v=2",
+      "image": "/assets/products/bsw/fab-00-3102.png",
       "images": [
-        "/assets/products/bsw/fab-00-3102.png?v=2"
+        "/assets/products/bsw/fab-00-3102.png"
       ],
       "description": [
         "Top-loading stainless steel chilling unit for cold packs",
@@ -3402,9 +3402,9 @@
       "category": "Rehab Furniture",
       "subcategory": "Traction Tables",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-00-4759.jpg?v=2",
+      "image": "/assets/products/bsw/fab-00-4759.jpg",
       "images": [
-        "/assets/products/bsw/fab-00-4759.jpg?v=2"
+        "/assets/products/bsw/fab-00-4759.jpg"
       ],
       "description": [
         "Programmable clinical traction unit",
@@ -3425,9 +3425,9 @@
       "category": "Rehab Furniture",
       "subcategory": "Traction Tables",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-00-7040k.jpg?v=2",
+      "image": "/assets/products/bsw/fab-00-7040k.jpg",
       "images": [
-        "/assets/products/bsw/fab-00-7040k.jpg?v=2"
+        "/assets/products/bsw/fab-00-7040k.jpg"
       ],
       "description": [
         "Clinical Saunders cervical traction unit",
@@ -3446,9 +3446,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Cuff Weights",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-10-0250.jpg?v=2",
+      "image": "/assets/products/bsw/fab-10-0250.jpg",
       "images": [
-        "/assets/products/bsw/fab-10-0250.jpg?v=2"
+        "/assets/products/bsw/fab-10-0250.jpg"
       ],
       "description": [
         "Set of 7 cuff weights — 1, 2, 3, 4, 5, 7.5, and 10 lb",
@@ -3466,9 +3466,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-10-0565.jpg?v=2",
+      "image": "/assets/products/bsw/fab-10-0565.jpg",
       "images": [
-        "/assets/products/bsw/fab-10-0565.jpg?v=2"
+        "/assets/products/bsw/fab-10-0565.jpg"
       ],
       "description": [
         "Set of 20 vinyl-coated dumbbells — pairs from 1 to 10 lb",
@@ -3487,9 +3487,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Storage",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-10-0575.jpg?v=2",
+      "image": "/assets/products/bsw/fab-10-0575.jpg",
       "images": [
-        "/assets/products/bsw/fab-10-0575.jpg?v=2"
+        "/assets/products/bsw/fab-10-0575.jpg"
       ],
       "description": [
         "Wall-mounted dumbbell rack",
@@ -3507,9 +3507,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Balance",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-10-1182.jpg?v=2",
+      "image": "/assets/products/bsw/fab-10-1182.jpg",
       "images": [
-        "/assets/products/bsw/fab-10-1182.jpg?v=2"
+        "/assets/products/bsw/fab-10-1182.jpg"
       ],
       "description": [
         "Wooden incline / slant board",
@@ -3528,9 +3528,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Storage",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-10-4334.jpg?v=2",
+      "image": "/assets/products/bsw/fab-10-4334.jpg",
       "images": [
-        "/assets/products/bsw/fab-10-4334.jpg?v=2"
+        "/assets/products/bsw/fab-10-4334.jpg"
       ],
       "description": [
         "Set of 3 stackable storage rings for stability balls",
@@ -3548,9 +3548,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Bands & Tubing",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-10-6328.jpg?v=2",
+      "image": "/assets/products/bsw/fab-10-6328.jpg",
       "images": [
-        "/assets/products/bsw/fab-10-6328.jpg?v=2"
+        "/assets/products/bsw/fab-10-6328.jpg"
       ],
       "description": [
         "Latex-free resistance band rolls",
@@ -3569,9 +3569,9 @@
       "category": "Strength Equipment",
       "subcategory": "Reformers",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-10-7298.jpg?v=3",
+      "image": "/assets/products/bsw/fab-10-7298.jpg",
       "images": [
-        "/assets/products/bsw/fab-10-7298.jpg?v=3"
+        "/assets/products/bsw/fab-10-7298.jpg"
       ],
       "description": [
         "24\" jumpboard accessory for Merrithew V2 Max Reformer",
@@ -3589,9 +3589,9 @@
       "category": "Strength Equipment",
       "subcategory": "Reformers",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-10-7303.jpg?v=2",
+      "image": "/assets/products/bsw/fab-10-7303.jpg",
       "images": [
-        "/assets/products/bsw/fab-10-7303.jpg?v=2"
+        "/assets/products/bsw/fab-10-7303.jpg"
       ],
       "description": [
         "Complete Merrithew V2 Max Reformer with included accessories",
@@ -3653,9 +3653,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Assessment Tools",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-12-1056.jpg?v=2",
+      "image": "/assets/products/bsw/fab-12-1056.jpg",
       "images": [
-        "/assets/products/bsw/fab-12-1056.jpg?v=2"
+        "/assets/products/bsw/fab-12-1056.jpg"
       ],
       "description": [
         "Bubble inclinometer for ROM measurement",
@@ -3694,9 +3694,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Stability Balls",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-30-1805x.jpg?v=2",
+      "image": "/assets/products/bsw/fab-30-1805x.jpg",
       "images": [
-        "/assets/products/bsw/fab-30-1805x.jpg?v=2"
+        "/assets/products/bsw/fab-30-1805x.jpg"
       ],
       "description": [
         "34\" / 85 cm inflatable exercise ball — Blue",
@@ -3775,9 +3775,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Balance",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-38-0011.jpg?v=2",
+      "image": "/assets/products/bsw/fab-38-0011.jpg",
       "images": [
-        "/assets/products/bsw/fab-38-0011.jpg?v=2"
+        "/assets/products/bsw/fab-38-0011.jpg"
       ],
       "description": [
         "Folding accordion exercise mat",
@@ -3796,9 +3796,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Standing Frames",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-43-1966.jpg?v=2",
+      "image": "/assets/products/bsw/fab-43-1966.jpg",
       "images": [
-        "/assets/products/bsw/fab-43-1966.jpg?v=2"
+        "/assets/products/bsw/fab-43-1966.jpg"
       ],
       "description": [
         "Sit-to-stand standing frame",
@@ -3817,9 +3817,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Balance Products",
       "condition": "new",
-      "image": "/assets/products/bsw/fab-50-5130-72x.jpg?v=2",
+      "image": "/assets/products/bsw/fab-50-5130-72x.jpg",
       "images": [
-        "/assets/products/bsw/fab-50-5130-72x.jpg?v=2"
+        "/assets/products/bsw/fab-50-5130-72x.jpg"
       ],
       "description": [
         "72\" gait / transfer belt",
@@ -3837,9 +3837,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Balance",
       "condition": "new",
-      "image": "/assets/products/bsw/fi-slantl.jpg?v=2",
+      "image": "/assets/products/bsw/fi-slantl.jpg",
       "images": [
-        "/assets/products/bsw/fi-slantl.jpg?v=2"
+        "/assets/products/bsw/fi-slantl.jpg"
       ],
       "description": [
         "Large 14\" adjustable slant board for calf, hamstring, arch, and hip stretching",
@@ -3879,9 +3879,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Other",
       "condition": "new",
-      "image": "/assets/products/bsw/mda-bb-cxt.jpg?v=2",
+      "image": "/assets/products/bsw/mda-bb-cxt.jpg",
       "images": [
-        "/assets/products/bsw/mda-bb-cxt.jpg?v=2"
+        "/assets/products/bsw/mda-bb-cxt.jpg"
       ],
       "description": [
         "Smallest and lightest Bodyblade model — lightest resistance level",
@@ -3923,9 +3923,9 @@
       "category": "Rehab Furniture",
       "subcategory": "Hi-Lo Tables",
       "condition": "new",
-      "image": "/assets/products/bsw/nc-94700.jpg?v=2",
+      "image": "/assets/products/bsw/nc-94700.jpg",
       "images": [
-        "/assets/products/bsw/nc-94700.jpg?v=2"
+        "/assets/products/bsw/nc-94700.jpg"
       ],
       "description": [
         "Hydraulic pump for easy height adjustment",
@@ -3970,9 +3970,9 @@
       "category": "Strength Equipment",
       "subcategory": "Reformers",
       "condition": "new",
-      "image": "/assets/products/bsw/parts-reformer-box.jpg?v=2",
+      "image": "/assets/products/bsw/parts-reformer-box.jpg",
       "images": [
-        "/assets/products/bsw/parts-reformer-box.jpg?v=2"
+        "/assets/products/bsw/parts-reformer-box.jpg"
       ],
       "description": [
         "Standard reformer box with integrated foot strap",
@@ -4035,9 +4035,9 @@
       "category": "Clinical Supplies",
       "subcategory": "E-Stim/Ultrasound",
       "condition": "new",
-      "image": "/assets/products/bsw/rich-400-8722.jpg?v=2",
+      "image": "/assets/products/bsw/rich-400-8722.jpg",
       "images": [
-        "/assets/products/bsw/rich-400-8722.jpg?v=2",
+        "/assets/products/bsw/rich-400-8722.jpg",
         "/assets/products/richmar/multistim-electrodes/view-1.webp"
       ],
       "description": [
@@ -4055,9 +4055,9 @@
       "category": "Modalities",
       "subcategory": "E-Stim/Ultrasound",
       "condition": "new",
-      "image": "/assets/products/bsw/rich-dq8200.jpg?v=2",
+      "image": "/assets/products/bsw/rich-dq8200.jpg",
       "images": [
-        "/assets/products/bsw/rich-dq8200.jpg?v=2",
+        "/assets/products/bsw/rich-dq8200.jpg",
         "/assets/products/richmar/cx4-no-cart/view-1.webp",
         "/assets/products/richmar/cx4-no-cart/view-2.webp",
         "/assets/products/richmar/cx4-no-cart/view-3.webp",
@@ -4107,9 +4107,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Packs",
       "condition": "new",
-      "image": "/assets/products/bsw/rich-hp-1711-cx.jpg?v=2",
+      "image": "/assets/products/bsw/rich-hp-1711-cx.jpg",
       "images": [
-        "/assets/products/bsw/rich-hp-1711-cx.jpg?v=2",
+        "/assets/products/bsw/rich-hp-1711-cx.jpg",
         "/assets/products/richmar/hydraheat-cervical/view-1.webp",
         "/assets/products/richmar/hydraheat-cervical/view-2.webp",
         "/assets/products/richmar/hydraheat-cervical/view-3.webp",
@@ -4163,9 +4163,9 @@
       "category": "Modalities",
       "subcategory": "Hydrocollator",
       "condition": "new",
-      "image": "/assets/products/bsw/rich-ht-tu-d12.jpg?v=2",
+      "image": "/assets/products/bsw/rich-ht-tu-d12.jpg",
       "images": [
-        "/assets/products/bsw/rich-ht-tu-d12.jpg?v=2",
+        "/assets/products/bsw/rich-ht-tu-d12.jpg",
         "/assets/products/richmar/hydratherm-deluxe-divider/view-1.webp",
         "/assets/products/richmar/hydratherm-deluxe-divider/view-2.webp",
         "/assets/products/richmar/hydratherm-deluxe-divider/view-3.webp",
@@ -4192,9 +4192,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/rpp-m30-sw.jpg?v=2",
+      "image": "/assets/products/bsw/rpp-m30-sw.jpg",
       "images": [
-        "/assets/products/bsw/rpp-m30-sw.jpg?v=2"
+        "/assets/products/bsw/rpp-m30-sw.jpg"
       ],
       "description": [
         "Single wall-mount cable pulley system",
@@ -4235,9 +4235,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Trainer",
       "condition": "new",
-      "image": "/assets/products/bsw/saa-n973.png?v=2",
+      "image": "/assets/products/bsw/saa-n973.png",
       "images": [
-        "/assets/products/bsw/saa-n973.png?v=2",
+        "/assets/products/bsw/saa-n973.png",
         "/assets/products/sportsart/n973/hero.png"
       ],
       "description": [
@@ -4280,9 +4280,9 @@
       "category": "Cardio",
       "subcategory": "Upper Body Cycle",
       "condition": "new",
-      "image": "/assets/products/bsw/saa-ube521m.png?v=2",
+      "image": "/assets/products/bsw/saa-ube521m.png",
       "images": [
-        "/assets/products/bsw/saa-ube521m.png?v=2",
+        "/assets/products/bsw/saa-ube521m.png",
         "/assets/products/sportsart/ub521m/hero.png",
         "/assets/products/sportsart/ub521m/view-1.png",
         "/assets/products/sportsart/ub521m/view-2.png"
@@ -4304,9 +4304,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Trainer",
       "condition": "new",
-      "image": "/assets/products/bsw/sfp-636225.png?v=2",
+      "image": "/assets/products/bsw/sfp-636225.png",
       "images": [
-        "/assets/products/bsw/sfp-636225.png?v=2",
+        "/assets/products/bsw/sfp-636225.png",
         "/assets/products/spirit/functional-trainer/hero.png",
         "/assets/products/spirit/functional-trainer/view-1.png",
         "/assets/products/spirit/functional-trainer/view-2.png",
@@ -4335,9 +4335,9 @@
       "category": "Cardio",
       "subcategory": "Recumbent Bikes",
       "condition": "new",
-      "image": "/assets/products/bsw/sfp-cr900.jpg?v=2",
+      "image": "/assets/products/bsw/sfp-cr900.jpg",
       "images": [
-        "/assets/products/bsw/sfp-cr900.jpg?v=2",
+        "/assets/products/bsw/sfp-cr900.jpg",
         "/assets/products/spirit/cr900/hero.jpg",
         "/assets/products/spirit/cr900/view-1.jpg",
         "/assets/products/spirit/cr900/view-2.jpg",
@@ -4367,9 +4367,9 @@
       "category": "Modalities",
       "subcategory": "Graston",
       "condition": "new",
-      "image": "/assets/products/bsw/st-proset.jpg?v=2",
+      "image": "/assets/products/bsw/st-proset.jpg",
       "images": [
-        "/assets/products/bsw/st-proset.jpg?v=2"
+        "/assets/products/bsw/st-proset.jpg"
       ],
       "description": [
         "Professional IASTM instrument set",
@@ -4389,9 +4389,9 @@
       "category": "Compression",
       "subcategory": "BFR",
       "condition": "new",
-      "image": "/assets/products/bsw/st-smtg3prost.jpg?v=2",
+      "image": "/assets/products/bsw/st-smtg3prost.jpg",
       "images": [
-        "/assets/products/bsw/st-smtg3prost.jpg?v=2"
+        "/assets/products/bsw/st-smtg3prost.jpg"
       ],
       "description": [
         "Clinical BFR (blood flow restriction) cuff system",
@@ -4413,9 +4413,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/strp-spine78.jpg?v=2",
+      "image": "/assets/products/bsw/strp-spine78.jpg",
       "images": [
-        "/assets/products/bsw/strp-spine78.jpg?v=2"
+        "/assets/products/bsw/strp-spine78.jpg"
       ],
       "description": [
         "78\" wall-mounted anchoring system",
@@ -4433,9 +4433,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/strps-ankstr25.jpg?v=2",
+      "image": "/assets/products/bsw/strps-ankstr25.jpg",
       "images": [
-        "/assets/products/bsw/strps-ankstr25.jpg?v=2"
+        "/assets/products/bsw/strps-ankstr25.jpg"
       ],
       "description": [
         "Adjustable Velcro ankle strap",
@@ -4453,9 +4453,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/strps-griphandle.jpg?v=2",
+      "image": "/assets/products/bsw/strps-griphandle.jpg",
       "images": [
-        "/assets/products/bsw/strps-griphandle.jpg?v=2"
+        "/assets/products/bsw/strps-griphandle.jpg"
       ],
       "description": [
         "Non-slip textured grip handle",
@@ -4472,9 +4472,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/strps-punch.jpg?v=3",
+      "image": "/assets/products/bsw/strps-punch.jpg",
       "images": [
-        "/assets/products/bsw/strps-punch.jpg?v=3"
+        "/assets/products/bsw/strps-punch.jpg"
       ],
       "description": [
         "Hand cuffs designed for combat and conditioning training",
@@ -4492,9 +4492,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/strps-ss36h-o4.png?v=2",
+      "image": "/assets/products/bsw/strps-ss36h-o4.png",
       "images": [
-        "/assets/products/bsw/strps-ss36h-o4.png?v=2"
+        "/assets/products/bsw/strps-ss36h-o4.png"
       ],
       "description": [
         "36\" Heavy resistance Slastix band",
@@ -4513,9 +4513,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/strps-ss36l-o4.png?v=2",
+      "image": "/assets/products/bsw/strps-ss36l-o4.png",
       "images": [
-        "/assets/products/bsw/strps-ss36l-o4.png?v=2"
+        "/assets/products/bsw/strps-ss36l-o4.png"
       ],
       "description": [
         "36\" Light resistance Slastix band",
@@ -4534,9 +4534,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/strps-ss36m-o4.png?v=2",
+      "image": "/assets/products/bsw/strps-ss36m-o4.png",
       "images": [
-        "/assets/products/bsw/strps-ss36m-o4.png?v=2"
+        "/assets/products/bsw/strps-ss36m-o4.png"
       ],
       "description": [
         "36\" Medium resistance Slastix band",
@@ -4555,9 +4555,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/strps-ss36vl-o4.png?v=2",
+      "image": "/assets/products/bsw/strps-ss36vl-o4.png",
       "images": [
-        "/assets/products/bsw/strps-ss36vl-o4.png?v=2"
+        "/assets/products/bsw/strps-ss36vl-o4.png"
       ],
       "description": [
         "36\" Very Light resistance Slastix band",
@@ -4577,9 +4577,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-262plbs.jpg?v=2",
+      "image": "/assets/products/bsw/tko-262plbs.jpg",
       "images": [
-        "/assets/products/bsw/tko-262plbs.jpg?v=2",
+        "/assets/products/bsw/tko-262plbs.jpg",
         "https://www.tkostrength.com/cdn/shop/products/262PLBS-1-1000_1024x1024.jpg?v=1747188809",
         "https://www.tkostrength.com/cdn/shop/products/262PLBS-2-1000_1024x1024.jpg?v=1747188809",
         "https://www.tkostrength.com/cdn/shop/products/262PLBS-3-1000_1024x1024.jpg?v=1747188809",
@@ -4602,9 +4602,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-263plbs.jpg?v=2",
+      "image": "/assets/products/bsw/tko-263plbs.jpg",
       "images": [
-        "/assets/products/bsw/tko-263plbs.jpg?v=2",
+        "/assets/products/bsw/tko-263plbs.jpg",
         "https://www.tkostrength.com/cdn/shop/products/263PLBS-01-1000_1024x1024.jpg?v=1747188808",
         "https://www.tkostrength.com/cdn/shop/products/263PLBS-03-1000_1024x1024.jpg?v=1747188808",
         "https://www.tkostrength.com/cdn/shop/products/263PLBS-02-1000_1024x1024.jpg?v=1747188808",
@@ -4628,9 +4628,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-278ps.jpg?v=2",
+      "image": "/assets/products/bsw/tko-278ps.jpg",
       "images": [
-        "/assets/products/bsw/tko-278ps.jpg?v=2",
+        "/assets/products/bsw/tko-278ps.jpg",
         "https://www.tkostrength.com/cdn/shop/products/278PSPushSled9_1024x1024.jpg?v=1747188581",
         "https://www.tkostrength.com/cdn/shop/products/278PSPushSled4_1024x1024.jpg?v=1747188582",
         "https://www.tkostrength.com/cdn/shop/products/278PSPushSled6_1024x1024.jpg?v=1747188582",
@@ -4655,9 +4655,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-509cmb-6.jpg?v=2",
+      "image": "/assets/products/bsw/tko-509cmb-6.jpg",
       "images": [
-        "/assets/products/bsw/tko-509cmb-6.jpg?v=2"
+        "/assets/products/bsw/tko-509cmb-6.jpg"
       ],
       "description": [
         "6 lb medicine ball",
@@ -4675,9 +4675,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-509cmb-8.jpg?v=2",
+      "image": "/assets/products/bsw/tko-509cmb-8.jpg",
       "images": [
-        "/assets/products/bsw/tko-509cmb-8.jpg?v=2"
+        "/assets/products/bsw/tko-509cmb-8.jpg"
       ],
       "description": [
         "8 lb medicine ball",
@@ -4695,9 +4695,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-509sb-15.jpg?v=2",
+      "image": "/assets/products/bsw/tko-509sb-15.jpg",
       "images": [
-        "/assets/products/bsw/tko-509sb-15.jpg?v=2"
+        "/assets/products/bsw/tko-509sb-15.jpg"
       ],
       "description": [
         "15 lb slam ball",
@@ -4716,9 +4716,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-509sb-20.jpg?v=2",
+      "image": "/assets/products/bsw/tko-509sb-20.jpg",
       "images": [
-        "/assets/products/bsw/tko-509sb-20.jpg?v=2"
+        "/assets/products/bsw/tko-509sb-20.jpg"
       ],
       "description": [
         "20 lb slam ball",
@@ -4737,9 +4737,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-509sb-25.jpg?v=2",
+      "image": "/assets/products/bsw/tko-509sb-25.jpg",
       "images": [
-        "/assets/products/bsw/tko-509sb-25.jpg?v=2"
+        "/assets/products/bsw/tko-509sb-25.jpg"
       ],
       "description": [
         "25 lb slam ball",
@@ -4758,9 +4758,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-509wb-10.jpg?v=2",
+      "image": "/assets/products/bsw/tko-509wb-10.jpg",
       "images": [
-        "/assets/products/bsw/tko-509wb-10.jpg?v=2"
+        "/assets/products/bsw/tko-509wb-10.jpg"
       ],
       "description": [
         "10 lb soft-shell wall ball",
@@ -4779,9 +4779,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-509wb-14.jpg?v=2",
+      "image": "/assets/products/bsw/tko-509wb-14.jpg",
       "images": [
-        "/assets/products/bsw/tko-509wb-14.jpg?v=2"
+        "/assets/products/bsw/tko-509wb-14.jpg"
       ],
       "description": [
         "14 lb soft-shell wall ball",
@@ -4800,9 +4800,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-509wb-20.jpg?v=2",
+      "image": "/assets/products/bsw/tko-509wb-20.jpg",
       "images": [
-        "/assets/products/bsw/tko-509wb-20.jpg?v=2"
+        "/assets/products/bsw/tko-509wb-20.jpg"
       ],
       "description": [
         "20 lb soft-shell wall ball",
@@ -4821,9 +4821,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-509wb-30.jpg?v=2",
+      "image": "/assets/products/bsw/tko-509wb-30.jpg",
       "images": [
-        "/assets/products/bsw/tko-509wb-30.jpg?v=2"
+        "/assets/products/bsw/tko-509wb-30.jpg"
       ],
       "description": [
         "30 lb soft-shell wall ball",
@@ -4864,9 +4864,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-802bp2-15.jpg?v=2",
+      "image": "/assets/products/bsw/tko-802bp2-15.jpg",
       "images": [
-        "/assets/products/bsw/tko-802bp2-15.jpg?v=2"
+        "/assets/products/bsw/tko-802bp2-15.jpg"
       ],
       "description": [
         "15 lb bumper plate",
@@ -4886,9 +4886,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-802bp2-25.jpg?v=2",
+      "image": "/assets/products/bsw/tko-802bp2-25.jpg",
       "images": [
-        "/assets/products/bsw/tko-802bp2-25.jpg?v=2"
+        "/assets/products/bsw/tko-802bp2-25.jpg"
       ],
       "description": [
         "25 lb bumper plate",
@@ -4908,9 +4908,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-802bp2-35.jpg?v=2",
+      "image": "/assets/products/bsw/tko-802bp2-35.jpg",
       "images": [
-        "/assets/products/bsw/tko-802bp2-35.jpg?v=2"
+        "/assets/products/bsw/tko-802bp2-35.jpg"
       ],
       "description": [
         "35 lb bumper plate",
@@ -4930,9 +4930,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-802bp2-45.jpg?v=2",
+      "image": "/assets/products/bsw/tko-802bp2-45.jpg",
       "images": [
-        "/assets/products/bsw/tko-802bp2-45.jpg?v=2"
+        "/assets/products/bsw/tko-802bp2-45.jpg"
       ],
       "description": [
         "45 lb bumper plate",
@@ -4952,9 +4952,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-803or-10.jpg?v=2",
+      "image": "/assets/products/bsw/tko-803or-10.jpg",
       "images": [
-        "/assets/products/bsw/tko-803or-10.jpg?v=2",
+        "/assets/products/bsw/tko-803or-10.jpg",
         "https://www.tkostrength.com/cdn/shop/files/803OROlympicRubberPlatesStacked_1024x1024.jpg?v=1747188672",
         "https://www.tkostrength.com/cdn/shop/products/10plate_1024x1024.jpg?v=1747188672",
         "https://www.tkostrength.com/cdn/shop/products/2.5_ed9cac88-4255-484e-9f45-1bb937860e1c_1024x1024.jpg?v=1747188672",
@@ -4979,9 +4979,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-803or-2-5.jpg?v=2",
+      "image": "/assets/products/bsw/tko-803or-2-5.jpg",
       "images": [
-        "/assets/products/bsw/tko-803or-2-5.jpg?v=2"
+        "/assets/products/bsw/tko-803or-2-5.jpg"
       ],
       "description": [
         "2.5 lb Olympic rubber-coated dual grip plate",
@@ -4999,9 +4999,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-803or-25.jpg?v=2",
+      "image": "/assets/products/bsw/tko-803or-25.jpg",
       "images": [
-        "/assets/products/bsw/tko-803or-25.jpg?v=2"
+        "/assets/products/bsw/tko-803or-25.jpg"
       ],
       "description": [
         "25 lb Olympic rubber-coated dual grip plate",
@@ -5019,9 +5019,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-803or-35.jpg?v=2",
+      "image": "/assets/products/bsw/tko-803or-35.jpg",
       "images": [
-        "/assets/products/bsw/tko-803or-35.jpg?v=2"
+        "/assets/products/bsw/tko-803or-35.jpg"
       ],
       "description": [
         "35 lb Olympic rubber-coated dual grip plate",
@@ -5039,9 +5039,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-803or-45.jpg?v=2",
+      "image": "/assets/products/bsw/tko-803or-45.jpg",
       "images": [
-        "/assets/products/bsw/tko-803or-45.jpg?v=2"
+        "/assets/products/bsw/tko-803or-45.jpg"
       ],
       "description": [
         "45 lb Olympic rubber-coated dual grip plate",
@@ -5059,9 +5059,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Plates",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-803or-5.jpg?v=2",
+      "image": "/assets/products/bsw/tko-803or-5.jpg",
       "images": [
-        "/assets/products/bsw/tko-803or-5.jpg?v=2"
+        "/assets/products/bsw/tko-803or-5.jpg"
       ],
       "description": [
         "5 lb Olympic rubber-coated dual grip plate",
@@ -5079,9 +5079,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-804rx-15.jpg?v=2",
+      "image": "/assets/products/bsw/tko-804rx-15.jpg",
       "images": [
-        "/assets/products/bsw/tko-804rx-15.jpg?v=2"
+        "/assets/products/bsw/tko-804rx-15.jpg"
       ],
       "description": [
         "15 lb rubber hex dumbbell",
@@ -5100,9 +5100,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-804rx-20.jpg?v=2",
+      "image": "/assets/products/bsw/tko-804rx-20.jpg",
       "images": [
-        "/assets/products/bsw/tko-804rx-20.jpg?v=2"
+        "/assets/products/bsw/tko-804rx-20.jpg"
       ],
       "description": [
         "20 lb rubber hex dumbbell",
@@ -5121,9 +5121,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-804rx-25.jpg?v=2",
+      "image": "/assets/products/bsw/tko-804rx-25.jpg",
       "images": [
-        "/assets/products/bsw/tko-804rx-25.jpg?v=2"
+        "/assets/products/bsw/tko-804rx-25.jpg"
       ],
       "description": [
         "25 lb rubber hex dumbbell",
@@ -5142,9 +5142,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-804rx-30.jpg?v=2",
+      "image": "/assets/products/bsw/tko-804rx-30.jpg",
       "images": [
-        "/assets/products/bsw/tko-804rx-30.jpg?v=2"
+        "/assets/products/bsw/tko-804rx-30.jpg"
       ],
       "description": [
         "30 lb rubber hex dumbbell",
@@ -5163,9 +5163,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-804rx-35.jpg?v=2",
+      "image": "/assets/products/bsw/tko-804rx-35.jpg",
       "images": [
-        "/assets/products/bsw/tko-804rx-35.jpg?v=2"
+        "/assets/products/bsw/tko-804rx-35.jpg"
       ],
       "description": [
         "35 lb rubber hex dumbbell",
@@ -5184,9 +5184,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-804rx-40.jpg?v=2",
+      "image": "/assets/products/bsw/tko-804rx-40.jpg",
       "images": [
-        "/assets/products/bsw/tko-804rx-40.jpg?v=2"
+        "/assets/products/bsw/tko-804rx-40.jpg"
       ],
       "description": [
         "40 lb rubber hex dumbbell",
@@ -5205,9 +5205,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-804rx-45.jpg?v=2",
+      "image": "/assets/products/bsw/tko-804rx-45.jpg",
       "images": [
-        "/assets/products/bsw/tko-804rx-45.jpg?v=2"
+        "/assets/products/bsw/tko-804rx-45.jpg"
       ],
       "description": [
         "45 lb rubber hex dumbbell",
@@ -5226,9 +5226,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-804rx-50.jpg?v=2",
+      "image": "/assets/products/bsw/tko-804rx-50.jpg",
       "images": [
-        "/assets/products/bsw/tko-804rx-50.jpg?v=2"
+        "/assets/products/bsw/tko-804rx-50.jpg"
       ],
       "description": [
         "50 lb rubber hex dumbbell",
@@ -5247,9 +5247,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Bars",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-811ob-86.jpg?v=2",
+      "image": "/assets/products/bsw/tko-811ob-86.jpg",
       "images": [
-        "/assets/products/bsw/tko-811ob-86.jpg?v=2",
+        "/assets/products/bsw/tko-811ob-86.jpg",
         "https://www.tkostrength.com/cdn/shop/products/1_d38d1473-1954-42dc-a7f0-7c95da055bc9_1024x1024.jpg?v=1747188624"
       ],
       "description": [
@@ -5269,9 +5269,9 @@
       "category": "Strength Equipment",
       "subcategory": "Bar Collars",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-812lbc.jpg?v=2",
+      "image": "/assets/products/bsw/tko-812lbc.jpg",
       "images": [
-        "/assets/products/bsw/tko-812lbc.jpg?v=2",
+        "/assets/products/bsw/tko-812lbc.jpg",
         "https://www.tkostrength.com/cdn/shop/products/PR2_BLK1_1024x1024.jpg?v=1747188827",
         "https://www.tkostrength.com/cdn/shop/products/PR2_BLK2_1024x1024.jpg?v=1747188827"
       ],
@@ -5291,9 +5291,9 @@
       "category": "Strength Equipment",
       "subcategory": "Olympic Bars",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-813ob-86mb.jpg?v=2",
+      "image": "/assets/products/bsw/tko-813ob-86mb.jpg",
       "images": [
-        "/assets/products/bsw/tko-813ob-86mb.jpg?v=2",
+        "/assets/products/bsw/tko-813ob-86mb.jpg",
         "https://www.tkostrength.com/cdn/shop/products/1_4d4432b6-b0a7-4cf0-b419-36c77d5e3573_1024x1024.jpg?v=1747188777",
         "https://www.tkostrength.com/cdn/shop/products/4_db0e352e-5c3a-46ed-8e8e-8879bf17f011_1024x1024.jpg?v=1747188777",
         "https://www.tkostrength.com/cdn/shop/products/2_8eb468af-febe-4fa1-87f5-9096e8ea8a45_1024x1024.jpg?v=1747188777",
@@ -5315,9 +5315,9 @@
       "category": "Strength Equipment",
       "subcategory": "Storage",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-824fid-bk.jpg?v=2",
+      "image": "/assets/products/bsw/tko-824fid-bk.jpg",
       "images": [
-        "/assets/products/bsw/tko-824fid-bk.jpg?v=2",
+        "/assets/products/bsw/tko-824fid-bk.jpg",
         "https://www.tkostrength.com/cdn/shop/files/824FID-BKangled_1024x1024.png?v=1747188835",
         "https://www.tkostrength.com/cdn/shop/files/824FID-BK5_1024x1024.jpg?v=1747188835",
         "https://www.tkostrength.com/cdn/shop/files/824FID-BK7_1024x1024.jpg?v=1747188836",
@@ -5341,9 +5341,9 @@
       "category": "Strength Equipment",
       "subcategory": "Storage",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-853fbr3-b.jpg?v=2",
+      "image": "/assets/products/bsw/tko-853fbr3-b.jpg",
       "images": [
-        "/assets/products/bsw/tko-853fbr3-b.jpg?v=2",
+        "/assets/products/bsw/tko-853fbr3-b.jpg",
         "https://www.tkostrength.com/cdn/shop/files/853FBR3-BStabilityBallRackloaded_1024x1024.jpg?v=1747188490",
         "https://www.tkostrength.com/cdn/shop/files/853FBR3-BFront_1024x1024.jpg?v=1747188490",
         "https://www.tkostrength.com/cdn/shop/files/853FBR3-BBase_1024x1024.jpg?v=1747188490",
@@ -5366,9 +5366,9 @@
       "category": "Strength Equipment",
       "subcategory": "Kettlebells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-857kbv-15.jpg?v=2",
+      "image": "/assets/products/bsw/tko-857kbv-15.jpg",
       "images": [
-        "/assets/products/bsw/tko-857kbv-15.jpg?v=2"
+        "/assets/products/bsw/tko-857kbv-15.jpg"
       ],
       "description": [
         "15 lb vinyl-dipped kettlebell",
@@ -5387,9 +5387,9 @@
       "category": "Strength Equipment",
       "subcategory": "Kettlebells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-857kbv-20.jpg?v=2",
+      "image": "/assets/products/bsw/tko-857kbv-20.jpg",
       "images": [
-        "/assets/products/bsw/tko-857kbv-20.jpg?v=2"
+        "/assets/products/bsw/tko-857kbv-20.jpg"
       ],
       "description": [
         "20 lb vinyl-dipped kettlebell",
@@ -5408,9 +5408,9 @@
       "category": "Strength Equipment",
       "subcategory": "Kettlebells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-857kbv-25.jpg?v=2",
+      "image": "/assets/products/bsw/tko-857kbv-25.jpg",
       "images": [
-        "/assets/products/bsw/tko-857kbv-25.jpg?v=2"
+        "/assets/products/bsw/tko-857kbv-25.jpg"
       ],
       "description": [
         "25 lb vinyl-dipped kettlebell",
@@ -5429,9 +5429,9 @@
       "category": "Strength Equipment",
       "subcategory": "Kettlebells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-857kbv-30.jpg?v=2",
+      "image": "/assets/products/bsw/tko-857kbv-30.jpg",
       "images": [
-        "/assets/products/bsw/tko-857kbv-30.jpg?v=2"
+        "/assets/products/bsw/tko-857kbv-30.jpg"
       ],
       "description": [
         "30 lb vinyl-dipped kettlebell",
@@ -5450,9 +5450,9 @@
       "category": "Strength Equipment",
       "subcategory": "Kettlebells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-857kbv-35.jpg?v=2",
+      "image": "/assets/products/bsw/tko-857kbv-35.jpg",
       "images": [
-        "/assets/products/bsw/tko-857kbv-35.jpg?v=2"
+        "/assets/products/bsw/tko-857kbv-35.jpg"
       ],
       "description": [
         "35 lb vinyl-dipped kettlebell",
@@ -5471,9 +5471,9 @@
       "category": "Strength Equipment",
       "subcategory": "Kettlebells",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-857kbv-40.jpg?v=2",
+      "image": "/assets/products/bsw/tko-857kbv-40.jpg",
       "images": [
-        "/assets/products/bsw/tko-857kbv-40.jpg?v=2"
+        "/assets/products/bsw/tko-857kbv-40.jpg"
       ],
       "description": [
         "40 lb vinyl-dipped kettlebell",
@@ -5492,9 +5492,9 @@
       "category": "Cardio",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-8ab.jpg?v=2",
+      "image": "/assets/products/bsw/tko-8ab.jpg",
       "images": [
-        "/assets/products/bsw/tko-8ab.jpg?v=2",
+        "/assets/products/bsw/tko-8ab.jpg",
         "https://www.tkostrength.com/cdn/shop/files/8AB4_2026Rightangle_1024x1024.jpg?v=1776110894",
         "https://www.tkostrength.com/cdn/shop/files/8AB4_2026leftangle_1024x1024.jpg?v=1776110894",
         "https://www.tkostrength.com/cdn/shop/files/8AB4_2026Right_1024x1024.jpg?v=1776110894",
@@ -5519,9 +5519,9 @@
       "category": "Strength Equipment",
       "subcategory": "Racks & Platforms",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-921hr.png?v=2",
+      "image": "/assets/products/bsw/tko-921hr.png",
       "images": [
-        "/assets/products/bsw/tko-921hr.png?v=2",
+        "/assets/products/bsw/tko-921hr.png",
         "https://www.tkostrength.com/cdn/shop/files/921HRHalfRackfront_1024x1024.jpg?v=1756301936",
         "https://www.tkostrength.com/cdn/shop/files/921HRHalfRackangled_1024x1024.jpg?v=1756301936",
         "https://www.tkostrength.com/cdn/shop/files/921HRHalfRackwithattachments_1024x1024.jpg?v=1756305349",
@@ -5546,9 +5546,9 @@
       "category": "Strength Equipment",
       "subcategory": "Racks & Platforms",
       "condition": "new",
-      "image": "/assets/products/bsw/tko-92att-db.jpg?v=2",
+      "image": "/assets/products/bsw/tko-92att-db.jpg",
       "images": [
-        "/assets/products/bsw/tko-92att-db.jpg?v=2",
+        "/assets/products/bsw/tko-92att-db.jpg",
         "https://www.tkostrength.com/cdn/shop/files/92ATTCustomizableStorageSystemaloneangled_1024x1024.jpg?v=1747188596",
         "https://www.tkostrength.com/cdn/shop/files/92ATTCustomizableStorageSystem_1024x1024.jpg?v=1747188596",
         "https://www.tkostrength.com/cdn/shop/products/1_3aef86d4-a29c-4a4f-b7be-0bd5e670845c_1024x1024.jpg?v=1747188596",
@@ -5593,9 +5593,9 @@
       "category": "Rehab Furniture",
       "subcategory": "Training Stairs",
       "condition": "new",
-      "image": "/assets/products/bsw/tms-720515-001.jpg?v=7",
+      "image": "/assets/products/bsw/tms-720515-001.jpg",
       "images": [
-        "/assets/products/bsw/tms-720515-001.jpg?v=7",
+        "/assets/products/bsw/tms-720515-001.jpg",
         "/assets/products/gmts/training-stairs/view-1.jpg"
       ],
       "description": [
@@ -5614,9 +5614,9 @@
       "category": "Rehab Furniture",
       "subcategory": "Storage",
       "condition": "new",
-      "image": "/assets/products/bsw/tms-720589-001.jpg?v=7",
+      "image": "/assets/products/bsw/tms-720589-001.jpg",
       "images": [
-        "/assets/products/bsw/tms-720589-001.jpg?v=7"
+        "/assets/products/bsw/tms-720589-001.jpg"
       ],
       "description": [
         "Mobile dumbbell rack with integrated full-length mirror",
@@ -5634,9 +5634,9 @@
       "category": "Rehab Furniture",
       "subcategory": "Training Stairs",
       "condition": "new",
-      "image": "/assets/products/bsw/tms-720639-001.jpg?v=7",
+      "image": "/assets/products/bsw/tms-720639-001.jpg",
       "images": [
-        "/assets/products/bsw/tms-720639-001.jpg?v=7"
+        "/assets/products/bsw/tms-720639-001.jpg"
       ],
       "description": [
         "3-step closed-end clinical staircase",
@@ -5675,9 +5675,9 @@
       "category": "Rehab Furniture",
       "subcategory": "Training Stairs",
       "condition": "new",
-      "image": "/assets/products/bsw/tms-720870-001.jpg?v=7",
+      "image": "/assets/products/bsw/tms-720870-001.jpg",
       "images": [
-        "/assets/products/bsw/tms-720870-001.jpg?v=7"
+        "/assets/products/bsw/tms-720870-001.jpg"
       ],
       "description": [
         "4-step closed-end clinical staircase",
@@ -5717,9 +5717,9 @@
       "category": "Rehab Furniture",
       "subcategory": "Bolsters & Wedges",
       "condition": "new",
-      "image": "/assets/products/bsw/tms-730155.jpg?v=7",
+      "image": "/assets/products/bsw/tms-730155.jpg",
       "images": [
-        "/assets/products/bsw/tms-730155.jpg?v=7"
+        "/assets/products/bsw/tms-730155.jpg"
       ],
       "description": [
         "Foam positioning wedge",
@@ -7574,9 +7574,8 @@
       "category": "Clinical Supplies",
       "subcategory": "Bands & Tubing",
       "condition": "new",
-      "image": "/assets/products/fab/10-5224.jpg?v=2",
+      "image": "/assets/products/fab/10-5224.jpg",
       "images": [
-        "/assets/products/fab/10-5224.jpg?v=2",
         "/assets/products/fab/10-5224.jpg"
       ],
       "description": [
@@ -7595,9 +7594,8 @@
       "category": "Clinical Supplies",
       "subcategory": "Hand Exercisers",
       "condition": "new",
-      "image": "/assets/products/fab/10-0920.jpg?v=2",
+      "image": "/assets/products/fab/10-0920.jpg",
       "images": [
-        "/assets/products/fab/10-0920.jpg?v=2",
         "/assets/products/fab/10-0920.jpg"
       ],
       "description": [
@@ -7677,9 +7675,8 @@
       "category": "Clinical Supplies",
       "subcategory": "Weights",
       "condition": "new",
-      "image": "/assets/products/fab/10-2505.jpg?v=2",
+      "image": "/assets/products/fab/10-2505.jpg",
       "images": [
-        "/assets/products/fab/10-2505.jpg?v=2",
         "/assets/products/fab/10-2505.jpg"
       ],
       "description": [
@@ -7698,9 +7695,8 @@
       "category": "Clinical Supplies",
       "subcategory": "Evaluation",
       "condition": "new",
-      "image": "/assets/products/fab/12-1005.jpg?v=2",
+      "image": "/assets/products/fab/12-1005.jpg",
       "images": [
-        "/assets/products/fab/12-1005.jpg?v=2",
         "/assets/products/fab/12-1005.jpg"
       ],
       "description": [
@@ -7739,9 +7735,8 @@
       "category": "Clinical Supplies",
       "subcategory": "Foam Rollers",
       "condition": "new",
-      "image": "/assets/products/fab/30-2107.jpg?v=2",
+      "image": "/assets/products/fab/30-2107.jpg",
       "images": [
-        "/assets/products/fab/30-2107.jpg?v=2",
         "/assets/products/fab/30-2107.jpg"
       ],
       "description": [
@@ -7760,9 +7755,8 @@
       "category": "Clinical Supplies",
       "subcategory": "Evaluation",
       "condition": "new",
-      "image": "/assets/products/fab/12-1002.jpg?v=2",
+      "image": "/assets/products/fab/12-1002.jpg",
       "images": [
-        "/assets/products/fab/12-1002.jpg?v=2",
         "/assets/products/fab/12-1002.jpg"
       ],
       "description": [
@@ -7801,9 +7795,8 @@
       "category": "Clinical Supplies",
       "subcategory": "Hand Exercisers",
       "condition": "new",
-      "image": "/assets/products/fab/10-0912.jpg?v=2",
+      "image": "/assets/products/fab/10-0912.jpg",
       "images": [
-        "/assets/products/fab/10-0912.jpg?v=2",
         "/assets/products/fab/10-0912.jpg"
       ],
       "description": [

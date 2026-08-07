@@ -44,7 +44,8 @@ function resolveBrand(bm: BrandMap, sku: string, name: string, category: string)
 /** Normalise an image reference to a path relative to /public. */
 function toPublicPath(src: string): string {
   if (/^https?:\/\//i.test(src)) return src;
-  return src.startsWith("/") ? src : `/${src}`;
+  const clean = src.split("?")[0];
+  return clean.startsWith("/") ? clean : `/${clean}`;
 }
 
 export function catalogJsonPlugin(): Plugin {
@@ -100,11 +101,11 @@ export function catalogJsonPlugin(): Plugin {
           for (const m of imgSrc.matchAll(
             /["'](\d+)["']\s*:\s*productAsset\(\s*["']([^"']+)["']\s*\)/g,
           )) {
-            imageById[m[1]] = `/assets/products/${m[2]}`;
+            imageById[m[1]] = toPublicPath(`assets/products/${m[2]}`);
           }
           // plain string entries, e.g. "42": "/assets/products/x.png"
           for (const m of imgSrc.matchAll(/["'](\d+)["']\s*:\s*["'](\/[^"']+)["']/g)) {
-            imageById[m[1]] = m[2];
+            imageById[m[1]] = toPublicPath(m[2]);
           }
         }
 
