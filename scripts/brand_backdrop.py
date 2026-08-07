@@ -2,6 +2,7 @@
 """Remove background from pre-owned product photos and composite them onto a
 branded GM Therapy Solutions backdrop. Product pixels are never altered."""
 from __future__ import annotations
+import pathlib
 import sys, io
 from pathlib import Path
 from PIL import Image, ImageFilter, ImageDraw
@@ -9,12 +10,13 @@ from rembg import remove, new_session
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "public/assets/products/used"
+ORIG = pathlib.Path("/tmp/used-backup")
 LOGO = ROOT / "src/assets/gm-therapy-logo-new.png"
 
 W, H = 1400, 1050
 ORANGE = (232, 93, 26)
 
-_session = new_session("isnet-general-use")
+_session = new_session("birefnet-general")
 
 
 def logo_rgba(height: int) -> Image.Image:
@@ -87,15 +89,16 @@ def clean_mask(cut: Image.Image) -> Image.Image:
     if n <= 1:
         return cut
     sizes = ndimage.sum(alpha > 30, lbl, range(1, n + 1))
-    keep = sizes >= sizes.max() * 0.05
+    keep = sizes >= max(sizes.max() * 0.004, alpha.size * 0.00015)
     mask = np.isin(lbl, np.nonzero(keep)[0] + 1)
     a[..., 3] = np.where(mask, alpha, 0)
     return Image.fromarray(a)
 
 
 def process(path: Path, out_dir: Path | None = None):
-    raw = Image.open(path).convert("RGBA")
-    cut = clean_mask(remove(raw, session=_session, post_process_mask=True))
+    src = ORIG / path.name
+    raw = Image.open(src if src.exists() else path).convert("RGBA")
+    cut = clean_mask(remove(raw, session=_session, post_process_mask=False))
     bbox = cut.getbbox()
     if not bbox:
         print(f"  ! no subject found: {path.name}")
