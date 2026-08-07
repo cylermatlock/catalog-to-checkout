@@ -1,12 +1,3 @@
-import uAmBa350Asset from "../assets/products/used/U-AM-BA350.png.asset.json";
-import uGmtsTxTractionAsset from "../assets/products/used/U-GMTS-TX-TRACTION.jpg.asset.json";
-import uCg4759Asset from "../assets/products/used/U-CG-4759.jpg.asset.json";
-import uPb7ftAsset from "../assets/products/used/U-PB-7FT.jpg.asset.json";
-import uCg2788Asset from "../assets/products/used/U-CG-2788.jpg.asset.json";
-import rollingWorkTableAsset from "../assets/products/used/rolling-work-table.jpg.asset.json";
-import woodTreatmentTableAsset from "../assets/products/used/wood-treatment-table-adjustable-backrest.png.asset.json";
-import uGmts1020_30WoodTreatmentTableAsset from "../assets/products/used/u-gmts-1020-30-wood-treatment-table.png.asset.json";
-import uMs30364MedsurfaceTractionAsset from "../assets/products/used/u-ms-30364-medsurface-traction.jpg.asset.json";
 
 // Product image URLs are served from /public instead of eager-imported modules.
 // This keeps the catalog rendering even if a preview proxy misses an image file.
@@ -595,7 +586,7 @@ export const productImages: Record<string, string> = {
   "801": productAsset("spirit/ct800-handrails/main.png"),
 
   // ===== PRE-OWNED / USED EQUIPMENT (extracted from spreadsheet) =====
-  "901": uAmBa350Asset.url,
+  "901": productAsset("used/U-AM-BA350.png"),
   "900": productAsset("used/U-AM-640.png"),
   "902": productAsset("used/U-BMS-950-240.png"),
   "903": productAsset("used/U-BMS-UBC.jpeg"),
@@ -605,20 +596,20 @@ export const productImages: Record<string, string> = {
   "909": productAsset("used/U-CG-6000.jpeg"),
   "910": productAsset("used/U-CLIN-7360.png"),
   "911": productAsset("used/U-FS-UBMATRIX.jpeg"),
-  "912": uGmts1020_30WoodTreatmentTableAsset.url,
-  "918": uMs30364MedsurfaceTractionAsset.url,
+  "912": productAsset("used/u-gmts-1020-30-wood-treatment-table.png"),
+  "918": productAsset("used/u-ms-30364-medsurface-traction.jpg"),
   "920": productAsset("used/U-NS-T4.jpg"),
   "921": productAsset("used/U-NS-T4R.jpeg"),
   "922": productAsset("used/U-NS-T5R.jpg"),
   "927": productAsset("used/U-RICH-DQ8200.jpg"),
   "913": productAsset("used/U-GMTS-3HL.jpg"),
-  "916": uGmtsTxTractionAsset.url,
+  "916": productAsset("used/U-GMTS-TX-TRACTION.jpg"),
   "919": productAsset("used/U-MS-32060.jpg"),
   "915": productAsset("used/U-GMTS-MIRRORRACK.jpg"),
   "924": productAsset("used/U-PB-10FT.png"),
-  "925": uPb7ftAsset.url,
-  "906": uCg2788Asset.url,
-  "908": uCg4759Asset.url,
+  "925": productAsset("used/U-PB-7FT.jpg"),
+  "906": productAsset("used/U-CG-2788.jpg"),
+  "908": productAsset("used/U-CG-4759.jpg"),
   "926": productAsset("used/U-PRE-RBK.png"),
   "930": productAsset("used/U-SAA-C545R.png"),
   "931": productAsset("used/U-SAA-T615M.png"),
@@ -630,8 +621,8 @@ export const productImages: Record<string, string> = {
   "940": productAsset("used/U-TG-5200-E2.png"),
   "941": productAsset("used/U-TT-3HL.png"),
   "942": productAsset("used/U-WM-T12.png"),
-  "943": rollingWorkTableAsset.url,
-  "944": woodTreatmentTableAsset.url,
+  "943": productAsset("used/rolling-work-table.jpg"),
+  "944": productAsset("used/wood-treatment-table-adjustable-backrest.png"),
 };
 
 
