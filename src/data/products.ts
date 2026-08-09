@@ -137,7 +137,7 @@ export const products: Product[] = [
   { id: "82", name: "TKO Defiant Custom Bay Single Station", category: "Strength Equipment", subcategory: "TKO", sku: "TKO DB-SUB-8-STAM", description: ["Accessories included", "Pull up bar", "4 tier storage", "Floor mounted system", "53\"x45\"x95\""] },
   
   { id: "84", name: "TKO 3 Tier Dumbbell Rack", category: "Strength Equipment", subcategory: "TKO", sku: "TKO 6235-B", description: ["55\"W x 30\"D x 40\"H", "174lbs", "Dumbbells sold separately", "Heavy duty frame"] },
-  { id: "803", name: "TKO Customizable Accessory Storage Rack", category: "Strength Equipment", subcategory: "TKO", sku: "TKO 899ASR", description: ["Compact storage for kettlebells, dumbbells, bosu balls, foam rollers, mats, cords, bands, jump ropes and med/slam balls", "(3) 12\" deep x 34\" wide ABS lined shelves", "(1) 8\" O.C. rail x 34\" wide rail shelf", "(4) utility hooks on main frame", "Matte black finish", "37 1/2\"W x 26 3/4\"D x 70 1/2\"H", "Optional attachments available for dumbbells, bosu balls, foam rollers, stability balls and hanging mats"] },
+  { id: "803", name: "TKO Customizable Accessory Storage Rack", category: "Strength Equipment", subcategory: "TKO", sku: "TKO 899ASR", description: ["Compact storage for kettlebells, dumbbells, bosu balls, foam rollers, mats, cords, bands, jump ropes and med/slam balls", "(3) 12\" deep x 34\" wide ABS lined shelves", "(1) 8\" O.C. rail x 34\" wide rail shelf", "(4) utility hooks on main frame", "Matte black finish", "37 1/2\"W x 26 3/4\"D x 70 1/2\"H", "Attachments shown are NOT included — sold separately as add-ons (dumbbell, bosu, foam roller, stability ball and hanging mat racks)"] },
 
 
   // BALANCE PRODUCTS
