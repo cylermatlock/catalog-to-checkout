@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T14:44:44.446Z",
+  "generatedAt": "2026-08-09T14:56:16.567Z",
   "products": [
     {
       "id": "1",
@@ -1355,6 +1355,34 @@
         "174lbs",
         "Dumbbells sold separately",
         "Heavy duty frame"
+      ]
+    },
+    {
+      "id": "803",
+      "sku": "TKO 899ASR",
+      "name": "TKO Customizable Accessory Storage Rack",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "TKO",
+      "condition": "new",
+      "image": "/assets/products/tko-899asr/angled.jpg",
+      "images": [
+        "/assets/products/tko-899asr/angled.jpg",
+        "/assets/products/tko-899asr/mainframe.jpg",
+        "/assets/products/tko-899asr/dbrack.jpg",
+        "/assets/products/tko-899asr/bosu.jpg",
+        "/assets/products/tko-899asr/foamroller.jpg",
+        "/assets/products/tko-899asr/ball.jpg",
+        "/assets/products/tko-899asr/mat.jpg"
+      ],
+      "description": [
+        "Compact storage for kettlebells, dumbbells, bosu balls, foam rollers, mats, cords, bands, jump ropes and med/slam balls",
+        "(3) 12\" deep x 34\" wide ABS lined shelves",
+        "(1) 8\" O.C. rail x 34\" wide rail shelf",
+        "(4) utility hooks on main frame",
+        "Matte black finish",
+        "37 1/2\"W x 26 3/4\"D x 70 1/2\"H",
+        "Optional attachments available for dumbbells, bosu balls, foam rollers, stability balls and hanging mats"
       ]
     },
     {
