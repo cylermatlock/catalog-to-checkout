@@ -6583,6 +6583,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "The TKO 899ASR Customizable Accessory Storage Rack is the perfect solution for a variety of fitness accessories — compact, with many storage varieties to cleanly organize any facility.",
       "It can hold kettlebells, dumbbells, bosu balls, foam rollers, hanging mats, resistance cords, strength bands, jump ropes and med/slam balls — or hold them all with your own custom configuration.",
       "The standard rack includes three 12\" deep x 34\" wide ABS-lined shelves, one 8\" O.C. rail x 34\" wide rail shelf, and four utility hooks on the main frame, finished in matte black.",
+      "Please note: the attachments shown are NOT included with the 899ASR. Each attachment (89ATT-VDB, 89ATT-BB, 89ATT-FR, 89ATT-SB, 89ATT-MR) is a separately priced add-on.",
     ],
     highlights: [
       "(3) 12\" deep x 34\" wide ABS-lined shelves",
@@ -6590,16 +6591,17 @@ export const productDetails: Record<string, ProductDetail> = {
       "(4) utility hooks on the main frame",
       "Matte black powder-coat finish",
       "37 1/2\"W x 26 3/4\"D x 70 1/2\"H footprint",
-      "Fully customizable with optional attachments",
+      "Attachments sold separately — not included with the base rack",
     ],
     gallery: [
       { src: "/assets/products/tko-899asr/angled.jpg", alt: "TKO 899ASR Customizable Accessory Storage Rack — angled view" },
-      { src: "/assets/products/tko-899asr/mainframe.jpg", alt: "TKO 899ASR main frame" },
-      { src: "/assets/products/tko-899asr/dbrack.jpg", alt: "TKO 89ATT-VDB vertical dumbbell rack attachment" },
-      { src: "/assets/products/tko-899asr/bosu.jpg", alt: "TKO 89ATT-BB vertical bosu ball holder attachment" },
-      { src: "/assets/products/tko-899asr/foamroller.jpg", alt: "TKO 89ATT-FR foam roller holder attachment" },
-      { src: "/assets/products/tko-899asr/ball.jpg", alt: "TKO 89ATT-SB stability ball storage attachment" },
-      { src: "/assets/products/tko-899asr/mat.jpg", alt: "TKO 89ATT-MR hanging mat rack attachment" },
+      { src: "/assets/products/tko-899asr/mainframe.jpg", alt: "TKO 899ASR main frame (as shipped)" },
+      { src: "/assets/products/tko-899asr/dbrack.jpg", alt: "TKO 89ATT-VDB vertical dumbbell rack — optional add-on, sold separately" },
+      { src: "/assets/products/tko-899asr/bosu.jpg", alt: "TKO 89ATT-BB vertical bosu ball holder — optional add-on, sold separately" },
+      { src: "/assets/products/tko-899asr/foamroller.jpg", alt: "TKO 89ATT-FR foam roller holder — optional add-on, sold separately" },
+      { src: "/assets/products/tko-899asr/ball.jpg", alt: "TKO 89ATT-SB stability ball storage — optional add-on, sold separately" },
+      { src: "/assets/products/tko-899asr/mat.jpg", alt: "TKO 89ATT-MR hanging mat rack — optional add-on, sold separately" },
+
     ],
     specGroups: [
       {
