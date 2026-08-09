@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:16:00.532Z",
+  "generatedAt": "2026-08-09T15:17:20.522Z",
   "products": [
     {
       "id": "1",
@@ -308,6 +308,26 @@
         "5 smooth rolling casters",
         "Adjustable height 18\"-23.5\"",
         "300 lb weight capacity"
+      ]
+    },
+    {
+      "id": "806",
+      "sku": "GMTS STEP",
+      "name": "GMTS Foot Step Stool",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Stools",
+      "condition": "new",
+      "image": "/assets/products/gmts-step/main.png",
+      "images": [
+        "/assets/products/gmts-step/main.png"
+      ],
+      "description": [
+        "Provides height and stability",
+        "Designed with a textured platform and reinforced rubber tips",
+        "Heavy-duty steel construction",
+        "Equipped to support up to 300 lb",
+        "17\"W x 11.5\"D x 9\"H"
       ]
     },
     {
