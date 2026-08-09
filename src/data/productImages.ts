@@ -125,7 +125,6 @@ export const productImages: Record<string, string> = {
   "103": productAsset("baseline-hand-eval.jpg"),
   // Clinical Supplies
   "105": productAsset("finger-webs.png"),
-  "106": productAsset("twist-bend-bars.png"),
   "107": productAsset("digi-flex.png"),
   "108": productAsset("cs-bands-page.jpg"),
   "109": productAsset("cs-bands-page.jpg"),
