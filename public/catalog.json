@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T14:41:07.898Z",
+  "generatedAt": "2026-08-09T14:44:44.446Z",
   "products": [
     {
       "id": "1",
@@ -5624,6 +5624,30 @@
         "Locking casters for easy repositioning",
         "Allows patients to self-monitor form during exercise",
         "Space-efficient for clinical exercise rooms"
+      ]
+    },
+    {
+      "id": "802",
+      "sku": "TMS 720588-001",
+      "name": "GMTS COMBINATION MOBILE WEIGHT CART",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Storage",
+      "condition": "new",
+      "image": "/assets/products/tms-720588-001-front.jpg",
+      "images": [
+        "/assets/products/tms-720588-001-front.jpg",
+        "/assets/products/tms-720588-001-back.jpg"
+      ],
+      "description": [
+        "Beautiful craftsmanship on this combination weight rack",
+        "Almond coated pegboard on front of rack for (9) therapy weights, includes (11) pegboard safety hooks",
+        "Includes (20) dumbbell hooks on back side to store dumbbells",
+        "Two large shelves available for band/supplies storage",
+        "Made in durable black or natural oak finish",
+        "Offered with (4) 3\" diameter easy-rolling casters",
+        "Weights and bands sold separately (unless specified)",
+        "Made in the USA"
       ]
     },
     {
