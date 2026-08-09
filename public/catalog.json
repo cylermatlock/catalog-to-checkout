@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:23:19.064Z",
+  "generatedAt": "2026-08-09T15:27:08.264Z",
   "products": [
     {
       "id": "1",
@@ -3461,6 +3461,74 @@
         "27\"L x 16\"W x 33\"H",
         "Mounted on rubber casters",
         "1-year warranty"
+      ]
+    },
+    {
+      "id": "809",
+      "sku": "FAB 00-1552",
+      "name": "Chattanooga ColPac Black Urethane Cold Pack — Standard, 10\" x 13.5\"",
+      "brand": "Fabrication Enterprises",
+      "category": "Modalities",
+      "subcategory": "Cold Compression",
+      "condition": "new",
+      "image": "/assets/products/colpac/standard.png",
+      "images": [
+        "/assets/products/colpac/standard.png"
+      ],
+      "description": [
+        "Reusable cold pack for localized cold therapy",
+        "Chill in a chilling unit or freezer — stays pliable and soft below freezing",
+        "Maintains therapeutic temperature up to 30 minutes",
+        "Polyurethane exterior — more supple and flexible at low temperatures than vinyl packs",
+        "Apply with a towel or Relief Pak cover",
+        "Pack size: 10\" x 13.5\" — Shipping dimensions: 11\" x 1\" x 14\"",
+        "Weight: 4 lbs",
+        "UPC: 048694015528"
+      ]
+    },
+    {
+      "id": "810",
+      "sku": "FAB 00-1554",
+      "name": "Chattanooga ColPac Black Urethane Cold Pack — Neck, 6\" x 21\"",
+      "brand": "Fabrication Enterprises",
+      "category": "Modalities",
+      "subcategory": "Cold Compression",
+      "condition": "new",
+      "image": "/assets/products/colpac/neck.png",
+      "images": [
+        "/assets/products/colpac/neck.png"
+      ],
+      "description": [
+        "Reusable neck-contoured cold pack for localized cold therapy",
+        "Chill in a chilling unit or freezer — stays pliable and soft below freezing",
+        "Maintains therapeutic temperature up to 30 minutes",
+        "Polyurethane exterior — more supple and flexible at low temperatures than vinyl packs",
+        "Apply with a towel or Relief Pak cover",
+        "Pack size: 6\" x 21\" — Shipping dimensions: 6\" x 1\" x 23\"",
+        "Weight: 3 lbs",
+        "UPC: 048694015542"
+      ]
+    },
+    {
+      "id": "811",
+      "sku": "FAB 00-1556",
+      "name": "Chattanooga ColPac Black Urethane Cold Pack — Oversize, 12.5\" x 18.5\"",
+      "brand": "Fabrication Enterprises",
+      "category": "Modalities",
+      "subcategory": "Cold Compression",
+      "condition": "new",
+      "image": "/assets/products/colpac/oversize.png",
+      "images": [
+        "/assets/products/colpac/oversize.png"
+      ],
+      "description": [
+        "Reusable oversize cold pack for large treatment areas",
+        "Chill in a chilling unit or freezer — stays pliable and soft below freezing",
+        "Maintains therapeutic temperature up to 30 minutes",
+        "Polyurethane exterior — more supple and flexible at low temperatures than vinyl packs",
+        "Apply with a towel or Relief Pak cover",
+        "Pack size: 12.5\" x 18.5\" — Shipping dimensions: 11\" x 1\" x 21\"",
+        "Weight: 6 lbs"
       ]
     },
     {
