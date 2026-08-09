@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:17:20.522Z",
+  "generatedAt": "2026-08-09T15:20:32.130Z",
   "products": [
     {
       "id": "1",
@@ -3567,6 +3567,31 @@
         "Hex heads prevent rolling",
         "Sold in pairs by weight",
         "Ideal for rehab, group exercise and home programs"
+      ]
+    },
+    {
+      "id": "807",
+      "sku": "FAB 10-7212",
+      "name": "Total Gym ELEVATE Encompass",
+      "brand": "Total Gym",
+      "category": "Strength Equipment",
+      "subcategory": "Total Gym",
+      "condition": "new",
+      "image": "/assets/products/total-gym/encompass/main.png",
+      "images": [
+        "/assets/products/total-gym/encompass/main.png"
+      ],
+      "description": [
+        "Full-body functional training system using 1%–62% body-weight resistance",
+        "22 calibrated incline levels with automatic rail locks for plyometric training",
+        "7-position adjustable glideboard (16\" x 48\") with high-density foam padding",
+        "Dynamic unilateral/bilateral pulley system, LAT bars, folding foot holder and telescoping squat stand",
+        "Retractable dip bars included as standard",
+        "Over 250 exercises and variations — resistance training through Pilates",
+        "350 lb user weight rating; 500 lb maximum load capacity",
+        "Unfolded: 106\" x 38\" x 57\" — Folds to 20\" deep for upright storage",
+        "Unit weight: 180 lbs",
+        "Commercial warranty: 5 yr frame, 1 yr parts & upholstery, 90 days foam & rubber"
       ]
     },
     {
