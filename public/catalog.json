@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:07:01.881Z",
+  "generatedAt": "2026-08-09T15:17:20.522Z",
   "products": [
     {
       "id": "1",
@@ -308,6 +308,26 @@
         "5 smooth rolling casters",
         "Adjustable height 18\"-23.5\"",
         "300 lb weight capacity"
+      ]
+    },
+    {
+      "id": "806",
+      "sku": "GMTS STEP",
+      "name": "GMTS Foot Step Stool",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Stools",
+      "condition": "new",
+      "image": "/assets/products/gmts-step/main.png",
+      "images": [
+        "/assets/products/gmts-step/main.png"
+      ],
+      "description": [
+        "Provides height and stability",
+        "Designed with a textured platform and reinforced rubber tips",
+        "Heavy-duty steel construction",
+        "Equipped to support up to 300 lb",
+        "17\"W x 11.5\"D x 9\"H"
       ]
     },
     {
@@ -3526,6 +3546,27 @@
         "Ergonomic shape for comfortable grip",
         "110 lb total weight",
         "Ideal for clinical and group exercise"
+      ]
+    },
+    {
+      "id": "805",
+      "sku": "ASG ND1-10",
+      "name": "Ader Neoprene Dumbbells — 1 to 10 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/assets/products/ader/nd-neoprene/main.jpg",
+      "images": [
+        "/assets/products/ader/nd-neoprene/main.jpg"
+      ],
+      "description": [
+        "Available sizes: 1–10 lb",
+        "Color varies according to size (1 lb Purple, 2 lb Pink, 3 lb Green, 4 lb Red, 5 lb Blue-Green, 6 lb Blue, 7 lb Orange, 8 lb Yellow, 9 lb Light Blue, 10 lb Black)",
+        "Premium neoprene coating protects floors and enhances grip",
+        "Hex heads prevent rolling",
+        "Sold in pairs by weight",
+        "Ideal for rehab, group exercise and home programs"
       ]
     },
     {
