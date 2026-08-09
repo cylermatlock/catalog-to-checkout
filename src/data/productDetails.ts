@@ -6615,13 +6615,14 @@ export const productDetails: Record<string, ProductDetail> = {
         ],
       },
       {
-        title: "Available Attachments",
+        title: "Available Attachments (sold separately — not included)",
         rows: [
-          { label: "89ATT-VDB", value: "Vertical dumbbell rack — 3\"W x 4\"D x 66 3/4\"H" },
-          { label: "89ATT-BB", value: "Vertical bosu ball holder — 22\"W x 9 1/2\"D" },
-          { label: "89ATT-FR", value: "Foam roller holder — 22\"W x 11\"D x 8 3/4\"H" },
-          { label: "89ATT-SB", value: "Stability ball storage, 3 pcs — 15 3/4\"W x 25\"D" },
-          { label: "89ATT-MR", value: "Hanging mat rack — 23 3/4\"W x 3 3/4\"D x 5\"H" },
+          { label: "89ATT-VDB", value: "Vertical dumbbell rack — 3\"W x 4\"D x 66 3/4\"H (add-on)" },
+          { label: "89ATT-BB", value: "Vertical bosu ball holder — 22\"W x 9 1/2\"D (add-on)" },
+          { label: "89ATT-FR", value: "Foam roller holder — 22\"W x 11\"D x 8 3/4\"H (add-on)" },
+          { label: "89ATT-SB", value: "Stability ball storage, 3 pcs — 15 3/4\"W x 25\"D (add-on)" },
+          { label: "89ATT-MR", value: "Hanging mat rack — 23 3/4\"W x 3 3/4\"D x 5\"H (add-on)" },
+
         ],
       },
     ],
