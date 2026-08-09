@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:27:08.264Z",
+  "generatedAt": "2026-08-09T15:32:56.775Z",
   "products": [
     {
       "id": "1",
@@ -6454,6 +6454,142 @@
         "Strengthens wrists, forearms, and grip",
         "Compact, portable design",
         "Tennis elbow and lateral epicondylitis rehab"
+      ]
+    },
+    {
+      "id": "812",
+      "sku": "FAB 10-1511",
+      "name": "CanDo Twist-n-Bend Flexible Exercise Bar — 12\", Yellow (X-Light)",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": "/assets/products/fab/10-1511.png",
+      "images": [
+        "/assets/products/fab/10-1511.png"
+      ],
+      "description": [
+        "Lightweight, portable flexible hand bar exerciser",
+        "Yellow — X-Light resistance",
+        "Strengthens hand, wrist and shoulder muscles",
+        "Promotes coordination and increases range of motion",
+        "Use for oscillation, soft tissue and joint mobilization",
+        "Consistent 2\" diameter and 12\" length across all resistances",
+        "Dimensions: 12\" x 2\" x 2\" — Weight: 1.1 lbs"
+      ]
+    },
+    {
+      "id": "813",
+      "sku": "FAB 10-1512",
+      "name": "CanDo Twist-n-Bend Flexible Exercise Bar — 12\", Red (Light)",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": "/assets/products/fab/10-1512.png",
+      "images": [
+        "/assets/products/fab/10-1512.png"
+      ],
+      "description": [
+        "Lightweight, portable flexible hand bar exerciser",
+        "Red — Light resistance",
+        "Strengthens hand, wrist and shoulder muscles",
+        "Promotes coordination and increases range of motion",
+        "Use for oscillation, soft tissue and joint mobilization",
+        "Consistent 2\" diameter and 12\" length across all resistances",
+        "Dimensions: 12\" x 2\" x 2\" — Weight: 1.1 lbs"
+      ]
+    },
+    {
+      "id": "814",
+      "sku": "FAB 10-1513",
+      "name": "CanDo Twist-n-Bend Flexible Exercise Bar — 12\", Green (Medium)",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": "/assets/products/fab/10-1513.png",
+      "images": [
+        "/assets/products/fab/10-1513.png"
+      ],
+      "description": [
+        "Lightweight, portable flexible hand bar exerciser",
+        "Green — Medium resistance",
+        "Strengthens hand, wrist and shoulder muscles",
+        "Promotes coordination and increases range of motion",
+        "Use for oscillation, soft tissue and joint mobilization",
+        "Consistent 2\" diameter and 12\" length across all resistances",
+        "Dimensions: 12\" x 2\" x 2\" — Weight: 1.1 lbs",
+        "UPC: 714905009241"
+      ]
+    },
+    {
+      "id": "815",
+      "sku": "FAB 10-1514",
+      "name": "CanDo Twist-n-Bend Flexible Exercise Bar — 12\", Blue (Heavy)",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": "/assets/products/fab/10-1514.png",
+      "images": [
+        "/assets/products/fab/10-1514.png"
+      ],
+      "description": [
+        "Lightweight, portable flexible hand bar exerciser",
+        "Blue — Heavy resistance",
+        "Strengthens hand, wrist and shoulder muscles",
+        "Promotes coordination and increases range of motion",
+        "Use for oscillation, soft tissue and joint mobilization",
+        "Consistent 2\" diameter and 12\" length across all resistances",
+        "Dimensions: 12\" x 2\" x 2\" — Weight: 1.2 lbs",
+        "UPC: 714905009258"
+      ]
+    },
+    {
+      "id": "816",
+      "sku": "FAB 10-1515",
+      "name": "CanDo Twist-n-Bend Flexible Exercise Bar — 12\", Black (X-Heavy)",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": "/assets/products/fab/10-1515.png",
+      "images": [
+        "/assets/products/fab/10-1515.png"
+      ],
+      "description": [
+        "Lightweight, portable flexible hand bar exerciser",
+        "Black — X-Heavy resistance",
+        "Strengthens hand, wrist and shoulder muscles",
+        "Promotes coordination and increases range of motion",
+        "Use for oscillation, soft tissue and joint mobilization",
+        "Consistent 2\" diameter and 12\" length across all resistances",
+        "Dimensions: 12\" x 2\" x 2\" — Weight: 1.2 lbs",
+        "UPC: 714905009265"
+      ]
+    },
+    {
+      "id": "817",
+      "sku": "FAB 10-1516",
+      "name": "CanDo Twist-n-Bend Flexible Exercise Bar — 12\", 6-Piece Set (Tan through Black)",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": "/assets/products/fab/10-1516.png",
+      "images": [
+        "/assets/products/fab/10-1516.png"
+      ],
+      "description": [
+        "Complete 6-piece set — tan (XX-light), yellow (X-light), red (light), green (medium), blue (heavy), black (X-heavy)",
+        "Lightweight, portable flexible hand bar exercisers",
+        "Strengthens hand, wrist and shoulder muscles",
+        "Promotes coordination and increases range of motion",
+        "Use for oscillation, soft tissue and joint mobilization",
+        "Consistent 2\" diameter and 12\" length across all resistances",
+        "Dimensions: 12\" x 2\" x 2\" — Set weight: 8.0 lbs",
+        "UPC: 714905009272"
       ]
     },
     {
