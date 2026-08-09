@@ -6575,6 +6575,56 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Mobile multi-purpose weight rack with full-view glass mirror, almond pegboard for 9 therapy weights, 20 dumbbell hooks, two storage shelves, and 3\" casters. Made in the USA.",
     },
   },
+  "802": {
+    productId: "802",
+    slug: "gmts-combination-mobile-weight-cart",
+    tagline: "Combination mobile weight cart with front pegboard for therapy weights, 20 dumbbell hooks on the back, and two storage shelves.",
+    overview: [
+      "Beautiful craftsmanship on this combination weight rack. The front features an almond-coated pegboard sized for nine therapy weights and ships with eleven pegboard safety hooks.",
+      "The back side holds twenty dumbbell hooks for free-weight storage, while two large shelves provide additional room for bands and supplies.",
+      "Made in a durable black or natural oak finish and offered with four 3\" diameter easy-rolling casters for quick repositioning. Made in the USA. Weights and bands sold separately unless specified.",
+    ],
+    highlights: [
+      "Beautiful craftsmanship on a combination weight rack",
+      "Almond-coated front pegboard sized for 9 therapy weights",
+      "Includes (11) pegboard safety hooks",
+      "(20) dumbbell hooks on the back side",
+      "Two large shelves for band/supply storage",
+      "Available in black or natural oak finish",
+      "(4) 3\" diameter easy-rolling casters",
+      "Made in the USA",
+      "Weights and bands sold separately (unless specified)",
+    ],
+    gallery: [
+      { src: "/assets/products/tms-720588-001-front.jpg", alt: "GMTS Combination Mobile Weight Cart — front pegboard with therapy weights" },
+      { src: "/assets/products/tms-720588-001-back.jpg", alt: "GMTS Combination Mobile Weight Cart — back side with dumbbell hooks" },
+    ],
+    specGroups: [
+      {
+        title: "Storage Capacity",
+        rows: [
+          { label: "Front pegboard", value: "Almond-coated, sized for 9 therapy weights" },
+          { label: "Pegboard hooks", value: "(11) safety hooks included" },
+          { label: "Dumbbell hooks", value: "(20) on the back side" },
+          { label: "Shelves", value: "(2) large shelves for bands/supplies" },
+        ],
+      },
+      {
+        title: "Construction & Mobility",
+        rows: [
+          { label: "Finish options", value: "Black or natural oak" },
+          { label: "Casters", value: "(4) 3\" diameter, easy-rolling" },
+          { label: "Origin", value: "Made in the USA" },
+          { label: "Note", value: "Weights and bands sold separately unless specified" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/therapeutic-exercise/equipment/tru-combination-mobile-weight-cart/",
+    seo: {
+      title: "GMTS Combination Mobile Weight Cart | GM Therapy",
+      description: "Mobile combination weight cart with almond pegboard for 9 therapy weights, 11 safety hooks, 20 dumbbell hooks, two storage shelves, and 3\" casters. Made in the USA.",
+    },
+  },
   "334": {
     productId: "334",
     slug: "gmts-deluxe-4-step-closed-end-staircase",
