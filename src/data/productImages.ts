@@ -601,6 +601,7 @@ export const productImages: Record<string, string> = {
   "815": productAsset("fab/10-1514.png"),
   "816": productAsset("fab/10-1515.png"),
   "817": productAsset("fab/10-1516.png"),
+  "818": productAsset("fab/10-0876.png"),
 
   // ===== PRE-OWNED / USED EQUIPMENT (extracted from spreadsheet) =====
   "901": productAsset("used/U-AM-BA350.png"),
