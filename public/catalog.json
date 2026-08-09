@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:01:30.473Z",
+  "generatedAt": "2026-08-09T15:07:01.881Z",
   "products": [
     {
       "id": "1",
@@ -1490,6 +1490,27 @@
         "High quality galvanized springs",
         "9 angles of adjustability",
         "Very quiet operation"
+      ]
+    },
+    {
+      "id": "804",
+      "sku": "FAB 10-3136",
+      "name": "CanDo Circular Ball Rebounder, 5-Piece Set",
+      "brand": "CanDo",
+      "category": "Balance Products",
+      "subcategory": "Balance",
+      "condition": "new",
+      "image": "/assets/products/cando-rebounder/main.png",
+      "images": [
+        "/assets/products/cando-rebounder/main.png"
+      ],
+      "description": [
+        "Built-in ball rack — includes 5 weighted balls (2, 4, 7, 11, 15 lb.)",
+        "27\" diagonal rebounding surface on a 36.5\" x 36\" frame",
+        "Angle of inclination adjusts 0°–42°",
+        "Rounded corners and foam-covered handle for safe multi-use environments",
+        "Improves strength, reflexes, coordination and hand-eye timing",
+        "Dimensions: 39\" x 42\" x 36\" — Weight: 100 lbs"
       ]
     },
     {
