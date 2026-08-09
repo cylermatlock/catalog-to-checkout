@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T14:38:20.270Z",
+  "generatedAt": "2026-08-09T14:38:40.637Z",
   "products": [
     {
       "id": "1",
@@ -138,7 +138,7 @@
     },
     {
       "id": "7",
-      "sku": "TMS 720760-001",
+      "sku": "TMS 720762-001",
       "name": "GMTS 10' Platform Mounted Parallel Bars",
       "brand": "GM Therapy Solutions",
       "category": "Rehab Furniture",
@@ -469,9 +469,9 @@
     },
     {
       "id": "29",
-      "sku": "CG M2",
+      "sku": "FAB 00-2402",
       "name": "Chattanooga M-2 Hydrocollator",
-      "brand": "Chattanooga",
+      "brand": "Fabrication Enterprises",
       "category": "Modalities",
       "subcategory": "Hydrocollator",
       "condition": "new",
@@ -865,7 +865,7 @@
     },
     {
       "id": "50",
-      "sku": "SFP CR800",
+      "sku": "SFP 800125",
       "name": "Spirit CR800 Recumbent Bike",
       "brand": "Spirit Fitness",
       "category": "Cardio",
@@ -1069,7 +1069,7 @@
     },
     {
       "id": "59",
-      "sku": "SCI PRO1031-INT",
+      "sku": "SCI PRO1032-INT",
       "name": "SciFit Pro 1000 - Seated Upper Body",
       "brand": "SciFit",
       "category": "Cardio",
@@ -2736,7 +2736,7 @@
     },
     {
       "id": "154",
-      "sku": "AM-BA350",
+      "sku": "AM BA350",
       "name": "Armedica AM-BA350 Bar Activated Treatment Table",
       "brand": "Armedica",
       "category": "Rehab Furniture",
