@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:34:30.839Z",
+  "generatedAt": "2026-08-09T15:37:29.628Z",
   "products": [
     {
       "id": "1",
@@ -1877,24 +1877,6 @@
       "description": [
         "Resistive hand exerciser",
         "Develops finger strength and coordination"
-      ]
-    },
-    {
-      "id": "106",
-      "sku": "FAB 10-1500",
-      "name": "Twist & Bend Bars",
-      "brand": "Fabrication Enterprises",
-      "category": "Clinical Supplies",
-      "subcategory": "Hand Exercisers",
-      "condition": "new",
-      "image": "/assets/products/twist-bend-bars.png",
-      "images": [
-        "/assets/products/twist-bend-bars.png"
-      ],
-      "description": [
-        "Flexible resistance bars",
-        "Color-coded resistance levels",
-        "For upper extremity strengthening"
       ]
     },
     {
