@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:32:56.775Z",
+  "generatedAt": "2026-08-09T15:34:30.839Z",
   "products": [
     {
       "id": "1",
@@ -6590,6 +6590,28 @@
         "Consistent 2\" diameter and 12\" length across all resistances",
         "Dimensions: 12\" x 2\" x 2\" — Set weight: 8.0 lbs",
         "UPC: 714905009272"
+      ]
+    },
+    {
+      "id": "818",
+      "sku": "FAB 10-0876",
+      "name": "CanDo Hand Exercise Web — Latex Free, 14\" Diameter, 6-Piece Set",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": "/assets/products/fab/10-0876.png",
+      "images": [
+        "/assets/products/fab/10-0876.png"
+      ],
+      "description": [
+        "6-piece set — tan, yellow, red, green, blue and black resistances",
+        "Latex free, 14\" diameter webs",
+        "Used in hand therapy for flexion, extension, opposition and supination exercises",
+        "Resistance modified by hand position, depth of finger insertion, or web color",
+        "Also available in a small 7\" diameter size",
+        "Dimensions: 14\" x 0.25\" x 14\" — Set weight: 7.0 lbs",
+        "UPC: 714905009135"
       ]
     },
     {
