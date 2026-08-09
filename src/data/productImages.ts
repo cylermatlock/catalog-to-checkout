@@ -587,6 +587,7 @@ export const productImages: Record<string, string> = {
   "702": productAsset("boost/boost3.jpg"),
   "800": productAsset("gmts-rolling-desk/61g1iPdTw8L.jpg"),
   "801": productAsset("spirit/ct800-handrails/main.png"),
+  "804": productAsset("cando-rebounder/main.png"),
 
   // ===== PRE-OWNED / USED EQUIPMENT (extracted from spreadsheet) =====
   "901": productAsset("used/U-AM-BA350.png"),
