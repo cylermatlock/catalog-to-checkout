@@ -6575,7 +6575,62 @@ export const productDetails: Record<string, ProductDetail> = {
       description: "Mobile multi-purpose weight rack with full-view glass mirror, almond pegboard for 9 therapy weights, 20 dumbbell hooks, two storage shelves, and 3\" casters. Made in the USA.",
     },
   },
+  "803": {
+    productId: "803",
+    slug: "tko-customizable-accessory-storage-rack",
+    tagline: "Compact, fully configurable accessory rack that organizes kettlebells, dumbbells, bosu balls, foam rollers, mats, bands and med balls in one footprint.",
+    overview: [
+      "The TKO 899ASR Customizable Accessory Storage Rack is the perfect solution for a variety of fitness accessories — compact, with many storage varieties to cleanly organize any facility.",
+      "It can hold kettlebells, dumbbells, bosu balls, foam rollers, hanging mats, resistance cords, strength bands, jump ropes and med/slam balls — or hold them all with your own custom configuration.",
+      "The standard rack includes three 12\" deep x 34\" wide ABS-lined shelves, one 8\" O.C. rail x 34\" wide rail shelf, and four utility hooks on the main frame, finished in matte black.",
+    ],
+    highlights: [
+      "(3) 12\" deep x 34\" wide ABS-lined shelves",
+      "(1) 8\" O.C. rail x 34\" wide rail shelf",
+      "(4) utility hooks on the main frame",
+      "Matte black powder-coat finish",
+      "37 1/2\"W x 26 3/4\"D x 70 1/2\"H footprint",
+      "Fully customizable with optional attachments",
+    ],
+    gallery: [
+      { src: "/assets/products/tko-899asr/angled.jpg", alt: "TKO 899ASR Customizable Accessory Storage Rack — angled view" },
+      { src: "/assets/products/tko-899asr/mainframe.jpg", alt: "TKO 899ASR main frame" },
+      { src: "/assets/products/tko-899asr/dbrack.jpg", alt: "TKO 89ATT-VDB vertical dumbbell rack attachment" },
+      { src: "/assets/products/tko-899asr/bosu.jpg", alt: "TKO 89ATT-BB vertical bosu ball holder attachment" },
+      { src: "/assets/products/tko-899asr/foamroller.jpg", alt: "TKO 89ATT-FR foam roller holder attachment" },
+      { src: "/assets/products/tko-899asr/ball.jpg", alt: "TKO 89ATT-SB stability ball storage attachment" },
+      { src: "/assets/products/tko-899asr/mat.jpg", alt: "TKO 89ATT-MR hanging mat rack attachment" },
+    ],
+    specGroups: [
+      {
+        title: "Standard 899ASR",
+        rows: [
+          { label: "Shelves", value: "(3) 12\" D x 34\" W ABS-lined" },
+          { label: "Rail shelf", value: "(1) 8\" O.C. rail x 34\" W" },
+          { label: "Utility hooks", value: "(4) on main frame" },
+          { label: "Color", value: "Matte black" },
+          { label: "Dimensions", value: "37 1/2\" W x 26 3/4\" D x 70 1/2\" H" },
+        ],
+      },
+      {
+        title: "Available Attachments",
+        rows: [
+          { label: "89ATT-VDB", value: "Vertical dumbbell rack — 3\"W x 4\"D x 66 3/4\"H" },
+          { label: "89ATT-BB", value: "Vertical bosu ball holder — 22\"W x 9 1/2\"D" },
+          { label: "89ATT-FR", value: "Foam roller holder — 22\"W x 11\"D x 8 3/4\"H" },
+          { label: "89ATT-SB", value: "Stability ball storage, 3 pcs — 15 3/4\"W x 25\"D" },
+          { label: "89ATT-MR", value: "Hanging mat rack — 23 3/4\"W x 3 3/4\"D x 5\"H" },
+        ],
+      },
+    ],
+    sourceUrl: "https://www.tkostrength.com/products/copy-of-customizable-accessory-storage-rack",
+    seo: {
+      title: "TKO 899ASR Customizable Accessory Storage Rack | GM Therapy",
+      description: "TKO 899ASR accessory storage rack with 3 ABS-lined shelves, rail shelf, 4 utility hooks and optional dumbbell, bosu, foam roller, stability ball and mat attachments.",
+    },
+  },
   "802": {
+
     productId: "802",
     slug: "gmts-combination-mobile-weight-cart",
     tagline: "Combination mobile weight cart with front pegboard for therapy weights, 20 dumbbell hooks on the back, and two storage shelves.",
