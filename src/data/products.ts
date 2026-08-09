@@ -39,7 +39,7 @@ export const products: Product[] = [
   { id: "6", name: "GMTS DELUXE OAK MAT TABLE — 3' X 7'", category: "Rehab Furniture", subcategory: "Hi-Lo Tables", sku: "TMS 730057-(xxx)", description: ["3 ft x 7 ft fixed mat table", "Hand-crafted solid oak", "2\" medium-density foam padding", "Surface height: 20\"", "11 stocking Naugahyde® colors", "500 lb weight capacity", "Made in the USA"] },
 
   // REHAB FURNITURE - Parallel Bars
-  { id: "7", name: "GMTS 10' Platform Mounted Parallel Bars", category: "Rehab Furniture", subcategory: "Parallel Bars", sku: "TMS 720760-001", description: ["Mounted to 1-1/2\" thick hardwood", "Safety tread at both ends", "Width adjustable", "Heavy uprights", "Easy height changes", "End bumpers on handrails", "400 lb weight capacity"] },
+  { id: "7", name: "GMTS 10' Platform Mounted Parallel Bars", category: "Rehab Furniture", subcategory: "Parallel Bars", sku: "TMS 720762-001", description: ["Mounted to 1-1/2\" thick hardwood", "Safety tread at both ends", "Width adjustable", "Heavy uprights", "Easy height changes", "End bumpers on handrails", "400 lb weight capacity"] },
   
   { id: "9", name: "Armedica Power Parallel Bars", category: "Rehab Furniture", subcategory: "Parallel Bars", sku: "AM TM700", description: ["Digital user friendly display", "Memory buttons for storage", "Microprocessor control unit", "Heavy duty construction", "Height monitoring functions", "Slip-resistant platform", "400 lb weight capacity"], bsw: true },
 
@@ -69,7 +69,7 @@ export const products: Product[] = [
 
   // MODALITIES - Hydrocollator
   { id: "28", name: "Richmar Hydratherm", category: "Modalities", subcategory: "Hydrocollator", sku: "RICH HT-R12-SW", description: ["Digital thermostat control", "Composite no rust tub with divider system", "Reduces number of cleanings", "12 hot pack capacity", "Low water sensor", "1 year warranty"] },
-  { id: "29", name: "Chattanooga M-2 Hydrocollator", category: "Modalities", subcategory: "Hydrocollator", sku: "CG M2", description: ["High-quality stainless steel", "Thermostatically controlled temperature", "3\" swivel silent casters", "Holds up to 12 standard packs", "1 year warranty"] },
+  { id: "29", name: "Chattanooga M-2 Hydrocollator", category: "Modalities", subcategory: "Hydrocollator", sku: "FAB 00-2402", description: ["High-quality stainless steel", "Thermostatically controlled temperature", "3\" swivel silent casters", "Holds up to 12 standard packs", "1 year warranty"] },
   { id: "30", name: "Chattanooga M-4 Hydrocollator", category: "Modalities", subcategory: "Hydrocollator", sku: "CG M4", description: ["High-quality stainless steel", "Thermostatically controlled temperature", "3\" swivel silent casters", "Holds up to 24 standard packs", "1 year warranty"] },
 
   // MODALITIES - E-Stim/Ultrasound
@@ -102,7 +102,7 @@ export const products: Product[] = [
 
   // CARDIO - Spirit
   { id: "49", name: "Spirit CT800 Treadmill", category: "Cardio", subcategory: "Spirit", sku: "SFP 800825", description: ["85\"L x 35.8\"W x 60.6\"H", "Optional Medical Handrails", "0.5–12mph speed range", "450lb Weight Capacity", "5 Year Warranty"] },
-  { id: "50", name: "Spirit CR800 Recumbent Bike", category: "Cardio", subcategory: "Recumbent Bikes", sku: "SFP CR800", description: ["59.4\"L x 29.1\"W x 50.8\"H", "Heart Rate Monitors", "Self Generating", "450lb Weight Capacity", "5 Year Warranty"] },
+  { id: "50", name: "Spirit CR800 Recumbent Bike", category: "Cardio", subcategory: "Recumbent Bikes", sku: "SFP 800125", description: ["59.4\"L x 29.1\"W x 50.8\"H", "Heart Rate Monitors", "Self Generating", "450lb Weight Capacity", "5 Year Warranty"] },
   { id: "51", name: "Spirit CE800 Elliptical", category: "Cardio", subcategory: "Spirit", sku: "SFP CE800", description: ["78\"L x 24.2\"W x 62.2\"H", "Easy Rear Access", "Self Generating", "450lb Weight Capacity"] },
   { id: "158", name: "Spirit CU800 Upright Bike", category: "Cardio", subcategory: "Spirit", sku: "SFP CU800", description: ["48.4\"L x 25.6\"W x 57.7\"H", "30 lb Flywheel, 40 Resistance Levels", "Self-Generating (Cordless)", "Bluetooth & Hand Pulse Heart Rate", "450lb Weight Capacity"] },
   
@@ -114,7 +114,7 @@ export const products: Product[] = [
   { id: "56", name: "SciFit Step One - Recumbent Stepper", category: "Cardio", subcategory: "SciFit", sku: "SCI SONE03", description: ["User defined stride length", "Arm-to-leg movement", "Low starting resistance", "Direct wheelchair access", "Full Color Touch Screen", "3 year parts warranty"], bsw: true },
   { id: "57", name: "SciFit Pro 2 - Total Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO230-INT", description: ["Upper, lower or total body", "Dependent motion", "Adjustable cranks", "Removable seat", "Very slow starting resistance", "3 year parts warranty"] },
   
-  { id: "59", name: "SciFit Pro 1000 - Seated Upper Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO1031-INT", description: ["Adjustable arm cranks: 3 ROM settings", "Step-through accessibility", "Bi-directional exercise", "191 levels of resistance", "Removable seat for wheelchair access"] },
+  { id: "59", name: "SciFit Pro 1000 - Seated Upper Body", category: "Cardio", subcategory: "SciFit", sku: "SCI PRO1032-INT", description: ["Adjustable arm cranks: 3 ROM settings", "Step-through accessibility", "Bi-directional exercise", "191 levels of resistance", "Removable seat for wheelchair access"] },
   
 
   // STRENGTH EQUIPMENT - Shuttle
@@ -213,7 +213,7 @@ export const products: Product[] = [
   { id: "151", name: "Matrix R3xm Recumbent Cycle", category: "Cardio", subcategory: "Recumbent Bike", sku: "MF-R3XM", description: ["Effortless one-hand seat adjustment", "Seat swivels 160° and locks at right, left and center", "Step-through design for easy entry and exit", "Self-balancing pedals with heel cups and adjustable straps", "Independently length-adjustable crank arms (1.5\"–7\")", "Self-powered with bright LED console", "WiFi-ready for Matrix Asset Management"] },
   { id: "152", name: "Matrix Go Series Functional Trainer", category: "Strength Equipment", subcategory: "Functional Trainer", sku: "GO-FT3 / GO-FT4", description: ["Walk-through frame with cleanly routed cables", "Single centralized weight stack", "Variable pulley ratio for strength or explosive movements", "Available in GO-FT3 and GO-FT4 configurations", "Streamlined aesthetic that fits any facility", "Versatile functional training for all users"] },
   { id: "153", name: "Matrix Magnum PRO XL Half Rack", category: "Strength Equipment", subcategory: "Racks & Platforms", sku: "MF-MG-PRO690EX-02", description: ["Heavy-duty open half-rack design", "4-sided upright attachment points for maximum exercise variety", "Configurable and expandable in any direction", "Compatible with full Magnum training components", "Legendary Magnum durability for constant hard use", "Easy access for users of all sizes"] },
-  { id: "154", name: "Armedica AM-BA350 Bar Activated Treatment Table", category: "Rehab Furniture", subcategory: "Hi-Lo Tables", sku: "AM-BA350", description: ["Heavy-duty steel tube Hi-Lo dual foot bar control", "Hands-free height adjustment from any side", "500 lb load capacity", "27\"W x 76\"L x 18–37\"H, 3-section top", "Head section +45° to -90°, lower extremity 0–78°", "Armrests +45° to -90°", "34 oz heavy-duty vinyl with Permablok 3® protection", "(4) total locking casters, ADA compliant"] },
+  { id: "154", name: "Armedica AM-BA350 Bar Activated Treatment Table", category: "Rehab Furniture", subcategory: "Hi-Lo Tables", sku: "AM BA350", description: ["Heavy-duty steel tube Hi-Lo dual foot bar control", "Hands-free height adjustment from any side", "500 lb load capacity", "27\"W x 76\"L x 18–37\"H, 3-section top", "Head section +45° to -90°, lower extremity 0–78°", "Armrests +45° to -90°", "34 oz heavy-duty vinyl with Permablok 3® protection", "(4) total locking casters, ADA compliant"] },
   { id: "155", name: "Matrix Versa Functional Trainer w/18\" Storage", category: "Strength Equipment", subcategory: "Functional Trainer", sku: "VS-VFT + VS-FTS18", description: ["Versa Functional Trainer with 18\" integrated storage", "Dual adjustable pulleys for full-body training", "Smooth, quiet pulley system", "Compact, space-efficient footprint", "Commercial-grade Versa construction", "Streamlined aesthetic for any facility"] },
   { id: "156", name: "Matrix Versa Functional Trainer w/30\" Storage", category: "Strength Equipment", subcategory: "Functional Trainer", sku: "VS-VFT + VS-FTS30", description: ["Versa Functional Trainer with 30\" integrated storage", "Dual adjustable pulleys for full-body training", "Expanded accessory and weight storage", "Smooth, quiet pulley system", "Commercial-grade Versa construction", "Streamlined aesthetic for any facility"] },
 

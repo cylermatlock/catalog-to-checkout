@@ -1,7 +1,8 @@
 {
   "_comment": "Customer-facing brand resolution for catalog.json. nameKeywords win over skuPrefix; skuOverrides win over everything. 'U-' pre-owned prefixes are stripped before lookup.",
   "skuOverrides": {
-    "RICH SS7677": "GM Therapy Solutions"
+    "RICH SS7677": "GM Therapy Solutions",
+    "FAB 00-2402": "Chattanooga"
   },
   "nameKeywords": {
     "cando": "CanDo",
