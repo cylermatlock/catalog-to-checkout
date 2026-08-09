@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:22:45.256Z",
+  "generatedAt": "2026-08-09T15:23:19.064Z",
   "products": [
     {
       "id": "1",
@@ -8585,6 +8585,28 @@
         "Reliable grip-strength evaluation",
         "Compact for portable use",
         "Includes carrying case"
+      ]
+    },
+    {
+      "id": "808",
+      "sku": "FAB 10-1382",
+      "name": "OPTP Stretch Out Strap with Stretching Exercise Poster",
+      "brand": "Fabrication Enterprises",
+      "category": "Clinical Supplies",
+      "subcategory": "Exercise",
+      "condition": "new",
+      "image": "/assets/products/optp-stretch-out-strap/main.png",
+      "images": [
+        "/assets/products/optp-stretch-out-strap/main.png"
+      ],
+      "description": [
+        "The Original Stretch Out Strap — delivers the benefits of assisted stretching without a partner",
+        "Durable woven strap with multiple loops for deep, gradual stretching of major muscle groups",
+        "Greater safety, control and effectiveness than stretching unaided",
+        "Includes illustrated stretching exercise poster",
+        "Ideal for older and younger adults building flexibility",
+        "Dimensions: 21\" x 4\" x 16\" — Weight: 1 lb",
+        "UPC: 040232158643"
       ]
     },
     {
