@@ -172,7 +172,6 @@ export const products: Product[] = [
 
   // CLINICAL SUPPLIES
   { id: "105", name: "Finger Webs", category: "Clinical Supplies", subcategory: "Hand Exercisers", sku: "FAB 10-0800", description: ["Resistive hand exerciser", "Develops finger strength and coordination"] },
-  { id: "106", name: "Twist & Bend Bars", category: "Clinical Supplies", subcategory: "Hand Exercisers", sku: "FAB 10-1500", description: ["Flexible resistance bars", "Color-coded resistance levels", "For upper extremity strengthening"] },
   { id: "107", name: "Digi Flex Hand Exercisers", category: "Clinical Supplies", subcategory: "Hand Exercisers", sku: "FAB 10-0745", description: ["Individual finger exercise", "Color-coded resistance levels", "Develops isolated finger strength"] },
   { id: "110", name: "Hand Putty (Various Resistances)", category: "Clinical Supplies", subcategory: "Hand Exercisers", sku: "FAB 10-09", description: ["Color-coded resistance levels", "Non-toxic and latex-free", "For hand and finger strengthening"] },
   { id: "113", name: "Hot & Cold Packs", category: "Clinical Supplies", subcategory: "Hot & Cold Packs", sku: "HCP", description: ["Reusable hot and cold therapy", "Multiple sizes available", "Durable construction"] },
