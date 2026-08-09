@@ -57,6 +57,7 @@ export const products: Product[] = [
 
   // REHAB FURNITURE - Stools
   { id: "19", name: "GMTS Pneumatic Stool", category: "Rehab Furniture", subcategory: "Stools", sku: "RICH SS7677", description: ["Soft durable vinyl seat", "High density fiberglass base", "5 smooth rolling casters", "Adjustable height 18\"-23.5\"", "300 lb weight capacity"], bsw: true },
+  { id: "806", name: "GMTS Foot Step Stool", category: "Rehab Furniture", subcategory: "Stools", sku: "GMTS STEP", description: ["Provides height and stability", "Designed with a textured platform and reinforced rubber tips", "Heavy-duty steel construction", "Equipped to support up to 300 lb", "17\"W x 11.5\"D x 9\"H"], image: "/assets/products/gmts-step/main.png" },
   // REHAB FURNITURE - Standing Frames
   { id: "22", name: "NK Electric Standing Frame", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "NK 375", description: ["Hi-Lo standing table", "Electric patient lift", "350 lb lift capacity", "33\"x24\" laminate top", "Lift support harness", "Padded knee, chest & back"] },
   { id: "23", name: "EasyStand Evolve", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "AMED PNG50162-1", description: ["Super comfortable for prolonged standing", "Easier transfers and independent standing position", "Available in three sizes"] },
