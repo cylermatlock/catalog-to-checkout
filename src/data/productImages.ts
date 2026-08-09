@@ -595,6 +595,12 @@ export const productImages: Record<string, string> = {
   "809": productAsset("colpac/standard.png"),
   "810": productAsset("colpac/neck.png"),
   "811": productAsset("colpac/oversize.png"),
+  "812": productAsset("fab/10-1511.png"),
+  "813": productAsset("fab/10-1512.png"),
+  "814": productAsset("fab/10-1513.png"),
+  "815": productAsset("fab/10-1514.png"),
+  "816": productAsset("fab/10-1515.png"),
+  "817": productAsset("fab/10-1516.png"),
 
   // ===== PRE-OWNED / USED EQUIPMENT (extracted from spreadsheet) =====
   "901": productAsset("used/U-AM-BA350.png"),
