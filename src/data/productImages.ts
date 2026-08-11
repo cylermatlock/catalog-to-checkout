@@ -185,6 +185,8 @@ export const productImages: Record<string, string> = {
   // Baseline Work Hardening
   "157": productAsset("baseline-mmt-electronic.png"),
   "819": productAsset("baseline-dual-grip-handle.png"),
+  "820": productAsset("baseline-pinch-gauge-12-0490.png"),
+
   // Spirit CU800 Upright Bike
   "158": productAsset("spirit-cu800.jpg"),
   // BSW products
