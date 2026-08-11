@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T14:45:18.843Z",
+  "generatedAt": "2026-08-11T14:47:33.591Z",
   "products": [
     {
       "id": "1",
@@ -1860,6 +1860,27 @@
         "Compatible with Baseline single and dual grip testing handle",
         "CE certified, 1-year warranty",
         "Dimensions: 13.5\" x 3.25\" x 10\", Weight: 5 lbs"
+      ]
+    },
+    {
+      "id": "819",
+      "sku": "FAB 12-0389",
+      "name": "Baseline MMT Dual Grip Handle (also for Wrist Dynamometer)",
+      "brand": "Fabrication Enterprises",
+      "category": "Work Hardening",
+      "subcategory": "Work Hardening",
+      "condition": "new",
+      "image": "/assets/products/baseline-dual-grip-handle.png",
+      "images": [
+        "/assets/products/baseline-dual-grip-handle.png"
+      ],
+      "description": [
+        "Dual grip testing handle accessory for Baseline push-pull dynamometers",
+        "Works with Baseline push and pull pads",
+        "Compatible with Baseline hydraulic, mechanical and electronic push-pull dynamometers",
+        "Also used with the Baseline wrist dynamometer",
+        "Dimensions: 11.5\" x 1.75\" x 3.75\"",
+        "Weight: 2 lbs"
       ]
     },
     {
