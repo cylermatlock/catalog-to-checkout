@@ -184,6 +184,7 @@ export const productImages: Record<string, string> = {
   "156": productAsset("matrix-versa-functional-trainer-30.png"),
   // Baseline Work Hardening
   "157": productAsset("baseline-mmt-electronic.png"),
+  "819": productAsset("baseline-dual-grip-handle.png"),
   // Spirit CU800 Upright Bike
   "158": productAsset("spirit-cu800.jpg"),
   // BSW products
