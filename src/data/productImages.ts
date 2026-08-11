@@ -121,7 +121,7 @@ export const productImages: Record<string, string> = {
   "100": productAsset("game-ready-prpro.jpg"),
   // Work Hardening
   "101": productAsset("baseline-hand-dynamometer.jpg"),
-  "102": productAsset("baseline-pinch-gauge.jpg"),
+  "102": productAsset("baseline-pinch-gauge-12-0235.png"),
   "103": productAsset("baseline-hand-eval.jpg"),
   // Clinical Supplies
   "105": productAsset("finger-webs.png"),
