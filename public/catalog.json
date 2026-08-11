@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T14:50:00.729Z",
+  "generatedAt": "2026-08-11T14:51:58.021Z",
   "products": [
     {
       "id": "1",
@@ -1804,20 +1804,24 @@
     },
     {
       "id": "102",
-      "sku": "FAB 12-0222",
-      "name": "Baseline Pinch Gauge, 50 lb Capacity",
+      "sku": "FAB 12-0235",
+      "name": "Baseline Hydraulic Pinch Gauge - Standard - 50 lb Capacity",
       "brand": "Fabrication Enterprises",
       "category": "Work Hardening",
       "subcategory": "Work Hardening",
       "condition": "new",
-      "image": "/assets/products/baseline-pinch-gauge.jpg",
+      "image": "/assets/products/baseline-pinch-gauge-12-0235.png",
       "images": [
-        "/assets/products/baseline-pinch-gauge.jpg"
+        "/assets/products/baseline-pinch-gauge-12-0235.png"
       ],
       "description": [
-        "Hydraulic system for reliability",
-        "50 pound hd standard head",
-        "5 year manufacturers warranty"
+        "Standard hydraulic pinch gauge with 50 lb capacity",
+        "Blue body with 2-1/2\" analog gauge",
+        "Hydraulic system assures reliability, accuracy and repeatability",
+        "Therapist can support the gauge during testing for more accurate results",
+        "Reads in pounds and kilograms",
+        "2 year manufacturer's warranty",
+        "Dimensions: 5\" x 2.5\" x 1\", Weight: 2 lbs"
       ]
     },
     {
