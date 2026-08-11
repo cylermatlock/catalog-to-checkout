@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T14:47:33.591Z",
+  "generatedAt": "2026-08-11T14:50:00.729Z",
   "products": [
     {
       "id": "1",
@@ -1881,6 +1881,27 @@
         "Also used with the Baseline wrist dynamometer",
         "Dimensions: 11.5\" x 1.75\" x 3.75\"",
         "Weight: 2 lbs"
+      ]
+    },
+    {
+      "id": "820",
+      "sku": "FAB 12-0490",
+      "name": "Baseline Hydraulic Pinch Gauge - 5-Level Pinch Feedback Mode - 50 lb Capacity",
+      "brand": "Fabrication Enterprises",
+      "category": "Work Hardening",
+      "subcategory": "Work Hardening",
+      "condition": "new",
+      "image": "/assets/products/baseline-pinch-gauge-12-0490.png",
+      "images": [
+        "/assets/products/baseline-pinch-gauge-12-0490.png"
+      ],
+      "description": [
+        "Hydraulic 5-level pinch gauge available in clinic mode (gauge facing clinician) and feedback mode (gauge facing patient)",
+        "Adjustable handle fits all size hands for accurate, repeatable pinch measurements",
+        "5-position strength test protocols (MVE and MMVE) can be used for pinch measurements",
+        "Easy to adjust paddle accommodates any size hand",
+        "50 lb capacity, reads in pounds and kilograms",
+        "Dimensions: 5\" x 2.5\" x 1\", Weight: 3 lbs"
       ]
     },
     {
