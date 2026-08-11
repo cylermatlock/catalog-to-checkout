@@ -186,6 +186,8 @@ export const productImages: Record<string, string> = {
   "157": productAsset("baseline-mmt-electronic.png"),
   "819": productAsset("baseline-dual-grip-handle.png"),
   "820": productAsset("baseline-pinch-gauge-12-0490.png"),
+  "821": productAsset("baseline-hand-eval-3pc-12-0103.png"),
+
 
   // Spirit CU800 Upright Bike
   "158": productAsset("spirit-cu800.jpg"),
