@@ -23,7 +23,7 @@ LOGO = ROOT / "src/assets/gm-therapy-logo-new.png"
 
 # Output canvas (matches the reference aspect ratio 1.25)
 W, H = 1400, 1120
-FLOOR_Y = int(H * 0.885)   # where product feet land
+FLOOR_Y = int(H * 0.925)   # foreground floor plane where product feet land
 TOP_SAFE = int(H * 0.20)   # keep clear of logo / orange arc
 
 _session = new_session("birefnet-general")
@@ -141,55 +141,62 @@ def process(path: Path) -> bool:
                      Image.LANCZOS)
 
     x = (W - new.width) // 2
-    # Sink the cutout a hair below the floor line so there is never a visible gap
-    # between the contact points and the floor.
-    overlap = max(2, int(new.height * 0.004))
+    # Sink the lowest physical points into the floor by a few pixels. This removes
+    # the pale anti-aliased gap that makes an otherwise grounded object float.
+    overlap = max(4, int(new.height * 0.009))
     y = FLOOR_Y - new.height + overlap
 
     canvas = BASE.copy()
 
     alpha = np.array(new)[..., 3].astype(np.float32)
 
-    # --- footprint: the silhouette of the bottom slice = what touches the floor
-    foot_rows = max(2, int(new.height * 0.02))
+    # --- footprint: only the very bottom silhouette can cast a contact shadow.
+    # Using a taller slice creates the detached fuzzy oval seen in the old images.
+    foot_rows = max(2, int(new.height * 0.012))
     foot = alpha[-foot_rows:].max(axis=0)              # per-column contact profile
     foot = np.clip(foot / 255.0, 0, 1)
 
     contact_y = y + new.height                          # exact contact line
 
-    sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    shn = np.zeros((H, W), np.float32)
-
-    # tight, dark core shadow hugging the contact line
-    core_h = max(4, int(new.height * 0.014))
+    # Tight, dark core: kept separate from the soft spill so it remains visibly
+    # attached to feet, wheels, and bases after compositing.
+    core = np.zeros((H, W), np.float32)
+    core_h = max(3, min(8, int(new.height * 0.009)))
     for i in range(core_h):
         t = i / core_h
-        row_y = contact_y - 2 + i
+        row_y = contact_y - overlap + i
         if 0 <= row_y < H:
-            shn[row_y, x:x + new.width] = np.maximum(
-                shn[row_y, x:x + new.width], foot * (1 - t) ** 1.2 * 0.92)
+            core[row_y, x:x + new.width] = np.maximum(
+                core[row_y, x:x + new.width], foot * (1 - t) ** 1.5 * 0.78)
 
-    # small, quickly-fading floor spill
-    spill_h = max(8, int(new.height * 0.05))
+    # Short floor spill projected away from the contact points. It is deliberately
+    # shallow and faint—not a detached ellipse beneath the equipment.
+    spill = np.zeros((H, W), np.float32)
+    spill_h = max(7, min(24, int(new.height * 0.032)))
     spread = np.clip(np.arange(spill_h) / spill_h, 0, 1)
     for i in range(spill_h):
-        row_y = contact_y - 2 + i
+        row_y = contact_y - overlap + 1 + i
         if not (0 <= row_y < H):
             continue
-        wgrow = 1.0 + 0.07 * spread[i]
+        wgrow = 1.0 + 0.035 * spread[i]
         fw = max(2, int(new.width * wgrow))
         prof = np.array(Image.fromarray((foot * 255).astype(np.uint8)[None, :], "L")
                         .resize((fw, 1), Image.LANCZOS)).astype(np.float32)[0] / 255.0
         x0 = x - (fw - new.width) // 2
         xs0, xs1 = max(0, x0), min(W, x0 + fw)
-        seg = prof[xs0 - x0: xs1 - x0] * (1 - spread[i]) ** 2.4 * 0.42
-        shn[row_y, xs0:xs1] = np.maximum(shn[row_y, xs0:xs1], seg)
+        seg = prof[xs0 - x0: xs1 - x0] * (1 - spread[i]) ** 3.2 * 0.24
+        spill[row_y, xs0:xs1] = np.maximum(spill[row_y, xs0:xs1], seg)
 
-    tint = Image.new("RGBA", (W, H), (52, 56, 64, 255))
-    tint.putalpha(Image.fromarray((shn * 255).clip(0, 255).astype(np.uint8), "L"))
-    sh.alpha_composite(tint)
-    sh = sh.filter(ImageFilter.GaussianBlur(3.5))
-    canvas = Image.alpha_composite(canvas, sh)
+    shadow_rgb = (49, 52, 58, 255)
+    spill_layer = Image.new("RGBA", (W, H), shadow_rgb)
+    spill_mask = Image.fromarray((spill * 255).clip(0, 255).astype(np.uint8), "L")
+    spill_layer.putalpha(spill_mask.filter(ImageFilter.GaussianBlur(2.0)))
+    canvas = Image.alpha_composite(canvas, spill_layer)
+
+    core_layer = Image.new("RGBA", (W, H), shadow_rgb)
+    core_mask = Image.fromarray((core * 255).clip(0, 255).astype(np.uint8), "L")
+    core_layer.putalpha(core_mask.filter(ImageFilter.GaussianBlur(0.7)))
+    canvas = Image.alpha_composite(canvas, core_layer)
 
     canvas.alpha_composite(new, (x, y))
 
