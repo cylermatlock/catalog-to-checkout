@@ -123,40 +123,68 @@ def clean_mask(cut: Image.Image) -> Image.Image:
 def process(path: Path) -> bool:
     raw = Image.open(path).convert("RGBA")
     cut = clean_mask(remove(raw, session=_session, post_process_mask=False))
-    bbox = cut.getbbox()
-    if not bbox:
+
+    # Trim rows/cols that are effectively empty so the true lowest contact point
+    # (feet / wheels / base) becomes the bottom edge of the cutout.
+    a = np.array(cut)[..., 3]
+    solid = a > 24
+    if not solid.any():
         print(f"  ! no subject found: {path.name}")
         return False
-    cut = cut.crop(bbox)
+    ys, xs = np.nonzero(solid)
+    cut = cut.crop((xs.min(), ys.min(), xs.max() + 1, ys.max() + 1))
 
-    max_w = int(W * 0.78)
+    max_w = int(W * 0.76)
     max_h = FLOOR_Y - TOP_SAFE
     ratio = min(max_w / cut.width, max_h / cut.height, 1.6)
     new = cut.resize((max(1, int(cut.width * ratio)), max(1, int(cut.height * ratio))),
                      Image.LANCZOS)
 
     x = (W - new.width) // 2
-    y = FLOOR_Y - new.height          # feet planted on the floor line
+    y = FLOOR_Y - new.height          # lowest contact points land on the floor line
 
     canvas = BASE.copy()
 
-    # Grounding shadow: the product's own silhouette squashed onto the floor so
-    # the contact points line up with the feet/wheels instead of a generic blob.
-    alpha = np.array(new)[..., 3]
-    sil = Image.fromarray(alpha, "L")
-    sh_h = max(20, int(new.height * 0.14))
-    sil = sil.resize((int(new.width * 1.04), sh_h), Image.LANCZOS)
-    fade = np.linspace(0.15, 1.0, sh_h)[:, None]     # darkest at the contact line
-    sil = Image.fromarray((np.array(sil).astype(np.float32) * fade * 0.62)
-                          .clip(0, 255).astype(np.uint8), "L")
+    alpha = np.array(new)[..., 3].astype(np.float32)
+
+    # --- footprint: the silhouette of the bottom slice = what touches the floor
+    foot_rows = max(3, int(new.height * 0.06))
+    foot = alpha[-foot_rows:].max(axis=0)              # per-column contact profile
+    foot = np.clip(foot / 255.0, 0, 1)
 
     sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    tint = Image.new("RGBA", sil.size, (74, 79, 88, 255))
-    tint.putalpha(sil)
-    sh.alpha_composite(tint, ((W - sil.width) // 2, FLOOR_Y - sh_h + int(sh_h * 0.45)))
-    sh = sh.filter(ImageFilter.GaussianBlur(18))
-    canvas = Image.alpha_composite(canvas, sh)
+    shn = np.zeros((H, W), np.float32)
 
+    # tight, dark core shadow hugging the contact line (perspective-squashed)
+    core_h = max(8, int(new.height * 0.035))
+    for i in range(core_h):
+        t = i / core_h
+        row_y = FLOOR_Y - 1 + i
+        if 0 <= row_y < H:
+            shn[row_y, x:x + new.width] = np.maximum(
+                shn[row_y, x:x + new.width], foot * (1 - t) ** 1.6 * 0.88)
+
+    # broader, softer floor spill fading away from the contact points
+    spill_h = max(18, int(new.height * 0.16))
+    spread = np.clip(np.arange(spill_h) / spill_h, 0, 1)
+    for i in range(spill_h):
+        row_y = FLOOR_Y - 2 + i
+        if not (0 <= row_y < H):
+            continue
+        wgrow = 1.0 + 0.22 * spread[i]
+        fw = max(2, int(new.width * wgrow))
+        prof = np.array(Image.fromarray((foot * 255).astype(np.uint8)[None, :], "L")
+                        .resize((fw, 1), Image.LANCZOS)).astype(np.float32)[0] / 255.0
+        x0 = x - (fw - new.width) // 2
+        xs0, xs1 = max(0, x0), min(W, x0 + fw)
+        seg = prof[xs0 - x0: xs1 - x0] * (1 - spread[i]) ** 1.8 * 0.5
+        shn[row_y, xs0:xs1] = np.maximum(shn[row_y, xs0:xs1], seg)
+
+    tint = Image.new("RGBA", (W, H), (58, 62, 70, 255))
+    tint.putalpha(Image.fromarray((shn * 255).clip(0, 255).astype(np.uint8), "L"))
+    sh.alpha_composite(tint)
+    sh = sh.filter(ImageFilter.GaussianBlur(9))
+    canvas = Image.alpha_composite(canvas, sh)
 
     canvas.alpha_composite(new, (x, y))
 
@@ -166,6 +194,7 @@ def process(path: Path) -> bool:
     else:
         canvas.convert("RGB").save(out, "JPEG", quality=90, optimize=True)
     return True
+
 
 
 def main():
