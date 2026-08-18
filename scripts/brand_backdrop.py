@@ -1,85 +1,110 @@
 #!/usr/bin/env python3
-"""Remove background from pre-owned product photos and composite them onto a
-branded GM Therapy Solutions backdrop. Product pixels are never altered."""
+"""Re-cut pre-owned product photos onto the GM Therapy Solutions studio backdrop.
+
+The backdrop is reconstructed from the approved reference render (hex pattern,
+chevrons, orange corner arc, seamless studio floor). Products are masked out of
+their current photo and placed so they sit ON the studio floor line with a
+contact shadow — never floating.
+"""
 from __future__ import annotations
-import pathlib
-import sys, io
+
+import sys
 from pathlib import Path
-from PIL import Image, ImageFilter, ImageDraw
+
+import numpy as np
+from PIL import Image, ImageDraw, ImageFilter
 from rembg import remove, new_session
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "public/assets/products/used"
-ORIG = pathlib.Path("/tmp/used-backup")
+REF = Path("/mnt/user-uploads/Screenshot_2026-08-18_at_12.43.04_PM.png")
+REF_FALLBACK = ROOT / "scripts/assets/studio-backdrop-ref.png"
 LOGO = ROOT / "src/assets/gm-therapy-logo-new.png"
 
-W, H = 1400, 1050
-ORANGE = (232, 93, 26)
+# Output canvas (matches the reference aspect ratio 1.25)
+W, H = 1400, 1120
+FLOOR_Y = int(H * 0.885)   # where product feet land
+TOP_SAFE = int(H * 0.20)   # keep clear of logo / orange arc
 
 _session = new_session("birefnet-general")
 
 
+# ---------------------------------------------------------------- backdrop ---
+def build_backdrop() -> Image.Image:
+    ref_path = REF if REF.exists() else REF_FALLBACK
+    ref = Image.open(ref_path).convert("RGB")
+    a = np.array(ref).astype(np.float32)
+    h, w, _ = a.shape
+
+    # Per-row colour sampled from clean (product-free) regions of the reference.
+    top_rows = np.median(a[:, int(w * 0.42):int(w * 0.78)], axis=1)
+    side_rows = np.median(a[:, int(w * 0.84):int(w * 0.99)], axis=1)
+    t = np.clip((np.arange(h) - h * 0.16) / (h * 0.12), 0, 1)[:, None]
+    rows = top_rows * (1 - t) + side_rows * t
+    base_arr = np.repeat(rows[:, None, :], w, axis=1)
+    base_img = Image.fromarray(base_arr.astype(np.uint8))
+
+    canvas = base_img.copy()
+
+    # Re-apply the graphic furniture from the reference: top band (hex pattern +
+    # orange arc) and the left chevron column, blended with long linear ramps so
+    # no seam is visible.
+    top_h = int(h * 0.215)
+    fade = int(h * 0.09)
+    ramp = np.ones((top_h, w), np.float32)
+    ramp[top_h - fade:] = np.linspace(1, 0, fade)[:, None]
+    canvas.paste(ref.crop((0, 0, w, top_h)), (0, 0),
+                 Image.fromarray((ramp * 255).astype(np.uint8)))
+
+    left_w = int(w * 0.20)
+    lfade = int(w * 0.09)
+    lramp = np.ones((h, left_w), np.float32)
+    lramp[:, left_w - lfade:] = np.linspace(1, 0, lfade)[None, :]
+    # Level-match the chevron column to the reconstructed rows so the vertical
+    # seam disappears.
+    la = np.array(ref.crop((0, 0, left_w, h))).astype(np.float32)
+    gain = (rows[:, None, :] + 1e-3) / (np.median(la, axis=1)[:, None, :] + 1e-3)
+    la = np.clip(la * np.clip(gain, 0.85, 1.15), 0, 255)
+    canvas.paste(Image.fromarray(la.astype(np.uint8)), (0, 0),
+                 Image.fromarray((lramp * 255).astype(np.uint8)))
+
+    # Erase the empty placeholder circle — the real logo goes there. Patch with a
+    # clean slice of the same top band so brightness matches exactly.
+    cx0, cy0, cx1, cy1 = int(w * 0.18), 0, int(w * 0.37), int(h * 0.19)
+    off = int(w * 0.32)
+    patch = canvas.crop((cx0 + off, cy0, cx1 + off, cy1))
+    pmd = Image.new("L", patch.size, 0)
+    ImageDraw.Draw(pmd).ellipse([0, 0, patch.width, patch.height], fill=255)
+    canvas.paste(patch, (cx0, cy0), pmd.filter(ImageFilter.GaussianBlur(12)))
+
+
+
+    canvas = canvas.resize((W, H), Image.LANCZOS).convert("RGBA")
+
+    # Brand logo, top-left where the placeholder circle used to be.
+    canvas.alpha_composite(logo_rgba(int(H * 0.085)), (int(W * 0.055), int(H * 0.045)))
+    return canvas
+
+
 def logo_rgba(height: int) -> Image.Image:
     im = Image.open(LOGO).convert("RGBA")
-    px = im.load()
-    for y in range(im.height):
-        for x in range(im.width):
-            r, g, b, a = px[x, y]
-            if r > 235 and g > 235 and b > 235:
-                px[x, y] = (r, g, b, 0)
+    a = np.array(im)
+    white = (a[..., 0] > 235) & (a[..., 1] > 235) & (a[..., 2] > 235)
+    a[..., 3] = np.where(white, 0, a[..., 3])
+    im = Image.fromarray(a)
     bbox = im.getbbox()
     if bbox:
         im = im.crop(bbox)
-    w = int(im.width * height / im.height)
-    return im.resize((w, height), Image.LANCZOS)
+    return im.resize((max(1, int(im.width * height / im.height)), height), Image.LANCZOS)
 
 
-LOGO_IMG = logo_rgba(120)
+BASE = build_backdrop()
 
 
-def backdrop() -> Image.Image:
-    bg = Image.new("RGB", (W, H), (255, 255, 255))
-    d = ImageDraw.Draw(bg)
-    # soft vertical tone: light grey top fading to white bottom
-    for y in range(H):
-        t = y / H
-        v = int(238 + 14 * t)
-        d.line([(0, y), (W, y)], fill=(v, v, v + 1 if v < 255 else 255))
-
-    # subtle diagonal chevron pattern (very light, brand wing motif)
-    patt = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    pd = ImageDraw.Draw(patt)
-    step = 150
-    for i in range(-8, 16):
-        x0 = i * step
-        for k in range(3):
-            off = k * 22
-            pd.line([(x0 + off, -60), (x0 + off + 340, H * 0.5),
-                     (x0 + off + 40, H + 60)], fill=(219, 221, 226, 70), width=6)
-    patt = patt.filter(ImageFilter.GaussianBlur(1.2))
-    bg = Image.alpha_composite(bg.convert("RGBA"), patt)
-
-
-    # orange corner triangle, top-right
-    d2 = ImageDraw.Draw(bg)
-    s = 150
-    d2.polygon([(W - s, 0), (W, 0), (W, s)], fill=ORANGE + (255,))
-
-    # logo top-right, left of the triangle
-    lx = W - s - 40 - LOGO_IMG.width
-    bg.alpha_composite(LOGO_IMG, (lx, 42))
-
-    # floor shadow gradient band
-    return bg
-
-
-BASE = backdrop()
-
-
+# ------------------------------------------------------------------- mask ----
 def clean_mask(cut: Image.Image) -> Image.Image:
     """Drop small disconnected specks so only the product remains."""
     try:
-        import numpy as np
         from scipy import ndimage
     except Exception:
         return cut
@@ -95,9 +120,8 @@ def clean_mask(cut: Image.Image) -> Image.Image:
     return Image.fromarray(a)
 
 
-def process(path: Path, out_dir: Path | None = None):
-    src = ORIG / path.name
-    raw = Image.open(src if src.exists() else path).convert("RGBA")
+def process(path: Path) -> bool:
+    raw = Image.open(path).convert("RGBA")
     cut = clean_mask(remove(raw, session=_session, post_process_mask=False))
     bbox = cut.getbbox()
     if not bbox:
@@ -105,29 +129,38 @@ def process(path: Path, out_dir: Path | None = None):
         return False
     cut = cut.crop(bbox)
 
-    # fit inside safe area
-    top_safe = 200
-    max_w, max_h = int(W * 0.82), int(H - top_safe - 130)
-    ratio = min(max_w / cut.width, max_h / cut.height)
-    new = cut.resize((max(1, int(cut.width * ratio)), max(1, int(cut.height * ratio))), Image.LANCZOS)
+    max_w = int(W * 0.78)
+    max_h = FLOOR_Y - TOP_SAFE
+    ratio = min(max_w / cut.width, max_h / cut.height, 1.6)
+    new = cut.resize((max(1, int(cut.width * ratio)), max(1, int(cut.height * ratio))),
+                     Image.LANCZOS)
+
+    x = (W - new.width) // 2
+    y = FLOOR_Y - new.height          # feet planted on the floor line
 
     canvas = BASE.copy()
-    x = (W - new.width) // 2
-    y = top_safe + (max_h - new.height) // 2
 
-    # contact shadow
+    # Grounding shadow: the product's own silhouette squashed onto the floor so
+    # the contact points line up with the feet/wheels instead of a generic blob.
+    alpha = np.array(new)[..., 3]
+    sil = Image.fromarray(alpha, "L")
+    sh_h = max(20, int(new.height * 0.14))
+    sil = sil.resize((int(new.width * 1.04), sh_h), Image.LANCZOS)
+    fade = np.linspace(0.15, 1.0, sh_h)[:, None]     # darkest at the contact line
+    sil = Image.fromarray((np.array(sil).astype(np.float32) * fade * 0.62)
+                          .clip(0, 255).astype(np.uint8), "L")
+
     sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    sd = ImageDraw.Draw(sh)
-    ew = int(new.width * 0.9)
-    eh = max(18, int(new.height * 0.07))
-    cy = y + new.height - eh // 3
-    sd.ellipse([(W - ew) // 2, cy - eh // 2, (W + ew) // 2, cy + eh // 2], fill=(120, 125, 132, 90))
-    sh = sh.filter(ImageFilter.GaussianBlur(22))
+    tint = Image.new("RGBA", sil.size, (74, 79, 88, 255))
+    tint.putalpha(sil)
+    sh.alpha_composite(tint, ((W - sil.width) // 2, FLOOR_Y - sh_h + int(sh_h * 0.45)))
+    sh = sh.filter(ImageFilter.GaussianBlur(18))
     canvas = Image.alpha_composite(canvas, sh)
+
 
     canvas.alpha_composite(new, (x, y))
 
-    out = (out_dir / path.name) if out_dir else path
+    out = path
     if out.suffix.lower() == ".png":
         canvas.convert("RGB").save(out, "PNG", optimize=True)
     else:
@@ -135,13 +168,12 @@ def process(path: Path, out_dir: Path | None = None):
     return True
 
 
-
 def main():
     args = sys.argv[1:]
     files = [Path(a) for a in args] if args else sorted(
         p for p in SRC.iterdir() if p.suffix.lower() in {".jpg", ".jpeg", ".png"})
     for f in files:
-        print(f"• {f.name}")
+        print(f"• {f.name}", flush=True)
         process(f)
 
 
