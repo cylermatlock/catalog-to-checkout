@@ -127,7 +127,7 @@ def process(path: Path) -> bool:
     # Trim rows/cols that are effectively empty so the true lowest contact point
     # (feet / wheels / base) becomes the bottom edge of the cutout.
     a = np.array(cut)[..., 3]
-    solid = a > 24
+    solid = a > 10
     if not solid.any():
         print(f"  ! no subject found: {path.name}")
         return False
@@ -141,52 +141,58 @@ def process(path: Path) -> bool:
                      Image.LANCZOS)
 
     x = (W - new.width) // 2
-    y = FLOOR_Y - new.height          # lowest contact points land on the floor line
+    # Sink the cutout a hair below the floor line so there is never a visible gap
+    # between the contact points and the floor.
+    overlap = max(2, int(new.height * 0.004))
+    y = FLOOR_Y - new.height + overlap
 
     canvas = BASE.copy()
 
     alpha = np.array(new)[..., 3].astype(np.float32)
 
     # --- footprint: the silhouette of the bottom slice = what touches the floor
-    foot_rows = max(3, int(new.height * 0.06))
+    foot_rows = max(2, int(new.height * 0.02))
     foot = alpha[-foot_rows:].max(axis=0)              # per-column contact profile
     foot = np.clip(foot / 255.0, 0, 1)
+
+    contact_y = y + new.height                          # exact contact line
 
     sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     shn = np.zeros((H, W), np.float32)
 
-    # tight, dark core shadow hugging the contact line (perspective-squashed)
-    core_h = max(8, int(new.height * 0.035))
+    # tight, dark core shadow hugging the contact line
+    core_h = max(4, int(new.height * 0.014))
     for i in range(core_h):
         t = i / core_h
-        row_y = FLOOR_Y - 1 + i
+        row_y = contact_y - 2 + i
         if 0 <= row_y < H:
             shn[row_y, x:x + new.width] = np.maximum(
-                shn[row_y, x:x + new.width], foot * (1 - t) ** 1.6 * 0.88)
+                shn[row_y, x:x + new.width], foot * (1 - t) ** 1.2 * 0.92)
 
-    # broader, softer floor spill fading away from the contact points
-    spill_h = max(18, int(new.height * 0.16))
+    # small, quickly-fading floor spill
+    spill_h = max(8, int(new.height * 0.05))
     spread = np.clip(np.arange(spill_h) / spill_h, 0, 1)
     for i in range(spill_h):
-        row_y = FLOOR_Y - 2 + i
+        row_y = contact_y - 2 + i
         if not (0 <= row_y < H):
             continue
-        wgrow = 1.0 + 0.22 * spread[i]
+        wgrow = 1.0 + 0.07 * spread[i]
         fw = max(2, int(new.width * wgrow))
         prof = np.array(Image.fromarray((foot * 255).astype(np.uint8)[None, :], "L")
                         .resize((fw, 1), Image.LANCZOS)).astype(np.float32)[0] / 255.0
         x0 = x - (fw - new.width) // 2
         xs0, xs1 = max(0, x0), min(W, x0 + fw)
-        seg = prof[xs0 - x0: xs1 - x0] * (1 - spread[i]) ** 1.8 * 0.5
+        seg = prof[xs0 - x0: xs1 - x0] * (1 - spread[i]) ** 2.4 * 0.42
         shn[row_y, xs0:xs1] = np.maximum(shn[row_y, xs0:xs1], seg)
 
-    tint = Image.new("RGBA", (W, H), (58, 62, 70, 255))
+    tint = Image.new("RGBA", (W, H), (52, 56, 64, 255))
     tint.putalpha(Image.fromarray((shn * 255).clip(0, 255).astype(np.uint8), "L"))
     sh.alpha_composite(tint)
-    sh = sh.filter(ImageFilter.GaussianBlur(9))
+    sh = sh.filter(ImageFilter.GaussianBlur(3.5))
     canvas = Image.alpha_composite(canvas, sh)
 
     canvas.alpha_composite(new, (x, y))
+
 
     out = path
     if out.suffix.lower() == ".png":
