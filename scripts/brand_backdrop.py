@@ -133,14 +133,14 @@ def level_cutout(cut: Image.Image) -> Image.Image:
         return cut
     cols = np.nonzero(solid.any(axis=0))[0]
     bottoms = np.array([np.nonzero(solid[:, c])[0].max() for c in cols], np.float32)
-    h = float(np.nonzero(solid.any(axis=1))[0].ptp() + 1)
+    h = float(np.ptp(np.nonzero(solid.any(axis=1))[0]) + 1)
     # Only the columns that actually reach near the lowest plane are contact points.
     band = bottoms >= bottoms.max() - h * 0.14
     if band.sum() < 8:
         return cut
     x = cols[band].astype(np.float32)
     y = bottoms[band]
-    if x.ptp() < a.shape[1] * 0.25:
+    if np.ptp(x) < a.shape[1] * 0.25:
         return cut
     slope = np.polyfit(x, y, 1)[0]
     # Reject noisy fits
