@@ -120,9 +120,44 @@ def clean_mask(cut: Image.Image) -> Image.Image:
     return Image.fromarray(a)
 
 
+def level_cutout(cut: Image.Image) -> Image.Image:
+    """Rotate the cutout so its ground-contact points sit on a horizontal line.
+
+    Photos shot from the hip often show the equipment tilted. We fit a line to
+    the lowest silhouette points (wheels / feet / base) and counter-rotate by
+    that angle so the piece reads as level on the studio floor.
+    """
+    a = np.array(cut)[..., 3]
+    solid = a > 25
+    if not solid.any():
+        return cut
+    cols = np.nonzero(solid.any(axis=0))[0]
+    bottoms = np.array([np.nonzero(solid[:, c])[0].max() for c in cols], np.float32)
+    h = float(np.ptp(np.nonzero(solid.any(axis=1))[0]) + 1)
+    # Only the columns that actually reach near the lowest plane are contact points.
+    band = bottoms >= bottoms.max() - h * 0.14
+    if band.sum() < 8:
+        return cut
+    x = cols[band].astype(np.float32)
+    y = bottoms[band]
+    if np.ptp(x) < a.shape[1] * 0.25:
+        return cut
+    slope = np.polyfit(x, y, 1)[0]
+    # Reject noisy fits
+    resid = y - np.polyval(np.polyfit(x, y, 1), x)
+    if np.std(resid) > h * 0.06:
+        return cut
+    angle = np.degrees(np.arctan(slope))
+    if abs(angle) < 0.4 or abs(angle) > 8:
+        return cut
+    return cut.rotate(angle, resample=Image.BICUBIC, expand=True)
+
+
 def process(path: Path) -> bool:
     raw = Image.open(path).convert("RGBA")
     cut = clean_mask(remove(raw, session=_session, post_process_mask=False))
+    cut = level_cutout(cut)
+
 
     # Trim rows/cols that are effectively empty so the true lowest contact point
     # (feet / wheels / base) becomes the bottom edge of the cutout.
