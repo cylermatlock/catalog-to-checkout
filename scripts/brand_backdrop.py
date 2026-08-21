@@ -180,36 +180,57 @@ def process(path: Path) -> bool:
     alpha = np.array(new)[..., 3].astype(np.float32)
     contact_y = y + local_bottom_y
 
-    # ---- contact shadow, built from the object's own silhouette -------------
-    # 1. tight dark core exactly at the contact points
-    foot_rows = max(3, int(new.height * 0.02))
-    foot = np.clip(alpha[-foot_rows:].max(axis=0) / 255.0, 0, 1)
-    core = np.zeros((H, W), np.float32)
-    core_h = max(3, min(7, int(new.height * 0.008)))
-    for i in range(core_h):
-        row_y = contact_y - 1 + i
-        if 0 <= row_y < H:
-            core[row_y, x:x + new.width] = np.maximum(
-                core[row_y, x:x + new.width], foot * (1 - i / core_h) ** 1.5 * 0.62)
+    # ---- contact shadow across the FULL footprint ---------------------------
+    # Every column that reaches the support band gets its own contact shadow at
+    # its own bottom pixel, so back wheels/feet sitting higher in perspective
+    # are grounded too -- not just the single lowest point of the silhouette.
+    visible = alpha > VISIBLE_ALPHA
+    min_column_pixels = max(2, int(new.height * 0.004))
+    cols = np.nonzero(visible.any(axis=0))[0]
+    bottoms: dict[int, int] = {}
+    for cx in cols:
+        ys = np.nonzero(visible[:, cx])[0]
+        if ys.size >= min_column_pixels:
+            bottoms[int(cx)] = int(ys[-1])
+    if not bottoms:
+        bottoms = {int(cx): local_bottom_y for cx in cols}
 
-    # 2. footprint spill: lower silhouette compressed onto the floor plane
-    lower_start = int(new.height * 0.78)
-    lower = Image.fromarray(alpha[lower_start:].astype(np.uint8), "L")
-    spill_h = max(14, min(56, int(new.height * 0.07)))
-    spill_w = max(2, int(new.width * 1.02))
-    fp = np.asarray(
-        lower.resize((spill_w, spill_h), Image.LANCZOS)
-             .filter(ImageFilter.GaussianBlur(max(2.2, spill_h * 0.16)))
-    ).astype(np.float32) / 255.0
-    fp *= np.linspace(0.30, 0.0, spill_h, dtype=np.float32)[:, None]
-    spill_mask = Image.new("L", (W, H), 0)
-    spill_mask.paste(Image.fromarray((fp * 255).astype(np.uint8), "L"),
-                     (x + (new.width - spill_w) // 2 + int(new.width * 0.01), contact_y - 2))
+    # support band: contact points are anything within the rear-footprint depth
+    footprint_depth = max(6, int(new.height * 0.16))
+    core = np.zeros((H, W), np.float32)
+    spill = np.zeros((H, W), np.float32)
+    core_h = max(3, min(9, int(new.height * 0.012)))
+    spill_h = max(12, min(70, int(new.height * 0.075)))
+    spill_fade = np.linspace(1.0, 0.0, spill_h, dtype=np.float32) ** 1.4
+
+    for cx, by in bottoms.items():
+        depth = local_bottom_y - by
+        if depth > footprint_depth:
+            continue                      # part of the body, not a support point
+        gx = x + cx
+        if not (0 <= gx < W):
+            continue
+        # rear contacts read slightly lighter (further from the camera light)
+        weight = 1.0 - 0.35 * (depth / max(1, footprint_depth))
+        gy = y + by
+        for i in range(core_h):
+            ry = gy - 1 + i
+            if 0 <= ry < H:
+                core[ry, gx] = max(core[ry, gx],
+                                   weight * 0.60 * (1 - i / core_h) ** 1.4)
+        top = max(0, gy)
+        end = min(H, gy + spill_h)
+        if end > top:
+            seg = spill_fade[: end - top] * (0.30 * weight)
+            spill[top:end, gx] = np.maximum(spill[top:end, gx], seg)
 
     shadow_rgb = (58, 56, 52, 255)
     spill_layer = Image.new("RGBA", (W, H), shadow_rgb)
-    spill_layer.putalpha(spill_mask.filter(ImageFilter.GaussianBlur(3.0)))
+    spill_layer.putalpha(
+        Image.fromarray((spill * 255).clip(0, 255).astype(np.uint8), "L")
+             .filter(ImageFilter.GaussianBlur(max(4.0, spill_h * 0.22))))
     canvas = Image.alpha_composite(canvas, spill_layer)
+
 
     core_layer = Image.new("RGBA", (W, H), shadow_rgb)
     core_layer.putalpha(
