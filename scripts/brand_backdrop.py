@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""Re-cut pre-owned product photos onto the GM Therapy Solutions studio backdrop.
+"""Place untouched pre-owned equipment photographs into one physical studio.
 
-The backdrop is reconstructed from the approved reference render (hex pattern,
-chevrons, orange corner arc, seamless studio floor). Products are masked out of
-their current photo and placed so they sit ON the studio floor line with a
-contact shadow — never floating.
+Always process the preserved source photographs, never an earlier composite.
+The subject's angle and pixels are retained; only its background is removed.
 """
 from __future__ import annotations
 
@@ -16,73 +14,51 @@ from PIL import Image, ImageDraw, ImageFilter
 from rembg import remove, new_session
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = ROOT / "public/assets/products/used"
+SRC = ROOT / "scripts/assets/used-originals"
+DEST = ROOT / "public/assets/products/used"
 REF = Path("/mnt/user-uploads/Screenshot_2026-08-18_at_12.43.04_PM.png")
 REF_FALLBACK = ROOT / "scripts/assets/studio-backdrop-ref.png"
 LOGO = ROOT / "src/assets/gm-therapy-logo-new.png"
 
 # Output canvas (matches the reference aspect ratio 1.25)
 W, H = 1400, 1120
-FLOOR_Y = int(H * 0.90)    # natural foreground plane from the approved studio reference
-TOP_SAFE = int(H * 0.20)   # keep clear of logo / orange arc
+HORIZON_Y = int(H * 0.57)  # visible wall-to-floor transition
+CONTACT_Y = int(H * 0.875) # subject rests well inside the foreground floor
+TOP_SAFE = int(H * 0.10)
 
 _session = new_session("birefnet-general")
 
 
 # ---------------------------------------------------------------- backdrop ---
 def build_backdrop() -> Image.Image:
-    ref_path = REF if REF.exists() else REF_FALLBACK
-    ref = Image.open(ref_path).convert("RGB")
-    a = np.array(ref).astype(np.float32)
-    h, w, _ = a.shape
+    # A deliberately visible cyc-wall: warm vertical wall above, horizontal floor
+    # below, and a softly curved transition. This is not a flat graphic field.
+    yy, xx = np.mgrid[0:H, 0:W]
+    wall = np.array([247, 246, 242], np.float32)
+    floor_near = np.array([229, 228, 224], np.float32)
+    depth = np.clip((yy - HORIZON_Y) / (H - HORIZON_Y), 0, 1)[..., None]
+    depth = depth * depth * (3 - 2 * depth)
+    arr = wall[None, None, :] * (1 - depth) + floor_near[None, None, :] * depth
+    # Gentle studio-light falloff gives the room depth without changing the scene.
+    radial = np.sqrt(((xx - W * .51) / W) ** 2 + ((yy - H * .42) / H) ** 2)
+    arr -= np.clip(radial - .18, 0, .65)[..., None] * 7
+    canvas = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8), "RGB").convert("RGBA")
 
-    # Per-row colour sampled from clean (product-free) regions of the reference.
-    top_rows = np.median(a[:, int(w * 0.42):int(w * 0.78)], axis=1)
-    side_rows = np.median(a[:, int(w * 0.84):int(w * 0.99)], axis=1)
-    t = np.clip((np.arange(h) - h * 0.16) / (h * 0.12), 0, 1)[:, None]
-    rows = top_rows * (1 - t) + side_rows * t
-    base_arr = np.repeat(rows[:, None, :], w, axis=1)
-    base_img = Image.fromarray(base_arr.astype(np.uint8))
+    graphics = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    gd = ImageDraw.Draw(graphics)
+    # Subtle background-only architectural lines, safely away from the subject.
+    line = (187, 190, 190, 34)
+    for inset in (0, 32, 64):
+        gd.line([(0, int(H*.25)+inset), (int(W*.15), int(H*.38)+inset),
+                 (0, int(H*.51)+inset)], fill=line, width=3)
+    # Orange corner graphic in the requested upper-right location.
+    orange = (244, 91, 26, 255)
+    gd.pieslice((int(W*.76), int(-H*.30), int(W*1.15), int(H*.25)), 0, 180, fill=orange)
+    graphics = graphics.filter(ImageFilter.GaussianBlur(.15))
+    canvas = Image.alpha_composite(canvas, graphics)
 
-    canvas = base_img.copy()
-
-    # Re-apply the graphic furniture from the reference: top band (hex pattern +
-    # orange arc) and the left chevron column, blended with long linear ramps so
-    # no seam is visible.
-    top_h = int(h * 0.215)
-    fade = int(h * 0.09)
-    ramp = np.ones((top_h, w), np.float32)
-    ramp[top_h - fade:] = np.linspace(1, 0, fade)[:, None]
-    canvas.paste(ref.crop((0, 0, w, top_h)), (0, 0),
-                 Image.fromarray((ramp * 255).astype(np.uint8)))
-
-    left_w = int(w * 0.20)
-    lfade = int(w * 0.09)
-    lramp = np.ones((h, left_w), np.float32)
-    lramp[:, left_w - lfade:] = np.linspace(1, 0, lfade)[None, :]
-    # Level-match the chevron column to the reconstructed rows so the vertical
-    # seam disappears.
-    la = np.array(ref.crop((0, 0, left_w, h))).astype(np.float32)
-    gain = (rows[:, None, :] + 1e-3) / (np.median(la, axis=1)[:, None, :] + 1e-3)
-    la = np.clip(la * np.clip(gain, 0.85, 1.15), 0, 255)
-    canvas.paste(Image.fromarray(la.astype(np.uint8)), (0, 0),
-                 Image.fromarray((lramp * 255).astype(np.uint8)))
-
-    # Erase the empty placeholder circle — the real logo goes there. Patch with a
-    # clean slice of the same top band so brightness matches exactly.
-    cx0, cy0, cx1, cy1 = int(w * 0.18), 0, int(w * 0.37), int(h * 0.19)
-    off = int(w * 0.32)
-    patch = canvas.crop((cx0 + off, cy0, cx1 + off, cy1))
-    pmd = Image.new("L", patch.size, 0)
-    ImageDraw.Draw(pmd).ellipse([0, 0, patch.width, patch.height], fill=255)
-    canvas.paste(patch, (cx0, cy0), pmd.filter(ImageFilter.GaussianBlur(12)))
-
-
-
-    canvas = canvas.resize((W, H), Image.LANCZOS).convert("RGBA")
-
-    # Brand logo, top-left where the placeholder circle used to be.
-    canvas.alpha_composite(logo_rgba(int(H * 0.085)), (int(W * 0.055), int(H * 0.045)))
+    logo = logo_rgba(int(H * 0.078))
+    canvas.alpha_composite(logo, (W - logo.width - int(W*.045), int(H*.045)))
     return canvas
 
 
@@ -102,61 +78,14 @@ BASE = build_backdrop()
 
 
 # ------------------------------------------------------------------- mask ----
-def clean_mask(cut: Image.Image) -> Image.Image:
-    """Drop small disconnected specks so only the product remains."""
-    try:
-        from scipy import ndimage
-    except Exception:
-        return cut
-    a = np.array(cut)
-    alpha = a[..., 3]
-    lbl, n = ndimage.label(alpha > 30)
-    if n <= 1:
-        return cut
-    sizes = ndimage.sum(alpha > 30, lbl, range(1, n + 1))
-    keep = sizes >= max(sizes.max() * 0.004, alpha.size * 0.00015)
-    mask = np.isin(lbl, np.nonzero(keep)[0] + 1)
-    a[..., 3] = np.where(mask, alpha, 0)
-    return Image.fromarray(a)
-
-
-def level_cutout(cut: Image.Image) -> Image.Image:
-    """Rotate the cutout so its ground-contact points sit on a horizontal line.
-
-    Photos shot from the hip often show the equipment tilted. We fit a line to
-    the lowest silhouette points (wheels / feet / base) and counter-rotate by
-    that angle so the piece reads as level on the studio floor.
-    """
-    a = np.array(cut)[..., 3]
-    solid = a > 25
-    if not solid.any():
-        return cut
-    cols = np.nonzero(solid.any(axis=0))[0]
-    bottoms = np.array([np.nonzero(solid[:, c])[0].max() for c in cols], np.float32)
-    h = float(np.ptp(np.nonzero(solid.any(axis=1))[0]) + 1)
-    # Only the columns that actually reach near the lowest plane are contact points.
-    band = bottoms >= bottoms.max() - h * 0.14
-    if band.sum() < 8:
-        return cut
-    x = cols[band].astype(np.float32)
-    y = bottoms[band]
-    if np.ptp(x) < a.shape[1] * 0.25:
-        return cut
-    slope = np.polyfit(x, y, 1)[0]
-    # Reject noisy fits
-    resid = y - np.polyval(np.polyfit(x, y, 1), x)
-    if np.std(resid) > h * 0.06:
-        return cut
-    angle = np.degrees(np.arctan(slope))
-    if abs(angle) < 0.4 or abs(angle) > 8:
-        return cut
-    return cut.rotate(angle, resample=Image.BICUBIC, expand=True)
-
-
 def process(path: Path) -> bool:
     raw = Image.open(path).convert("RGBA")
-    cut = clean_mask(remove(raw, session=_session, post_process_mask=False))
-    cut = level_cutout(cut)
+    # No component pruning and no rotation: cords, casters, accessories, labels,
+    # proportions, and the photographed camera angle must remain untouched.
+    cut = remove(raw, session=_session, alpha_matting=True,
+                 alpha_matting_foreground_threshold=245,
+                 alpha_matting_background_threshold=15,
+                 alpha_matting_erode_size=4, post_process_mask=False)
 
 
     # Trim rows/cols that are effectively empty so the true lowest contact point
@@ -169,18 +98,17 @@ def process(path: Path) -> bool:
     ys, xs = np.nonzero(solid)
     cut = cut.crop((xs.min(), ys.min(), xs.max() + 1, ys.max() + 1))
 
-    max_w = int(W * 0.76)
-    max_h = FLOOR_Y - TOP_SAFE
-    ratio = min(max_w / cut.width, max_h / cut.height, 1.6)
+    max_w = int(W * 0.82)
+    max_h = CONTACT_Y - TOP_SAFE
+    ratio = min(max_w / cut.width, max_h / cut.height, 1.45)
     new = cut.resize((max(1, int(cut.width * ratio)), max(1, int(cut.height * ratio))),
                      Image.LANCZOS)
 
     x = (W - new.width) // 2
-    # Sink the lowest physical points into the floor enough to hide the pale
-    # anti-aliased fringe left by background removal. Wheels, feet, and bases must
-    # visibly cross into their shadow rather than hover just above it.
-    overlap = max(7, min(15, int(new.height * 0.014)))
-    y = FLOOR_Y - new.height + overlap
+    # The lowest photographed pixel is gravity-locked to the foreground floor.
+    # A tiny overlap hides only the antialiased cutout fringe, never the equipment.
+    overlap = max(2, min(5, int(new.height * 0.006)))
+    y = CONTACT_Y - new.height + overlap
 
     canvas = BASE.copy()
 
@@ -189,7 +117,7 @@ def process(path: Path) -> bool:
     # --- contact points: the very bottom silhouette creates the dark, attached
     # core. A separate compressed silhouette below supplies the shallow studio
     # floor shadow cast by the whole lower chassis.
-    foot_rows = max(3, int(new.height * 0.018))
+    foot_rows = max(4, int(new.height * 0.025))
     foot = alpha[-foot_rows:].max(axis=0)              # per-column contact profile
     foot = np.clip(foot / 255.0, 0, 1)
 
@@ -198,29 +126,29 @@ def process(path: Path) -> bool:
     # Tight, dark core: kept separate from the soft spill so it remains visibly
     # attached to feet, wheels, and bases after compositing.
     core = np.zeros((H, W), np.float32)
-    core_h = max(3, min(8, int(new.height * 0.009)))
+    core_h = max(2, min(5, int(new.height * 0.006)))
     for i in range(core_h):
         t = i / core_h
         row_y = contact_y - overlap + i
         if 0 <= row_y < H:
             core[row_y, x:x + new.width] = np.maximum(
-                core[row_y, x:x + new.width], foot * (1 - t) ** 1.5 * 0.78)
+                core[row_y, x:x + new.width], foot * (1 - t) ** 1.7 * 0.58)
 
     # Compress the lower portion of the actual equipment silhouette onto the
     # floor. Unlike an ellipse, this follows the equipment's width and mass, and
     # begins behind the contact points so it cannot appear detached.
-    lower_start = int(new.height * 0.62)
+    lower_start = int(new.height * 0.72)
     lower_alpha = Image.fromarray(alpha[lower_start:].astype(np.uint8), "L")
-    spill_h = max(12, min(34, int(new.height * 0.045)))
-    spill_w = max(2, int(new.width * 0.96))
+    spill_h = max(12, min(44, int(new.height * 0.055)))
+    spill_w = max(2, int(new.width * 0.98))
     footprint = lower_alpha.resize((spill_w, spill_h), Image.LANCZOS)
-    footprint = footprint.filter(ImageFilter.GaussianBlur(max(2.0, spill_h * 0.13)))
+    footprint = footprint.filter(ImageFilter.GaussianBlur(max(1.8, spill_h * 0.10)))
     # Fade the projected shadow quickly toward the viewer.
     fp = np.array(footprint).astype(np.float32) / 255.0
-    fp *= np.linspace(0.34, 0.03, spill_h, dtype=np.float32)[:, None]
+    fp *= np.linspace(0.28, 0.015, spill_h, dtype=np.float32)[:, None]
     spill_mask = Image.new("L", (W, H), 0)
     spill_x = x + (new.width - spill_w) // 2 + max(1, int(new.width * 0.008))
-    spill_y = contact_y - overlap - max(2, spill_h // 6)
+    spill_y = contact_y - overlap - max(1, spill_h // 8)
     spill_mask.paste(Image.fromarray((fp * 255).astype(np.uint8), "L"),
                      (spill_x, spill_y))
 
@@ -237,7 +165,7 @@ def process(path: Path) -> bool:
     canvas.alpha_composite(new, (x, y))
 
 
-    out = path
+    out = DEST / path.name
     if out.suffix.lower() == ".png":
         canvas.convert("RGB").save(out, "PNG", optimize=True)
     else:
