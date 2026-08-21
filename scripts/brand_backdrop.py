@@ -22,9 +22,10 @@ LOGO = ROOT / "src/assets/gm-therapy-logo-new.png"
 
 # Output canvas (matches the reference aspect ratio 1.25)
 W, H = 1400, 1120
-HORIZON_Y = int(H * 0.57)  # visible wall-to-floor transition
-CONTACT_Y = int(H * 0.875) # subject rests well inside the foreground floor
+HORIZON_Y = int(H * 0.65)  # visible wall-to-floor transition
+FLOOR_CONTACT_Y = int(H * 0.80)  # bottom-anchor line on the foreground floor
 TOP_SAFE = int(H * 0.10)
+VISIBLE_ALPHA = 10
 
 _session = new_session("birefnet-general")
 
@@ -78,6 +79,24 @@ BASE = build_backdrop()
 
 
 # ------------------------------------------------------------------- mask ----
+def trim_to_visible(image: Image.Image) -> Image.Image:
+    """Crop to actual visible pixels, including after resize interpolation."""
+    alpha = np.asarray(image)[..., 3]
+    visible = alpha > VISIBLE_ALPHA
+    if not visible.any():
+        raise ValueError("cutout contains no visible equipment pixels")
+    ys, xs = np.nonzero(visible)
+    return image.crop((int(xs.min()), int(ys.min()), int(xs.max()) + 1, int(ys.max()) + 1))
+
+
+def lowest_visible_y(image: Image.Image) -> int:
+    alpha = np.asarray(image)[..., 3]
+    visible_rows = np.nonzero((alpha > VISIBLE_ALPHA).any(axis=1))[0]
+    if visible_rows.size == 0:
+        raise ValueError("cutout contains no visible equipment pixels")
+    return int(visible_rows[-1])
+
+
 def process(path: Path) -> bool:
     raw = Image.open(path).convert("RGBA")
     # No component pruning and no rotation: cords, casters, accessories, labels,
@@ -90,25 +109,26 @@ def process(path: Path) -> bool:
 
     # Trim rows/cols that are effectively empty so the true lowest contact point
     # (feet / wheels / base) becomes the bottom edge of the cutout.
-    a = np.array(cut)[..., 3]
-    solid = a > 10
-    if not solid.any():
+    try:
+        cut = trim_to_visible(cut)
+    except ValueError:
         print(f"  ! no subject found: {path.name}")
         return False
-    ys, xs = np.nonzero(solid)
-    cut = cut.crop((xs.min(), ys.min(), xs.max() + 1, ys.max() + 1))
 
     max_w = int(W * 0.82)
-    max_h = CONTACT_Y - TOP_SAFE
+    max_h = FLOOR_CONTACT_Y - TOP_SAFE + 1
     ratio = min(max_w / cut.width, max_h / cut.height, 1.45)
     new = cut.resize((max(1, int(cut.width * ratio)), max(1, int(cut.height * ratio))),
                      Image.LANCZOS)
+    # Resampling can create fresh transparent edge padding. Remove it before any
+    # placement calculation so the file canvas never determines floor contact.
+    new = trim_to_visible(new)
 
     x = (W - new.width) // 2
-    # The lowest photographed pixel is gravity-locked to the foreground floor.
-    # A tiny overlap hides only the antialiased cutout fringe, never the equipment.
-    overlap = max(2, min(5, int(new.height * 0.006)))
-    y = CONTACT_Y - new.height + overlap
+    local_bottom_y = lowest_visible_y(new)
+    # Strict bottom anchor: derive vertical placement only from the cutout's
+    # lowest visible pixel. There is no vertical centering or equal padding.
+    y = FLOOR_CONTACT_Y - local_bottom_y
 
     canvas = BASE.copy()
 
@@ -121,7 +141,7 @@ def process(path: Path) -> bool:
     foot = alpha[-foot_rows:].max(axis=0)              # per-column contact profile
     foot = np.clip(foot / 255.0, 0, 1)
 
-    contact_y = y + new.height                          # exact contact line
+    contact_y = y + local_bottom_y                      # exact contact line
 
     # Tight, dark core: kept separate from the soft spill so it remains visibly
     # attached to feet, wheels, and bases after compositing.
@@ -129,7 +149,7 @@ def process(path: Path) -> bool:
     core_h = max(2, min(5, int(new.height * 0.006)))
     for i in range(core_h):
         t = i / core_h
-        row_y = contact_y - overlap + i
+        row_y = contact_y + i
         if 0 <= row_y < H:
             core[row_y, x:x + new.width] = np.maximum(
                 core[row_y, x:x + new.width], foot * (1 - t) ** 1.7 * 0.58)
@@ -148,7 +168,7 @@ def process(path: Path) -> bool:
     fp *= np.linspace(0.28, 0.015, spill_h, dtype=np.float32)[:, None]
     spill_mask = Image.new("L", (W, H), 0)
     spill_x = x + (new.width - spill_w) // 2 + max(1, int(new.width * 0.008))
-    spill_y = contact_y - overlap - max(1, spill_h // 8)
+    spill_y = contact_y
     spill_mask.paste(Image.fromarray((fp * 255).astype(np.uint8), "L"),
                      (spill_x, spill_y))
 
@@ -164,6 +184,17 @@ def process(path: Path) -> bool:
 
     canvas.alpha_composite(new, (x, y))
 
+    # Automatic grounding validation. A render cannot be written if the actual
+    # visible equipment edge is more than two pixels above the floor contact line.
+    rendered_bottom_y = y + lowest_visible_y(new)
+    gap = FLOOR_CONTACT_Y - rendered_bottom_y
+    if gap < 0 or gap > 2:
+        raise RuntimeError(
+            f"{path.name}: invalid floor gap {gap}px "
+            f"(equipment={rendered_bottom_y}, floor={FLOOR_CONTACT_Y})"
+        )
+    print(f"  grounded: equipment_y={rendered_bottom_y}, floor_y={FLOOR_CONTACT_Y}, gap={gap}px",
+          flush=True)
 
     out = DEST / path.name
     if out.suffix.lower() == ".png":
