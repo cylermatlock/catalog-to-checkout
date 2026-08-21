@@ -19,6 +19,7 @@ from pathlib import Path
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
+from scipy import ndimage
 from rembg import remove, new_session
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -31,10 +32,10 @@ COVE_BOTTOM = int(H * 0.79)       # wall/floor transition meets the equipment co
 FLOOR_CONTACT_Y = COVE_BOTTOM     # actual wheels, feet, or base rest at that transition
 TOP_SAFE = int(H * 0.08)
 VISIBLE_ALPHA = 10
-MAX_LEVEL_DEGREES = 5.0
+MAX_LEVEL_DEGREES = 2.5
 MIN_LEVEL_DEGREES = 0.65
 
-_session = new_session("birefnet-general")
+_sessions = [new_session(n) for n in ("birefnet-general", "isnet-general-use", "u2net")]
 
 
 # ---------------------------------------------------------------- backdrop ---
@@ -141,6 +142,10 @@ def level_to_supports(image: Image.Image) -> tuple[Image.Image, float]:
 
     slope = float(np.polyfit(bx, by, 1)[0])
     degrees = float(np.degrees(np.arctan(slope)))
+    # A very steep support fit means the silhouette bottom is a receding
+    # perspective edge, not a tilt -- rotating it would fake the geometry.
+    if abs(degrees) > 6.0:
+        return image, 0.0
     degrees = float(np.clip(degrees, -MAX_LEVEL_DEGREES, MAX_LEVEL_DEGREES))
     if abs(degrees) < MIN_LEVEL_DEGREES:
         return image, 0.0
@@ -150,12 +155,46 @@ def level_to_supports(image: Image.Image) -> tuple[Image.Image, float]:
     return trim_to_visible(leveled), degrees
 
 
+def cutout(raw: Image.Image) -> Image.Image:
+    """Segment the equipment without losing legs, wheels, rails or platforms.
+
+    A single model routinely drops thin structures (caster stems, parallel-bar
+    uprights, table legs).  Masks from several models are unioned, then any
+    stray blob that is not attached to the main subject is discarded.
+    """
+    masks = []
+    for session in _sessions:
+        m = remove(raw, session=session, only_mask=True, post_process_mask=False)
+        masks.append(np.asarray(m.convert("L")).astype(np.float32))
+    union = np.max(np.stack(masks), axis=0)
+
+    solid = union > 100
+    labels, count = ndimage.label(ndimage.binary_closing(solid, np.ones((5, 5))))
+    if count:
+        sizes = ndimage.sum(solid, labels, range(1, count + 1))
+        main = int(np.argmax(sizes)) + 1
+        main_mask = ndimage.binary_dilation(labels == main, np.ones((9, 9)))
+        keep = np.zeros_like(solid)
+        for idx in range(1, count + 1):
+            comp = labels == idx
+            if idx == main or (comp & main_mask).any() or sizes[idx - 1] > solid.sum() * 0.05:
+                keep |= comp
+        union = np.where(keep, union, 0)
+
+    # fill interior holes so frames/panels do not read as punched through
+    filled = ndimage.binary_fill_holes(union > 100)
+    union = np.maximum(union, np.where(filled, 255, 0)).astype(np.uint8)
+
+    alpha = Image.fromarray(union, "L").filter(ImageFilter.GaussianBlur(0.8))
+    cut = raw.copy()
+    cut.putalpha(alpha)
+    return cut
+
+
 def process(path: Path) -> bool:
     raw = Image.open(path).convert("RGBA")
-    cut = remove(raw, session=_session, alpha_matting=True,
-                 alpha_matting_foreground_threshold=245,
-                 alpha_matting_background_threshold=15,
-                 alpha_matting_erode_size=4, post_process_mask=False)
+    cut = cutout(raw)
+
     try:
         cut = trim_to_visible(cut)
         cut, level_degrees = level_to_supports(cut)
@@ -196,11 +235,11 @@ def process(path: Path) -> bool:
         bottoms = {int(cx): local_bottom_y for cx in cols}
 
     # support band: contact points are anything within the rear-footprint depth
-    footprint_depth = max(6, int(new.height * 0.16))
+    footprint_depth = max(6, int(new.height * 0.32))
     core = np.zeros((H, W), np.float32)
     spill = np.zeros((H, W), np.float32)
     core_h = max(3, min(9, int(new.height * 0.012)))
-    spill_h = max(12, min(70, int(new.height * 0.075)))
+    spill_h = max(16, min(90, int(new.height * 0.10)))
     spill_fade = np.linspace(1.0, 0.0, spill_h, dtype=np.float32) ** 1.4
 
     for cx, by in bottoms.items():
@@ -211,17 +250,17 @@ def process(path: Path) -> bool:
         if not (0 <= gx < W):
             continue
         # rear contacts read slightly lighter (further from the camera light)
-        weight = 1.0 - 0.35 * (depth / max(1, footprint_depth))
+        weight = 1.0 - 0.45 * (depth / max(1, footprint_depth))
         gy = y + by
         for i in range(core_h):
             ry = gy - 1 + i
             if 0 <= ry < H:
                 core[ry, gx] = max(core[ry, gx],
-                                   weight * 0.60 * (1 - i / core_h) ** 1.4)
+                                   weight * 0.78 * (1 - i / core_h) ** 1.4)
         top = max(0, gy)
         end = min(H, gy + spill_h)
         if end > top:
-            seg = spill_fade[: end - top] * (0.30 * weight)
+            seg = spill_fade[: end - top] * (0.42 * weight)
             spill[top:end, gx] = np.maximum(spill[top:end, gx], seg)
 
     shadow_rgb = (58, 56, 52, 255)
