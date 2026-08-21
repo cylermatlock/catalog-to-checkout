@@ -9,6 +9,8 @@ Treatment (v2, no branding):
     floor contact line (gap validated to 0-2px)
   * contact shadow built from the equipment's own silhouette, darkest at the
     contact points, softening outward -- never a detached oval
+  * conservative roll correction from the lower support envelope so equipment
+    photographed at a sideways tilt rests level before it is bottom-anchored
 """
 from __future__ import annotations
 
@@ -29,6 +31,8 @@ COVE_BOTTOM = int(H * 0.66)       # floor plane fully horizontal below this
 FLOOR_CONTACT_Y = int(H * 0.79)   # bottom-anchor line, on the floor
 TOP_SAFE = int(H * 0.08)
 VISIBLE_ALPHA = 10
+MAX_LEVEL_DEGREES = 5.0
+MIN_LEVEL_DEGREES = 0.65
 
 _session = new_session("birefnet-general")
 
@@ -90,6 +94,62 @@ def lowest_visible_y(image: Image.Image) -> int:
     return int(rows[-1])
 
 
+def level_to_supports(image: Image.Image) -> tuple[Image.Image, float]:
+    """Level the photographed floor-support envelope without altering shape.
+
+    Transparent columns and narrow dangling details are ignored.  A robust
+    line is fitted only to the lowest substantial part of the silhouette, so
+    the correction follows feet/base rails rather than the image rectangle.
+    """
+    alpha = np.asarray(image)[..., 3]
+    visible = alpha > VISIBLE_ALPHA
+    xs = np.nonzero(visible.any(axis=0))[0]
+    if xs.size < 20:
+        return image, 0.0
+
+    bottom_x: list[float] = []
+    bottom_y: list[float] = []
+    min_column_pixels = max(3, int(image.height * 0.008))
+    for x in xs:
+        ys = np.nonzero(visible[:, x])[0]
+        if ys.size >= min_column_pixels:
+            bottom_x.append(float(x))
+            bottom_y.append(float(ys[-1]))
+
+    if len(bottom_x) < 20:
+        return image, 0.0
+    bx = np.asarray(bottom_x)
+    by = np.asarray(bottom_y)
+
+    # Keep the lower support band, but reject isolated cords/casters that do
+    # not describe the overall stance of the machine.
+    support_cut = np.percentile(by, 78)
+    keep = by >= support_cut
+    bx, by = bx[keep], by[keep]
+    if bx.size < 12 or np.ptp(bx) < image.width * 0.18:
+        return image, 0.0
+
+    # Iteratively remove points far from the support trend (robust regression).
+    for _ in range(3):
+        slope, intercept = np.polyfit(bx, by, 1)
+        residual = by - (slope * bx + intercept)
+        tolerance = max(2.5, float(np.percentile(np.abs(residual), 70)))
+        inliers = np.abs(residual) <= tolerance
+        if inliers.sum() < 10 or np.ptp(bx[inliers]) < image.width * 0.16:
+            break
+        bx, by = bx[inliers], by[inliers]
+
+    slope = float(np.polyfit(bx, by, 1)[0])
+    degrees = float(np.degrees(np.arctan(slope)))
+    degrees = float(np.clip(degrees, -MAX_LEVEL_DEGREES, MAX_LEVEL_DEGREES))
+    if abs(degrees) < MIN_LEVEL_DEGREES:
+        return image, 0.0
+
+    leveled = image.rotate(degrees, resample=Image.Resampling.BICUBIC,
+                           expand=True, fillcolor=(0, 0, 0, 0))
+    return trim_to_visible(leveled), degrees
+
+
 def process(path: Path) -> bool:
     raw = Image.open(path).convert("RGBA")
     cut = remove(raw, session=_session, alpha_matting=True,
@@ -98,6 +158,7 @@ def process(path: Path) -> bool:
                  alpha_matting_erode_size=4, post_process_mask=False)
     try:
         cut = trim_to_visible(cut)
+        cut, level_degrees = level_to_supports(cut)
     except ValueError:
         print(f"  ! no subject found: {path.name}")
         return False
@@ -163,7 +224,7 @@ def process(path: Path) -> bool:
     if gap < 0 or gap > 2:
         raise RuntimeError(f"{path.name}: invalid floor gap {gap}px")
     print(f"  grounded: equipment_y={rendered_bottom_y}, floor_y={FLOOR_CONTACT_Y}, gap={gap}px",
-          flush=True)
+          f"level={level_degrees:+.2f}deg", flush=True)
 
     out = DEST / path.name
     if out.suffix.lower() == ".png":
