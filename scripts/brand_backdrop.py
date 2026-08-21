@@ -26,9 +26,9 @@ SRC = ROOT / "scripts/assets/used-originals"
 DEST = ROOT / "public/assets/products/used"
 
 W, H = 1400, 1120
-COVE_TOP = int(H * 0.52)          # wall begins curving here
-COVE_BOTTOM = int(H * 0.66)       # floor plane fully horizontal below this
-FLOOR_CONTACT_Y = int(H * 0.79)   # bottom-anchor line, on the floor
+COVE_TOP = int(H * 0.71)          # wall begins curving just above the equipment base
+COVE_BOTTOM = int(H * 0.79)       # wall/floor transition meets the equipment contact line
+FLOOR_CONTACT_Y = COVE_BOTTOM     # actual wheels, feet, or base rest at that transition
 TOP_SAFE = int(H * 0.08)
 VISIBLE_ALPHA = 10
 MAX_LEVEL_DEGREES = 5.0
