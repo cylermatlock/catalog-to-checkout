@@ -74,7 +74,61 @@ def build_backdrop() -> Image.Image:
     return img.filter(ImageFilter.GaussianBlur(1.2)).convert("RGBA")
 
 
-BASE = build_backdrop()
+# ---------------------------------------------------------------- branding ---
+ORANGE = (247, 148, 29)
+LOGO_PATH = ROOT / "src/assets/gm-therapy-logo.png"
+
+
+def _logo_rgba() -> Image.Image | None:
+    if not LOGO_PATH.exists():
+        return None
+    logo = Image.open(LOGO_PATH).convert("RGBA")
+    arr = np.asarray(logo).astype(np.float32)
+    # key out the white paper background of the logo file
+    lum = arr[..., :3].mean(axis=2)
+    alpha = np.clip((245.0 - lum) / 35.0, 0, 1) * 255.0
+    arr[..., 3] = alpha
+    logo = Image.fromarray(arr.astype(np.uint8), "RGBA")
+    bbox = logo.getbbox()
+    return logo.crop(bbox) if bbox else logo
+
+
+_LOGO = _logo_rgba()
+
+
+def apply_branding(canvas: Image.Image) -> Image.Image:
+    """Subtle GM Therapy Solutions branding: orange corner + logo, upper right."""
+    canvas = canvas.convert("RGBA")
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+
+    # orange corner graphic (top-right wedge)
+    size = int(W * 0.115)
+    d.polygon([(W, 0), (W, size), (W - size, 0)], fill=ORANGE + (255,))
+    # thin accent stroke echoing the wedge
+    inset = int(size * 1.55)
+    d.line([(W - inset, 0), (W, inset)], fill=ORANGE + (90,), width=max(2, int(W * 0.0035)))
+
+    # very subtle watermark arc on the wall
+    r = int(W * 0.30)
+    cx, cy = int(W * 0.18), int(H * 0.20)
+    d.arc([cx - r, cy - r, cx + r, cy + r], 0, 360,
+          fill=ORANGE + (16,), width=max(3, int(W * 0.006)))
+
+    canvas = Image.alpha_composite(canvas, layer)
+
+    if _LOGO is not None:
+        target_h = int(H * 0.062)
+        lw = max(1, int(_LOGO.width * (target_h / _LOGO.height)))
+        logo = _LOGO.resize((lw, target_h), Image.LANCZOS)
+        lx = W - lw - int(W * 0.035)
+        ly = int(H * 0.055)
+        canvas.alpha_composite(logo, (lx, ly))
+
+    return canvas
+
+
+BASE = apply_branding(build_backdrop())
 
 
 # ------------------------------------------------------------------- mask ----
