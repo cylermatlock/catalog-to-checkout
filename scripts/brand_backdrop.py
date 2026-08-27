@@ -26,56 +26,53 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "scripts/assets/used-originals"
 DEST = ROOT / "public/assets/products/used"
 
-W, H = 1400, 1120
-COVE_TOP = int(H * 0.71)          # wall begins curving just above the equipment base
-COVE_BOTTOM = int(H * 0.79)       # wall/floor transition meets the equipment contact line
-FLOOR_CONTACT_Y = COVE_BOTTOM     # actual wheels, feet, or base rest at that transition
-TOP_SAFE = int(H * 0.08)
+W, H = 1500, 1006                 # matches the approved reference aspect (~3:2)
+COVE_TOP = int(H * 0.50)          # seamless: wall tone eases into floor tone
+COVE_BOTTOM = int(H * 0.62)
+FLOOR_CONTACT_Y = int(H * 0.88)   # wheels / feet / base rest here
+TOP_SAFE = int(H * 0.16)          # clear of the logo lockup
 VISIBLE_ALPHA = 10
 MAX_LEVEL_DEGREES = 2.5
 MIN_LEVEL_DEGREES = 0.65
 
+
 _sessions = [new_session(n) for n in ("birefnet-general", "isnet-general-use", "u2net")]
+
+
 
 
 # ---------------------------------------------------------------- backdrop ---
 def build_backdrop() -> Image.Image:
+    """Warm cream seamless studio matching the approved reference frame."""
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
 
-    wall_top = np.array([250, 249, 246], np.float32)
-    wall_bottom = np.array([243, 241, 236], np.float32)
-    floor_far = np.array([236, 234, 229], np.float32)
-    floor_near = np.array([222, 220, 214], np.float32)
+    wall_top = np.array([247, 239, 232], np.float32)
+    wall_bottom = np.array([236, 226, 216], np.float32)
+    floor_far = np.array([235, 225, 215], np.float32)
+    floor_near = np.array([229, 219, 209], np.float32)
 
-    # vertical wall gradient
     t_wall = np.clip(yy / max(1, COVE_TOP), 0, 1)[..., None]
     arr = wall_top * (1 - t_wall) + wall_bottom * t_wall
 
-    # seamless cove: smooth blend from wall tone into floor tone
     cove = np.clip((yy - COVE_TOP) / (COVE_BOTTOM - COVE_TOP), 0, 1)
     cove = (cove * cove * (3 - 2 * cove))[..., None]
     arr = arr * (1 - cove) + floor_far * cove
 
-    # floor recedes toward the camera (darker near the viewer)
     depth = np.clip((yy - COVE_BOTTOM) / (H - COVE_BOTTOM), 0, 1)
-    depth = (depth ** 1.25)[..., None]
+    depth = (depth ** 1.4)[..., None]
     arr = arr * (1 - depth) + floor_near * depth
 
-    # soft diffused key light, upper-left, with natural falloff to the corners
-    r = np.sqrt(((xx - W * 0.42) / W) ** 2 + ((yy - H * 0.34) / H) ** 2)
-    arr += (np.clip(0.30 - r, 0, 0.30) * 22)[..., None]
-    arr -= (np.clip(r - 0.34, 0, 0.8) * 16)[..., None]
-
-    # faint ambient occlusion where the wall meets the floor
-    ao = np.exp(-((yy - COVE_BOTTOM) ** 2) / (2 * (H * 0.045) ** 2))
-    arr -= (ao * 5)[..., None]
+    # soft diffused key light, upper left
+    r = np.sqrt(((xx - W * 0.30) / W) ** 2 + ((yy - H * 0.22) / H) ** 2)
+    arr += (np.clip(0.32 - r, 0, 0.32) * 16)[..., None]
+    arr -= (np.clip(r - 0.42, 0, 0.9) * 14)[..., None]
 
     img = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8), "RGB")
-    return img.filter(ImageFilter.GaussianBlur(1.2)).convert("RGBA")
+    return img.filter(ImageFilter.GaussianBlur(1.4)).convert("RGBA")
 
 
 # ---------------------------------------------------------------- branding ---
-ORANGE = (247, 148, 29)
+ORANGE = (246, 88, 15)
 LOGO_PATH = ROOT / "src/assets/gm-therapy-logo.png"
 
 
@@ -96,36 +93,65 @@ def _logo_rgba() -> Image.Image | None:
 _LOGO = _logo_rgba()
 
 
-def apply_branding(canvas: Image.Image) -> Image.Image:
-    """Subtle GM Therapy Solutions branding: orange corner + logo, upper right."""
-    canvas = canvas.convert("RGBA")
-    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+def _pattern_layer() -> Image.Image:
+    """Very faint hexagon field plus angular line graphics on the left wall."""
+    S = 4  # supersample for clean thin strokes
+    layer = Image.new("RGBA", (W * S, H * S), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
 
-    # orange corner graphic (top-right wedge)
-    size = int(W * 0.115)
-    d.polygon([(W, 0), (W, size), (W - size, 0)], fill=ORANGE + (255,))
-    # thin accent stroke echoing the wedge
-    inset = int(size * 1.55)
-    d.line([(W - inset, 0), (W, inset)], fill=ORANGE + (90,), width=max(2, int(W * 0.0035)))
+    ink = (196, 184, 172)
+    hex_r = int(W * S * 0.055)
+    dx = hex_r * 1.5
+    dy = hex_r * np.sqrt(3)
+    stroke = max(2, int(W * S * 0.0011))
+    col = 0
+    x = -hex_r
+    while x < W * S + hex_r:
+        y = -hex_r + (dy / 2 if col % 2 else 0)
+        while y < H * S * 0.72:
+            pts = [(x + hex_r * np.cos(np.pi / 3 * k),
+                    y + hex_r * np.sin(np.pi / 3 * k)) for k in range(6)]
+            d.polygon(pts, outline=ink + (26,), width=stroke)
+            y += dy
+        x += dx
+        col += 1
 
-    # very subtle watermark arc on the wall
-    r = int(W * 0.30)
-    cx, cy = int(W * 0.18), int(H * 0.20)
-    d.arc([cx - r, cy - r, cx + r, cy + r], 0, 360,
-          fill=ORANGE + (16,), width=max(3, int(W * 0.006)))
+    # angular chevron graphics, lower left
+    lw = max(3, int(W * S * 0.0035))
+    for i, scale in enumerate((0.0, 0.055, 0.11)):
+        ox = int(W * S * (0.015 + scale))
+        oy = int(H * S * (0.62 - scale * 0.9))
+        top = int(H * S * (0.17 + scale * 0.5))
+        d.line([(ox, oy), (ox, oy - top), (ox + int(W * S * 0.075), oy - top - int(H * S * 0.06))],
+               fill=ink + (70 - i * 16,), width=lw, joint="curve")
 
+    layer = layer.resize((W, H), Image.LANCZOS)
+    return layer.filter(ImageFilter.GaussianBlur(0.4))
+
+
+def apply_branding(canvas: Image.Image) -> Image.Image:
+    """Warm studio branding: faint wall graphics, orange corner arc + logo."""
+    canvas = Image.alpha_composite(canvas.convert("RGBA"), _pattern_layer())
+
+    S = 4
+    layer = Image.new("RGBA", (W * S, H * S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    # orange quarter-disc anchored to the top-right corner
+    r = int(W * S * 0.135)
+    d.pieslice([W * S - r, -r, W * S + r, r], 0, 360, fill=ORANGE + (255,))
+    layer = layer.resize((W, H), Image.LANCZOS)
     canvas = Image.alpha_composite(canvas, layer)
 
     if _LOGO is not None:
-        target_h = int(H * 0.062)
+        target_h = int(H * 0.165)
         lw = max(1, int(_LOGO.width * (target_h / _LOGO.height)))
         logo = _LOGO.resize((lw, target_h), Image.LANCZOS)
-        lx = W - lw - int(W * 0.035)
-        ly = int(H * 0.055)
+        lx = W - lw - int(W * 0.065)
+        ly = int(H * 0.095)
         canvas.alpha_composite(logo, (lx, ly))
 
     return canvas
+
 
 
 BASE = apply_branding(build_backdrop())
@@ -260,7 +286,7 @@ def process(path: Path) -> bool:
     # piece's own shape rather than forcing a uniform footprint.
     max_w = int(W * 0.74)
     max_h = FLOOR_CONTACT_Y - TOP_SAFE + 1
-    ratio = min(max_w / cut.width, max_h / cut.height, 1.5)
+    ratio = min(max_w / cut.width, max_h / cut.height, 1.18)
     new = cut.resize((max(1, int(cut.width * ratio)), max(1, int(cut.height * ratio))),
                      Image.LANCZOS)
     new = trim_to_visible(new)  # resampling can add transparent padding
@@ -310,11 +336,11 @@ def process(path: Path) -> bool:
             ry = gy - 1 + i
             if 0 <= ry < H:
                 core[ry, gx] = max(core[ry, gx],
-                                   weight * 0.78 * (1 - i / core_h) ** 1.4)
+                                   weight * 0.88 * (1 - i / core_h) ** 1.4)
         top = max(0, gy)
         end = min(H, gy + spill_h)
         if end > top:
-            seg = spill_fade[: end - top] * (0.42 * weight)
+            seg = spill_fade[: end - top] * (0.55 * weight)
             spill[top:end, gx] = np.maximum(spill[top:end, gx], seg)
 
     shadow_rgb = (58, 56, 52, 255)
