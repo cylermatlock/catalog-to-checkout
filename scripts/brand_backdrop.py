@@ -31,8 +31,8 @@ COVE_TOP = int(H * 0.50)          # seamless: wall tone eases into floor tone
 COVE_BOTTOM = int(H * 0.62)
 FLOOR_CONTACT_Y = int(H * 0.88)   # wheels / feet / base rest here
 TOP_SAFE = int(H * 0.16)          # clear of the logo lockup
-VISIBLE_ALPHA = 10
-MAX_LEVEL_DEGREES = 2.5
+VISIBLE_ALPHA = 4
+MAX_LEVEL_DEGREES = 0.0
 MIN_LEVEL_DEGREES = 0.65
 
 
@@ -248,24 +248,45 @@ def cutout(raw: Image.Image) -> Image.Image:
         masks.append(np.asarray(m.convert("L")).astype(np.float32))
     union = np.max(np.stack(masks), axis=0)
 
-    solid = union > 100
-    labels, count = ndimage.label(ndimage.binary_closing(solid, np.ones((5, 5))))
+    # Never reduce the model union to only its largest connected component.
+    # Casters, feet, power cords and parallel-bar platforms are frequently
+    # separated by a few source pixels and were being mistaken for background.
+    # A low-confidence union preserves those real structures; only tiny remote
+    # specks near the photograph edges are rejected.
+    solid = union > 24
+    labels, count = ndimage.label(solid)
     if count:
-        sizes = ndimage.sum(solid, labels, range(1, count + 1))
+        sizes = np.asarray(ndimage.sum(solid, labels, range(1, count + 1)))
         main = int(np.argmax(sizes)) + 1
-        main_mask = ndimage.binary_dilation(labels == main, np.ones((9, 9)))
-        keep = np.zeros_like(solid)
+        main_ys, main_xs = np.nonzero(labels == main)
+        pad_x = max(18, int(raw.width * 0.09))
+        pad_y = max(18, int(raw.height * 0.09))
+        x0 = max(0, int(main_xs.min()) - pad_x)
+        x1 = min(raw.width, int(main_xs.max()) + pad_x + 1)
+        y0 = max(0, int(main_ys.min()) - pad_y)
+        y1 = min(raw.height, int(main_ys.max()) + pad_y + 1)
+        keep = labels == main
+        min_detail = max(6, int(solid.sum() * 0.00008))
         for idx in range(1, count + 1):
-            comp = labels == idx
-            if idx == main or (comp & main_mask).any() or sizes[idx - 1] > solid.sum() * 0.05:
-                keep |= comp
+            if idx == main or sizes[idx - 1] < min_detail:
+                continue
+            ys, xs = np.nonzero(labels == idx)
+            # Retain components in/near the subject envelope, especially below
+            # the body where feet, wheels and bases occur.
+            if xs.max() >= x0 and xs.min() < x1 and ys.max() >= y0 and ys.min() < y1:
+                keep |= labels == idx
         union = np.where(keep, union, 0)
 
-    # fill interior holes so frames/panels do not read as punched through
-    filled = ndimage.binary_fill_holes(union > 100)
-    union = np.maximum(union, np.where(filled, 255, 0)).astype(np.uint8)
+    # Only fill pinholes. Filling every enclosed region incorrectly turned the
+    # open space between table legs and inside machine frames into foreground.
+    pinholes = ndimage.binary_fill_holes(solid) & ~solid
+    pin_labels, pin_count = ndimage.label(pinholes)
+    if pin_count:
+        pin_sizes = np.asarray(ndimage.sum(pinholes, pin_labels, range(1, pin_count + 1)))
+        small_holes = np.isin(pin_labels, np.nonzero(pin_sizes <= raw.width * raw.height * 0.0002)[0] + 1)
+        union = np.maximum(union, np.where(small_holes, 255, 0)).astype(np.uint8)
 
-    alpha = Image.fromarray(union, "L").filter(ImageFilter.GaussianBlur(0.8))
+    alpha = Image.fromarray(union.astype(np.uint8), "L").filter(ImageFilter.GaussianBlur(0.45))
     cut = raw.copy()
     cut.putalpha(alpha)
     return cut
@@ -277,7 +298,9 @@ def process(path: Path) -> bool:
 
     try:
         cut = trim_to_visible(cut)
-        cut, level_degrees = level_to_supports(cut)
+        # Preserve the photographed perspective. Automatic rotation made one
+        # caster touch while lifting the opposite side of wide equipment.
+        level_degrees = 0.0
     except ValueError:
         print(f"  ! no subject found: {path.name}")
         return False
@@ -299,7 +322,7 @@ def process(path: Path) -> bool:
     alpha = np.array(new)[..., 3].astype(np.float32)
     contact_y = y + local_bottom_y
 
-    # ---- contact shadow across the FULL footprint ---------------------------
+    # ---- weight-bearing floor shadow across the FULL footprint --------------
     # Every column that reaches the support band gets its own contact shadow at
     # its own bottom pixel, so back wheels/feet sitting higher in perspective
     # are grounded too -- not just the single lowest point of the silhouette.
@@ -342,6 +365,35 @@ def process(path: Path) -> bool:
         if end > top:
             seg = spill_fade[: end - top] * (0.55 * weight)
             spill[top:end, gx] = np.maximum(spill[top:end, gx], seg)
+
+    # Join all support points into one shallow perspective footprint.  The top
+    # edge overlaps the equipment, so the shadow can never appear detached;
+    # the lower edge spreads toward camera like a real softbox cast shadow.
+    if bottoms:
+        support_x = np.asarray(sorted(bottoms), dtype=np.int32)
+        support_y = np.asarray([bottoms[int(cx)] for cx in support_x], dtype=np.int32)
+        valid = (local_bottom_y - support_y) <= footprint_depth
+        support_x, support_y = support_x[valid], support_y[valid]
+        if support_x.size:
+            footprint = Image.new("L", (W, H), 0)
+            fd = ImageDraw.Draw(footprint)
+            left = x + int(support_x.min())
+            right = x + int(support_x.max())
+            spread = max(10, int((right - left) * 0.055))
+            near_y = min(H - 1, contact_y + max(9, int(new.height * 0.040)))
+            # Deliberately overlap the bottom of the cutout. This hides the
+            # seam and makes the weight read at the feet/base instead of as a
+            # detached patch below the machine.
+            top_y = max(0, contact_y - max(12, int(new.height * 0.040)))
+            fd.polygon([
+                (max(0, left - spread // 3), top_y),
+                (min(W - 1, right + spread // 3), top_y),
+                (min(W - 1, right + spread), near_y),
+                (max(0, left - spread), near_y),
+            ], fill=48)
+            footprint = footprint.filter(
+                ImageFilter.GaussianBlur(max(12, int(new.height * 0.028))))
+            spill = np.maximum(spill, np.asarray(footprint).astype(np.float32) / 255.0)
 
     shadow_rgb = (58, 56, 52, 255)
     spill_layer = Image.new("RGBA", (W, H), shadow_rgb)
