@@ -322,10 +322,9 @@ def process(path: Path) -> bool:
     alpha = np.array(new)[..., 3].astype(np.float32)
     contact_y = y + local_bottom_y
 
-    # ---- weight-bearing floor shadow across the FULL footprint --------------
-    # Every column that reaches the support band gets its own contact shadow at
-    # its own bottom pixel, so back wheels/feet sitting higher in perspective
-    # are grounded too -- not just the single lowest point of the silhouette.
+    # ---- small shadows only where the equipment contacts the floor ----------
+    # Follow the lower silhouette closely.  This creates compact shadows under
+    # wheels, feet and bases without adding a broad floating drop shadow.
     visible = alpha > VISIBLE_ALPHA
     min_column_pixels = max(2, int(new.height * 0.004))
     cols = np.nonzero(visible.any(axis=0))[0]
@@ -337,76 +336,32 @@ def process(path: Path) -> bool:
     if not bottoms:
         bottoms = {int(cx): local_bottom_y for cx in cols}
 
-    # support band: contact points are anything within the rear-footprint depth
-    footprint_depth = max(6, int(new.height * 0.32))
+    # Limit contacts to the lowest support band. Higher body edges are not floor
+    # contacts and must not cast a shadow beneath the whole machine.
+    contact_depth = max(4, int(new.height * 0.035))
     core = np.zeros((H, W), np.float32)
-    spill = np.zeros((H, W), np.float32)
-    core_h = max(3, min(9, int(new.height * 0.012)))
-    spill_h = max(16, min(90, int(new.height * 0.10)))
-    spill_fade = np.linspace(1.0, 0.0, spill_h, dtype=np.float32) ** 1.4
+    contact_h = max(3, min(7, int(new.height * 0.009)))
 
     for cx, by in bottoms.items():
         depth = local_bottom_y - by
-        if depth > footprint_depth:
+        if depth > contact_depth:
             continue                      # part of the body, not a support point
         gx = x + cx
         if not (0 <= gx < W):
             continue
-        # rear contacts read slightly lighter (further from the camera light)
-        weight = 1.0 - 0.45 * (depth / max(1, footprint_depth))
         gy = y + by
-        for i in range(core_h):
-            ry = gy - 1 + i
+        weight = 1.0 - 0.35 * (depth / max(1, contact_depth))
+        for i in range(contact_h):
+            ry = gy + i
             if 0 <= ry < H:
                 core[ry, gx] = max(core[ry, gx],
-                                   weight * 0.88 * (1 - i / core_h) ** 1.4)
-        top = max(0, gy)
-        end = min(H, gy + spill_h)
-        if end > top:
-            seg = spill_fade[: end - top] * (0.55 * weight)
-            spill[top:end, gx] = np.maximum(spill[top:end, gx], seg)
-
-    # Join all support points into one shallow perspective footprint.  The top
-    # edge overlaps the equipment, so the shadow can never appear detached;
-    # the lower edge spreads toward camera like a real softbox cast shadow.
-    if bottoms:
-        support_x = np.asarray(sorted(bottoms), dtype=np.int32)
-        support_y = np.asarray([bottoms[int(cx)] for cx in support_x], dtype=np.int32)
-        valid = (local_bottom_y - support_y) <= footprint_depth
-        support_x, support_y = support_x[valid], support_y[valid]
-        if support_x.size:
-            footprint = Image.new("L", (W, H), 0)
-            fd = ImageDraw.Draw(footprint)
-            left = x + int(support_x.min())
-            right = x + int(support_x.max())
-            spread = max(10, int((right - left) * 0.055))
-            near_y = min(H - 1, contact_y + max(9, int(new.height * 0.040)))
-            # Deliberately overlap the bottom of the cutout. This hides the
-            # seam and makes the weight read at the feet/base instead of as a
-            # detached patch below the machine.
-            top_y = max(0, contact_y - max(12, int(new.height * 0.040)))
-            fd.polygon([
-                (max(0, left - spread // 3), top_y),
-                (min(W - 1, right + spread // 3), top_y),
-                (min(W - 1, right + spread), near_y),
-                (max(0, left - spread), near_y),
-            ], fill=48)
-            footprint = footprint.filter(
-                ImageFilter.GaussianBlur(max(12, int(new.height * 0.028))))
-            spill = np.maximum(spill, np.asarray(footprint).astype(np.float32) / 255.0)
+                                   weight * 0.56 * (1 - i / contact_h) ** 1.7)
 
     shadow_rgb = (58, 56, 52, 255)
-    spill_layer = Image.new("RGBA", (W, H), shadow_rgb)
-    spill_layer.putalpha(
-        Image.fromarray((spill * 255).clip(0, 255).astype(np.uint8), "L")
-             .filter(ImageFilter.GaussianBlur(max(4.0, spill_h * 0.22))))
-    canvas = Image.alpha_composite(canvas, spill_layer)
-
-
     core_layer = Image.new("RGBA", (W, H), shadow_rgb)
     core_layer.putalpha(
         Image.fromarray((core * 255).clip(0, 255).astype(np.uint8), "L")
-             .filter(ImageFilter.GaussianBlur(1.0)))
+             .filter(ImageFilter.GaussianBlur(max(2.0, new.height * 0.005))))
     canvas = Image.alpha_composite(canvas, core_layer)
 
     canvas.alpha_composite(new, (x, y))
