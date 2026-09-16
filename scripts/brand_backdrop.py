@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Composite untouched pre-owned equipment photos into a clean, empty studio.
 
-Treatment (v2, no branding):
+Treatment (v3, branded neutral studio):
   * background removed from the preserved original photograph only
-  * warm off-white seamless cyclorama: wall -> curved cove -> matte floor
-  * soft diffused key light from upper left, gentle floor falloff
+  * neutral white-to-light-gray cyclorama: wall -> curved cove -> matte floor
+  * soft overhead key light, gentle floor bounce, and restrained brand graphics
   * strict BOTTOM ANCHORING: the lowest visible equipment pixel sits on the
     floor contact line (gap validated to 0-2px)
-  * contact shadow built from the equipment's own silhouette, darkest at the
-    contact points, softening outward -- never a detached oval
+  * tight contact shadows at each support plus a faint ambient footprint built
+    from the equipment's own silhouette -- never a detached generic oval
   * conservative roll correction from the lower support envelope so equipment
     photographed at a sideways tilt rests level before it is bottom-anchored
 """
@@ -26,11 +26,11 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "scripts/assets/used-originals"
 DEST = ROOT / "public/assets/products/used"
 
-W, H = 1500, 1006                 # matches the approved reference aspect (~3:2)
-COVE_TOP = int(H * 0.50)          # seamless: wall tone eases into floor tone
-COVE_BOTTOM = int(H * 0.62)
-FLOOR_CONTACT_Y = int(H * 0.88)   # wheels / feet / base rest here
-TOP_SAFE = int(H * 0.16)          # clear of the logo lockup
+W, H = 1536, 1152                 # standard landscape output (4:3)
+COVE_TOP = int(H * 0.53)          # broad, line-free wall-to-floor transition
+COVE_BOTTOM = int(H * 0.70)
+FLOOR_CONTACT_Y = int(H * 0.885)  # nearest wheel / foot / base rests here
+TOP_SAFE = int(H * 0.14)          # clear of the logo lockup
 VISIBLE_ALPHA = 4
 MAX_LEVEL_DEGREES = 0.0
 MIN_LEVEL_DEGREES = 0.65
@@ -43,13 +43,13 @@ _sessions = [new_session(n) for n in ("birefnet-general", "isnet-general-use", "
 
 # ---------------------------------------------------------------- backdrop ---
 def build_backdrop() -> Image.Image:
-    """Warm cream seamless studio matching the approved reference frame."""
+    """Bright neutral infinity wall with a readable horizontal floor plane."""
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
 
-    wall_top = np.array([247, 239, 232], np.float32)
-    wall_bottom = np.array([236, 226, 216], np.float32)
-    floor_far = np.array([235, 225, 215], np.float32)
-    floor_near = np.array([229, 219, 209], np.float32)
+    wall_top = np.array([252, 252, 252], np.float32)
+    wall_bottom = np.array([243, 244, 245], np.float32)
+    floor_far = np.array([238, 239, 240], np.float32)
+    floor_near = np.array([225, 227, 229], np.float32)
 
     t_wall = np.clip(yy / max(1, COVE_TOP), 0, 1)[..., None]
     arr = wall_top * (1 - t_wall) + wall_bottom * t_wall
@@ -62,17 +62,17 @@ def build_backdrop() -> Image.Image:
     depth = (depth ** 1.4)[..., None]
     arr = arr * (1 - depth) + floor_near * depth
 
-    # soft diffused key light, upper left
-    r = np.sqrt(((xx - W * 0.30) / W) ** 2 + ((yy - H * 0.22) / H) ** 2)
-    arr += (np.clip(0.32 - r, 0, 0.32) * 16)[..., None]
-    arr -= (np.clip(r - 0.42, 0, 0.9) * 14)[..., None]
+    # Broad overhead softbox and a very subtle front-to-back floor falloff.
+    r = np.sqrt(((xx - W * 0.42) / W) ** 2 + ((yy - H * 0.20) / H) ** 2)
+    arr += (np.clip(0.36 - r, 0, 0.36) * 10)[..., None]
+    arr -= (np.clip(r - 0.56, 0, 0.8) * 5)[..., None]
 
     img = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8), "RGB")
     return img.filter(ImageFilter.GaussianBlur(1.4)).convert("RGBA")
 
 
 # ---------------------------------------------------------------- branding ---
-ORANGE = (246, 88, 15)
+ORANGE = (242, 103, 34)  # official accent: #F26722
 LOGO_PATH = ROOT / "src/assets/gm-therapy-logo.png"
 
 
@@ -81,10 +81,14 @@ def _logo_rgba() -> Image.Image | None:
         return None
     logo = Image.open(LOGO_PATH).convert("RGBA")
     arr = np.asarray(logo).astype(np.float32)
-    # key out the white paper background of the logo file
-    lum = arr[..., :3].mean(axis=2)
-    alpha = np.clip((245.0 - lum) / 35.0, 0, 1) * 255.0
-    arr[..., 3] = alpha
+    # Respect official transparency when present. Only key white paper from a
+    # fully opaque source; this avoids damaging antialiased logo edges.
+    if np.all(arr[..., 3] == 255):
+        lum = arr[..., :3].mean(axis=2)
+        chroma = arr[..., :3].max(axis=2) - arr[..., :3].min(axis=2)
+        paper = np.clip((250.0 - lum) / 24.0, 0, 1)
+        paper = np.maximum(paper, np.clip(chroma / 18.0, 0, 1))
+        arr[..., 3] = paper * 255.0
     logo = Image.fromarray(arr.astype(np.uint8), "RGBA")
     bbox = logo.getbbox()
     return logo.crop(bbox) if bbox else logo
@@ -94,12 +98,12 @@ _LOGO = _logo_rgba()
 
 
 def _pattern_layer() -> Image.Image:
-    """Very faint hexagon field plus angular line graphics on the left wall."""
+    """Very faint hexagon field on the wall, clear of the equipment focus."""
     S = 4  # supersample for clean thin strokes
     layer = Image.new("RGBA", (W * S, H * S), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
 
-    ink = (196, 184, 172)
+    ink = (161, 166, 171)
     hex_r = int(W * S * 0.055)
     dx = hex_r * 1.5
     dy = hex_r * np.sqrt(3)
@@ -108,46 +112,37 @@ def _pattern_layer() -> Image.Image:
     x = -hex_r
     while x < W * S + hex_r:
         y = -hex_r + (dy / 2 if col % 2 else 0)
-        while y < H * S * 0.72:
+        while y < H * S * 0.67:
             pts = [(x + hex_r * np.cos(np.pi / 3 * k),
                     y + hex_r * np.sin(np.pi / 3 * k)) for k in range(6)]
-            d.polygon(pts, outline=ink + (26,), width=stroke)
+            d.polygon(pts, outline=ink + (20,), width=stroke)
             y += dy
         x += dx
         col += 1
-
-    # angular chevron graphics, lower left
-    lw = max(3, int(W * S * 0.0035))
-    for i, scale in enumerate((0.0, 0.055, 0.11)):
-        ox = int(W * S * (0.015 + scale))
-        oy = int(H * S * (0.62 - scale * 0.9))
-        top = int(H * S * (0.17 + scale * 0.5))
-        d.line([(ox, oy), (ox, oy - top), (ox + int(W * S * 0.075), oy - top - int(H * S * 0.06))],
-               fill=ink + (70 - i * 16,), width=lw, joint="curve")
 
     layer = layer.resize((W, H), Image.LANCZOS)
     return layer.filter(ImageFilter.GaussianBlur(0.4))
 
 
 def apply_branding(canvas: Image.Image) -> Image.Image:
-    """Warm studio branding: faint wall graphics, orange corner arc + logo."""
+    """Restrained studio branding: faint hexagons, orange arc, official logo."""
     canvas = Image.alpha_composite(canvas.convert("RGBA"), _pattern_layer())
 
     S = 4
     layer = Image.new("RGBA", (W * S, H * S), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
-    # orange quarter-disc anchored to the top-right corner
-    r = int(W * S * 0.135)
-    d.pieslice([W * S - r, -r, W * S + r, r], 0, 360, fill=ORANGE + (255,))
+    # Curved orange corner accent, tucked behind and away from the product.
+    r = int(W * S * 0.145)
+    d.ellipse([W * S - r, -r, W * S + r, r], fill=ORANGE + (255,))
     layer = layer.resize((W, H), Image.LANCZOS)
     canvas = Image.alpha_composite(canvas, layer)
 
     if _LOGO is not None:
-        target_h = int(H * 0.165)
+        target_h = int(H * 0.145)
         lw = max(1, int(_LOGO.width * (target_h / _LOGO.height)))
         logo = _LOGO.resize((lw, target_h), Image.LANCZOS)
-        lx = W - lw - int(W * 0.065)
-        ly = int(H * 0.095)
+        lx = W - lw - int(W * 0.060)
+        ly = int(H * 0.080)
         canvas.alpha_composite(logo, (lx, ly))
 
     return canvas
