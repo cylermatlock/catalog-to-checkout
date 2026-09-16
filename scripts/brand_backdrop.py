@@ -309,6 +309,20 @@ def process(path: Path) -> bool:
                      Image.LANCZOS)
     new = trim_to_visible(new)  # resampling can add transparent padding
 
+    # Gently match the neutral overhead softbox and floor bounce without
+    # replacing, redrawing, shifting, or geometrically altering source pixels.
+    relit = np.asarray(new).astype(np.float32).copy()
+    relit_alpha = relit[..., 3:4]
+    relight_y = np.linspace(1.025, 0.995, new.height, dtype=np.float32)[:, None, None]
+    relight_x = np.linspace(1.012, 0.995, new.width, dtype=np.float32)[None, :, None]
+    floor_bounce = np.clip(
+        (np.linspace(0, 1, new.height, dtype=np.float32)[:, None, None] - 0.72) * 0.045,
+        0, 0.012)
+    relit[..., :3] = np.clip(relit[..., :3] * relight_y * relight_x + 255 * floor_bounce,
+                             0, 255)
+    relit[..., 3:4] = relit_alpha
+    new = Image.fromarray(relit.astype(np.uint8), "RGBA")
+
     x = (W - new.width) // 2
     local_bottom_y = lowest_visible_y(new)
     y = FLOOR_CONTACT_Y - local_bottom_y  # bottom anchored, never centered
@@ -331,6 +345,36 @@ def process(path: Path) -> bool:
     if not bottoms:
         bottoms = {int(cx): local_bottom_y for cx in cols}
 
+    # A low-opacity ambient footprint follows the actual lower silhouette. It
+    # is softly projected onto the floor and remains distinct from the darker
+    # contact shadows; no ellipse or generic machine-wide drop shadow is used.
+    ambient = np.zeros((H, W), np.float32)
+    ambient_depth = max(8, int(new.height * 0.085))
+    ambient_h = max(5, min(18, int(new.height * 0.020)))
+    for cx, by in bottoms.items():
+        depth = local_bottom_y - by
+        if depth > ambient_depth:
+            continue
+        gx = x + cx
+        gy = y + by
+        if not (0 <= gx < W):
+            continue
+        strength = 0.15 * (1.0 - 0.55 * depth / max(1, ambient_depth))
+        for i in range(ambient_h):
+            ry = gy + i
+            spread = 1 + i // 4
+            if 0 <= ry < H:
+                ambient[ry, max(0, gx - spread):min(W, gx + spread + 1)] = np.maximum(
+                    ambient[ry, max(0, gx - spread):min(W, gx + spread + 1)],
+                    strength * (1 - i / ambient_h) ** 1.5)
+
+    shadow_rgb = (58, 60, 62, 255)
+    ambient_layer = Image.new("RGBA", (W, H), shadow_rgb)
+    ambient_layer.putalpha(
+        Image.fromarray((ambient * 255).clip(0, 255).astype(np.uint8), "L")
+             .filter(ImageFilter.GaussianBlur(max(5.0, new.height * 0.011))))
+    canvas = Image.alpha_composite(canvas, ambient_layer)
+
     # Limit contacts to the lowest support band. Higher body edges are not floor
     # contacts and must not cast a shadow beneath the whole machine.
     contact_depth = max(4, int(new.height * 0.035))
@@ -350,9 +394,9 @@ def process(path: Path) -> bool:
             ry = gy + i
             if 0 <= ry < H:
                 core[ry, gx] = max(core[ry, gx],
-                                   weight * 0.56 * (1 - i / contact_h) ** 1.7)
+                                   weight * 0.66 * (1 - i / contact_h) ** 1.7)
 
-    shadow_rgb = (58, 56, 52, 255)
+    shadow_rgb = (45, 47, 49, 255)
     core_layer = Image.new("RGBA", (W, H), shadow_rgb)
     core_layer.putalpha(
         Image.fromarray((core * 255).clip(0, 255).astype(np.uint8), "L")
