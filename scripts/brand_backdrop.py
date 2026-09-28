@@ -281,14 +281,34 @@ def cutout(raw: Image.Image) -> Image.Image:
         small_holes = np.isin(pin_labels, np.nonzero(pin_sizes <= raw.width * raw.height * 0.0002)[0] + 1)
         union = np.maximum(union, np.where(small_holes, 255, 0)).astype(np.uint8)
 
+    union = _apply_force_regions(raw, union)
     alpha = Image.fromarray(union.astype(np.uint8), "L").filter(ImageFilter.GaussianBlur(0.45))
     cut = raw.copy()
     cut.putalpha(alpha)
     return cut
 
 
+# Per-image polygons (in source-pixel coordinates) that are always foreground.
+# Used when every model drops a real part, e.g. a low carpeted platform base.
+FORCE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {}
+_CURRENT_NAME = {"name": ""}
+
+
+def _apply_force_regions(raw: Image.Image, union: np.ndarray) -> np.ndarray:
+    polys = FORCE_REGIONS.get(_CURRENT_NAME["name"])
+    if not polys:
+        return union
+    m = Image.new("L", raw.size, 0)
+    d = ImageDraw.Draw(m)
+    for p in polys:
+        d.polygon(p, fill=255)
+    m = m.filter(ImageFilter.GaussianBlur(1.0))
+    return np.maximum(union, np.asarray(m).astype(union.dtype))
+
+
 def process(path: Path) -> bool:
     raw = Image.open(path).convert("RGBA")
+    _CURRENT_NAME["name"] = path.name
     cut = cutout(raw)
 
     try:
