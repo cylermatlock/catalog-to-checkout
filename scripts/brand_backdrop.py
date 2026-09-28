@@ -290,7 +290,9 @@ def cutout(raw: Image.Image) -> Image.Image:
 
 # Per-image polygons (in source-pixel coordinates) that are always foreground.
 # Used when every model drops a real part, e.g. a low carpeted platform base.
-FORCE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {}
+FORCE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
+    "U-CLIN-7360.png": [[(243, 800), (770, 708), (1104, 1042), (1102, 1078), (468, 1308), (440, 1262), (243, 838)]],
+}
 _CURRENT_NAME = {"name": ""}
 
 
