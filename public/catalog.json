@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T21:15:59.097Z",
+  "generatedAt": "2026-09-28T21:18:18.216Z",
   "products": [
     {
       "id": "1",
@@ -504,26 +504,6 @@
         "Thermostatically controlled temperature",
         "3\" swivel silent casters",
         "Holds up to 12 standard packs",
-        "1 year warranty"
-      ]
-    },
-    {
-      "id": "30",
-      "sku": "CG M4",
-      "name": "Chattanooga M-4 Hydrocollator",
-      "brand": "Chattanooga",
-      "category": "Modalities",
-      "subcategory": "Hydrocollator",
-      "condition": "new",
-      "image": "/assets/products/chattanooga-m4-hydrocollator.png",
-      "images": [
-        "/assets/products/chattanooga-m4-hydrocollator.png"
-      ],
-      "description": [
-        "High-quality stainless steel",
-        "Thermostatically controlled temperature",
-        "3\" swivel silent casters",
-        "Holds up to 24 standard packs",
         "1 year warranty"
       ]
     },
