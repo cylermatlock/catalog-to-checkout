@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T20:02:38.130Z",
+  "generatedAt": "2026-09-28T20:55:31.110Z",
   "products": [
     {
       "id": "1",
@@ -26,7 +26,7 @@
     },
     {
       "id": "2",
-      "sku": "GMTS 1020",
+      "sku": "GMTS 1020-30",
       "name": "GMTS Treatment Table with Adjustable Backrest",
       "brand": "GM Therapy Solutions",
       "category": "Rehab Furniture",
@@ -914,7 +914,7 @@
     },
     {
       "id": "51",
-      "sku": "SFP CE800",
+      "sku": "SFP 800025",
       "name": "Spirit CE800 Elliptical",
       "brand": "Spirit Fitness",
       "category": "Cardio",
@@ -942,7 +942,7 @@
     },
     {
       "id": "158",
-      "sku": "SFP CU800",
+      "sku": "SFP 800325",
       "name": "Spirit CU800 Upright Bike",
       "brand": "Spirit Fitness",
       "category": "Cardio",
@@ -971,7 +971,7 @@
     },
     {
       "id": "53",
-      "sku": "SFP CSD-LELC",
+      "sku": "SFP 653523",
       "name": "Spirit Dual Leg Ext/Curl",
       "brand": "Spirit Fitness",
       "category": "Strength Equipment",
@@ -991,7 +991,7 @@
     },
     {
       "id": "54",
-      "sku": "SFP CSF-DLPC",
+      "sku": "SFP 657233",
       "name": "Spirit Dual Leg Press/Calf",
       "brand": "Spirit Fitness",
       "category": "Strength Equipment",
@@ -1407,7 +1407,7 @@
     },
     {
       "id": "85",
-      "sku": "CD 8011",
+      "sku": "CD 8020",
       "name": "SHUTTLE BALANCE SPORT",
       "brand": "Shuttle Systems",
       "category": "Balance Products",
@@ -1702,7 +1702,7 @@
     },
     {
       "id": "99",
-      "sku": "RICH DVTREX",
+      "sku": "RICH DVTREX-U",
       "name": "Richmar REX Compression",
       "brand": "Richmar",
       "category": "Compression",
@@ -1745,7 +1745,7 @@
     },
     {
       "id": "269",
-      "sku": "GMTS RRB 148R",
+      "sku": "GMTS RRB148R",
       "name": "GMTS RRB Shoulder to Overhead Lifting Box",
       "brand": "GM Therapy Solutions",
       "category": "Work Hardening",
@@ -1765,7 +1765,7 @@
     },
     {
       "id": "159",
-      "sku": "GMTS RRB 1414R",
+      "sku": "GMTS RRB1414R",
       "name": "GMTS RRB Floor-to-Knuckle Lifting Box",
       "brand": "GM Therapy Solutions",
       "category": "Work Hardening",
@@ -2902,7 +2902,7 @@
     },
     {
       "id": "156",
-      "sku": "VS-VFT + VS-FTS30",
+      "sku": "MF-VS-VFT LS + VS-FTS30",
       "name": "Matrix Versa Functional Trainer w/30\" Storage",
       "brand": "Matrix Fitness",
       "category": "Strength Equipment",
@@ -3450,7 +3450,7 @@
     },
     {
       "id": "226",
-      "sku": "CLIN 5-4334",
+      "sku": "CLIN 5-4224",
       "name": "Clinton Push/Pull Sled w/ 4 Weight Posts",
       "brand": "Clinton Industries",
       "category": "Strength Equipment",
@@ -4174,7 +4174,7 @@
     },
     {
       "id": "255",
-      "sku": "NC14600",
+      "sku": "NC 14600",
       "name": "Norco Splint Form 1000",
       "brand": "Norco",
       "category": "Modalities",
@@ -4217,9 +4217,9 @@
     },
     {
       "id": "257",
-      "sku": "AM-660",
+      "sku": "PHS AM-660",
       "name": "Armedica 6' x 8' Electric Hi-Lo Mat Platform",
-      "brand": "Armedica",
+      "brand": "Performance Health",
       "category": "Rehab Furniture",
       "subcategory": "Hi-Lo Tables",
       "condition": "new",
@@ -4921,7 +4921,7 @@
     },
     {
       "id": "288",
-      "sku": "TKO 509SB-15",
+      "sku": "TKO 509SBT-15",
       "name": "TKO 15 lb Slam Ball",
       "brand": "TKO",
       "category": "Strength Equipment",
@@ -4942,7 +4942,7 @@
     },
     {
       "id": "289",
-      "sku": "TKO 509SB-20",
+      "sku": "TKO 509SBT-20",
       "name": "TKO 20 lb Slam Ball",
       "brand": "TKO",
       "category": "Strength Equipment",
@@ -4963,7 +4963,7 @@
     },
     {
       "id": "290",
-      "sku": "TKO 509SB-25",
+      "sku": "TKO 509SBT-25",
       "name": "TKO 25 lb Slam Ball",
       "brand": "TKO",
       "category": "Strength Equipment",
@@ -6171,7 +6171,7 @@
     },
     {
       "id": "345",
-      "sku": "ANC AP-55-00",
+      "sku": "ANC AP-55-01",
       "name": "ANCORE PRO (55 LB) — PORTABLE CABLE TRAINER",
       "brand": "ANCORE",
       "category": "Strength Equipment",
@@ -10978,7 +10978,7 @@
     },
     {
       "id": "700",
-      "sku": "BOOST-2-CORE",
+      "sku": "BOOST 2 CORE",
       "name": "BOOST 2 Core Microgravity Treadmill",
       "brand": "BOOST Treadmills",
       "category": "BOOST Treadmills",
@@ -11669,7 +11669,7 @@
     },
     {
       "id": "944",
-      "sku": "U-GMTS 1020",
+      "sku": "U-GMTS 1020-30",
       "name": "Pre-Owned GMTS Wood Treatment Table with Adjustable Backrest",
       "brand": "GM Therapy Solutions",
       "category": "Rehab Furniture",
