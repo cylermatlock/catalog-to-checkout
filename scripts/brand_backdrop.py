@@ -306,6 +306,8 @@ _CURRENT_NAME = {"name": ""}
 
 # Source-pixel polygons of background clutter to always remove.
 ERASE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
+    # other machine seat back visible behind the console
+    "U-NS-T4.jpg": [[(798,120),(876,74),(1070,84),(1062,228),(1032,222),(1008,288),(900,306),(888,444),(840,456),(810,408)]],
     "U-GMTS-3HL.jpg": [[(0, 0), (481, 0), (481, 192), (440, 184), (345, 184),
                         (332, 197), (240, 206), (226, 232), (30, 268), (0, 276)]],
     "U-PB-7FT.jpg": [[(230, 525), (440, 618), (440, 760), (280, 790), (260, 700)],
