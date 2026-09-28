@@ -290,6 +290,8 @@ def cutout(raw: Image.Image) -> Image.Image:
 
 # Per-image polygons (in source-pixel coordinates) that are always foreground.
 # Used when every model drops a real part, e.g. a low carpeted platform base.
+SIZE_BOOST = {"U-GMTS-3HL.jpg": 3.0, "U-TG-5200-E2.png": 3.0}
+
 FORCE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
     "U-CLIN-7360.png": [[(243, 800), (770, 708), (1104, 1042), (1102, 1078), (468, 1308), (440, 1262), (243, 838)]],
 }
@@ -324,9 +326,10 @@ def process(path: Path) -> bool:
 
     # Catalog framing: large but with natural negative space; scale follows the
     # piece's own shape rather than forcing a uniform footprint.
-    max_w = int(W * 0.74)
+    boost = SIZE_BOOST.get(_CURRENT_NAME["name"])
+    max_w = int(W * (0.90 if boost else 0.74))
     max_h = FLOOR_CONTACT_Y - TOP_SAFE + 1
-    ratio = min(max_w / cut.width, max_h / cut.height, 1.18)
+    ratio = min(max_w / cut.width, max_h / cut.height, boost or 1.18)
     new = cut.resize((max(1, int(cut.width * ratio)), max(1, int(cut.height * ratio))),
                      Image.LANCZOS)
     new = trim_to_visible(new)  # resampling can add transparent padding
