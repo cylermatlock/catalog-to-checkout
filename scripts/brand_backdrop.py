@@ -292,10 +292,10 @@ def cutout(raw: Image.Image) -> Image.Image:
 
 # Per-image polygons (in source-pixel coordinates) that are always foreground.
 # Used when every model drops a real part, e.g. a low carpeted platform base.
-SIZE_BOOST = {"U-GMTS-3HL.jpg": 2.2, "U-TG-5200-E2.png": 3.0}
+SIZE_BOOST = {"U-GMTS-3HL.jpg": 2.2, "U-TG-5200-E2.png": 3.0, "U-AM-BA350.png": 1.8, "U-MS-32060.jpg": 1.8, "wood-treatment-table-adjustable-backrest.png": 2.2}
 
 # Images where the blobby u2net model swallows background (indexes into _sessions).
-MODEL_ONLY: dict[str, list[int]] = {"U-NS-T4R.jpeg": [0], "U-SCI-SONE03.png": [0], "U-SCI-PRO1.png": [0]}
+MODEL_ONLY: dict[str, list[int]] = {"U-NS-T4R.jpeg": [0], "U-SCI-SONE03.png": [0], "U-SCI-PRO1.png": [0], "U-NS-T5R.jpg": [0], "U-PB-7FT.jpg": [0], "U-MS-32060.jpg": [0]}
 
 FORCE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
     "U-CLIN-7360.png": [[(243, 800), (770, 708), (1104, 1042), (1102, 1078), (468, 1308), (440, 1262), (243, 838)]],
@@ -307,6 +307,8 @@ _CURRENT_NAME = {"name": ""}
 ERASE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
     "U-GMTS-3HL.jpg": [[(0, 0), (481, 0), (481, 192), (440, 184), (345, 184),
                         (332, 197), (240, 206), (226, 232), (30, 268), (0, 276)]],
+    "rolling-work-table.jpg": [[(0, 340), (190, 340), (190, 650), (140, 655), (20, 735), (0, 740)],
+                               [(0, 790), (300, 815), (310, 1010), (0, 1010)]],
 }
 
 
