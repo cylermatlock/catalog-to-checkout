@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T19:00:42.858Z",
+  "generatedAt": "2026-09-28T19:11:45.926Z",
   "products": [
     {
       "id": "1",
@@ -11416,25 +11416,6 @@
       "description": [
         "Pre-owned",
         "NuStep T5R recumbent cross trainer",
-        "Call or Add to Quote Request for pricing and availability"
-      ]
-    },
-    {
-      "id": "924",
-      "sku": "U-PB 10FT",
-      "name": "Pre-owned 10 ft Platform-Mounted Parallel Bars",
-      "brand": "GM Therapy Solutions",
-      "category": "Rehab Furniture",
-      "subcategory": "Parallel Bars",
-      "condition": "pre-owned",
-      "image": "/assets/products/used/U-PB-10FT.png",
-      "images": [
-        "/assets/products/used/U-PB-10FT.png"
-      ],
-      "description": [
-        "Pre-owned",
-        "10 ft platform-mounted parallel bars",
-        "Manual height & width adjustment",
         "Call or Add to Quote Request for pricing and availability"
       ]
     },
