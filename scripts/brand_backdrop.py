@@ -308,7 +308,13 @@ _CURRENT_NAME = {"name": ""}
 ERASE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
     "U-GMTS-3HL.jpg": [[(0, 0), (481, 0), (481, 192), (440, 184), (345, 184),
                         (332, 197), (240, 206), (226, 232), (30, 268), (0, 276)]],
-    "U-PB-7FT.jpg": [[(230, 525), (440, 618), (440, 760), (280, 790), (260, 700)]],
+    "U-PB-7FT.jpg": [[(230, 525), (440, 618), (440, 760), (280, 790), (260, 700)],
+                     # stool edge rod / top strip directly beneath the front rail
+                     [(183, 495), (375, 583), (375, 610), (183, 540)],
+                     # stool leg and caster behind the front-left upright
+                     [(239, 535), (262, 540), (222, 713), (201, 713)],
+                     # dark sliver above the rail's left end cap
+                     [(75, 380), (135, 380), (135, 443), (75, 425)]],
     "rolling-work-table.jpg": [[(0, 340), (300, 340), (300, 640), (250, 651), (30, 744), (0, 747)],
                                [(0, 767), (300, 802), (310, 1010), (0, 1010)]],
 }
