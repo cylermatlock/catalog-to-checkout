@@ -45,7 +45,6 @@ export const productImages: Record<string, string> = {
   // Modalities - Hydrocollator
   "28": productAsset("richmar-hydratherm-web.jpg"),
   "29": productAsset("chattanooga-m2-hydrocollator.jpg"),
-  "30": productAsset("chattanooga-m4-hydrocollator.png"),
   // Modalities - E-Stim/Ultrasound (Richmar images from richmarweb.com)
   "31": productAsset("richmar-theratouch-ex4.png"),
   "32": productAsset("richmar-cx4.jpg"),
