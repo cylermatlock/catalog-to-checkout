@@ -624,7 +624,6 @@ export const productImages: Record<string, string> = {
   "913": productAsset("used/U-GMTS-3HL.jpg"),
   "916": productAsset("used/U-GMTS-TX-TRACTION.jpg"),
   "919": productAsset("used/U-MS-32060.jpg"),
-  "915": productAsset("used/U-GMTS-MIRRORRACK.jpg"),
   "924": productAsset("used/U-PB-10FT.png"),
   "925": productAsset("used/U-PB-7FT.jpg"),
   "906": productAsset("used/U-CG-2788.jpg"),
