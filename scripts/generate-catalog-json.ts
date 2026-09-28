@@ -98,6 +98,15 @@ export function catalogJsonPlugin(): Plugin {
         const imageById: Record<string, string> = {};
         if (fs.existsSync(productsImagesPath)) {
           const imgSrc = fs.readFileSync(productsImagesPath, "utf8");
+          const importedAssetUrls: Record<string, string> = {};
+          for (const m of imgSrc.matchAll(
+            /import\s+(\w+)\s+from\s+["']([^"']+\.asset\.json)["']/g,
+          )) {
+            const pointerPath = path.resolve(path.dirname(productsImagesPath), m[2].replace(/^@\//, "../"));
+            if (!fs.existsSync(pointerPath)) continue;
+            const pointer = JSON.parse(fs.readFileSync(pointerPath, "utf8")) as { url?: string };
+            if (pointer.url) importedAssetUrls[m[1]] = pointer.url;
+          }
           for (const m of imgSrc.matchAll(
             /["'](\d+)["']\s*:\s*productAsset\(\s*["']([^"']+)["']\s*\)/g,
           )) {
@@ -106,6 +115,11 @@ export function catalogJsonPlugin(): Plugin {
           // plain string entries, e.g. "42": "/assets/products/x.png"
           for (const m of imgSrc.matchAll(/["'](\d+)["']\s*:\s*["'](\/[^"']+)["']/g)) {
             imageById[m[1]] = toPublicPath(m[2]);
+          }
+          // Imported Lovable Asset pointers, e.g. "822": fab002502.url
+          for (const m of imgSrc.matchAll(/["'](\d+)["']\s*:\s*(\w+)\.url/g)) {
+            const assetUrl = importedAssetUrls[m[2]];
+            if (assetUrl) imageById[m[1]] = toPublicPath(assetUrl);
           }
         }
 
