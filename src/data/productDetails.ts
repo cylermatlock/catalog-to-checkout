@@ -17007,7 +17007,7 @@ export const productDetails: Record<string, ProductDetail> = {
   },
   "825": {
     productId: "825", slug: "cando-latex-free-hand-exercise-web-yellow", tagline: "Latex-free, extra-light 14-inch exercise web for varied hand therapy movements.",
-    overview: ["The CanDo Hand Exercise Web supports a broad range of hand and wrist movements in a portable 14-inch format."],
+    overview: ["The CanDo Hand Exercise Web supports a broad range of hand and wrist movements in a portable 14-inch format. This version comes in Yellow, the extra-light resistance level."],
     highlights: ["14-inch diameter", "Yellow extra-light resistance", "Latex-free construction", "Supports flexion, extension, opposition and supination", "Portable for clinic or home programs"],
     gallery: [{ src: fab100871.url, alt: "Yellow CanDo 14-inch hand exercise web in use" }],
     specGroups: [{ title: "Product", rows: [{ label: "Diameter", value: "14 inches" }, { label: "Resistance", value: "Yellow / X-Light" }, { label: "Material", value: "Latex-free" }] }],
