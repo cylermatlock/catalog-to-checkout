@@ -295,7 +295,7 @@ def cutout(raw: Image.Image) -> Image.Image:
 SIZE_BOOST = {"U-GMTS-3HL.jpg": 2.2, "U-TG-5200-E2.png": 3.0}
 
 # Images where the blobby u2net model swallows background (indexes into _sessions).
-MODEL_ONLY: dict[str, list[int]] = {"U-NS-T4R.jpeg": [0], "U-SCI-SONE03.png": [0]}
+MODEL_ONLY: dict[str, list[int]] = {"U-NS-T4R.jpeg": [0], "U-SCI-SONE03.png": [0], "U-SCI-PRO1.png": [0]}
 
 FORCE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
     "U-CLIN-7360.png": [[(243, 800), (770, 708), (1104, 1042), (1102, 1078), (468, 1308), (440, 1262), (243, 838)]],
