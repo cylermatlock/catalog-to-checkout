@@ -312,9 +312,11 @@ ERASE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
                      # stool edge rod / top strip directly beneath the front rail
                      [(183, 495), (375, 583), (375, 610), (183, 540)],
                      # stool leg and caster behind the front-left upright
-                     [(239, 535), (262, 540), (222, 713), (201, 713)],
+                     [(222, 535), (265, 535), (228, 720), (201, 720), (200, 700)],
                      # dark sliver above the rail's left end cap
-                     [(75, 380), (135, 380), (135, 443), (75, 425)]],
+                     [(75, 380), (135, 380), (135, 443), (75, 425)],
+                     # stool top visible just above the front rail (stays below rear rail)
+                     [(130, 380), (385, 380), (385, 410), (450, 432), (450, 585), (130, 447)]],
     "rolling-work-table.jpg": [[(0, 340), (300, 340), (300, 640), (250, 651), (30, 744), (0, 747)],
                                [(0, 767), (300, 802), (310, 1010), (0, 1010)]],
 }
