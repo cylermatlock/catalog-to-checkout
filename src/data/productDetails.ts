@@ -1,6 +1,15 @@
 // Extended product detail content. Keyed by product.id from products.ts
 // Only products with an entry here get a "View Details" page.
 
+import fab002502 from "@/assets/products/fab/00-2502.jpg.asset.json";
+import fab048038 from "@/assets/products/fab/04-8038.jpg.asset.json";
+import fab100746 from "@/assets/products/fab/10-0746.jpg.asset.json";
+import fab100871 from "@/assets/products/fab/10-0871_inuse.jpg.asset.json";
+import fab101483 from "@/assets/products/fab/10-1483.jpg.asset.json";
+import fab101484 from "@/assets/products/fab/10-1484.jpg.asset.json";
+import fab101615 from "@/assets/products/fab/10-1615.jpg.asset.json";
+import fab101617 from "@/assets/products/fab/10-1617.jpg.asset.json";
+
 const STORAGE_BASE =
   "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery";
 
@@ -16967,6 +16976,79 @@ export const productDetails: Record<string, ProductDetail> = {
       description:
         "GMTS RRB 1414R steel-reinforced floor-to-knuckle lifting box. 14\" cube, 200 lb capacity, WORKSteps approved for work hardening and FCE testing.",
     },
+  },
+
+  "822": {
+    productId: "822", slug: "hydrocollator-m4-mobile-heating-unit", tagline: "Large-capacity mobile Hydrocollator heating unit supplied with 24 standard moist heat packs.",
+    overview: ["The Hydrocollator M-4 is a stainless steel mobile heating unit designed to keep moist heat packs ready for treatment in busy clinical departments."],
+    highlights: ["Includes 24 standard-size Hydrocollator moist heat packs", "Thermostatically controlled water bath", "Maintains a consistent therapeutic temperature", "3-inch swivel rubber casters for quiet mobility"],
+    gallery: [{ src: fab002502.url, alt: "Hydrocollator M-4 mobile heating unit" }],
+    specGroups: [{ title: "Configuration", rows: [{ label: "Model", value: "M-4" }, { label: "Included packs", value: "24 standard moist heat packs" }, { label: "Construction", value: "Stainless steel" }] }],
+    sourceUrl: "https://www.fab-ent.com/hot-cold-therapy/hot-packs-therapy/hydrocollator-heating-units/",
+    seo: { title: "Hydrocollator M-4 Heating Unit | GM Therapy", description: "Mobile Hydrocollator M-4 heating unit with 24 standard moist heat packs. Call or add to a quote request." },
+  },
+  "823": {
+    productId: "823", slug: "saunders-cervical-traction-clevis", tagline: "Clevis-only accessory for connecting Saunders cervical traction to post-2006 TX and Triton units.",
+    overview: ["This replacement clevis is made for Saunders cervical traction systems used with Chattanooga TX and Triton traction units manufactured after 2006."],
+    highlights: ["Clevis only", "For post-2006 TX and Triton traction units", "Supports horizontal cervical traction", "6\" x 1.5\" x 6\"", "2 lb product weight"],
+    gallery: [{ src: fab048038.url, alt: "Saunders cervical traction clevis for TX and Triton units" }],
+    specGroups: [{ title: "Compatibility", rows: [{ label: "Compatible units", value: "TX / Triton, post-2006" }, { label: "Dimensions", value: "6\" x 1.5\" x 6\"" }, { label: "Weight", value: "2 lbs" }] }],
+    sourceUrl: "https://www.fab-ent.com/treatment-furniture/traction-tables-units/",
+    seo: { title: "Saunders Cervical Traction Clevis | GM Therapy", description: "Clevis-only accessory for post-2006 Chattanooga TX and Triton cervical traction units." },
+  },
+  "824": {
+    productId: "824", slug: "cando-digi-flex-five-piece-set", tagline: "Five progressive Digi-Flex hand exercisers with a convenient plastic display and storage rack.",
+    overview: ["The five-piece CanDo Digi-Flex set provides progressive, color-coded resistance for isolated finger work and full-hand compression exercises."],
+    highlights: ["Five resistance levels: yellow, red, green, blue and black", "Individual spring-loaded finger buttons", "Builds strength, flexibility and coordination", "Full-unit compression exercises the hand and forearm", "Plastic rack included"],
+    gallery: [{ src: fab100746.url, alt: "CanDo Digi-Flex five-piece hand exerciser set with rack" }],
+    specGroups: [{ title: "Set Contents", rows: [{ label: "Quantity", value: "5 exercisers" }, { label: "Resistance range", value: "X-Light through X-Heavy" }, { label: "Storage", value: "Plastic rack included" }] }],
+    sourceUrl: "https://www.fab-ent.com/exercise/hand-flexion/cando-digi-flex-hand-exercisers/",
+    seo: { title: "CanDo Digi-Flex 5-Piece Set | GM Therapy", description: "CanDo Digi-Flex five-piece hand exerciser set with progressive resistance and plastic rack." },
+  },
+  "825": {
+    productId: "825", slug: "cando-latex-free-hand-exercise-web-yellow", tagline: "Latex-free, extra-light 14-inch exercise web for varied hand therapy movements.",
+    overview: ["The CanDo Hand Exercise Web supports a broad range of hand and wrist movements in a portable 14-inch format."],
+    highlights: ["14-inch diameter", "Yellow extra-light resistance", "Latex-free construction", "Supports flexion, extension, opposition and supination", "Portable for clinic or home programs"],
+    gallery: [{ src: fab100871.url, alt: "Yellow CanDo 14-inch hand exercise web in use" }],
+    specGroups: [{ title: "Product", rows: [{ label: "Diameter", value: "14 inches" }, { label: "Resistance", value: "Yellow / X-Light" }, { label: "Material", value: "Latex-free" }] }],
+    sourceUrl: "https://www.fab-ent.com/exercise/hand-extension/cando-web-hand-exercisers/",
+    seo: { title: "CanDo Latex-Free Hand Exercise Web | GM Therapy", description: "Yellow extra-light, latex-free CanDo hand exercise web in a 14-inch diameter." },
+  },
+  "826": {
+    productId: "826", slug: "cando-theraputty-six-ounce-set", tagline: "Six 6-ounce containers of Theraputty in progressive resistance levels from tan through black.",
+    overview: ["This six-piece CanDo Theraputty set gives clinics a progressive range of reusable hand exercise material for strengthening and fine-motor activities."],
+    highlights: ["Six 6-ounce containers", "Tan, yellow, red, green, blue and black", "Progressive resistance from XX-Soft through X-Firm", "Latex-free material", "Reusable material does not dry out"],
+    gallery: [{ src: fab101483.url, alt: "CanDo Theraputty six-ounce six-piece set" }],
+    specGroups: [{ title: "Set Contents", rows: [{ label: "Quantity", value: "6 containers" }, { label: "Size", value: "6 oz each" }, { label: "Resistance range", value: "XX-Soft through X-Firm" }] }],
+    sourceUrl: "https://www.fab-ent.com/exercise/exercise-putty/theraputty-standard-exercise-putty/",
+    seo: { title: "CanDo Theraputty 6 oz 6-Piece Set | GM Therapy", description: "Six-piece CanDo Theraputty set with 6-ounce containers in progressive resistance levels." },
+  },
+  "827": {
+    productId: "827", slug: "cando-theraputty-one-pound-set", tagline: "Six 1-pound containers of Theraputty for high-volume clinic and hospital hand therapy programs.",
+    overview: ["This clinic-size CanDo Theraputty set includes six one-pound containers covering the complete progressive resistance range."],
+    highlights: ["Six 1-pound containers", "Tan, yellow, red, green, blue and black", "Progressive resistance from XX-Soft through X-Firm", "Latex-free material", "Designed for hand and finger rehabilitation"],
+    gallery: [{ src: fab101484.url, alt: "CanDo Theraputty one-pound six-piece set" }],
+    specGroups: [{ title: "Set Contents", rows: [{ label: "Quantity", value: "6 containers" }, { label: "Size", value: "1 lb each" }, { label: "Resistance range", value: "XX-Soft through X-Firm" }] }],
+    sourceUrl: "https://www.fab-ent.com/exercise/exercise-putty/theraputty-standard-exercise-putty/",
+    seo: { title: "CanDo Theraputty 1 lb 6-Piece Set | GM Therapy", description: "Six-piece CanDo Theraputty clinic set with one-pound containers in progressive resistance levels." },
+  },
+  "828": {
+    productId: "828", slug: "cando-jumbo-wate-bar-15-pound", tagline: "Light blue 15-pound Jumbo WaTE Bar for progressive strength, endurance and range-of-motion exercise.",
+    overview: ["The foam-padded CanDo Jumbo WaTE Bar can be used in supine, seated or standing positions for therapy and fitness exercises."],
+    highlights: ["15 lb weighted exercise bar", "48-inch length", "2-inch diameter", "Comfortable foam-padded grip", "Light blue for quick weight identification"],
+    gallery: [{ src: fab101615.url, alt: "Light blue CanDo Jumbo WaTE Bar, 15 pounds" }],
+    specGroups: [{ title: "Product", rows: [{ label: "Weight", value: "15 lbs" }, { label: "Length", value: "48 inches" }, { label: "Diameter", value: "2 inches" }, { label: "Color", value: "Light blue" }] }],
+    sourceUrl: "https://www.fab-ent.com/exercise/weights/cando-weight-bars/",
+    seo: { title: "CanDo Jumbo WaTE Bar 15 lb | GM Therapy", description: "Light blue 15-pound CanDo Jumbo WaTE Bar for strength, endurance and range-of-motion exercise." },
+  },
+  "829": {
+    productId: "829", slug: "cando-jumbo-wate-bar-20-pound", tagline: "Black 20-pound Jumbo WaTE Bar with foam covering and anti-roll end caps.",
+    overview: ["The 20-pound CanDo Jumbo WaTE Bar provides a heavier resistance option for therapy, Pilates, aerobics and strength programs."],
+    highlights: ["20 lb weighted exercise bar", "48-inch length", "2-inch diameter", "Foam-covered steel construction", "Anti-roll end caps"],
+    gallery: [{ src: fab101617.url, alt: "Black CanDo Jumbo WaTE Bar, 20 pounds" }],
+    specGroups: [{ title: "Product", rows: [{ label: "Weight", value: "20 lbs" }, { label: "Length", value: "48 inches" }, { label: "Diameter", value: "2 inches" }, { label: "Color", value: "Black" }] }],
+    sourceUrl: "https://www.fab-ent.com/exercise/weights/cando-weight-bars/",
+    seo: { title: "CanDo Jumbo WaTE Bar 20 lb | GM Therapy", description: "Black 20-pound CanDo Jumbo WaTE Bar with foam covering and anti-roll end caps." },
   },
 
 };

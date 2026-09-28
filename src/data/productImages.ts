@@ -1,4 +1,13 @@
 
+import fab002502 from "@/assets/products/fab/00-2502.jpg.asset.json";
+import fab048038 from "@/assets/products/fab/04-8038.jpg.asset.json";
+import fab100746 from "@/assets/products/fab/10-0746.jpg.asset.json";
+import fab100871 from "@/assets/products/fab/10-0871_inuse.jpg.asset.json";
+import fab101483 from "@/assets/products/fab/10-1483.jpg.asset.json";
+import fab101484 from "@/assets/products/fab/10-1484.jpg.asset.json";
+import fab101615 from "@/assets/products/fab/10-1615.jpg.asset.json";
+import fab101617 from "@/assets/products/fab/10-1617.jpg.asset.json";
+
 // Product image URLs are served from /public instead of eager-imported modules.
 // This keeps the catalog rendering even if a preview proxy misses an image file.
 const productAsset = (path: string) => `/assets/products/${path}`;
@@ -606,6 +615,14 @@ export const productImages: Record<string, string> = {
   "816": productAsset("fab/10-1515.png"),
   "817": productAsset("fab/10-1516.png"),
   "818": productAsset("fab/10-0876.png"),
+  "822": fab002502.url,
+  "823": fab048038.url,
+  "824": fab100746.url,
+  "825": fab100871.url,
+  "826": fab101483.url,
+  "827": fab101484.url,
+  "828": fab101615.url,
+  "829": fab101617.url,
 
   // ===== PRE-OWNED / USED EQUIPMENT (extracted from spreadsheet) =====
   "901": productAsset("used/U-AM-BA350.png"),
