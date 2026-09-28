@@ -290,7 +290,7 @@ def cutout(raw: Image.Image) -> Image.Image:
 
 # Per-image polygons (in source-pixel coordinates) that are always foreground.
 # Used when every model drops a real part, e.g. a low carpeted platform base.
-SIZE_BOOST = {"U-GMTS-3HL.jpg": 3.0, "U-TG-5200-E2.png": 3.0}
+SIZE_BOOST = {"U-GMTS-3HL.jpg": 2.2, "U-TG-5200-E2.png": 3.0}
 
 FORCE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
     "U-CLIN-7360.png": [[(243, 800), (770, 708), (1104, 1042), (1102, 1078), (468, 1308), (440, 1262), (243, 838)]],
@@ -298,16 +298,31 @@ FORCE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
 _CURRENT_NAME = {"name": ""}
 
 
+# Source-pixel polygons of background clutter to always remove.
+ERASE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
+    "U-GMTS-3HL.jpg": [[(0, 0), (481, 0), (481, 192), (440, 184), (345, 184),
+                        (332, 197), (240, 206), (226, 232), (30, 268), (0, 276)]],
+}
+
+
 def _apply_force_regions(raw: Image.Image, union: np.ndarray) -> np.ndarray:
     polys = FORCE_REGIONS.get(_CURRENT_NAME["name"])
-    if not polys:
-        return union
-    m = Image.new("L", raw.size, 0)
-    d = ImageDraw.Draw(m)
-    for p in polys:
-        d.polygon(p, fill=255)
-    m = m.filter(ImageFilter.GaussianBlur(1.0))
-    return np.maximum(union, np.asarray(m).astype(union.dtype))
+    if polys:
+        m = Image.new("L", raw.size, 0)
+        d = ImageDraw.Draw(m)
+        for p in polys:
+            d.polygon(p, fill=255)
+        m = m.filter(ImageFilter.GaussianBlur(1.0))
+        union = np.maximum(union, np.asarray(m).astype(union.dtype))
+    erase = ERASE_REGIONS.get(_CURRENT_NAME["name"])
+    if erase:
+        m = Image.new("L", raw.size, 0)
+        d = ImageDraw.Draw(m)
+        for p in erase:
+            d.polygon(p, fill=255)
+        keep = 1.0 - np.asarray(m).astype(np.float32) / 255.0
+        union = (union.astype(np.float32) * keep).astype(union.dtype)
+    return union
 
 
 def process(path: Path) -> bool:
@@ -327,7 +342,7 @@ def process(path: Path) -> bool:
     # Catalog framing: large but with natural negative space; scale follows the
     # piece's own shape rather than forcing a uniform footprint.
     boost = SIZE_BOOST.get(_CURRENT_NAME["name"])
-    max_w = int(W * (0.90 if boost else 0.74))
+    max_w = int(W * (0.84 if boost else 0.74))
     max_h = FLOOR_CONTACT_Y - TOP_SAFE + 1
     ratio = min(max_w / cut.width, max_h / cut.height, boost or 1.18)
     new = cut.resize((max(1, int(cut.width * ratio)), max(1, int(cut.height * ratio))),
