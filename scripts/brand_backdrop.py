@@ -292,7 +292,7 @@ def cutout(raw: Image.Image) -> Image.Image:
 
 # Per-image polygons (in source-pixel coordinates) that are always foreground.
 # Used when every model drops a real part, e.g. a low carpeted platform base.
-SIZE_BOOST = {"U-GMTS-3HL.jpg": 2.2, "U-TG-5200-E2.png": 3.0, "U-AM-BA350.png": 1.8, "U-MS-32060.jpg": 1.8, "wood-treatment-table-adjustable-backrest.png": 2.2}
+SIZE_BOOST = {"U-GMTS-3HL.jpg": 2.2, "U-TG-5200-E2.png": 3.0, "U-AM-BA350.png": 1.8, "U-MS-32060.jpg": 1.8, "wood-treatment-table-adjustable-backrest.png": 2.2, "U-MS-TRACTION-FLEXION.png": 2.6}
 
 # Images where the blobby u2net model swallows background (indexes into _sessions).
 MODEL_ONLY: dict[str, list[int]] = {"U-NS-T4R.jpeg": [0], "U-SCI-SONE03.png": [0], "U-SCI-PRO1.png": [0], "U-NS-T5R.jpg": [0], "U-PB-7FT.jpg": [0], "U-MS-32060.jpg": [0]}
