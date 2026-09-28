@@ -290,7 +290,7 @@ def cutout(raw: Image.Image) -> Image.Image:
 
 # Per-image polygons (in source-pixel coordinates) that are always foreground.
 # Used when every model drops a real part, e.g. a low carpeted platform base.
-SIZE_BOOST = {"U-GMTS-3HL.jpg": 3.0, "U-TG-5200-E2.png": 3.0}
+SIZE_BOOST = {"U-GMTS-3HL.jpg": 2.2, "U-TG-5200-E2.png": 3.0}
 
 FORCE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
     "U-CLIN-7360.png": [[(243, 800), (770, 708), (1104, 1042), (1102, 1078), (468, 1308), (440, 1262), (243, 838)]],
@@ -301,7 +301,7 @@ _CURRENT_NAME = {"name": ""}
 # Source-pixel polygons of background clutter to always remove.
 ERASE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
     "U-GMTS-3HL.jpg": [[(0, 0), (481, 0), (481, 192), (440, 184), (345, 184),
-                        (332, 197), (240, 202), (226, 226), (20, 260), (0, 272)]],
+                        (332, 197), (240, 206), (226, 232), (30, 268), (22, 285), (22, 470), (0, 470)]],
 }
 
 
@@ -342,7 +342,7 @@ def process(path: Path) -> bool:
     # Catalog framing: large but with natural negative space; scale follows the
     # piece's own shape rather than forcing a uniform footprint.
     boost = SIZE_BOOST.get(_CURRENT_NAME["name"])
-    max_w = int(W * (0.90 if boost else 0.74))
+    max_w = int(W * (0.84 if boost else 0.74))
     max_h = FLOOR_CONTACT_Y - TOP_SAFE + 1
     ratio = min(max_w / cut.width, max_h / cut.height, boost or 1.18)
     new = cut.resize((max(1, int(cut.width * ratio)), max(1, int(cut.height * ratio))),
