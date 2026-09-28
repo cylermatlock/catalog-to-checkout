@@ -238,7 +238,9 @@ def cutout(raw: Image.Image) -> Image.Image:
     stray blob that is not attached to the main subject is discarded.
     """
     masks = []
-    for session in _sessions:
+    only = MODEL_ONLY.get(_CURRENT_NAME["name"])
+    sessions = [_sessions[i] for i in only] if only else _sessions
+    for session in sessions:
         m = remove(raw, session=session, only_mask=True, post_process_mask=False)
         masks.append(np.asarray(m.convert("L")).astype(np.float32))
     union = np.max(np.stack(masks), axis=0)
@@ -291,6 +293,9 @@ def cutout(raw: Image.Image) -> Image.Image:
 # Per-image polygons (in source-pixel coordinates) that are always foreground.
 # Used when every model drops a real part, e.g. a low carpeted platform base.
 SIZE_BOOST = {"U-GMTS-3HL.jpg": 2.2, "U-TG-5200-E2.png": 3.0}
+
+# Images where the blobby u2net model swallows background (indexes into _sessions).
+MODEL_ONLY: dict[str, list[int]] = {"U-NS-T4R.jpeg": [0]}
 
 FORCE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
     "U-CLIN-7360.png": [[(243, 800), (770, 708), (1104, 1042), (1102, 1078), (468, 1308), (440, 1262), (243, 838)]],
