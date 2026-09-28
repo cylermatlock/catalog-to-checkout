@@ -301,7 +301,7 @@ _CURRENT_NAME = {"name": ""}
 # Source-pixel polygons of background clutter to always remove.
 ERASE_REGIONS: dict[str, list[list[tuple[int, int]]]] = {
     "U-GMTS-3HL.jpg": [[(0, 0), (481, 0), (481, 192), (440, 184), (345, 184),
-                        (332, 197), (240, 206), (226, 232), (30, 268), (22, 285), (22, 470), (0, 470)]],
+                        (332, 197), (240, 206), (226, 232), (30, 268), (0, 276)]],
 }
 
 
