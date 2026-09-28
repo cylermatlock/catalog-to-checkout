@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T21:10:01.450Z",
+  "generatedAt": "2026-09-28T21:11:09.876Z",
   "products": [
     {
       "id": "1",
@@ -1937,8 +1937,10 @@
       "category": "Modalities",
       "subcategory": "Hydrocollator",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/__l5e/assets-v1/a9a0d6c4-3b92-4f84-a111-988514a521e9/00-2502.jpg",
+      "images": [
+        "/__l5e/assets-v1/a9a0d6c4-3b92-4f84-a111-988514a521e9/00-2502.jpg"
+      ],
       "description": [
         "Large-capacity stainless steel heating unit for busy clinical departments",
         "Includes 24 standard-size Hydrocollator moist heat packs",
@@ -1954,8 +1956,10 @@
       "category": "Rehab Furniture",
       "subcategory": "Traction Tables",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/__l5e/assets-v1/d1135608-6e90-459a-a8b0-c095a3a11fda/04-8038.jpg",
+      "images": [
+        "/__l5e/assets-v1/d1135608-6e90-459a-a8b0-c095a3a11fda/04-8038.jpg"
+      ],
       "description": [
         "Clevis-only accessory for Saunders cervical traction",
         "For use with Chattanooga TX and Triton traction units manufactured after 2006",
@@ -2061,8 +2065,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Hand Exercisers",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/__l5e/assets-v1/dd9da3ca-7bb4-4b4f-becf-497ec47da513/10-0746.jpg",
+      "images": [
+        "/__l5e/assets-v1/dd9da3ca-7bb4-4b4f-becf-497ec47da513/10-0746.jpg"
+      ],
       "description": [
         "Five color-coded resistance levels: yellow, red, green, blue and black",
         "Individual spring-loaded buttons isolate each finger",
@@ -2079,8 +2085,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Hand Exercisers",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/__l5e/assets-v1/46c77745-4b25-4c97-902e-66f55511b078/10-0871_inuse.jpg",
+      "images": [
+        "/__l5e/assets-v1/46c77745-4b25-4c97-902e-66f55511b078/10-0871_inuse.jpg"
+      ],
       "description": [
         "14-inch diameter hand exercise web",
         "Yellow extra-light resistance",
@@ -2097,8 +2105,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Hand Exercisers",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/__l5e/assets-v1/dfb61f81-33cc-42e5-862f-dabc3ceab9f1/10-1483.jpg",
+      "images": [
+        "/__l5e/assets-v1/dfb61f81-33cc-42e5-862f-dabc3ceab9f1/10-1483.jpg"
+      ],
       "description": [
         "Six 6-ounce containers in progressive resistance levels",
         "Includes tan, yellow, red, green, blue and black Theraputty",
@@ -2115,8 +2125,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Hand Exercisers",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/__l5e/assets-v1/529e9d26-39fc-4263-81e3-a5489ee169bb/10-1484.jpg",
+      "images": [
+        "/__l5e/assets-v1/529e9d26-39fc-4263-81e3-a5489ee169bb/10-1484.jpg"
+      ],
       "description": [
         "Six 1-pound containers for clinic or hospital use",
         "Includes tan, yellow, red, green, blue and black Theraputty",
@@ -2133,8 +2145,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Exercise Bars",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/__l5e/assets-v1/46e81776-159a-4448-a0f1-b868197b5d0b/10-1615.jpg",
+      "images": [
+        "/__l5e/assets-v1/46e81776-159a-4448-a0f1-b868197b5d0b/10-1615.jpg"
+      ],
       "description": [
         "15-pound weighted exercise bar",
         "48-inch length with 2-inch diameter",
@@ -2151,8 +2165,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Exercise Bars",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/__l5e/assets-v1/ec333cca-40b9-4363-92ed-9f98012fa846/10-1617.jpg",
+      "images": [
+        "/__l5e/assets-v1/ec333cca-40b9-4363-92ed-9f98012fa846/10-1617.jpg"
+      ],
       "description": [
         "20-pound weighted exercise bar",
         "48-inch length with 2-inch diameter",
