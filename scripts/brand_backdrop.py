@@ -324,9 +324,10 @@ def process(path: Path) -> bool:
 
     # Catalog framing: large but with natural negative space; scale follows the
     # piece's own shape rather than forcing a uniform footprint.
-    max_w = int(W * 0.74)
+    boost = SIZE_BOOST.get(_CURRENT_NAME["name"])
+    max_w = int(W * (0.90 if boost else 0.74))
     max_h = FLOOR_CONTACT_Y - TOP_SAFE + 1
-    ratio = min(max_w / cut.width, max_h / cut.height, 1.18)
+    ratio = min(max_w / cut.width, max_h / cut.height, boost or 1.18)
     new = cut.resize((max(1, int(cut.width * ratio)), max(1, int(cut.height * ratio))),
                      Image.LANCZOS)
     new = trim_to_visible(new)  # resampling can add transparent padding
