@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T19:29:56.679Z",
+  "generatedAt": "2026-09-28T20:02:38.130Z",
   "products": [
     {
       "id": "1",
@@ -11229,7 +11229,7 @@
     {
       "id": "906",
       "sku": "U-CG 2788",
-      "name": "Pre-owned Chattanooga Intelect Legend XT 4-Ch E-Stim w/ Ultrasound",
+      "name": "Pre-owned DEMO UNIT Chattanooga Intelect Legend XT 4-Ch E-Stim w/ Ultrasound",
       "brand": "Chattanooga",
       "category": "Modalities",
       "subcategory": "E-Stim/Ultrasound",
@@ -11239,7 +11239,7 @@
         "/assets/products/used/U-CG-2788.jpg"
       ],
       "description": [
-        "Pre-owned",
+        "Pre-owned — DEMO UNIT",
         "Chattanooga Intelect Legend XT",
         "4 channels of electrical stim",
         "Includes ultrasound",
@@ -11249,7 +11249,7 @@
     {
       "id": "908",
       "sku": "U-CG 4759",
-      "name": "Pre-Owned Chattanooga TX Traction",
+      "name": "Pre-owned DEMO UNIT Chattanooga TX Traction",
       "brand": "Chattanooga",
       "category": "Modalities",
       "subcategory": "Traction",
@@ -11259,7 +11259,7 @@
         "/assets/products/used/U-CG-4759.jpg"
       ],
       "description": [
-        "Pre-owned",
+        "Pre-owned — DEMO UNIT",
         "Chattanooga TX Traction unit",
         "Cervical & lumbar traction capable",
         "Call or Add to Quote Request for pricing and availability"
@@ -11268,7 +11268,7 @@
     {
       "id": "909",
       "sku": "U-CG 6000",
-      "name": "Pre-owned Chattanooga Vectra NEO 2-Ch E-Stim w/ Ultrasound (Cart Included)",
+      "name": "Pre-owned DEMO UNIT Chattanooga Vectra NEO 2-Ch E-Stim w/ Ultrasound (Cart Included)",
       "brand": "Chattanooga",
       "category": "Modalities",
       "subcategory": "E-Stim/Ultrasound",
@@ -11278,7 +11278,7 @@
         "/assets/products/used/U-CG-6000.jpeg"
       ],
       "description": [
-        "Pre-owned",
+        "Pre-owned — DEMO UNIT",
         "Chattanooga Vectra NEO",
         "2-channel e-stim w/ ultrasound",
         "Cart INCLUDED",
@@ -11331,8 +11331,10 @@
       "category": "Rehab Furniture",
       "subcategory": "Traction Tables",
       "condition": "pre-owned",
-      "image": null,
-      "images": [],
+      "image": "/assets/products/used/U-MS-TRACTION-FLEXION.png",
+      "images": [
+        "/assets/products/used/U-MS-TRACTION-FLEXION.png"
+      ],
       "description": [
         "Pre-owned",
         "Medsurface 4-section traction table",
@@ -11458,7 +11460,7 @@
     {
       "id": "927",
       "sku": "U-RICH DQ8200",
-      "name": "Pre-owned Richmar CX4 4-Ch E-Stim w/ Ultrasound (Cart Included)",
+      "name": "Pre-owned DEMO UNIT Richmar CX4 4-Ch E-Stim w/ Ultrasound (Cart Included)",
       "brand": "Richmar",
       "category": "Modalities",
       "subcategory": "E-Stim/Ultrasound",
@@ -11468,7 +11470,7 @@
         "/assets/products/used/U-RICH-DQ8200.jpg"
       ],
       "description": [
-        "Pre-owned",
+        "Pre-owned — DEMO UNIT",
         "Richmar CX4 combo unit",
         "4-channel e-stim w/ ultrasound",
         "Cart INCLUDED",
