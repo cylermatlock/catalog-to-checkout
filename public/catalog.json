@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T20:55:31.110Z",
+  "generatedAt": "2026-09-28T21:10:01.450Z",
   "products": [
     {
       "id": "1",
@@ -1930,6 +1930,41 @@
       ]
     },
     {
+      "id": "822",
+      "sku": "FAB 00-2502",
+      "name": "Hydrocollator Mobile Heating Unit - M-4 with 24 Standard Packs",
+      "brand": "Chattanooga",
+      "category": "Modalities",
+      "subcategory": "Hydrocollator",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Large-capacity stainless steel heating unit for busy clinical departments",
+        "Includes 24 standard-size Hydrocollator moist heat packs",
+        "Thermostatically controlled water bath maintains a consistent therapeutic temperature",
+        "3-inch swivel rubber casters provide quiet, easy mobility"
+      ]
+    },
+    {
+      "id": "823",
+      "sku": "FAB 04-8038",
+      "name": "Saunders Cervical Traction Clevis for TX/Triton Units",
+      "brand": "Chattanooga",
+      "category": "Rehab Furniture",
+      "subcategory": "Traction Tables",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Clevis-only accessory for Saunders cervical traction",
+        "For use with Chattanooga TX and Triton traction units manufactured after 2006",
+        "Supports horizontal cervical traction applications",
+        "Dimensions: 6\" x 1.5\" x 6\"",
+        "Weight: 2 lbs"
+      ]
+    },
+    {
       "id": "105",
       "sku": "FAB 10-0800",
       "name": "Finger Webs",
@@ -2016,6 +2051,114 @@
         "Support and positioning aids",
         "Multiple shapes and sizes",
         "Durable vinyl covering"
+      ]
+    },
+    {
+      "id": "824",
+      "sku": "FAB 10-0746",
+      "name": "CanDo Digi-Flex Hand Exerciser - 5-Piece Set with Plastic Rack",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Five color-coded resistance levels: yellow, red, green, blue and black",
+        "Individual spring-loaded buttons isolate each finger",
+        "Develops finger strength, flexibility and coordination",
+        "Compress the entire unit for a complete hand and forearm exercise",
+        "Includes a plastic display and storage rack"
+      ]
+    },
+    {
+      "id": "825",
+      "sku": "FAB 10-0871",
+      "name": "CanDo Hand Exercise Web - Latex Free - 14\" - Yellow - X-Light",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "14-inch diameter hand exercise web",
+        "Yellow extra-light resistance",
+        "Supports flexion, extension, opposition and supination exercises",
+        "Latex-free construction for latex-sensitive users",
+        "Portable format for clinic or home exercise programs"
+      ]
+    },
+    {
+      "id": "826",
+      "sku": "FAB 10-1483",
+      "name": "CanDo Theraputty Exercise Material - 6 oz - 6-Piece Set",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Six 6-ounce containers in progressive resistance levels",
+        "Includes tan, yellow, red, green, blue and black Theraputty",
+        "Latex-free exercise material",
+        "Supports hand strengthening and fine-motor exercises",
+        "Reusable material does not dry out"
+      ]
+    },
+    {
+      "id": "827",
+      "sku": "FAB 10-1484",
+      "name": "CanDo Theraputty Exercise Material - 1 lb - 6-Piece Set",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Hand Exercisers",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Six 1-pound containers for clinic or hospital use",
+        "Includes tan, yellow, red, green, blue and black Theraputty",
+        "Progressive resistance from XX-soft through X-firm",
+        "Latex-free and reusable exercise material",
+        "Supports hand and finger rehabilitation exercises"
+      ]
+    },
+    {
+      "id": "828",
+      "sku": "FAB 10-1615",
+      "name": "CanDo Jumbo WaTE Bar - Light Blue - 15 lb",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Exercise Bars",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "15-pound weighted exercise bar",
+        "48-inch length with 2-inch diameter",
+        "Foam-padded surface provides a comfortable grip",
+        "Use in supine, seated or standing exercises",
+        "Supports strength, endurance and range-of-motion training"
+      ]
+    },
+    {
+      "id": "829",
+      "sku": "FAB 10-1617",
+      "name": "CanDo Jumbo WaTE Bar - Black - 20 lb",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Exercise Bars",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "20-pound weighted exercise bar",
+        "48-inch length with 2-inch diameter",
+        "Foam-covered steel construction",
+        "Anti-roll end caps help keep the bar in place",
+        "Suitable for therapy, Pilates, aerobics and strength exercises"
       ]
     },
     {
