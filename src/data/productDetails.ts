@@ -12,6 +12,15 @@ import fab101617 from "@/assets/products/fab/10-1617.jpg.asset.json";
 import mfA52 from "@/assets/products/matrix/mf-mg-a52.jpg.asset.json";
 import mfSled from "@/assets/products/matrix/mf-mxsled-02.jpg.asset.json";
 import mfS76 from "@/assets/products/matrix/mf-g3-s76.jpg.asset.json";
+import cxEdge from "@/assets/products/matrix/connexus-edge.jpg.asset.json";
+import cxFunctionalTrainer from "@/assets/products/matrix/connexus-functional-trainer.jpg.asset.json";
+import cxHub from "@/assets/products/matrix/connexus-hub.jpg.asset.json";
+import cxCrest from "@/assets/products/matrix/connexus-crest.jpg.asset.json";
+import cxCompact from "@/assets/products/matrix/connexus-compact.jpg.asset.json";
+import cxColumn from "@/assets/products/matrix/connexus-column.jpg.asset.json";
+import cxStepPlus from "@/assets/products/matrix/connexus-step-plus.jpg.asset.json";
+import cxStorageStation from "@/assets/products/matrix/connexus-storage-station.jpg.asset.json";
+import cxStorageCart3Shelf from "@/assets/products/matrix/connexus-storage-cart-3-shelf.jpg.asset.json";
 
 const STORAGE_BASE =
   "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery";
@@ -17080,6 +17089,87 @@ export const productDetails: Record<string, ProductDetail> = {
     specGroups: [{ title: "Specifications", rows: [{ label: "Weight stack", value: "295 lbs" }, { label: "Total weight", value: "650 lbs" }, { label: "Dimensions (L x W x H)", value: "44 x 47.1 x 72.6 in" }, { label: "Belt", value: "Kevlar/urethane flat belt" }] }],
     sourceUrl: "https://us.matrixfitness.com/eng/strength/single-station/g3-s76-rotary-hip",
     seo: { title: "Matrix Aura Rotary Hip | GM Therapy", description: "Selectorized standing hip machine with 270 degrees of adjustable rotation." },
+  },
+  "833": {
+    productId: "833", slug: "matrix-connexus-edge", tagline: "Configurable functional training station with accessory storage and clearly defined stations.",
+    overview: ["Configurable functional training station with accessory storage and clearly defined stations. Part of the Matrix Connexus functional training series."],
+    highlights: ["Accessory storage with multiple attachment points", "Clearly defined, easy-to-start training stations", "Magnetic exercise placards for guidance", "Integrated smart device holder", "Configurable: stand-alone, multi-bay or back-to-back"],
+    gallery: [{ src: cxEdge.url, alt: "Matrix Connexus Edge" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Recommended training area", value: "23.7 x 12.6 ft" }, { label: "Dimensions (L x W x H)", value: "71 x 44 x 93.4 in" }, { label: "Product weight", value: "465 lbs" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/group-training/strength-flexibility/connexus-edge",
+    seo: { title: "Matrix Connexus Edge | GM Therapy", description: "Configurable functional training station with accessory storage and clearly defined stations." },
+  },
+  "834": {
+    productId: "834", slug: "matrix-connexus-functional-trainer", tagline: "Dual-stack cable trainer that configures with the Connexus Edge for heavy cable resistance.",
+    overview: ["Dual-stack cable trainer that configures with the Connexus Edge for heavy cable resistance. Part of the Matrix Connexus functional training series."],
+    highlights: ["Heavy cable resistance for coached or self-guided workouts", "Configures with Connexus Edge or additional trainers", "Integrated pull-up bar", "Accessory and smart device storage"],
+    gallery: [{ src: cxFunctionalTrainer.url, alt: "Matrix Connexus Functional Trainer" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Recommended training area", value: "13 x 13 ft" }, { label: "Dimensions (L x W x H)", value: "60 x 49 x 93.4 in" }, { label: "Product weight", value: "955 lbs" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/group-training/strength-flexibility/connexus-functional-trainer",
+    seo: { title: "Matrix Connexus Functional Trainer | GM Therapy", description: "Dual-stack cable trainer that configures with the Connexus Edge for heavy cable resistance." },
+  },
+  "835": {
+    productId: "835", slug: "matrix-connexus-hub", tagline: "Single adjustable pulley with centralized accessory storage for small spaces.",
+    overview: ["Single adjustable pulley with centralized accessory storage for small spaces. Part of the Matrix Connexus functional training series."],
+    highlights: ["Single adjustable cable pulley", "Centralized accessory storage", "Clearly defined training stations", "Exercise placards and device holder"],
+    gallery: [{ src: cxHub.url, alt: "Matrix Connexus Hub" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Recommended training area", value: "18.4 x 13 ft" }, { label: "Dimensions (L x W x H)", value: "66 x 49 x 93.4 in" }, { label: "Product weight", value: "678 lbs" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/group-training/strength-flexibility/connexus-hub",
+    seo: { title: "Matrix Connexus Hub | GM Therapy", description: "Single adjustable pulley with centralized accessory storage for small spaces." },
+  },
+  "836": {
+    productId: "836", slug: "matrix-connexus-crest", tagline: "Two adjustable pulleys and centralized accessory storage for complete functional training.",
+    overview: ["Two adjustable pulleys and centralized accessory storage for complete functional training. Part of the Matrix Connexus functional training series."],
+    highlights: ["Two adjustable cable pulleys", "Centralized accessory storage", "Clearly defined training stations", "Exercise placards and device holder"],
+    gallery: [{ src: cxCrest.url, alt: "Matrix Connexus Crest" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Recommended training area", value: "27.4 x 17.6 ft" }, { label: "Dimensions (L x W x H)", value: "115 x 56 x 93.4 in" }, { label: "Product weight", value: "1,093 lbs" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/group-training/strength-flexibility/connexus-crest",
+    seo: { title: "Matrix Connexus Crest | GM Therapy", description: "Two adjustable pulleys and centralized accessory storage for complete functional training." },
+  },
+  "837": {
+    productId: "837", slug: "matrix-connexus-compact", tagline: "Fully contained functional training unit for limited-space facilities.",
+    overview: ["Fully contained functional training unit for limited-space facilities. Part of the Matrix Connexus functional training series."],
+    highlights: ["Two height-adjustable training handles", "Hinged medicine ball target", "Integrated base anchors and landmine attachment", "Straight pull-up bar doubles as battle rope anchor"],
+    gallery: [{ src: cxCompact.url, alt: "Matrix Connexus Compact" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Recommended training area", value: "167 x 167 in" }, { label: "Dimensions (L x W x H)", value: "32.3 x 65 x 94.4 in" }, { label: "Product weight", value: "350 lbs" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/group-training/strength-flexibility/connexus-compact",
+    seo: { title: "Matrix Connexus Compact | GM Therapy", description: "Fully contained functional training unit for limited-space facilities." },
+  },
+  "838": {
+    productId: "838", slug: "matrix-connexus-column", tagline: "Wall-mounted functional training column for bands and suspension straps.",
+    overview: ["Wall-mounted functional training column for bands and suspension straps. Part of the Matrix Connexus functional training series."],
+    highlights: ["Height-adjustable training handle for bands and straps", "Holds multiple bands for quick transitions", "Integrated device storage", "Mounts to virtually any unused wall", "350 lb max user weight"],
+    gallery: [{ src: cxColumn.url, alt: "Matrix Connexus Column" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Dimensions (L x W x H)", value: "17.5 x 6.3 x 83.5 in" }, { label: "Product weight", value: "56.2 lbs" }, { label: "Max user weight", value: "350 lbs" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/group-training/strength-flexibility/connexus-column",
+    seo: { title: "Matrix Connexus Column | GM Therapy", description: "Wall-mounted functional training column for bands and suspension straps." },
+  },
+  "839": {
+    productId: "839", slug: "matrix-connexus-step-plus", tagline: "Reversible stability step for core, lower-body and cardio exercise.",
+    overview: ["Reversible stability step for core, lower-body and cardio exercise. Part of the Matrix Connexus functional training series."],
+    highlights: ["Standard and inverted configurations", "Integrated leg hand grips for push-ups and dips", "Reversible contoured platform for instability training", "Cast-aluminum legs", "300 lb max user weight"],
+    gallery: [{ src: cxStepPlus.url, alt: "Matrix Connexus Step+" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Dimensions (L x W)", value: "23.25 x 12 in" }, { label: "Product weight", value: "18.5 lbs" }, { label: "Max user weight", value: "300 lbs" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/group-training/strength-flexibility/connexus-step-plus",
+    seo: { title: "Matrix Connexus Step+ | GM Therapy", description: "Reversible stability step for core, lower-body and cardio exercise." },
+  },
+  "840": {
+    productId: "840", slug: "matrix-connexus-storage-station", tagline: "Stable storage station that keeps functional training accessories organized.",
+    overview: ["Stable storage station that keeps functional training accessories organized. Part of the Matrix Connexus functional training series."],
+    highlights: ["Two extra-large and two secondary shelves", "Angled pegs for hanging storage", "Directional placards", "Optional mat hanger", "800 lb max storage weight"],
+    gallery: [{ src: cxStorageStation.url, alt: "Matrix Connexus Storage Station" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Dimensions (L x W x H)", value: "33.5 x 55.1 x 72.9 in" }, { label: "Product weight", value: "352.7 lbs" }, { label: "Max storage weight", value: "800 lbs" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/group-training/strength-flexibility/connexus-storage-station",
+    seo: { title: "Matrix Connexus Storage Station | GM Therapy", description: "Stable storage station that keeps functional training accessories organized." },
+  },
+  "841": {
+    productId: "841", slug: "matrix-connexus-storage-cart-3-shelf", tagline: "Mobile 3-shelf cart for moving accessories between classes.",
+    overview: ["Mobile 3-shelf cart for moving accessories between classes. Part of the Matrix Connexus functional training series."],
+    highlights: ["Three shelves with rubber inserts", "Info dock for tablet or phone", "Dual-purpose handle for bands and ropes", "Heavy-duty casters", "750 lb max storage weight"],
+    gallery: [{ src: cxStorageCart3Shelf.url, alt: "Matrix Connexus 3-Shelf Storage Cart" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Dimensions (L x W x H)", value: "31.5 x 48 x 66 in" }, { label: "Product weight", value: "212 lbs" }, { label: "Max storage weight", value: "750 lbs" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/group-training/strength-flexibility/connexus-storage-cart-3-shelf",
+    seo: { title: "Matrix Connexus 3-Shelf Storage Cart | GM Therapy", description: "Mobile 3-shelf cart for moving accessories between classes." },
   },
 };
 
