@@ -9,6 +9,9 @@ import fab101483 from "@/assets/products/fab/10-1483.jpg.asset.json";
 import fab101484 from "@/assets/products/fab/10-1484.jpg.asset.json";
 import fab101615 from "@/assets/products/fab/10-1615.jpg.asset.json";
 import fab101617 from "@/assets/products/fab/10-1617.jpg.asset.json";
+import mfA52 from "@/assets/products/matrix/mf-mg-a52.jpg.asset.json";
+import mfSled from "@/assets/products/matrix/mf-mxsled-02.jpg.asset.json";
+import mfS76 from "@/assets/products/matrix/mf-g3-s76.jpg.asset.json";
 
 const STORAGE_BASE =
   "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery";
@@ -17051,6 +17054,33 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: { title: "CanDo Jumbo WaTE Bar 20 lb | GM Therapy", description: "Black 20-pound CanDo Jumbo WaTE Bar with foam covering and anti-roll end caps." },
   },
 
+  "830": {
+    productId: "830", slug: "matrix-magnum-back-extension-bench", tagline: "Commercial 45-degree back extension bench for lower back and core strengthening.",
+    overview: ["The Matrix Magnum Back Extension Bench is designed to improve abdominal, back and core strength, with large thigh pads and a skid-resistant foot platform for stability."],
+    highlights: ["Nine-position, 9.5 in. height adjustment", "Lower-leg pads on foot rests", "45-degree angle for easy entry", "Oversized frame tubing"],
+    gallery: [{ src: mfA52.url, alt: "Matrix Magnum Back Extension Bench" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Weight", value: "117 lbs" }, { label: "Dimensions (L x W x H)", value: "46.7 x 30 x 38.3 in" }, { label: "Frame finish", value: "Two-coat powder process" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/strength/free-weights/mg-a52-back-extension-bench",
+    seo: { title: "Matrix Magnum Back Extension Bench | GM Therapy", description: "Commercial 45-degree back extension bench for lower back and core strengthening." },
+  },
+  "831": {
+    productId: "831", slug: "matrix-xult-push-sled", tagline: "Heavy-duty push sled for strength and acceleration training on turf or grass.",
+    overview: ["The Matrix Xult Push Sled features removable 3-foot poles, dual carabiner anchor points and a heavy-duty steel frame for pushing and pulling drills."],
+    highlights: ["Glides on turf and grass", "Removable 3 ft poles", "Dual carabiner anchor points", "Holds up to 700 lbs"],
+    gallery: [{ src: mfSled.url, alt: "Matrix Xult Push Sled loaded with plates" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Weight", value: "54 lbs" }, { label: "Dimensions (L x W)", value: "39.4 x 26.5 in" }, { label: "Max load", value: "700 lbs" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/strength/free-weights/mx-sled-xult-push-sled",
+    seo: { title: "Matrix Xult Push Sled | GM Therapy", description: "Heavy-duty push sled for strength and acceleration training on turf or grass." },
+  },
+  "832": {
+    productId: "832", slug: "matrix-aura-rotary-hip", tagline: "Selectorized standing hip machine with 270 degrees of adjustable rotation.",
+    overview: ["The Matrix Aura Rotary Hip lets users train the hip from a standing position for better alignment and target muscle involvement, with an adjustable carriage and 15-degree start increments."],
+    highlights: ["Standing hip exercise", "Adjustable carriage", "15-degree start positions through 270 degrees", "295 lb weight stack"],
+    gallery: [{ src: mfS76.url, alt: "Matrix Aura Rotary Hip machine" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Weight stack", value: "295 lbs" }, { label: "Total weight", value: "650 lbs" }, { label: "Dimensions (L x W x H)", value: "44 x 47.1 x 72.6 in" }, { label: "Belt", value: "Kevlar/urethane flat belt" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/strength/single-station/g3-s76-rotary-hip",
+    seo: { title: "Matrix Aura Rotary Hip | GM Therapy", description: "Selectorized standing hip machine with 270 degrees of adjustable rotation." },
+  },
 };
 
 

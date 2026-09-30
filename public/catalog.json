@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T21:18:18.216Z",
+  "generatedAt": "2026-09-30T14:53:51.505Z",
   "products": [
     {
       "id": "1",
@@ -2155,6 +2155,69 @@
         "Foam-covered steel construction",
         "Anti-roll end caps help keep the bar in place",
         "Suitable for therapy, Pilates, aerobics and strength exercises"
+      ]
+    },
+    {
+      "id": "830",
+      "sku": "MF-MG-A52",
+      "name": "Matrix Magnum Back Extension Bench",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Racks & Platforms",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/8c79cb41-9830-434b-a326-3a4cc81cf30e/mf-mg-a52.jpg",
+      "images": [
+        "/__l5e/assets-v1/8c79cb41-9830-434b-a326-3a4cc81cf30e/mf-mg-a52.jpg"
+      ],
+      "description": [
+        "Strengthens lower back, abdominal and core muscles",
+        "Nine positions provide 9.5\" of adjustment for most user heights",
+        "Large thigh pads for comfort and stability",
+        "Skid-resistant foot platform with lower-leg pads",
+        "45-degree angle for easy entry and exit",
+        "Dimensions: 46.7\" L x 30\" W x 38.3\" H; 117 lbs"
+      ]
+    },
+    {
+      "id": "831",
+      "sku": "MF-MXSLED-02",
+      "name": "Matrix Xult Push Sled",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/5faee538-7bdc-4eed-9366-9f8fc333aac7/mf-mxsled-02.jpg",
+      "images": [
+        "/__l5e/assets-v1/5faee538-7bdc-4eed-9366-9f8fc333aac7/mf-mxsled-02.jpg"
+      ],
+      "description": [
+        "Built for strength and acceleration training",
+        "Moves smoothly on turf and grass",
+        "Removable 3' push poles",
+        "Dual carabiner anchor points for pulling",
+        "Heavy-duty steel frame holds up to 700 lbs of plates",
+        "Dimensions: 39.4\" L x 26.5\" W; 54 lbs"
+      ]
+    },
+    {
+      "id": "832",
+      "sku": "MF-G3-S76",
+      "name": "Matrix Aura Rotary Hip",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Selectorized",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/92b7f205-9dbe-45f0-abbf-5456656a64f4/mf-g3-s76.jpg",
+      "images": [
+        "/__l5e/assets-v1/92b7f205-9dbe-45f0-abbf-5456656a64f4/mf-g3-s76.jpg"
+      ],
+      "description": [
+        "Standing hip exercise for better alignment and muscle involvement",
+        "Adjustable carriage fits users of varying heights",
+        "Start positions every 15 degrees through 270 degrees of rotation",
+        "295 lb weight stack with Kevlar/urethane belt drive",
+        "Instructional placards and color-coded adjustments",
+        "Dimensions: 44\" L x 47.1\" W x 72.6\" H"
       ]
     },
     {
