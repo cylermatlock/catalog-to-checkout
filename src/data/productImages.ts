@@ -10,6 +10,15 @@ import fab101617 from "@/assets/products/fab/10-1617.jpg.asset.json";
 import mfA52 from "@/assets/products/matrix/mf-mg-a52.jpg.asset.json";
 import mfSled from "@/assets/products/matrix/mf-mxsled-02.jpg.asset.json";
 import mfS76 from "@/assets/products/matrix/mf-g3-s76.jpg.asset.json";
+import cxEdge from "@/assets/products/matrix/connexus-edge.jpg.asset.json";
+import cxFunctionalTrainer from "@/assets/products/matrix/connexus-functional-trainer.jpg.asset.json";
+import cxHub from "@/assets/products/matrix/connexus-hub.jpg.asset.json";
+import cxCrest from "@/assets/products/matrix/connexus-crest.jpg.asset.json";
+import cxCompact from "@/assets/products/matrix/connexus-compact.jpg.asset.json";
+import cxColumn from "@/assets/products/matrix/connexus-column.jpg.asset.json";
+import cxStepPlus from "@/assets/products/matrix/connexus-step-plus.jpg.asset.json";
+import cxStorageStation from "@/assets/products/matrix/connexus-storage-station.jpg.asset.json";
+import cxStorageCart3Shelf from "@/assets/products/matrix/connexus-storage-cart-3-shelf.jpg.asset.json";
 
 // Product image URLs are served from /public instead of eager-imported modules.
 // This keeps the catalog rendering even if a preview proxy misses an image file.
@@ -628,6 +637,15 @@ export const productImages: Record<string, string> = {
   "830": mfA52.url,
   "831": mfSled.url,
   "832": mfS76.url,
+  "833": cxEdge.url,
+  "834": cxFunctionalTrainer.url,
+  "835": cxHub.url,
+  "836": cxCrest.url,
+  "837": cxCompact.url,
+  "838": cxColumn.url,
+  "839": cxStepPlus.url,
+  "840": cxStorageStation.url,
+  "841": cxStorageCart3Shelf.url,
 
   // ===== PRE-OWNED / USED EQUIPMENT (extracted from spreadsheet) =====
   "901": productAsset("used/U-AM-BA350.png"),
