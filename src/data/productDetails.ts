@@ -17082,3 +17082,10 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: { title: "Matrix Aura Rotary Hip | GM Therapy", description: "Selectorized standing hip machine with 270 degrees of adjustable rotation." },
   },
 };
+
+
+
+
+
+export const hasDetailPage = (productId: string): boolean =>
+  Object.prototype.hasOwnProperty.call(productDetails, productId);
