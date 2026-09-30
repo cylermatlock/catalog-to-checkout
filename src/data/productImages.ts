@@ -7,6 +7,9 @@ import fab101483 from "@/assets/products/fab/10-1483.jpg.asset.json";
 import fab101484 from "@/assets/products/fab/10-1484.jpg.asset.json";
 import fab101615 from "@/assets/products/fab/10-1615.jpg.asset.json";
 import fab101617 from "@/assets/products/fab/10-1617.jpg.asset.json";
+import mfA52 from "@/assets/products/matrix/mf-mg-a52.jpg.asset.json";
+import mfSled from "@/assets/products/matrix/mf-mxsled-02.jpg.asset.json";
+import mfS76 from "@/assets/products/matrix/mf-g3-s76.jpg.asset.json";
 
 // Product image URLs are served from /public instead of eager-imported modules.
 // This keeps the catalog rendering even if a preview proxy misses an image file.
@@ -622,6 +625,9 @@ export const productImages: Record<string, string> = {
   "827": fab101484.url,
   "828": fab101615.url,
   "829": fab101617.url,
+  "830": mfA52.url,
+  "831": mfSled.url,
+  "832": mfS76.url,
 
   // ===== PRE-OWNED / USED EQUIPMENT (extracted from spreadsheet) =====
   "901": productAsset("used/U-AM-BA350.png"),
