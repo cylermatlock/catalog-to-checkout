@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T21:25:23.907Z",
+  "generatedAt": "2026-10-05T21:28:35.351Z",
   "products": [
     {
       "id": "1",
@@ -4395,6 +4395,26 @@
         "T-shaped push handle with adjustable height",
         "Durable steel frame construction",
         "For strength, conditioning, and rehab push/pull drills"
+      ]
+    },
+    {
+      "id": "859",
+      "sku": "TMS 720105-001",
+      "name": "Nested Climbing Stools",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Stools",
+      "condition": "new",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/f6f23a16-4ac5-49d8-85d4-4cc434d88bc6/tms-720105.png",
+      "images": [
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/f6f23a16-4ac5-49d8-85d4-4cc434d88bc6/tms-720105.png"
+      ],
+      "description": [
+        "Set of 4 solid oak climbing stools that nest inside each other",
+        "Non-slip carpet top on every stool",
+        "Doubles as stepping stones or foot stools in gait and balance training",
+        "Sturdy hardwood construction with reinforced corners",
+        "Compact storage — the full set nests into one small footprint"
       ]
     },
     {
