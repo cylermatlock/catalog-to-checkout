@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T21:22:34.575Z",
+  "generatedAt": "2026-10-05T21:25:23.907Z",
   "products": [
     {
       "id": "1",
@@ -3833,25 +3833,6 @@
         "Cable: 2000 lbs tested, nylon-coated high-tensile aircraft cable",
         "Pulleys: Fiberglass-strengthened nylon pulleys with sealed ball bearings",
         "Weight Stack: 220 lbs precision-milled steel plates (optional upgrade to 340 lbs available)"
-      ]
-    },
-    {
-      "id": "226",
-      "sku": "CLIN 5-4224",
-      "name": "Clinton Push/Pull Sled w/ 4 Weight Posts",
-      "brand": "Clinton Industries",
-      "category": "Strength Equipment",
-      "subcategory": "Functional Fitness",
-      "condition": "new",
-      "image": "/assets/products/bsw/clin-5-4334.png",
-      "images": [
-        "/assets/products/bsw/clin-5-4334.png"
-      ],
-      "description": [
-        "Load Capacity: 250 lbs",
-        "Base Dimensions: 20\"W x 28\"L x 45\"H",
-        "Empty weight: 25 lbs",
-        "T-Handle adjustable from 33\" to 45\""
       ]
     },
     {
