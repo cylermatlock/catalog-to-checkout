@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:14:45.070Z",
+  "generatedAt": "2026-10-05T16:36:47.829Z",
   "products": [
     {
       "id": "1",
@@ -4071,6 +4071,226 @@
         "Hex heads prevent rolling",
         "Sold in pairs by weight",
         "Ideal for rehab, group exercise and home programs"
+      ]
+    },
+    {
+      "id": "842",
+      "sku": "ASG RDB-5",
+      "name": "Ader Rubber Coated Dumbbell — 5 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "5 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 5 lb"
+      ]
+    },
+    {
+      "id": "843",
+      "sku": "ASG RDB-10",
+      "name": "Ader Rubber Coated Dumbbell — 10 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "10 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 10 lb"
+      ]
+    },
+    {
+      "id": "844",
+      "sku": "ASG RDB-12",
+      "name": "Ader Rubber Coated Dumbbell — 12 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "12 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 12 lb"
+      ]
+    },
+    {
+      "id": "845",
+      "sku": "ASG RDB-15",
+      "name": "Ader Rubber Coated Dumbbell — 15 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "15 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 15 lb"
+      ]
+    },
+    {
+      "id": "846",
+      "sku": "ASG RDB-20",
+      "name": "Ader Rubber Coated Dumbbell — 20 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "20 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 20 lb"
+      ]
+    },
+    {
+      "id": "847",
+      "sku": "ASG RDB-25",
+      "name": "Ader Rubber Coated Dumbbell — 25 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "25 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 25 lb"
+      ]
+    },
+    {
+      "id": "848",
+      "sku": "ASG RDB-30",
+      "name": "Ader Rubber Coated Dumbbell — 30 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "30 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 30 lb"
+      ]
+    },
+    {
+      "id": "849",
+      "sku": "ASG RDB-35",
+      "name": "Ader Rubber Coated Dumbbell — 35 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "35 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 35 lb"
+      ]
+    },
+    {
+      "id": "850",
+      "sku": "ASG RDB-40",
+      "name": "Ader Rubber Coated Dumbbell — 40 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "40 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 40 lb"
+      ]
+    },
+    {
+      "id": "851",
+      "sku": "ASG RDB-45",
+      "name": "Ader Rubber Coated Dumbbell — 45 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "45 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 45 lb"
+      ]
+    },
+    {
+      "id": "852",
+      "sku": "ASG RDB-50",
+      "name": "Ader Rubber Coated Dumbbell — 50 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "images": [
+        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+      ],
+      "description": [
+        "50 lb dumbbell",
+        "Black rubber-coated hexagonal heads",
+        "Hex shape helps prevent rolling",
+        "Chrome-finished, textured handle",
+        "Group photo represents the product range; selected weight is 50 lb"
       ]
     },
     {

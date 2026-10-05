@@ -1,3 +1,4 @@
+import aderRubberDumbbells from "@/assets/products/ader/rubber-coated-dumbbells.png.asset.json";
 
 import fab002502 from "@/assets/products/fab/00-2502.jpg.asset.json";
 import fab048038 from "@/assets/products/fab/04-8038.jpg.asset.json";
@@ -26,6 +27,18 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  // Shared user-supplied Ader rubber dumbbell range photo
+  "842": aderRubberDumbbells.url,
+  "843": aderRubberDumbbells.url,
+  "844": aderRubberDumbbells.url,
+  "845": aderRubberDumbbells.url,
+  "846": aderRubberDumbbells.url,
+  "847": aderRubberDumbbells.url,
+  "848": aderRubberDumbbells.url,
+  "849": aderRubberDumbbells.url,
+  "850": aderRubberDumbbells.url,
+  "851": aderRubberDumbbells.url,
+  "852": aderRubberDumbbells.url,
   // GMTS Rehab Furniture - individual photos
   "1": productAsset("gmts-3-section-hilo.png"),
   "2": productAsset("gmts-treatment-table-backrest.png"),
