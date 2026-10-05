@@ -17194,7 +17194,7 @@ export const productDetails: Record<string, ProductDetail> = {
     sourceUrl: "https://www.iron-neck.com/products/iron-neck-relief-bundle",
     seo: { title: "Iron Neck 3.0 Pro Bundle | GM Therapy", description: "Iron Neck 3.0 Pro bundle with 3 front pads, 25 lb band, anchors, and skullcap." },
   },
-  "856": {
+"856": {
     productId: "856", slug: "matrix-lifestyle-lhr-extended-handrail-kit", tagline: "Extended handrail kit for the Matrix Lifestyle Treadmill — added support for safer entry and exit.",
     overview: ["Optional extended handrail kit for the Matrix Lifestyle Treadmill. Lengthens the handrails to give users something to hold for the entire entry and exit — the moments that worry staff most. Manufacturer-designed for the Lifestyle Treadmill frame, and can be fitted to a treadmill already in service.", "A common choice for rehab, senior, and medical-use settings where users need support stepping onto and off a moving belt."],
     highlights: ["Extended-length handrails for the Matrix Lifestyle Treadmill", "Increased stability during entry and exit", "Manufacturer-designed kit bolts to the Lifestyle frame", "Can be retrofitted to a treadmill already in service", "Ideal for rehab, senior, and medical-use settings"],
@@ -17202,6 +17202,24 @@ export const productDetails: Record<string, ProductDetail> = {
     specGroups: [{ title: "Specifications", rows: [{ label: "Fits", value: "Matrix Lifestyle Treadmill" }, { label: "Rail dimensions", value: "36 x 3 x 3 in" }, { label: "Kit weight", value: "12 lb" }, { label: "Sold as", value: "Each (kit)" }] }],
     sourceUrl: "https://us.matrixfitness.com/eng/cardio/lifestyle/treadmill",
     seo: { title: "Matrix Lifestyle Treadmill LHR Extended Handrail Kit | GM Therapy", description: "Extended handrail kit for the Matrix Lifestyle Treadmill for added stability during entry and exit." },
+  },
+  "857": {
+    productId: "857", slug: "clinton-push-pull-sled-4-weight-posts", tagline: "Clinton push/pull sled with a hardwood base and 4 weight posts for plate loading.",
+    overview: ["The Clinton Push/Pull Sled with 4 Weight Posts is a versatile sled for strength, conditioning, and rehab work. Four steel weight posts take standard Olympic plates, and the angled handle lets users push or pull in either direction.", "A solid choice for gait training, resisted walking drills, and athletic performance programs."],
+    highlights: ["4 steel weight posts for Olympic plate loading", "Hardwood platform base", "Angled push/pull handle for directional training", "Supports pushes, pulls, and drags", "Ideal for rehab, gait training, and athletic performance"],
+    gallery: [{ src: "/assets/products/bsw/clin-5-4334.png", alt: "Clinton Push/Pull Sled with 4 weight posts" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Weight posts", value: "4" }, { label: "Base", value: "Hardwood platform" }, { label: "Plate loading", value: "Standard Olympic plates" }] }],
+    sourceUrl: "",
+    seo: { title: "Clinton Push/Pull Sled with 4 Weight Posts | GM Therapy", description: "Clinton push/pull sled with hardwood base and 4 weight posts. Call or add to quote request for pricing." },
+  },
+  "858": {
+    productId: "858", slug: "push-pull-weight-sled-4-weight-posts", tagline: "Push/pull weight sled with an open hardwood platform and 4 weight posts.",
+    overview: ["The Push/Pull Weight Sled with 4 Weight Posts is built for resisted push and pull work. Its open hardwood platform makes plate loading easy, with four steel weight posts that accept standard Olympic plates.", "The T-shaped push handle adjusts for different user heights, making it a fit for strength, conditioning, and rehab push/pull drills."],
+    highlights: ["4 steel weight posts for Olympic plate loading", "Open hardwood platform for easy plate access", "T-shaped push handle with adjustable height", "Durable steel frame construction", "For strength, conditioning, and rehab push/pull drills"],
+    gallery: [{ src: phsWcws.url, alt: "Push/Pull Weight Sled with 4 weight posts" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Weight posts", value: "4" }, { label: "Platform", value: "Hardwood" }, { label: "Handle", value: "T-shaped, height adjustable" }] }],
+    sourceUrl: "",
+    seo: { title: "Push/Pull Weight Sled with 4 Weight Posts | GM Therapy", description: "Push/pull weight sled with hardwood platform and 4 weight posts. Call or add to quote request for pricing." },
   },
 };
 
