@@ -41,10 +41,19 @@ function resolveBrand(bm: BrandMap, sku: string, name: string, category: string)
   return bm.defaultBrand;
 }
 
+/**
+ * Public storage mirror of Lovable Asset photos, so outside tools that can't
+ * reach the website (and don't have the binaries in GitHub) can still fetch them.
+ */
+const ASSET_MIRROR_BASE =
+  "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/";
+
 /** Normalise an image reference to a path relative to /public. */
 function toPublicPath(src: string): string {
   if (/^https?:\/\//i.test(src)) return src;
   const clean = src.split("?")[0];
+  const asset = clean.match(/^\/__l5e\/assets-v1\/([^/]+)\/(.+)$/);
+  if (asset) return `${ASSET_MIRROR_BASE}${asset[1]}/${asset[2]}`;
   return clean.startsWith("/") ? clean : `/${clean}`;
 }
 
