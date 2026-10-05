@@ -118,7 +118,7 @@ export const products: Product[] = [
   
 
   // STRENGTH EQUIPMENT - Shuttle
-  { id: "67", name: "Shuttle Systems TNT", category: "Strength Equipment", subcategory: "Shuttle Systems", sku: "CD 7100T", description: ["24\" seat height", "Adjustable hand grips", "PNF towers & pulley systems", "All aluminum construction", "Resistance from 6-300 lbs", "350 lb weight capacity"], bsw: true },
+  { id: "67", name: "SHUTTLE SYSTEMS TNT LEG PRESS", category: "Strength Equipment", subcategory: "Shuttle Systems", sku: "CD 7200", description: ["24\" seat height", "Adjustable hand grips", "PNF towers & pulley systems", "All aluminum construction", "Resistance from 6-300 lbs", "350 lb weight capacity"], bsw: true },
   { id: "68", name: "Shuttle Recovery Senior", category: "Strength Equipment", subcategory: "Shuttle Systems", sku: "CD 5500", description: ["Supine Leg Press", "8 elasticords provide up to 300 lbs of progressive resistance", "Wide backrest with wobble board", "Supports bariatric and senior clients"], bsw: true },
   { id: "69", name: "SHUTTLE SYSTEMS MVP ELITE", category: "Strength Equipment", subcategory: "Shuttle Systems", sku: "CD 3300", description: ["Supine Leg Press", "All aluminum construction", "Closed chain protocols", "Jumping protocols", "Resistance from 12.5-650 lbs", "500 lb weight capacity"] },
   { id: "70", name: "Shuttle Ultimate", category: "Strength Equipment", subcategory: "Shuttle Systems", sku: "CD 9000", description: ["Supine Leg Press with 16 elasticords", "Up to 500 lbs of progressive resistance", "4 position adjustable backrest", "Fully adjustable kick plate"] },
