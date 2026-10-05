@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T16:36:47.829Z",
+  "generatedAt": "2026-10-05T16:54:58.463Z",
   "products": [
     {
       "id": "1",
@@ -4291,6 +4291,27 @@
         "Hex shape helps prevent rolling",
         "Chrome-finished, textured handle",
         "Group photo represents the product range; selected weight is 50 lb"
+      ]
+    },
+    {
+      "id": "853",
+      "sku": "IN 3PB Pro",
+      "name": "Iron Neck 3.0 Pro Bundle",
+      "brand": "GM Therapy Solutions",
+      "category": "Strength Equipment",
+      "subcategory": "Neck Training",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/184bdc3d-124d-4294-a04e-1c4d8d8cc691/iron-neck-3-pro-bundle.jpg",
+      "images": [
+        "/__l5e/assets-v1/184bdc3d-124d-4294-a04e-1c4d8d8cc691/iron-neck-3-pro-bundle.jpg"
+      ],
+      "description": [
+        "Iron Neck 3.0 Pro neck training device",
+        "Includes 3 interchangeable front pads for a custom fit",
+        "25 lb resistance band included",
+        "Door anchor, door belt, and cinch anchor for versatile setup",
+        "Skullcap included",
+        "Builds neck strength, stability, and range of motion"
       ]
     },
     {
