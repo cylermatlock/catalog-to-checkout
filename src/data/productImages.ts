@@ -1,6 +1,7 @@
 import aderRubberDumbbells from "@/assets/products/ader/rubber-coated-dumbbells.png.asset.json";
 import ironNeck3ProBundle from "@/assets/products/ironneck/iron-neck-3-pro-bundle.jpg.asset.json";
 import matrixLhrKit from "@/assets/products/matrix/matrix-lifestyle-lhr-handrail-kit.png.asset.json";
+import phsWcws from "@/assets/products/phs/phs-wcws.png.asset.json";
 
 import fab002502 from "@/assets/products/fab/00-2502.jpg.asset.json";
 import fab048038 from "@/assets/products/fab/04-8038.jpg.asset.json";
