@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:38:31.805Z",
+  "generatedAt": "2026-10-05T21:22:34.575Z",
   "products": [
     {
       "id": "1",
@@ -1094,8 +1094,8 @@
     },
     {
       "id": "67",
-      "sku": "CD 7100T",
-      "name": "Shuttle Systems TNT",
+      "sku": "CD 7200",
+      "name": "SHUTTLE SYSTEMS TNT LEG PRESS",
       "brand": "Shuttle Systems",
       "category": "Strength Equipment",
       "subcategory": "Shuttle Systems",
@@ -4374,6 +4374,46 @@
         "Manufacturer-designed fit for the Lifestyle Treadmill frame",
         "Can be fitted to a treadmill already in service",
         "Ideal for rehab, senior, and medical-use settings"
+      ]
+    },
+    {
+      "id": "857",
+      "sku": "CLIN 5-4334",
+      "name": "Clinton Push/Pull Sled with 4 Weight Posts",
+      "brand": "Clinton Industries",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/assets/products/bsw/clin-5-4334.png",
+      "images": [
+        "/assets/products/bsw/clin-5-4334.png"
+      ],
+      "description": [
+        "Push/pull sled with 4 steel weight posts for plate loading",
+        "Hardwood platform base",
+        "Angled push/pull handle for directional sled training",
+        "Supports pushes, pulls, and drags for strength and conditioning",
+        "Ideal for rehab, gait training, and athletic performance"
+      ]
+    },
+    {
+      "id": "858",
+      "sku": "PHS WCWS",
+      "name": "Push/Pull Weight Sled with 4 Weight Posts",
+      "brand": "Performance Health",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/e5140a4f-6345-45bb-94c9-d7533b1c7659/phs-wcws.png",
+      "images": [
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/e5140a4f-6345-45bb-94c9-d7533b1c7659/phs-wcws.png"
+      ],
+      "description": [
+        "Push/pull weight sled with 4 steel weight posts",
+        "Open hardwood platform for easy plate loading",
+        "T-shaped push handle with adjustable height",
+        "Durable steel frame construction",
+        "For strength, conditioning, and rehab push/pull drills"
       ]
     },
     {
