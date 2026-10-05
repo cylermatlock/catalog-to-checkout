@@ -17222,6 +17222,15 @@ export const productDetails: Record<string, ProductDetail> = {
     sourceUrl: "",
     seo: { title: "Push/Pull Weight Sled with 4 Weight Posts | GM Therapy", description: "Push/pull weight sled with hardwood platform and 4 weight posts. Call or add to quote request for pricing." },
   },
+  "859": {
+    productId: "859", slug: "nested-climbing-stools", tagline: "Four solid oak climbing stools that nest together for compact storage.",
+    overview: ["The TMS Nested Climbing Stools are a set of four solid oak stools that nest inside one another for compact storage. Each stool has a non-slip carpet top for secure footing during climbing, stepping, and balance activities.", "Use them individually as stepping stools in gait and balance training, or as versatile foot stools and seating around the clinic."],
+    highlights: ["Set of 4 solid oak climbing stools", "Nest inside each other for compact storage", "Non-slip carpet top on every stool", "Doubles as stepping stones or foot stools", "Sturdy hardwood construction with reinforced corners"],
+    gallery: [{ src: tmsNestedStools.url, alt: "Nested Climbing Stools — set of 4 solid oak stools with carpet tops" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Pieces", value: "4 nested stools" }, { label: "Construction", value: "Solid oak with carpet tops" }, { label: "Use", value: "Climbing, stepping, balance, and gait training" }] }],
+    sourceUrl: "",
+    seo: { title: "TMS 720105-001 Nested Climbing Stools | GM Therapy", description: "Set of 4 solid oak nested climbing stools with non-slip carpet tops. Call or add to quote request for pricing." },
+  },
 };
 
 
