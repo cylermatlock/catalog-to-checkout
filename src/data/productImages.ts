@@ -1,5 +1,6 @@
 import aderRubberDumbbells from "@/assets/products/ader/rubber-coated-dumbbells.png.asset.json";
 import ironNeck3ProBundle from "@/assets/products/ironneck/iron-neck-3-pro-bundle.jpg.asset.json";
+import matrixLhrKit from "@/assets/products/matrix/matrix-lifestyle-lhr-handrail-kit.png.asset.json";
 
 import fab002502 from "@/assets/products/fab/00-2502.jpg.asset.json";
 import fab048038 from "@/assets/products/fab/04-8038.jpg.asset.json";
@@ -41,6 +42,7 @@ export const productImages: Record<string, string> = {
   "851": aderRubberDumbbells.url,
   "852": aderRubberDumbbells.url,
   "853": ironNeck3ProBundle.url,
+  "856": matrixLhrKit.url,
   // GMTS Rehab Furniture - individual photos
   "1": productAsset("gmts-3-section-hilo.png"),
   "2": productAsset("gmts-treatment-table-backrest.png"),

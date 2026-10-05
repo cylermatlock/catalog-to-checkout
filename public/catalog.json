@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:14:48.732Z",
+  "generatedAt": "2026-10-05T18:18:50.516Z",
   "products": [
     {
       "id": "1",
@@ -4354,6 +4354,26 @@
         "Easier and safer to load and carry",
         "Cast iron core",
         "Sold individually"
+      ]
+    },
+    {
+      "id": "856",
+      "sku": "MF-LS-LHR",
+      "name": "Matrix Lifestyle Treadmill LHR Extended Handrail Kit",
+      "brand": "Matrix Fitness",
+      "category": "Cardio",
+      "subcategory": "Treadmills",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/343c4bfd-8aa9-4f78-8bae-54c926567905/matrix-lifestyle-lhr-handrail-kit.png",
+      "images": [
+        "/__l5e/assets-v1/343c4bfd-8aa9-4f78-8bae-54c926567905/matrix-lifestyle-lhr-handrail-kit.png"
+      ],
+      "description": [
+        "Extended-length handrail kit for the Matrix Lifestyle Treadmill",
+        "Extends the handrails for increased stability during entry and exit",
+        "Manufacturer-designed fit for the Lifestyle Treadmill frame",
+        "Can be fitted to a treadmill already in service",
+        "Ideal for rehab, senior, and medical-use settings"
       ]
     },
     {

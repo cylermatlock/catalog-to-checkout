@@ -23,6 +23,7 @@ import cxStepPlus from "@/assets/products/matrix/connexus-step-plus.jpg.asset.js
 import cxStorageStation from "@/assets/products/matrix/connexus-storage-station.jpg.asset.json";
 import cxStorageCart3Shelf from "@/assets/products/matrix/connexus-storage-cart-3-shelf.jpg.asset.json";
 import ironNeck3ProBundle from "@/assets/products/ironneck/iron-neck-3-pro-bundle.jpg.asset.json";
+import matrixLhrKit from "@/assets/products/matrix/matrix-lifestyle-lhr-handrail-kit.png.asset.json";
 
 const STORAGE_BASE =
   "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery";
@@ -17192,6 +17193,15 @@ export const productDetails: Record<string, ProductDetail> = {
     specGroups: [{ title: "What's Included", rows: [{ label: "Device", value: "Iron Neck 3.0 Pro" }, { label: "Front pads", value: "3 interchangeable pads" }, { label: "Resistance band", value: "25 lb" }, { label: "Anchoring", value: "Door anchor, door belt, cinch anchor" }, { label: "Extras", value: "Skullcap" }] }],
     sourceUrl: "https://www.iron-neck.com/products/iron-neck-relief-bundle",
     seo: { title: "Iron Neck 3.0 Pro Bundle | GM Therapy", description: "Iron Neck 3.0 Pro bundle with 3 front pads, 25 lb band, anchors, and skullcap." },
+  },
+  "856": {
+    productId: "856", slug: "matrix-lifestyle-lhr-extended-handrail-kit", tagline: "Extended handrail kit for the Matrix Lifestyle Treadmill — added support for safer entry and exit.",
+    overview: ["Optional extended handrail kit for the Matrix Lifestyle Treadmill. Lengthens the handrails to give users something to hold for the entire entry and exit — the moments that worry staff most. Manufacturer-designed for the Lifestyle Treadmill frame, and can be fitted to a treadmill already in service.", "A common choice for rehab, senior, and medical-use settings where users need support stepping onto and off a moving belt."],
+    highlights: ["Extended-length handrails for the Matrix Lifestyle Treadmill", "Increased stability during entry and exit", "Manufacturer-designed kit bolts to the Lifestyle frame", "Can be retrofitted to a treadmill already in service", "Ideal for rehab, senior, and medical-use settings"],
+    gallery: [{ src: matrixLhrKit.url, alt: "Matrix Lifestyle Treadmill with LHR extended handrails" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Fits", value: "Matrix Lifestyle Treadmill" }, { label: "Rail dimensions", value: "36 x 3 x 3 in" }, { label: "Kit weight", value: "12 lb" }, { label: "Sold as", value: "Each (kit)" }] }],
+    sourceUrl: "https://us.matrixfitness.com/eng/cardio/lifestyle/treadmill",
+    seo: { title: "Matrix Lifestyle Treadmill LHR Extended Handrail Kit | GM Therapy", description: "Extended handrail kit for the Matrix Lifestyle Treadmill for added stability during entry and exit." },
   },
 };
 
