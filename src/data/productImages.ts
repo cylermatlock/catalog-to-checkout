@@ -43,7 +43,9 @@ export const productImages: Record<string, string> = {
   "851": aderRubberDumbbells.url,
   "852": aderRubberDumbbells.url,
   "853": ironNeck3ProBundle.url,
-  "856": matrixLhrKit.url,
+"856": matrixLhrKit.url,
+  "857": productAsset("bsw/clin-5-4334.png"),
+  "858": phsWcws.url,
   // GMTS Rehab Furniture - individual photos
   "1": productAsset("gmts-3-section-hilo.png"),
   "2": productAsset("gmts-treatment-table-backrest.png"),
