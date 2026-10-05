@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T16:54:58.463Z",
+  "generatedAt": "2026-10-05T18:14:48.732Z",
   "products": [
     {
       "id": "1",
@@ -4312,6 +4312,48 @@
         "Door anchor, door belt, and cinch anchor for versatile setup",
         "Skullcap included",
         "Builds neck strength, stability, and range of motion"
+      ]
+    },
+    {
+      "id": "854",
+      "sku": "ASG 1136ZR-2.5",
+      "name": "Ader 2\" Olympic Rubber Dual-Grip Plate — 2.5 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Olympic Plates",
+      "condition": "new",
+      "image": "/assets/products/bsw/asg-1136zr-25.jpg",
+      "images": [
+        "/assets/products/bsw/asg-1136zr-25.jpg"
+      ],
+      "description": [
+        "2.5 lb Olympic rubber-coated plate with dual grip handles",
+        "2\" center hole for Olympic bars",
+        "Rubber coating protects floors and equipment",
+        "Easier and safer to load and carry",
+        "Cast iron core",
+        "Sold individually"
+      ]
+    },
+    {
+      "id": "855",
+      "sku": "ASG 1136ZR-5",
+      "name": "Ader 2\" Olympic Rubber Dual-Grip Plate — 5 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Olympic Plates",
+      "condition": "new",
+      "image": "/assets/products/bsw/asg-1136zr-25.jpg",
+      "images": [
+        "/assets/products/bsw/asg-1136zr-25.jpg"
+      ],
+      "description": [
+        "5 lb Olympic rubber-coated plate with dual grip handles",
+        "2\" center hole for Olympic bars",
+        "Rubber coating protects floors and equipment",
+        "Easier and safer to load and carry",
+        "Cast iron core",
+        "Sold individually"
       ]
     },
     {
