@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T14:53:51.505Z",
+  "generatedAt": "2026-10-05T14:14:45.070Z",
   "products": [
     {
       "id": "1",
@@ -2218,6 +2218,191 @@
         "295 lb weight stack with Kevlar/urethane belt drive",
         "Instructional placards and color-coded adjustments",
         "Dimensions: 44\" L x 47.1\" W x 72.6\" H"
+      ]
+    },
+    {
+      "id": "833",
+      "sku": "MF-GFTEDG",
+      "name": "Matrix Connexus Edge",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Trainer",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/3b7b6749-9235-43cd-adb5-0f90d2b0a061/connexus-edge.jpg",
+      "images": [
+        "/__l5e/assets-v1/3b7b6749-9235-43cd-adb5-0f90d2b0a061/connexus-edge.jpg"
+      ],
+      "description": [
+        "Accessory storage with multiple attachment points",
+        "Clearly defined, easy-to-start training stations",
+        "Magnetic exercise placards for guidance",
+        "Integrated smart device holder",
+        "Configurable: stand-alone, multi-bay or back-to-back",
+        "Dimensions: 71\" L x 44\" W x 93.4\" H; 465 lbs"
+      ]
+    },
+    {
+      "id": "834",
+      "sku": "MF-GFT",
+      "name": "Matrix Connexus Functional Trainer",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Trainer",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/191397d2-e293-4e2d-b146-8eb40113473b/connexus-functional-trainer.jpg",
+      "images": [
+        "/__l5e/assets-v1/191397d2-e293-4e2d-b146-8eb40113473b/connexus-functional-trainer.jpg"
+      ],
+      "description": [
+        "Heavy cable resistance for coached or self-guided workouts",
+        "Configures with Connexus Edge or additional trainers",
+        "Integrated pull-up bar",
+        "Accessory and smart device storage",
+        "Dimensions: 60\" L x 49\" W x 93.4\" H; 955 lbs"
+      ]
+    },
+    {
+      "id": "835",
+      "sku": "MF-GFTHUB",
+      "name": "Matrix Connexus Hub",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Trainer",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/6bae068b-b3c4-48fa-876d-1e35b5929353/connexus-hub.jpg",
+      "images": [
+        "/__l5e/assets-v1/6bae068b-b3c4-48fa-876d-1e35b5929353/connexus-hub.jpg"
+      ],
+      "description": [
+        "Single adjustable cable pulley",
+        "Centralized accessory storage",
+        "Clearly defined training stations",
+        "Exercise placards and device holder",
+        "Dimensions: 66\" L x 49\" W x 93.4\" H; 678 lbs"
+      ]
+    },
+    {
+      "id": "836",
+      "sku": "MF-GFTCRST",
+      "name": "Matrix Connexus Crest",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Trainer",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/c318b5bc-b36f-4495-a68e-ed1b667b50db/connexus-crest.jpg",
+      "images": [
+        "/__l5e/assets-v1/c318b5bc-b36f-4495-a68e-ed1b667b50db/connexus-crest.jpg"
+      ],
+      "description": [
+        "Two adjustable cable pulleys",
+        "Centralized accessory storage",
+        "Clearly defined training stations",
+        "Exercise placards and device holder",
+        "Dimensions: 115\" L x 56\" W x 93.4\" H; 1,093 lbs"
+      ]
+    },
+    {
+      "id": "837",
+      "sku": "MF-GCPT",
+      "name": "Matrix Connexus Compact",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Trainer",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/cbfe6060-16e4-41d6-b634-61cd7088b2f0/connexus-compact.jpg",
+      "images": [
+        "/__l5e/assets-v1/cbfe6060-16e4-41d6-b634-61cd7088b2f0/connexus-compact.jpg"
+      ],
+      "description": [
+        "Two height-adjustable training handles",
+        "Hinged medicine ball target",
+        "Integrated base anchors and landmine attachment",
+        "Straight pull-up bar doubles as battle rope anchor",
+        "Dimensions: 32.3\" L x 65\" W x 94.4\" H; 350 lbs"
+      ]
+    },
+    {
+      "id": "838",
+      "sku": "MF-GCOL",
+      "name": "Matrix Connexus Column",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Trainer",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/3aaeddd6-664e-41a3-aca0-22398911d2cb/connexus-column.jpg",
+      "images": [
+        "/__l5e/assets-v1/3aaeddd6-664e-41a3-aca0-22398911d2cb/connexus-column.jpg"
+      ],
+      "description": [
+        "Height-adjustable training handle for bands and straps",
+        "Holds multiple bands for quick transitions",
+        "Integrated device storage",
+        "Mounts to virtually any unused wall",
+        "350 lb max user weight",
+        "Dimensions: 17.5\" L x 6.3\" W x 83.5\" H; 56.2 lbs"
+      ]
+    },
+    {
+      "id": "839",
+      "sku": "MF-GSTP",
+      "name": "Matrix Connexus Step+",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/146df579-08ba-47b0-9853-4eb21c5380f2/connexus-step-plus.jpg",
+      "images": [
+        "/__l5e/assets-v1/146df579-08ba-47b0-9853-4eb21c5380f2/connexus-step-plus.jpg"
+      ],
+      "description": [
+        "Standard and inverted configurations",
+        "Integrated leg hand grips for push-ups and dips",
+        "Reversible contoured platform for instability training",
+        "Cast-aluminum legs",
+        "300 lb max user weight",
+        "Dimensions: 23.25\" L x 12\" W; 18.5 lbs"
+      ]
+    },
+    {
+      "id": "840",
+      "sku": "MF-GFTORG",
+      "name": "Matrix Connexus Storage Station",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Storage",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/ff72f2e1-c499-43b8-837d-a8b0aa7d283e/connexus-storage-station.jpg",
+      "images": [
+        "/__l5e/assets-v1/ff72f2e1-c499-43b8-837d-a8b0aa7d283e/connexus-storage-station.jpg"
+      ],
+      "description": [
+        "Two extra-large and two secondary shelves",
+        "Angled pegs for hanging storage",
+        "Directional placards",
+        "Optional mat hanger",
+        "800 lb max storage weight",
+        "Dimensions: 33.5\" L x 55.1\" W x 72.9\" H; 352.7 lbs"
+      ]
+    },
+    {
+      "id": "841",
+      "sku": "MF-GFT3S",
+      "name": "Matrix Connexus 3-Shelf Storage Cart",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Storage",
+      "condition": "new",
+      "image": "/__l5e/assets-v1/bdbef881-b83a-4c9d-b477-e0a6849ff8b1/connexus-storage-cart-3-shelf.jpg",
+      "images": [
+        "/__l5e/assets-v1/bdbef881-b83a-4c9d-b477-e0a6849ff8b1/connexus-storage-cart-3-shelf.jpg"
+      ],
+      "description": [
+        "Three shelves with rubber inserts",
+        "Info dock for tablet or phone",
+        "Dual-purpose handle for bands and ropes",
+        "Heavy-duty casters",
+        "750 lb max storage weight",
+        "Dimensions: 31.5\" L x 48\" W x 66\" H; 212 lbs"
       ]
     },
     {
