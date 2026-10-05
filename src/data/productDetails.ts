@@ -22,6 +22,7 @@ import cxColumn from "@/assets/products/matrix/connexus-column.jpg.asset.json";
 import cxStepPlus from "@/assets/products/matrix/connexus-step-plus.jpg.asset.json";
 import cxStorageStation from "@/assets/products/matrix/connexus-storage-station.jpg.asset.json";
 import cxStorageCart3Shelf from "@/assets/products/matrix/connexus-storage-cart-3-shelf.jpg.asset.json";
+import ironNeck3ProBundle from "@/assets/products/ironneck/iron-neck-3-pro-bundle.jpg.asset.json";
 
 const STORAGE_BASE =
   "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery";
