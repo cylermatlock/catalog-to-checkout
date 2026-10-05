@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:18:50.516Z",
+  "generatedAt": "2026-10-05T18:38:31.805Z",
   "products": [
     {
       "id": "1",
@@ -1917,9 +1917,9 @@
       "category": "Modalities",
       "subcategory": "Hydrocollator",
       "condition": "new",
-      "image": "/__l5e/assets-v1/a9a0d6c4-3b92-4f84-a111-988514a521e9/00-2502.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/a9a0d6c4-3b92-4f84-a111-988514a521e9/00-2502.jpg",
       "images": [
-        "/__l5e/assets-v1/a9a0d6c4-3b92-4f84-a111-988514a521e9/00-2502.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/a9a0d6c4-3b92-4f84-a111-988514a521e9/00-2502.jpg"
       ],
       "description": [
         "Large-capacity stainless steel heating unit for busy clinical departments",
@@ -1936,9 +1936,9 @@
       "category": "Rehab Furniture",
       "subcategory": "Traction Tables",
       "condition": "new",
-      "image": "/__l5e/assets-v1/d1135608-6e90-459a-a8b0-c095a3a11fda/04-8038.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/d1135608-6e90-459a-a8b0-c095a3a11fda/04-8038.jpg",
       "images": [
-        "/__l5e/assets-v1/d1135608-6e90-459a-a8b0-c095a3a11fda/04-8038.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/d1135608-6e90-459a-a8b0-c095a3a11fda/04-8038.jpg"
       ],
       "description": [
         "Clevis-only accessory for Saunders cervical traction",
@@ -2045,9 +2045,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Hand Exercisers",
       "condition": "new",
-      "image": "/__l5e/assets-v1/dd9da3ca-7bb4-4b4f-becf-497ec47da513/10-0746.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/dd9da3ca-7bb4-4b4f-becf-497ec47da513/10-0746.jpg",
       "images": [
-        "/__l5e/assets-v1/dd9da3ca-7bb4-4b4f-becf-497ec47da513/10-0746.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/dd9da3ca-7bb4-4b4f-becf-497ec47da513/10-0746.jpg"
       ],
       "description": [
         "Five color-coded resistance levels: yellow, red, green, blue and black",
@@ -2065,9 +2065,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Hand Exercisers",
       "condition": "new",
-      "image": "/__l5e/assets-v1/46c77745-4b25-4c97-902e-66f55511b078/10-0871_inuse.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/46c77745-4b25-4c97-902e-66f55511b078/10-0871_inuse.jpg",
       "images": [
-        "/__l5e/assets-v1/46c77745-4b25-4c97-902e-66f55511b078/10-0871_inuse.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/46c77745-4b25-4c97-902e-66f55511b078/10-0871_inuse.jpg"
       ],
       "description": [
         "14-inch diameter hand exercise web in Yellow",
@@ -2085,9 +2085,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Hand Exercisers",
       "condition": "new",
-      "image": "/__l5e/assets-v1/dfb61f81-33cc-42e5-862f-dabc3ceab9f1/10-1483.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/dfb61f81-33cc-42e5-862f-dabc3ceab9f1/10-1483.jpg",
       "images": [
-        "/__l5e/assets-v1/dfb61f81-33cc-42e5-862f-dabc3ceab9f1/10-1483.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/dfb61f81-33cc-42e5-862f-dabc3ceab9f1/10-1483.jpg"
       ],
       "description": [
         "Six 6-ounce containers in progressive resistance levels",
@@ -2105,9 +2105,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Hand Exercisers",
       "condition": "new",
-      "image": "/__l5e/assets-v1/529e9d26-39fc-4263-81e3-a5489ee169bb/10-1484.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/529e9d26-39fc-4263-81e3-a5489ee169bb/10-1484.jpg",
       "images": [
-        "/__l5e/assets-v1/529e9d26-39fc-4263-81e3-a5489ee169bb/10-1484.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/529e9d26-39fc-4263-81e3-a5489ee169bb/10-1484.jpg"
       ],
       "description": [
         "Six 1-pound containers for clinic or hospital use",
@@ -2125,9 +2125,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Exercise Bars",
       "condition": "new",
-      "image": "/__l5e/assets-v1/46e81776-159a-4448-a0f1-b868197b5d0b/10-1615.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/46e81776-159a-4448-a0f1-b868197b5d0b/10-1615.jpg",
       "images": [
-        "/__l5e/assets-v1/46e81776-159a-4448-a0f1-b868197b5d0b/10-1615.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/46e81776-159a-4448-a0f1-b868197b5d0b/10-1615.jpg"
       ],
       "description": [
         "15-pound weighted exercise bar",
@@ -2145,9 +2145,9 @@
       "category": "Clinical Supplies",
       "subcategory": "Exercise Bars",
       "condition": "new",
-      "image": "/__l5e/assets-v1/ec333cca-40b9-4363-92ed-9f98012fa846/10-1617.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/ec333cca-40b9-4363-92ed-9f98012fa846/10-1617.jpg",
       "images": [
-        "/__l5e/assets-v1/ec333cca-40b9-4363-92ed-9f98012fa846/10-1617.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/ec333cca-40b9-4363-92ed-9f98012fa846/10-1617.jpg"
       ],
       "description": [
         "20-pound weighted exercise bar",
@@ -2165,9 +2165,9 @@
       "category": "Strength Equipment",
       "subcategory": "Racks & Platforms",
       "condition": "new",
-      "image": "/__l5e/assets-v1/8c79cb41-9830-434b-a326-3a4cc81cf30e/mf-mg-a52.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/8c79cb41-9830-434b-a326-3a4cc81cf30e/mf-mg-a52.jpg",
       "images": [
-        "/__l5e/assets-v1/8c79cb41-9830-434b-a326-3a4cc81cf30e/mf-mg-a52.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/8c79cb41-9830-434b-a326-3a4cc81cf30e/mf-mg-a52.jpg"
       ],
       "description": [
         "Strengthens lower back, abdominal and core muscles",
@@ -2186,9 +2186,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/__l5e/assets-v1/5faee538-7bdc-4eed-9366-9f8fc333aac7/mf-mxsled-02.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/5faee538-7bdc-4eed-9366-9f8fc333aac7/mf-mxsled-02.jpg",
       "images": [
-        "/__l5e/assets-v1/5faee538-7bdc-4eed-9366-9f8fc333aac7/mf-mxsled-02.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/5faee538-7bdc-4eed-9366-9f8fc333aac7/mf-mxsled-02.jpg"
       ],
       "description": [
         "Built for strength and acceleration training",
@@ -2207,9 +2207,9 @@
       "category": "Strength Equipment",
       "subcategory": "Selectorized",
       "condition": "new",
-      "image": "/__l5e/assets-v1/92b7f205-9dbe-45f0-abbf-5456656a64f4/mf-g3-s76.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/92b7f205-9dbe-45f0-abbf-5456656a64f4/mf-g3-s76.jpg",
       "images": [
-        "/__l5e/assets-v1/92b7f205-9dbe-45f0-abbf-5456656a64f4/mf-g3-s76.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/92b7f205-9dbe-45f0-abbf-5456656a64f4/mf-g3-s76.jpg"
       ],
       "description": [
         "Standing hip exercise for better alignment and muscle involvement",
@@ -2228,9 +2228,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Trainer",
       "condition": "new",
-      "image": "/__l5e/assets-v1/3b7b6749-9235-43cd-adb5-0f90d2b0a061/connexus-edge.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/3b7b6749-9235-43cd-adb5-0f90d2b0a061/connexus-edge.jpg",
       "images": [
-        "/__l5e/assets-v1/3b7b6749-9235-43cd-adb5-0f90d2b0a061/connexus-edge.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/3b7b6749-9235-43cd-adb5-0f90d2b0a061/connexus-edge.jpg"
       ],
       "description": [
         "Accessory storage with multiple attachment points",
@@ -2249,9 +2249,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Trainer",
       "condition": "new",
-      "image": "/__l5e/assets-v1/191397d2-e293-4e2d-b146-8eb40113473b/connexus-functional-trainer.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/191397d2-e293-4e2d-b146-8eb40113473b/connexus-functional-trainer.jpg",
       "images": [
-        "/__l5e/assets-v1/191397d2-e293-4e2d-b146-8eb40113473b/connexus-functional-trainer.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/191397d2-e293-4e2d-b146-8eb40113473b/connexus-functional-trainer.jpg"
       ],
       "description": [
         "Heavy cable resistance for coached or self-guided workouts",
@@ -2269,9 +2269,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Trainer",
       "condition": "new",
-      "image": "/__l5e/assets-v1/6bae068b-b3c4-48fa-876d-1e35b5929353/connexus-hub.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/6bae068b-b3c4-48fa-876d-1e35b5929353/connexus-hub.jpg",
       "images": [
-        "/__l5e/assets-v1/6bae068b-b3c4-48fa-876d-1e35b5929353/connexus-hub.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/6bae068b-b3c4-48fa-876d-1e35b5929353/connexus-hub.jpg"
       ],
       "description": [
         "Single adjustable cable pulley",
@@ -2289,9 +2289,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Trainer",
       "condition": "new",
-      "image": "/__l5e/assets-v1/c318b5bc-b36f-4495-a68e-ed1b667b50db/connexus-crest.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/c318b5bc-b36f-4495-a68e-ed1b667b50db/connexus-crest.jpg",
       "images": [
-        "/__l5e/assets-v1/c318b5bc-b36f-4495-a68e-ed1b667b50db/connexus-crest.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/c318b5bc-b36f-4495-a68e-ed1b667b50db/connexus-crest.jpg"
       ],
       "description": [
         "Two adjustable cable pulleys",
@@ -2309,9 +2309,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Trainer",
       "condition": "new",
-      "image": "/__l5e/assets-v1/cbfe6060-16e4-41d6-b634-61cd7088b2f0/connexus-compact.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/cbfe6060-16e4-41d6-b634-61cd7088b2f0/connexus-compact.jpg",
       "images": [
-        "/__l5e/assets-v1/cbfe6060-16e4-41d6-b634-61cd7088b2f0/connexus-compact.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/cbfe6060-16e4-41d6-b634-61cd7088b2f0/connexus-compact.jpg"
       ],
       "description": [
         "Two height-adjustable training handles",
@@ -2329,9 +2329,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Trainer",
       "condition": "new",
-      "image": "/__l5e/assets-v1/3aaeddd6-664e-41a3-aca0-22398911d2cb/connexus-column.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/3aaeddd6-664e-41a3-aca0-22398911d2cb/connexus-column.jpg",
       "images": [
-        "/__l5e/assets-v1/3aaeddd6-664e-41a3-aca0-22398911d2cb/connexus-column.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/3aaeddd6-664e-41a3-aca0-22398911d2cb/connexus-column.jpg"
       ],
       "description": [
         "Height-adjustable training handle for bands and straps",
@@ -2350,9 +2350,9 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/__l5e/assets-v1/146df579-08ba-47b0-9853-4eb21c5380f2/connexus-step-plus.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/146df579-08ba-47b0-9853-4eb21c5380f2/connexus-step-plus.jpg",
       "images": [
-        "/__l5e/assets-v1/146df579-08ba-47b0-9853-4eb21c5380f2/connexus-step-plus.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/146df579-08ba-47b0-9853-4eb21c5380f2/connexus-step-plus.jpg"
       ],
       "description": [
         "Standard and inverted configurations",
@@ -2371,9 +2371,9 @@
       "category": "Strength Equipment",
       "subcategory": "Storage",
       "condition": "new",
-      "image": "/__l5e/assets-v1/ff72f2e1-c499-43b8-837d-a8b0aa7d283e/connexus-storage-station.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/ff72f2e1-c499-43b8-837d-a8b0aa7d283e/connexus-storage-station.jpg",
       "images": [
-        "/__l5e/assets-v1/ff72f2e1-c499-43b8-837d-a8b0aa7d283e/connexus-storage-station.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/ff72f2e1-c499-43b8-837d-a8b0aa7d283e/connexus-storage-station.jpg"
       ],
       "description": [
         "Two extra-large and two secondary shelves",
@@ -2392,9 +2392,9 @@
       "category": "Strength Equipment",
       "subcategory": "Storage",
       "condition": "new",
-      "image": "/__l5e/assets-v1/bdbef881-b83a-4c9d-b477-e0a6849ff8b1/connexus-storage-cart-3-shelf.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/bdbef881-b83a-4c9d-b477-e0a6849ff8b1/connexus-storage-cart-3-shelf.jpg",
       "images": [
-        "/__l5e/assets-v1/bdbef881-b83a-4c9d-b477-e0a6849ff8b1/connexus-storage-cart-3-shelf.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/bdbef881-b83a-4c9d-b477-e0a6849ff8b1/connexus-storage-cart-3-shelf.jpg"
       ],
       "description": [
         "Three shelves with rubber inserts",
@@ -4081,9 +4081,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "5 lb dumbbell",
@@ -4101,9 +4101,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "10 lb dumbbell",
@@ -4121,9 +4121,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "12 lb dumbbell",
@@ -4141,9 +4141,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "15 lb dumbbell",
@@ -4161,9 +4161,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "20 lb dumbbell",
@@ -4181,9 +4181,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "25 lb dumbbell",
@@ -4201,9 +4201,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "30 lb dumbbell",
@@ -4221,9 +4221,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "35 lb dumbbell",
@@ -4241,9 +4241,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "40 lb dumbbell",
@@ -4261,9 +4261,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "45 lb dumbbell",
@@ -4281,9 +4281,9 @@
       "category": "Strength Equipment",
       "subcategory": "Dumbbells",
       "condition": "new",
-      "image": "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png",
       "images": [
-        "/__l5e/assets-v1/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/eac0a354-227d-4191-a16e-aabd9f3753d2/ader-rubber-coated-dumbbells.png"
       ],
       "description": [
         "50 lb dumbbell",
@@ -4301,9 +4301,9 @@
       "category": "Strength Equipment",
       "subcategory": "Neck Training",
       "condition": "new",
-      "image": "/__l5e/assets-v1/184bdc3d-124d-4294-a04e-1c4d8d8cc691/iron-neck-3-pro-bundle.jpg",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/184bdc3d-124d-4294-a04e-1c4d8d8cc691/iron-neck-3-pro-bundle.jpg",
       "images": [
-        "/__l5e/assets-v1/184bdc3d-124d-4294-a04e-1c4d8d8cc691/iron-neck-3-pro-bundle.jpg"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/184bdc3d-124d-4294-a04e-1c4d8d8cc691/iron-neck-3-pro-bundle.jpg"
       ],
       "description": [
         "Iron Neck 3.0 Pro neck training device",
@@ -4364,9 +4364,9 @@
       "category": "Cardio",
       "subcategory": "Treadmills",
       "condition": "new",
-      "image": "/__l5e/assets-v1/343c4bfd-8aa9-4f78-8bae-54c926567905/matrix-lifestyle-lhr-handrail-kit.png",
+      "image": "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/343c4bfd-8aa9-4f78-8bae-54c926567905/matrix-lifestyle-lhr-handrail-kit.png",
       "images": [
-        "/__l5e/assets-v1/343c4bfd-8aa9-4f78-8bae-54c926567905/matrix-lifestyle-lhr-handrail-kit.png"
+        "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery/catalog-assets/343c4bfd-8aa9-4f78-8bae-54c926567905/matrix-lifestyle-lhr-handrail-kit.png"
       ],
       "description": [
         "Extended-length handrail kit for the Matrix Lifestyle Treadmill",
