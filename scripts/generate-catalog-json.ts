@@ -53,7 +53,7 @@ function toPublicPath(src: string): string {
   if (/^https?:\/\//i.test(src)) return src;
   const clean = src.split("?")[0];
   const asset = clean.match(/^\/__l5e\/assets-v1\/([^/]+)\/(.+)$/);
-  if (asset) return `${ASSET_MIRROR_BASE}${asset[1]}/${asset[2]}`;
+  if (asset) return `/catalog-assets/${asset[1]}/${asset[2]}`;
   return clean.startsWith("/") ? clean : `/${clean}`;
 }
 
