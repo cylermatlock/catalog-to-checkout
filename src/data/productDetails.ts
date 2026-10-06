@@ -35,9 +35,6 @@ import bkMx1161fx_7 from "@/assets/products/bodykore/bk-mx1161fx-7.jpg.asset.jso
 import bkMx1161fx_8 from "@/assets/products/bodykore/bk-mx1161fx-8.jpg.asset.json";
 import bkMx1161fx_9 from "@/assets/products/bodykore/bk-mx1161fx-9.png.asset.json";
 import bkMx1161fx_10 from "@/assets/products/bodykore/bk-mx1161fx-10.png.asset.json";
-import bkMx1161fx_11 from "@/assets/products/bodykore/bk-mx1161fx-11.png.asset.json";
-import bkMx1161fx_12 from "@/assets/products/bodykore/bk-mx1161fx-12.png.asset.json";
-import bkMx1161fx_13 from "@/assets/products/bodykore/bk-mx1161fx-13.png.asset.json";
 import bkMx1162_1 from "@/assets/products/bodykore/bk-mx1162-1.jpg.asset.json";
 import bkMx1162_2 from "@/assets/products/bodykore/bk-mx1162-2.jpg.asset.json";
 import bkMx1162_3 from "@/assets/products/bodykore/bk-mx1162-3.jpg.asset.json";
