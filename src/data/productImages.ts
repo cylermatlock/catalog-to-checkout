@@ -2,6 +2,7 @@ import aderRubberDumbbells from "@/assets/products/ader/rubber-coated-dumbbells.
 import ironNeck3ProBundle from "@/assets/products/ironneck/iron-neck-3-pro-bundle.jpg.asset.json";
 import matrixLhrKit from "@/assets/products/matrix/matrix-lifestyle-lhr-handrail-kit.png.asset.json";
 import phsWcws from "@/assets/products/phs/phs-wcws.png.asset.json";
+import bkMx1162_1 from "@/assets/products/bodykore/bk-mx1162-1.jpg.asset.json";
 import tmsNestedStools from "@/assets/products/tms/tms-720105.png.asset.json";
 
 import fab002502 from "@/assets/products/fab/00-2502.jpg.asset.json";
@@ -48,6 +49,7 @@ export const productImages: Record<string, string> = {
   "857": productAsset("bsw/clin-5-4334.png"),
   "858": phsWcws.url,
   "859": tmsNestedStools.url,
+  "860": bkMx1162_1.url,
   // GMTS Rehab Furniture - individual photos
   "1": productAsset("gmts-3-section-hilo.png"),
   "2": productAsset("gmts-treatment-table-backrest.png"),

@@ -25,6 +25,17 @@ import cxStorageCart3Shelf from "@/assets/products/matrix/connexus-storage-cart-
 import ironNeck3ProBundle from "@/assets/products/ironneck/iron-neck-3-pro-bundle.jpg.asset.json";
 import matrixLhrKit from "@/assets/products/matrix/matrix-lifestyle-lhr-handrail-kit.png.asset.json";
 import phsWcws from "@/assets/products/phs/phs-wcws.png.asset.json";
+import bkMx1162_1 from "@/assets/products/bodykore/bk-mx1162-1.jpg.asset.json";
+import bkMx1162_2 from "@/assets/products/bodykore/bk-mx1162-2.jpg.asset.json";
+import bkMx1162_3 from "@/assets/products/bodykore/bk-mx1162-3.jpg.asset.json";
+import bkMx1162_4 from "@/assets/products/bodykore/bk-mx1162-4.jpg.asset.json";
+import bkMx1162_5 from "@/assets/products/bodykore/bk-mx1162-5.jpg.asset.json";
+import bkMx1162_6 from "@/assets/products/bodykore/bk-mx1162-6.jpg.asset.json";
+import bkMx1162_7 from "@/assets/products/bodykore/bk-mx1162-7.jpg.asset.json";
+import bkMx1162_8 from "@/assets/products/bodykore/bk-mx1162-8.jpg.asset.json";
+import bkMx1162_9 from "@/assets/products/bodykore/bk-mx1162-9.jpg.asset.json";
+import bkMx1162_10 from "@/assets/products/bodykore/bk-mx1162-10.jpg.asset.json";
+import bkMx1162_11 from "@/assets/products/bodykore/bk-mx1162-11.jpg.asset.json";
 import tmsNestedStools from "@/assets/products/tms/tms-720105.png.asset.json";
 
 const STORAGE_BASE =
@@ -17231,6 +17242,15 @@ export const productDetails: Record<string, ProductDetail> = {
     specGroups: [{ title: "Specifications", rows: [{ label: "Pieces", value: "4 nested stools" }, { label: "Construction", value: "Solid oak with carpet tops" }, { label: "Use", value: "Climbing, stepping, balance, and gait training" }] }],
     sourceUrl: "",
     seo: { title: "TMS 720105-001 Nested Climbing Stools | GM Therapy", description: "Set of 4 solid oak nested climbing stools with non-slip carpet tops. Call or add to quote request for pricing." },
+  },
+  "860": {
+    productId: "860", slug: "bodykore-universal-trainer-mx1162", tagline: "All-in-one functional trainer, Smith machine, and half rack in one commercial frame.",
+    overview: ["The BodyKore MX1162 Universal Trainer combines a dual adjustable pulley system, counter-balanced Smith machine, multi-grip pull-up bars, half-rack function, and weight-peg and bar storage in a single unit.", "Built from heavy-gauge rolled steel oval tubing with two 220 lb weight stacks (upgradeable to 340 lb), it is commercial grade and rated for over 1,000 lb. Optional lat seat/leg extension, inverted leg press, dip bar, low row footplate, J-hooks, and landmine attachments expand it to 100+ exercises."],
+    highlights: ["Dual adjustable pulley system with 2 × 220 lb weight stacks", "Counter-balanced Smith machine", "Multi-grip pull-up bars", "Half-rack function with bar hooks and spotters", "Optional lat seat/leg extension and inverted leg press", "Dip bar, accessory, weight-peg, and bar storage"],
+    gallery: [{ src: bkMx1162_1.url, alt: "BodyKore MX1162 Universal Trainer — black frame" }, { src: bkMx1162_2.url, alt: "Universal Trainer — silver frame" }, { src: bkMx1162_3.url, alt: "Universal Trainer front view with Smith bar and seat" }, { src: bkMx1162_4.url, alt: "Universal Trainer three-quarter view" }, { src: bkMx1162_5.url, alt: "Close-up of lat seat, leg pad, and weight stack" }, { src: bkMx1162_6.url, alt: "Dual pulley rear delt exercise" }, { src: bkMx1162_7.url, alt: "Cable kickback using the low pulley" }, { src: bkMx1162_8.url, alt: "Smith machine squat" }, { src: bkMx1162_9.url, alt: "Standing cable hip extension" }, { src: bkMx1162_10.url, alt: "Inverted leg press add-on in use" }, { src: bkMx1162_11.url, alt: "Universal Trainer installed in a home gym" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "Dimensions", value: "91\" × 62\" × 89\"" }, { label: "Unit weight", value: "1,470 lb" }, { label: "Weight stacks", value: "2 × 220 lb (upgradeable to 340 lb)" }, { label: "Footprint", value: "40 sq ft" }, { label: "Frame", value: "Rolled steel oval tubing" }, { label: "Frame color", value: "Black (silver, charcoal, red, blue, white optional)" }, { label: "Adjustable height positions", value: "15" }, { label: "Weight pegs", value: "6" }, { label: "Rated capacity", value: "Over 1,000 lb" }, { label: "Warranty", value: "Lifetime frame and welds; 3 yr moving parts; 1 yr cables/pulleys; 90 days upholstery" }] }],
+    sourceUrl: "https://www.bodykore.com/commercial/product/universal-trainer",
+    seo: { title: "BK MX1162 BodyKore Universal Trainer | GM Therapy", description: "BodyKore Universal Trainer with dual pulleys, Smith machine, and half rack. Call or add to quote request for pricing." },
   },
 };
 

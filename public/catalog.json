@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T21:34:29.423Z",
+  "generatedAt": "2026-10-06T19:13:29.454Z",
   "products": [
     {
       "id": "1",
@@ -4415,6 +4415,27 @@
         "Doubles as stepping stones or foot stools in gait and balance training",
         "Sturdy hardwood construction with reinforced corners",
         "Compact storage — the full set nests into one small footprint"
+      ]
+    },
+    {
+      "id": "860",
+      "sku": "BK MX1162",
+      "name": "BodyKore Universal Trainer",
+      "brand": "BodyKore",
+      "category": "Strength Equipment",
+      "subcategory": "Racks & Platforms",
+      "condition": "new",
+      "image": "/catalog-assets/600c2d43-e49e-4c89-ba83-aa12c010add9/bk-mx1162-1.jpg",
+      "images": [
+        "/catalog-assets/600c2d43-e49e-4c89-ba83-aa12c010add9/bk-mx1162-1.jpg"
+      ],
+      "description": [
+        "All-in-one functional trainer, Smith machine, and half rack",
+        "Dual adjustable pulley system with 2 × 220 lb weight stacks (upgradeable to 340 lb)",
+        "Counter-balanced Smith machine and multi-grip pull-up bars",
+        "Heavy-gauge rolled steel frame rated for over 1,000 lb",
+        "Optional lat seat/leg extension, inverted leg press, and dip bar attachments",
+        "91\" × 62\" × 89\" — 40 sq ft footprint"
       ]
     },
     {
