@@ -26,6 +26,18 @@ import ironNeck3ProBundle from "@/assets/products/ironneck/iron-neck-3-pro-bundl
 import matrixLhrKit from "@/assets/products/matrix/matrix-lifestyle-lhr-handrail-kit.png.asset.json";
 import phsWcws from "@/assets/products/phs/phs-wcws.png.asset.json";
 import bkMx1161fx_1 from "@/assets/products/bodykore/bk-mx1161fx-1.jpg.asset.json";
+import bkMx1161fx_2 from "@/assets/products/bodykore/bk-mx1161fx-2.jpg.asset.json";
+import bkMx1161fx_3 from "@/assets/products/bodykore/bk-mx1161fx-3.jpg.asset.json";
+import bkMx1161fx_4 from "@/assets/products/bodykore/bk-mx1161fx-4.jpg.asset.json";
+import bkMx1161fx_5 from "@/assets/products/bodykore/bk-mx1161fx-5.jpg.asset.json";
+import bkMx1161fx_6 from "@/assets/products/bodykore/bk-mx1161fx-6.jpg.asset.json";
+import bkMx1161fx_7 from "@/assets/products/bodykore/bk-mx1161fx-7.jpg.asset.json";
+import bkMx1161fx_8 from "@/assets/products/bodykore/bk-mx1161fx-8.jpg.asset.json";
+import bkMx1161fx_9 from "@/assets/products/bodykore/bk-mx1161fx-9.png.asset.json";
+import bkMx1161fx_10 from "@/assets/products/bodykore/bk-mx1161fx-10.png.asset.json";
+import bkMx1161fx_11 from "@/assets/products/bodykore/bk-mx1161fx-11.png.asset.json";
+import bkMx1161fx_12 from "@/assets/products/bodykore/bk-mx1161fx-12.png.asset.json";
+import bkMx1161fx_13 from "@/assets/products/bodykore/bk-mx1161fx-13.png.asset.json";
 import bkMx1162_1 from "@/assets/products/bodykore/bk-mx1162-1.jpg.asset.json";
 import bkMx1162_2 from "@/assets/products/bodykore/bk-mx1162-2.jpg.asset.json";
 import bkMx1162_3 from "@/assets/products/bodykore/bk-mx1162-3.jpg.asset.json";
@@ -17247,7 +17259,7 @@ export const productDetails: Record<string, ProductDetail> = {
     productId: "861", slug: "bodykore-dynamic-trainer-mx1161fx", tagline: "Compact all-in-one dual pulley trainer, half rack, and pull-up station.",
     overview: ["The BodyKore MX1161FX Dynamic Trainer combines a dual pulley system with multiple attachments so one unit works as a squat rack, bench press station, lat pulldown, multi-grip pull-up and dip station, Olympic bar and weight storage, band pegs, and landmine.", "Built from heavy-duty rolled steel oval tubing with two 220 lb weight stacks (upgradeable to 340 lb), it fits a 20 sq ft footprint and supports 100+ exercises. Unlike the Universal Trainer, it has no integrated Smith machine."],
     highlights: ["Dual pulley system with 2 × 220 lb weight stacks", "Half-rack function with spotter arms and attachment hooks", "Multi-grip pull-up handles", "Accessory, weight-peg, and Olympic bar storage", "15 adjustable pulley height positions", "100+ full-body exercises"],
-    gallery: [{ src: bkMx1161fx_1.url, alt: "BodyKore MX1161FX Dynamic Trainer" }],
+    gallery: [{ src: bkMx1161fx_1.url, alt: "BodyKore MX1161FX Dynamic Trainer — black frame" }, { src: bkMx1161fx_2.url, alt: "Dynamic Trainer — alternate view" }, { src: bkMx1161fx_3.url, alt: "Dynamic Trainer in use — cable exercise" }, { src: bkMx1161fx_4.url, alt: "Dynamic Trainer in use — pull-up station" }, { src: bkMx1161fx_5.url, alt: "Dynamic Trainer in use — half rack" }, { src: bkMx1161fx_6.url, alt: "Dynamic Trainer in use — lat pulldown" }, { src: bkMx1161fx_7.url, alt: "Dynamic Trainer in use — low row" }, { src: bkMx1161fx_8.url, alt: "Dynamic Trainer in use — dip station" }, { src: bkMx1161fx_9.url, alt: "Dynamic Trainer — silver frame" }, { src: bkMx1161fx_10.url, alt: "Dynamic Trainer — charcoal frame" }, { src: bkMx1161fx_11.url, alt: "Dynamic Trainer — red frame" }, { src: bkMx1161fx_12.url, alt: "Dynamic Trainer — blue frame" }, { src: bkMx1161fx_13.url, alt: "Dynamic Trainer — white frame" }],
     specGroups: [{ title: "Included Attachments", rows: [{ label: "Lat seat", value: "MX1165 — included" }, { label: "Dip bar", value: "MX1161 — included" }, { label: "Low row footplate", value: "MX1192 — included" }, { label: "J-hooks", value: "Included" }, { label: "Landmine", value: "Included" }] }, { title: "Specifications", rows: [{ label: "Dimensions", value: "64\" × 62\" × 89\"" }, { label: "Unit weight", value: "1,035 lb" }, { label: "Weight stacks", value: "2 × 220 lb (upgradeable to 340 lb)" }, { label: "Footprint", value: "20 sq ft" }, { label: "Frame", value: "Rolled steel oval tubing" }, { label: "Frame color", value: "Black (silver, charcoal, red, blue, white optional)" }, { label: "Adjustable height positions", value: "15" }, { label: "Weight pegs", value: "6" }, { label: "Assembly time", value: "About 2 hours" }, { label: "Warranty", value: "Lifetime frame and welds; 3 yr moving parts; 1 yr cables/pulleys; 90 days upholstery" }] }],
     sourceUrl: "https://www.bodykore.com/commercial/product/mx1161fx-all-in-one-versatile-unit",
     seo: { title: "BK MX1161FX BodyKore Dynamic Trainer | GM Therapy", description: "BodyKore Dynamic Trainer all-in-one dual pulley unit with half rack. Call or add to quote request for pricing." },
