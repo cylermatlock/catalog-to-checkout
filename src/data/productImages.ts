@@ -1,3 +1,9 @@
+import img_am850 from "@/assets/products/new/am850.jpg.asset.json";
+import img_amba200 from "@/assets/products/new/amba200.jpg.asset.json";
+import img_amba550 from "@/assets/products/new/amba550.jpg.asset.json";
+import img_bkgr614 from "@/assets/products/new/bkgr614.jpg.asset.json";
+import img_cd5600 from "@/assets/products/new/cd5600.jpg.asset.json";
+import img_cd7107 from "@/assets/products/new/cd7107.jpg.asset.json";
 import aderRubberDumbbells from "@/assets/products/ader/rubber-coated-dumbbells.png.asset.json";
 import ironNeck3ProBundle from "@/assets/products/ironneck/iron-neck-3-pro-bundle.jpg.asset.json";
 import matrixLhrKit from "@/assets/products/matrix/matrix-lifestyle-lhr-handrail-kit.png.asset.json";
@@ -52,6 +58,12 @@ export const productImages: Record<string, string> = {
   "859": tmsNestedStools.url,
   "860": bkMx1162_1.url,
   "861": bkMx1161fx_1.url,
+  "862": img_am850.url,
+  "863": img_amba200.url,
+  "864": img_amba550.url,
+  "865": img_bkgr614.url,
+  "866": img_cd5600.url,
+  "867": img_cd7107.url,
   // GMTS Rehab Furniture - individual photos
   "1": productAsset("gmts-3-section-hilo.png"),
   "2": productAsset("gmts-treatment-table-backrest.png"),
