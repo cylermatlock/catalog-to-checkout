@@ -1,3 +1,10 @@
+import fabNew868 from "@/assets/products/fab/10-1620X.jpg.asset.json";
+import fabNew869 from "@/assets/products/fab/10-2032.jpg.asset.json";
+import fabNew870 from "@/assets/products/fab/10-3331-2.jpg.asset.json";
+import fabNew871 from "@/assets/products/fab/10-5099.jpg.asset.json";
+import fabNew872 from "@/assets/products/fab/10-5109DS.jpg.asset.json";
+import fabNew873 from "@/assets/products/fab/10-5869.jpg.asset.json";
+import fabNew874 from "@/assets/products/fab/10-6743-set.jpg.asset.json";
 import img_am850 from "@/assets/products/new/am850.jpg.asset.json";
 import img_amba200 from "@/assets/products/new/amba200.jpg.asset.json";
 import img_amba550 from "@/assets/products/new/amba550.jpg.asset.json";
@@ -39,6 +46,14 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "868": fabNew868.url,
+  "869": fabNew869.url,
+  "870": fabNew870.url,
+  "871": fabNew871.url,
+  "872": fabNew872.url,
+  "873": fabNew873.url,
+  "874": fabNew874.url,
+
   // Shared user-supplied Ader rubber dumbbell range photo
   "842": aderRubberDumbbells.url,
   "843": aderRubberDumbbells.url,
