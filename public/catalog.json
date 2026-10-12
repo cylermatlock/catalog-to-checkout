@@ -1,6 +1,126 @@
 {
-  "generatedAt": "2026-10-12T17:14:22.511Z",
+  "generatedAt": "2026-10-12T17:54:19.941Z",
   "products": [
+    {
+      "id": "868",
+      "sku": "FAB 10-1620X",
+      "name": "CanDo Slim WaTE Bar Lite Set — 5-Piece (1, 2, 3, 4, 5 lb)",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Cuff Weights",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "5-piece Slim WaTE Bar Lite set",
+        "Includes one each: 1, 2, 3, 4, and 5 lb bars",
+        "Weighted exercise bars for strengthening and range-of-motion exercises",
+        "Sold as one set"
+      ]
+    },
+    {
+      "id": "869",
+      "sku": "FAB 10-2032",
+      "name": "CanDo Balance Board Combo — 15\" x 18\", 2\" Height, Green",
+      "brand": "CanDo",
+      "category": "Balance Products",
+      "subcategory": "Balance",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Combination wobble and rocker balance board",
+        "15\" x 18\" platform",
+        "2\" height — Green",
+        "For balance, coordination, and proprioception exercises"
+      ]
+    },
+    {
+      "id": "870",
+      "sku": "FAB 10-3331-2",
+      "name": "The Adjustable Cuff Ankle Weight — 5 lb, Green, Pair",
+      "brand": "Fabrication Enterprises",
+      "category": "Clinical Supplies",
+      "subcategory": "Cuff Weights",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Pair of green adjustable ankle cuff weights",
+        "5 lb maximum per cuff — 10 lb total for the pair",
+        "Removable 0.5 lb inserts adjust the exercise load",
+        "For progressive lower-extremity strengthening"
+      ]
+    },
+    {
+      "id": "871",
+      "sku": "FAB 10-5099",
+      "name": "CanDo WalSlide Original Exercise Station — 6' Vertical with Overhead Section",
+      "brand": "CanDo",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Original WalSlide wall-mounted exercise station",
+        "6' vertical section with overhead section",
+        "Adjustable attachment positioning for exercise resistance",
+        "Space-saving wall-mounted design"
+      ]
+    },
+    {
+      "id": "872",
+      "sku": "FAB 10-5109DS",
+      "name": "Web-Slide Exercise Rail — Stainless Steel, 3 Rails, Deluxe Set",
+      "brand": "Fabrication Enterprises",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Deluxe Web-Slide exercise rail set",
+        "Includes three 28\" stainless steel rails — 84\" total",
+        "Wall-mounted attachment points for resistance exercise",
+        "Compact rail format for therapy and exercise spaces"
+      ]
+    },
+    {
+      "id": "873",
+      "sku": "FAB 10-5869",
+      "name": "Sup-R Tubing Latex-Free Exercise Tubing — 100' Rolls, 5-Piece Set",
+      "brand": "Fabrication Enterprises",
+      "category": "Clinical Supplies",
+      "subcategory": "Bands & Tubing",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Latex-free exercise tubing dispenser roll set",
+        "5 rolls, each 100' long",
+        "Includes one each: yellow, red, green, blue, and black",
+        "Color-coded resistance for progressive strengthening",
+        "Cut tubing to the required exercise length"
+      ]
+    },
+    {
+      "id": "874",
+      "sku": "FAB 10-6743",
+      "name": "CanDo Fabric Loop Plus — 12\" Single Loops, Set of 3",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Bands & Tubing",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Set of three pre-made Fabric Loop Plus exercise loops",
+        "12\" long single loops",
+        "Includes yellow, red, and green",
+        "Fabric resistance loops for strengthening exercises"
+      ]
+    },
     {
       "id": "1",
       "sku": "GMTS 3HL",
