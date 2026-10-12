@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T14:25:04.258Z",
+  "generatedAt": "2026-10-12T14:27:20.642Z",
   "products": [
     {
       "id": "1",
@@ -1095,7 +1095,7 @@
     {
       "id": "67",
       "sku": "CD 7200",
-      "name": "SHUTTLE SYSTEMS TNT LEG PRESS",
+      "name": "Shuttle TNT Leg Press, No Upper Body Towers",
       "brand": "Shuttle Systems",
       "category": "Strength Equipment",
       "subcategory": "Shuttle Systems",
@@ -1107,11 +1107,11 @@
       ],
       "description": [
         "24\" seat height",
+        "Six-position adjustable backrest",
         "Adjustable hand grips",
-        "PNF towers & pulley systems",
         "All aluminum construction",
-        "Resistance from 6-300 lbs",
-        "350 lb weight capacity"
+        "Upper body towers sold separately (CD 7107)",
+        "450 lb carriage capacity"
       ]
     },
     {
@@ -4436,6 +4436,131 @@
         "Includes lat seat, dip bar, low row footplate, J-hooks, and landmine",
         "Olympic bar, plate, and accessory storage with band pegs",
         "64\" × 62\" × 89\" — 20 sq ft footprint"
+      ]
+    },
+    {
+      "id": "862",
+      "sku": "AM 850",
+      "name": "Armedica AM-850 Flexion Stool",
+      "brand": "Armedica",
+      "category": "Rehab Furniture",
+      "subcategory": "Stools",
+      "condition": "new",
+      "image": "/catalog-assets/2b6326ee-c22c-4e06-9364-dd502947a237/am850.jpg",
+      "images": [
+        "/catalog-assets/2b6326ee-c22c-4e06-9364-dd502947a237/am850.jpg"
+      ],
+      "description": [
+        "Companion stool for Armedica traction tables",
+        "Height adjustable 12\"–18\"",
+        "12\"W x 19\"L top",
+        "400 lb load capacity",
+        "Powder-coated steel base",
+        "34 oz heavy-duty vinyl with Permablok 3® bacterial protection"
+      ]
+    },
+    {
+      "id": "863",
+      "sku": "AM BA200",
+      "name": "Armedica AM-BA200 2-Section Hi-Lo Table, Elevating Foot Bars",
+      "brand": "Armedica",
+      "category": "Rehab Furniture",
+      "subcategory": "Hi-Lo Tables",
+      "condition": "new",
+      "image": "/catalog-assets/bad91f46-0afe-4c72-b793-887288b05a25/amba200.jpg",
+      "images": [
+        "/catalog-assets/bad91f46-0afe-4c72-b793-887288b05a25/amba200.jpg"
+      ],
+      "description": [
+        "2-section top with bar-activated hi-lo control",
+        "Dual foot bar height adjustment from anywhere around the table",
+        "Height adjusts 18\"–37\"; 27\"W x 76\"L",
+        "Head section +45° to -90°",
+        "500 lb load capacity",
+        "34 oz heavy-duty vinyl with Permablok 3® protection",
+        "(4) total locking casters, ADA compliant"
+      ]
+    },
+    {
+      "id": "864",
+      "sku": "AM BA550",
+      "name": "Armedica AM-BA550 27\"W 5-Section Table with Tilt Down Armrests, Bar Activated Foot Controls — Imperial Blue",
+      "brand": "Armedica",
+      "category": "Rehab Furniture",
+      "subcategory": "Hi-Lo Tables",
+      "condition": "new",
+      "image": "/catalog-assets/e91bdc3b-ade5-4225-a18d-36c9e35844b9/amba550.jpg",
+      "images": [
+        "/catalog-assets/e91bdc3b-ade5-4225-a18d-36c9e35844b9/amba550.jpg"
+      ],
+      "description": [
+        "27\"W 5-section top with tilt-down armrests",
+        "Bar-activated dual foot bar hi-lo control",
+        "Imperial Blue upholstery",
+        "Height adjusts 18\"–37\"; 27\"W x 76\"L",
+        "Head +45° to -90°, lower extremity 0–78°, armrests +45° to -90°",
+        "500 lb load capacity",
+        "(4) total locking casters, ADA compliant"
+      ]
+    },
+    {
+      "id": "865",
+      "sku": "BK GR614",
+      "name": "BodyKore GR614 Seated Leg Press",
+      "brand": "BodyKore",
+      "category": "Strength Equipment",
+      "subcategory": "Selectorized",
+      "condition": "new",
+      "image": "/catalog-assets/a68e3396-d423-4854-abf3-87cf211bc303/bkgr614.jpg",
+      "images": [
+        "/catalog-assets/a68e3396-d423-4854-abf3-87cf211bc303/bkgr614.jpg"
+      ],
+      "description": [
+        "Isolation Series selectorized seated leg press",
+        "Linear bearing system for smooth movement",
+        "Oversized non-slip foot plate — leg press and calf extension",
+        "Walk-through entry and multiple seat positions",
+        "3 mm rolled steel welded frame, marine-grade cushions",
+        "70\" x 44\" x 73\""
+      ]
+    },
+    {
+      "id": "866",
+      "sku": "CD 5600",
+      "name": "Shuttle Recovery Senior Plus, Includes PNF Towers",
+      "brand": "Shuttle Systems",
+      "category": "Strength Equipment",
+      "subcategory": "Shuttle Systems",
+      "condition": "new",
+      "image": "/catalog-assets/993a9046-4fea-49fa-a092-50aee800dc91/cd5600.jpg",
+      "images": [
+        "/catalog-assets/993a9046-4fea-49fa-a092-50aee800dc91/cd5600.jpg"
+      ],
+      "description": [
+        "Supine leg press with PNF towers & pulley system",
+        "Up to 300 lbs resistance at full extension",
+        "600 lb patient weight capacity",
+        "Wide 24\" x 48\" backrest for bariatric & senior patients",
+        "Foot supports, carriage lockdown, foam back wedge, and wobble board",
+        "31\" x 98\" footprint"
+      ]
+    },
+    {
+      "id": "867",
+      "sku": "CD 7107",
+      "name": "Shuttle TNT Upper Body Towers & PNF Pulley System",
+      "brand": "Shuttle Systems",
+      "category": "Strength Equipment",
+      "subcategory": "Shuttle Systems",
+      "condition": "new",
+      "image": "/catalog-assets/41741d5f-88a0-4e74-9c8a-f789f2577bfe/cd7107.jpg",
+      "images": [
+        "/catalog-assets/41741d5f-88a0-4e74-9c8a-f789f2577bfe/cd7107.jpg"
+      ],
+      "description": [
+        "Upper body tower upgrade for the Shuttle TNT",
+        "Includes towers, pulleys, rope, handles, and hardware",
+        "Adds PNF pulley exercises to the TNT leg press"
       ]
     },
     {
