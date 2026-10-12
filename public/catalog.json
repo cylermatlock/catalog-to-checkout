@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T17:54:19.941Z",
+  "generatedAt": "2026-10-12T18:00:20.992Z",
   "products": [
     {
       "id": "868",
@@ -9,8 +9,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Cuff Weights",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/db2a0b75-b506-4f95-9685-a51d14f4f354/10-1620X.jpg",
+      "images": [
+        "/catalog-assets/db2a0b75-b506-4f95-9685-a51d14f4f354/10-1620X.jpg"
+      ],
       "description": [
         "5-piece Slim WaTE Bar Lite set",
         "Includes one each: 1, 2, 3, 4, and 5 lb bars",
@@ -26,8 +28,10 @@
       "category": "Balance Products",
       "subcategory": "Balance",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/1abda005-540c-4d32-b633-6169d2d5f130/10-2032.jpg",
+      "images": [
+        "/catalog-assets/1abda005-540c-4d32-b633-6169d2d5f130/10-2032.jpg"
+      ],
       "description": [
         "Combination wobble and rocker balance board",
         "15\" x 18\" platform",
@@ -43,8 +47,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Cuff Weights",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/5161afbf-56bc-40f6-94b3-79ef907ced62/10-3331-2.jpg",
+      "images": [
+        "/catalog-assets/5161afbf-56bc-40f6-94b3-79ef907ced62/10-3331-2.jpg"
+      ],
       "description": [
         "Pair of green adjustable ankle cuff weights",
         "5 lb maximum per cuff — 10 lb total for the pair",
@@ -60,8 +66,10 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/09f7a81d-29ce-4fb6-be9a-967a8df47132/10-5099.jpg",
+      "images": [
+        "/catalog-assets/09f7a81d-29ce-4fb6-be9a-967a8df47132/10-5099.jpg"
+      ],
       "description": [
         "Original WalSlide wall-mounted exercise station",
         "6' vertical section with overhead section",
@@ -77,8 +85,10 @@
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/e16eb33e-fca5-4f20-8e64-2278a442c95a/10-5109DS.jpg",
+      "images": [
+        "/catalog-assets/e16eb33e-fca5-4f20-8e64-2278a442c95a/10-5109DS.jpg"
+      ],
       "description": [
         "Deluxe Web-Slide exercise rail set",
         "Includes three 28\" stainless steel rails — 84\" total",
@@ -94,8 +104,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Bands & Tubing",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/4524ed95-23e2-4a57-ba12-0100fda0c058/10-5869.jpg",
+      "images": [
+        "/catalog-assets/4524ed95-23e2-4a57-ba12-0100fda0c058/10-5869.jpg"
+      ],
       "description": [
         "Latex-free exercise tubing dispenser roll set",
         "5 rolls, each 100' long",
@@ -112,8 +124,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Bands & Tubing",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/c2fedd1b-6359-403e-b6c5-69306811f1df/10-6743-set.jpg",
+      "images": [
+        "/catalog-assets/c2fedd1b-6359-403e-b6c5-69306811f1df/10-6743-set.jpg"
+      ],
       "description": [
         "Set of three pre-made Fabric Loop Plus exercise loops",
         "12\" long single loops",
