@@ -1,3 +1,9 @@
+import img_am850 from "@/assets/products/new/am850.jpg.asset.json";
+import img_amba200 from "@/assets/products/new/amba200.jpg.asset.json";
+import img_amba550 from "@/assets/products/new/amba550.jpg.asset.json";
+import img_bkgr614 from "@/assets/products/new/bkgr614.jpg.asset.json";
+import img_cd5600 from "@/assets/products/new/cd5600.jpg.asset.json";
+import img_cd7107 from "@/assets/products/new/cd7107.jpg.asset.json";
 import aderRubberDumbbells from "@/assets/products/ader/rubber-coated-dumbbells.png.asset.json";
 // Extended product detail content. Keyed by product.id from products.ts
 // Only products with an entry here get a "View Details" page.
@@ -17251,6 +17257,54 @@ export const productDetails: Record<string, ProductDetail> = {
     specGroups: [{ title: "Specifications", rows: [{ label: "Pieces", value: "4 nested stools" }, { label: "Construction", value: "Solid oak with carpet tops" }, { label: "Use", value: "Climbing, stepping, balance, and gait training" }] }],
     sourceUrl: "",
     seo: { title: "TMS 720105-001 Nested Climbing Stools | GM Therapy", description: "Set of 4 solid oak nested climbing stools with non-slip carpet tops. Call or add to quote request for pricing." },
+  },
+  "862": {
+    productId: "862", slug: "armedica-am-850-flexion-stool", tagline: "Height-adjustable flexion stool for Armedica traction tables.",
+    overview: ["Height-adjustable flexion stool for Armedica traction tables."],
+    highlights: [],
+    gallery: [{ src: img_am850.url, alt: "AM 850 Armedica Flexion Stool" }],
+    sourceUrl: "https://www.armedicamfg.com/products/_clinical-accessories/am850-flexion-stool",
+    seo: { title: "AM 850 Armedica Flexion Stool | GM Therapy", description: "Height-adjustable flexion stool for Armedica traction tables. Call or add to quote request for pricing." },
+  },
+  "863": {
+    productId: "863", slug: "armedica-am-ba200-hi-lo-table", tagline: "2-section bar-activated hi-lo treatment table with elevating foot bars.",
+    overview: ["2-section bar-activated hi-lo treatment table with elevating foot bars."],
+    highlights: [],
+    gallery: [{ src: img_amba200.url, alt: "AM BA200 Armedica 2-Section Hi-Lo Table" }],
+    sourceUrl: "https://www.armedicamfg.com/products/_treatment-tables/am-ba-200-treatment-table",
+    seo: { title: "AM BA200 Armedica 2-Section Hi-Lo Table | GM Therapy", description: "2-section bar-activated hi-lo treatment table with elevating foot bars. Call or add to quote request for pricing." },
+  },
+  "864": {
+    productId: "864", slug: "armedica-am-ba550-5-section-table", tagline: "27\"W 5-section bar-activated table with tilt-down armrests.",
+    overview: ["27\"W 5-section bar-activated table with tilt-down armrests."],
+    highlights: [],
+    gallery: [{ src: img_amba550.url, alt: "AM BA550 Armedica 5-Section Table" }],
+    sourceUrl: "https://www.armedicamfg.com/products/_treatment-tables/am-ba-550-treatment-table",
+    seo: { title: "AM BA550 Armedica 5-Section Table | GM Therapy", description: "27\"W 5-section bar-activated table with tilt-down armrests. Call or add to quote request for pricing." },
+  },
+  "865": {
+    productId: "865", slug: "bodykore-gr614-seated-leg-press", tagline: "Commercial selectorized seated leg press with calf extension.",
+    overview: ["Commercial selectorized seated leg press with calf extension."],
+    highlights: [],
+    gallery: [{ src: img_bkgr614.url, alt: "BK GR614 BodyKore Seated Leg Press" }],
+    sourceUrl: "https://www.bodykore.com/product/isolation-series-seated-leg-press-commercial-selectorized-strength-gr614",
+    seo: { title: "BK GR614 BodyKore Seated Leg Press | GM Therapy", description: "Commercial selectorized seated leg press with calf extension. Call or add to quote request for pricing." },
+  },
+  "866": {
+    productId: "866", slug: "shuttle-recovery-senior-plus-5600", tagline: "Supine leg press with PNF towers for senior and bariatric patients.",
+    overview: ["Supine leg press with PNF towers for senior and bariatric patients."],
+    highlights: [],
+    gallery: [{ src: img_cd5600.url, alt: "CD 5600 Shuttle Recovery Senior Plus" }],
+    sourceUrl: "https://www.shuttlesystems.com/products/recovery-senior-plus",
+    seo: { title: "CD 5600 Shuttle Recovery Senior Plus | GM Therapy", description: "Supine leg press with PNF towers for senior and bariatric patients. Call or add to quote request for pricing." },
+  },
+  "867": {
+    productId: "867", slug: "shuttle-tnt-towers-7107", tagline: "Upper body towers and PNF pulley system for the Shuttle TNT.",
+    overview: ["Upper body towers and PNF pulley system for the Shuttle TNT."],
+    highlights: [],
+    gallery: [{ src: img_cd7107.url, alt: "CD 7107 Shuttle TNT Towers & PNF Pulley System" }],
+    sourceUrl: "https://www.shuttlesystems.com/products/7107-tnt-towers-only",
+    seo: { title: "CD 7107 Shuttle TNT Towers & PNF Pulley System | GM Therapy", description: "Upper body towers and PNF pulley system for the Shuttle TNT. Call or add to quote request for pricing." },
   },
   "861": {
     productId: "861", slug: "bodykore-dynamic-trainer-mx1161fx", tagline: "Compact all-in-one dual pulley trainer, half rack, and pull-up station.",
