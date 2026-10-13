@@ -1,16 +1,18 @@
 {
-  "generatedAt": "2026-10-13T01:18:29.086Z",
+  "generatedAt": "2026-10-13T22:32:15.161Z",
   "products": [
     {
       "id": "875",
-      "sku": "FAB 10-6745",
+      "sku": "FAB 10-6747",
       "name": "CanDo Fabric Loop Plus — 18\" Single Loops, Set of 3",
       "brand": "CanDo",
       "category": "Clinical Supplies",
       "subcategory": "Bands & Tubing",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/5decae60-479b-46f8-82d9-454a844c4e56/10-6747.jpg",
+      "images": [
+        "/catalog-assets/5decae60-479b-46f8-82d9-454a844c4e56/10-6747.jpg"
+      ],
       "description": [
         "Set of three pre-made Fabric Loop Plus exercise loops",
         "18\" long single loops",
@@ -26,8 +28,10 @@
       "category": "Strength Equipment",
       "subcategory": "Total Gym",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/139ad3a7-8513-43c5-86ce-63a83d0495aa/10-7215.jpg",
+      "images": [
+        "/catalog-assets/139ad3a7-8513-43c5-86ce-63a83d0495aa/10-7215.jpg"
+      ],
       "description": [
         "Total Gym ELEVATE Jump exercise trainer",
         "Incline glideboard design",
@@ -43,8 +47,10 @@
       "category": "Strength Equipment",
       "subcategory": "Total Gym",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/d1041e73-fb5e-4f73-a363-05936c39490b/10-7222.jpg",
+      "images": [
+        "/catalog-assets/d1041e73-fb5e-4f73-a363-05936c39490b/10-7222.jpg"
+      ],
       "description": [
         "Total Gym Recovery Encompass",
         "Clinical Complete Package",
@@ -60,8 +66,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Acupuncture Needles",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/377cabc5-8c7a-4e6d-a2f3-c0eadb1dbf4a/11-0615.jpg",
+      "images": [
+        "/catalog-assets/377cabc5-8c7a-4e6d-a2f3-c0eadb1dbf4a/11-0615.jpg"
+      ],
       "description": [
         "SEIRIN J-Type acupuncture needles",
         "Size 5 — 0.25 mm diameter",
@@ -77,8 +85,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Acupuncture Needles",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/dc6edea4-ab8d-42d7-813f-ecf17c085a40/11-0620.jpg",
+      "images": [
+        "/catalog-assets/dc6edea4-ab8d-42d7-813f-ecf17c085a40/11-0620.jpg"
+      ],
       "description": [
         "SEIRIN J-Type acupuncture needles",
         "Size 8 — 0.30 mm diameter",
@@ -94,8 +104,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Acupuncture Needles",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/81dc5ba5-8677-428b-b3a0-c5f055a6ff48/11-0621.jpg",
+      "images": [
+        "/catalog-assets/81dc5ba5-8677-428b-b3a0-c5f055a6ff48/11-0621.jpg"
+      ],
       "description": [
         "SEIRIN J-Type acupuncture needles",
         "Size 8 — 0.30 mm diameter",

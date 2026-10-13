@@ -31,7 +31,7 @@ export const categories = [
 
 export const products: Product[] = [
   // FAB fabric loops, Total Gym, and SEIRIN needles
-  { id: "875", name: "CanDo Fabric Loop Plus — 18\" Single Loops, Set of 3", category: "Clinical Supplies", subcategory: "Bands & Tubing", sku: "FAB 10-6745", description: ["Set of three pre-made Fabric Loop Plus exercise loops", "18\" long single loops", "Includes green, blue, and black", "Fabric resistance loops for strengthening exercises"] },
+  { id: "875", name: "CanDo Fabric Loop Plus — 18\" Single Loops, Set of 3", category: "Clinical Supplies", subcategory: "Bands & Tubing", sku: "FAB 10-6747", description: ["Set of three pre-made Fabric Loop Plus exercise loops", "18\" long single loops", "Includes green, blue, and black", "Fabric resistance loops for strengthening exercises"] },
   { id: "876", name: "Total Gym ELEVATE Jump", category: "Strength Equipment", subcategory: "Total Gym", sku: "FAB 10-7215", description: ["Total Gym ELEVATE Jump exercise trainer", "Incline glideboard design", "Designed for lower-body jumping and squat exercises", "Call or Add to Quote Request for pricing"] },
   { id: "877", name: "Total Gym Recovery Encompass — Clinical Complete Package", category: "Strength Equipment", subcategory: "Total Gym", sku: "FAB 10-7222", description: ["Total Gym Recovery Encompass", "Clinical Complete Package", "Incline body-weight resistance training system", "Call or Add to Quote Request for pricing"] },
   { id: "878", name: "SEIRIN J-Type Acupuncture Needles — Size 5, 0.25 mm x 40 mm, Box of 100", category: "Clinical Supplies", subcategory: "Acupuncture Needles", sku: "FAB 11-0615", description: ["SEIRIN J-Type acupuncture needles", "Size 5 — 0.25 mm diameter", "40 mm needle length", "Box of 100 needles"] },

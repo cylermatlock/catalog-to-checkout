@@ -3,7 +3,7 @@ import { products } from "@/data/products";
 
 describe("October 13 FAB additions", () => {
   it.each([
-    ["875", "FAB 10-6745"],
+    ["875", "FAB 10-6747"],
     ["876", "FAB 10-7215"],
     ["877", "FAB 10-7222"],
     ["878", "FAB 11-0615"],
