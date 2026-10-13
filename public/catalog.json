@@ -1,6 +1,108 @@
 {
-  "generatedAt": "2026-10-12T18:00:20.992Z",
+  "generatedAt": "2026-10-13T01:18:29.086Z",
   "products": [
+    {
+      "id": "875",
+      "sku": "FAB 10-6745",
+      "name": "CanDo Fabric Loop Plus — 18\" Single Loops, Set of 3",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Bands & Tubing",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Set of three pre-made Fabric Loop Plus exercise loops",
+        "18\" long single loops",
+        "Includes green, blue, and black",
+        "Fabric resistance loops for strengthening exercises"
+      ]
+    },
+    {
+      "id": "876",
+      "sku": "FAB 10-7215",
+      "name": "Total Gym ELEVATE Jump",
+      "brand": "Total Gym",
+      "category": "Strength Equipment",
+      "subcategory": "Total Gym",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Total Gym ELEVATE Jump exercise trainer",
+        "Incline glideboard design",
+        "Designed for lower-body jumping and squat exercises",
+        "Call or Add to Quote Request for pricing"
+      ]
+    },
+    {
+      "id": "877",
+      "sku": "FAB 10-7222",
+      "name": "Total Gym Recovery Encompass — Clinical Complete Package",
+      "brand": "Total Gym",
+      "category": "Strength Equipment",
+      "subcategory": "Total Gym",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Total Gym Recovery Encompass",
+        "Clinical Complete Package",
+        "Incline body-weight resistance training system",
+        "Call or Add to Quote Request for pricing"
+      ]
+    },
+    {
+      "id": "878",
+      "sku": "FAB 11-0615",
+      "name": "SEIRIN J-Type Acupuncture Needles — Size 5, 0.25 mm x 40 mm, Box of 100",
+      "brand": "SEIRIN",
+      "category": "Clinical Supplies",
+      "subcategory": "Acupuncture Needles",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "SEIRIN J-Type acupuncture needles",
+        "Size 5 — 0.25 mm diameter",
+        "40 mm needle length",
+        "Box of 100 needles"
+      ]
+    },
+    {
+      "id": "879",
+      "sku": "FAB 11-0620",
+      "name": "SEIRIN J-Type Acupuncture Needles — Size 8, 0.30 mm x 50 mm, Box of 100",
+      "brand": "SEIRIN",
+      "category": "Clinical Supplies",
+      "subcategory": "Acupuncture Needles",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "SEIRIN J-Type acupuncture needles",
+        "Size 8 — 0.30 mm diameter",
+        "50 mm needle length",
+        "Box of 100 needles"
+      ]
+    },
+    {
+      "id": "880",
+      "sku": "FAB 11-0621",
+      "name": "SEIRIN J-Type Acupuncture Needles — Size 8, 0.30 mm x 60 mm, Box of 100",
+      "brand": "SEIRIN",
+      "category": "Clinical Supplies",
+      "subcategory": "Acupuncture Needles",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "SEIRIN J-Type acupuncture needles",
+        "Size 8 — 0.30 mm diameter",
+        "60 mm needle length",
+        "Box of 100 needles"
+      ]
+    },
     {
       "id": "868",
       "sku": "FAB 10-1620X",
