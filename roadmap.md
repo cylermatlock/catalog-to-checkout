@@ -1,6 +1,6 @@
-# FAB catalog additions
+# Six FAB catalog additions
 
-- [x] Verify the seven requested FAB SKUs, specifications, and matching product photos.
-- [x] Add product listings and details with quote-request pricing; leave BSW unchanged.
-- [x] Store photos with Lovable Assets and mirror them into the repository.
-- [x] Update the quote catalog and sitemap; test listings, photos, and adding to a quote.
+- [ ] Add the six exact requested SKUs and factual bullet points; leave BSW unchanged.
+- [ ] Verify matching photos and specifications; create product details.
+- [ ] Save photos with Lovable Assets and mirror repository copies for Claude.
+- [ ] Refresh the quote catalog and sitemap; verify photos and quote requests.

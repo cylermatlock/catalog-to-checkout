@@ -30,6 +30,14 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  // FAB fabric loops, Total Gym, and SEIRIN needles
+  { id: "875", name: "CanDo Fabric Loop Plus — 18\" Single Loops, Set of 3", category: "Clinical Supplies", subcategory: "Bands & Tubing", sku: "FAB 10-6745", description: ["Set of three pre-made Fabric Loop Plus exercise loops", "18\" long single loops", "Includes green, blue, and black", "Fabric resistance loops for strengthening exercises"] },
+  { id: "876", name: "Total Gym ELEVATE Jump", category: "Strength Equipment", subcategory: "Total Gym", sku: "FAB 10-7215", description: ["Total Gym ELEVATE Jump exercise trainer", "Incline glideboard design", "Designed for lower-body jumping and squat exercises", "Call or Add to Quote Request for pricing"] },
+  { id: "877", name: "Total Gym Recovery Encompass — Clinical Complete Package", category: "Strength Equipment", subcategory: "Total Gym", sku: "FAB 10-7222", description: ["Total Gym Recovery Encompass", "Clinical Complete Package", "Incline body-weight resistance training system", "Call or Add to Quote Request for pricing"] },
+  { id: "878", name: "SEIRIN J-Type Acupuncture Needles — Size 5, 0.25 mm x 40 mm, Box of 100", category: "Clinical Supplies", subcategory: "Acupuncture Needles", sku: "FAB 11-0615", description: ["SEIRIN J-Type acupuncture needles", "Size 5 — 0.25 mm diameter", "40 mm needle length", "Box of 100 needles"] },
+  { id: "879", name: "SEIRIN J-Type Acupuncture Needles — Size 8, 0.30 mm x 50 mm, Box of 100", category: "Clinical Supplies", subcategory: "Acupuncture Needles", sku: "FAB 11-0620", description: ["SEIRIN J-Type acupuncture needles", "Size 8 — 0.30 mm diameter", "50 mm needle length", "Box of 100 needles"] },
+  { id: "880", name: "SEIRIN J-Type Acupuncture Needles — Size 8, 0.30 mm x 60 mm, Box of 100", category: "Clinical Supplies", subcategory: "Acupuncture Needles", sku: "FAB 11-0621", description: ["SEIRIN J-Type acupuncture needles", "Size 8 — 0.30 mm diameter", "60 mm needle length", "Box of 100 needles"] },
+
   // FAB exercise sets and stations
   { id: "868", name: "CanDo Slim WaTE Bar Lite Set — 5-Piece (1, 2, 3, 4, 5 lb)", category: "Clinical Supplies", subcategory: "Cuff Weights", sku: "FAB 10-1620X", description: ["5-piece Slim WaTE Bar Lite set", "Includes one each: 1, 2, 3, 4, and 5 lb bars", "Weighted exercise bars for strengthening and range-of-motion exercises", "Sold as one set"] },
   { id: "869", name: "CanDo Balance Board Combo — 15\" x 18\", 2\" Height, Green", category: "Balance Products", subcategory: "Balance", sku: "FAB 10-2032", description: ["Combination wobble and rocker balance board", "15\" x 18\" platform", "2\" height — Green", "For balance, coordination, and proprioception exercises"] },
