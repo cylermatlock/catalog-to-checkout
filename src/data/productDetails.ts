@@ -1,3 +1,9 @@
+import fabOct14881 from "@/assets/products/fab/11-1000.jpg.asset.json";
+import fabOct14882 from "@/assets/products/fab/11-1001.jpg.asset.json";
+import fabOct14883 from "@/assets/products/fab/11-1002.jpg.asset.json";
+import fabOct14884 from "@/assets/products/fab/11-1821.jpg.asset.json";
+import fabOct14885 from "@/assets/products/fab/11-1822.jpg.asset.json";
+import fabOct14886 from "@/assets/products/fab/11-1961.jpg.asset.json";
 import fabOct13875 from "@/assets/products/fab/10-6747.jpg.asset.json";
 import fabOct13876 from "@/assets/products/fab/10-7215.jpg.asset.json";
 import fabOct13877 from "@/assets/products/fab/10-7222.jpg.asset.json";
@@ -102,6 +108,313 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "881": {
+    "productId": "881",
+    "slug": "relief-pak-coldspot-standard-11-x-14-blue-vinyl",
+    "tagline": "Standard-size ColdSpot cold therapy pack.",
+    "overview": [
+        "Relief Pak ColdSpot — Standard, 11\" x 14\", Blue Vinyl."
+    ],
+    "highlights": [
+        "Standard-size ColdSpot cold therapy pack",
+        "11\" x 14\"",
+        "Blue vinyl exterior",
+        "Reusable cold pack",
+        "Bentonite clay fill remains pliable below freezing",
+        "Maintains therapeutic cold for up to 30 minutes"
+    ],
+    "gallery": [
+        {
+            "src": fabOct14881.url,
+            "alt": "Relief Pak ColdSpot — Standard, 11\" x 14\", Blue Vinyl — FAB 11-1000"
+        }
+    ],
+    "specGroups": [
+        {
+            "title": "Specifications",
+            "rows": [
+                {
+                    "label": "SKU",
+                    "value": "FAB 11-1000"
+                },
+                {
+                    "label": "Size",
+                    "value": "Standard — 11\" x 14\""
+                },
+                {
+                    "label": "Exterior",
+                    "value": "Blue vinyl"
+                },
+                {
+                    "label": "Fill",
+                    "value": "Bentonite clay"
+                }
+            ]
+        }
+    ],
+    "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/cold-packs-therapy/relief-pak-coldspot-blue-vinyl-packs/",
+    "seo": {
+        "title": "Relief Pak ColdSpot — Standard, 11\" x 14\", Blue Vinyl | GM Therapy",
+        "description": "Relief Pak ColdSpot — Standard, 11\" x 14\", Blue Vinyl. Call or add to quote request for pricing."
+    }
+},
+  "882": {
+    "productId": "882",
+    "slug": "relief-pak-coldspot-cervical-6-x-23-blue-vinyl",
+    "tagline": "Cervical-size ColdSpot cold therapy pack.",
+    "overview": [
+        "Relief Pak ColdSpot — Cervical, 6\" x 23\", Blue Vinyl."
+    ],
+    "highlights": [
+        "Cervical-size ColdSpot cold therapy pack",
+        "6\" x 23\"",
+        "Blue vinyl exterior",
+        "Reusable cold pack",
+        "Bentonite clay fill remains pliable below freezing",
+        "Maintains therapeutic cold for up to 30 minutes"
+    ],
+    "gallery": [
+        {
+            "src": fabOct14882.url,
+            "alt": "Relief Pak ColdSpot — Cervical, 6\" x 23\", Blue Vinyl — FAB 11-1001"
+        }
+    ],
+    "specGroups": [
+        {
+            "title": "Specifications",
+            "rows": [
+                {
+                    "label": "SKU",
+                    "value": "FAB 11-1001"
+                },
+                {
+                    "label": "Size",
+                    "value": "Cervical — 6\" x 23\""
+                },
+                {
+                    "label": "Exterior",
+                    "value": "Blue vinyl"
+                },
+                {
+                    "label": "Fill",
+                    "value": "Bentonite clay"
+                }
+            ]
+        }
+    ],
+    "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/cold-packs-therapy/relief-pak-coldspot-blue-vinyl-packs/",
+    "seo": {
+        "title": "Relief Pak ColdSpot — Cervical, 6\" x 23\", Blue Vinyl | GM Therapy",
+        "description": "Relief Pak ColdSpot — Cervical, 6\" x 23\", Blue Vinyl. Call or add to quote request for pricing."
+    }
+},
+  "883": {
+    "productId": "883",
+    "slug": "relief-pak-coldspot-oversize-11-x-21-blue-vinyl",
+    "tagline": "Oversize ColdSpot cold therapy pack.",
+    "overview": [
+        "Relief Pak ColdSpot — Oversize, 11\" x 21\", Blue Vinyl."
+    ],
+    "highlights": [
+        "Oversize ColdSpot cold therapy pack",
+        "11\" x 21\"",
+        "Blue vinyl exterior",
+        "Reusable cold pack",
+        "Bentonite clay fill remains pliable below freezing",
+        "Maintains therapeutic cold for up to 30 minutes"
+    ],
+    "gallery": [
+        {
+            "src": fabOct14883.url,
+            "alt": "Relief Pak ColdSpot — Oversize, 11\" x 21\", Blue Vinyl — FAB 11-1002"
+        }
+    ],
+    "specGroups": [
+        {
+            "title": "Specifications",
+            "rows": [
+                {
+                    "label": "SKU",
+                    "value": "FAB 11-1002"
+                },
+                {
+                    "label": "Size",
+                    "value": "Oversize — 11\" x 21\""
+                },
+                {
+                    "label": "Exterior",
+                    "value": "Blue vinyl"
+                },
+                {
+                    "label": "Fill",
+                    "value": "Bentonite clay"
+                }
+            ]
+        }
+    ],
+    "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/cold-packs-therapy/relief-pak-coldspot-blue-vinyl-packs/",
+    "seo": {
+        "title": "Relief Pak ColdSpot — Oversize, 11\" x 21\", Blue Vinyl | GM Therapy",
+        "description": "Relief Pak ColdSpot — Oversize, 11\" x 21\", Blue Vinyl. Call or add to quote request for pricing."
+    }
+},
+  "884": {
+    "productId": "884",
+    "slug": "relief-pak-thermal-moist-heat-pack-cervical-6-x-24",
+    "tagline": "Cervical-size thermal moist heat pack.",
+    "overview": [
+        "Relief Pak Thermal Moist Heat Pack — Cervical, 6\" x 24\"."
+    ],
+    "highlights": [
+        "Cervical-size thermal moist heat pack",
+        "6\" x 24\"",
+        "For moist heat therapy",
+        "Reusable heat pack",
+        "Durable canvas exterior with bentonite fill",
+        "Color-coded tabs help manage pack rotation",
+        "Delivers moist heat for up to 30 minutes"
+    ],
+    "gallery": [
+        {
+            "src": fabOct14884.url,
+            "alt": "Relief Pak Thermal Moist Heat Pack — Cervical, 6\" x 24\" — FAB 11-1821"
+        }
+    ],
+    "specGroups": [
+        {
+            "title": "Specifications",
+            "rows": [
+                {
+                    "label": "SKU",
+                    "value": "FAB 11-1821"
+                },
+                {
+                    "label": "Size",
+                    "value": "Cervical — 6\" x 24\""
+                },
+                {
+                    "label": "Fill",
+                    "value": "Bentonite"
+                },
+                {
+                    "label": "Exterior",
+                    "value": "Canvas"
+                }
+            ]
+        }
+    ],
+    "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/hot-packs-therapy/thermal-moist-heat-pack/",
+    "seo": {
+        "title": "Relief Pak Thermal Moist Heat Pack — Cervical, 6\" x 24\" | GM Therapy",
+        "description": "Relief Pak Thermal Moist Heat Pack — Cervical, 6\" x 24\". Call or add to quote request for pricing."
+    }
+},
+  "885": {
+    "productId": "885",
+    "slug": "relief-pak-thermal-moist-heat-pack-oversize-24-x-15",
+    "tagline": "Oversize thermal moist heat pack.",
+    "overview": [
+        "Relief Pak Thermal Moist Heat Pack — Oversize, 24\" x 15\"."
+    ],
+    "highlights": [
+        "Oversize thermal moist heat pack",
+        "24\" x 15\"",
+        "For moist heat therapy",
+        "Reusable heat pack",
+        "Durable canvas exterior with bentonite fill",
+        "Color-coded tabs help manage pack rotation",
+        "Delivers moist heat for up to 30 minutes"
+    ],
+    "gallery": [
+        {
+            "src": fabOct14885.url,
+            "alt": "Relief Pak Thermal Moist Heat Pack — Oversize, 24\" x 15\" — FAB 11-1822"
+        }
+    ],
+    "specGroups": [
+        {
+            "title": "Specifications",
+            "rows": [
+                {
+                    "label": "SKU",
+                    "value": "FAB 11-1822"
+                },
+                {
+                    "label": "Size",
+                    "value": "Oversize — 24\" x 15\""
+                },
+                {
+                    "label": "Fill",
+                    "value": "Bentonite"
+                },
+                {
+                    "label": "Exterior",
+                    "value": "Canvas"
+                }
+            ]
+        }
+    ],
+    "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/hot-packs-therapy/thermal-moist-heat-pack/",
+    "seo": {
+        "title": "Relief Pak Thermal Moist Heat Pack — Oversize, 24\" x 15\" | GM Therapy",
+        "description": "Relief Pak Thermal Moist Heat Pack — Oversize, 24\" x 15\". Call or add to quote request for pricing."
+    }
+},
+  "886": {
+    "productId": "886",
+    "slug": "relief-pak-stationary-heating-unit-4-pack-capacity-with-4-standard-packs",
+    "tagline": "Stationary moist heat pack heating unit.",
+    "overview": [
+        "Relief Pak Stationary Heating Unit — 4-Pack Capacity with 4 Standard Packs."
+    ],
+    "highlights": [
+        "Stationary moist heat pack heating unit",
+        "4-pack capacity",
+        "Includes four standard moist heat packs",
+        "For heating packs used in moist heat therapy",
+        "Insulated stainless steel construction with plastic lid",
+        "Adjustable temperature control"
+    ],
+    "gallery": [
+        {
+            "src": fabOct14886.url,
+            "alt": "Relief Pak Stationary Heating Unit — 4-Pack Capacity with 4 Standard Packs — FAB 11-1961"
+        }
+    ],
+    "specGroups": [
+        {
+            "title": "Specifications",
+            "rows": [
+                {
+                    "label": "SKU",
+                    "value": "FAB 11-1961"
+                },
+                {
+                    "label": "Capacity",
+                    "value": "4 moist heat packs"
+                },
+                {
+                    "label": "Included packs",
+                    "value": "4 standard packs"
+                },
+                {
+                    "label": "Construction",
+                    "value": "Insulated stainless steel with plastic lid"
+                },
+                {
+                    "label": "Configuration",
+                    "value": "Stationary"
+                }
+            ]
+        }
+    ],
+    "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/hot-packs-therapy/relief-pak-heating-units/",
+    "seo": {
+        "title": "Relief Pak Stationary Heating Unit — 4-Pack Capacity with 4 Standard Packs | GM Therapy",
+        "description": "Relief Pak Stationary Heating Unit — 4-Pack Capacity with 4 Standard Packs. Call or add to quote request for pricing."
+    }
+},
+
   "875": {"productId": "875", "slug": "cando-fabric-loop-plus-18-single-loops-set-of-3", "tagline": "Set of three pre-made Fabric Loop Plus exercise loops.", "overview": ["CanDo Fabric Loop Plus — 18\" Single Loops, Set of 3."], "highlights": ["Set of three pre-made Fabric Loop Plus exercise loops", "18\" long single loops", "Includes green, blue, and black", "Fabric resistance loops for strengthening exercises"], "gallery": [{"src": fabOct13875.url, "alt": "CanDo Fabric Loop Plus — 18\" Single Loops, Set of 3 — FAB 10-6747"}], "specGroups": [{"title": "Specifications", "rows": [{"label": "SKU", "value": "FAB 10-6747"}, {"label": "Loop length", "value": "18 inches"}, {"label": "Set contents", "value": "Green, blue, black — 3 single loops"}]}], "sourceUrl": "https://www.fab-ent.com/exercise/resistance-bands/cando-fabric-loop/", "seo": {"title": "CanDo Fabric Loop Plus — 18\" Single Loops, Set of 3 | GM Therapy", "description": "CanDo Fabric Loop Plus — 18\" Single Loops, Set of 3. Call or add to quote request for pricing."}},
   "876": {"productId": "876", "slug": "total-gym-elevate-jump", "tagline": "Total Gym ELEVATE Jump exercise trainer.", "overview": ["Total Gym ELEVATE Jump."], "highlights": ["Total Gym ELEVATE Jump exercise trainer", "Incline glideboard design", "Designed for lower-body jumping and squat exercises"], "gallery": [{"src": fabOct13876.url, "alt": "Total Gym ELEVATE Jump — FAB 10-7215"}], "specGroups": [{"title": "Specifications", "rows": [{"label": "SKU", "value": "FAB 10-7215"}]}], "sourceUrl": "https://totalgym.com/products/elevate-jump", "seo": {"title": "Total Gym ELEVATE Jump | GM Therapy", "description": "Total Gym ELEVATE Jump. Call or add to quote request for pricing."}},
   "877": {"productId": "877", "slug": "total-gym-recovery-encompass-clinical-complete-package", "tagline": "Total Gym Recovery Encompass.", "overview": ["Total Gym Recovery Encompass — Clinical Complete Package."], "highlights": ["Total Gym Recovery Encompass", "Clinical Complete Package", "Incline body-weight resistance training system"], "gallery": [{"src": fabOct13877.url, "alt": "Total Gym Recovery Encompass — Clinical Complete Package — FAB 10-7222"}], "specGroups": [{"title": "Specifications", "rows": [{"label": "SKU", "value": "FAB 10-7222"}]}], "sourceUrl": "https://totalgym.com/products/encompass-clinical-complete-package", "seo": {"title": "Total Gym Recovery Encompass — Clinical Complete Package | GM Therapy", "description": "Total Gym Recovery Encompass — Clinical Complete Package. Call or add to quote request for pricing."}},
