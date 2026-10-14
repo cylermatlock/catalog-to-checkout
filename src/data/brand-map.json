@@ -1,6 +1,9 @@
 {
   "_comment": "Customer-facing brand resolution for catalog.json. nameKeywords win over skuPrefix; skuOverrides win over everything. 'U-' pre-owned prefixes are stripped before lookup.",
   "skuOverrides": {
+    "FAB 13-2537": "Game Ready",
+    "FAB 13-5255": "ActivaTek",
+    "FAB 14-1290": "Tiger Tail",
     "FAB 13-2513": "Game Ready",
     "FAB 13-2518": "Game Ready",
     "FAB 13-2519": "Game Ready",
