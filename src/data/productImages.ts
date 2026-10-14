@@ -1,3 +1,9 @@
+import fabPositioning952 from "@/assets/products/fab/30-3004.jpg.asset.json";
+import fabPositioning953 from "@/assets/products/fab/30-3016.jpg.asset.json";
+import fabPositioning954 from "@/assets/products/fab/43-1965.jpg.asset.json";
+import fabPositioning955 from "@/assets/products/fab/43-2010X.jpg.asset.json";
+import fabPositioning956 from "@/assets/products/fab/50-1010.jpg.asset.json";
+import fabPositioning957 from "@/assets/products/fab/50-1075.jpg.asset.json";
 import fabAccessory945 from "@/assets/products/fab/13-2537.jpg.asset.json";
 import fabAccessory946 from "@/assets/products/fab/13-5255.jpg.asset.json";
 import fabAccessory947 from "@/assets/products/fab/14-1290.jpg.asset.json";
@@ -77,6 +83,13 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "952": fabPositioning952.url,
+  "953": fabPositioning953.url,
+  "954": fabPositioning954.url,
+  "955": fabPositioning955.url,
+  "956": fabPositioning956.url,
+  "957": fabPositioning957.url,
+
   "945": fabAccessory945.url,
   "946": fabAccessory946.url,
   "947": fabAccessory947.url,

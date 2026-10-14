@@ -1,5 +1,5 @@
-# Seven FAB therapy and exercise additions
+# Six FAB positioning, mobility and traction additions
 
-- [x] Add seven exact SKUs and requested variants with factual bullets; leave BSW unchanged.
-- [x] Connect verified product photos and detail pages; mirror every photo for external quote tools.
-- [x] Refresh catalog and sitemap; run SKU/variant tests and verify seven-item quote request. All 49 tests pass; seven photos and quote additions verified with identical repo copies.
+- [x] Add six exact SKUs and requested variants with factual bullets; leave BSW unchanged.
+- [x] Connect verified product photos and detail pages; mirror every photo for external quote tools. Roll uses a labeled product-family photo.
+- [x] Refresh catalog and sitemap; all 64 tests pass. Six photos and six-item quote request verified; mobile pages have no horizontal overflow. Catalog: 631 products; sitemap: 634 URLs.
