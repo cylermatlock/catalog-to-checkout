@@ -30,6 +30,14 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  // FAB heating units and diagnostic instruments
+  { id: "887", name: "Relief Pak Stationary Heating Unit — 4-Pack Capacity, 110V", category: "Modalities", subcategory: "Hydrocollator", sku: "FAB 11-1981", description: ["Stationary moist heat pack heating unit", "4-pack capacity", "110V power", "For heating reusable moist heat therapy packs"] },
+  { id: "888", name: "Relief Pak Mobile Heating Unit — 12-Pack Capacity, No Packs", category: "Modalities", subcategory: "Hydrocollator", sku: "FAB 11-1985", description: ["Mobile moist heat pack heating unit", "12-pack capacity", "No heat packs included — packs sold separately", "For heating reusable moist heat therapy packs"] },
+  { id: "889", name: "Baseline 360° Plastic Goniometer — 8\"", category: "Clinical Supplies", subcategory: "Assessment Tools", sku: "FAB 12-1001X", description: ["360° plastic goniometer", "8 inch length", "Measures joint range of motion", "Clear plastic for alignment with the joint"] },
+  { id: "890", name: "Baseline Measurement Tape with Hands-Free Attachment — 60\"", category: "Clinical Supplies", subcategory: "Assessment Tools", sku: "FAB 12-1205", description: ["60 inch measurement tape", "Hands-free attachment", "For body circumference measurements", "Compact clinical measurement tool"] },
+  { id: "891", name: "Taylor Percussion Hammer — Red, Latex Free", category: "Clinical Supplies", subcategory: "Assessment Tools", sku: "FAB 12-1571", description: ["Taylor-style percussion hammer", "Red hammer head", "Latex-free construction", "For clinical reflex assessment"] },
+  { id: "892", name: "Sprague-Rappaport Stethoscope", category: "Clinical Supplies", subcategory: "Assessment Tools", sku: "FAB 12-2220", description: ["Sprague-Rappaport style stethoscope", "For clinical auscultation", "Dual-tube design", "Interchangeable chestpiece fittings"] },
+
   // Relief Pak cold packs, moist heat packs, and stationary heating unit
   { id: "881", name: "Relief Pak ColdSpot — Standard, 11\" x 14\", Blue Vinyl", category: "Clinical Supplies", subcategory: "Hot & Cold Packs", sku: "FAB 11-1000", description: ["Standard-size ColdSpot cold therapy pack", "11\" x 14\"", "Blue vinyl exterior", "Reusable cold pack"] },
   { id: "882", name: "Relief Pak ColdSpot — Cervical, 6\" x 23\", Blue Vinyl", category: "Clinical Supplies", subcategory: "Hot & Cold Packs", sku: "FAB 11-1001", description: ["Cervical-size ColdSpot cold therapy pack", "6\" x 23\"", "Blue vinyl exterior", "Reusable cold pack"] },
