@@ -1,6 +1,127 @@
 {
-  "generatedAt": "2026-10-14T13:23:41.455Z",
+  "generatedAt": "2026-10-14T13:50:04.553Z",
   "products": [
+    {
+      "id": "952",
+      "sku": "FAB 30-3004",
+      "name": "Tumble Forms Roll — 36\" x 10\"",
+      "brand": "Tumble Forms",
+      "category": "Clinical Supplies",
+      "subcategory": "Positioning",
+      "condition": "new",
+      "image": "/catalog-assets/f392aea0-1511-457b-9cd5-0ec846a73870/30-3004.jpg",
+      "images": [
+        "/catalog-assets/f392aea0-1511-457b-9cd5-0ec846a73870/30-3004.jpg"
+      ],
+      "description": [
+        "Tumble Forms positioning roll",
+        "36 inch length x 10 inch diameter",
+        "Solid-core molded foam construction",
+        "Carrying and storage strap",
+        "For supported positioning and therapy activities"
+      ]
+    },
+    {
+      "id": "953",
+      "sku": "FAB 30-3016",
+      "name": "Tumble Forms Wedge — 24\" x 28\" x 10\"",
+      "brand": "Tumble Forms",
+      "category": "Clinical Supplies",
+      "subcategory": "Positioning",
+      "condition": "new",
+      "image": "/catalog-assets/c33feb32-4573-4a06-91d9-2582a025e966/30-3016.jpg",
+      "images": [
+        "/catalog-assets/c33feb32-4573-4a06-91d9-2582a025e966/30-3016.jpg"
+      ],
+      "description": [
+        "Tumble Forms positioning wedge",
+        "24 x 28 x 10 inches",
+        "Seamless coated foam construction",
+        "For supported positioning and therapy activities"
+      ]
+    },
+    {
+      "id": "954",
+      "sku": "FAB 43-1965",
+      "name": "EasyStand Evolve — Minimum Support Package, Large",
+      "brand": "Altimate Medical",
+      "category": "Rehab Furniture",
+      "subcategory": "Standing Frames",
+      "condition": "new",
+      "image": "/catalog-assets/e39a5117-b347-4bfe-87ae-f5c0a3d98117/43-1965.jpg",
+      "images": [
+        "/catalog-assets/e39a5117-b347-4bfe-87ae-f5c0a3d98117/43-1965.jpg"
+      ],
+      "description": [
+        "Sit-to-stand standing frame",
+        "Minimum support package",
+        "Large size",
+        "280 lb weight capacity",
+        "User height range: 5' to 6'2\"",
+        "Manual hydraulic lift with handle"
+      ]
+    },
+    {
+      "id": "955",
+      "sku": "FAB 43-2010X",
+      "name": "Aluminum Cane with Offset Adjustable Handle — Silver",
+      "brand": "Fabrication Enterprises",
+      "category": "Clinical Supplies",
+      "subcategory": "DME",
+      "condition": "new",
+      "image": "/catalog-assets/894b55e2-aac6-4627-b601-c6c1416e605d/43-2010X.jpg",
+      "images": [
+        "/catalog-assets/894b55e2-aac6-4627-b601-c6c1416e605d/43-2010X.jpg"
+      ],
+      "description": [
+        "Aluminum cane",
+        "Offset handle",
+        "Adjustable height",
+        "Silver finish",
+        "Foam grip and wrist strap",
+        "Sold individually — 1 each"
+      ]
+    },
+    {
+      "id": "956",
+      "sku": "FAB 50-1010",
+      "name": "CanDo Overdoor Shoulder Pulley — Double Pulley with Door Bracket",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Exercise",
+      "condition": "new",
+      "image": "/catalog-assets/84387bfe-3b47-4da7-bcdb-378a6a324eb5/50-1010.jpg",
+      "images": [
+        "/catalog-assets/84387bfe-3b47-4da7-bcdb-378a6a324eb5/50-1010.jpg"
+      ],
+      "description": [
+        "Overdoor shoulder exercise pulley",
+        "Double-pulley configuration",
+        "Door bracket included",
+        "Foam-covered handles",
+        "For shoulder range-of-motion exercises"
+      ]
+    },
+    {
+      "id": "957",
+      "sku": "FAB 50-1075",
+      "name": "ComforTrac Home Lumbar Traction Device with Carry Case",
+      "brand": "ComforTrac",
+      "category": "Modalities",
+      "subcategory": "Traction",
+      "condition": "new",
+      "image": "/catalog-assets/d68a6bc6-0481-4716-99c5-1fc82fa6fcea/50-1075.jpg",
+      "images": [
+        "/catalog-assets/d68a6bc6-0481-4716-99c5-1fc82fa6fcea/50-1075.jpg"
+      ],
+      "description": [
+        "Home lumbar traction device",
+        "Hand pump with traction-force gauge",
+        "Quick-release pressure button",
+        "Carry case included",
+        "For clinician-directed lumbar traction"
+      ]
+    },
     {
       "id": "945",
       "sku": "FAB 13-2537",

@@ -1,3 +1,9 @@
+import fabPositioning952 from "@/assets/products/fab/30-3004.jpg.asset.json";
+import fabPositioning953 from "@/assets/products/fab/30-3016.jpg.asset.json";
+import fabPositioning954 from "@/assets/products/fab/43-1965.jpg.asset.json";
+import fabPositioning955 from "@/assets/products/fab/43-2010X.jpg.asset.json";
+import fabPositioning956 from "@/assets/products/fab/50-1010.jpg.asset.json";
+import fabPositioning957 from "@/assets/products/fab/50-1075.jpg.asset.json";
 import fabAccessory945 from "@/assets/products/fab/13-2537.jpg.asset.json";
 import fabAccessory946 from "@/assets/products/fab/13-5255.jpg.asset.json";
 import fabAccessory947 from "@/assets/products/fab/14-1290.jpg.asset.json";
@@ -127,6 +133,306 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "952": {
+  "productId": "952",
+  "slug": "fab-30-3004",
+  "tagline": "Tumble Forms positioning roll.",
+  "overview": [
+    "Tumble Forms Roll — 36\" x 10\". The product-family photo shows multiple roll sizes; this listing is for one 36 x 10 inch roll."
+  ],
+  "highlights": [
+    "Tumble Forms positioning roll",
+    "36 inch length x 10 inch diameter",
+    "Solid-core molded foam construction",
+    "Carrying and storage strap",
+    "For supported positioning and therapy activities"
+  ],
+  "gallery": [
+    {
+      "src": fabPositioning952.url,
+      "alt": "Tumble Forms Roll — 36\" x 10\" — FAB 30-3004"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 30-3004"
+        },
+        {
+          "label": "Dimensions",
+          "value": "36 inch length x 10 inch diameter"
+        },
+        {
+          "label": "Quantity",
+          "value": "One roll"
+        },
+        {
+          "label": "Photo",
+          "value": "Product family shown; listing is for one 36 x 10 inch roll"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/pediatric/positioning/tumble-forms-rolls/",
+  "seo": {
+    "title": "Tumble Forms Roll — 36\" x 10\" | GM Therapy",
+    "description": "Tumble Forms Roll — 36\" x 10\". Call or add to quote request for pricing."
+  }
+},
+  "953": {
+  "productId": "953",
+  "slug": "fab-30-3016",
+  "tagline": "Supported positioning and gross motor activities.",
+  "overview": [
+    "Tumble Forms Wedge — 24\" x 28\" x 10\"."
+  ],
+  "highlights": [
+    "Tumble Forms positioning wedge",
+    "24 x 28 x 10 inches",
+    "Seamless coated foam construction",
+    "For supported positioning and therapy activities"
+  ],
+  "gallery": [
+    {
+      "src": fabPositioning953.url,
+      "alt": "Tumble Forms Wedge — 24\" x 28\" x 10\" — FAB 30-3016"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 30-3016"
+        },
+        {
+          "label": "Dimensions",
+          "value": "24 x 28 x 10 inches"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/pediatric/positioning/tumble-forms-wedges/",
+  "seo": {
+    "title": "Tumble Forms Wedge — 24\" x 28\" x 10\" | GM Therapy",
+    "description": "Tumble Forms Wedge — 24\" x 28\" x 10\". Call or add to quote request for pricing."
+  }
+},
+  "954": {
+  "productId": "954",
+  "slug": "fab-43-1965",
+  "tagline": "Large sit-to-stand standing frame.",
+  "overview": [
+    "EasyStand Evolve — Minimum Support Package, Large."
+  ],
+  "highlights": [
+    "Sit-to-stand standing frame",
+    "Minimum support package",
+    "Large size",
+    "280 lb weight capacity",
+    "User height range: 5' to 6'2\"",
+    "Manual hydraulic lift with handle"
+  ],
+  "gallery": [
+    {
+      "src": fabPositioning954.url,
+      "alt": "EasyStand Evolve — Minimum Support Package, Large — FAB 43-1965"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 43-1965"
+        },
+        {
+          "label": "Package",
+          "value": "Minimum support"
+        },
+        {
+          "label": "Size",
+          "value": "Large"
+        },
+        {
+          "label": "Weight capacity",
+          "value": "280 lb"
+        },
+        {
+          "label": "User height",
+          "value": "5' to 6'2\""
+        },
+        {
+          "label": "Lift",
+          "value": "Manual hydraulic"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/treatment-furniture/standing-tables/",
+  "seo": {
+    "title": "EasyStand Evolve — Minimum Support Package, Large | GM Therapy",
+    "description": "EasyStand Evolve — Minimum Support Package, Large. Call or add to quote request for pricing."
+  }
+},
+  "955": {
+  "productId": "955",
+  "slug": "fab-43-2010x",
+  "tagline": "Adjustable offset-handle walking cane.",
+  "overview": [
+    "Aluminum Cane with Offset Adjustable Handle — Silver."
+  ],
+  "highlights": [
+    "Aluminum cane",
+    "Offset handle",
+    "Adjustable height",
+    "Silver finish",
+    "Foam grip and wrist strap",
+    "Sold individually — 1 each"
+  ],
+  "gallery": [
+    {
+      "src": fabPositioning955.url,
+      "alt": "Aluminum Cane with Offset Adjustable Handle — Silver — FAB 43-2010X"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 43-2010X"
+        },
+        {
+          "label": "Material",
+          "value": "Aluminum"
+        },
+        {
+          "label": "Handle",
+          "value": "Offset"
+        },
+        {
+          "label": "Height",
+          "value": "Adjustable"
+        },
+        {
+          "label": "Finish",
+          "value": "Silver"
+        },
+        {
+          "label": "Quantity",
+          "value": "1 each"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/dme/canes-crutches/adjustable-aluminum-canes/",
+  "seo": {
+    "title": "Aluminum Cane with Offset Adjustable Handle — Silver | GM Therapy",
+    "description": "Aluminum Cane with Offset Adjustable Handle — Silver. Call or add to quote request for pricing."
+  }
+},
+  "956": {
+  "productId": "956",
+  "slug": "fab-50-1010",
+  "tagline": "Overdoor shoulder range-of-motion exerciser.",
+  "overview": [
+    "CanDo Overdoor Shoulder Pulley — Double Pulley with Door Bracket."
+  ],
+  "highlights": [
+    "Overdoor shoulder exercise pulley",
+    "Double-pulley configuration",
+    "Door bracket included",
+    "Foam-covered handles",
+    "For shoulder range-of-motion exercises"
+  ],
+  "gallery": [
+    {
+      "src": fabPositioning956.url,
+      "alt": "CanDo Overdoor Shoulder Pulley — Double Pulley with Door Bracket — FAB 50-1010"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 50-1010"
+        },
+        {
+          "label": "Configuration",
+          "value": "Double pulley"
+        },
+        {
+          "label": "Mounting",
+          "value": "Door bracket included"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/exercise/range-of-motion/cando-over-door-shoulder-pulley-exercisers/",
+  "seo": {
+    "title": "CanDo Overdoor Shoulder Pulley — Double Pulley with Door Bracket | GM Therapy",
+    "description": "CanDo Overdoor Shoulder Pulley — Double Pulley with Door Bracket. Call or add to quote request for pricing."
+  }
+},
+  "957": {
+  "productId": "957",
+  "slug": "fab-50-1075",
+  "tagline": "Portable home lumbar traction device.",
+  "overview": [
+    "ComforTrac Home Lumbar Traction Device with Carry Case."
+  ],
+  "highlights": [
+    "Home lumbar traction device",
+    "Hand pump with traction-force gauge",
+    "Quick-release pressure button",
+    "Carry case included",
+    "For clinician-directed lumbar traction"
+  ],
+  "gallery": [
+    {
+      "src": fabPositioning957.url,
+      "alt": "ComforTrac Home Lumbar Traction Device with Carry Case — FAB 50-1075"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 50-1075"
+        },
+        {
+          "label": "Treatment area",
+          "value": "Lumbar"
+        },
+        {
+          "label": "Control",
+          "value": "Hand pump with force gauge"
+        },
+        {
+          "label": "Included",
+          "value": "Carry case"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/modalities/traction/comfortrac-traction/",
+  "seo": {
+    "title": "ComforTrac Home Lumbar Traction Device with Carry Case | GM Therapy",
+    "description": "ComforTrac Home Lumbar Traction Device with Carry Case. Call or add to quote request for pricing."
+  }
+},
+
   "945": {
   "productId": "945",
   "slug": "fab-13-2537",

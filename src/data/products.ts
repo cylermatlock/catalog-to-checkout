@@ -30,6 +30,14 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  // FAB positioning, mobility and traction
+  { id: "952", name: "Tumble Forms Roll — 36\" x 10\"", category: "Clinical Supplies", subcategory: "Positioning", sku: "FAB 30-3004", description: ["Tumble Forms positioning roll", "36 inch length x 10 inch diameter", "Solid-core molded foam construction", "Carrying and storage strap", "For supported positioning and therapy activities"] },
+  { id: "953", name: "Tumble Forms Wedge — 24\" x 28\" x 10\"", category: "Clinical Supplies", subcategory: "Positioning", sku: "FAB 30-3016", description: ["Tumble Forms positioning wedge", "24 x 28 x 10 inches", "Seamless coated foam construction", "For supported positioning and therapy activities"] },
+  { id: "954", name: "EasyStand Evolve — Minimum Support Package, Large", category: "Rehab Furniture", subcategory: "Standing Frames", sku: "FAB 43-1965", description: ["Sit-to-stand standing frame", "Minimum support package", "Large size", "280 lb weight capacity", "User height range: 5' to 6'2\"", "Manual hydraulic lift with handle"] },
+  { id: "955", name: "Aluminum Cane with Offset Adjustable Handle — Silver", category: "Clinical Supplies", subcategory: "DME", sku: "FAB 43-2010X", description: ["Aluminum cane", "Offset handle", "Adjustable height", "Silver finish", "Foam grip and wrist strap", "Sold individually — 1 each"] },
+  { id: "956", name: "CanDo Overdoor Shoulder Pulley — Double Pulley with Door Bracket", category: "Clinical Supplies", subcategory: "Exercise", sku: "FAB 50-1010", description: ["Overdoor shoulder exercise pulley", "Double-pulley configuration", "Door bracket included", "Foam-covered handles", "For shoulder range-of-motion exercises"] },
+  { id: "957", name: "ComforTrac Home Lumbar Traction Device with Carry Case", category: "Modalities", subcategory: "Traction", sku: "FAB 50-1075", description: ["Home lumbar traction device", "Hand pump with traction-force gauge", "Quick-release pressure button", "Carry case included", "For clinician-directed lumbar traction"] },
+
   // FAB therapy and exercise accessories
   { id: "945", name: "Game Ready Full Leg Boot Wrap with ATX — Large, GRPro 2.1 Only", category: "Compression", subcategory: "Cold Compression", sku: "FAB 13-2537", description: ["Full leg boot wrap", "Large size", "ATX — Active Temperature Exchange", "Compatible with GRPro 2.1 ONLY", "Wrap only — control unit sold separately"] },
   { id: "946", name: "ActivaTek Ionto4 Iontophoretic Delivery Kit — Butterfly, Box of 12", category: "Clinical Supplies", subcategory: "Electrodes & Supplies", sku: "FAB 13-5255", description: ["Ionto4 iontophoretic delivery kit", "Butterfly configuration", "3.75\" x 3.3\"", "Box of 12"] },
