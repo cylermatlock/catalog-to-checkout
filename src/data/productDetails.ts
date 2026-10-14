@@ -1,3 +1,9 @@
+import gameReady893 from "@/assets/products/fab/13-2513.jpg.asset.json";
+import gameReady894 from "@/assets/products/fab/13-2518.jpg.asset.json";
+import gameReady895 from "@/assets/products/fab/13-2519.jpg.asset.json";
+import gameReady896 from "@/assets/products/fab/13-2525.jpg.asset.json";
+import gameReady897 from "@/assets/products/fab/13-2527.jpg.asset.json";
+import gameReady898 from "@/assets/products/fab/13-2536.jpg.asset.json";
 import fabNew887 from "@/assets/products/fab/11-1981.jpg.asset.json";
 import fabNew888 from "@/assets/products/fab/11-1985.jpg.asset.json";
 import fabNew889 from "@/assets/products/fab/12-1001X.jpg.asset.json";
@@ -114,6 +120,286 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "893": {
+  "productId": "893",
+  "slug": "game-ready-13-2513",
+  "tagline": "Lower-extremity half leg boot wrap.",
+  "overview": [
+    "Game Ready Half Leg Boot Wrap with ATX — Large. This listing is for the wrap only; the therapy control unit and other wraps shown in application photos are not included."
+  ],
+  "highlights": [
+    "Lower-extremity half leg boot wrap",
+    "Large size",
+    "ATX — Active Temperature Exchange",
+    "Coverage for the lower leg, ankle, and foot",
+    "Wrap only — control unit and other wraps sold separately"
+  ],
+  "gallery": [
+    {
+      "src": gameReady893.url,
+      "alt": "Game Ready Half Leg Boot Wrap with ATX — Large — FAB 13-2513"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 13-2513"
+        },
+        {
+          "label": "Body area",
+          "value": "Lower leg, ankle, and foot"
+        },
+        {
+          "label": "Size",
+          "value": "Large"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/cold-compression/game-ready/",
+  "seo": {
+    "title": "Game Ready Half Leg Boot Wrap with ATX — Large | GM Therapy",
+    "description": "Game Ready Half Leg Boot Wrap with ATX — Large. Call or add to quote request for pricing."
+  }
+},
+  "894": {
+  "productId": "894",
+  "slug": "game-ready-13-2518",
+  "tagline": "Mid-body back wrap.",
+  "overview": [
+    "Game Ready Back Wrap with ATX. This listing is for the wrap only; the therapy control unit and other wraps shown in application photos are not included."
+  ],
+  "highlights": [
+    "Mid-body back wrap",
+    "ATX — Active Temperature Exchange",
+    "Anatomically designed for the back",
+    "Hook-and-loop closures for an adjustable fit",
+    "Wrap only — control unit and other wraps sold separately"
+  ],
+  "gallery": [
+    {
+      "src": gameReady894.url,
+      "alt": "Game Ready Back Wrap with ATX — FAB 13-2518"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 13-2518"
+        },
+        {
+          "label": "Body area",
+          "value": "Back"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/cold-compression/game-ready/",
+  "seo": {
+    "title": "Game Ready Back Wrap with ATX | GM Therapy",
+    "description": "Game Ready Back Wrap with ATX. Call or add to quote request for pricing."
+  }
+},
+  "895": {
+  "productId": "895",
+  "slug": "game-ready-13-2519",
+  "tagline": "Upper-extremity hand and wrist wrap.",
+  "overview": [
+    "Game Ready Hand/Wrist Wrap with ATX. This listing is for the wrap only; the therapy control unit and other wraps shown in application photos are not included."
+  ],
+  "highlights": [
+    "Upper-extremity hand and wrist wrap",
+    "ATX — Active Temperature Exchange",
+    "Fits either the left or right hand",
+    "Adjustable ergonomic hand support",
+    "Wrap only — control unit and other wraps sold separately"
+  ],
+  "gallery": [
+    {
+      "src": gameReady895.url,
+      "alt": "Game Ready Hand/Wrist Wrap with ATX — FAB 13-2519"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 13-2519"
+        },
+        {
+          "label": "Body area",
+          "value": "Hand and wrist"
+        },
+        {
+          "label": "Side",
+          "value": "Left or right"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/cold-compression/game-ready/",
+  "seo": {
+    "title": "Game Ready Hand/Wrist Wrap with ATX | GM Therapy",
+    "description": "Game Ready Hand/Wrist Wrap with ATX. Call or add to quote request for pricing."
+  }
+},
+  "896": {
+  "productId": "896",
+  "slug": "game-ready-13-2525",
+  "tagline": "Right shoulder wrap.",
+  "overview": [
+    "Game Ready Right Shoulder Wrap with ATX — Medium, 33–45\" Chest. This listing is for the wrap only; the therapy control unit and other wraps shown in application photos are not included."
+  ],
+  "highlights": [
+    "Right shoulder wrap",
+    "Medium — fits 33–45 inch chest",
+    "ATX — Active Temperature Exchange",
+    "Side-specific shoulder coverage",
+    "Wrap only — control unit and other wraps sold separately"
+  ],
+  "gallery": [
+    {
+      "src": gameReady896.url,
+      "alt": "Game Ready Right Shoulder Wrap with ATX — Medium, 33–45\" Chest — FAB 13-2525"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 13-2525"
+        },
+        {
+          "label": "Body area",
+          "value": "Right shoulder"
+        },
+        {
+          "label": "Size",
+          "value": "Medium"
+        },
+        {
+          "label": "Chest circumference",
+          "value": "33–45 inches"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/cold-compression/game-ready/",
+  "seo": {
+    "title": "Game Ready Right Shoulder Wrap with ATX — Medium, 33–45\" Chest | GM Therapy",
+    "description": "Game Ready Right Shoulder Wrap with ATX — Medium, 33–45\" Chest. Call or add to quote request for pricing."
+  }
+},
+  "897": {
+  "productId": "897",
+  "slug": "game-ready-13-2527",
+  "tagline": "Left shoulder wrap.",
+  "overview": [
+    "Game Ready Left Shoulder Wrap with ATX — Medium, 33–45\" Chest. This listing is for the wrap only; the therapy control unit and other wraps shown in application photos are not included."
+  ],
+  "highlights": [
+    "Left shoulder wrap",
+    "Medium — fits 33–45 inch chest",
+    "ATX — Active Temperature Exchange",
+    "Side-specific shoulder coverage",
+    "Wrap only — control unit and other wraps sold separately"
+  ],
+  "gallery": [
+    {
+      "src": gameReady897.url,
+      "alt": "Game Ready Left Shoulder Wrap with ATX — Medium, 33–45\" Chest — FAB 13-2527"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 13-2527"
+        },
+        {
+          "label": "Body area",
+          "value": "Left shoulder"
+        },
+        {
+          "label": "Size",
+          "value": "Medium"
+        },
+        {
+          "label": "Chest circumference",
+          "value": "33–45 inches"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/cold-compression/game-ready/",
+  "seo": {
+    "title": "Game Ready Left Shoulder Wrap with ATX — Medium, 33–45\" Chest | GM Therapy",
+    "description": "Game Ready Left Shoulder Wrap with ATX — Medium, 33–45\" Chest. Call or add to quote request for pricing."
+  }
+},
+  "898": {
+  "productId": "898",
+  "slug": "game-ready-13-2536",
+  "tagline": "Full leg boot wrap.",
+  "overview": [
+    "Game Ready Full Leg Boot Wrap with ATX — Medium, GRPro 2.1 Only. This listing is for the wrap only; the therapy control unit and other wraps shown in application photos are not included."
+  ],
+  "highlights": [
+    "Full leg boot wrap",
+    "Medium size",
+    "ATX — Active Temperature Exchange",
+    "Compatible with GRPro 2.1 ONLY",
+    "Coverage from the upper thigh to the foot",
+    "Wrap only — control unit and other wraps sold separately"
+  ],
+  "gallery": [
+    {
+      "src": gameReady898.url,
+      "alt": "Game Ready Full Leg Boot Wrap with ATX — Medium, GRPro 2.1 Only — FAB 13-2536"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 13-2536"
+        },
+        {
+          "label": "Body area",
+          "value": "Full leg and foot"
+        },
+        {
+          "label": "Size",
+          "value": "Medium"
+        },
+        {
+          "label": "Compatibility",
+          "value": "GRPro 2.1 ONLY"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/cold-compression/game-ready/",
+  "seo": {
+    "title": "Game Ready Full Leg Boot Wrap with ATX — Medium, GRPro 2.1 Only | GM Therapy",
+    "description": "Game Ready Full Leg Boot Wrap with ATX — Medium, GRPro 2.1 Only. Call or add to quote request for pricing."
+  }
+},
+
   "887": {
   "productId": "887",
   "slug": "fab-11-1981",
