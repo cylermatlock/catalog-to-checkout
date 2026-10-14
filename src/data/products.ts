@@ -30,6 +30,15 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  // FAB therapy and exercise accessories
+  { id: "945", name: "Game Ready Full Leg Boot Wrap with ATX — Large, GRPro 2.1 Only", category: "Compression", subcategory: "Cold Compression", sku: "FAB 13-2537", description: ["Full leg boot wrap", "Large size", "ATX — Active Temperature Exchange", "Compatible with GRPro 2.1 ONLY", "Wrap only — control unit sold separately"] },
+  { id: "946", name: "ActivaTek Ionto4 Iontophoretic Delivery Kit — Butterfly, Box of 12", category: "Clinical Supplies", subcategory: "Electrodes & Supplies", sku: "FAB 13-5255", description: ["Ionto4 iontophoretic delivery kit", "Butterfly configuration", "3.75\" x 3.3\"", "Box of 12"] },
+  { id: "947", name: "Tiger Tail Massage Roller — 18\"", category: "Clinical Supplies", subcategory: "Massage Supplies", sku: "FAB 14-1290", description: ["Handheld Tiger Tail massage roller", "18 inch length", "For self-massage and targeted muscle rolling"] },
+  { id: "948", name: "Chrome Foot Stool — Standard", category: "Rehab Furniture", subcategory: "Stools", sku: "FAB 16-1701", description: ["Standard foot stool", "Chrome frame", "For treatment and examination spaces"] },
+  { id: "949", name: "CanDo Deluxe ABS Inflatable Exercise Ball — 55 cm, Orange, Polybag", category: "Clinical Supplies", subcategory: "Stability Balls", sku: "FAB 30-1852X", description: ["Deluxe ABS inflatable exercise ball", "21.7 inch / 55 cm diameter", "Orange", "Supplied in a polybag"] },
+  { id: "950", name: "CanDo Circular Balance Pad — 20\" Diameter, 2\" Thick, Blue", category: "Balance Products", subcategory: "Balance", sku: "FAB 30-2120BX", description: ["Circular balance pad", "20 inch diameter", "2 inch thickness", "Blue"] },
+  { id: "951", name: "Aerobic Stepper Set", category: "Strength Equipment", subcategory: "Functional Fitness", sku: "FAB 30-2300", description: ["Aerobic stepper set", "For step-based exercise and conditioning"] },
+
   // Game Ready ATX wraps
   { id: "893", name: "Game Ready Half Leg Boot Wrap with ATX — Large", category: "Compression", subcategory: "Cold Compression", sku: "FAB 13-2513", description: ["Lower-extremity half leg boot wrap", "Large size", "ATX — Active Temperature Exchange", "Designed for use with a compatible Game Ready therapy system"] },
   { id: "894", name: "Game Ready Back Wrap with ATX", category: "Compression", subcategory: "Cold Compression", sku: "FAB 13-2518", description: ["Mid-body back wrap", "ATX — Active Temperature Exchange", "Anatomically designed for the back", "Designed for use with a compatible Game Ready therapy system"] },

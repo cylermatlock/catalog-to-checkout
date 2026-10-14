@@ -1,5 +1,5 @@
-# Six Game Ready wrap catalog additions
+# Seven FAB therapy and exercise additions
 
-- [x] Add FAB 13-2513, 13-2518, 13-2519, 13-2525, 13-2527, and 13-2536 with factual bullet points; leave BSW unchanged.
-- [x] Connect verified photos and detail pages; mirror all photos for external quote tools. Verified the left-shoulder variant against Game Ready’s manufacturer image mapping.
-- [x] Refresh the quote catalog and sitemap; test exact SKUs and verify the six-item quote cart. All hosted photos and repo copies verified; local browser photo checks use identical repo copies.
+- [x] Add seven exact SKUs and requested variants with factual bullets; leave BSW unchanged.
+- [x] Connect verified product photos and detail pages; mirror every photo for external quote tools.
+- [x] Refresh catalog and sitemap; run SKU/variant tests and verify seven-item quote request. All 49 tests pass; seven photos and quote additions verified with identical repo copies.

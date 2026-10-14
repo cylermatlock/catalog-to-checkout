@@ -1,6 +1,136 @@
 {
-  "generatedAt": "2026-10-14T13:10:16.686Z",
+  "generatedAt": "2026-10-14T13:23:41.455Z",
   "products": [
+    {
+      "id": "945",
+      "sku": "FAB 13-2537",
+      "name": "Game Ready Full Leg Boot Wrap with ATX — Large, GRPro 2.1 Only",
+      "brand": "Game Ready",
+      "category": "Compression",
+      "subcategory": "Cold Compression",
+      "condition": "new",
+      "image": "/catalog-assets/ac70c034-e59c-48c9-9f64-b73aa920df86/13-2537.jpg",
+      "images": [
+        "/catalog-assets/ac70c034-e59c-48c9-9f64-b73aa920df86/13-2537.jpg"
+      ],
+      "description": [
+        "Full leg boot wrap",
+        "Large size",
+        "ATX — Active Temperature Exchange",
+        "Compatible with GRPro 2.1 ONLY",
+        "Wrap only — control unit sold separately"
+      ]
+    },
+    {
+      "id": "946",
+      "sku": "FAB 13-5255",
+      "name": "ActivaTek Ionto4 Iontophoretic Delivery Kit — Butterfly, Box of 12",
+      "brand": "ActivaTek",
+      "category": "Clinical Supplies",
+      "subcategory": "Electrodes & Supplies",
+      "condition": "new",
+      "image": "/catalog-assets/ad9546a6-54bd-4edf-b718-366f81249fb4/13-5255.jpg",
+      "images": [
+        "/catalog-assets/ad9546a6-54bd-4edf-b718-366f81249fb4/13-5255.jpg"
+      ],
+      "description": [
+        "Ionto4 iontophoretic delivery kit",
+        "Butterfly configuration",
+        "3.75\" x 3.3\"",
+        "Box of 12"
+      ]
+    },
+    {
+      "id": "947",
+      "sku": "FAB 14-1290",
+      "name": "Tiger Tail Massage Roller — 18\"",
+      "brand": "Tiger Tail",
+      "category": "Clinical Supplies",
+      "subcategory": "Massage Supplies",
+      "condition": "new",
+      "image": "/catalog-assets/83bdfcc5-b50d-47d5-883c-47ad9d127932/14-1290.jpg",
+      "images": [
+        "/catalog-assets/83bdfcc5-b50d-47d5-883c-47ad9d127932/14-1290.jpg"
+      ],
+      "description": [
+        "Handheld Tiger Tail massage roller",
+        "18 inch length",
+        "For self-massage and targeted muscle rolling"
+      ]
+    },
+    {
+      "id": "948",
+      "sku": "FAB 16-1701",
+      "name": "Chrome Foot Stool — Standard",
+      "brand": "Fabrication Enterprises",
+      "category": "Rehab Furniture",
+      "subcategory": "Stools",
+      "condition": "new",
+      "image": "/catalog-assets/b83eca09-8059-4704-b5ad-318343dcf554/16-1701.jpg",
+      "images": [
+        "/catalog-assets/b83eca09-8059-4704-b5ad-318343dcf554/16-1701.jpg"
+      ],
+      "description": [
+        "Standard foot stool",
+        "Chrome frame",
+        "For treatment and examination spaces"
+      ]
+    },
+    {
+      "id": "949",
+      "sku": "FAB 30-1852X",
+      "name": "CanDo Deluxe ABS Inflatable Exercise Ball — 55 cm, Orange, Polybag",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Stability Balls",
+      "condition": "new",
+      "image": "/catalog-assets/5d9fe4f1-3e18-4ec6-b72c-2da9c0246c52/30-1852X.jpg",
+      "images": [
+        "/catalog-assets/5d9fe4f1-3e18-4ec6-b72c-2da9c0246c52/30-1852X.jpg"
+      ],
+      "description": [
+        "Deluxe ABS inflatable exercise ball",
+        "21.7 inch / 55 cm diameter",
+        "Orange",
+        "Supplied in a polybag"
+      ]
+    },
+    {
+      "id": "950",
+      "sku": "FAB 30-2120BX",
+      "name": "CanDo Circular Balance Pad — 20\" Diameter, 2\" Thick, Blue",
+      "brand": "CanDo",
+      "category": "Balance Products",
+      "subcategory": "Balance",
+      "condition": "new",
+      "image": "/catalog-assets/44117665-cbaf-444b-8ebf-baa5f1cca6d9/30-2120BX.jpg",
+      "images": [
+        "/catalog-assets/44117665-cbaf-444b-8ebf-baa5f1cca6d9/30-2120BX.jpg"
+      ],
+      "description": [
+        "Circular balance pad",
+        "20 inch diameter",
+        "2 inch thickness",
+        "Blue"
+      ]
+    },
+    {
+      "id": "951",
+      "sku": "FAB 30-2300",
+      "name": "Aerobic Stepper Set",
+      "brand": "Fabrication Enterprises",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/419e1f4d-8e2e-4323-abe3-566066253d3d/30-2300.jpg",
+      "images": [
+        "/catalog-assets/419e1f4d-8e2e-4323-abe3-566066253d3d/30-2300.jpg"
+      ],
+      "description": [
+        "Aerobic stepper set",
+        "For step-based exercise and conditioning"
+      ]
+    },
     {
       "id": "893",
       "sku": "FAB 13-2513",

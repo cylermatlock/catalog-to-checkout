@@ -1,3 +1,10 @@
+import fabAccessory945 from "@/assets/products/fab/13-2537.jpg.asset.json";
+import fabAccessory946 from "@/assets/products/fab/13-5255.jpg.asset.json";
+import fabAccessory947 from "@/assets/products/fab/14-1290.jpg.asset.json";
+import fabAccessory948 from "@/assets/products/fab/16-1701.jpg.asset.json";
+import fabAccessory949 from "@/assets/products/fab/30-1852X.jpg.asset.json";
+import fabAccessory950 from "@/assets/products/fab/30-2120BX.jpg.asset.json";
+import fabAccessory951 from "@/assets/products/fab/30-2300.jpg.asset.json";
 import gameReady893 from "@/assets/products/fab/13-2513.jpg.asset.json";
 import gameReady894 from "@/assets/products/fab/13-2518.jpg.asset.json";
 import gameReady895 from "@/assets/products/fab/13-2519.jpg.asset.json";
@@ -70,6 +77,14 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "945": fabAccessory945.url,
+  "946": fabAccessory946.url,
+  "947": fabAccessory947.url,
+  "948": fabAccessory948.url,
+  "949": fabAccessory949.url,
+  "950": fabAccessory950.url,
+  "951": fabAccessory951.url,
+
   "893": gameReady893.url,
   "894": gameReady894.url,
   "895": gameReady895.url,
