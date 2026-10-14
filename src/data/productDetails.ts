@@ -1,3 +1,10 @@
+import fabAccessory945 from "@/assets/products/fab/13-2537.jpg.asset.json";
+import fabAccessory946 from "@/assets/products/fab/13-5255.jpg.asset.json";
+import fabAccessory947 from "@/assets/products/fab/14-1290.jpg.asset.json";
+import fabAccessory948 from "@/assets/products/fab/16-1701.jpg.asset.json";
+import fabAccessory949 from "@/assets/products/fab/30-1852X.jpg.asset.json";
+import fabAccessory950 from "@/assets/products/fab/30-2120BX.jpg.asset.json";
+import fabAccessory951 from "@/assets/products/fab/30-2300.jpg.asset.json";
 import gameReady893 from "@/assets/products/fab/13-2513.jpg.asset.json";
 import gameReady894 from "@/assets/products/fab/13-2518.jpg.asset.json";
 import gameReady895 from "@/assets/products/fab/13-2519.jpg.asset.json";
@@ -120,6 +127,317 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "945": {
+  "productId": "945",
+  "slug": "fab-13-2537",
+  "tagline": "Full leg boot wrap.",
+  "overview": [
+    "Game Ready Full Leg Boot Wrap with ATX — Large, GRPro 2.1 Only. The therapy control unit and other equipment shown in the application photo are sold separately."
+  ],
+  "highlights": [
+    "Full leg boot wrap",
+    "Large size",
+    "ATX — Active Temperature Exchange",
+    "Compatible with GRPro 2.1 ONLY",
+    "Wrap only — control unit sold separately"
+  ],
+  "gallery": [
+    {
+      "src": fabAccessory945.url,
+      "alt": "Game Ready Full Leg Boot Wrap with ATX — Large, GRPro 2.1 Only — FAB 13-2537"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 13-2537"
+        },
+        {
+          "label": "Size",
+          "value": "Large"
+        },
+        {
+          "label": "Compatibility",
+          "value": "GRPro 2.1 ONLY"
+        },
+        {
+          "label": "Included",
+          "value": "Wrap only; control unit and other wraps shown in use are not included"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://tensnet.com/products/game-ready-full-leg-boot-wrap-with-atx-large-grpro-2-1-only",
+  "seo": {
+    "title": "Game Ready Full Leg Boot Wrap with ATX — Large, GRPro 2.1 Only | GM Therapy",
+    "description": "Game Ready Full Leg Boot Wrap with ATX — Large, GRPro 2.1 Only. Call or add to quote request for pricing."
+  }
+},
+  "946": {
+  "productId": "946",
+  "slug": "fab-13-5255",
+  "tagline": "Ionto4 iontophoretic delivery kit.",
+  "overview": [
+    "ActivaTek Ionto4 Iontophoretic Delivery Kit — Butterfly, Box of 12."
+  ],
+  "highlights": [
+    "Ionto4 iontophoretic delivery kit",
+    "Butterfly configuration",
+    "3.75\" x 3.3\"",
+    "Box of 12"
+  ],
+  "gallery": [
+    {
+      "src": fabAccessory946.url,
+      "alt": "ActivaTek Ionto4 Iontophoretic Delivery Kit — Butterfly, Box of 12 — FAB 13-5255"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 13-5255"
+        },
+        {
+          "label": "Configuration",
+          "value": "Butterfly"
+        },
+        {
+          "label": "Dimensions",
+          "value": "3.75 x 3.3 inches"
+        },
+        {
+          "label": "Quantity",
+          "value": "Box of 12"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://tensnet.com/products/activatek-ionto4-iontophoretic-delivery-kit-butterfly-3-75-x-3-3-box-of-12",
+  "seo": {
+    "title": "ActivaTek Ionto4 Iontophoretic Delivery Kit — Butterfly, Box of 12 | GM Therapy",
+    "description": "ActivaTek Ionto4 Iontophoretic Delivery Kit — Butterfly, Box of 12. Call or add to quote request for pricing."
+  }
+},
+  "947": {
+  "productId": "947",
+  "slug": "fab-14-1290",
+  "tagline": "Handheld Tiger Tail massage roller.",
+  "overview": [
+    "Tiger Tail Massage Roller — 18\"."
+  ],
+  "highlights": [
+    "Handheld Tiger Tail massage roller",
+    "18 inch length",
+    "For self-massage and targeted muscle rolling"
+  ],
+  "gallery": [
+    {
+      "src": fabAccessory947.url,
+      "alt": "Tiger Tail Massage Roller — 18\" — FAB 14-1290"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 14-1290"
+        },
+        {
+          "label": "Length",
+          "value": "18 inches"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/massage/manual-massagers/tiger-tail-massagers/",
+  "seo": {
+    "title": "Tiger Tail Massage Roller — 18\" | GM Therapy",
+    "description": "Tiger Tail Massage Roller — 18\". Call or add to quote request for pricing."
+  }
+},
+  "948": {
+  "productId": "948",
+  "slug": "fab-16-1701",
+  "tagline": "Standard foot stool.",
+  "overview": [
+    "Chrome Foot Stool — Standard."
+  ],
+  "highlights": [
+    "Standard foot stool",
+    "Chrome frame",
+    "For treatment and examination spaces"
+  ],
+  "gallery": [
+    {
+      "src": fabAccessory948.url,
+      "alt": "Chrome Foot Stool — Standard — FAB 16-1701"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 16-1701"
+        },
+        {
+          "label": "Style",
+          "value": "Standard"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/treatment-furniture/stools/foot-stools/",
+  "seo": {
+    "title": "Chrome Foot Stool — Standard | GM Therapy",
+    "description": "Chrome Foot Stool — Standard. Call or add to quote request for pricing."
+  }
+},
+  "949": {
+  "productId": "949",
+  "slug": "fab-30-1852x",
+  "tagline": "Deluxe ABS inflatable exercise ball.",
+  "overview": [
+    "CanDo Deluxe ABS Inflatable Exercise Ball — 55 cm, Orange, Polybag."
+  ],
+  "highlights": [
+    "Deluxe ABS inflatable exercise ball",
+    "21.7 inch / 55 cm diameter",
+    "Orange",
+    "Supplied in a polybag"
+  ],
+  "gallery": [
+    {
+      "src": fabAccessory949.url,
+      "alt": "CanDo Deluxe ABS Inflatable Exercise Ball — 55 cm, Orange, Polybag — FAB 30-1852X"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 30-1852X"
+        },
+        {
+          "label": "Diameter",
+          "value": "21.7 inches / 55 cm"
+        },
+        {
+          "label": "Color",
+          "value": "Orange"
+        },
+        {
+          "label": "Packaging",
+          "value": "Polybag"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/exercise/exercise-balls/",
+  "seo": {
+    "title": "CanDo Deluxe ABS Inflatable Exercise Ball — 55 cm, Orange, Polybag | GM Therapy",
+    "description": "CanDo Deluxe ABS Inflatable Exercise Ball — 55 cm, Orange, Polybag. Call or add to quote request for pricing."
+  }
+},
+  "950": {
+  "productId": "950",
+  "slug": "fab-30-2120bx",
+  "tagline": "Circular balance pad.",
+  "overview": [
+    "CanDo Circular Balance Pad — 20\" Diameter, 2\" Thick, Blue."
+  ],
+  "highlights": [
+    "Circular balance pad",
+    "20 inch diameter",
+    "2 inch thickness",
+    "Blue"
+  ],
+  "gallery": [
+    {
+      "src": fabAccessory950.url,
+      "alt": "CanDo Circular Balance Pad — 20\" Diameter, 2\" Thick, Blue — FAB 30-2120BX"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 30-2120BX"
+        },
+        {
+          "label": "Diameter",
+          "value": "20 inches"
+        },
+        {
+          "label": "Thickness",
+          "value": "2 inches"
+        },
+        {
+          "label": "Color",
+          "value": "Blue"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/exercise/balance-boards-pads/cando-aerobic-pads/",
+  "seo": {
+    "title": "CanDo Circular Balance Pad — 20\" Diameter, 2\" Thick, Blue | GM Therapy",
+    "description": "CanDo Circular Balance Pad — 20\" Diameter, 2\" Thick, Blue. Call or add to quote request for pricing."
+  }
+},
+  "951": {
+  "productId": "951",
+  "slug": "fab-30-2300",
+  "tagline": "Aerobic stepper set.",
+  "overview": [
+    "Aerobic Stepper Set."
+  ],
+  "highlights": [
+    "Aerobic stepper set",
+    "For step-based exercise and conditioning",
+    "Includes platform and two sets of risers"
+  ],
+  "gallery": [
+    {
+      "src": fabAccessory951.url,
+      "alt": "Aerobic Stepper Set — FAB 30-2300"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 30-2300"
+        },
+        {
+          "label": "Included",
+          "value": "Platform and two sets of risers"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/exercise/aerobic-steppers/",
+  "seo": {
+    "title": "Aerobic Stepper Set | GM Therapy",
+    "description": "Aerobic Stepper Set. Call or add to quote request for pricing."
+  }
+},
+
   "893": {
   "productId": "893",
   "slug": "game-ready-13-2513",
