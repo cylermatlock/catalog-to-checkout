@@ -30,6 +30,14 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  // FAB transfer, ultrasound supplies and therapy
+  { id: "958", name: "Wood Transfer Board — Two Hand Grips", category: "Clinical Supplies", subcategory: "DME", sku: "FAB 50-3005", description: ["Wood transfer board", "Two hand grips", "For assisted transfers"] },
+  { id: "959", name: "CanDo Ultrasound Gel — 5 Liters, Each", category: "Clinical Supplies", subcategory: "Modalities", sku: "FAB 50-5601-1", description: ["Ultrasound coupling gel", "5 liter container", "Sold individually — 1 each"] },
+  { id: "960", name: "CanDo Ultrasound Gel — 5 Liters, Each", category: "Clinical Supplies", subcategory: "Modalities", sku: "FAB 50-5601-4X", description: ["Ultrasound coupling gel", "5 liter container", "Sold individually — 1 each"] },
+  { id: "961", name: "Ideal Gel Warmer — Two 8 oz Bottles", category: "Modalities", subcategory: "Ultrasound Accessories", sku: "FAB 50-6056", description: ["Gel bottle warmer", "Two-bottle capacity", "For 8 oz bottles"] },
+  { id: "962", name: "HCI eTrainer Passive Assist Motorized Trainer", category: "Cardio", subcategory: "Rehab Trainers", sku: "FAB 69-0162", description: ["HCI eTrainer motorized trainer", "Passive-assist exercise mode", "For upper- and lower-body exercise"] },
+  { id: "963", name: "Knee Wedge — 22W x 20L x 10.25H, Black Naugahyde", category: "Clinical Supplies", subcategory: "Positioning", sku: "FAB 75-2863", description: ["Knee positioning wedge", "22 inch width x 20 inch length x 10.25 inch height", "Black Naugahyde upholstery"] },
+
   // FAB positioning, mobility and traction
   { id: "952", name: "Tumble Forms Roll — 36\" x 10\"", category: "Clinical Supplies", subcategory: "Positioning", sku: "FAB 30-3004", description: ["Tumble Forms positioning roll", "36 inch length x 10 inch diameter", "Solid-core molded foam construction", "Carrying and storage strap", "For supported positioning and therapy activities"] },
   { id: "953", name: "Tumble Forms Wedge — 24\" x 28\" x 10\"", category: "Clinical Supplies", subcategory: "Positioning", sku: "FAB 30-3016", description: ["Tumble Forms positioning wedge", "24 x 28 x 10 inches", "Seamless coated foam construction", "For supported positioning and therapy activities"] },
