@@ -30,6 +30,14 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  // Game Ready ATX wraps
+  { id: "893", name: "Game Ready Half Leg Boot Wrap with ATX — Large", category: "Compression", subcategory: "Cold Compression", sku: "FAB 13-2513", description: ["Lower-extremity half leg boot wrap", "Large size", "ATX — Active Temperature Exchange", "Designed for use with a compatible Game Ready therapy system"] },
+  { id: "894", name: "Game Ready Back Wrap with ATX", category: "Compression", subcategory: "Cold Compression", sku: "FAB 13-2518", description: ["Mid-body back wrap", "ATX — Active Temperature Exchange", "Anatomically designed for the back", "Designed for use with a compatible Game Ready therapy system"] },
+  { id: "895", name: "Game Ready Hand/Wrist Wrap with ATX", category: "Compression", subcategory: "Cold Compression", sku: "FAB 13-2519", description: ["Upper-extremity hand and wrist wrap", "ATX — Active Temperature Exchange", "Anatomically designed for the hand and wrist", "Designed for use with a compatible Game Ready therapy system"] },
+  { id: "896", name: "Game Ready Right Shoulder Wrap with ATX — Medium, 33–45\" Chest", category: "Compression", subcategory: "Cold Compression", sku: "FAB 13-2525", description: ["Right shoulder wrap", "Medium — fits 33–45 inch chest", "ATX — Active Temperature Exchange", "Designed for use with a compatible Game Ready therapy system"] },
+  { id: "897", name: "Game Ready Left Shoulder Wrap with ATX — Medium, 33–45\" Chest", category: "Compression", subcategory: "Cold Compression", sku: "FAB 13-2527", description: ["Left shoulder wrap", "Medium — fits 33–45 inch chest", "ATX — Active Temperature Exchange", "Designed for use with a compatible Game Ready therapy system"] },
+  { id: "898", name: "Game Ready Full Leg Boot Wrap with ATX — Medium, GRPro 2.1 Only", category: "Compression", subcategory: "Cold Compression", sku: "FAB 13-2536", description: ["Full leg boot wrap", "Medium size", "ATX — Active Temperature Exchange", "Compatible with GRPro 2.1 ONLY"] },
+
   // FAB heating units and diagnostic instruments
   { id: "887", name: "Relief Pak Stationary Heating Unit — 4-Pack Capacity, 110V", category: "Modalities", subcategory: "Hydrocollator", sku: "FAB 11-1981", description: ["Stationary moist heat pack heating unit", "4-pack capacity", "110V power", "For heating reusable moist heat therapy packs"] },
   { id: "888", name: "Relief Pak Mobile Heating Unit — 12-Pack Capacity, No Packs", category: "Modalities", subcategory: "Hydrocollator", sku: "FAB 11-1985", description: ["Mobile moist heat pack heating unit", "12-pack capacity", "No heat packs included — packs sold separately", "For heating reusable moist heat therapy packs"] },
