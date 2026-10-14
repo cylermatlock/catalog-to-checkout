@@ -1,6 +1,120 @@
 {
-  "generatedAt": "2026-10-14T12:21:24.777Z",
+  "generatedAt": "2026-10-14T12:34:00.563Z",
   "products": [
+    {
+      "id": "887",
+      "sku": "FAB 11-1981",
+      "name": "Relief Pak Stationary Heating Unit — 4-Pack Capacity, 110V",
+      "brand": "Relief Pak",
+      "category": "Modalities",
+      "subcategory": "Hydrocollator",
+      "condition": "new",
+      "image": "/catalog-assets/107cc4e6-4ae2-48ca-aa18-5135c2aa0479/11-1981.jpg",
+      "images": [
+        "/catalog-assets/107cc4e6-4ae2-48ca-aa18-5135c2aa0479/11-1981.jpg"
+      ],
+      "description": [
+        "Stationary moist heat pack heating unit",
+        "4-pack capacity",
+        "110V power",
+        "For heating reusable moist heat therapy packs"
+      ]
+    },
+    {
+      "id": "888",
+      "sku": "FAB 11-1985",
+      "name": "Relief Pak Mobile Heating Unit — 12-Pack Capacity, No Packs",
+      "brand": "Relief Pak",
+      "category": "Modalities",
+      "subcategory": "Hydrocollator",
+      "condition": "new",
+      "image": "/catalog-assets/644a183a-8132-46ba-b775-4b4bedb4d7be/11-1985.jpg",
+      "images": [
+        "/catalog-assets/644a183a-8132-46ba-b775-4b4bedb4d7be/11-1985.jpg"
+      ],
+      "description": [
+        "Mobile moist heat pack heating unit",
+        "12-pack capacity",
+        "No heat packs included — packs sold separately",
+        "For heating reusable moist heat therapy packs"
+      ]
+    },
+    {
+      "id": "889",
+      "sku": "FAB 12-1001X",
+      "name": "Baseline 360° Plastic Goniometer — 8\"",
+      "brand": "Fabrication Enterprises",
+      "category": "Clinical Supplies",
+      "subcategory": "Assessment Tools",
+      "condition": "new",
+      "image": "/catalog-assets/61f3222e-9b58-4e04-9142-4603e62735b4/12-1001X.jpg",
+      "images": [
+        "/catalog-assets/61f3222e-9b58-4e04-9142-4603e62735b4/12-1001X.jpg"
+      ],
+      "description": [
+        "360° plastic goniometer",
+        "8 inch length",
+        "Measures joint range of motion",
+        "Clear plastic for alignment with the joint"
+      ]
+    },
+    {
+      "id": "890",
+      "sku": "FAB 12-1205",
+      "name": "Baseline Measurement Tape with Hands-Free Attachment — 60\"",
+      "brand": "Fabrication Enterprises",
+      "category": "Clinical Supplies",
+      "subcategory": "Assessment Tools",
+      "condition": "new",
+      "image": "/catalog-assets/d3b1fa03-344a-4049-a61b-e5a87c517196/12-1205.jpg",
+      "images": [
+        "/catalog-assets/d3b1fa03-344a-4049-a61b-e5a87c517196/12-1205.jpg"
+      ],
+      "description": [
+        "60 inch measurement tape",
+        "Hands-free attachment",
+        "For body circumference measurements",
+        "Compact clinical measurement tool"
+      ]
+    },
+    {
+      "id": "891",
+      "sku": "FAB 12-1571",
+      "name": "Taylor Percussion Hammer — Red, Latex Free",
+      "brand": "Fabrication Enterprises",
+      "category": "Clinical Supplies",
+      "subcategory": "Assessment Tools",
+      "condition": "new",
+      "image": "/catalog-assets/612aa1dd-1135-42f1-ab51-857d7c0ff839/12-1571.jpg",
+      "images": [
+        "/catalog-assets/612aa1dd-1135-42f1-ab51-857d7c0ff839/12-1571.jpg"
+      ],
+      "description": [
+        "Taylor-style percussion hammer",
+        "Red hammer head",
+        "Latex-free construction",
+        "For clinical reflex assessment"
+      ]
+    },
+    {
+      "id": "892",
+      "sku": "FAB 12-2220",
+      "name": "Sprague-Rappaport Stethoscope",
+      "brand": "Fabrication Enterprises",
+      "category": "Clinical Supplies",
+      "subcategory": "Assessment Tools",
+      "condition": "new",
+      "image": "/catalog-assets/95ca7780-92b9-4d65-bb11-f31bd9d3ad67/12-2220.jpg",
+      "images": [
+        "/catalog-assets/95ca7780-92b9-4d65-bb11-f31bd9d3ad67/12-2220.jpg"
+      ],
+      "description": [
+        "Sprague-Rappaport style stethoscope",
+        "For clinical auscultation",
+        "Dual-tube design",
+        "Interchangeable chestpiece fittings"
+      ]
+    },
     {
       "id": "881",
       "sku": "FAB 11-1000",

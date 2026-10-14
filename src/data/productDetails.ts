@@ -1,3 +1,9 @@
+import fabNew887 from "@/assets/products/fab/11-1981.jpg.asset.json";
+import fabNew888 from "@/assets/products/fab/11-1985.jpg.asset.json";
+import fabNew889 from "@/assets/products/fab/12-1001X.jpg.asset.json";
+import fabNew890 from "@/assets/products/fab/12-1205.jpg.asset.json";
+import fabNew891 from "@/assets/products/fab/12-1571.jpg.asset.json";
+import fabNew892 from "@/assets/products/fab/12-2220.jpg.asset.json";
 import fabOct14881 from "@/assets/products/fab/11-1000.jpg.asset.json";
 import fabOct14882 from "@/assets/products/fab/11-1001.jpg.asset.json";
 import fabOct14883 from "@/assets/products/fab/11-1002.jpg.asset.json";
@@ -108,6 +114,313 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "887": {
+  "productId": "887",
+  "slug": "fab-11-1981",
+  "tagline": "Stationary countertop heating unit.",
+  "overview": [
+    "Relief Pak Stationary Heating Unit — 4-Pack Capacity, 110V."
+  ],
+  "highlights": [
+    "Stationary countertop heating unit",
+    "4-pack capacity — heat packs sold separately",
+    "110V power",
+    "Plastic lid and insulated stainless steel construction",
+    "Adjustable thermostat heats the water bath up to 160°F"
+  ],
+  "gallery": [
+    {
+      "src": fabNew887.url,
+      "alt": "Relief Pak Stationary Heating Unit — 4-Pack Capacity, 110V — FAB 11-1981"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 11-1981"
+        },
+        {
+          "label": "Capacity",
+          "value": "4 packs"
+        },
+        {
+          "label": "Power",
+          "value": "110V"
+        },
+        {
+          "label": "Configuration",
+          "value": "Stationary, unit only"
+        },
+        {
+          "label": "Lid",
+          "value": "Plastic"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/hot-packs-therapy/relief-pak-heating-units/",
+  "seo": {
+    "title": "Relief Pak Stationary Heating Unit — 4-Pack Capacity, 110V | GM Therapy",
+    "description": "Relief Pak Stationary Heating Unit — 4-Pack Capacity, 110V. Call or add to quote request for pricing."
+  }
+},
+  "888": {
+  "productId": "888",
+  "slug": "fab-11-1985",
+  "tagline": "Mobile moist heat pack heating unit.",
+  "overview": [
+    "Relief Pak Mobile Heating Unit — 12-Pack Capacity, No Packs."
+  ],
+  "highlights": [
+    "Mobile moist heat pack heating unit",
+    "12-pack capacity",
+    "No heat packs included — packs sold separately",
+    "Insulated stainless steel construction",
+    "Rolling casters for mobility",
+    "Adjustable thermostat heats the water bath up to 160°F"
+  ],
+  "gallery": [
+    {
+      "src": fabNew888.url,
+      "alt": "Relief Pak Mobile Heating Unit — 12-Pack Capacity, No Packs — FAB 11-1985"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 11-1985"
+        },
+        {
+          "label": "Capacity",
+          "value": "12 packs"
+        },
+        {
+          "label": "Packs included",
+          "value": "None"
+        },
+        {
+          "label": "Configuration",
+          "value": "Mobile"
+        },
+        {
+          "label": "Power",
+          "value": "110V"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/hot-cold-therapy/hot-packs-therapy/relief-pak-heating-units/",
+  "seo": {
+    "title": "Relief Pak Mobile Heating Unit — 12-Pack Capacity, No Packs | GM Therapy",
+    "description": "Relief Pak Mobile Heating Unit — 12-Pack Capacity, No Packs. Call or add to quote request for pricing."
+  }
+},
+  "889": {
+  "productId": "889",
+  "slug": "fab-12-1001x",
+  "tagline": "360° plastic goniometer.",
+  "overview": [
+    "Baseline 360° Plastic Goniometer — 8\"."
+  ],
+  "highlights": [
+    "360° plastic goniometer",
+    "8 inch length",
+    "Clear plastic allows joint alignment",
+    "Measures joint range of motion",
+    "Linear scales in inches and centimeters"
+  ],
+  "gallery": [
+    {
+      "src": fabNew889.url,
+      "alt": "Baseline 360° Plastic Goniometer — 8\" — FAB 12-1001X"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 12-1001X"
+        },
+        {
+          "label": "Angular range",
+          "value": "360°"
+        },
+        {
+          "label": "Length",
+          "value": "8 inches"
+        },
+        {
+          "label": "Material",
+          "value": "Clear plastic"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/media/02_Evaluation/12-1001.jpg",
+  "seo": {
+    "title": "Baseline 360° Plastic Goniometer — 8\" | GM Therapy",
+    "description": "Baseline 360° Plastic Goniometer — 8\". Call or add to quote request for pricing."
+  }
+},
+  "890": {
+  "productId": "890",
+  "slug": "fab-12-1205",
+  "tagline": "60 inch measurement tape.",
+  "overview": [
+    "Baseline Measurement Tape with Hands-Free Attachment — 60\"."
+  ],
+  "highlights": [
+    "60 inch measurement tape",
+    "Hands-free attachment keeps the measuring loop in place",
+    "Measures body circumference",
+    "Calibrated in inches and centimeters",
+    "Protective plastic housing with push-button retractor"
+  ],
+  "gallery": [
+    {
+      "src": fabNew890.url,
+      "alt": "Baseline Measurement Tape with Hands-Free Attachment — 60\" — FAB 12-1205"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 12-1205"
+        },
+        {
+          "label": "Length",
+          "value": "60 inches"
+        },
+        {
+          "label": "Attachment",
+          "value": "Hands-free"
+        },
+        {
+          "label": "Scales",
+          "value": "Inches and centimeters"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/evaluation/size-edema/baseline-measurement-tapes/",
+  "seo": {
+    "title": "Baseline Measurement Tape with Hands-Free Attachment — 60\" | GM Therapy",
+    "description": "Baseline Measurement Tape with Hands-Free Attachment — 60\". Call or add to quote request for pricing."
+  }
+},
+  "891": {
+  "productId": "891",
+  "slug": "fab-12-1571",
+  "tagline": "Taylor-style percussion hammer.",
+  "overview": [
+    "Taylor Percussion Hammer — Red, Latex Free."
+  ],
+  "highlights": [
+    "Taylor-style percussion hammer",
+    "Red latex-free hammer head",
+    "Triangular head with metal handle",
+    "For clinical reflex assessment"
+  ],
+  "gallery": [
+    {
+      "src": fabNew891.url,
+      "alt": "Taylor Percussion Hammer — Red, Latex Free — FAB 12-1571"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 12-1571"
+        },
+        {
+          "label": "Style",
+          "value": "Taylor"
+        },
+        {
+          "label": "Color",
+          "value": "Red"
+        },
+        {
+          "label": "Latex",
+          "value": "Latex free"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/media/32_2015_Catalog/FEI-CATALOG-2015-261.pdf",
+  "seo": {
+    "title": "Taylor Percussion Hammer — Red, Latex Free | GM Therapy",
+    "description": "Taylor Percussion Hammer — Red, Latex Free. Call or add to quote request for pricing."
+  }
+},
+  "892": {
+  "productId": "892",
+  "slug": "fab-12-2220",
+  "tagline": "Sprague-Rappaport style stethoscope.",
+  "overview": [
+    "Sprague-Rappaport Stethoscope."
+  ],
+  "highlights": [
+    "Sprague-Rappaport style stethoscope",
+    "Dual-tube design",
+    "Rotating chestpiece drum stem",
+    "Includes three bell chestpieces and two diaphragms",
+    "For clinical auscultation"
+  ],
+  "gallery": [
+    {
+      "src": fabNew892.url,
+      "alt": "Sprague-Rappaport Stethoscope — FAB 12-2220"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 12-2220"
+        },
+        {
+          "label": "Style",
+          "value": "Sprague-Rappaport"
+        },
+        {
+          "label": "Tubing",
+          "value": "Dual tube"
+        },
+        {
+          "label": "Bell chestpieces",
+          "value": "3"
+        },
+        {
+          "label": "Diaphragms",
+          "value": "2"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/media/02_Evaluation/12-2220.jpg",
+  "seo": {
+    "title": "Sprague-Rappaport Stethoscope | GM Therapy",
+    "description": "Sprague-Rappaport Stethoscope. Call or add to quote request for pricing."
+  }
+},
+
   "881": {
     "productId": "881",
     "slug": "relief-pak-coldspot-standard-11-x-14-blue-vinyl",
