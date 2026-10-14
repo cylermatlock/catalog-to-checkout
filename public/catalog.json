@@ -1,6 +1,120 @@
 {
-  "generatedAt": "2026-10-13T22:32:15.161Z",
+  "generatedAt": "2026-10-14T12:21:24.777Z",
   "products": [
+    {
+      "id": "881",
+      "sku": "FAB 11-1000",
+      "name": "Relief Pak ColdSpot — Standard, 11\" x 14\", Blue Vinyl",
+      "brand": "Relief Pak",
+      "category": "Clinical Supplies",
+      "subcategory": "Hot & Cold Packs",
+      "condition": "new",
+      "image": "/catalog-assets/b9f18cd2-897e-4878-a307-566339df3ad6/11-1000.jpg",
+      "images": [
+        "/catalog-assets/b9f18cd2-897e-4878-a307-566339df3ad6/11-1000.jpg"
+      ],
+      "description": [
+        "Standard-size ColdSpot cold therapy pack",
+        "11\" x 14\"",
+        "Blue vinyl exterior",
+        "Reusable cold pack"
+      ]
+    },
+    {
+      "id": "882",
+      "sku": "FAB 11-1001",
+      "name": "Relief Pak ColdSpot — Cervical, 6\" x 23\", Blue Vinyl",
+      "brand": "Relief Pak",
+      "category": "Clinical Supplies",
+      "subcategory": "Hot & Cold Packs",
+      "condition": "new",
+      "image": "/catalog-assets/060afa92-e9e4-4859-b7d3-b0bc40981414/11-1001.jpg",
+      "images": [
+        "/catalog-assets/060afa92-e9e4-4859-b7d3-b0bc40981414/11-1001.jpg"
+      ],
+      "description": [
+        "Cervical-size ColdSpot cold therapy pack",
+        "6\" x 23\"",
+        "Blue vinyl exterior",
+        "Reusable cold pack"
+      ]
+    },
+    {
+      "id": "883",
+      "sku": "FAB 11-1002",
+      "name": "Relief Pak ColdSpot — Oversize, 11\" x 21\", Blue Vinyl",
+      "brand": "Relief Pak",
+      "category": "Clinical Supplies",
+      "subcategory": "Hot & Cold Packs",
+      "condition": "new",
+      "image": "/catalog-assets/4064d6f8-9cd0-427d-b921-b1ae1c64df97/11-1002.jpg",
+      "images": [
+        "/catalog-assets/4064d6f8-9cd0-427d-b921-b1ae1c64df97/11-1002.jpg"
+      ],
+      "description": [
+        "Oversize ColdSpot cold therapy pack",
+        "11\" x 21\"",
+        "Blue vinyl exterior",
+        "Reusable cold pack"
+      ]
+    },
+    {
+      "id": "884",
+      "sku": "FAB 11-1821",
+      "name": "Relief Pak Thermal Moist Heat Pack — Cervical, 6\" x 24\"",
+      "brand": "Relief Pak",
+      "category": "Clinical Supplies",
+      "subcategory": "Hot & Cold Packs",
+      "condition": "new",
+      "image": "/catalog-assets/31af5af9-9910-403a-8ca6-74f59ac36d4b/11-1821.jpg",
+      "images": [
+        "/catalog-assets/31af5af9-9910-403a-8ca6-74f59ac36d4b/11-1821.jpg"
+      ],
+      "description": [
+        "Cervical-size thermal moist heat pack",
+        "6\" x 24\"",
+        "For moist heat therapy",
+        "Reusable heat pack"
+      ]
+    },
+    {
+      "id": "885",
+      "sku": "FAB 11-1822",
+      "name": "Relief Pak Thermal Moist Heat Pack — Oversize, 24\" x 15\"",
+      "brand": "Relief Pak",
+      "category": "Clinical Supplies",
+      "subcategory": "Hot & Cold Packs",
+      "condition": "new",
+      "image": "/catalog-assets/88dc8fa9-f715-4ac3-a17a-af1d629d7b65/11-1822.jpg",
+      "images": [
+        "/catalog-assets/88dc8fa9-f715-4ac3-a17a-af1d629d7b65/11-1822.jpg"
+      ],
+      "description": [
+        "Oversize thermal moist heat pack",
+        "24\" x 15\"",
+        "For moist heat therapy",
+        "Reusable heat pack"
+      ]
+    },
+    {
+      "id": "886",
+      "sku": "FAB 11-1961",
+      "name": "Relief Pak Stationary Heating Unit — 4-Pack Capacity with 4 Standard Packs",
+      "brand": "Relief Pak",
+      "category": "Modalities",
+      "subcategory": "Hydrocollator",
+      "condition": "new",
+      "image": "/catalog-assets/b96e4f58-f268-4bb1-b1ea-331cfe763605/11-1961.jpg",
+      "images": [
+        "/catalog-assets/b96e4f58-f268-4bb1-b1ea-331cfe763605/11-1961.jpg"
+      ],
+      "description": [
+        "Stationary moist heat pack heating unit",
+        "4-pack capacity",
+        "Includes four standard moist heat packs",
+        "For heating packs used in moist heat therapy"
+      ]
+    },
     {
       "id": "875",
       "sku": "FAB 10-6747",
@@ -8284,7 +8398,7 @@
       "id": "389",
       "sku": "FAB 11-1311",
       "name": "Relief Pak Moist Heat Pack — Neck",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -8344,7 +8458,7 @@
       "id": "395",
       "sku": "FAB 11-1312",
       "name": "Relief Pak Moist Heat Pack — Oversize",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -8465,7 +8579,7 @@
       "id": "402",
       "sku": "FAB 11-1310",
       "name": "Relief Pak Moist Heat Pack — Standard",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10276,7 +10390,7 @@
       "id": "509",
       "sku": "FAB 11-1965-2",
       "name": "Relief Pak 12-Pack Mobile Heating Unit — 110V",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10339,7 +10453,7 @@
       "id": "513",
       "sku": "FAB 11-1313",
       "name": "Relief Pak Moist Heat Pack — Halfsize",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10359,7 +10473,7 @@
       "id": "514",
       "sku": "FAB 11-1360",
       "name": "Relief Pak Terry Cover w/ Foam — Standard",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10379,7 +10493,7 @@
       "id": "515",
       "sku": "FAB 11-1361",
       "name": "Relief Pak Terry Cover w/ Foam — Neck",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10399,7 +10513,7 @@
       "id": "516",
       "sku": "FAB 11-1362",
       "name": "Relief Pak Terry Cover w/ Foam — Oversize",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10440,7 +10554,7 @@
       "id": "518",
       "sku": "FAB 11-1250",
       "name": "Relief Pak Black Urethane Reusable Cold Pack — Standard (11 x 14\")",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10461,7 +10575,7 @@
       "id": "519",
       "sku": "FAB 11-1251",
       "name": "Relief Pak Black Urethane Reusable Cold Pack — Neck (6 x 23\")",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10482,7 +10596,7 @@
       "id": "520",
       "sku": "FAB 11-1252",
       "name": "Relief Pak Black Urethane Reusable Cold Pack — Oversize (11 x 21\")",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10503,7 +10617,7 @@
       "id": "521",
       "sku": "FAB 11-1253",
       "name": "Relief Pak Black Urethane Reusable Cold Pack — Halfsize (7 x 11\")",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10844,7 +10958,7 @@
       "id": "544",
       "sku": "FAB 11-1364",
       "name": "Relief Pak Heat Pack Cover — Terry with Foam, Standard with Pocket",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10884,7 +10998,7 @@
       "id": "546",
       "sku": "FAB 11-1366",
       "name": "Relief Pak Heat Pack Cover — All Terry, Standard",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10904,7 +11018,7 @@
       "id": "547",
       "sku": "FAB 11-1367",
       "name": "Relief Pak Heat Pack Cover — All Terry, Neck",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10924,7 +11038,7 @@
       "id": "548",
       "sku": "FAB 11-1368",
       "name": "Relief Pak Heat Pack Cover — All Terry, Oversize",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10944,7 +11058,7 @@
       "id": "549",
       "sku": "FAB 11-1369",
       "name": "Relief Pak Heat Pack Cover — All Terry, Halfsize",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10964,7 +11078,7 @@
       "id": "550",
       "sku": "FAB 11-1257",
       "name": "Relief Pak Black Urethane Reusable Cold Pack — Circular (10\" diameter)",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",
@@ -10984,7 +11098,7 @@
       "id": "551",
       "sku": "FAB 11-1363",
       "name": "Relief Pak Heat Pack Cover — Terry with Foam, Halfsize",
-      "brand": "Fabrication Enterprises",
+      "brand": "Relief Pak",
       "category": "Clinical Supplies",
       "subcategory": "Hot & Cold Therapy",
       "condition": "new",

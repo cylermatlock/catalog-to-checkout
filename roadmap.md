@@ -1,6 +1,5 @@
-# Six FAB catalog additions
+# Six Relief Pak catalog additions
 
-- [x] Add the six requested SKUs and factual bullet points; use approved FAB 10-6747 for the loop set; leave BSW unchanged.
-- [x] Verify matching photos and specifications; create product details.
-- [x] Save photos with Lovable Assets and mirror repository copies for Claude.
-- [x] Refresh the quote catalog and sitemap; verify photos and quote requests.
+- [x] Add FAB 11-1000, 11-1001, 11-1002, 11-1821, 11-1822, and 11-1961 with factual bullet points; leave BSW unchanged.
+- [x] Connect verified photos and detail pages; mirror all photos for external quote tools.
+- [x] Refresh the quote catalog and sitemap; test exact SKUs and verify quote requests.

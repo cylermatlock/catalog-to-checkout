@@ -30,6 +30,14 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  // Relief Pak cold packs, moist heat packs, and stationary heating unit
+  { id: "881", name: "Relief Pak ColdSpot — Standard, 11\" x 14\", Blue Vinyl", category: "Clinical Supplies", subcategory: "Hot & Cold Packs", sku: "FAB 11-1000", description: ["Standard-size ColdSpot cold therapy pack", "11\" x 14\"", "Blue vinyl exterior", "Reusable cold pack"] },
+  { id: "882", name: "Relief Pak ColdSpot — Cervical, 6\" x 23\", Blue Vinyl", category: "Clinical Supplies", subcategory: "Hot & Cold Packs", sku: "FAB 11-1001", description: ["Cervical-size ColdSpot cold therapy pack", "6\" x 23\"", "Blue vinyl exterior", "Reusable cold pack"] },
+  { id: "883", name: "Relief Pak ColdSpot — Oversize, 11\" x 21\", Blue Vinyl", category: "Clinical Supplies", subcategory: "Hot & Cold Packs", sku: "FAB 11-1002", description: ["Oversize ColdSpot cold therapy pack", "11\" x 21\"", "Blue vinyl exterior", "Reusable cold pack"] },
+  { id: "884", name: "Relief Pak Thermal Moist Heat Pack — Cervical, 6\" x 24\"", category: "Clinical Supplies", subcategory: "Hot & Cold Packs", sku: "FAB 11-1821", description: ["Cervical-size thermal moist heat pack", "6\" x 24\"", "For moist heat therapy", "Reusable heat pack"] },
+  { id: "885", name: "Relief Pak Thermal Moist Heat Pack — Oversize, 24\" x 15\"", category: "Clinical Supplies", subcategory: "Hot & Cold Packs", sku: "FAB 11-1822", description: ["Oversize thermal moist heat pack", "24\" x 15\"", "For moist heat therapy", "Reusable heat pack"] },
+  { id: "886", name: "Relief Pak Stationary Heating Unit — 4-Pack Capacity with 4 Standard Packs", category: "Modalities", subcategory: "Hydrocollator", sku: "FAB 11-1961", description: ["Stationary moist heat pack heating unit", "4-pack capacity", "Includes four standard moist heat packs", "For heating packs used in moist heat therapy"] },
+
   // FAB fabric loops, Total Gym, and SEIRIN needles
   { id: "875", name: "CanDo Fabric Loop Plus — 18\" Single Loops, Set of 3", category: "Clinical Supplies", subcategory: "Bands & Tubing", sku: "FAB 10-6747", description: ["Set of three pre-made Fabric Loop Plus exercise loops", "18\" long single loops", "Includes green, blue, and black", "Fabric resistance loops for strengthening exercises"] },
   { id: "876", name: "Total Gym ELEVATE Jump", category: "Strength Equipment", subcategory: "Total Gym", sku: "FAB 10-7215", description: ["Total Gym ELEVATE Jump exercise trainer", "Incline glideboard design", "Designed for lower-body jumping and squat exercises", "Call or Add to Quote Request for pricing"] },
