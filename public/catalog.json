@@ -1,6 +1,102 @@
 {
-  "generatedAt": "2026-10-14T13:50:04.553Z",
+  "generatedAt": "2026-10-14T14:35:40.856Z",
   "products": [
+    {
+      "id": "958",
+      "sku": "FAB 50-3005",
+      "name": "Wood Transfer Board — Two Hand Grips",
+      "brand": "Fabrication Enterprises",
+      "category": "Clinical Supplies",
+      "subcategory": "DME",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Wood transfer board",
+        "Two hand grips",
+        "For assisted transfers"
+      ]
+    },
+    {
+      "id": "959",
+      "sku": "FAB 50-5601-1",
+      "name": "CanDo Ultrasound Gel — 5 Liters, Each",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Modalities",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Ultrasound coupling gel",
+        "5 liter container",
+        "Sold individually — 1 each"
+      ]
+    },
+    {
+      "id": "960",
+      "sku": "FAB 50-5601-4X",
+      "name": "CanDo Ultrasound Gel — 5 Liters, Each",
+      "brand": "CanDo",
+      "category": "Clinical Supplies",
+      "subcategory": "Modalities",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Ultrasound coupling gel",
+        "5 liter container",
+        "Sold individually — 1 each"
+      ]
+    },
+    {
+      "id": "961",
+      "sku": "FAB 50-6056",
+      "name": "Ideal Gel Warmer — Two 8 oz Bottles",
+      "brand": "Ideal",
+      "category": "Modalities",
+      "subcategory": "Ultrasound Accessories",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Gel bottle warmer",
+        "Two-bottle capacity",
+        "For 8 oz bottles"
+      ]
+    },
+    {
+      "id": "962",
+      "sku": "FAB 69-0162",
+      "name": "HCI eTrainer Passive Assist Motorized Trainer",
+      "brand": "HCI Fitness",
+      "category": "Cardio",
+      "subcategory": "Rehab Trainers",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "HCI eTrainer motorized trainer",
+        "Passive-assist exercise mode",
+        "For upper- and lower-body exercise"
+      ]
+    },
+    {
+      "id": "963",
+      "sku": "FAB 75-2863",
+      "name": "Knee Wedge — 22W x 20L x 10.25H, Black Naugahyde",
+      "brand": "Fabrication Enterprises",
+      "category": "Clinical Supplies",
+      "subcategory": "Positioning",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Knee positioning wedge",
+        "22 inch width x 20 inch length x 10.25 inch height",
+        "Black Naugahyde upholstery"
+      ]
+    },
     {
       "id": "952",
       "sku": "FAB 30-3004",
