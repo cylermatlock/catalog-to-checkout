@@ -1,7 +1,7 @@
 # Add seven new products (NC, NS, PHS, PM, RICH)
 
-- [ ] Research official product pages/photos for: NC 14700 (Norco Splint-Form 2000 Splint Pan), NS 75-7242 (NuStep T5XR Stability Accessory Bundle), PHS ATT-300 (Pivotal Health Intersegmental Roller Massage Table), PM P29754PRO 20827 (Stretcher Pad 29x75x4), RICH 400-852-MIC (MicroBlock 3x5 Cloth 4/pk), RICH 400-872-MIC (MicroBlock 2" Cloth 4/pk), RICH 400-8782 (MultiStim 2" Square Foam Electrodes).
-- [ ] Download photos, create Lovable Asset pointers, mirror to public/catalog-assets.
-- [ ] Add products 970-976 to products.ts, productImages.ts, productDetails.ts; update brand-map.json.
-- [ ] Add test file; run tests; verify quote-cart flow with Playwright.
-- [ ] Regenerate catalog.json and sitemap; confirm counts.
+- [x] Researched official pages/photos for all seven SKUs. NuStep bundle photo came from a dealer CDN (official image deleted from nustep.com); Piedmont pad photo from a dealer (Piedmont page removed); others from manufacturer sites.
+- [x] Photos uploaded as Lovable Assets and mirrored to public/catalog-assets.
+- [x] Added products 970-976 to products.ts, productImages.ts, productDetails.ts; brand-map.json gained "PHS ATT-300" -> Pivotal Health Solutions override and "PM" -> Piedmont Medical prefix.
+- [x] Added src/test/oct20-products.test.ts; 17 new tests pass, full suite 124/124.
+- [x] Catalog regenerated (649 products) and sitemap (652 URLs); quote-cart flow verified in preview with no browser errors. Photos verified via identical repository copies because localhost does not serve the asset proxy directly.
