@@ -1,3 +1,5 @@
+import matrixBooster969 from "@/assets/products/matrix/matrix-md-s70-booster-kit.jpg.asset.json";
+import trxPro4Kit from "@/assets/products/trx/trx-pro4-kit.jpg.asset.json";
 import clinicalMatrix964 from "@/assets/products/new-clinical-matrix/77-0028.jpg.asset.json";
 import clinicalMatrix965 from "@/assets/products/new-clinical-matrix/77-0029.jpg.asset.json";
 import clinicalMatrix966 from "@/assets/products/new-clinical-matrix/ME-D0001.jpg.asset.json";
@@ -93,6 +95,7 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "969": matrixBooster969.url,
   "964": clinicalMatrix964.url,
   "965": clinicalMatrix965.url,
   "966": clinicalMatrix966.url,
@@ -421,7 +424,7 @@ export const productImages: Record<string, string> = {
   "250": productAsset("bsw/fi-slantl.jpg?v=2"),
   "251": productAsset("bsw/gm-ws-shelf.png"),
   "252": productAsset("bsw/mda-bb-cxt.jpg?v=2"),
-  "253": productAsset("bsw/mfs-trxpro4.jpg"),
+  "253": trxPro4Kit.url,
   "254": productAsset("bsw/nc-94700.jpg?v=2"),
   "255": productAsset("bsw/nc14600.jpg"),
   "256": productAsset("bsw/parts-reformer-box.jpg?v=2"),
