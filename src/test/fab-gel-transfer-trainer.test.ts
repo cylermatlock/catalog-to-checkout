@@ -14,6 +14,9 @@ describe("Requested FAB transfer, gel and therapy products", () => {
   it("keeps the wooden transfer board's two hand grips", () => {
     expect(products.find((p) => p.sku === "FAB 50-3005")?.description).toEqual(expect.arrayContaining(["Wood transfer board", "Two hand grips"]));
   });
+  it("uses the supplier-verified 8 by 30 inch board size", () => {
+    expect(products.find((p) => p.sku === "FAB 50-3005")?.description).toContain("8 inch width x 30 inch length");
+  });
   it.each(["FAB 50-5601-1"])("keeps %s as one 5-liter container", (sku) => {
     expect(products.find((p) => p.sku === sku)?.description).toEqual(expect.arrayContaining(["5 liter container", "Sold individually — 1 each"]));
   });
