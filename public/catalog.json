@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-20T14:02:00.508Z",
+  "generatedAt": "2026-10-20T14:03:28.235Z",
   "products": [
     {
       "id": "958",
       "sku": "FAB 50-3005",
-      "name": "Wood Transfer Board — Two Hand Grips",
+      "name": "Wood Transfer Board — 8\" x 30\", Two Hand Grips",
       "brand": "Fabrication Enterprises",
       "category": "Clinical Supplies",
       "subcategory": "DME",
@@ -13,29 +13,15 @@
       "images": [],
       "description": [
         "Wood transfer board",
+        "8 inch width x 30 inch length",
         "Two hand grips",
+        "Tapered ends for transfer placement",
         "For assisted transfers"
       ]
     },
     {
       "id": "959",
       "sku": "FAB 50-5601-1",
-      "name": "CanDo Ultrasound Gel — 5 Liters, Each",
-      "brand": "CanDo",
-      "category": "Clinical Supplies",
-      "subcategory": "Modalities",
-      "condition": "new",
-      "image": null,
-      "images": [],
-      "description": [
-        "Ultrasound coupling gel",
-        "5 liter container",
-        "Sold individually — 1 each"
-      ]
-    },
-    {
-      "id": "960",
-      "sku": "FAB 50-5601-4X",
       "name": "CanDo Ultrasound Gel — 5 Liters, Each",
       "brand": "CanDo",
       "category": "Clinical Supplies",
