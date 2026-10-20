@@ -379,7 +379,8 @@ export const productDetails: Record<string, ProductDetail> = {
       ]
     }
   ],
-  "sourceUrl": "https://images.jhtassets.com/9083f4d915f73fc4fe46c5dc48e3c44d433f494f/original/named/AuraAdjustableCableCrossover+384+eng+uk+ProductSellSheetlargeprint.pdf",
+  "sourceUrl": "https://us.matrixfitness.com/",
+  "specSheetUrl": "https://images.jhtassets.com/9083f4d915f73fc4fe46c5dc48e3c44d433f494f/original/named/AuraAdjustableCableCrossover+384+eng+uk+ProductSellSheetlargeprint.pdf",
   "seo": {
     "title": "Matrix Aura Cable Cross | GM Therapy",
     "description": "Matrix Aura Cable Cross. Call or add to quote request for pricing."
