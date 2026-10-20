@@ -1,6 +1,11 @@
 {
   "_comment": "Customer-facing brand resolution for catalog.json. nameKeywords win over skuPrefix; skuOverrides win over everything. 'U-' pre-owned prefixes are stripped before lookup.",
   "skuOverrides": {
+    "FAB 77-0028": "ADC",
+    "FAB 77-0029": "ADC",
+    "FAB ME-D0001": "Chattanooga",
+    "IM HCR6": "Ideal",
+    "MF-G3-MS20-03": "Matrix",
     "FAB 50-5601-1": "CanDo",
     "FAB 50-6056": "Ideal",
     "FAB 69-0162": "HCI Fitness",

@@ -30,6 +30,13 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  // Diagnostic supplies, drying rack and Matrix cable cross
+  { id: "964", name: "ADC Aneroid Sphygmomanometer — Small Adult, Navy", category: "Clinical Supplies", subcategory: "Diagnostics", sku: "FAB 77-0028", description: ["Aneroid blood pressure monitor", "Small adult cuff", "Navy color", "Manual inflation"] },
+  { id: "965", name: "ADC Aneroid Sphygmomanometer — Large Adult, Navy", category: "Clinical Supplies", subcategory: "Diagnostics", sku: "FAB 77-0029", description: ["Aneroid blood pressure monitor", "Large adult cuff", "Navy color", "Manual inflation"] },
+  { id: "966", name: "Cellex Medium for Fluidotherapy Units — 10 lb Container", category: "Modalities", subcategory: "Fluidotherapy", sku: "FAB ME-D0001", description: ["Cellex dry heat medium", "For Fluidotherapy units", "10 lb container"] },
+  { id: "967", name: "Ideal Stainless Steel Drying Rack — Wall Mounted, 6 Stationary Hooks", category: "Modalities", subcategory: "Hot & Cold Therapy", sku: "IM HCR6", description: ["Stainless steel drying rack", "Wall-mounted design", "Six stationary hooks", "For drying therapy packs"] },
+  { id: "968", name: "Matrix Aura Cable Cross", category: "Strength Equipment", subcategory: "Cable Machines", sku: "MF-G3-MS20-03", description: ["Matrix Aura Cable Cross", "Dual adjustable cable stations", "Includes WHITE-GLOVE inside delivery", "Assembly included", "Trash removal included"] },
+
   // FAB transfer, ultrasound supplies and therapy
   { id: "958", name: "Wood Transfer Board — 8\" x 30\", Two Hand Grips", category: "Clinical Supplies", subcategory: "DME", sku: "FAB 50-3005", description: ["Wood transfer board", "8 inch width x 30 inch length", "Two hand grips", "Tapered ends for transfer placement", "For assisted transfers"] },
   { id: "959", name: "CanDo Ultrasound Gel — 5 Liters, Each", category: "Clinical Supplies", subcategory: "Modalities", sku: "FAB 50-5601-1", description: ["Ultrasound coupling gel", "5 liter container", "Sold individually — 1 each"] },
