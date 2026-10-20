@@ -1,3 +1,10 @@
+import norco970 from "@/assets/products/norco/nc-14700.jpg.asset.json";
+import nustep971 from "@/assets/products/nustep/ns-75-7242.jpg.asset.json";
+import phs972 from "@/assets/products/phs/phs-att-300.jpg.asset.json";
+import piedmont973 from "@/assets/products/piedmont/pm-p29754pro.png.asset.json";
+import richmar974 from "@/assets/products/richmar/rich-400-852-mic.jpg.asset.json";
+import richmar975 from "@/assets/products/richmar/rich-400-872-mic.jpg.asset.json";
+import richmar976 from "@/assets/products/richmar/rich-400-8782.jpg.asset.json";
 import matrixBooster969 from "@/assets/products/matrix/matrix-md-s70-booster-kit.jpg.asset.json";
 import trxPro4Kit from "@/assets/products/trx/trx-pro4-kit.jpg.asset.json";
 import clinicalMatrix964 from "@/assets/products/new-clinical-matrix/77-0028.jpg.asset.json";
@@ -95,6 +102,13 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "970": norco970.url,
+  "971": nustep971.url,
+  "972": phs972.url,
+  "973": piedmont973.url,
+  "974": richmar974.url,
+  "975": richmar975.url,
+  "976": richmar976.url,
   "969": matrixBooster969.url,
   "964": clinicalMatrix964.url,
   "965": clinicalMatrix965.url,
