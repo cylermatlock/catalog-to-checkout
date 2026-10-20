@@ -1,6 +1,7 @@
 {
   "_comment": "Customer-facing brand resolution for catalog.json. nameKeywords win over skuPrefix; skuOverrides win over everything. 'U-' pre-owned prefixes are stripped before lookup.",
   "skuOverrides": {
+    "PHS ATT-300": "Pivotal Health Solutions",
     "FAB 77-0028": "ADC",
     "FAB 77-0029": "ADC",
     "FAB ME-D0001": "Chattanooga",
@@ -73,6 +74,7 @@
     "PB": "GM Therapy Solutions",
     "TT": "GM Therapy Solutions",
     "PARTS": "GM Therapy Solutions",
+    "PM": "Piedmont Medical",
     "AM": "Armedica",
     "PHS AM-660": "Armedica",
     "AM-BA350": "Armedica",

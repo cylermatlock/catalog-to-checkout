@@ -1,3 +1,10 @@
+import norco970 from "@/assets/products/norco/nc-14700.jpg.asset.json";
+import nustep971 from "@/assets/products/nustep/ns-75-7242.jpg.asset.json";
+import phs972 from "@/assets/products/phs/phs-att-300.jpg.asset.json";
+import piedmont973 from "@/assets/products/piedmont/pm-p29754pro.png.asset.json";
+import richmar974 from "@/assets/products/richmar/rich-400-852-mic.jpg.asset.json";
+import richmar975 from "@/assets/products/richmar/rich-400-872-mic.jpg.asset.json";
+import richmar976 from "@/assets/products/richmar/rich-400-8782.jpg.asset.json";
 import matrixBooster969 from "@/assets/products/matrix/matrix-md-s70-booster-kit.jpg.asset.json";
 import trxPro4Kit from "@/assets/products/trx/trx-pro4-kit.jpg.asset.json";
 import clinicalMatrix964 from "@/assets/products/new-clinical-matrix/77-0028.jpg.asset.json";
@@ -145,6 +152,76 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "970": {
+    productId: "970", slug: "norco-splint-form-2000-splint-pan",
+    tagline: "Full-arm splint pan with digital control and automated sanitization.",
+    overview: ["The Norco Splint-Form 2000 heats thermoplastic splinting material and accommodates full-arm splints. A digital temperature display, 7-day programmable on/off, automated sanitization cycle and low-water shutoff sensor support a consistent clinical workflow."],
+    highlights: ["Accommodates full-arm splints", "Digital temperature display", "7-day programmable on/off feature", "Automated sanitization cycle", "Low-water shutoff sensor", "Low-profile bi-fold lid fits under standard cabinets"],
+    gallery: [{ src: norco970.url, alt: "Norco Splint-Form 2000 splint pan with digital control panel" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "NC 14700" }, { label: "Inner dimensions", value: "25\" L x 12\" W x 4.5\" D" }, { label: "Outer dimensions (lid closed)", value: "28\" L x 15.3\" W x 11\" H" }, { label: "Water capacity", value: "6 gallons (23 L)" }, { label: "Temperature range", value: "90\u00b0\u2013180\u00b0F (32\u00b0\u201382\u00b0C)" }] }],
+    sourceUrl: "https://www.ncmedical.com/products/norco-splint-form-2000_4580.html",
+    seo: { title: "Norco Splint-Form 2000 Splint Pan | GM Therapy", description: "Norco Splint-Form 2000 splint pan with digital temperature display and automated sanitization. Call or add to quote request for pricing." },
+  },
+  "971": {
+    productId: "971", slug: "nustep-t5xr-stability-accessory-bundle",
+    tagline: "Stability accessories for the NuStep T5XR recumbent cross trainer.",
+    overview: ["The NuStep T5XR Stability Accessory Bundle adds positioning and stability support to the T5XR with a unilateral leg stabilizer, a WellGrip set and a hip and torso belt."],
+    highlights: ["Accessory bundle for the NuStep T5XR", "Includes unilateral leg stabilizer", "Includes one WellGrip set", "Includes hip and torso belt", "Helps users who need extra positioning and stability"],
+    gallery: [{ src: nustep971.url, alt: "NuStep T5XR stability accessory bundle: leg stabilizer, WellGrip set and hip and torso belt" }],
+    specGroups: [{ title: "Bundle Contents", rows: [{ label: "SKU", value: "NS 75-7242" }, { label: "Leg support", value: "Unilateral leg stabilizer" }, { label: "Hand support", value: "WellGrip set" }, { label: "Torso support", value: "Hip and torso belt" }, { label: "Compatibility", value: "NuStep T5XR" }] }],
+    sourceUrl: "https://www.nustep.com/product/t5xr-stability-essentials-bundle/",
+    seo: { title: "NuStep T5XR Stability Accessory Bundle | GM Therapy", description: "NuStep T5XR stability bundle with leg stabilizer, WellGrip set and hip and torso belt. Call or add to quote request for pricing." },
+  },
+  "972": {
+    productId: "972", slug: "pivotal-health-att-300-roller-massage-table",
+    tagline: "Intersegmental roller massage table with vibration and adjustable pressure.",
+    overview: ["The Pivotal Health ATT-300 is an upholstered intersegmental roller massage table. Three rollers travel up and down the spine, rotating clockwise and counter-clockwise, with vibration and adjustable massage pressure."],
+    highlights: ["Three rollers travel up and down the spine", "Rollers rotate clockwise and counter-clockwise", "Vibration and adjustable massage pressure", "30-minute timer with travel indicator", "LED roller-height indicator and automatic lowering device", "Cervical and knee bolsters included"],
+    gallery: [{ src: phs972.url, alt: "Pivotal Health ATT-300 upholstered intersegmental roller massage table" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "PHS ATT-300" }, { label: "Dimensions", value: "72\" L x 22\" W x 25\" H" }, { label: "Load capacity", value: "350 lb" }, { label: "Included", value: "Cervical bolster and knee bolster" }, { label: "Option", value: "25\" wide top" }] }],
+    sourceUrl: "https://www.phschiropractic.com/store/Intersegmental-Roller-Tables-Accessories/ATT-300-Upholstered-Roller-Massage-Table-P330C139.aspx",
+    seo: { title: "Pivotal Health ATT-300 Roller Massage Table | GM Therapy", description: "ATT-300 intersegmental roller massage table with vibration, adjustable pressure and bolsters. Call or add to quote request for pricing." },
+  },
+  "973": {
+    productId: "973", slug: "comfort-stretcher-pad-29x75x4",
+    tagline: "Replacement stretcher pad with universal corners.",
+    overview: ["The Comfort Stretcher Pad is a 29\" x 75\" x 4\" replacement stretcher pad with universal corners to fit a wide variety of stretchers."],
+    highlights: ["Replacement stretcher pad", "29\" W x 75\" L x 4\" thick", "Universal corners fit a wide variety of stretchers", "Loop velcro down center bottom unless otherwise specified"],
+    gallery: [{ src: piedmont973.url, alt: "Black comfort stretcher pad with universal corners on a stretcher frame" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "PM P29754PRO" }, { label: "Dimensions", value: "29\" W x 75\" L x 4\" H" }, { label: "Corners", value: "Universal" }, { label: "Attachment", value: "Loop velcro down center bottom" }] }],
+    sourceUrl: "https://www.piedmontmedicalinc.net/comfort-stretcher-pad-29/",
+    seo: { title: "Comfort Stretcher Pad 29 x 75 x 4 | GM Therapy", description: "29\" x 75\" x 4\" replacement stretcher pad with universal corners. Call or add to quote request for pricing." },
+  },
+  "974": {
+    productId: "974", slug: "richmar-microblock-3x5-cloth-electrodes",
+    tagline: "Antimicrobial 3\" x 5\" cloth electrodes.",
+    overview: ["Richmar MicroBlock electrodes feature an antimicrobial electrode surface designed to help kill and inhibit common bacteria. This pack contains 3\" x 5\" rectangular cloth electrodes."],
+    highlights: ["3\" x 5\" rectangular cloth electrodes", "Antimicrobial electrode surface", "Helps kill and inhibit common bacteria", "Self-adhesive, reusable", "Sold 4 per pack"],
+    gallery: [{ src: richmar974.url, alt: "Richmar MicroBlock antimicrobial cloth electrodes package" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "RICH 400-852-MIC" }, { label: "Size", value: "3\" x 5\" (7.6 x 13 cm) rectangle" }, { label: "Material", value: "Cloth" }, { label: "Pack", value: "4 electrodes per pack" }] }],
+    sourceUrl: "https://www.richmarweb.com/electrodes/microblock-antimicrobial-electrodes",
+    seo: { title: "Richmar MicroBlock 3x5 Cloth Electrodes | GM Therapy", description: "Richmar MicroBlock antimicrobial 3\" x 5\" cloth electrodes, 4 per pack. Call or add to quote request for pricing." },
+  },
+  "975": {
+    productId: "975", slug: "richmar-microblock-2in-cloth-electrodes",
+    tagline: "Antimicrobial 2\" round cloth electrodes.",
+    overview: ["Richmar MicroBlock electrodes feature an antimicrobial electrode surface designed to help kill and inhibit common bacteria. This pack contains 2\" round cloth electrodes."],
+    highlights: ["2\" (5 cm) round cloth electrodes", "Antimicrobial electrode surface", "Helps kill and inhibit common bacteria", "Self-adhesive, reusable", "Sold 4 per pack"],
+    gallery: [{ src: richmar975.url, alt: "Richmar MicroBlock antimicrobial cloth electrodes package" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "RICH 400-872-MIC" }, { label: "Size", value: "2\" (5 cm) round" }, { label: "Material", value: "Cloth" }, { label: "Pack", value: "4 electrodes per pack" }] }],
+    sourceUrl: "https://www.richmarweb.com/electrodes/microblock-antimicrobial-electrodes",
+    seo: { title: "Richmar MicroBlock 2in Cloth Electrodes | GM Therapy", description: "Richmar MicroBlock antimicrobial 2\" round cloth electrodes, 4 per pack. Call or add to quote request for pricing." },
+  },
+  "976": {
+    productId: "976", slug: "richmar-multistim-2x2-square-foam-electrodes",
+    tagline: "2\" x 2\" square foam electrodes for e-stim.",
+    overview: ["Richmar MultiStim electrodes use a proprietary bonding and moisture barrier designed for high tensile strength and to help prevent delamination during moist-heat therapy. This pack contains 2\" x 2\" square foam electrodes."],
+    highlights: ["2\" x 2\" (5 cm x 5 cm) square foam electrodes", "Proprietary bonding and moisture barrier", "Helps prevent delamination during moist-heat therapy", "Resists gel dry-out and distributes current evenly", "Sold 4 per pack"],
+    gallery: [{ src: richmar976.url, alt: "Richmar MultiStim foam electrodes package" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "RICH 400-8782" }, { label: "Size", value: "2\" x 2\" (5 x 5 cm) square" }, { label: "Material", value: "Foam" }, { label: "Pack", value: "4 electrodes per pack" }] }],
+    sourceUrl: "https://www.richmarweb.com/electrodes/multistim-electrodes",
+    seo: { title: "Richmar MultiStim 2x2 Square Foam Electrodes | GM Therapy", description: "Richmar MultiStim 2\" x 2\" square foam electrodes, 4 per pack. Call or add to quote request for pricing." },
+  },
   "969": {
     productId: "969", slug: "matrix-medical-leg-press-booster-kit",
     tagline: "Foot platform and shoulder pad extensions for shorter MD-S70 users.",
