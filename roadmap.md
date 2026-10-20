@@ -1,6 +1,6 @@
-# ADC, Cellex, Ideal rack and Matrix additions
+# Matrix and TRX requested products
 
-- [x] Add five missing products 964–968 with exact SKUs and variants; reuse existing Iron Neck bundle 853; leave BSW unchanged.
-- [x] Connect authentic photos and detail pages; mirror photos for external quote tools. ADC photos represent the navy product family; Matrix photo is extracted from its official product sheet.
-- [x] Include Matrix white-glove inside delivery, assembly and trash removal.
-- [x] Refresh catalog (641 products) and sitemap (644 URLs), pass all 93 tests, and verify all six photos and quote additions. Narrow-screen pages fit; preview build OK and no browser errors.
+- [x] Reuse existing Matrix items 830–833 without duplicates; update existing TRX 253 to MFS TRXCLUB4.
+- [x] Add MF-MD-S70BK as item 969 with requested booster-kit contents, photo and details; preserve BSW flags.
+- [x] Add official TRX kit photo and detailed included contents; mirror both new photos for external quote tools. Unspecified trailing "Digital" omitted pending clarification.
+- [x] Refresh catalog (642 products) and sitemap (645 URLs); 29 targeted tests pass, preview build OK, six-item quote drawer verified with no browser errors. Photos verified via identical repository copies because localhost does not serve the asset proxy directly.

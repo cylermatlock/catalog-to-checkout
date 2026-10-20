@@ -1,3 +1,5 @@
+import matrixBooster969 from "@/assets/products/matrix/matrix-md-s70-booster-kit.jpg.asset.json";
+import trxPro4Kit from "@/assets/products/trx/trx-pro4-kit.jpg.asset.json";
 import clinicalMatrix964 from "@/assets/products/new-clinical-matrix/77-0028.jpg.asset.json";
 import clinicalMatrix965 from "@/assets/products/new-clinical-matrix/77-0029.jpg.asset.json";
 import clinicalMatrix966 from "@/assets/products/new-clinical-matrix/ME-D0001.jpg.asset.json";
@@ -143,6 +145,26 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "969": {
+    productId: "969", slug: "matrix-medical-leg-press-booster-kit",
+    tagline: "Foot platform and shoulder pad extensions for shorter MD-S70 users.",
+    overview: ["This booster kit adapts the Matrix MD-S70 Medical Leg Press for shorter users by bringing the foot platform and shoulder supports closer. The leg press is sold separately."],
+    highlights: ["Booster kit for the MD-S70 Medical Leg Press", "Includes foot platform that attaches to the foot plate", "Includes shoulder pad extensions to assist shorter users", "Accessory kit only — leg press sold separately"],
+    gallery: [{ src: matrixBooster969.url, alt: "Matrix MD-S70 booster kit with foot platform and two shoulder pad extensions" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "MF-MD-S70BK" }, { label: "Compatible equipment", value: "Matrix MD-S70 Medical Leg Press" }, { label: "Included", value: "Foot platform and shoulder pad extensions" }, { label: "Sold as", value: "Accessory kit; leg press not included" }] }],
+    sourceUrl: "https://www.ncmedical.com/products/matrix-medical-leg-press-booster-kit_4469.html",
+    seo: { title: "Matrix Medical Leg Press Booster Kit | GM Therapy", description: "MD-S70 booster kit with foot platform and shoulder pad extensions for shorter users. Call or add to quote request for pricing." },
+  },
+  "253": {
+    productId: "253", slug: "trx-pro-4-suspension-kit",
+    tagline: "Professional suspension training with a portable anchor and accessory kit.",
+    overview: ["The TRX PRO 4 Suspension Kit includes the suspension trainer and anchoring accessories for bodyweight strength, balance and core exercises."],
+    highlights: ["Suspension trainer with antimicrobial handles and adjustable foot cradles", "Suspension anchor and door anchor included", "Locking carabiner included", "TRX extender included", "Mesh bag included"],
+    gallery: [{ src: trxPro4Kit.url, alt: "TRX PRO 4 suspension trainer, anchors, extender and mesh carry bag" }],
+    specGroups: [{ title: "Kit Contents", rows: [{ label: "SKU", value: "MFS TRXCLUB4" }, { label: "Trainer", value: "TRX PRO 4 with antimicrobial handles and adjustable foot cradles" }, { label: "Anchors", value: "Suspension anchor and door anchor" }, { label: "Accessories", value: "Locking carabiner, TRX extender and mesh bag" }] }],
+    sourceUrl: "https://www.trxtraining.com/products/pro",
+    seo: { title: "TRX PRO 4 Suspension Kit | GM Therapy", description: "TRX PRO 4 Suspension Kit with anchors, locking carabiner, extender and mesh bag. Call or add to quote request for pricing." },
+  },
   "964": {
   "productId": "964",
   "slug": "fab-77-0028",

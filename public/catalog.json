@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-10-20T14:16:16.665Z",
+  "generatedAt": "2026-10-20T14:21:33.595Z",
   "products": [
+    {
+      "id": "969",
+      "sku": "MF-MD-S70BK",
+      "name": "Matrix Medical Leg Press Booster Kit",
+      "brand": "Matrix Fitness",
+      "category": "Strength Equipment",
+      "subcategory": "Accessories",
+      "condition": "new",
+      "image": "/catalog-assets/4acafd7b-e28b-4ffa-9dcf-f540a5beac4b/matrix-md-s70-booster-kit.jpg",
+      "images": [
+        "/catalog-assets/4acafd7b-e28b-4ffa-9dcf-f540a5beac4b/matrix-md-s70-booster-kit.jpg"
+      ],
+      "description": [
+        "Booster kit for the MD-S70 Medical Leg Press",
+        "Includes foot platform that attaches to the foot plate",
+        "Includes shoulder pad extensions to assist shorter users",
+        "Accessory kit only — leg press sold separately"
+      ]
+    },
     {
       "id": "964",
       "sku": "FAB 77-0028",
@@ -6053,24 +6072,23 @@
     },
     {
       "id": "253",
-      "sku": "MFS TRXPRO4",
-      "name": "TRX PRO 4 Suspension Training Kit",
+      "sku": "MFS TRXCLUB4",
+      "name": "TRX PRO 4 Suspension Kit",
       "brand": "TRX",
       "category": "Strength Equipment",
       "subcategory": "Functional Fitness",
       "condition": "new",
-      "image": "/assets/products/bsw/mfs-trxpro4.jpg",
+      "image": "/catalog-assets/55770f1c-a378-4430-beb1-b53b588e2897/trx-pro4-kit.jpg",
       "images": [
-        "/assets/products/bsw/mfs-trxpro4.jpg"
+        "/catalog-assets/55770f1c-a378-4430-beb1-b53b588e2897/trx-pro4-kit.jpg"
       ],
       "description": [
-        "Professional suspension trainer — full kit",
-        "Handles, foot cradles, and door anchor",
-        "300+ exercise variations",
-        "Adjusts for any fitness or rehab level",
-        "Anchors to any door, beam, or rack",
-        "Lightweight and portable — ideal for small clinic spaces",
-        "Built for commercial use"
+        "Suspension trainer with antimicrobial handles and adjustable foot cradles",
+        "Suspension anchor and door anchor included",
+        "Locking carabiner included",
+        "TRX extender included",
+        "Mesh bag included",
+        "Portable suspension training kit for strength, balance and core exercise"
       ]
     },
     {
