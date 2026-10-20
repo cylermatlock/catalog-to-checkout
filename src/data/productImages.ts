@@ -5,6 +5,10 @@ import piedmont973 from "@/assets/products/piedmont/pm-p29754pro.png.asset.json"
 import richmar974 from "@/assets/products/richmar/rich-400-852-mic.jpg.asset.json";
 import richmar975 from "@/assets/products/richmar/rich-400-872-mic.jpg.asset.json";
 import richmar976 from "@/assets/products/richmar/rich-400-8782.jpg.asset.json";
+import richmar979 from "@/assets/products/richmar/rich-dq8002w1.jpg.asset.json";
+import richmar980 from "@/assets/products/richmar/rich-dq8002w5.jpg.asset.json";
+import richmar981 from "@/assets/products/richmar/rich-dqapt.jpg.asset.json";
+import richmar982 from "@/assets/products/richmar/rich-ef2000wc2-pl.jpg.asset.json";
 import matrixBooster969 from "@/assets/products/matrix/matrix-md-s70-booster-kit.jpg.asset.json";
 import trxPro4Kit from "@/assets/products/trx/trx-pro4-kit.jpg.asset.json";
 import clinicalMatrix964 from "@/assets/products/new-clinical-matrix/77-0028.jpg.asset.json";
@@ -109,6 +113,12 @@ export const productImages: Record<string, string> = {
   "974": richmar974.url,
   "975": richmar975.url,
   "976": richmar976.url,
+  "977": richmar974.url,
+  "978": richmar976.url,
+  "979": richmar979.url,
+  "980": richmar980.url,
+  "981": richmar981.url,
+  "982": richmar982.url,
   "969": matrixBooster969.url,
   "964": clinicalMatrix964.url,
   "965": clinicalMatrix965.url,
