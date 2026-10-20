@@ -1,3 +1,8 @@
+import clinicalMatrix964 from "@/assets/products/new-clinical-matrix/77-0028.jpg.asset.json";
+import clinicalMatrix965 from "@/assets/products/new-clinical-matrix/77-0029.jpg.asset.json";
+import clinicalMatrix966 from "@/assets/products/new-clinical-matrix/ME-D0001.jpg.asset.json";
+import clinicalMatrix967 from "@/assets/products/new-clinical-matrix/HCR6.jpg.asset.json";
+import clinicalMatrix968 from "@/assets/products/new-clinical-matrix/G3-MS20-03.jpg.asset.json";
 import fabTherapy958 from "@/assets/products/fab/50-3005.jpg.asset.json";
 import fabTherapy959 from "@/assets/products/fab/50-5601-1.jpg.asset.json";
 import fabTherapy961 from "@/assets/products/fab/50-6056.jpg.asset.json";
@@ -138,6 +143,249 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "964": {
+  "productId": "964",
+  "slug": "fab-77-0028",
+  "tagline": "Aneroid blood pressure monitor.",
+  "overview": [
+    "ADC Aneroid Sphygmomanometer — Small Adult, Navy.",
+    "Supplier photo represents the navy ADC product family; this listing uses the cuff size specified above."
+  ],
+  "highlights": [
+    "Aneroid blood pressure monitor",
+    "Small adult cuff",
+    "Navy color",
+    "Manual inflation"
+  ],
+  "gallery": [
+    {
+      "src": clinicalMatrix964.url,
+      "alt": "ADC Aneroid Sphygmomanometer — Small Adult, Navy — FAB 77-0028"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 77-0028"
+        },
+        {
+          "label": "Cuff size",
+          "value": "Small adult"
+        },
+        {
+          "label": "Color",
+          "value": "Navy"
+        },
+        {
+          "label": "Type",
+          "value": "Aneroid sphygmomanometer"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.bettymills.com/adc-aneroid-sphyg-small-adult-navy-77-0028",
+  "seo": {
+    "title": "ADC Aneroid Sphygmomanometer — Small Adult, Navy | GM Therapy",
+    "description": "ADC Aneroid Sphygmomanometer — Small Adult, Navy. Call or add to quote request for pricing."
+  }
+},
+  "965": {
+  "productId": "965",
+  "slug": "fab-77-0029",
+  "tagline": "Aneroid blood pressure monitor.",
+  "overview": [
+    "ADC Aneroid Sphygmomanometer — Large Adult, Navy.",
+    "Supplier photo represents the navy ADC product family; this listing uses the cuff size specified above."
+  ],
+  "highlights": [
+    "Aneroid blood pressure monitor",
+    "Large adult cuff",
+    "Navy color",
+    "Manual inflation"
+  ],
+  "gallery": [
+    {
+      "src": clinicalMatrix965.url,
+      "alt": "ADC Aneroid Sphygmomanometer — Large Adult, Navy — FAB 77-0029"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 77-0029"
+        },
+        {
+          "label": "Cuff size",
+          "value": "Large adult"
+        },
+        {
+          "label": "Color",
+          "value": "Navy"
+        },
+        {
+          "label": "Type",
+          "value": "Aneroid sphygmomanometer"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.bettymills.com/adc-adc-aneroid-sphyg-large-adult-navy-77-0029-fnt77-0029",
+  "seo": {
+    "title": "ADC Aneroid Sphygmomanometer — Large Adult, Navy | GM Therapy",
+    "description": "ADC Aneroid Sphygmomanometer — Large Adult, Navy. Call or add to quote request for pricing."
+  }
+},
+  "966": {
+  "productId": "966",
+  "slug": "fab-me-d0001",
+  "tagline": "Cellex dry heat medium.",
+  "overview": [
+    "Cellex Medium for Fluidotherapy Units — 10 lb Container."
+  ],
+  "highlights": [
+    "Cellex dry heat medium",
+    "For Fluidotherapy units",
+    "10 lb container"
+  ],
+  "gallery": [
+    {
+      "src": clinicalMatrix966.url,
+      "alt": "Cellex Medium for Fluidotherapy Units — 10 lb Container — FAB ME-D0001"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB ME-D0001"
+        },
+        {
+          "label": "Product",
+          "value": "Cellex Medium"
+        },
+        {
+          "label": "Application",
+          "value": "Fluidotherapy units"
+        },
+        {
+          "label": "Container weight",
+          "value": "10 lb"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.chattanoogarehab.com/us/shop/cellex-dry-heat-media-med0001",
+  "seo": {
+    "title": "Cellex Medium for Fluidotherapy Units — 10 lb Container | GM Therapy",
+    "description": "Cellex Medium for Fluidotherapy Units — 10 lb Container. Call or add to quote request for pricing."
+  }
+},
+  "967": {
+  "productId": "967",
+  "slug": "im-hcr6",
+  "tagline": "Stainless steel drying rack.",
+  "overview": [
+    "Ideal Stainless Steel Drying Rack — Wall Mounted, 6 Stationary Hooks."
+  ],
+  "highlights": [
+    "Stainless steel drying rack",
+    "Wall-mounted design",
+    "Six stationary hooks",
+    "For drying therapy packs"
+  ],
+  "gallery": [
+    {
+      "src": clinicalMatrix967.url,
+      "alt": "Ideal Stainless Steel Drying Rack — Wall Mounted, 6 Stationary Hooks — IM HCR6"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "IM HCR6"
+        },
+        {
+          "label": "Material",
+          "value": "Stainless steel"
+        },
+        {
+          "label": "Mounting",
+          "value": "Wall mounted"
+        },
+        {
+          "label": "Hooks",
+          "value": "Six stationary hooks"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.lifetecinc.com/products/product.php?id=834",
+  "seo": {
+    "title": "Ideal Stainless Steel Drying Rack — Wall Mounted, 6 Stationary Hooks | GM Therapy",
+    "description": "Ideal Stainless Steel Drying Rack — Wall Mounted, 6 Stationary Hooks. Call or add to quote request for pricing."
+  }
+},
+  "968": {
+  "productId": "968",
+  "slug": "mf-g3-ms20-03",
+  "tagline": "Matrix Aura Cable Cross.",
+  "overview": [
+    "Matrix Aura Cable Cross."
+  ],
+  "highlights": [
+    "Matrix Aura Cable Cross",
+    "Dual adjustable cable stations",
+    "Includes WHITE-GLOVE inside delivery",
+    "Assembly included",
+    "Trash removal included"
+  ],
+  "gallery": [
+    {
+      "src": clinicalMatrix968.url,
+      "alt": "Matrix Aura Cable Cross — MF-G3-MS20-03"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "MF-G3-MS20-03"
+        },
+        {
+          "label": "Series",
+          "value": "Matrix Aura"
+        },
+        {
+          "label": "Equipment",
+          "value": "Cable Cross"
+        },
+        {
+          "label": "Included service",
+          "value": "WHITE-GLOVE inside delivery, assembly, and trash removal"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://images.jhtassets.com/9083f4d915f73fc4fe46c5dc48e3c44d433f494f/original/named/AuraAdjustableCableCrossover+384+eng+uk+ProductSellSheetlargeprint.pdf",
+  "seo": {
+    "title": "Matrix Aura Cable Cross | GM Therapy",
+    "description": "Matrix Aura Cable Cross. Call or add to quote request for pricing."
+  }
+},
+
   "958": {
   "productId": "958",
   "slug": "fab-50-3005",

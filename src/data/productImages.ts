@@ -1,3 +1,8 @@
+import clinicalMatrix964 from "@/assets/products/new-clinical-matrix/77-0028.jpg.asset.json";
+import clinicalMatrix965 from "@/assets/products/new-clinical-matrix/77-0029.jpg.asset.json";
+import clinicalMatrix966 from "@/assets/products/new-clinical-matrix/ME-D0001.jpg.asset.json";
+import clinicalMatrix967 from "@/assets/products/new-clinical-matrix/HCR6.jpg.asset.json";
+import clinicalMatrix968 from "@/assets/products/new-clinical-matrix/G3-MS20-03.jpg.asset.json";
 import fabTherapy958 from "@/assets/products/fab/50-3005.jpg.asset.json";
 import fabTherapy959 from "@/assets/products/fab/50-5601-1.jpg.asset.json";
 import fabTherapy961 from "@/assets/products/fab/50-6056.jpg.asset.json";
@@ -88,6 +93,12 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "964": clinicalMatrix964.url,
+  "965": clinicalMatrix965.url,
+  "966": clinicalMatrix966.url,
+  "967": clinicalMatrix967.url,
+  "968": clinicalMatrix968.url,
+
   "958": fabTherapy958.url,
   "959": fabTherapy959.url,
   "961": fabTherapy961.url,
