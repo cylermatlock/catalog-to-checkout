@@ -40,3 +40,20 @@ describe("Norco, NuStep, Pivotal, Piedmont and Richmar additions", () => {
     }
   });
 });
+
+describe("Richmar electrodes, soundheads and APT additions", () => {
+  it.each([
+    ["977", "RICH 400-879-MIC"], ["978", "RICH 400-8792"], ["979", "RICH DQ8002W1"],
+    ["980", "RICH DQ8002W5"], ["981", "RICH DQAPT"], ["982", "RICH EF2000WC2-PL"],
+  ])("lists %s as %s exactly once with a photo", (id, sku) => {
+    const m = products.filter((p) => p.sku === sku);
+    expect(m).toHaveLength(1);
+    expect(m[0]?.id).toBe(id);
+    expect(productImages[id]).toBeTruthy();
+  });
+  it("sells both 2x3.5 electrode packs 4 per pack", () => {
+    for (const sku of ["RICH 400-879-MIC", "RICH 400-8792"]) {
+      expect(products.find((p) => p.sku === sku)?.description).toContain("Sold 4 per pack");
+    }
+  });
+});
