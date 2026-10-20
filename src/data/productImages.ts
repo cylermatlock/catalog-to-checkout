@@ -1,3 +1,8 @@
+import fabTherapy958 from "@/assets/products/fab/50-3005.jpg.asset.json";
+import fabTherapy959 from "@/assets/products/fab/50-5601-1.jpg.asset.json";
+import fabTherapy961 from "@/assets/products/fab/50-6056.jpg.asset.json";
+import fabTherapy962 from "@/assets/products/fab/69-0162.jpg.asset.json";
+import fabTherapy963 from "@/assets/products/fab/75-2863.jpg.asset.json";
 import fabPositioning952 from "@/assets/products/fab/30-3004.jpg.asset.json";
 import fabPositioning953 from "@/assets/products/fab/30-3016.jpg.asset.json";
 import fabPositioning954 from "@/assets/products/fab/43-1965.jpg.asset.json";
@@ -83,6 +88,12 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "958": fabTherapy958.url,
+  "959": fabTherapy959.url,
+  "961": fabTherapy961.url,
+  "962": fabTherapy962.url,
+  "963": fabTherapy963.url,
+
   "952": fabPositioning952.url,
   "953": fabPositioning953.url,
   "954": fabPositioning954.url,

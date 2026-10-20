@@ -1,19 +1,23 @@
 {
-  "generatedAt": "2026-10-14T14:35:40.856Z",
+  "generatedAt": "2026-10-20T14:05:35.507Z",
   "products": [
     {
       "id": "958",
       "sku": "FAB 50-3005",
-      "name": "Wood Transfer Board — Two Hand Grips",
+      "name": "Wood Transfer Board — 8\" x 30\", Two Hand Grips",
       "brand": "Fabrication Enterprises",
       "category": "Clinical Supplies",
       "subcategory": "DME",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/4401edc9-84b7-4f51-a007-89e335fb3ae2/50-3005.jpg",
+      "images": [
+        "/catalog-assets/4401edc9-84b7-4f51-a007-89e335fb3ae2/50-3005.jpg"
+      ],
       "description": [
         "Wood transfer board",
+        "8 inch width x 30 inch length",
         "Two hand grips",
+        "Tapered ends for transfer placement",
         "For assisted transfers"
       ]
     },
@@ -25,24 +29,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Modalities",
       "condition": "new",
-      "image": null,
-      "images": [],
-      "description": [
-        "Ultrasound coupling gel",
-        "5 liter container",
-        "Sold individually — 1 each"
-      ]
-    },
-    {
-      "id": "960",
-      "sku": "FAB 50-5601-4X",
-      "name": "CanDo Ultrasound Gel — 5 Liters, Each",
-      "brand": "CanDo",
-      "category": "Clinical Supplies",
-      "subcategory": "Modalities",
-      "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/02b164ed-e999-4bb0-9e67-2b2081866697/50-5601-1.jpg",
+      "images": [
+        "/catalog-assets/02b164ed-e999-4bb0-9e67-2b2081866697/50-5601-1.jpg"
+      ],
       "description": [
         "Ultrasound coupling gel",
         "5 liter container",
@@ -57,8 +47,10 @@
       "category": "Modalities",
       "subcategory": "Ultrasound Accessories",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/68ba0ca9-346f-4889-ae45-f0e0e7c782bd/50-6056.jpg",
+      "images": [
+        "/catalog-assets/68ba0ca9-346f-4889-ae45-f0e0e7c782bd/50-6056.jpg"
+      ],
       "description": [
         "Gel bottle warmer",
         "Two-bottle capacity",
@@ -73,8 +65,10 @@
       "category": "Cardio",
       "subcategory": "Rehab Trainers",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/273943ab-5b44-49af-b161-37c3b537a649/69-0162.jpg",
+      "images": [
+        "/catalog-assets/273943ab-5b44-49af-b161-37c3b537a649/69-0162.jpg"
+      ],
       "description": [
         "HCI eTrainer motorized trainer",
         "Passive-assist exercise mode",
@@ -89,8 +83,10 @@
       "category": "Clinical Supplies",
       "subcategory": "Positioning",
       "condition": "new",
-      "image": null,
-      "images": [],
+      "image": "/catalog-assets/c82d2068-c7a6-4ea6-a04a-e170b885641a/75-2863.jpg",
+      "images": [
+        "/catalog-assets/c82d2068-c7a6-4ea6-a04a-e170b885641a/75-2863.jpg"
+      ],
       "description": [
         "Knee positioning wedge",
         "22 inch width x 20 inch length x 10.25 inch height",

@@ -1,3 +1,8 @@
+import fabTherapy958 from "@/assets/products/fab/50-3005.jpg.asset.json";
+import fabTherapy959 from "@/assets/products/fab/50-5601-1.jpg.asset.json";
+import fabTherapy961 from "@/assets/products/fab/50-6056.jpg.asset.json";
+import fabTherapy962 from "@/assets/products/fab/69-0162.jpg.asset.json";
+import fabTherapy963 from "@/assets/products/fab/75-2863.jpg.asset.json";
 import fabPositioning952 from "@/assets/products/fab/30-3004.jpg.asset.json";
 import fabPositioning953 from "@/assets/products/fab/30-3016.jpg.asset.json";
 import fabPositioning954 from "@/assets/products/fab/43-1965.jpg.asset.json";
@@ -133,6 +138,230 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "958": {
+  "productId": "958",
+  "slug": "fab-50-3005",
+  "tagline": "Wood transfer board.",
+  "overview": [
+    "Wood Transfer Board — 8\" x 30\", Two Hand Grips."
+  ],
+  "highlights": [
+    "Wood transfer board",
+    "8 inch width x 30 inch length",
+    "Two hand grips",
+    "Tapered ends for transfer placement",
+    "For assisted transfers"
+  ],
+  "gallery": [
+    {
+      "src": fabTherapy958.url,
+      "alt": "Wood Transfer Board — 8\" x 30\", Two Hand Grips — FAB 50-3005"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 50-3005"
+        },
+        {
+          "label": "Dimensions",
+          "value": "8 inch width x 30 inch length"
+        },
+        {
+          "label": "Material",
+          "value": "Wood"
+        },
+        {
+          "label": "Hand grips",
+          "value": "Two"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/dme/wheelchairs/wheelchair-transfer-aides/",
+  "seo": {
+    "title": "Wood Transfer Board — 8\" x 30\", Two Hand Grips | GM Therapy",
+    "description": "Wood Transfer Board — 8\" x 30\", Two Hand Grips. Call or add to quote request for pricing."
+  }
+},
+  "959": {
+  "productId": "959",
+  "slug": "fab-50-5601-1",
+  "tagline": "Ultrasound coupling gel.",
+  "overview": [
+    "CanDo Ultrasound Gel — 5 Liters, Each.",
+    "Listing is for one 5-liter gel container; the photo also shows a smaller dispensing bottle."
+  ],
+  "highlights": [
+    "Ultrasound coupling gel",
+    "5 liter container",
+    "Sold individually — 1 each"
+  ],
+  "gallery": [
+    {
+      "src": fabTherapy959.url,
+      "alt": "CanDo Ultrasound Gel — 5 Liters, Each — FAB 50-5601-1"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 50-5601-1"
+        },
+        {
+          "label": "Volume",
+          "value": "5 liters"
+        },
+        {
+          "label": "Quantity",
+          "value": "One container"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.medequipdepot.com/products/50-5601-1-fabrication-enterprises-inc-cando-ultrasound-gel-5-liters-each.html",
+  "seo": {
+    "title": "CanDo Ultrasound Gel — 5 Liters, Each | GM Therapy",
+    "description": "CanDo Ultrasound Gel — 5 Liters, Each. Call or add to quote request for pricing."
+  }
+},
+  "961": {
+  "productId": "961",
+  "slug": "fab-50-6056",
+  "tagline": "Gel bottle warmer.",
+  "overview": [
+    "Ideal Gel Warmer — Two 8 oz Bottles.",
+    "Product-family photo shows multiple warmer capacities; this listing is for the two-bottle, 8 oz model only."
+  ],
+  "highlights": [
+    "Gel bottle warmer",
+    "Two-bottle capacity",
+    "For 8 oz bottles"
+  ],
+  "gallery": [
+    {
+      "src": fabTherapy961.url,
+      "alt": "Ideal Gel Warmer — Two 8 oz Bottles — FAB 50-6056"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 50-6056"
+        },
+        {
+          "label": "Capacity",
+          "value": "Two 8 oz bottles"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.fab-ent.com/massage/lotion-warmers/ideal-lotion-warmers/",
+  "seo": {
+    "title": "Ideal Gel Warmer — Two 8 oz Bottles | GM Therapy",
+    "description": "Ideal Gel Warmer — Two 8 oz Bottles. Call or add to quote request for pricing."
+  }
+},
+  "962": {
+  "productId": "962",
+  "slug": "fab-69-0162",
+  "tagline": "HCI eTrainer motorized trainer.",
+  "overview": [
+    "HCI eTrainer Passive Assist Motorized Trainer."
+  ],
+  "highlights": [
+    "HCI eTrainer motorized trainer",
+    "Passive-assist exercise mode",
+    "For upper- and lower-body exercise"
+  ],
+  "gallery": [
+    {
+      "src": fabTherapy962.url,
+      "alt": "HCI eTrainer Passive Assist Motorized Trainer — FAB 69-0162"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 69-0162"
+        },
+        {
+          "label": "Model",
+          "value": "HCI eTrainer"
+        },
+        {
+          "label": "Operation",
+          "value": "Motorized passive assist"
+        },
+        {
+          "label": "Exercise",
+          "value": "Upper and lower body"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://hcifitness.com/products/etrainer-passive-assist-trainer",
+  "seo": {
+    "title": "HCI eTrainer Passive Assist Motorized Trainer | GM Therapy",
+    "description": "HCI eTrainer Passive Assist Motorized Trainer. Call or add to quote request for pricing."
+  }
+},
+  "963": {
+  "productId": "963",
+  "slug": "fab-75-2863",
+  "tagline": "Knee positioning wedge.",
+  "overview": [
+    "Knee Wedge — 22W x 20L x 10.25H, Black Naugahyde."
+  ],
+  "highlights": [
+    "Knee positioning wedge",
+    "22 inch width x 20 inch length x 10.25 inch height",
+    "Black Naugahyde upholstery"
+  ],
+  "gallery": [
+    {
+      "src": fabTherapy963.url,
+      "alt": "Knee Wedge — 22W x 20L x 10.25H, Black Naugahyde — FAB 75-2863"
+    }
+  ],
+  "specGroups": [
+    {
+      "title": "Specifications",
+      "rows": [
+        {
+          "label": "SKU",
+          "value": "FAB 75-2863"
+        },
+        {
+          "label": "Dimensions",
+          "value": "22W x 20L x 10.25H inches"
+        },
+        {
+          "label": "Upholstery",
+          "value": "Black Naugahyde"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "https://hs770.com/product/dynatronics-kw1bk-knee-wedge-22w-x-20l-x-10-25h-inches-black-naugahyde/",
+  "seo": {
+    "title": "Knee Wedge — 22W x 20L x 10.25H, Black Naugahyde | GM Therapy",
+    "description": "Knee Wedge — 22W x 20L x 10.25H, Black Naugahyde. Call or add to quote request for pricing."
+  }
+},
+
   "952": {
   "productId": "952",
   "slug": "fab-30-3004",
