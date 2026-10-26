@@ -19475,6 +19475,20 @@ export const productDetails: Record<string, ProductDetail> = {
     sourceUrl: "https://www.bodykore.com/commercial/product/universal-trainer",
     seo: { title: "BK MX1162 BodyKore Universal Trainer | GM Therapy", description: "BodyKore Universal Trainer with dual pulleys, Smith machine, and half rack. Call or add to quote request for pricing." },
   },
+  "985": {
+    productId: "985", slug: "tko-olympic-plate-tree-with-bar-holders",
+    tagline: "All-welded Olympic plate tree with storage for 2 Olympic bars.",
+    overview: ["TKO's Olympic Weight Plate Tree with Bar Holders is constructed of an all-welded steel frame with plate horns that hold up to a total of 600 lbs. of Olympic plates. The built-in holder allows storage for 2 Olympic bars."],
+    highlights: ["Holds 600 lbs. of Olympic plate", "All-welded steel frame", "6 steel plate horns", "Built-in bar holder for 2 Olympic bars", "Rubber feet to protect floors", "Sleek and stylish design perfect for home gyms"],
+    gallery: [
+      { src: tko985.url, alt: "TKO Olympic Plate Tree with bar holders — empty" },
+      { src: tko985Loaded.url, alt: "TKO Olympic Plate Tree loaded with Olympic plates" },
+      { src: tko985BarHolder.url, alt: "Close-up of the TKO plate tree bar holder" },
+    ],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 6205" }, { label: "Plate capacity", value: "600 lbs. total" }, { label: "Plate horns", value: "6 steel horns" }, { label: "Bar storage", value: "Built-in holder for 2 Olympic bars" }, { label: "Frame", value: "All-welded steel" }, { label: "Feet", value: "Rubber feet to protect floors" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/olympic-plate-tree-1",
+    seo: { title: "TKO 6205 Olympic Plate Tree with Bar Holders | GM Therapy", description: "TKO Olympic plate tree holding 600 lbs. of plates with built-in storage for 2 Olympic bars. Call or add to quote request for pricing." },
+  },
 };
 
 
