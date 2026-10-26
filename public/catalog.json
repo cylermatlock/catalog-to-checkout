@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T14:49:24.541Z",
+  "generatedAt": "2026-10-26T14:57:23.284Z",
   "products": [
     {
       "id": "970",
@@ -271,6 +271,25 @@
         "Sturdy design with small base",
         "Rubber feet protect floors",
         "Built for commercial gyms, hotels, and community centers"
+      ]
+    },
+    {
+      "id": "987",
+      "sku": "ASG WV-66",
+      "name": "Ader Adjustable Weight Vest — 66 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Weight Vests",
+      "condition": "new",
+      "image": "/catalog-assets/3e51de4e-366e-4c3d-b0a1-f799989d9cd9/ader-wv-66.jpg",
+      "images": [
+        "/catalog-assets/3e51de4e-366e-4c3d-b0a1-f799989d9cd9/ader-wv-66.jpg"
+      ],
+      "description": [
+        "Adjustable from 2.15 lb up to 66 lb",
+        "Includes 30 removable weight blocks, 2.15 lb each",
+        "Add or remove blocks to fine-tune resistance",
+        "Hands-free resistance for walking, step-ups, and functional training"
       ]
     },
     {

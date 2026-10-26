@@ -1,3 +1,5 @@
+import ader987_1 from "@/assets/ader987_1.jpg.asset.json";
+import ader987_2 from "@/assets/ader987_2.jpg.asset.json";
 import tko986_1 from "@/assets/products/tko/tko-7046-g2-1.jpg.asset.json";
 import tko986_2 from "@/assets/products/tko/tko-7046-g2-2.jpg.asset.json";
 import tko986_3 from "@/assets/products/tko/tko-7046-g2-3.jpg.asset.json";
@@ -131,6 +133,7 @@ export const productImages: Record<string, string> = {
   "983": tko983.url,
   "985": tko985.url,
   "986": tko986_1.url,
+  "987": ader987_1.url,
   "969": matrixBooster969.url,
   "964": clinicalMatrix964.url,
   "965": clinicalMatrix965.url,
