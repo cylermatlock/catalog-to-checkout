@@ -1,3 +1,6 @@
+import tko985 from "@/assets/products/tko/tko-6205-alone.jpg.asset.json";
+import tko985Loaded from "@/assets/products/tko/tko-6205-loaded.jpg.asset.json";
+import tko985BarHolder from "@/assets/products/tko/tko-6205-barholder.jpg.asset.json";
 import norco970 from "@/assets/products/norco/nc-14700.jpg.asset.json";
 import nustep971 from "@/assets/products/nustep/ns-75-7242.jpg.asset.json";
 import phs972 from "@/assets/products/phs/phs-att-300.jpg.asset.json";
