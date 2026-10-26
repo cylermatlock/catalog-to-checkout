@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T14:36:43.484Z",
+  "generatedAt": "2026-10-26T14:49:24.541Z",
   "products": [
     {
       "id": "970",
@@ -251,6 +251,26 @@
         "Shelf measures 39 1/2\" W x 12\" D",
         "Rubber feet protect floors",
         "Kettlebells sold separately"
+      ]
+    },
+    {
+      "id": "986",
+      "sku": "TKO 7046-G2",
+      "name": "TKO Signature Flat Bench (Gen 2)",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "TKO",
+      "condition": "new",
+      "image": "/catalog-assets/10f153ce-a5b1-464d-ba10-a31d7e7da568/tko-7046-g2-1.jpg",
+      "images": [
+        "/catalog-assets/10f153ce-a5b1-464d-ba10-a31d7e7da568/tko-7046-g2-1.jpg"
+      ],
+      "description": [
+        "Second-generation Signature Series flat bench",
+        "Fixed handle and wheels for mobility",
+        "Sturdy design with small base",
+        "Rubber feet protect floors",
+        "Built for commercial gyms, hotels, and community centers"
       ]
     },
     {
