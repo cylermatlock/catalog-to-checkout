@@ -124,6 +124,7 @@ export const productImages: Record<string, string> = {
   "981": richmar981.url,
   "982": richmar982.url,
   "983": tko983.url,
+  "985": tko985.url,
   "969": matrixBooster969.url,
   "964": clinicalMatrix964.url,
   "965": clinicalMatrix965.url,
