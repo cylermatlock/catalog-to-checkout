@@ -1,3 +1,8 @@
+import tko986_1 from "@/assets/products/tko/tko-7046-g2-1.jpg.asset.json";
+import tko986_2 from "@/assets/products/tko/tko-7046-g2-2.jpg.asset.json";
+import tko986_3 from "@/assets/products/tko/tko-7046-g2-3.jpg.asset.json";
+import tko986_4 from "@/assets/products/tko/tko-7046-g2-4.jpg.asset.json";
+import tko986_5 from "@/assets/products/tko/tko-7046-g2-5.jpg.asset.json";
 import norco970 from "@/assets/products/norco/nc-14700.jpg.asset.json";
 import nustep971 from "@/assets/products/nustep/ns-75-7242.jpg.asset.json";
 import phs972 from "@/assets/products/phs/phs-att-300.jpg.asset.json";
@@ -125,6 +130,7 @@ export const productImages: Record<string, string> = {
   "982": richmar982.url,
   "983": tko983.url,
   "985": tko985.url,
+  "986": tko986_1.url,
   "969": matrixBooster969.url,
   "964": clinicalMatrix964.url,
   "965": clinicalMatrix965.url,

@@ -1,3 +1,8 @@
+import tko986_1 from "@/assets/products/tko/tko-7046-g2-1.jpg.asset.json";
+import tko986_2 from "@/assets/products/tko/tko-7046-g2-2.jpg.asset.json";
+import tko986_3 from "@/assets/products/tko/tko-7046-g2-3.jpg.asset.json";
+import tko986_4 from "@/assets/products/tko/tko-7046-g2-4.jpg.asset.json";
+import tko986_5 from "@/assets/products/tko/tko-7046-g2-5.jpg.asset.json";
 import tko985 from "@/assets/products/tko/tko-6205-alone.jpg.asset.json";
 import tko985Loaded from "@/assets/products/tko/tko-6205-loaded.jpg.asset.json";
 import tko985BarHolder from "@/assets/products/tko/tko-6205-barholder.jpg.asset.json";
@@ -19491,6 +19496,16 @@ export const productDetails: Record<string, ProductDetail> = {
     specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 6205" }, { label: "Plate capacity", value: "600 lbs. total" }, { label: "Plate horns", value: "6 steel horns" }, { label: "Bar storage", value: "Built-in holder for 2 Olympic bars" }, { label: "Frame", value: "All-welded steel" }, { label: "Feet", value: "Rubber feet to protect floors" }] }],
     sourceUrl: "https://www.tkostrength.com/products/olympic-plate-tree-1",
     seo: { title: "TKO 6205 Olympic Plate Tree with Bar Holders | GM Therapy", description: "TKO Olympic plate tree holding 600 lbs. of plates with built-in storage for 2 Olympic bars. Call or add to quote request for pricing." },
+  },
+  "986": {
+    productId: "986", slug: "tko-signature-flat-bench-gen-2",
+    tagline: "Second-generation Signature Series commercial flat bench.",
+    overview: ["TKO's second generation of Signature Flat Bench is meant for a variety of facilities, commercial gyms, hotels, resorts or community centers. The sturdy design and small base is perfect for a multitude of exercises."],
+    highlights: ["Fixed handle and wheels offer mobility", "Stylish frame", "Rubber feet", "Sturdy design with small base", "Suits a multitude of exercises"],
+    gallery: [{ src: tko986_1.url, alt: "TKO Signature Flat Bench — front three-quarter view" }, { src: tko986_2.url, alt: "TKO Signature Flat Bench — side view" }, { src: tko986_3.url, alt: "TKO Signature Flat Bench — seat pad close-up" }, { src: tko986_4.url, alt: "TKO Signature Flat Bench — base and wheels" }, { src: tko986_5.url, alt: "TKO Signature Flat Bench — handle detail" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 7046-G2" }, { label: "Series", value: "TKO Signature Series (Gen 2)" }, { label: "Mobility", value: "Fixed handle and wheels" }, { label: "Feet", value: "Rubber feet" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/signature-flat-bench",
+    seo: { title: "TKO 7046-G2 Signature Flat Bench | GM Therapy", description: "TKO Signature Series Gen 2 commercial flat bench with handle and wheels. Call or add to quote request for pricing." },
   },
 };
 
