@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T14:53:02.271Z",
+  "generatedAt": "2026-10-26T14:30:43.475Z",
   "products": [
     {
       "id": "970",
@@ -136,6 +136,120 @@
         "Proprietary bonding and moisture barrier help prevent delamination during moist-heat therapy",
         "Resists gel dry-out and distributes current evenly",
         "Sold 4 per pack"
+      ]
+    },
+    {
+      "id": "977",
+      "sku": "RICH 400-879-MIC",
+      "name": "Richmar MicroBlock 2\" x 3.5\" Cloth Electrodes (4/pk)",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "Electrodes & Supplies",
+      "condition": "new",
+      "image": "/catalog-assets/117e7e74-1ad4-43e1-b3b8-bb5dcd891ad2/rich-400-852-mic.jpg",
+      "images": [
+        "/catalog-assets/117e7e74-1ad4-43e1-b3b8-bb5dcd891ad2/rich-400-852-mic.jpg"
+      ],
+      "description": [
+        "2\" x 3.5\" (5 x 9 cm) rectangular cloth electrodes",
+        "Antimicrobial electrode surface helps kill and inhibit common bacteria",
+        "Self-adhesive, reusable",
+        "Sold 4 per pack"
+      ]
+    },
+    {
+      "id": "978",
+      "sku": "RICH 400-8792",
+      "name": "Richmar MultiStim 2\" x 3.5\" Rectangle Cloth Electrodes (4/pk)",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "Electrodes & Supplies",
+      "condition": "new",
+      "image": "/catalog-assets/0c7491a2-9153-4c03-8cc8-0a66975e72e2/rich-400-8782.jpg",
+      "images": [
+        "/catalog-assets/0c7491a2-9153-4c03-8cc8-0a66975e72e2/rich-400-8782.jpg"
+      ],
+      "description": [
+        "2\" x 3.5\" (5 cm x 9 cm) rectangle cloth electrodes",
+        "Proprietary bonding and moisture barrier help prevent delamination during moist-heat therapy",
+        "Resists gel dry-out and distributes current evenly",
+        "Sold 4 per pack"
+      ]
+    },
+    {
+      "id": "979",
+      "sku": "RICH DQ8002W1",
+      "name": "Richmar TheraTouch 1cm Soundhead",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "E-Stim/Ultrasound",
+      "condition": "new",
+      "image": "/catalog-assets/26fcbe2e-d820-41a4-b608-167b1d7d2880/rich-dq8002w1.jpg",
+      "images": [
+        "/catalog-assets/26fcbe2e-d820-41a4-b608-167b1d7d2880/rich-dq8002w1.jpg"
+      ],
+      "description": [
+        "1 cm ultrasound applicator for Richmar TheraTouch units",
+        "Small treatment area for hands, feet and small joints",
+        "Replacement or additional soundhead",
+        "Sold each"
+      ]
+    },
+    {
+      "id": "980",
+      "sku": "RICH DQ8002W5",
+      "name": "Richmar TheraTouch 5cm Soundhead",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "E-Stim/Ultrasound",
+      "condition": "new",
+      "image": "/catalog-assets/fdd940fd-828f-4f6f-9f55-8750ddea2c58/rich-dq8002w5.jpg",
+      "images": [
+        "/catalog-assets/fdd940fd-828f-4f6f-9f55-8750ddea2c58/rich-dq8002w5.jpg"
+      ],
+      "description": [
+        "5 cm ultrasound applicator for Richmar TheraTouch units",
+        "Standard treatment area for larger body regions",
+        "Replacement or additional soundhead",
+        "Sold each"
+      ]
+    },
+    {
+      "id": "981",
+      "sku": "RICH DQAPT",
+      "name": "Richmar APT Performer Active Passive Trainer",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "E-Stim/Ultrasound",
+      "condition": "new",
+      "image": "/catalog-assets/6b4a7321-10c9-41c4-aa40-5121c5669b32/rich-dqapt.jpg",
+      "images": [
+        "/catalog-assets/6b4a7321-10c9-41c4-aa40-5121c5669b32/rich-dqapt.jpg"
+      ],
+      "description": [
+        "Active-passive trainer for upper and lower extremity rehab",
+        "Active, passive and assisted training modes",
+        "Strength and symmetry training with interactive patient motivation",
+        "Use seated in a chair or wheelchair"
+      ]
+    },
+    {
+      "id": "982",
+      "sku": "RICH EF2000WC2-PL",
+      "name": "Richmar 2\" Round White Cloth Electrodes, Foil Pack",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "Electrodes & Supplies",
+      "condition": "new",
+      "image": "/catalog-assets/67a35ee2-8eaf-4b5c-be62-6b56eaa89473/rich-ef2000wc2-pl.jpg",
+      "images": [
+        "/catalog-assets/67a35ee2-8eaf-4b5c-be62-6b56eaa89473/rich-ef2000wc2-pl.jpg"
+      ],
+      "description": [
+        "2\" round white cloth electrodes",
+        "Self-adhesive, reusable",
+        "Molded connector for pigtail lead wires",
+        "Packed in resealable foil pouch"
       ]
     },
     {
