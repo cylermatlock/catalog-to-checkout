@@ -1,3 +1,5 @@
+import ader987_1 from "@/assets/ader987_1.jpg.asset.json";
+import ader987_2 from "@/assets/ader987_2.jpg.asset.json";
 import tko986_1 from "@/assets/products/tko/tko-7046-g2-1.jpg.asset.json";
 import tko986_2 from "@/assets/products/tko/tko-7046-g2-2.jpg.asset.json";
 import tko986_3 from "@/assets/products/tko/tko-7046-g2-3.jpg.asset.json";
@@ -19506,6 +19508,16 @@ export const productDetails: Record<string, ProductDetail> = {
     specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 7046-G2" }, { label: "Series", value: "TKO Signature Series (Gen 2)" }, { label: "Mobility", value: "Fixed handle and wheels" }, { label: "Feet", value: "Rubber feet" }] }],
     sourceUrl: "https://www.tkostrength.com/products/signature-flat-bench",
     seo: { title: "TKO 7046-G2 Signature Flat Bench | GM Therapy", description: "TKO Signature Series Gen 2 commercial flat bench with handle and wheels. Call or add to quote request for pricing." },
+  },
+  "987": {
+    productId: "987", slug: "ader-adjustable-weight-vest-66-lb",
+    tagline: "Adjustable weight vest from 2.15 lb up to 66 lb.",
+    overview: ["The Ader Weight Vest adjusts from 2.15 lb up to 66 lb and comes with 30 weight blocks, each weighing 2.15 lb."],
+    highlights: ["Adjustable from 2.15 lb to 66 lb", "Comes with 30 weight blocks, 2.15 lb each"],
+    gallery: [{ src: ader987_1.url, alt: "Ader 66 lb weight vest with weight blocks" }, { src: ader987_2.url, alt: "Ader 66 lb weight vest" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "ASG WV-66" }, { label: "Max weight", value: "66 lb" }, { label: "Weight blocks", value: "30 x 2.15 lb" }] }],
+    sourceUrl: "https://aderfitness.com/product/weight-vest-66lbs/",
+    seo: { title: "ASG WV-66 Ader 66 lb Adjustable Weight Vest | GM Therapy", description: "Ader adjustable weight vest, 2.15 to 66 lb with 30 weight blocks. Call or add to quote request for pricing." },
   },
 };
 
