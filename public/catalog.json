@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T14:30:43.475Z",
+  "generatedAt": "2026-10-26T14:36:43.484Z",
   "products": [
     {
       "id": "970",
@@ -231,6 +231,46 @@
         "Active, passive and assisted training modes",
         "Strength and symmetry training with interactive patient motivation",
         "Use seated in a chair or wheelchair"
+      ]
+    },
+    {
+      "id": "983",
+      "sku": "TKO 859KR",
+      "name": "TKO Kettlebell Rack",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "TKO",
+      "condition": "new",
+      "image": "/catalog-assets/e9d6f6ae-af39-45de-924a-4923b210ea7f/tko-859kr.jpg",
+      "images": [
+        "/catalog-assets/e9d6f6ae-af39-45de-924a-4923b210ea7f/tko-859kr.jpg"
+      ],
+      "description": [
+        "14 gauge 2x4 oval steel tube frame",
+        "Two 7 gauge steel shelves",
+        "Shelf measures 39 1/2\" W x 12\" D",
+        "Rubber feet protect floors",
+        "Kettlebells sold separately"
+      ]
+    },
+    {
+      "id": "985",
+      "sku": "TKO 6205",
+      "name": "TKO Olympic Plate Tree with Bar Holders",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "TKO",
+      "condition": "new",
+      "image": "/catalog-assets/38aecc50-2915-449b-99a4-c21e82967207/tko-6205-alone.jpg",
+      "images": [
+        "/catalog-assets/38aecc50-2915-449b-99a4-c21e82967207/tko-6205-alone.jpg"
+      ],
+      "description": [
+        "Holds up to 600 lbs. of Olympic plates",
+        "All-welded steel frame",
+        "6 steel plate horns",
+        "Built-in bar holder for 2 Olympic bars",
+        "Rubber feet to protect floors"
       ]
     },
     {
@@ -4823,6 +4863,26 @@
       ],
       "description": [
         "25 lb Olympic iron plate, satin black enamel finish",
+        "2\" precision-drilled center hole for Olympic bars",
+        "Cast iron construction — thick, durable, built to last",
+        "Easy-to-read weight markings",
+        "Sold individually"
+      ]
+    },
+    {
+      "id": "984",
+      "sku": "ASG 11360B-2.5",
+      "name": "Ader 2\" Iron Olympic Plate — 2.5 lb (Black)",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Olympic Plates",
+      "condition": "new",
+      "image": "/assets/products/bsw/asg-11360b-10.jpg",
+      "images": [
+        "/assets/products/bsw/asg-11360b-10.jpg"
+      ],
+      "description": [
+        "2.5 lb Olympic iron plate, satin black enamel finish",
         "2\" precision-drilled center hole for Olympic bars",
         "Cast iron construction — thick, durable, built to last",
         "Easy-to-read weight markings",
