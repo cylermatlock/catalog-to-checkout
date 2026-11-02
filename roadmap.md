@@ -12,3 +12,7 @@
 - [x] Save photo through Lovable Assets and mirror it for external quote tools.
 - [x] Add five exact SKUs and sizes with official bullet points.
 - [x] Refresh quote catalog and sitemap; 41 tests pass and all five SKUs verified in the quote drawer. Photo checked using the identical repository mirror because localhost does not serve the asset proxy.
+
+## TMS 730606 Mat Table
+- [x] Add TMS 730606-(xxx) fixed-height oak mat table with supplied photo, bullet points, details page and quote-request option.
+- [x] Refresh quote catalog and sitemap (679 products); 153 tests pass. Photo verified from the repository mirror.
