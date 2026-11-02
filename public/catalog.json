@@ -1,6 +1,26 @@
 {
-  "generatedAt": "2026-11-02T19:39:19.105Z",
+  "generatedAt": "2026-11-02T20:33:23.112Z",
   "products": [
+    {
+      "id": "1004",
+      "sku": "AMZ CART3S",
+      "name": "Rolling Modality Cart — Three Shelves",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Storage",
+      "condition": "new",
+      "image": "/catalog-assets/320ae01b-b05d-4c25-810f-50418eef2964/rolling-modality-cart.png",
+      "images": [
+        "/catalog-assets/320ae01b-b05d-4c25-810f-50418eef2964/rolling-modality-cart.png"
+      ],
+      "description": [
+        "Three shelves for modality equipment and supplies",
+        "Raised shelf edges",
+        "Built-in handles and four caster wheels",
+        "Black shelves with silver upright supports",
+        "32\" L x 16\" W x 36.5\" H"
+      ]
+    },
     {
       "id": "999",
       "sku": "ASG O-10SRO",
