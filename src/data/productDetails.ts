@@ -1,3 +1,4 @@
+import fab103199 from "@/assets/products/fab/fab-10-3199.png.asset.json";
 import tms730011 from "@/assets/products/tms/tms-730011-lift-back.png.asset.json";
 import tms730002 from "@/assets/products/tms/tms-730002.png.asset.json";
 import tms730606 from "@/assets/products/tms/tms-730606.png.asset.json";
@@ -169,6 +170,16 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1009": {
+    productId: "1009", slug: "cando-vinyl-coated-kettlebell-5-piece-set",
+    tagline: "Five vinyl-coated, color-coded cast iron kettlebells — 5 to 20 lb in one set.",
+    overview: ["The CanDo Vinyl-Coated Kettlebell set includes one each of the 5, 7.5, 10, 15 and 20 lb kettlebells — 57.5 lb of weights total. Vinyl-coated, color-coded cast iron makes them ideal for rehabilitation, strength training and toning.", "Each kettlebell has vibrant colors making it easy to identify weights, the coating reduces the potential for floor scratching, and each is marked in both pounds and kilograms. The handles are uncoated cast iron and the set is latex free."],
+    highlights: ["5-piece set — 5, 7.5, 10, 15 and 20 lb kettlebells", "57.5 lb of weights total", "Vinyl-coated color-coded cast iron", "Ideal for rehabilitation, strength training and toning", "Coating reduces the potential for floor scratching", "Marked in both pounds and kilograms", "Latex free"],
+    gallery: [{ src: fab103199.url, alt: "CanDo vinyl-coated kettlebell 5-piece set in yellow, red, green, blue and black" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "FAB 10-3199" }, { label: "Set", value: "5 pieces — 5, 7.5, 10, 15, 20 lb" }, { label: "Material", value: "Cast iron with vinyl coating; uncoated handle" }, { label: "Markings", value: "Pounds and kilograms" }, { label: "Latex", value: "Latex free" }] }],
+    sourceUrl: "https://www.fab-ent.com/exercise/weights/",
+    seo: { title: "CanDo Vinyl-Coated Kettlebell 5-Piece Set — FAB 10-3199 | GM Therapy", description: "Five vinyl-coated, color-coded cast iron kettlebells, 5 to 20 lb. Call or add to quote request for pricing." },
+  },
   "1008": {
     productId: "1008", slug: "gmts-treatment-table-optional-lift-back",
     tagline: "Optional lift back add-on for solid oak treatment tables.",
