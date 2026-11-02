@@ -1,7 +1,6 @@
-# Add seven new products (NC, NS, PHS, PM, RICH)
+# Add five Ader all-black bumper plates
 
-- [x] Researched official pages/photos for all seven SKUs. NuStep bundle photo came from a dealer CDN (official image deleted from nustep.com); Piedmont pad photo from a dealer (Piedmont page removed); others from manufacturer sites.
-- [x] Photos uploaded as Lovable Assets and mirrored to public/catalog-assets.
-- [x] Added products 970-976 to products.ts, productImages.ts, productDetails.ts; brand-map.json gained "PHS ATT-300" -> Pivotal Health Solutions override and "PM" -> Piedmont Medical prefix.
-- [x] Added src/test/oct20-products.test.ts; 17 new tests pass, full suite 124/124.
-- [x] Catalog regenerated (649 products) and sitemap (652 URLs); quote-cart flow verified in preview with no browser errors. Photos verified via identical repository copies because localhost does not serve the asset proxy directly.
+- [x] Read official Ader description and locate the shared photo.
+- [x] Save photo through Lovable Assets and mirror it for external quote tools.
+- [x] Add five exact SKUs and sizes with official bullet points.
+- [x] Refresh quote catalog and sitemap; 41 tests pass and all five SKUs verified in the quote drawer. Photo checked using the identical repository mirror because localhost does not serve the asset proxy.

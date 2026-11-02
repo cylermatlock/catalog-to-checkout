@@ -30,6 +30,12 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  // Ader all-black solid rubber bumper plates
+  { id: "999", name: "Ader Olympic Black Solid Rubber Bumper Plate — 10 lb", category: "Strength Equipment", subcategory: "Olympic Plates", sku: "ASG O-10SRO", description: ["10 lb plate", "Black solid rubber bumper plate", "Stainless steel insert", "17.7\" diameter", "Fits a 2\" Olympic bar"] },
+  { id: "1000", name: "Ader Olympic Black Solid Rubber Bumper Plate — 15 lb", category: "Strength Equipment", subcategory: "Olympic Plates", sku: "ASG O-15SRO", description: ["15 lb plate", "Black solid rubber bumper plate", "Stainless steel insert", "17.7\" diameter", "Fits a 2\" Olympic bar"] },
+  { id: "1001", name: "Ader Olympic Black Solid Rubber Bumper Plate — 25 lb", category: "Strength Equipment", subcategory: "Olympic Plates", sku: "ASG O-25SRO", description: ["25 lb plate", "Black solid rubber bumper plate", "Stainless steel insert", "17.7\" diameter", "Fits a 2\" Olympic bar"] },
+  { id: "1002", name: "Ader Olympic Black Solid Rubber Bumper Plate — 35 lb", category: "Strength Equipment", subcategory: "Olympic Plates", sku: "ASG O-35SRO", description: ["35 lb plate", "Black solid rubber bumper plate", "Stainless steel insert", "17.7\" diameter", "Fits a 2\" Olympic bar"] },
+  { id: "1003", name: "Ader Olympic Black Solid Rubber Bumper Plate — 45 lb", category: "Strength Equipment", subcategory: "Olympic Plates", sku: "ASG O-45SRO", description: ["45 lb plate", "Black solid rubber bumper plate", "Stainless steel insert", "17.7\" diameter", "Fits a 2\" Olympic bar"] },
   // Norco, NuStep, Pivotal Health, Piedmont Medical and Richmar additions
   { id: "970", name: "Norco Splint-Form 2000 Splint Pan", category: "Clinical Supplies", subcategory: "Splints & Support", sku: "NC 14700", description: ["Splint pan for heating thermoplastic splinting material", "Accommodates full-arm splints", "Digital temperature display with 7-day programmable on/off", "Automated sanitization cycle and low-water shutoff sensor", "6-gallon capacity; 90\u00b0\u2013180\u00b0F temperature range"] },
   { id: "971", name: "NuStep T5XR Stability Accessory Bundle", category: "Cardio", subcategory: "NuStep", sku: "NS 75-7242", description: ["Stability accessory bundle for the NuStep T5XR", "Includes unilateral leg stabilizer", "Includes one WellGrip set", "Includes hip and torso belt", "Improves positioning and stability during exercise"] },
