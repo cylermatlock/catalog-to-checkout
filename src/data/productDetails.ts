@@ -175,6 +175,7 @@ export const productDetails: Record<string, ProductDetail> = {
     overview: ["The optional lift back adds an adjustable back section to a solid oak treatment table, letting you raise the angle for patient positioning, seated evaluations and upper-body work. It is shown in burgundy Naugahyde® upholstery on a solid oak table in the photo above.", "Many options are available to customize a treatment table just the way you want — call 940-334-5169 and we will help you build the table to fit your clinic."],
     highlights: ["Optional lift back add-on for solid oak treatment tables", "Adjustable back angle for patient positioning", "Shown in burgundy Naugahyde® upholstery on a solid oak table"],
     gallery: [{ src: tms730011.url, alt: "Optional lift back on a solid oak treatment table with burgundy Naugahyde upholstery" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730011-001" }, { label: "Type", value: "Optional lift back for solid oak treatment tables" }, { label: "Finish", value: "Burgundy Naugahyde® upholstery shown" }] }],
     sourceUrl: "https://www.tru-medical.com/Tru-Products",
     seo: { title: "GMTS Treatment Table Optional Lift Back — TMS 730011-001 | GM Therapy", description: "Optional lift back add-on for solid oak treatment tables. Call or add to quote request for pricing." },
   },
