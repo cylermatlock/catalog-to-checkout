@@ -1,6 +1,106 @@
 {
-  "generatedAt": "2026-11-02T19:38:08.947Z",
+  "generatedAt": "2026-11-02T19:39:19.105Z",
   "products": [
+    {
+      "id": "999",
+      "sku": "ASG O-10SRO",
+      "name": "Ader Olympic Black Solid Rubber Bumper Plate — 10 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Olympic Plates",
+      "condition": "new",
+      "image": "/catalog-assets/1eeba587-d0cc-423e-98ae-74fd140dc038/ader-black-bumper-plates.png",
+      "images": [
+        "/catalog-assets/1eeba587-d0cc-423e-98ae-74fd140dc038/ader-black-bumper-plates.png"
+      ],
+      "description": [
+        "10 lb plate",
+        "Black solid rubber bumper plate",
+        "Stainless steel insert",
+        "17.7\" diameter",
+        "Fits a 2\" Olympic bar"
+      ]
+    },
+    {
+      "id": "1000",
+      "sku": "ASG O-15SRO",
+      "name": "Ader Olympic Black Solid Rubber Bumper Plate — 15 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Olympic Plates",
+      "condition": "new",
+      "image": "/catalog-assets/1eeba587-d0cc-423e-98ae-74fd140dc038/ader-black-bumper-plates.png",
+      "images": [
+        "/catalog-assets/1eeba587-d0cc-423e-98ae-74fd140dc038/ader-black-bumper-plates.png"
+      ],
+      "description": [
+        "15 lb plate",
+        "Black solid rubber bumper plate",
+        "Stainless steel insert",
+        "17.7\" diameter",
+        "Fits a 2\" Olympic bar"
+      ]
+    },
+    {
+      "id": "1001",
+      "sku": "ASG O-25SRO",
+      "name": "Ader Olympic Black Solid Rubber Bumper Plate — 25 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Olympic Plates",
+      "condition": "new",
+      "image": "/catalog-assets/1eeba587-d0cc-423e-98ae-74fd140dc038/ader-black-bumper-plates.png",
+      "images": [
+        "/catalog-assets/1eeba587-d0cc-423e-98ae-74fd140dc038/ader-black-bumper-plates.png"
+      ],
+      "description": [
+        "25 lb plate",
+        "Black solid rubber bumper plate",
+        "Stainless steel insert",
+        "17.7\" diameter",
+        "Fits a 2\" Olympic bar"
+      ]
+    },
+    {
+      "id": "1002",
+      "sku": "ASG O-35SRO",
+      "name": "Ader Olympic Black Solid Rubber Bumper Plate — 35 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Olympic Plates",
+      "condition": "new",
+      "image": "/catalog-assets/1eeba587-d0cc-423e-98ae-74fd140dc038/ader-black-bumper-plates.png",
+      "images": [
+        "/catalog-assets/1eeba587-d0cc-423e-98ae-74fd140dc038/ader-black-bumper-plates.png"
+      ],
+      "description": [
+        "35 lb plate",
+        "Black solid rubber bumper plate",
+        "Stainless steel insert",
+        "17.7\" diameter",
+        "Fits a 2\" Olympic bar"
+      ]
+    },
+    {
+      "id": "1003",
+      "sku": "ASG O-45SRO",
+      "name": "Ader Olympic Black Solid Rubber Bumper Plate — 45 lb",
+      "brand": "Ader Sporting Goods",
+      "category": "Strength Equipment",
+      "subcategory": "Olympic Plates",
+      "condition": "new",
+      "image": "/catalog-assets/1eeba587-d0cc-423e-98ae-74fd140dc038/ader-black-bumper-plates.png",
+      "images": [
+        "/catalog-assets/1eeba587-d0cc-423e-98ae-74fd140dc038/ader-black-bumper-plates.png"
+      ],
+      "description": [
+        "45 lb plate",
+        "Black solid rubber bumper plate",
+        "Stainless steel insert",
+        "17.7\" diameter",
+        "Fits a 2\" Olympic bar"
+      ]
+    },
     {
       "id": "970",
       "sku": "NC 14700",
