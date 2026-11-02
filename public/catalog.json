@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T15:50:24.120Z",
+  "generatedAt": "2026-11-02T15:51:15.539Z",
   "products": [
     {
       "id": "970",
@@ -310,6 +310,126 @@
         "6 steel plate horns",
         "Built-in bar holder for 2 Olympic bars",
         "Rubber feet to protect floors"
+      ]
+    },
+    {
+      "id": "988",
+      "sku": "RICH EF2020WC2",
+      "name": "Richmar 2\" x 2\" Square White Cloth Electrodes, Foil Pack",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "Electrodes & Supplies",
+      "condition": "new",
+      "image": "/catalog-assets/67a35ee2-8eaf-4b5c-be62-6b56eaa89473/rich-ef2000wc2-pl.jpg",
+      "images": [
+        "/catalog-assets/67a35ee2-8eaf-4b5c-be62-6b56eaa89473/rich-ef2000wc2-pl.jpg"
+      ],
+      "description": [
+        "2\" x 2\" square white cloth electrodes",
+        "Self-adhesive, reusable",
+        "Pigtail lead wire connection",
+        "Packed in resealable foil pouch"
+      ]
+    },
+    {
+      "id": "989",
+      "sku": "RICH EF2020WF2",
+      "name": "Richmar 2\" x 2\" Square White Foam Electrodes, Foil Pack",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "Electrodes & Supplies",
+      "condition": "new",
+      "image": "/catalog-assets/67a35ee2-8eaf-4b5c-be62-6b56eaa89473/rich-ef2000wc2-pl.jpg",
+      "images": [
+        "/catalog-assets/67a35ee2-8eaf-4b5c-be62-6b56eaa89473/rich-ef2000wc2-pl.jpg"
+      ],
+      "description": [
+        "2\" x 2\" square white foam electrodes",
+        "Self-adhesive, reusable",
+        "Pigtail lead wire connection",
+        "Packed in resealable foil pouch"
+      ]
+    },
+    {
+      "id": "990",
+      "sku": "RICH HP-1210-ST",
+      "name": "Richmar HydraHeat Pack — Standard (12\" x 10\")",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "Hot & Cold Packs",
+      "condition": "new",
+      "image": "/assets/products/bsw/rich-hp-1711-cx.jpg",
+      "images": [
+        "/assets/products/bsw/rich-hp-1711-cx.jpg"
+      ],
+      "description": [
+        "Standard-size moist heat pack",
+        "12\" x 10\"",
+        "Non-porous polymer skin — bacteria resistant, easy to wipe clean",
+        "Treats at 120°–140°F (safer than traditional packs)",
+        "Maintains heat up to 55 minutes",
+        "SureSeam process — no bursting or leaking",
+        "Compatible with all heating units; best with Richmar HydraTherm"
+      ]
+    },
+    {
+      "id": "991",
+      "sku": "RICH HP-1711-LG",
+      "name": "Richmar HydraHeat Pack — Large (17\" x 11\")",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "Hot & Cold Packs",
+      "condition": "new",
+      "image": "/assets/products/bsw/rich-hp-1711-cx.jpg",
+      "images": [
+        "/assets/products/bsw/rich-hp-1711-cx.jpg"
+      ],
+      "description": [
+        "Large-size moist heat pack",
+        "17\" x 11\"",
+        "Non-porous polymer skin — bacteria resistant, easy to wipe clean",
+        "Treats at 120°–140°F (safer than traditional packs)",
+        "Maintains heat up to 55 minutes",
+        "SureSeam process — no bursting or leaking",
+        "Compatible with all heating units; best with Richmar HydraTherm"
+      ]
+    },
+    {
+      "id": "992",
+      "sku": "RICH HT-R12-RLY",
+      "name": "Richmar HydraTherm Relay",
+      "brand": "Richmar",
+      "category": "Modalities",
+      "subcategory": "Hydrocollator",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Replacement power relay for Richmar HydraTherm units",
+        "Fits the HydraTherm electrical enclosure",
+        "Sold each"
+      ]
+    },
+    {
+      "id": "993",
+      "sku": "RICH HT-R12-SW DEMO",
+      "name": "Richmar HydraTherm, Standard Divider Rack, w/ Packs — DEMO MODEL",
+      "brand": "Richmar",
+      "category": "Modalities",
+      "subcategory": "Hydrocollator",
+      "condition": "new",
+      "image": "/assets/products/richmar-hydratherm-web.jpg",
+      "images": [
+        "/assets/products/richmar-hydratherm-web.jpg"
+      ],
+      "description": [
+        "DEMO MODEL",
+        "HydraTherm standard unit with divider system",
+        "Includes HydraHeat packs: 3 standard, 3 cervical, 3 oversize",
+        "115/120 V",
+        "Digital thermostat control",
+        "Composite no-rust tub",
+        "Low water sensor"
       ]
     },
     {
