@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:33:23.112Z",
+  "generatedAt": "2026-11-02T20:39:07.725Z",
   "products": [
     {
       "id": "1004",
@@ -3959,22 +3959,24 @@
     },
     {
       "id": "834",
-      "sku": "MF-GFT",
+      "sku": "MF-GFTFT",
       "name": "Matrix Connexus Functional Trainer",
       "brand": "Matrix Fitness",
       "category": "Strength Equipment",
       "subcategory": "Functional Trainer",
       "condition": "new",
-      "image": "/catalog-assets/191397d2-e293-4e2d-b146-8eb40113473b/connexus-functional-trainer.jpg",
+      "image": "/catalog-assets/c486895b-e93c-428e-91a5-26423ef39ad0/matrix-mf-gftft.png",
       "images": [
-        "/catalog-assets/191397d2-e293-4e2d-b146-8eb40113473b/connexus-functional-trainer.jpg"
+        "/catalog-assets/c486895b-e93c-428e-91a5-26423ef39ad0/matrix-mf-gftft.png"
       ],
       "description": [
         "Heavy cable resistance for coached or self-guided workouts",
-        "Configures with Connexus Edge or additional trainers",
-        "Integrated pull-up bar",
-        "Accessory and smart device storage",
-        "Dimensions: 60\" L x 49\" W x 93.4\" H; 955 lbs"
+        "Configures with Connexus Edge or additional Functional Trainers",
+        "19 user start options with color-coded adjustment points",
+        "Multi-grip pull-up bars and two accessory shelves with rubber inlay",
+        "Integrated training-handle and smart device storage",
+        "210 lb standard weight stack with 5 lb incremental weight",
+        "Dimensions: 61\" L x 49\" W x 93.4\" H; 955 lbs"
       ]
     },
     {

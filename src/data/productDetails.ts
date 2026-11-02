@@ -94,7 +94,8 @@ import mfA52 from "@/assets/products/matrix/mf-mg-a52.jpg.asset.json";
 import mfSled from "@/assets/products/matrix/mf-mxsled-02.jpg.asset.json";
 import mfS76 from "@/assets/products/matrix/mf-g3-s76.jpg.asset.json";
 import cxEdge from "@/assets/products/matrix/connexus-edge.jpg.asset.json";
-import cxFunctionalTrainer from "@/assets/products/matrix/connexus-functional-trainer.jpg.asset.json";
+import cxFunctionalTrainer from "@/assets/products/matrix/matrix-mf-gftft.png.asset.json";
+import cxFunctionalTrainerSheet from "@/assets/products/matrix/matrix-connexus-functional-trainer-sell-sheet.pdf.asset.json";
 import cxHub from "@/assets/products/matrix/connexus-hub.jpg.asset.json";
 import cxCrest from "@/assets/products/matrix/connexus-crest.jpg.asset.json";
 import cxCompact from "@/assets/products/matrix/connexus-compact.jpg.asset.json";
@@ -19304,12 +19305,14 @@ export const productDetails: Record<string, ProductDetail> = {
   },
   "834": {
     productId: "834", slug: "matrix-connexus-functional-trainer", tagline: "Dual-stack cable trainer that configures with the Connexus Edge for heavy cable resistance.",
-    overview: ["Dual-stack cable trainer that configures with the Connexus Edge for heavy cable resistance. Part of the Matrix Connexus functional training series."],
-    highlights: ["Heavy cable resistance for coached or self-guided workouts", "Configures with Connexus Edge or additional trainers", "Integrated pull-up bar", "Accessory and smart device storage"],
+    overview: ["The Matrix Connexus Functional Trainer configures with the Connexus Edge or additional Functional Trainers to offer heavy cable resistance and easy access to training accessories for coached and self-guided workouts.", "Color-coded adjustment points and 19 user start options accommodate a variety of exercises. Multi-grip pull-up bars, two durable accessory shelves with rubber inlay, integrated handle storage and smart device storage keep training essentials close at hand."],
+    highlights: ["19 user start options with color-coded adjustment points", "Multi-grip pull-up bars offer various grip angles", "Two accessory shelves with rubber inlay", "Integrated training-handle and smart device storage", "Color-coded exercise placards: upper body, lower body and core", "Matte Black frame with two-coat powder finish", "Internally lubricated cables and fittings", "Fastener-free full front and rear weight-stack shields"],
     gallery: [{ src: cxFunctionalTrainer.url, alt: "Matrix Connexus Functional Trainer" }],
-    specGroups: [{ title: "Specifications", rows: [{ label: "Recommended training area", value: "13 x 13 ft" }, { label: "Dimensions (L x W x H)", value: "60 x 49 x 93.4 in" }, { label: "Product weight", value: "955 lbs" }] }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "MF-GFTFT" }, { label: "Recommended training area", value: "5 x 12 ft (1.5 x 3.65 m)" }, { label: "Dimensions (L x W x H)", value: "61 x 49 x 93.4 in (155 x 124.5 x 237.2 cm)" }, { label: "Product weight", value: "955 lbs (433 kg)" }, { label: "Standard weight stack", value: "210 lbs (95 kg)" }, { label: "Incremental weight", value: "5 lbs (2.3 kg)" }, { label: "User start options", value: "19" }, { label: "Frame color", value: "Matte Black" }, { label: "Frame protection", value: "Bolt-on lower guards" }, { label: "Anchoring", value: "Machine anchoring locations" }] }],
+    specSheetUrl: cxFunctionalTrainerSheet.url,
+    specSheetTitle: "Matrix Connexus Functional Trainer Sell Sheet",
     sourceUrl: "https://us.matrixfitness.com/eng/group-training/strength-flexibility/connexus-functional-trainer",
-    seo: { title: "Matrix Connexus Functional Trainer | GM Therapy", description: "Dual-stack cable trainer that configures with the Connexus Edge for heavy cable resistance." },
+    seo: { title: "Matrix Connexus Functional Trainer — MF-GFTFT | GM Therapy", description: "Matrix Connexus Functional Trainer with 19 start options, multi-grip pull-up bars and accessory storage. Call or add to quote request for pricing." },
   },
   "835": {
     productId: "835", slug: "matrix-connexus-hub", tagline: "Single adjustable pulley with centralized accessory storage for small spaces.",

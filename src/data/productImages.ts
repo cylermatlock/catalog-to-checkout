@@ -109,7 +109,7 @@ import mfA52 from "@/assets/products/matrix/mf-mg-a52.jpg.asset.json";
 import mfSled from "@/assets/products/matrix/mf-mxsled-02.jpg.asset.json";
 import mfS76 from "@/assets/products/matrix/mf-g3-s76.jpg.asset.json";
 import cxEdge from "@/assets/products/matrix/connexus-edge.jpg.asset.json";
-import cxFunctionalTrainer from "@/assets/products/matrix/connexus-functional-trainer.jpg.asset.json";
+import cxFunctionalTrainer from "@/assets/products/matrix/matrix-mf-gftft.png.asset.json";
 import cxHub from "@/assets/products/matrix/connexus-hub.jpg.asset.json";
 import cxCrest from "@/assets/products/matrix/connexus-crest.jpg.asset.json";
 import cxCompact from "@/assets/products/matrix/connexus-compact.jpg.asset.json";
