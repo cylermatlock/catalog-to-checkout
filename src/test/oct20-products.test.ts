@@ -65,3 +65,15 @@ describe("Richmar Nov 2 additions", () => {
     expect(m[0]?.id).toBe(id);
   });
 });
+
+describe("Richmar Nov 2 second batch", () => {
+  it.each([["994","RICH LS5288"],["995","RICH ROS-OBT"],["996","RICH SW1"],["997","RICH WC72418DS"],["998","RICH WQ8112"]])("lists %s as %s once with a photo", (id, sku) => {
+    const m = products.filter((p) => p.sku === sku);
+    expect(m).toHaveLength(1);
+    expect(m[0]?.id).toBe(id);
+    expect(productImages[id]).toBeTruthy();
+  });
+  it("wheelchair is rated 450 lb", () => {
+    expect(products.find((p) => p.sku === "RICH WC72418DS")?.description).toContain("450 lb weight capacity");
+  });
+});

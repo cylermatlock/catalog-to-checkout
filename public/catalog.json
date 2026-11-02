@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T15:51:15.539Z",
+  "generatedAt": "2026-11-02T16:12:37.681Z",
   "products": [
     {
       "id": "970",
@@ -408,6 +408,105 @@
         "Replacement power relay for Richmar HydraTherm units",
         "Fits the HydraTherm electrical enclosure",
         "Sold each"
+      ]
+    },
+    {
+      "id": "994",
+      "sku": "RICH LS5288",
+      "name": "Richmar TheraSonic Conductive Gel, 8 oz Bottle",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "Electrodes & Supplies",
+      "condition": "new",
+      "image": "/catalog-assets/56975c50-f800-4fd8-94ca-e221054766b2/rich-ls5288.jpg",
+      "images": [
+        "/catalog-assets/56975c50-f800-4fd8-94ca-e221054766b2/rich-ls5288.jpg"
+      ],
+      "description": [
+        "Ultrasound conductive gel, 8 oz bottle",
+        "Acoustically correct for a broad range of ultrasound frequencies",
+        "Spreads evenly; won't stain clothing or damage transducers",
+        "Water-soluble, hypoallergenic, bacteriostatic, non-irritating"
+      ]
+    },
+    {
+      "id": "995",
+      "sku": "RICH ROS-OBT",
+      "name": "Roscoe Overbed Table — Non-Tilt",
+      "brand": "Richmar",
+      "category": "Rehab Furniture",
+      "subcategory": "Other",
+      "condition": "new",
+      "image": "/catalog-assets/858a3557-c83b-4e5b-a13d-76d52a0c844e/rich-ros-obt.jpg",
+      "images": [
+        "/catalog-assets/858a3557-c83b-4e5b-a13d-76d52a0c844e/rich-ros-obt.jpg"
+      ],
+      "description": [
+        "Non-tilting overbed / bedside table",
+        "15\" x 30\" walnut wood-grain laminate top",
+        "Height adjusts 28\" – 45\" in infinite positions",
+        "Chrome-plated steel \"H\" base with swivel casters",
+        "50 lb tabletop weight capacity"
+      ]
+    },
+    {
+      "id": "996",
+      "sku": "RICH SW1",
+      "name": "Richmar TheraTouch SW1 Shockwave Unit — Three Applicators (15mm, 20mm, 35mm)",
+      "brand": "Richmar",
+      "category": "Modalities",
+      "subcategory": "Shockwave",
+      "condition": "new",
+      "image": "/catalog-assets/f0f63e2e-ed80-4b12-955c-2ff9712973fd/rich-sw1.jpg",
+      "images": [
+        "/catalog-assets/f0f63e2e-ed80-4b12-955c-2ff9712973fd/rich-sw1.jpg"
+      ],
+      "description": [
+        "Portable radial pressure wave (shockwave) device",
+        "Three applicator sizes: 15mm, 20mm, 35mm",
+        "11 preset body-part protocols plus manual mode and favorites",
+        "Touch screen; 1–22 Hz, 60–185 mJ (1–4 bar)",
+        "Rechargeable battery (~3 hr) and carrying case",
+        "Three-year warranty"
+      ]
+    },
+    {
+      "id": "997",
+      "sku": "RICH WC72418DS",
+      "name": "ProBasics K7 Heavy Duty Wheelchair w/ Swing-Away Footrests — 450 lb Capacity",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "DME",
+      "condition": "new",
+      "image": "/catalog-assets/845226cb-c889-4d89-aa7c-d260b6f80e4b/rich-wc72418ds.jpg",
+      "images": [
+        "/catalog-assets/845226cb-c889-4d89-aa7c-d260b6f80e4b/rich-wc72418ds.jpg"
+      ],
+      "description": [
+        "24\" x 18\" seat",
+        "450 lb weight capacity",
+        "Heavy duty silver vein steel frame; dual axle for hemi height",
+        "Removable desk-length padded arms",
+        "Tool-free swing-away footrests with heel loops",
+        "24\" urethane rear wheels; push-to-lock wheel locks"
+      ]
+    },
+    {
+      "id": "998",
+      "sku": "RICH WQ8112",
+      "name": "Richmar TheraTouch 110\" Lead Wire (4/pk)",
+      "brand": "Richmar",
+      "category": "Clinical Supplies",
+      "subcategory": "Electrodes & Supplies",
+      "condition": "new",
+      "image": "/catalog-assets/30ec4a12-d93d-44e5-8ba2-613f9b486461/rich-wq8112.jpg",
+      "images": [
+        "/catalog-assets/30ec4a12-d93d-44e5-8ba2-613f9b486461/rich-wq8112.jpg"
+      ],
+      "description": [
+        "110\" lead wires for TheraTouch CX4, CX2 and EX4",
+        "Industry standard pin connectors",
+        "Sold 4 per pack"
       ]
     },
     {

@@ -20,6 +20,11 @@ import tko985 from "@/assets/products/tko/tko-6205-alone.jpg.asset.json";
 import tko985Loaded from "@/assets/products/tko/tko-6205-loaded.jpg.asset.json";
 import tko985BarHolder from "@/assets/products/tko/tko-6205-barholder.jpg.asset.json";
 import richmar982 from "@/assets/products/richmar/rich-ef2000wc2-pl.jpg.asset.json";
+import richmar994 from "@/assets/products/richmar/rich-ls5288.jpg.asset.json";
+import richmar995 from "@/assets/products/richmar/rich-ros-obt.jpg.asset.json";
+import richmar996 from "@/assets/products/richmar/rich-sw1.jpg.asset.json";
+import richmar997 from "@/assets/products/richmar/rich-wc72418ds.jpg.asset.json";
+import richmar998 from "@/assets/products/richmar/rich-wq8112.jpg.asset.json";
 import matrixBooster969 from "@/assets/products/matrix/matrix-md-s70-booster-kit.jpg.asset.json";
 import trxPro4Kit from "@/assets/products/trx/trx-pro4-kit.jpg.asset.json";
 import clinicalMatrix964 from "@/assets/products/new-clinical-matrix/77-0028.jpg.asset.json";
@@ -130,6 +135,11 @@ export const productImages: Record<string, string> = {
   "980": richmar980.url,
   "981": richmar981.url,
   "982": richmar982.url,
+  "994": richmar994.url,
+  "995": richmar995.url,
+  "996": richmar996.url,
+  "997": richmar997.url,
+  "998": richmar998.url,
   "988": richmar982.url,
   "989": richmar982.url,
   "990": productAsset("bsw/rich-hp-1711-cx.jpg?v=2"),
