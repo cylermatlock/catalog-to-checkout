@@ -7,7 +7,7 @@ describe("Repository photos for external quote tools", () => {
     products: { sku: string; image: string }[];
   };
 
-  for (const sku of ["TMS 730002-(xxx)", "TMS 730011-001", "FAB 10-3199"]) {
+  for (const sku of ["TMS 730002-(xxx)", "TMS 730011-001", "FAB 10-3199", "AMZ CART3S"]) {
     it(`includes a real repository photo for ${sku}`, () => {
       const product = catalog.products.find((item) => item.sku === sku);
       expect(product?.image).toMatch(/^\/catalog-assets\//);
