@@ -1,3 +1,4 @@
+import tms730011 from "@/assets/products/tms/tms-730011-lift-back.png.asset.json";
 import tms730002 from "@/assets/products/tms/tms-730002.png.asset.json";
 import tms730606 from "@/assets/products/tms/tms-730606.png.asset.json";
 import richmarUx2 from "@/assets/products/richmar/richmar-dq2000.jpg.asset.json";
@@ -127,6 +128,7 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "1008": tms730011.url,
   "1007": tms730002.url,
   "1006": tms730606.url,
   "1005": richmarUx2.url,
