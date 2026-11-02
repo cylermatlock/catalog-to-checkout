@@ -57,3 +57,11 @@ describe("Richmar electrodes, soundheads and APT additions", () => {
     }
   });
 });
+
+describe("Richmar Nov 2 additions", () => {
+  it.each([["988","RICH EF2020WC2"],["989","RICH EF2020WF2"],["990","RICH HP-1210-ST"],["991","RICH HP-1711-LG"],["992","RICH HT-R12-RLY"],["993","RICH HT-R12-SW DEMO"]])("lists %s as %s once", (id, sku) => {
+    const m = products.filter((p) => p.sku === sku);
+    expect(m).toHaveLength(1);
+    expect(m[0]?.id).toBe(id);
+  });
+});
