@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-02T20:43:00.636Z",
+  "generatedAt": "2026-11-02T20:50:35.769Z",
   "products": [
+    {
+      "id": "1006",
+      "sku": "TMS 730606-(xxx)",
+      "name": "GMTS DELUXE OAK MAT TABLE — FIXED HEIGHT, 4 SIZES",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Hi-Lo Tables",
+      "condition": "new",
+      "image": "/catalog-assets/83d610ac-6a69-4219-b573-b596904cd93a/tms-730606.png",
+      "images": [
+        "/catalog-assets/83d610ac-6a69-4219-b573-b596904cd93a/tms-730606.png"
+      ],
+      "description": [
+        "Hand-crafted with high quality solid oak",
+        "All wood surfaces are finished with durable clear polyurethane",
+        "Table top includes 2\" medium-density foam and durable Naugahyde® upholstery",
+        "Offered in four sizes: 3' x 7', 4' x 7', 5' x 7' and 6' x 8'",
+        "Surface height is 20\"",
+        "Offered in 11 stocking Naugahyde® colors",
+        "Weight Capacity: 500 lbs."
+      ]
+    },
     {
       "id": "1005",
       "sku": "RICH DQ2000",

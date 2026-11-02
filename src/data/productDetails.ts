@@ -1,3 +1,4 @@
+import tms730606 from "@/assets/products/tms/tms-730606.png.asset.json";
 import richmarUx2 from "@/assets/products/richmar/richmar-dq2000.jpg.asset.json";
 import richmarUx2Sheet from "@/assets/products/richmar/richmar-ux2-sell-sheet.pdf.asset.json";
 import rollingModalityCart from "@/assets/products/amz/rolling-modality-cart.png.asset.json";
@@ -166,6 +167,16 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1006": {
+    productId: "1006", slug: "gmts-deluxe-oak-mat-table-fixed-height",
+    tagline: "Hand-crafted solid oak mat table with a fixed 20\" surface, offered in four sizes and 11 Naugahyde® colors.",
+    overview: ["The GMTS Deluxe Oak Mat Table is hand-crafted from high quality solid oak, with all wood surfaces finished in durable clear polyurethane. The table top carries 2\" medium-density foam under durable Naugahyde® upholstery, and the fixed surface height is 20\".", "The table is offered in four sizes — 3' x 7', 4' x 7', 5' x 7' and 6' x 8' — and in 11 stocking Naugahyde® upholstery colors, with a 500 lb weight capacity."],
+    highlights: ["Hand-crafted with high quality solid oak", "All wood surfaces finished with durable clear polyurethane", "2\" medium-density foam top with durable Naugahyde® upholstery", "Fixed 20\" surface height", "Four sizes: 3' x 7', 4' x 7', 5' x 7' and 6' x 8'", "11 stocking Naugahyde® colors", "500 lb weight capacity"],
+    gallery: [{ src: tms730606.url, alt: "GMTS Deluxe Oak Mat Table with navy Naugahyde upholstery and positioning wedge" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730606-(xxx)" }, { label: "Frame", value: "Hand-crafted solid oak, clear polyurethane finish" }, { label: "Top", value: "2\" medium-density foam with Naugahyde® upholstery" }, { label: "Surface height", value: "20\"" }, { label: "Sizes", value: "3' x 7', 4' x 7', 5' x 7', 6' x 8'" }, { label: "Upholstery colors", value: "11 stocking Naugahyde® colors" }, { label: "Weight capacity", value: "500 lbs" }] }],
+    sourceUrl: "",
+    seo: { title: "GMTS Deluxe Oak Mat Table — TMS 730606 | GM Therapy", description: "Hand-crafted solid oak mat table with fixed 20\" surface, four sizes and 11 Naugahyde colors. Call or add to quote request for pricing." },
+  },
   "1005": {
     productId: "1005", slug: "richmar-theratouch-ux2-advanced-ultrasound-device",
     tagline: "Advanced ultrasound therapy with a color touchscreen and two included applicators.",

@@ -1,3 +1,4 @@
+import tms730606 from "@/assets/products/tms/tms-730606.png.asset.json";
 import richmarUx2 from "@/assets/products/richmar/richmar-dq2000.jpg.asset.json";
 import rollingModalityCart from "@/assets/products/amz/rolling-modality-cart.png.asset.json";
 import aderBlackBumperPlates from "@/assets/products/ader/black-bumper-plates.png.asset.json";
@@ -125,6 +126,7 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "1006": tms730606.url,
   "1005": richmarUx2.url,
   "1004": rollingModalityCart.url,
   "999": aderBlackBumperPlates.url,
