@@ -1,3 +1,4 @@
+import tms730002 from "@/assets/products/tms/tms-730002.png.asset.json";
 import tms730606 from "@/assets/products/tms/tms-730606.png.asset.json";
 import richmarUx2 from "@/assets/products/richmar/richmar-dq2000.jpg.asset.json";
 import richmarUx2Sheet from "@/assets/products/richmar/richmar-ux2-sell-sheet.pdf.asset.json";
@@ -167,6 +168,16 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1007": {
+    productId: "1007", slug: "gmts-deluxe-oak-treatment-table-30x78",
+    tagline: "Hand-crafted solid oak treatment table with a fixed 30\" surface and standard H-brace.",
+    overview: ["The GMTS Deluxe Solid Oak Treatment Table is hand-crafted from high quality solid oak, with all wood surfaces finished in durable clear polyurethane. The table top carries 2\" medium-density foam under durable Naugahyde® upholstery, and an \"H\" brace is standard on all models for extra stability.", "This 30\" W x 78\" L model has a fixed 30\" surface height, is offered in 8 stocking Naugahyde® colors, and carries a 500 lb weight capacity. Many options are available to customize the table, and it is made in the USA."],
+    highlights: ["Hand-crafted with high quality solid oak", "All wood surfaces finished with durable clear polyurethane", "2\" medium-density foam top with durable Naugahyde® upholstery", "\"H\" brace standard on all models for extra stability", "Fixed 30\" surface height", "30\" W x 78\" L surface", "8 stocking Naugahyde® colors", "500 lb weight capacity", "Made in the USA"],
+    gallery: [{ src: tms730002.url, alt: "GMTS 30\" x 78\" Deluxe Solid Oak Treatment Table with navy Naugahyde upholstery" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730002-(xxx)" }, { label: "Frame", value: "Hand-crafted solid oak, clear polyurethane finish" }, { label: "Top", value: "2\" medium-density foam with Naugahyde® upholstery" }, { label: "Brace", value: "\"H\" brace standard on all models" }, { label: "Surface height", value: "30\"" }, { label: "Surface size", value: "30\" W x 78\" L" }, { label: "Upholstery colors", value: "8 stocking Naugahyde® colors" }, { label: "Weight capacity", value: "500 lbs" }] }],
+    sourceUrl: "https://arrowheadmedstore.com/product/730002-002/",
+    seo: { title: "GMTS 30\" x 78\" Deluxe Solid Oak Treatment Table — TMS 730002 | GM Therapy", description: "Hand-crafted solid oak treatment table with fixed 30\" surface, H-brace and 500 lb capacity. Call or add to quote request for pricing." },
+  },
   "1006": {
     productId: "1006", slug: "gmts-deluxe-oak-mat-table-fixed-height",
     tagline: "Hand-crafted solid oak mat table with a fixed 20\" surface, offered in four sizes and 11 Naugahyde® colors.",
