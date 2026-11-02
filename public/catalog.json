@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-11-02T20:50:35.769Z",
+  "generatedAt": "2026-11-02T20:52:23.835Z",
   "products": [
+    {
+      "id": "1007",
+      "sku": "TMS 730002-(xxx)",
+      "name": "GMTS 30\" X 78\" DELUXE SOLID OAK TREATMENT TABLE",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Wood Treatment Tables",
+      "condition": "new",
+      "image": "/catalog-assets/1d031e6f-55e0-42b1-bc5b-796724aef497/tms-730002.png",
+      "images": [
+        "/catalog-assets/1d031e6f-55e0-42b1-bc5b-796724aef497/tms-730002.png"
+      ],
+      "description": [
+        "Hand-crafted with high quality solid oak",
+        "All wood surfaces are finished with durable clear polyurethane",
+        "Table top includes 2\" medium-density foam and durable Naugahyde® upholstery",
+        "\"H\" brace is standard on all models for extra stability",
+        "Surface height is 30\"",
+        "Offered in 8 stocking Naugahyde® colors",
+        "Weight Capacity: 500 lbs.",
+        "Made in the USA"
+      ]
+    },
     {
       "id": "1006",
       "sku": "TMS 730606-(xxx)",
