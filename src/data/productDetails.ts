@@ -1,3 +1,5 @@
+import richmarUx2 from "@/assets/products/richmar/richmar-dq2000.jpg.asset.json";
+import richmarUx2Sheet from "@/assets/products/richmar/richmar-ux2-sell-sheet.pdf.asset.json";
 import rollingModalityCart from "@/assets/products/amz/rolling-modality-cart.png.asset.json";
 import ader987_1 from "@/assets/ader987_1.jpg.asset.json";
 import ader987_2 from "@/assets/ader987_2.jpg.asset.json";
@@ -164,6 +166,18 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1005": {
+    productId: "1005", slug: "richmar-theratouch-ux2-advanced-ultrasound-device",
+    tagline: "Advanced ultrasound therapy with a color touchscreen and two included applicators.",
+    overview: ["The Richmar TheraTouch UX2 is a stand-alone ultrasound device with a menu-driven color touchscreen. Clinical protocols group treatment parameters and applicator recommendations, while a comprehensive treatment-education library supports clinical workflows.", "Clinicians can quick-start a treatment, adjust parameters, use preset protocols or store up to 99 custom programs. The dual-holster design accommodates the included 1 cm² and 5 cm² applicators. An optional therapy cart integrates with the unit and keeps supplies organized; the cart is sold separately."],
+    highlights: ["1 and 3 MHz ultrasound frequencies", "Pulsed and continuous modes", "Includes 1 cm² and 5 cm² applicators", "Large color LCD touchscreen", "Clinical protocols and treatment-education library", "Stores up to 99 custom programs", "Sound head coupling feature", "Amplitude display selectable between W and W/cm²", "Low beam nonuniformity ratio (BNR) of 5:1", "Ergonomic design for tabletop or optional therapy cart use"],
+    gallery: [{ src: richmarUx2.url, alt: "Richmar TheraTouch UX2 ultrasound device with two applicators" }],
+    specGroups: [{ title: "Ultrasound Specifications", rows: [{ label: "SKU", value: "RICH DQ2000" }, { label: "Frequency", value: "1 and 3 MHz" }, { label: "Modes", value: "Pulsed and continuous" }, { label: "Pulse frequency", value: "100 Hz" }, { label: "Pulse duration", value: "1–9 ms ±10% (set by duty cycle)" }, { label: "Fixed ramp", value: "1 second" }, { label: "Treatment time", value: "1–60 minutes" }, { label: "Included applicators", value: "1 cm² and 5 cm²" }, { label: "BNR", value: "5:1" }, { label: "Custom program storage", value: "Up to 99 programs" }, { label: "Optional cart", value: "DQCART-2 — sold separately" }] }],
+    specSheetUrl: richmarUx2Sheet.url,
+    specSheetTitle: "Richmar TheraTouch UX2 Sell Sheet",
+    sourceUrl: "https://www.richmarweb.com/ultrasound/theratouch-ux2-advanced-ultrasound-device",
+    seo: { title: "Richmar TheraTouch UX2 — RICH DQ2000 | GM Therapy", description: "Richmar TheraTouch UX2 ultrasound device with 1 and 3 MHz frequencies, touchscreen and two applicators. Call or add to quote request for pricing." },
+  },
   "1004": {
     productId: "1004", slug: "rolling-modality-cart-three-shelves",
     tagline: "Three-shelf rolling cart for modality equipment and supplies.",
