@@ -30,6 +30,7 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  { id: "1005", name: "Richmar TheraTouch UX2 Advanced Ultrasound Device", category: "Modalities", subcategory: "E-Stim/Ultrasound", sku: "RICH DQ2000", description: ["1 and 3 MHz ultrasound frequencies", "Pulsed and continuous treatment modes", "Includes 1 cm² and 5 cm² applicators", "Color LCD touchscreen with clinical protocols and treatment education", "Stores up to 99 custom programs", "Sound head coupling feature and 5:1 BNR", "Tabletop design; optional therapy cart sold separately"] },
   { id: "1004", name: "Rolling Modality Cart — Three Shelves", category: "Rehab Furniture", subcategory: "Storage", sku: "AMZ CART3S", description: ["Three shelves for modality equipment and supplies", "Raised shelf edges", "Built-in handles and four caster wheels", "Black shelves with silver upright supports", "32\" L x 16\" W x 36.5\" H"] },
   // Ader all-black solid rubber bumper plates
   { id: "999", name: "Ader Olympic Black Solid Rubber Bumper Plate — 10 lb", category: "Strength Equipment", subcategory: "Olympic Plates", sku: "ASG O-10SRO", description: ["10 lb plate", "Black solid rubber bumper plate", "Stainless steel insert", "17.7\" diameter", "Fits a 2\" Olympic bar"] },
