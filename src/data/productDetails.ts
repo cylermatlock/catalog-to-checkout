@@ -1,3 +1,4 @@
+import rollingModalityCart from "@/assets/products/amz/rolling-modality-cart.png.asset.json";
 import ader987_1 from "@/assets/ader987_1.jpg.asset.json";
 import ader987_2 from "@/assets/ader987_2.jpg.asset.json";
 import tko986_1 from "@/assets/products/tko/tko-7046-g2-1.jpg.asset.json";
@@ -162,6 +163,16 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1004": {
+    productId: "1004", slug: "rolling-modality-cart-three-shelves",
+    tagline: "Three-shelf rolling cart for modality equipment and supplies.",
+    overview: ["This rolling modality cart features three black shelves, silver upright supports, raised shelf edges, built-in handles and four caster wheels. Dimensions shown in the supplied product photo are 32 inches long, 16 inches wide and 36.5 inches high."],
+    highlights: ["Three storage shelves", "Raised shelf edges", "Built-in handles", "Four caster wheels", "Black shelves and silver upright supports"],
+    gallery: [{ src: rollingModalityCart.url, alt: "Three-shelf rolling modality cart with dimensions shown" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "AMZ CART3S" }, { label: "Dimensions (shown in supplied photo)", value: "32\" L x 16\" W x 36.5\" H" }, { label: "Shelves", value: "3" }] }],
+    sourceUrl: "",
+    seo: { title: "Rolling Modality Cart — AMZ CART3S | GM Therapy", description: "Three-shelf rolling modality cart with raised shelf edges and caster wheels. Call or add to quote request for pricing." },
+  },
   "970": {
     productId: "970", slug: "norco-splint-form-2000-splint-pan",
     tagline: "Full-arm splint pan with digital control and automated sanitization.",
