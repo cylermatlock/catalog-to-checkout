@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-02T20:57:22.786Z",
+  "generatedAt": "2026-11-02T21:02:07.488Z",
   "products": [
+    {
+      "id": "1009",
+      "sku": "FAB 10-3199",
+      "name": "CanDo Vinyl-Coated Kettlebell — 5-Piece Set (5, 7.5, 10, 15, 20 lb)",
+      "brand": "CanDo",
+      "category": "Strength Equipment",
+      "subcategory": "Kettlebells",
+      "condition": "new",
+      "image": "/catalog-assets/1e6ed0f8-e76d-462c-ac09-1e095d4a73dc/fab-10-3199.png",
+      "images": [
+        "/catalog-assets/1e6ed0f8-e76d-462c-ac09-1e095d4a73dc/fab-10-3199.png"
+      ],
+      "description": [
+        "5-piece set — one each of 5, 7.5, 10, 15 and 20 lb kettlebells",
+        "Vinyl-coated color-coded cast iron",
+        "Ideal for rehabilitation, strength training and toning",
+        "Vibrant colors make weights easy to identify",
+        "Coating reduces the potential for floor scratching",
+        "Marked in both pounds and kilograms",
+        "Latex free"
+      ]
+    },
     {
       "id": "1008",
       "sku": "TMS 730011-001",
