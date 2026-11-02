@@ -1,5 +1,9 @@
 # Add five Ader all-black bumper plates
 
+## Richmar TheraTouch UX2
+- [ ] Add RICH DQ2000 with official photo, bullet points, details and sell sheet.
+- [ ] Mirror assets, refresh quote catalog and sitemap, and verify quote-request flow.
+
 ## Matrix Connexus Functional Trainer
 - [x] Update existing trainer to MF-GFTFT with supplied photo and sell-sheet specifications.
 - [x] Refresh quote catalog and verify product and quote-request flow; 15 tests pass. Photo inspected using the identical repository mirror because localhost does not serve the asset proxy.
