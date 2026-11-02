@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-11-02T20:52:23.835Z",
+  "generatedAt": "2026-11-02T20:55:22.624Z",
   "products": [
+    {
+      "id": "1008",
+      "sku": "TMS 730011-001",
+      "name": "GMTS TREATMENT TABLE OPTIONAL LIFT BACK",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Wood Treatment Tables",
+      "condition": "new",
+      "image": "/catalog-assets/a19c18f1-d745-47a3-a944-269ae376b76a/tms-730011-lift-back.png",
+      "images": [
+        "/catalog-assets/a19c18f1-d745-47a3-a944-269ae376b76a/tms-730011-lift-back.png"
+      ],
+      "description": [
+        "Optional lift back add-on for solid oak treatment tables",
+        "Adjustable back angle for patient positioning",
+        "Shown in burgundy Naugahyde® upholstery on a solid oak table"
+      ]
+    },
     {
       "id": "1007",
       "sku": "TMS 730002-(xxx)",
