@@ -1,3 +1,4 @@
+import tms730606 from "@/assets/products/tms/tms-730606.png.asset.json";
 import richmarUx2 from "@/assets/products/richmar/richmar-dq2000.jpg.asset.json";
 import richmarUx2Sheet from "@/assets/products/richmar/richmar-ux2-sell-sheet.pdf.asset.json";
 import rollingModalityCart from "@/assets/products/amz/rolling-modality-cart.png.asset.json";
