@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-11-06T21:34:41.012Z",
+  "generatedAt": "2026-11-06T22:00:00.739Z",
   "products": [
+    {
+      "id": "1011",
+      "sku": "FAB 15-3352",
+      "aliasSkus": [],
+      "name": "Therawrap Table — Adjustable, 72\" x 48\"",
+      "brand": "Fabrication Enterprises",
+      "category": "Rehab Furniture",
+      "subcategory": "Work Tables",
+      "condition": "new",
+      "image": "/catalog-assets/292c86e5-0b85-4c25-b444-7ad53728d64b/therawrap-15-3352.jpg",
+      "images": [
+        "/catalog-assets/292c86e5-0b85-4c25-b444-7ad53728d64b/therawrap-15-3352.jpg"
+      ],
+      "description": [
+        "Wraparound work table accommodates three to four patients",
+        "72\" wide x 48\" deep; 18\" tabletop depth",
+        "Height adjusts from 23\" to 33\" in 1\" increments",
+        "Oversized height-adjustment knobs",
+        "Four-legged design with wheelchair clearance",
+        "Durable powder-coated steel base",
+        "Available in six laminate finishes"
+      ]
+    },
     {
       "id": "1009",
       "sku": "FAB 10-3199",
