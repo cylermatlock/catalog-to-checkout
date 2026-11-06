@@ -172,6 +172,7 @@ const Products = () => {
         !search ||
         p.name.toLowerCase().includes(search.toLowerCase()) ||
         p.sku.toLowerCase().includes(search.toLowerCase()) ||
+        (p.aliasSkus ?? []).some((a) => a.toLowerCase().includes(search.toLowerCase())) ||
         p.description.some((d) =>
           d.toLowerCase().includes(search.toLowerCase())
         );
