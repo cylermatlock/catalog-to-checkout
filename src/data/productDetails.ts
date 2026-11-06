@@ -1,4 +1,5 @@
 import nsT6max1 from "@/assets/products/nustep/ns-t6max-1.png.asset.json";
+import therawrap153352 from "@/assets/products/fab/therawrap-15-3352.jpg.asset.json";
 import nsT6max2 from "@/assets/products/nustep/ns-t6max-2.png.asset.json";
 import nsT6max3 from "@/assets/products/nustep/ns-t6max-3.png.asset.json";
 import nsT6max4 from "@/assets/products/nustep/ns-t6max-4.png.asset.json";
@@ -176,6 +177,16 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1011": {
+    productId: "1011", slug: "therawrap-adjustable-work-table-72x48",
+    tagline: "Height-adjustable wraparound therapy work table with space for three to four patients.",
+    overview: ["The Therawrap Table wraps around the therapist, providing a shared work surface for three to four patients. Its four-legged design provides clearance for wheelchair users and supports a variety of physical and occupational therapy activities.", "Oversized knobs adjust the table height from 23 to 33 inches in 1-inch increments. The powder-coated steel base supports a 72-inch-wide by 48-inch-deep work surface with an 18-inch tabletop depth and a 36-inch-wide by 36-inch-deep therapist area."],
+    highlights: ["Wraparound work table accommodates three to four patients", "72\" wide x 48\" deep; 18\" tabletop depth", "Height adjusts from 23\" to 33\" in 1\" increments", "Oversized height-adjustment knobs", "Four-legged design with wheelchair clearance", "Durable powder-coated steel base", "Available in six laminate finishes"],
+    gallery: [{ src: therawrap153352.url, alt: "Therawrap adjustable wraparound table with laminate top and steel legs" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "FAB 15-3352" }, { label: "Overall size", value: '72" W x 48" D' }, { label: "Adjustable height", value: '23"–33" in 1" increments' }, { label: "Tabletop depth", value: '18"' }, { label: "Therapist area", value: '36" W x 36" D' }, { label: "Base", value: "Four-legged powder-coated steel" }, { label: "Laminate finishes", value: "American Maple, Digital Storm, Dove Grey, Fresh Canvas, Living Teak or Urban Walnut" }] }],
+    sourceUrl: "https://www.fab-ent.com/treatment-furniture/work-tables/hi-low-work-tables/",
+    seo: { title: "Therawrap Adjustable Table — FAB 15-3352 | GM Therapy", description: "72 x 48 inch Therawrap therapy work table with 23–33 inch height adjustment and wheelchair clearance. Call or add to quote request for pricing." },
+  },
   "1010": {
     productId: "1010", slug: "nustep-t6max",
     tagline: "Extra-wide recumbent cross trainer with a 22\" seat and 600 lb capacity.",
