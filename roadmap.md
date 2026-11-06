@@ -1,5 +1,9 @@
 # Add five Ader all-black bumper plates
 
+## FAB Therawrap Table
+- [x] Add FAB 15-3352 adjustable 72" x 48" Therawrap table as item 1011 with matching dealer product photo, supplied specifications, bullet points and details.
+- [x] Mirror photo, refresh quote catalog and sitemap, and verify search and quote-request flow on desktop/mobile; 7 tests pass and build OK. Photo checked using identical repository mirror because localhost does not serve the asset proxy.
+
 ## Richmar TheraTouch UX2
 - [x] Add RICH DQ2000 with official photo, bullet points, details and sell sheet.
 - [x] Mirror assets, refresh quote catalog and sitemap, and verify quote-request flow; SKU test passes and build OK. Photo inspected using the repository mirror because localhost does not serve the asset proxy.

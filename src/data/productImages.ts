@@ -1,4 +1,5 @@
 import nsT6max1 from "@/assets/products/nustep/ns-t6max-1.png.asset.json";
+import therawrap153352 from "@/assets/products/fab/therawrap-15-3352.jpg.asset.json";
 import fab103199 from "@/assets/products/fab/fab-10-3199.png.asset.json";
 import tms730011 from "@/assets/products/tms/tms-730011-lift-back.png.asset.json";
 import tms730002 from "@/assets/products/tms/tms-730002.png.asset.json";
@@ -130,6 +131,7 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "1011": therawrap153352.url,
   "1010": nsT6max1.url,
   "1009": fab103199.url,
   "1008": tms730011.url,
