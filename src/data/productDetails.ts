@@ -1,3 +1,9 @@
+import nsT6max1 from "@/assets/products/nustep/ns-t6max-1.png.asset.json";
+import nsT6max2 from "@/assets/products/nustep/ns-t6max-2.png.asset.json";
+import nsT6max3 from "@/assets/products/nustep/ns-t6max-3.png.asset.json";
+import nsT6max4 from "@/assets/products/nustep/ns-t6max-4.png.asset.json";
+import nsT6max5 from "@/assets/products/nustep/ns-t6max-5.png.asset.json";
+import nsT6max6 from "@/assets/products/nustep/ns-t6max-6.jpg.asset.json";
 import fab103199 from "@/assets/products/fab/fab-10-3199.png.asset.json";
 import tms730011 from "@/assets/products/tms/tms-730011-lift-back.png.asset.json";
 import tms730002 from "@/assets/products/tms/tms-730002.png.asset.json";
@@ -170,6 +176,27 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1010": {
+    productId: "1010", slug: "nustep-t6max",
+    tagline: "Extra-wide recumbent cross trainer with a 22\" seat and 600 lb capacity.",
+    overview: ["A cross trainer beyond expectation, the NuStep T6MAX features a modern design, dual-touchscreen console and a 22-inch-wide seat, accommodating users up to 600 lbs.", "The ergonomically designed padded seat with a contoured back provides a stable, supportive position, and the StrideLock feature locks the handles and pedals in place for added stability when users get on and off the machine."],
+    highlights: ["600 lb user weight capacity", "Extra-wide 22\" seat", "360° swivel seat (locks every 45°) that reclines an additional 12°", "StrideLock locks handles and pedals for safe transfers", "Easy-to-adjust arm and seat positions", "Dual-touchscreen console", "10-year frame, 3-year parts, 1-year labor warranty"],
+    gallery: [
+      { src: nsT6max1.url, alt: "NuStep T6MAX recumbent cross trainer" },
+      { src: nsT6max2.url, alt: "User exercising on the NuStep T6MAX" },
+      { src: nsT6max3.url, alt: "NuStep T6 dual-screen console and arms" },
+      { src: nsT6max4.url, alt: "NuStep T6MAX reclining swivel seat" },
+      { src: nsT6max5.url, alt: "NuStep T6MAX StrideLock feature" },
+      { src: nsT6max6.url, alt: "NuStep T6MAX space requirements" },
+    ],
+    specGroups: [
+      { title: "Machine", rows: [{ label: "SKU", value: "NS T6MAX" }, { label: "Footprint", value: '73"L x 30"W x 52"H (185 x 76 x 117 cm)' }, { label: "Unit weight", value: "298 lbs (135 kg)" }, { label: "Seat width", value: '22" (56 cm)' }, { label: "Warranty", value: "10-year frame · 3-year parts · 1-year labor" }] },
+      { title: "User Requirements", rows: [{ label: "Height", value: "4'6\" – 6'7\" (137–200 cm)" }, { label: "Weight", value: "75 – 600 lbs (34–272 kg)" }] },
+    ],
+    specSheetUrl: "https://www.nustep.com/wp-content/uploads/2025/03/T6_ALL_Sell_Sheet_FNL_022025.pdf",
+    sourceUrl: "https://www.nustep.com/product/t6max/",
+    seo: { title: "NuStep T6MAX Recumbent Cross Trainer | GM Therapy", description: "NuStep T6MAX recumbent cross trainer: 600 lb capacity, 22\" wide swivel seat, StrideLock and dual-touchscreen console. Call or add to quote request for pricing." },
+  },
   "1009": {
     productId: "1009", slug: "cando-vinyl-coated-kettlebell-5-piece-set",
     tagline: "Five vinyl-coated, color-coded cast iron kettlebells — 5 to 20 lb in one set.",

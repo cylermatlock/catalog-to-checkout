@@ -15,3 +15,15 @@ describe("NuStep T6PRO alias", () => {
     expect(products.filter((x) => x.sku === "FAB 10-5980")).toHaveLength(0);
   });
 });
+
+describe("NuStep T6MAX alias", () => {
+  const p = products.find((x) => x.sku === "NS T6MAX");
+  it("stores FAB 10-8981 as a hidden alias", () => {
+    expect(p?.id).toBe("1010");
+    expect(p?.aliasSkus).toEqual(["FAB 10-8981"]);
+    expect(p?.name + p?.description.join(" ")).not.toContain("10-8981");
+  });
+  it("does not use the alias as any product's main SKU", () => {
+    expect(products.filter((x) => x.sku === "FAB 10-8981")).toHaveLength(0);
+  });
+});

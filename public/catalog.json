@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T19:49:13.061Z",
+  "generatedAt": "2026-11-06T19:54:18.627Z",
   "products": [
     {
       "id": "1009",
@@ -2692,6 +2692,29 @@
         "Reclining 360° swivel chair",
         "Locking handles & pedals",
         "T6 Max offers a wider seat"
+      ]
+    },
+    {
+      "id": "1010",
+      "sku": "NS T6MAX",
+      "aliasSkus": [
+        "FAB 10-8981"
+      ],
+      "name": "NuStep T6MAX Cross Trainer",
+      "brand": "NuStep",
+      "category": "Cardio",
+      "subcategory": "NuStep",
+      "condition": "new",
+      "image": "/catalog-assets/2072dc20-8919-4eb0-b9d5-f3248537efd7/ns-t6max-1.png",
+      "images": [
+        "/catalog-assets/2072dc20-8919-4eb0-b9d5-f3248537efd7/ns-t6max-1.png"
+      ],
+      "description": [
+        "Extra-wide 22\" seat",
+        "600 lb user weight capacity",
+        "Dual-touchscreen console",
+        "Reclining 360° swivel seat",
+        "StrideLock locking handles & pedals"
       ]
     },
     {
