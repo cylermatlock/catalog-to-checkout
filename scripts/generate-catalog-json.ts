@@ -169,6 +169,10 @@ export function catalogJsonPlugin(): Plugin {
               )
             : [];
 
+          const aliasMatch = objStr.match(/aliasSkus:\s*\[([\s\S]*?)\]/);
+          const aliasSkus = aliasMatch
+            ? Array.from(aliasMatch[1].matchAll(/"([^"]+)"/g)).map((a) => a[1])
+            : [];
           const image = imageById[id] ?? null;
           const gallery = galleryById[id] ?? [];
           const images = Array.from(new Set([...(image ? [image] : []), ...gallery]));
@@ -176,6 +180,7 @@ export function catalogJsonPlugin(): Plugin {
           return {
             id,
             sku,
+            aliasSkus,
             name,
             brand: resolveBrand(bm, sku, name, category),
             category,
