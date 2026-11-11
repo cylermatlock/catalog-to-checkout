@@ -1,3 +1,21 @@
+import thermx_garment_inner_face from "@/assets/products/thermx/therm-x-garment-inner-face.jpg.asset.json";
+import thermx_tx0101_shoulder from "@/assets/products/thermx/therm-x-tx0101-shoulder.jpg.asset.json";
+import thermx_tx0101_shoulder_back from "@/assets/products/thermx/therm-x-tx0101-shoulder-back.jpg.asset.json";
+import thermx_tx0101_shoulder_side from "@/assets/products/thermx/therm-x-tx0101-shoulder-side.jpg.asset.json";
+import thermx_tx0102_knee from "@/assets/products/thermx/therm-x-tx0102-knee.jpg.asset.json";
+import thermx_tx0102_knee_in_use from "@/assets/products/thermx/therm-x-tx0102-knee-in-use.jpg.asset.json";
+import thermx_tx0102_knee_seated from "@/assets/products/thermx/therm-x-tx0102-knee-seated.jpg.asset.json";
+import thermx_tx0105_back from "@/assets/products/thermx/therm-x-tx0105-back.jpg.asset.json";
+import thermx_tx0105_back_front from "@/assets/products/thermx/therm-x-tx0105-back-front.jpg.asset.json";
+import thermx_tx0105_back_side from "@/assets/products/thermx/therm-x-tx0105-back-side.jpg.asset.json";
+import thermx_tx0108_hip from "@/assets/products/thermx/therm-x-tx0108-hip.jpg.asset.json";
+import thermx_tx0108_hip_angle from "@/assets/products/thermx/therm-x-tx0108-hip-angle.jpg.asset.json";
+import thermx_tx0111_half_leg_boot from "@/assets/products/thermx/therm-x-tx0111-half-leg-boot.jpg.asset.json";
+import thermx_tx0111_half_leg_boot_front from "@/assets/products/thermx/therm-x-tx0111-half-leg-boot-front.jpg.asset.json";
+import thermx_tx0111_half_leg_boot_seated from "@/assets/products/thermx/therm-x-tx0111-half-leg-boot-seated.jpg.asset.json";
+import thermx_tx0112_hand_wrist from "@/assets/products/thermx/therm-x-tx0112-hand-wrist.jpg.asset.json";
+import thermx_tx0112_hand_wrist_applying from "@/assets/products/thermx/therm-x-tx0112-hand-wrist-applying.jpg.asset.json";
+import thermx_tx0112_hand_wrist_worn from "@/assets/products/thermx/therm-x-tx0112-hand-wrist-worn.jpg.asset.json";
 import driveWkaaw2b from "@/assets/products/drive/drive-wkaaw2b-walker.jpg.asset.json";
 import tms730149 from "@/assets/products/tms/tms-730149-flat-top-wedge.jpg.asset.json";
 import tmsWedges from "@/assets/products/tms/tms-naugahyde-wedges.jpg.asset.json";
@@ -205,6 +223,12 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "1065": thermx_tx0101_shoulder.url,
+  "1066": thermx_tx0102_knee.url,
+  "1067": thermx_tx0105_back.url,
+  "1068": thermx_tx0108_hip.url,
+  "1069": thermx_tx0111_half_leg_boot.url,
+  "1070": thermx_tx0112_hand_wrist.url,
   "1064": driveWkaaw2b.url,
   "1056": tms730149.url,
   "1057": tmsWedges.url,
