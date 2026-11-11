@@ -55,3 +55,7 @@
 - [x] Add TMS 710280-003, 720050-002, 720169-001, 720806-001, 730003-(xxx) as items 1045–1049 with Tru-Medical photos, bullet points and details pages.
 - [x] Refresh existing item 859 (TMS 720105-001) with official bullets, sizes and photo instead of duplicating it.
 - [x] Mirror photos, refresh quote catalog (722 products) and sitemap; 250 tests pass; pages, search and quote button verified.
+
+## Tru-Medical 30x78 royal blue table, shelf, nose hole, bolsters, knee crescent
+- [x] Add TMS 730004-099, 730008-001, 730010-001, 730143-(xxx), 730145-(xxx), 730147-(xxx) as items 1050–1055 with Tru-Medical photos, bullet points and details pages.
+- [x] Mirror photos, refresh quote catalog (728 products) and sitemap; 262 tests pass; pages, search and quote button verified.
