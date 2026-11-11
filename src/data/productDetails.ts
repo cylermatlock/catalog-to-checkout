@@ -1,4 +1,5 @@
 import nsT6max1 from "@/assets/products/nustep/ns-t6max-1.png.asset.json";
+import rppM50dw from "@/assets/products/rpp/rpp-m50-dw.jpg.asset.json";
 import therawrap153352 from "@/assets/products/fab/therawrap-15-3352.jpg.asset.json";
 import nsT6max2 from "@/assets/products/nustep/ns-t6max-2.png.asset.json";
 import nsT6max3 from "@/assets/products/nustep/ns-t6max-3.png.asset.json";
@@ -177,6 +178,16 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1012": {
+    productId: "1012", slug: "rehab-pro-50lb-standard-pulley-double-wall-mount",
+    tagline: "Two side-by-side 50 lb wall-mounted rehab pulleys with starting resistance as low as 1.25 lbs.",
+    overview: ["RehabPro Standard Pulleys (A-Series), with their accessories, are among the most versatile pieces of rehab equipment for improving tissue tolerance to physical load. Rope adjustability, low starting resistance and flexible mounting offer the greatest number of exercises in the least amount of space.", "The double wall mount places two independent 50 lb pulleys side by side, each with a 1:1 weight-to-resistance ratio and rope adjustment in 2-inch intervals, so two patients can train at once or one patient can work bilaterally. No assembly is required."],
+    highlights: ["Two side-by-side wall-mounted cable pulleys", "Two 50 lb weight stacks with 1:1 weight-to-resistance ratio", "Starting resistance as low as 1.25 lbs", "Rope adjusts in 2\" intervals", "Powder-coated weight stacks with magnetic selector pins", "Includes standard pulley handles", "Designed by physical therapists; made in the USA"],
+    gallery: [{ src: rppM50dw.url, alt: "Rehab Pro double wall-mount standard pulley with two weight stacks and handles" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "RPP M50-DW" }, { label: "Weight stacks", value: "2 x 50 lb" }, { label: "Weight-to-resistance ratio", value: "1:1" }, { label: "Minimum resistance", value: "1.25 lbs" }, { label: "Rope adjustment interval", value: '2"' }, { label: "Dimensions", value: '85" H x 24" W x 10" D' }, { label: "Mounting", value: "Wall or module (MMS1 / MMD2)" }, { label: "Standard accessory", value: "Standard pulley handle" }, { label: "Assembly", value: "None required" }, { label: "Shipping", value: '89" x 29" x 20", 250–300 lbs' }] }],
+    sourceUrl: "https://www.rehabpropulleys.com/standard-pulleys.html",
+    seo: { title: "Rehab Pro 50 lb Double Wall Mount Pulley — RPP M50-DW | GM Therapy", description: "Rehab Pro A-Series double wall-mount pulley with two 50 lb stacks and 1.25 lb starting resistance. Call or add to quote request for pricing." },
+  },
   "1011": {
     productId: "1011", slug: "therawrap-adjustable-work-table-72x48",
     tagline: "Height-adjustable wraparound therapy work table with space for three to four patients.",

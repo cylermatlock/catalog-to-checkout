@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-11-06T22:00:00.739Z",
+  "generatedAt": "2026-11-11T17:53:57.727Z",
   "products": [
+    {
+      "id": "1012",
+      "sku": "RPP M50-DW",
+      "aliasSkus": [],
+      "name": "Rehab Pro 50 lb Standard Pulley — Double Wall Mount",
+      "brand": "Rehab Pro",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/9e121172-04f5-4306-bcb1-4fc77e0beb65/rpp-m50-dw.jpg",
+      "images": [
+        "/catalog-assets/9e121172-04f5-4306-bcb1-4fc77e0beb65/rpp-m50-dw.jpg"
+      ],
+      "description": [
+        "Two side-by-side wall-mounted cable pulleys",
+        "Two 50 lb weight stacks with 1:1 weight-to-resistance ratio",
+        "Starting resistance as low as 1.25 lbs",
+        "Rope adjusts in 2\" intervals along a tall adjustment bar",
+        "Powder-coated steel frame; magnetic weight selector pins",
+        "Includes standard pulley handles",
+        "85\" H x 24\" W x 10\" D",
+        "Designed by physical therapists; made in the USA"
+      ]
+    },
     {
       "id": "1011",
       "sku": "FAB 15-3352",

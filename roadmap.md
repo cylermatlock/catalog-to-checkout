@@ -20,3 +20,7 @@
 ## TMS 730606 Mat Table
 - [x] Add TMS 730606-(xxx) fixed-height oak mat table with supplied photo, bullet points, details page and quote-request option.
 - [x] Refresh quote catalog and sitemap (679 products); 153 tests pass. Photo verified from the repository mirror.
+
+## Rehab Pro RPP M50-DW
+- [x] Add RPP M50-DW 50 lb double wall-mount pulley with official Rehab Pro photo, bullet points and details page.
+- [x] Mirror photo, refresh quote catalog (685 products) and sitemap, run tests and verify quote-request flow.
