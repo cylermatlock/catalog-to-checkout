@@ -18,6 +18,12 @@ import wb4 from "@/assets/products/tko/tko-509wb-4.jpg.asset.json";
 import hyper from "@/assets/products/tko/tko-6130-b-1.jpg.asset.json";
 import legExt from "@/assets/products/tko/tko-7062-g2.jpg.asset.json";
 import db12 from "@/assets/products/tko/tko-804rx-12.jpg.asset.json";
+import dbSet from "@/assets/products/tko/tko-804rx-a10-1.jpg.asset.json";
+import ft from "@/assets/products/tko/tko-8060ft-bk-1.jpg.asset.json";
+import hexBar from "@/assets/products/tko/tko-812hb-56-1.jpg.asset.json";
+import powerBar from "@/assets/products/tko/tko-812ob-86.jpg.asset.json";
+import barHolder from "@/assets/products/tko/tko-813bh2-1.jpg.asset.json";
+import latBar from "@/assets/products/tko/tko-820tal-30.jpg.asset.json";
 
 const cases = [
   { sku: "TKO 143SCO-CM", id: "1017", must: "sold as a pair", photo: collar },
@@ -37,6 +43,12 @@ const cases = [
   { sku: "TKO 6130-B", id: "1031", must: "Adjusts to 12 different positions", photo: hyper },
   { sku: "TKO 7062-G2", id: "1032", must: "200 lb weight stack", photo: legExt },
   { sku: "TKO 804RX-12", id: "1033", must: "12 lb rubber hex dumbbell", photo: db12 },
+  { sku: "TKO 804RX-A10", id: "1034", must: "10 pairs, 5-50 lb", photo: dbSet },
+  { sku: "TKO 8060FT-BK", id: "1035", must: "Dual 160 lb independent weight stacks", photo: ft },
+  { sku: "TKO 812HB-56", id: "1036", must: "56\" combo deadlift", photo: hexBar },
+  { sku: "TKO 812OB-86", id: "1037", must: "1,000 lb capacity", photo: powerBar },
+  { sku: "TKO 813BH2", id: "1038", must: "Holds 9 Olympic bars", photo: barHolder },
+  { sku: "TKO 820TAL-30", id: "1039", must: "30\" pro style lat bar", photo: latBar },
 ];
 
 describe("TKO products requested Nov 11", () => {

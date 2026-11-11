@@ -1,3 +1,21 @@
+import tko804rxA10_1 from "@/assets/products/tko/tko-804rx-a10-1.jpg.asset.json";
+import tko804rxA10_2 from "@/assets/products/tko/tko-804rx-a10-2.jpg.asset.json";
+import tko8060ft_1 from "@/assets/products/tko/tko-8060ft-bk-1.jpg.asset.json";
+import tko8060ft_2 from "@/assets/products/tko/tko-8060ft-bk-2.jpg.asset.json";
+import tko8060ft_3 from "@/assets/products/tko/tko-8060ft-bk-3.jpg.asset.json";
+import tko8060ft_4 from "@/assets/products/tko/tko-8060ft-bk-4.jpg.asset.json";
+import tko8060ft_5 from "@/assets/products/tko/tko-8060ft-bk-5.jpg.asset.json";
+import tko8060ft_6 from "@/assets/products/tko/tko-8060ft-bk-6.jpg.asset.json";
+import tko8060ft_7 from "@/assets/products/tko/tko-8060ft-bk-7.jpg.asset.json";
+import tko812hb56_1 from "@/assets/products/tko/tko-812hb-56-1.jpg.asset.json";
+import tko812hb56_2 from "@/assets/products/tko/tko-812hb-56-2.jpg.asset.json";
+import tko812hb56_3 from "@/assets/products/tko/tko-812hb-56-3.jpg.asset.json";
+import tko812ob86 from "@/assets/products/tko/tko-812ob-86.jpg.asset.json";
+import tko813bh2_1 from "@/assets/products/tko/tko-813bh2-1.jpg.asset.json";
+import tko813bh2_2 from "@/assets/products/tko/tko-813bh2-2.jpg.asset.json";
+import tko813bh2_3 from "@/assets/products/tko/tko-813bh2-3.jpg.asset.json";
+import tko813bh2_4 from "@/assets/products/tko/tko-813bh2-4.jpg.asset.json";
+import tko820tal30 from "@/assets/products/tko/tko-820tal-30.jpg.asset.json";
 import tko6130b_1 from "@/assets/products/tko/tko-6130-b-1.jpg.asset.json";
 import tko6130b_2 from "@/assets/products/tko/tko-6130-b-2.jpg.asset.json";
 import tko6130b_3 from "@/assets/products/tko/tko-6130-b-3.jpg.asset.json";
@@ -218,6 +236,12 @@ export const productImages: Record<string, string> = {
   "1031": tko6130b_1.url,
   "1032": tko7062g2.url,
   "1033": tko804rx12.url,
+  "1034": tko804rxA10_1.url,
+  "1035": tko8060ft_1.url,
+  "1036": tko812hb56_1.url,
+  "1037": tko812ob86.url,
+  "1038": tko813bh2_1.url,
+  "1039": tko820tal30.url,
   "987": ader987_1.url,
   "969": matrixBooster969.url,
   "964": clinicalMatrix964.url,

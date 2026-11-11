@@ -1,3 +1,21 @@
+import tko804rxA10_1 from "@/assets/products/tko/tko-804rx-a10-1.jpg.asset.json";
+import tko804rxA10_2 from "@/assets/products/tko/tko-804rx-a10-2.jpg.asset.json";
+import tko8060ft_1 from "@/assets/products/tko/tko-8060ft-bk-1.jpg.asset.json";
+import tko8060ft_2 from "@/assets/products/tko/tko-8060ft-bk-2.jpg.asset.json";
+import tko8060ft_3 from "@/assets/products/tko/tko-8060ft-bk-3.jpg.asset.json";
+import tko8060ft_4 from "@/assets/products/tko/tko-8060ft-bk-4.jpg.asset.json";
+import tko8060ft_5 from "@/assets/products/tko/tko-8060ft-bk-5.jpg.asset.json";
+import tko8060ft_6 from "@/assets/products/tko/tko-8060ft-bk-6.jpg.asset.json";
+import tko8060ft_7 from "@/assets/products/tko/tko-8060ft-bk-7.jpg.asset.json";
+import tko812hb56_1 from "@/assets/products/tko/tko-812hb-56-1.jpg.asset.json";
+import tko812hb56_2 from "@/assets/products/tko/tko-812hb-56-2.jpg.asset.json";
+import tko812hb56_3 from "@/assets/products/tko/tko-812hb-56-3.jpg.asset.json";
+import tko812ob86 from "@/assets/products/tko/tko-812ob-86.jpg.asset.json";
+import tko813bh2_1 from "@/assets/products/tko/tko-813bh2-1.jpg.asset.json";
+import tko813bh2_2 from "@/assets/products/tko/tko-813bh2-2.jpg.asset.json";
+import tko813bh2_3 from "@/assets/products/tko/tko-813bh2-3.jpg.asset.json";
+import tko813bh2_4 from "@/assets/products/tko/tko-813bh2-4.jpg.asset.json";
+import tko820tal30 from "@/assets/products/tko/tko-820tal-30.jpg.asset.json";
 import tko6130b_1 from "@/assets/products/tko/tko-6130-b-1.jpg.asset.json";
 import tko6130b_2 from "@/assets/products/tko/tko-6130-b-2.jpg.asset.json";
 import tko6130b_3 from "@/assets/products/tko/tko-6130-b-3.jpg.asset.json";
@@ -312,6 +330,78 @@ export const productDetails: Record<string, ProductDetail> = {
     specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 804RX-12" }, { label: "Weight", value: "12 lb" }, { label: "Head", value: "Steel, friction-welded, rubber-encased hex" }, { label: "Handle", value: "Chrome-plated, ergonomically contoured" }, { label: "Sold", value: "Individually" }] }],
     sourceUrl: "https://www.tkostrength.com/products/copy-of-tri-grip-hex-dumbbell-1",
     seo: { title: "TKO 804RX-12 12 lb Rubber Hex Dumbbell | GM Therapy", description: "TKO 12 lb rubber hex dumbbell with chrome contoured handle, sold individually. Call or add to quote request for pricing." },
+  },
+  "1034": {
+    productId: "1034", slug: "tko-rubber-hex-dumbbell-set-5-50lb",
+    tagline: "Ten pairs of rubber hex dumbbells, 5-50 lb, with chrome contoured grips.",
+    overview: ["This standard rubber hex design is a great, budget-priced option that delivers on quality, performance, and longevity. The heavy-duty, rubber-encased heads minimize noise and limit wear and tear on both the dumbbells and your flooring, while the chrome-plated handle is ergonomically designed for a firm but comfortable feel in any grip style.", "The 804RX-A10 set includes one pair of each weight from 5 to 50 lb in 5 lb increments, and is priced as pairs."],
+    highlights: ["Complete set: 10 pairs, 5-50 lb in 5 lb increments", "Priced and sold as a set of pairs", "Chrome-plated, contoured handle (28-33 mm diameter)", "Durable, odorless virgin rubber will not crack or fade", "Rubber heads prevent damage to floors and equipment", "Steel insert press-fit and welded to handle", "Ideal for home, vertical and commercial markets"],
+    gallery: [{ src: tko804rxA10_1.url, alt: "TKO rubber hex dumbbells with contour grip, multiple sizes" }, { src: tko804rxA10_2.url, alt: "TKO rubber hex dumbbell pair with chrome contour grip" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 804RX-A10" }, { label: "Weights included", value: "5, 10, 15, 20, 25, 30, 35, 40, 45 and 50 lb (one pair each)" }, { label: "Handle", value: "Hard chrome plated, contoured, 28-33 mm" }, { label: "Head", value: "Virgin rubber-encased hex, steel insert" }] }, { title: "Warranty", rows: [{ label: "Warranty", value: "90 days" }] }],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/804RX_Sell_Sheet.pdf",
+    specSheetTitle: "TKO 804RX Sell Sheet",
+    sourceUrl: "https://www.tkostrength.com/products/copy-of-tri-grip-hex-dumbbell-1",
+    seo: { title: "TKO 804RX-A10 5-50 lb Rubber Hex Dumbbell Set | GM Therapy", description: "TKO 5-50 lb rubber hex dumbbell set, 10 pairs with chrome contour grips. Call or add to quote request for pricing." },
+  },
+  "1035": {
+    productId: "1035", slug: "tko-light-commercial-functional-trainer-black",
+    tagline: "Compact dual-stack functional trainer with two 160 lb shrouded stacks.",
+    overview: ["The perfect solution for any light commercial or home use functional trainer. Features 2 shrouded stacks of 160 lbs each with a resistance level of 2:1, giving users the ability to achieve a great workout in a compact area.", "Add the optional attachment package and 50 lb of extra weight to each stack to get the most out of your routines and add variety."],
+    highlights: ["Dual 160 lb independent weight stacks", "2:1 resistance level on weight stacks", "Full metal shroud", "2 molded multi-length nylon handles included", "Multi-grip pull-up bar", "20 pulley height positions for a variety of users and exercises", "3-hook cross bar to store accessories", "2 side-mount hooks for long bar and E-Z curl bar"],
+    gallery: [{ src: tko8060ft_1.url, alt: "TKO Light Commercial Functional Trainer — front view" }, { src: tko8060ft_2.url, alt: "TKO Light Commercial Functional Trainer without attachments" }, { src: tko8060ft_3.url, alt: "TKO functional trainer multi-grip pull-up bar" }, { src: tko8060ft_4.url, alt: "TKO functional trainer accessory hooks and side-mount bar hooks" }, { src: tko8060ft_5.url, alt: "TKO functional trainer 160 lb shrouded weight stack" }, { src: tko8060ft_6.url, alt: "TKO functional trainer molded nylon handles (included)" }, { src: tko8060ft_7.url, alt: "TKO functional trainer in use" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 8060FT-BK" }, { label: "Dimensions", value: "59\" W x 50\" D x 88\" H" }, { label: "Product weight", value: "825 lb" }, { label: "Weight stacks", value: "Dual 160 lb, 2:1 resistance" }, { label: "Pulley positions", value: "20" }, { label: "Color", value: "Black" }] }, { title: "Optional equipment", rows: [{ label: "Attachment package", value: "8060FT-PAC: aluminum long bar, short bar, aluminum E-Z bar, tricep rope and ankle strap" }, { label: "Add-on weight", value: "8060FT-WS: 2 x 50 lb (50 lb per stack)" }] }, { title: "Warranty", rows: [{ label: "Frame", value: "5 years" }, { label: "Parts", value: "1 year" }, { label: "Cables", value: "1 year" }, { label: "Grips", value: "6 months" }] }],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/8060FT2-BK_Light_Commercial_Functional_Trainer_2026_Sell_Sheet.pdf",
+    specSheetTitle: "TKO Light Commercial Functional Trainer Sell Sheet",
+    sourceUrl: "https://www.tkostrength.com/products/light-commercial-functional-trainer",
+    seo: { title: "TKO 8060FT-BK Light Commercial Functional Trainer | GM Therapy", description: "TKO light commercial functional trainer in black with dual 160 lb weight stacks and 20 pulley positions. Call or add to quote request for pricing." },
+  },
+  "1036": {
+    productId: "1036", slug: "tko-56-inch-combo-hex-bar",
+    tagline: "56\" combo deadlift/shrug hex bar with hi/lo handles and 750 lb capacity.",
+    overview: ["TKO's 56\" Hex Bar offers high and low handle options for different height and flexibility levels — perfect to teach anyone how to protect the back when lifting and lowering weight."],
+    highlights: ["Combo deadlift / shrug hex bar", "Hi/lo handle option for varied lifts", "750 lb weight capacity", "10\" sleeve length", "Fully welded for one-piece construction", "Hard chrome finish", "Diamond-shaped knurling"],
+    gallery: [{ src: tko812hb56_1.url, alt: "TKO 56\" Combo Hex Bar" }, { src: tko812hb56_2.url, alt: "TKO 56\" Hex Bar deadlift" }, { src: tko812hb56_3.url, alt: "TKO 56\" Hex Bar in use" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 812HB-56" }, { label: "Dimensions", value: "56\" L x 24\" W x 6\" H" }, { label: "Shaft diameter", value: "30 mm" }, { label: "Product weight", value: "47 lb" }, { label: "Capacity", value: "750 lb" }, { label: "Sleeve length", value: "10\"" }] }, { title: "Warranty", rows: [{ label: "Warranty", value: "5 year limited" }] }],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/812HB-56_Hex_Bar.pdf",
+    specSheetTitle: "TKO 812HB-56 Sell Sheet",
+    sourceUrl: "https://www.tkostrength.com/products/combo-hex-bar",
+    seo: { title: "TKO 812HB-56 56\" Combo Hex Bar | GM Therapy", description: "TKO 56\" combo hex bar with hi/lo handles, 10\" sleeves and 750 lb capacity. Call or add to quote request for pricing." },
+  },
+  "1037": {
+    productId: "1037", slug: "tko-812ob-86-olympic-power-bar",
+    tagline: "7 ft Olympic power bar with hard chrome finish, brass bushings and 1,000 lb capacity.",
+    overview: ["The TKO Free Weight line provides high quality with a stylish design to enhance the look of any facility. Built from the highest-end material and guaranteed to last in the highest-use facilities like health clubs, college rec and high schools."],
+    highlights: ["7 ft (86\") Olympic power bar, 44 lb", "1,000 lb capacity", "Every bar tested for strength and integrity and measured for straightness", "Hard chrome finish for corrosion resistance", "Oil-impregnated brass bushings", "Medium knurl pattern, no center knurling", "Double snap-ring construction", "Steel, logo'd and color-coded end caps"],
+    gallery: [{ src: tko812ob86.url, alt: "TKO 7' Olympic Power Bar" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 812OB-86" }, { label: "Length", value: "86\" (7 ft)" }, { label: "Weight", value: "44 lb" }, { label: "Shaft diameter", value: "30 mm" }, { label: "Capacity", value: "1,000 lb" }, { label: "Finish", value: "Hard chrome" }, { label: "Bushings", value: "Oil-impregnated brass" }] }, { title: "Warranty", rows: [{ label: "Warranty", value: "5 year limited" }] }],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/8120B-86_fa6023a9-c4b3-42cb-b7cd-20a21ad4cf71.pdf",
+    specSheetTitle: "TKO 812OB-86 Sell Sheet",
+    sourceUrl: "https://www.tkostrength.com/products/olympic-power-bar",
+    seo: { title: "TKO 812OB-86 7' Olympic Power Bar, 1,000 lb | GM Therapy", description: "TKO 7 ft Olympic power bar, 30 mm hard chrome shaft, brass bushings, 1,000 lb capacity. Call or add to quote request for pricing." },
+  },
+  "1038": {
+    productId: "1038", slug: "tko-olympic-bar-holder-9-bars",
+    tagline: "Compact boxed holder that stores 9 Olympic and specialty bars upright.",
+    overview: ["The TKO Storage Solution racks provide a variety of options to clean up your facility in a high-quality, simple design that offers easy on/off use for all. The Olympic Bar Holder stores nine bars upright in a compact footprint."],
+    highlights: ["Holds 9 Olympic bars", "Compact boxed design with a minimal footprint", "All-welded steel frame with laser-cut TKO logo", "Also holds safety squat bars, angled multi-grip barbells and hex trap bars", "Powder-coated finish protects against rust and corrosion"],
+    gallery: [{ src: tko813bh2_1.url, alt: "TKO Olympic Bar Holder — angle view" }, { src: tko813bh2_2.url, alt: "TKO Olympic Bar Holder — front view" }, { src: tko813bh2_3.url, alt: "TKO Olympic Bar Holder loaded with bars" }, { src: tko813bh2_4.url, alt: "TKO Olympic Bar Holder — close-up of bottom" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 813BH2" }, { label: "Dimensions", value: "21 1/2\" x 21 1/2\" x 10\"" }, { label: "Product weight", value: "45 lb" }, { label: "Capacity", value: "9 bars" }, { label: "Frame color", value: "Matte black" }] }, { title: "Warranty", rows: [{ label: "Frame", value: "10 years" }, { label: "Parts", value: "1 year" }] }],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/813BH2_Bar_Holder_67796684-8d30-4a8c-b0f7-30061bcf9b23.pdf",
+    specSheetTitle: "TKO 813BH2 Sell Sheet",
+    sourceUrl: "https://www.tkostrength.com/products/olympic-bar-holder",
+    seo: { title: "TKO 813BH2 Olympic Bar Holder | GM Therapy", description: "TKO Olympic bar holder stores 9 Olympic or specialty bars in a compact all-welded steel frame. Call or add to quote request for pricing." },
+  },
+  "1039": {
+    productId: "1039", slug: "tko-30-inch-chrome-pro-style-lat-bar",
+    tagline: "30\" chrome pro style lat bar with revolving center and polyurethane grips.",
+    overview: ["TKO's Chrome Pro Style Lat Bar has a revolving center and polyurethane round grips, and attaches quickly to any machine's cable system, such as TKO's Functional Trainer."],
+    highlights: ["30\" pro style lat bar", "Revolving center", "Inlaid polyurethane round grips", "Hard chrome finish", "Fits any machine's cable system, including functional trainers"],
+    gallery: [{ src: tko820tal30.url, alt: "TKO Chrome Pro Style Lat Bar with polyurethane grips" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 820TAL-30" }, { label: "Length", value: "30\"" }, { label: "Grips", value: "Inlaid polyurethane, round" }, { label: "Finish", value: "Hard chrome" }] }, { title: "Warranty", rows: [{ label: "Warranty", value: "1 year" }] }],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/820TAL_820TL.pdf",
+    specSheetTitle: "TKO Lat Bars Sell Sheet",
+    sourceUrl: "https://www.tkostrength.com/products/tko-chrome-pro-style-lat-bar",
+    seo: { title: "TKO 820TAL-30 30\" Chrome Pro Style Lat Bar | GM Therapy", description: "TKO 30\" chrome pro style lat bar with revolving center and polyurethane grips. Call or add to quote request for pricing." },
   },
   "1028": {
     productId: "1028", slug: "tko-wall-ball-4lb",

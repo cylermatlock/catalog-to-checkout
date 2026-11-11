@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T18:47:25.423Z",
+  "generatedAt": "2026-11-11T19:00:13.384Z",
   "products": [
     {
       "id": "1014",
@@ -7978,6 +7978,51 @@
       ]
     },
     {
+      "id": "1035",
+      "sku": "TKO 8060FT-BK",
+      "aliasSkus": [],
+      "name": "TKO Light Commercial Functional Trainer — Black, Dual 160 lb Stacks",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Trainer",
+      "condition": "new",
+      "image": "/catalog-assets/17e23b17-95dd-40f0-b27b-6c9a38314333/tko-8060ft-bk-1.jpg",
+      "images": [
+        "/catalog-assets/17e23b17-95dd-40f0-b27b-6c9a38314333/tko-8060ft-bk-1.jpg"
+      ],
+      "description": [
+        "Dual 160 lb independent weight stacks",
+        "2:1 resistance ratio",
+        "Full metal shroud",
+        "20 pulley height positions",
+        "Multi-grip pull-up bar",
+        "Includes 2 molded multi-length nylon handles",
+        "3-hook accessory cross bar and 2 side-mount bar hooks",
+        "59\" W x 50\" D x 88\" H"
+      ]
+    },
+    {
+      "id": "1039",
+      "sku": "TKO 820TAL-30",
+      "aliasSkus": [],
+      "name": "TKO 30\" Chrome Pro Style Lat Bar with Polyurethane Grips",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Trainer",
+      "condition": "new",
+      "image": "/catalog-assets/e3b0a0d5-f5f7-43da-900f-35cafd39c846/tko-820tal-30.jpg",
+      "images": [
+        "/catalog-assets/e3b0a0d5-f5f7-43da-900f-35cafd39c846/tko-820tal-30.jpg"
+      ],
+      "description": [
+        "30\" pro style lat bar",
+        "Revolving center",
+        "Inlaid polyurethane round grips",
+        "Hard chrome finish",
+        "Attaches quickly to any machine's cable system, such as a functional trainer"
+      ]
+    },
+    {
       "id": "272",
       "sku": "SFP CR900",
       "aliasSkus": [],
@@ -8952,6 +8997,28 @@
       ]
     },
     {
+      "id": "1034",
+      "sku": "TKO 804RX-A10",
+      "aliasSkus": [],
+      "name": "TKO 5-50 lb Rubber Hex Dumbbell Set — Contour Grip (10 Pairs)",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/catalog-assets/d5c536eb-9c66-4d59-8f88-a34507583912/tko-804rx-a10-1.jpg",
+      "images": [
+        "/catalog-assets/d5c536eb-9c66-4d59-8f88-a34507583912/tko-804rx-a10-1.jpg"
+      ],
+      "description": [
+        "Complete set of 10 pairs, 5-50 lb in 5 lb increments",
+        "Priced and sold as a set of pairs",
+        "Chrome-plated, contoured ergonomic handle",
+        "Hexagonal heads prevent rolling",
+        "Odorless virgin rubber protects floors and reduces noise",
+        "Steel insert press-fit and welded to handle"
+      ]
+    },
+    {
       "id": "306",
       "sku": "TKO 804RX-15",
       "aliasSkus": [],
@@ -9199,6 +9266,51 @@
       ]
     },
     {
+      "id": "1036",
+      "sku": "TKO 812HB-56",
+      "aliasSkus": [],
+      "name": "TKO 56\" Combo Hex Bar",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Olympic Bars",
+      "condition": "new",
+      "image": "/catalog-assets/a011ab03-4d3f-4c80-a97d-e0d59ec32ec3/tko-812hb-56-1.jpg",
+      "images": [
+        "/catalog-assets/a011ab03-4d3f-4c80-a97d-e0d59ec32ec3/tko-812hb-56-1.jpg"
+      ],
+      "description": [
+        "56\" combo deadlift / shrug hex bar",
+        "Hi/lo handle option for different heights and flexibility levels",
+        "750 lb weight capacity",
+        "10\" loadable sleeves",
+        "Fully welded one-piece construction, hard chrome finish",
+        "30 mm shaft with diamond knurling, 47 lb"
+      ]
+    },
+    {
+      "id": "1037",
+      "sku": "TKO 812OB-86",
+      "aliasSkus": [],
+      "name": "TKO 7' Olympic Power Bar — 1,000 lb Capacity",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Olympic Bars",
+      "condition": "new",
+      "image": "/catalog-assets/ab1c3e96-7973-45bc-9517-09798aea0d35/tko-812ob-86.jpg",
+      "images": [
+        "/catalog-assets/ab1c3e96-7973-45bc-9517-09798aea0d35/tko-812ob-86.jpg"
+      ],
+      "description": [
+        "7 ft (86\") Olympic power bar, 44 lb",
+        "1,000 lb capacity",
+        "30 mm shaft, hard chrome finish",
+        "Oil-impregnated brass bushings",
+        "Medium knurl, no center knurl",
+        "Double snap-ring construction",
+        "Every bar tested for strength and straightness"
+      ]
+    },
+    {
       "id": "317",
       "sku": "TKO 824FID-BK",
       "aliasSkus": [],
@@ -9249,6 +9361,27 @@
         "Steel frame, black finish",
         "Casters for easy repositioning",
         "Saves floor space in clinical and group exercise rooms"
+      ]
+    },
+    {
+      "id": "1038",
+      "sku": "TKO 813BH2",
+      "aliasSkus": [],
+      "name": "TKO Olympic Bar Holder — Holds 9 Bars",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Storage",
+      "condition": "new",
+      "image": "/catalog-assets/6ed1711f-8ee2-4580-a17c-679b180e9b90/tko-813bh2-1.jpg",
+      "images": [
+        "/catalog-assets/6ed1711f-8ee2-4580-a17c-679b180e9b90/tko-813bh2-1.jpg"
+      ],
+      "description": [
+        "Holds 9 Olympic bars",
+        "Also fits safety squat, multi-grip and hex trap bars",
+        "Compact boxed design, 21 1/2\" x 21 1/2\" x 10\"",
+        "All-welded steel frame with laser-cut TKO logo",
+        "Matte black powder coat resists rust and corrosion"
       ]
     },
     {

@@ -41,3 +41,7 @@
 - [x] Add TKO 509WB-6, 509WB-8, 6130-B, 7062-G2, 804RX-12 as items 1029–1033 with TKO photos, bullet points and details pages.
 - [x] Mirror photos, refresh quote catalog (706 products) and sitemap; 216 tests pass; pages, search and quote button verified.
 - [ ] TKO 6070 Hack Squat/Leg Press — blocked: not on TKO's site or any dealer listing; waiting on a photo/details from the user.
+
+## TKO dumbbell set, functional trainer, hex bar, power bar, bar holder, lat bar
+- [x] Add TKO 804RX-A10, 8060FT-BK, 812HB-56, 812OB-86, 813BH2, 820TAL-30 as items 1034–1039 with TKO photos, bullet points, sell sheets and details pages.
+- [x] Mirror photos, refresh quote catalog (712 products) and sitemap; run tests and verify pages and quote button.
