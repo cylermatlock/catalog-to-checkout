@@ -1,3 +1,9 @@
+import tms730004_099 from "@/assets/products/tms/tms-730004-099.jpg.asset.json";
+import tms730008_001 from "@/assets/products/tms/tms-730008-001.jpg.asset.json";
+import tms730010_001 from "@/assets/products/tms/tms-730010-001.jpg.asset.json";
+import tmsBolsters from "@/assets/products/tms/tms-naugahyde-bolsters.jpg.asset.json";
+import tmsKneeCrescent from "@/assets/products/tms/tms-730147-knee-crescent.jpg.asset.json";
+import tmsSpecialtyWedges from "@/assets/products/tms/tms-specialty-wedges.jpg.asset.json";
 import tms710280_003 from "@/assets/products/tms/tms-710280-003.jpg.asset.json";
 import tms720050_002 from "@/assets/products/tms/tms-720050-002.jpg.asset.json";
 import tms720169_001 from "@/assets/products/tms/tms-720169-001.jpg.asset.json";
@@ -192,6 +198,12 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "1050": tms730004_099.url,
+  "1051": tms730008_001.url,
+  "1052": tms730010_001.url,
+  "1053": tmsBolsters.url,
+  "1054": tmsBolsters.url,
+  "1055": tmsKneeCrescent.url,
   "1045": tms710280_003.url,
   "1046": tms720050_002.url,
   "1047": tms720169_001.url,

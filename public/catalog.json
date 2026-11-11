@@ -1,6 +1,135 @@
 {
-  "generatedAt": "2026-11-11T19:35:17.182Z",
+  "generatedAt": "2026-11-11T19:47:47.364Z",
   "products": [
+    {
+      "id": "1050",
+      "sku": "TMS 730004-099",
+      "aliasSkus": [],
+      "name": "GMTS 30\" X 78\" Standard Oak Treatment Table, Custom Color - ROYAL BLUE",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Wood Treatment Tables",
+      "condition": "new",
+      "image": "/catalog-assets/dba14437-a5d4-4893-bf5b-0b60bcf9ea7f/tms-730004-099.jpg",
+      "images": [
+        "/catalog-assets/dba14437-a5d4-4893-bf5b-0b60bcf9ea7f/tms-730004-099.jpg"
+      ],
+      "description": [
+        "Hand-crafted with high quality oak plywood and solid oak legs",
+        "All wood surfaces finished with durable clear polyurethane",
+        "1½\" medium-density foam top with durable Naugahyde® upholstery",
+        "Custom color: Royal Blue Naugahyde®",
+        "\"H\" brace standard for extra stability",
+        "30\" W x 78\" L surface, 30\" surface height",
+        "Weight capacity: 400 lbs",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1051",
+      "sku": "TMS 730008-001",
+      "aliasSkus": [],
+      "name": "GMTS Optional Oak Plywood Shelf",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Wood Treatment Tables",
+      "condition": "new",
+      "image": "/catalog-assets/c93a6f40-41c8-4ffb-8af6-436b210453c5/tms-730008-001.jpg",
+      "images": [
+        "/catalog-assets/c93a6f40-41c8-4ffb-8af6-436b210453c5/tms-730008-001.jpg"
+      ],
+      "description": [
+        "Optional shelf for oak treatment tables",
+        "Made from oak plywood to match the wood grain of your table",
+        "Adds open storage below the table top",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1052",
+      "sku": "TMS 730010-001",
+      "aliasSkus": [],
+      "name": "GMTS Optional 7.5\" Nose Hole",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Wood Treatment Tables",
+      "condition": "new",
+      "image": "/catalog-assets/ea5b7a42-35b9-41f9-89f1-8060e3649cab/tms-730010-001.jpg",
+      "images": [
+        "/catalog-assets/ea5b7a42-35b9-41f9-89f1-8060e3649cab/tms-730010-001.jpg"
+      ],
+      "description": [
+        "Optional 7.5\" nose hole for treatment tables",
+        "Adds comfort to patients during prone position therapies",
+        "Finished in the table's Naugahyde® upholstery",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1053",
+      "sku": "TMS 730143-(xxx)",
+      "aliasSkus": [],
+      "name": "GMTS Naugahyde Bolster 6\" x 24\"",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Bolsters & Wedges",
+      "condition": "new",
+      "image": "/catalog-assets/6bee0d68-bb07-432e-ba14-c89d8e31ac4a/tms-naugahyde-bolsters.jpg",
+      "images": [
+        "/catalog-assets/6bee0d68-bb07-432e-ba14-c89d8e31ac4a/tms-naugahyde-bolsters.jpg"
+      ],
+      "description": [
+        "6\" diameter x 24\" length",
+        "Versatile bolster for positioning patients",
+        "Improves weight-bearing, gross motor movement, coordination, righting reactions, balance, strength and muscle tone",
+        "High density urethane foam with durable Naugahyde® upholstery",
+        "Offered in 11 stocking Naugahyde® colors",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1054",
+      "sku": "TMS 730145-(xxx)",
+      "aliasSkus": [],
+      "name": "GMTS Naugahyde Bolster 8\" x 36\"",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Bolsters & Wedges",
+      "condition": "new",
+      "image": "/catalog-assets/6bee0d68-bb07-432e-ba14-c89d8e31ac4a/tms-naugahyde-bolsters.jpg",
+      "images": [
+        "/catalog-assets/6bee0d68-bb07-432e-ba14-c89d8e31ac4a/tms-naugahyde-bolsters.jpg"
+      ],
+      "description": [
+        "8\" diameter x 36\" length",
+        "Versatile bolster for positioning patients",
+        "Improves weight-bearing, gross motor movement, coordination, righting reactions, balance, strength and muscle tone",
+        "High density urethane foam with durable Naugahyde® upholstery",
+        "Offered in 11 stocking Naugahyde® colors",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1055",
+      "sku": "TMS 730147-(xxx)",
+      "aliasSkus": [],
+      "name": "GMTS Naugahyde Knee Crescent",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Bolsters & Wedges",
+      "condition": "new",
+      "image": "/catalog-assets/37cb4ea7-8d37-40d2-ada2-d6d6f829991e/tms-730147-knee-crescent.jpg",
+      "images": [
+        "/catalog-assets/37cb4ea7-8d37-40d2-ada2-d6d6f829991e/tms-730147-knee-crescent.jpg"
+      ],
+      "description": [
+        "Half-round knee crescent for patient positioning",
+        "Half-round top with a flat base",
+        "High density urethane foam with durable Naugahyde® upholstery",
+        "Offered in 11 stocking Naugahyde® colors",
+        "Made in the USA"
+      ]
+    },
     {
       "id": "1045",
       "sku": "TMS 710280-003",

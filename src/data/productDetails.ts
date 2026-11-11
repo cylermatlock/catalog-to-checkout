@@ -1,3 +1,9 @@
+import tms730004_099 from "@/assets/products/tms/tms-730004-099.jpg.asset.json";
+import tms730008_001 from "@/assets/products/tms/tms-730008-001.jpg.asset.json";
+import tms730010_001 from "@/assets/products/tms/tms-730010-001.jpg.asset.json";
+import tmsBolsters from "@/assets/products/tms/tms-naugahyde-bolsters.jpg.asset.json";
+import tmsKneeCrescent from "@/assets/products/tms/tms-730147-knee-crescent.jpg.asset.json";
+import tmsSpecialtyWedges from "@/assets/products/tms/tms-specialty-wedges.jpg.asset.json";
 import tms710280_003 from "@/assets/products/tms/tms-710280-003.jpg.asset.json";
 import tms720050_002 from "@/assets/products/tms/tms-720050-002.jpg.asset.json";
 import tms720169_001 from "@/assets/products/tms/tms-720169-001.jpg.asset.json";
@@ -246,6 +252,66 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1050": {
+    productId: "1050", slug: "gmts-standard-oak-treatment-table-30x78-royal-blue",
+    tagline: "30\" x 78\" oak treatment table in custom Royal Blue Naugahyde® with H-brace and 400 lb capacity.",
+    overview: ["The GMTS Standard Oak Treatment Table is hand-crafted from high quality oak plywood with solid oak legs, and all wood surfaces are finished with durable clear polyurethane. The top carries 1½\" medium-density foam under durable Naugahyde® upholstery, and an \"H\" brace is standard for extra stability.", "This 30\" W x 78\" L model is upholstered in custom Royal Blue Naugahyde®, has a 30\" surface height and a 400 lb weight capacity. Options such as a shelf, lift back and nose hole are available — call 940-334-5169 and we will help you build the table to fit your clinic. Made in the USA."],
+    highlights: ["Hand-crafted with high quality oak plywood and solid oak legs", "All wood surfaces finished with durable clear polyurethane", "1½\" medium-density foam top with durable Naugahyde® upholstery", "Custom color: Royal Blue Naugahyde®", "\"H\" brace standard for extra stability", "30\" W x 78\" L surface, 30\" surface height", "Weight capacity: 400 lbs", "Made in the USA"],
+    gallery: [{ src: tms730004_099.url, alt: "GMTS Standard Oak Treatment Table with blue Naugahyde upholstery" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730004-099" }, { label: "Frame", value: "Oak plywood with solid oak legs, clear polyurethane finish" }, { label: "Top", value: "1½\" medium-density foam with Naugahyde® upholstery" }, { label: "Color", value: "Custom color — Royal Blue" }, { label: "Brace", value: "\"H\" brace standard" }, { label: "Surface size", value: "30\" W x 78\" L" }, { label: "Surface height", value: "30\"" }, { label: "Weight capacity", value: "400 lbs" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/treatment-tables/fixed-height/tru-standard-oak-treatment-tables/",
+    seo: { title: "GMTS 30\" x 78\" Standard Oak Treatment Table, Royal Blue — TMS 730004-099 | GM Therapy", description: "30\" x 78\" oak treatment table in custom Royal Blue Naugahyde, H-brace, 400 lb capacity. Call or add to quote request for pricing." },
+  },
+  "1051": {
+    productId: "1051", slug: "gmts-optional-oak-plywood-shelf",
+    tagline: "Optional oak plywood shelf that matches the wood grain of your treatment table.",
+    overview: ["The optional oak plywood shelf mounts below the top of a GMTS oak treatment table, giving you open storage for linens, pillows and supplies. It is made from oak plywood to match the wood grain of your table.", "Many options are available to customize a treatment table just the way you want — call 940-334-5169 and we will help you build the table to fit your clinic. Made in the USA."],
+    highlights: ["Optional shelf for oak treatment tables", "Made from oak plywood to match the wood grain of your table", "Adds open storage below the table top", "Made in the USA"],
+    gallery: [{ src: tms730008_001.url, alt: "Optional oak plywood shelf installed below an oak treatment table" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730008-001" }, { label: "Type", value: "Optional shelf for oak treatment tables" }, { label: "Material", value: "Oak plywood" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/treatment-tables/fixed-height/tru-treatment-table-options/",
+    seo: { title: "GMTS Optional Oak Plywood Shelf — TMS 730008-001 | GM Therapy", description: "Optional oak plywood shelf for oak treatment tables. Call or add to quote request for pricing." },
+  },
+  "1052": {
+    productId: "1052", slug: "gmts-optional-nose-hole-7-5",
+    tagline: "Optional 7.5\" nose hole that adds comfort during prone treatments.",
+    overview: ["The optional 7.5\" nose hole is built into the top of a GMTS treatment table and finished in the table's Naugahyde® upholstery. It adds comfort to patients during prone position therapies.", "Many options are available to customize a treatment table just the way you want — call 940-334-5169 and we will help you build the table to fit your clinic. Made in the USA."],
+    highlights: ["Optional 7.5\" nose hole for treatment tables", "Adds comfort to patients during prone position therapies", "Finished in the table's Naugahyde® upholstery", "Made in the USA"],
+    gallery: [{ src: tms730010_001.url, alt: "Optional 7.5 inch nose hole in a black Naugahyde treatment table top" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730010-001" }, { label: "Type", value: "Optional nose hole for treatment tables" }, { label: "Size", value: "7.5\"" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/treatment-tables/fixed-height/tru-treatment-table-options/",
+    seo: { title: "GMTS Optional 7.5\" Nose Hole — TMS 730010-001 | GM Therapy", description: "Optional 7.5\" nose hole for treatment tables for prone comfort. Call or add to quote request for pricing." },
+  },
+  "1053": {
+    productId: "1053", slug: "gmts-naugahyde-bolster-6x24",
+    tagline: "6\" x 24\" Naugahyde® positioning bolster with high density urethane foam.",
+    overview: ["High quality bolsters offer great versatility in positioning patients and help improve weight-bearing, dynamic gross motor movements, coordination, righting reactions, balance, strength and muscle tone.", "This 6\" diameter x 24\" long bolster is made with high density urethane foam and covered with durable Naugahyde® upholstery. It is offered in 11 stocking Naugahyde® colors and made in the USA."],
+    highlights: ["6\" diameter x 24\" length", "Versatile bolster for positioning patients", "Improves weight-bearing, gross motor movement, coordination, righting reactions, balance, strength and muscle tone", "High density urethane foam with durable Naugahyde® upholstery", "Offered in 11 stocking Naugahyde® colors", "Made in the USA"],
+    gallery: [{ src: tmsBolsters.url, alt: "GMTS Naugahyde bolsters in assorted sizes and colors" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730143-(xxx)" }, { label: "Size", value: "6\" diameter x 24\" length" }, { label: "Fill", value: "High density urethane foam" }, { label: "Cover", value: "Naugahyde® upholstery" }, { label: "Colors", value: "11 stocking Naugahyde® colors" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/positioning-products/tru-naugahyde-bolsters/",
+    seo: { title: "GMTS Naugahyde Bolster 6\" x 24\" — TMS 730143 | GM Therapy", description: "6\" x 24\" Naugahyde positioning bolster, 11 stocking colors. Call or add to quote request for pricing." },
+  },
+  "1054": {
+    productId: "1054", slug: "gmts-naugahyde-bolster-8x36",
+    tagline: "8\" x 36\" Naugahyde® positioning bolster with high density urethane foam.",
+    overview: ["High quality bolsters offer great versatility in positioning patients and help improve weight-bearing, dynamic gross motor movements, coordination, righting reactions, balance, strength and muscle tone.", "This 8\" diameter x 36\" long bolster is made with high density urethane foam and covered with durable Naugahyde® upholstery. It is offered in 11 stocking Naugahyde® colors and made in the USA."],
+    highlights: ["8\" diameter x 36\" length", "Versatile bolster for positioning patients", "Improves weight-bearing, gross motor movement, coordination, righting reactions, balance, strength and muscle tone", "High density urethane foam with durable Naugahyde® upholstery", "Offered in 11 stocking Naugahyde® colors", "Made in the USA"],
+    gallery: [{ src: tmsBolsters.url, alt: "GMTS Naugahyde bolsters in assorted sizes and colors" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730145-(xxx)" }, { label: "Size", value: "8\" diameter x 36\" length" }, { label: "Fill", value: "High density urethane foam" }, { label: "Cover", value: "Naugahyde® upholstery" }, { label: "Colors", value: "11 stocking Naugahyde® colors" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/positioning-products/tru-naugahyde-bolsters/",
+    seo: { title: "GMTS Naugahyde Bolster 8\" x 36\" — TMS 730145 | GM Therapy", description: "8\" x 36\" Naugahyde positioning bolster, 11 stocking colors. Call or add to quote request for pricing." },
+  },
+  "1055": {
+    productId: "1055", slug: "gmts-naugahyde-knee-crescent",
+    tagline: "Half-round Naugahyde® knee crescent for comfortable patient positioning.",
+    overview: ["High quality specialty positioning shapes offer great versatility in positioning patients and are used to build head control, sitting balance, trunk control and upper extremity function.", "The knee crescent has a half-round top and a flat base for positioning under the knees. It is made with high density urethane foam, covered with durable Naugahyde® upholstery, offered in 11 stocking Naugahyde® colors and made in the USA."],
+    highlights: ["Half-round knee crescent for patient positioning", "Half-round top with a flat base", "High density urethane foam with durable Naugahyde® upholstery", "Offered in 11 stocking Naugahyde® colors", "Made in the USA"],
+    gallery: [{ src: tmsKneeCrescent.url, alt: "GMTS Naugahyde Knee Crescent in navy" }, { src: tmsSpecialtyWedges.url, alt: "GMTS specialty wedges — flat-top wedge, knee crescent and knee wedge" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730147-(xxx)" }, { label: "Shape", value: "Half-round knee crescent" }, { label: "Fill", value: "High density urethane foam" }, { label: "Cover", value: "Naugahyde® upholstery" }, { label: "Colors", value: "11 stocking Naugahyde® colors" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/positioning-products/tru-naugahyde-specialty-wedges/",
+    seo: { title: "GMTS Naugahyde Knee Crescent — TMS 730147 | GM Therapy", description: "Half-round Naugahyde knee crescent positioning cushion, 11 stocking colors. Call or add to quote request for pricing." },
+  },
   "1045": {
     productId: "1045", slug: "gmts-cloth-backed-reusable-electrode-2-75-round",
     tagline: "2.75\" round cloth-backed reusable electrodes with dual layer gel, 4 per package.",
