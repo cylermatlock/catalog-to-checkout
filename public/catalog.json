@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T18:24:18.430Z",
+  "generatedAt": "2026-11-11T18:47:25.423Z",
   "products": [
     {
       "id": "1014",
@@ -618,6 +618,49 @@
         "Sturdy design with small base",
         "Rubber feet protect floors",
         "Built for commercial gyms, hotels, and community centers"
+      ]
+    },
+    {
+      "id": "1031",
+      "sku": "TKO 6130-B",
+      "aliasSkus": [],
+      "name": "TKO 45° Hyperextension",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "TKO",
+      "condition": "new",
+      "image": "/catalog-assets/a3a905de-7511-4449-a55f-98cf08eef6e1/tko-6130-b-1.jpg",
+      "images": [
+        "/catalog-assets/a3a905de-7511-4449-a55f-98cf08eef6e1/tko-6130-b-1.jpg"
+      ],
+      "description": [
+        "45° angle for low back and oblique training",
+        "Adjusts to 12 different positions",
+        "Telescoping midsection fits most user sizes",
+        "Split pad design with oversized 12\" foam pads",
+        "Lightweight for easy mobility"
+      ]
+    },
+    {
+      "id": "1032",
+      "sku": "TKO 7062-G2",
+      "aliasSkus": [],
+      "name": "TKO Signature Dual Leg Extension / Leg Curl (Gen 2)",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "TKO",
+      "condition": "new",
+      "image": "/catalog-assets/0a391be4-98d1-4430-9766-d33b596142f7/tko-7062-g2.jpg",
+      "images": [
+        "/catalog-assets/0a391be4-98d1-4430-9766-d33b596142f7/tko-7062-g2.jpg"
+      ],
+      "description": [
+        "Dual-function leg extension and seated leg curl",
+        "Multi-position thigh pad adjustment for seated leg curls",
+        "Self-aligning ankle pad for extension or curl mode",
+        "Adjustable back pad for proper exercise form",
+        "200 lb weight stack",
+        "53\" W x 48\" D x 59\" H"
       ]
     },
     {
@@ -8488,6 +8531,48 @@
       ]
     },
     {
+      "id": "1029",
+      "sku": "TKO 509WB-6",
+      "aliasSkus": [],
+      "name": "TKO 6 lb Wall Ball",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/faffd6b9-0f25-4ade-9794-674f5dcc4ba5/tko-509wb-4.jpg",
+      "images": [
+        "/catalog-assets/faffd6b9-0f25-4ade-9794-674f5dcc4ba5/tko-509wb-4.jpg"
+      ],
+      "description": [
+        "6 lb soft-shell wall ball",
+        "14\" diameter",
+        "Heavy-duty vinyl coating, black with grey laces",
+        "Durable cotton fill and heavy nylon stitching",
+        "Designed for wall throws, squats, and partner drills"
+      ]
+    },
+    {
+      "id": "1030",
+      "sku": "TKO 509WB-8",
+      "aliasSkus": [],
+      "name": "TKO 8 lb Wall Ball",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/faffd6b9-0f25-4ade-9794-674f5dcc4ba5/tko-509wb-4.jpg",
+      "images": [
+        "/catalog-assets/faffd6b9-0f25-4ade-9794-674f5dcc4ba5/tko-509wb-4.jpg"
+      ],
+      "description": [
+        "8 lb soft-shell wall ball",
+        "14\" diameter",
+        "Heavy-duty vinyl coating, black with grey laces",
+        "Durable cotton fill and heavy nylon stitching",
+        "Designed for wall throws, squats, and partner drills"
+      ]
+    },
+    {
       "id": "291",
       "sku": "TKO 509WB-10",
       "aliasSkus": [],
@@ -8842,6 +8927,28 @@
         "Dual handles for easier loading and carrying",
         "Rubber coating protects floors and equipment",
         "Sold individually"
+      ]
+    },
+    {
+      "id": "1033",
+      "sku": "TKO 804RX-12",
+      "aliasSkus": [],
+      "name": "TKO 12 lb Rubber Hex Dumbbell — Contour Grip",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Dumbbells",
+      "condition": "new",
+      "image": "/catalog-assets/d46bc55e-4e34-4d9a-9485-c49d9caca5e1/tko-804rx-12.jpg",
+      "images": [
+        "/catalog-assets/d46bc55e-4e34-4d9a-9485-c49d9caca5e1/tko-804rx-12.jpg"
+      ],
+      "description": [
+        "12 lb rubber hex dumbbell",
+        "Chrome-plated, contoured ergonomic handle",
+        "Hexagonal heads prevent rolling",
+        "Rubber coating protects floors and reduces noise",
+        "Sold individually",
+        "Built for commercial use"
       ]
     },
     {

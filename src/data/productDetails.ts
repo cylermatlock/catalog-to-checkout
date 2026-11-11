@@ -1,3 +1,10 @@
+import tko6130b_1 from "@/assets/products/tko/tko-6130-b-1.jpg.asset.json";
+import tko6130b_2 from "@/assets/products/tko/tko-6130-b-2.jpg.asset.json";
+import tko6130b_3 from "@/assets/products/tko/tko-6130-b-3.jpg.asset.json";
+import tko6130b_4 from "@/assets/products/tko/tko-6130-b-4.jpg.asset.json";
+import tko6130b_5 from "@/assets/products/tko/tko-6130-b-5.jpg.asset.json";
+import tko7062g2 from "@/assets/products/tko/tko-7062-g2.jpg.asset.json";
+import tko804rx12 from "@/assets/products/tko/tko-804rx-12.jpg.asset.json";
 import tko3103 from "@/assets/products/tko/tko-3103.jpg.asset.json";
 import tko3104 from "@/assets/products/tko/tko-3104.jpg.asset.json";
 import tko509cmb10 from "@/assets/products/tko/tko-509cmb-10.jpg.asset.json";
@@ -253,6 +260,58 @@ export const productDetails: Record<string, ProductDetail> = {
     specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 509WB-12" }, { label: "Weight", value: "12 lb" }, { label: "Diameter", value: "14\"" }, { label: "Shell", value: "Heavy-duty vinyl" }, { label: "Color", value: "Black with grey laces" }, { label: "Fill", value: "Cotton fill, heavy nylon stitching" }] }],
     sourceUrl: "https://www.tkostrength.com/products/wall-ball",
     seo: { title: "TKO 509WB-12 12 lb Wall Ball | GM Therapy", description: "TKO 12 lb wall ball, 14\" heavy-duty vinyl with cotton fill and nylon stitching. Call or add to quote request for pricing." },
+  },
+  "1029": {
+    productId: "1029", slug: "tko-wall-ball-6lb",
+    tagline: "6 lb 14\" vinyl-coated wall ball with a soft, forgiving fill.",
+    overview: ["TKO's Wall Ball is a 14\" heavy-duty vinyl covered, weighted ball designed to enhance your strength training workouts. The Wall Ball features a soft and forgiving fill but is durable enough to hold its shape over time."],
+    highlights: ["6 lb wall ball, 14\" diameter", "Heavy-duty vinyl coated weighted ball", "Black with grey laces", "Durable cotton fill and heavy nylon stitching", "For wall throws, squats and partner drills"],
+    gallery: [{ src: tko509wb4.url, alt: "TKO wall ball" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 509WB-6" }, { label: "Weight", value: "6 lb" }, { label: "Diameter", value: "14\"" }, { label: "Shell", value: "Heavy-duty vinyl" }, { label: "Color", value: "Black with grey laces" }, { label: "Fill", value: "Cotton fill, heavy nylon stitching" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/wall-ball",
+    seo: { title: "TKO 509WB-6 6 lb Wall Ball | GM Therapy", description: "TKO 6 lb wall ball, 14\" heavy-duty vinyl with cotton fill and nylon stitching. Call or add to quote request for pricing." },
+  },
+  "1030": {
+    productId: "1030", slug: "tko-wall-ball-8lb",
+    tagline: "8 lb 14\" vinyl-coated wall ball with a soft, forgiving fill.",
+    overview: ["TKO's Wall Ball is a 14\" heavy-duty vinyl covered, weighted ball designed to enhance your strength training workouts. The Wall Ball features a soft and forgiving fill but is durable enough to hold its shape over time."],
+    highlights: ["8 lb wall ball, 14\" diameter", "Heavy-duty vinyl coated weighted ball", "Black with grey laces", "Durable cotton fill and heavy nylon stitching", "For wall throws, squats and partner drills"],
+    gallery: [{ src: tko509wb4.url, alt: "TKO wall ball" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 509WB-8" }, { label: "Weight", value: "8 lb" }, { label: "Diameter", value: "14\"" }, { label: "Shell", value: "Heavy-duty vinyl" }, { label: "Color", value: "Black with grey laces" }, { label: "Fill", value: "Cotton fill, heavy nylon stitching" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/wall-ball",
+    seo: { title: "TKO 509WB-8 8 lb Wall Ball | GM Therapy", description: "TKO 8 lb wall ball, 14\" heavy-duty vinyl with cotton fill and nylon stitching. Call or add to quote request for pricing." },
+  },
+  "1031": {
+    productId: "1031", slug: "tko-45-degree-hyperextension",
+    tagline: "Adjustable 45° hyperextension for low back and oblique training.",
+    overview: ["The perfect addition to any gym, the 45° angle is optimal for low back and oblique training. A telescoping midsection ensures a great fit for most sizes of users, with thick, comfortable foam and a split pad design."],
+    highlights: ["45° angle for low back and oblique training", "Adjustable up to 12 different positions", "Telescoping midsection", "Split pad design", "Oversized 12\" foam pads for comfort", "Lightweight for easy mobility"],
+    gallery: [{ src: tko6130b_1.url, alt: "TKO 45° Hyperextension — front three-quarter view" }, { src: tko6130b_2.url, alt: "TKO 45° Hyperextension — rear three-quarter view" }, { src: tko6130b_3.url, alt: "TKO 45° Hyperextension — side view" }, { src: tko6130b_4.url, alt: "TKO 45° Hyperextension — back view" }, { src: tko6130b_5.url, alt: "TKO 45° Hyperextension — front view" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 6130-B" }, { label: "Angle", value: "45°" }, { label: "Adjustment", value: "12 positions, telescoping midsection" }, { label: "Pads", value: "Split pad design, oversized 12\" foam pads" }, { label: "Color", value: "Black" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/45-hyperextension",
+    seo: { title: "TKO 6130-B 45° Hyperextension | GM Therapy", description: "TKO 45° hyperextension with 12-position telescoping adjustment and split 12\" foam pads. Call or add to quote request for pricing." },
+  },
+  "1032": {
+    productId: "1032", slug: "tko-signature-leg-extension-leg-curl-gen-2",
+    tagline: "Signature Series G2 dual leg extension / seated leg curl with a 200 lb stack.",
+    overview: ["The TKO Signature Series G2 line of strength equipment, benches and multi-stacks delivers high-quality performance with a clean, functional design, enhancing the user experience while ensuring long-term reliability for your facility. Each piece features uniform tubing for a cohesive, fully integrated look across the entire line."],
+    highlights: ["Multi-position thigh pad adjustment for seated leg curls", "Self-aligning ankle pad for proper positioning in extension or curl mode", "Cushions filled with MC high-resilience foam, double-stitched PU leather upholstery", "Adjustable back pad for proper exercise form", "Rubber feet to protect floors", "200 lb weight stack"],
+    gallery: [{ src: tko7062g2.url, alt: "TKO Signature Leg Extension / Leg Curl G2" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 7062-G2" }, { label: "Series", value: "TKO Signature Series G2" }, { label: "Dimensions", value: "53\" W x 48\" D x 59\" H" }, { label: "Product weight", value: "568 lbs" }, { label: "Weight stack", value: "200 lbs" }, { label: "Frame color", value: "Black" }, { label: "Upholstery color", value: "Black" }] }, { title: "Warranty", rows: [{ label: "Frame", value: "10 years" }, { label: "Parts", value: "5 years" }, { label: "Upholstery / grips / rollers", value: "6 months" }] }],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/7062-G2_Leg_Extension_Leg_Curl.pdf",
+    specSheetTitle: "TKO 7062-G2 Sell Sheet",
+    sourceUrl: "https://www.tkostrength.com/products/leg-extension-leg-curl",
+    seo: { title: "TKO 7062-G2 Signature Leg Extension / Leg Curl | GM Therapy", description: "TKO Signature Series G2 dual leg extension / leg curl with 200 lb weight stack. Call or add to quote request for pricing." },
+  },
+  "1033": {
+    productId: "1033", slug: "tko-rubber-hex-dumbbell-12lb",
+    tagline: "12 lb rubber hex dumbbell with chrome contoured grip.",
+    overview: ["TKO's standard rubber hex dumbbell is a budget-friendly option that delivers on quality, performance and longevity. Heavy-duty rubber-encased heads minimize noise and limit wear on the dumbbells and your floors, while the chrome-plated handle is ergonomically designed for a firm but comfortable feel in any grip style."],
+    highlights: ["12 lb rubber hex dumbbell", "Chrome-plated, ergonomically contoured handle", "Hexagonal heads prevent rolling", "Rubber-encased heads protect floors and reduce noise", "Steel, friction-welded head construction", "Sold individually"],
+    gallery: [{ src: tko804rx12.url, alt: "TKO Rubber Hex Dumbbell with chrome contour grip" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 804RX-12" }, { label: "Weight", value: "12 lb" }, { label: "Head", value: "Steel, friction-welded, rubber-encased hex" }, { label: "Handle", value: "Chrome-plated, ergonomically contoured" }, { label: "Sold", value: "Individually" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/copy-of-tri-grip-hex-dumbbell-1",
+    seo: { title: "TKO 804RX-12 12 lb Rubber Hex Dumbbell | GM Therapy", description: "TKO 12 lb rubber hex dumbbell with chrome contoured handle, sold individually. Call or add to quote request for pricing." },
   },
   "1028": {
     productId: "1028", slug: "tko-wall-ball-4lb",

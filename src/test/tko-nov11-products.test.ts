@@ -15,6 +15,9 @@ import cmb10 from "@/assets/products/tko/tko-509cmb-10.jpg.asset.json";
 import sbt6 from "@/assets/products/tko/tko-509sbt-6.jpg.asset.json";
 import wb12 from "@/assets/products/tko/tko-509wb-12.jpg.asset.json";
 import wb4 from "@/assets/products/tko/tko-509wb-4.jpg.asset.json";
+import hyper from "@/assets/products/tko/tko-6130-b-1.jpg.asset.json";
+import legExt from "@/assets/products/tko/tko-7062-g2.jpg.asset.json";
+import db12 from "@/assets/products/tko/tko-804rx-12.jpg.asset.json";
 
 const cases = [
   { sku: "TKO 143SCO-CM", id: "1017", must: "sold as a pair", photo: collar },
@@ -29,6 +32,11 @@ const cases = [
   { sku: "TKO 509SBT-6", id: "1026", must: "6 lb slam ball", photo: sbt6 },
   { sku: "TKO 509WB-12", id: "1027", must: "12 lb soft-shell wall ball", photo: wb12 },
   { sku: "TKO 509WB-4", id: "1028", must: "4 lb soft-shell wall ball", photo: wb4 },
+  { sku: "TKO 509WB-6", id: "1029", must: "6 lb soft-shell wall ball", photo: wb4 },
+  { sku: "TKO 509WB-8", id: "1030", must: "8 lb soft-shell wall ball", photo: wb4 },
+  { sku: "TKO 6130-B", id: "1031", must: "Adjusts to 12 different positions", photo: hyper },
+  { sku: "TKO 7062-G2", id: "1032", must: "200 lb weight stack", photo: legExt },
+  { sku: "TKO 804RX-12", id: "1033", must: "12 lb rubber hex dumbbell", photo: db12 },
 ];
 
 describe("TKO products requested Nov 11", () => {

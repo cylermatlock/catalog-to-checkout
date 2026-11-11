@@ -36,3 +36,8 @@
 ## TKO bands 3103/3104 and ball sizes
 - [x] Add TKO 3103, 3104, 509CMB-10, 509SBT-6, 509WB-12, 509WB-4 as items 1023–1028 with TKO photos, bullet points and details pages.
 - [x] Mirror photos, refresh quote catalog (701 products) and sitemap; 206 tests pass; pages and quote button verified.
+
+## TKO wall balls 6/8, hyperextension, leg ext/curl, 12 lb dumbbell
+- [x] Add TKO 509WB-6, 509WB-8, 6130-B, 7062-G2, 804RX-12 as items 1029–1033 with TKO photos, bullet points and details pages.
+- [x] Mirror photos, refresh quote catalog (706 products) and sitemap; 216 tests pass; pages, search and quote button verified.
+- [ ] TKO 6070 Hack Squat/Leg Press — blocked: not on TKO's site or any dealer listing; waiting on a photo/details from the user.
