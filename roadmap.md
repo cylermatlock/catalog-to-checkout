@@ -24,3 +24,7 @@
 ## Rehab Pro RPP M50-DW
 - [x] Add RPP M50-DW 50 lb double wall-mount pulley with official Rehab Pro photo, bullet points and details page.
 - [x] Mirror photo, refresh quote catalog (685 products) and sitemap, run tests and verify quote-request flow.
+
+## SportsArt C535R and C575R
+- [x] Add SAA C535R (1013) and SAA C575R (1014) with official SportsArt photos, bullet points, specs, warranty and sell sheets.
+- [x] Mirror photos, refresh quote catalog and sitemap, run tests and verify quote-request flow.

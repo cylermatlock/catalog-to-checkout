@@ -1,4 +1,10 @@
 import nsT6max1 from "@/assets/products/nustep/ns-t6max-1.png.asset.json";
+import saaC535r1 from "@/assets/products/sportsart/saa-c535r-1.jpg.asset.json";
+import saaC535r2 from "@/assets/products/sportsart/saa-c535r-2.jpg.asset.json";
+import saaC575r1 from "@/assets/products/sportsart/saa-c575r-1.jpg.asset.json";
+import saaC575r2 from "@/assets/products/sportsart/saa-c575r-2.jpg.asset.json";
+import saaC575r3 from "@/assets/products/sportsart/saa-c575r-3.jpg.asset.json";
+import saaC575r4 from "@/assets/products/sportsart/saa-c575r-4.jpg.asset.json";
 import rppM50dw from "@/assets/products/rpp/rpp-m50-dw.jpg.asset.json";
 import therawrap153352 from "@/assets/products/fab/therawrap-15-3352.jpg.asset.json";
 import nsT6max2 from "@/assets/products/nustep/ns-t6max-2.png.asset.json";
@@ -178,6 +184,42 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1014": {
+    productId: "1014", slug: "sportsart-c575r-recumbent-bike",
+    tagline: "Self-powered, step-through recumbent bike with a 500 lb user capacity and full commercial warranty.",
+    overview: ["SportsArt cycles are self-generating — no outside power source required. The C575R has contact heart rate as standard and a built-in wireless Polar® HR receiver, multiple language options (English, Spanish and French) and a 3-speed fan to keep users cool.", "The ComfortDri™ vented padded seat back is molded for support and adjusts for any exercise position, seat adjustment handles are easy to reach while exercising, and the step-through design allows easy access. Oversized pedals have quick-adjust straps."],
+    highlights: ["Self-powered — no outside power source required", "Unique step-through design for easy access", "ComfortDri™ vented, adjustable padded seat back", "40 resistance levels", "500 lb max user weight", "Contact and wireless heart rate", "Integrated 3-speed fan", "CSAFE port, two USB charging ports and two headphone jacks"],
+    gallery: [
+      { src: saaC575r1.url, alt: "SportsArt C575R recumbent bike with Tri-Color LED console" },
+      { src: saaC575r2.url, alt: "SportsArt C575R recumbent bike side view" },
+      { src: saaC575r3.url, alt: "SportsArt C575R Tri-Color LED console" },
+      { src: saaC575r4.url, alt: "SportsArt 16 inch SENZA touchscreen console option" },
+    ],
+    specGroups: [
+      { title: "Technical Details", rows: [{ label: "SKU", value: "SAA C575R" }, { label: "Unit weight", value: "232 lbs / 105 kg" }, { label: "Dimensions (L x W x H)", value: "72.2 x 25.8 x 53.5 in" }, { label: "Resistance", value: "40 levels" }, { label: "Max user weight", value: "500 lbs" }, { label: "Power", value: "Self-powered (SENZA touchscreen requires power)" }, { label: "Console options", value: "Tri-Color LED or 16\" SENZA™ touchscreen" }, { label: "Readouts", value: "Heart rate, Cardio Zone, Weight Loss Zone, ActivZone, calories, level, time, distance, RPM, METs, speed, watts" }, { label: "Workout programs", value: "Manual, Random, Interval (1-1, 1-2, 2-2), Plateau, Fatburn, Fit Test, HRC (WT Loss, Cardio, Custom HR)" }] },
+      { title: "Warranty", rows: [{ label: "Type", value: "Full commercial — no usage limit" }, { label: "Frame", value: "Lifetime" }, { label: "Parts / wear items", value: "5 years" }, { label: "Labor", value: "3 years" }, { label: "High wear items", value: "90 days, no labor" }] },
+    ],
+    specSheetUrl: "https://www.gosportsart.com/wp-content/uploads/documentation/C575R_Sell_ENG.pdf",
+    sourceUrl: "https://www.gosportsart.com/product/c575r-recumbent-cycle/",
+    seo: { title: "SportsArt C575R Recumbent Bike — SAA C575R | GM Therapy", description: "Self-powered SportsArt C575R step-through recumbent bike: 40 levels, 500 lb capacity, 3-speed fan. Call or add to quote request for pricing." },
+  },
+  "1013": {
+    productId: "1013", slug: "sportsart-c535r-foundation-recumbent-cycle",
+    tagline: "Self-powered Foundation Series recumbent cycle with a step-through frame and 400 lb user capacity.",
+    overview: ["SportsArt cycles are self-generating — no outside power source required. The C535R includes a built-in wireless Polar® HR receiver and multiple language options (English, Spanish and French).", "The ComfortDri™ vented padded seat back is molded for support and adjusts for any exercise position, seat adjustment handles are easy to reach while exercising, and the step-through design allows easy access. Oversized pedals have quick-adjust straps."],
+    highlights: ["Self-powered — no outside power source required", "Unique step-through design for easy access", "ComfortDri™ vented, adjustable padded seat back", "40 resistance levels", "400 lb max user weight", "Wireless heart rate with built-in Polar® receiver", "Tri-Color LED console", "CSAFE port, two USB charging ports and two headphone jacks"],
+    gallery: [
+      { src: saaC535r1.url, alt: "SportsArt C535R Foundation recumbent cycle" },
+      { src: saaC535r2.url, alt: "SportsArt C535R Tri-Color LED console" },
+    ],
+    specGroups: [
+      { title: "Technical Details", rows: [{ label: "SKU", value: "SAA C535R" }, { label: "Unit weight", value: "172 lbs / 78 kg" }, { label: "Dimensions (L x W x H)", value: "66.5 x 26 x 50.4 in" }, { label: "Resistance", value: "40 levels" }, { label: "Max user weight", value: "400 lbs" }, { label: "Power", value: "Self-powered" }, { label: "Console", value: "Tri-Color LED" }, { label: "Readouts", value: "Heart rate, Cardio Zone, Weight Loss Zone, ActivZone, calories, level, time, distance, RPM, METs, speed, watts" }, { label: "Workout programs", value: "Manual, Random, Interval (1-1, 1-2, 2-2), Plateau, Fatburn, Fit Test, HRC (WT Loss, Cardio, Custom HR)" }] },
+      { title: "Warranty", rows: [{ label: "Type", value: "Light commercial — up to 4 hrs/day" }, { label: "Frame", value: "Lifetime" }, { label: "Parts / wear items", value: "5 years" }, { label: "Labor", value: "3 years" }, { label: "High wear items", value: "90 days, no labor" }] },
+    ],
+    specSheetUrl: "https://www.gosportsart.com/wp-content/uploads/documentation/C535R_Sell_ENG.pdf",
+    sourceUrl: "https://www.gosportsart.com/product/c535r-recumbent-cycle/",
+    seo: { title: "SportsArt C535R Foundation Recumbent Cycle — SAA C535R | GM Therapy", description: "Self-powered SportsArt C535R step-through recumbent cycle: 40 levels, 400 lb capacity, wireless heart rate. Call or add to quote request for pricing." },
+  },
   "1012": {
     productId: "1012", slug: "rehab-pro-50lb-standard-pulley-double-wall-mount",
     tagline: "Two side-by-side 50 lb wall-mounted rehab pulleys with starting resistance as low as 1.25 lbs.",

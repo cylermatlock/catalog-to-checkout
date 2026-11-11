@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-11-11T17:53:57.727Z",
+  "generatedAt": "2026-11-11T17:57:24.768Z",
   "products": [
+    {
+      "id": "1014",
+      "sku": "SAA C575R",
+      "aliasSkus": [],
+      "name": "SportsArt C575R Recumbent Bike",
+      "brand": "SportsArt",
+      "category": "Cardio",
+      "subcategory": "SportsArt",
+      "condition": "new",
+      "image": "/catalog-assets/b33f6057-21bc-44eb-9134-d1d71347053d/saa-c575r-1.jpg",
+      "images": [
+        "/catalog-assets/b33f6057-21bc-44eb-9134-d1d71347053d/saa-c575r-1.jpg"
+      ],
+      "description": [
+        "Self-powered — no outside power source required",
+        "Step-through design with ComfortDri™ vented, adjustable padded seat back",
+        "40 resistance levels",
+        "500 lb max user weight",
+        "Contact and wireless Polar® heart rate",
+        "Integrated 3-speed fan",
+        "Tri-Color LED console (16\" SENZA™ touchscreen optional)",
+        "Full commercial warranty — no usage limit"
+      ]
+    },
+    {
+      "id": "1013",
+      "sku": "SAA C535R",
+      "aliasSkus": [],
+      "name": "SportsArt C535R Foundation Recumbent Cycle",
+      "brand": "SportsArt",
+      "category": "Cardio",
+      "subcategory": "SportsArt",
+      "condition": "new",
+      "image": "/catalog-assets/b964d0ed-cd6e-4e01-8321-aa2b373b0717/saa-c535r-1.jpg",
+      "images": [
+        "/catalog-assets/b964d0ed-cd6e-4e01-8321-aa2b373b0717/saa-c535r-1.jpg"
+      ],
+      "description": [
+        "Self-powered — no outside power source required",
+        "Step-through design with ComfortDri™ vented, adjustable padded seat back",
+        "40 resistance levels",
+        "400 lb max user weight",
+        "Built-in wireless Polar® heart rate receiver",
+        "Tri-Color LED console",
+        "Oversized pedals with quick-adjust straps",
+        "Light commercial use (up to 4 hrs/day)"
+      ]
+    },
     {
       "id": "1012",
       "sku": "RPP M50-DW",
