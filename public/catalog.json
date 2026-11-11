@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T18:17:43.019Z",
+  "generatedAt": "2026-11-11T18:24:18.430Z",
   "products": [
     {
       "id": "1014",
@@ -782,6 +782,48 @@
       "description": [
         "Mini X Light resistance: 20-60 lb",
         "Blue, 3/4\" wide",
+        "Latex-free rubber strength band",
+        "Textured interior grip reduces slipping, even with sweaty hands",
+        "For pull-up assistance, stretching, mobility work and strength training"
+      ]
+    },
+    {
+      "id": "1023",
+      "sku": "TKO 3103",
+      "aliasSkus": [],
+      "name": "TKO Strength Band — Average Light, 30-80 lb, Green, 1 1/8\"",
+      "brand": "TKO",
+      "category": "Clinical Supplies",
+      "subcategory": "Bands & Tubing",
+      "condition": "new",
+      "image": "/catalog-assets/763e9e38-586e-48f0-ae14-3e3acea380d5/tko-3103.jpg",
+      "images": [
+        "/catalog-assets/763e9e38-586e-48f0-ae14-3e3acea380d5/tko-3103.jpg"
+      ],
+      "description": [
+        "Average Light resistance: 30-80 lb",
+        "Green, 1 1/8\" wide",
+        "Latex-free rubber strength band",
+        "Textured interior grip reduces slipping, even with sweaty hands",
+        "For pull-up assistance, stretching, mobility work and strength training"
+      ]
+    },
+    {
+      "id": "1024",
+      "sku": "TKO 3104",
+      "aliasSkus": [],
+      "name": "TKO Strength Band — Average Medium, 40-110 lb, Silver, 1 3/4\"",
+      "brand": "TKO",
+      "category": "Clinical Supplies",
+      "subcategory": "Bands & Tubing",
+      "condition": "new",
+      "image": "/catalog-assets/b14cc98b-b6f0-48bb-86e1-67a046f43008/tko-3104.jpg",
+      "images": [
+        "/catalog-assets/b14cc98b-b6f0-48bb-86e1-67a046f43008/tko-3104.jpg"
+      ],
+      "description": [
+        "Average Medium resistance: 40-110 lb",
+        "Silver, 1 3/4\" wide",
         "Latex-free rubber strength band",
         "Textured interior grip reduces slipping, even with sweaty hands",
         "For pull-up assistance, stretching, mobility work and strength training"
@@ -8317,6 +8359,48 @@
       ]
     },
     {
+      "id": "1025",
+      "sku": "TKO 509CMB-10",
+      "aliasSkus": [],
+      "name": "TKO 10 lb Commercial Medicine Ball",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/899c944e-3135-4136-b1ee-da12ff325144/tko-509cmb-10.jpg",
+      "images": [
+        "/catalog-assets/899c944e-3135-4136-b1ee-da12ff325144/tko-509cmb-10.jpg"
+      ],
+      "description": [
+        "10 lb medicine ball",
+        "Double-dimpled rubber surface for secure grip",
+        "Two-tone black & grey",
+        "All-rubber, latex-free, weather-resistant construction",
+        "For tossing, catching and partner drills (not for slamming)"
+      ]
+    },
+    {
+      "id": "1026",
+      "sku": "TKO 509SBT-6",
+      "aliasSkus": [],
+      "name": "TKO 6 lb Slam Ball",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/48332117-cd9c-43ec-8a01-4c3c3161bce3/tko-509sbt-6.jpg",
+      "images": [
+        "/catalog-assets/48332117-cd9c-43ec-8a01-4c3c3161bce3/tko-509sbt-6.jpg"
+      ],
+      "description": [
+        "6 lb slam ball",
+        "Sand-filled weighted center — bounce-resistant",
+        "Rugged tire-tread textured surface for secure grip",
+        "Durable PVC shell",
+        "Ideal for power slams, partner drills, core, and conditioning"
+      ]
+    },
+    {
       "id": "288",
       "sku": "TKO 509SBT-15",
       "aliasSkus": [],
@@ -8383,6 +8467,27 @@
       ]
     },
     {
+      "id": "1028",
+      "sku": "TKO 509WB-4",
+      "aliasSkus": [],
+      "name": "TKO 4 lb Wall Ball",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/faffd6b9-0f25-4ade-9794-674f5dcc4ba5/tko-509wb-4.jpg",
+      "images": [
+        "/catalog-assets/faffd6b9-0f25-4ade-9794-674f5dcc4ba5/tko-509wb-4.jpg"
+      ],
+      "description": [
+        "4 lb soft-shell wall ball",
+        "14\" diameter",
+        "Heavy-duty vinyl coating, black with grey laces",
+        "Durable cotton fill and heavy nylon stitching",
+        "Designed for wall throws, squats, and partner drills"
+      ]
+    },
+    {
       "id": "291",
       "sku": "TKO 509WB-10",
       "aliasSkus": [],
@@ -8402,6 +8507,27 @@
         "Reinforced double-stitched seams",
         "Soft enough to catch, dense enough to load",
         "Built for high-volume commercial use"
+      ]
+    },
+    {
+      "id": "1027",
+      "sku": "TKO 509WB-12",
+      "aliasSkus": [],
+      "name": "TKO 12 lb Wall Ball",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/63e6ce8f-0bd0-427f-a528-551137960611/tko-509wb-12.jpg",
+      "images": [
+        "/catalog-assets/63e6ce8f-0bd0-427f-a528-551137960611/tko-509wb-12.jpg"
+      ],
+      "description": [
+        "12 lb soft-shell wall ball",
+        "14\" diameter",
+        "Heavy-duty vinyl coating, black with grey laces",
+        "Durable cotton fill and heavy nylon stitching",
+        "Designed for wall throws, squats, and partner drills"
       ]
     },
     {

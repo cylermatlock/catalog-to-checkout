@@ -32,3 +32,7 @@
 ## TKO collars, plyo set, agility ladder and strength bands
 - [x] Add TKO 143SCO-CM, 260PLB12-36, 281AL-15, 3100, 3101, 3102 as items 1017–1022 with official TKO photos, bullet points and details pages.
 - [x] Mirror photos, refresh quote catalog (695 products) and sitemap; 194 tests pass; pages and quote button verified.
+
+## TKO bands 3103/3104 and ball sizes
+- [x] Add TKO 3103, 3104, 509CMB-10, 509SBT-6, 509WB-12, 509WB-4 as items 1023–1028 with TKO photos, bullet points and details pages.
+- [x] Mirror photos, refresh quote catalog (701 products) and sitemap; 206 tests pass; pages and quote button verified.

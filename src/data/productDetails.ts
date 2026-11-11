@@ -1,3 +1,9 @@
+import tko3103 from "@/assets/products/tko/tko-3103.jpg.asset.json";
+import tko3104 from "@/assets/products/tko/tko-3104.jpg.asset.json";
+import tko509cmb10 from "@/assets/products/tko/tko-509cmb-10.jpg.asset.json";
+import tko509sbt6 from "@/assets/products/tko/tko-509sbt-6.jpg.asset.json";
+import tko509wb12 from "@/assets/products/tko/tko-509wb-12.jpg.asset.json";
+import tko509wb4 from "@/assets/products/tko/tko-509wb-4.jpg.asset.json";
 import tko1017_1 from "@/assets/products/tko/tko-143sco-cm-1.jpg.asset.json";
 import tko1017_2 from "@/assets/products/tko/tko-143sco-cm-2.jpg.asset.json";
 import tko1017_3 from "@/assets/products/tko/tko-143sco-cm-3.jpg.asset.json";
@@ -198,6 +204,66 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1023": {
+    productId: "1023", slug: "tko-3103-strength-band-average-light",
+    tagline: "Average Light latex-free strength band, 30-80 lb resistance.",
+    overview: ["TKO Premium Strength Bands are latex free with a textured interior for better grip, which provides enhanced stability during workouts. The textured surface inside the band minimizes slipping, ensuring a secure hold even during intense resistance exercises or when hands are sweaty. They offer durability and versatility for exercises like pull-ups, stretching, mobility work and strength training."],
+    highlights: ["Average Light resistance: 30-80 lb", "Green, 1 1/8\" wide", "Latex-free rubber", "Textured interior enhances grip and reduces slipping", "Better hold, even with sweaty hands", "No gloves or extra grip accessories needed", "Ideal for pull-ups, stretching, mobility work and strength training", "Suitable for all fitness levels"],
+    gallery: [{ src: tko3103.url, alt: "TKO Average Light strength band, green, 30-80 lb" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 3103" }, { label: "Resistance", value: "Average Light, 30-80 lb" }, { label: "Color", value: "Green" }, { label: "Width", value: "1 1/8\"" }, { label: "Material", value: "Latex-free rubber, textured interior" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tko-premium-strength-bands",
+    seo: { title: "TKO 3103 TKO Strength Band Average Light 30-80 lb | GM Therapy", description: "TKO latex-free average light strength band, 30-80 lb, green, 1 1/8\" wide. Call or add to quote request for pricing." },
+  },
+  "1024": {
+    productId: "1024", slug: "tko-3104-strength-band-average-medium",
+    tagline: "Average Medium latex-free strength band, 40-110 lb resistance.",
+    overview: ["TKO Premium Strength Bands are latex free with a textured interior for better grip, which provides enhanced stability during workouts. The textured surface inside the band minimizes slipping, ensuring a secure hold even during intense resistance exercises or when hands are sweaty. They offer durability and versatility for exercises like pull-ups, stretching, mobility work and strength training."],
+    highlights: ["Average Medium resistance: 40-110 lb", "Silver, 1 3/4\" wide", "Latex-free rubber", "Textured interior enhances grip and reduces slipping", "Better hold, even with sweaty hands", "No gloves or extra grip accessories needed", "Ideal for pull-ups, stretching, mobility work and strength training", "Suitable for all fitness levels"],
+    gallery: [{ src: tko3104.url, alt: "TKO Average Medium strength band, silver, 40-110 lb" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 3104" }, { label: "Resistance", value: "Average Medium, 40-110 lb" }, { label: "Color", value: "Silver" }, { label: "Width", value: "1 3/4\"" }, { label: "Material", value: "Latex-free rubber, textured interior" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tko-premium-strength-bands",
+    seo: { title: "TKO 3104 TKO Strength Band Average Medium 40-110 lb | GM Therapy", description: "TKO latex-free average medium strength band, 40-110 lb, silver, 1 3/4\" wide. Call or add to quote request for pricing." },
+  },
+  "1025": {
+    productId: "1025", slug: "tko-commercial-medicine-ball-10lb",
+    tagline: "10 lb commercial rubberized medicine ball with a double-dimpled grip surface.",
+    overview: ["TKO's Commercial Rubberized Medicine Ball is a heavy-duty, weighted ball designed to enhance your strength training workouts. The ball features an easy-to-grip double-dimpled rubber surface for effective tossing and catching.", "Medicine balls are not designed for slamming. Use a slam ball for slam work."],
+    highlights: ["10 lb heavy-duty weighted ball", "Two-tone black & grey", "Durable, weather-resistant, non-slip surface", "All-rubber construction, latex free", "Dimple pattern for added grip"],
+    gallery: [{ src: tko509cmb10.url, alt: "TKO 10 lb commercial rubberized medicine ball, black and grey" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 509CMB-10" }, { label: "Weight", value: "10 lb" }, { label: "Material", value: "All rubber, latex free" }, { label: "Surface", value: "Double-dimpled non-slip rubber" }, { label: "Color", value: "Black & grey" }, { label: "Use", value: "Tossing, catching, partner drills (not for slamming)" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/commercial-rubberized-medicine-ball",
+    seo: { title: "TKO 509CMB-10 10 lb Commercial Medicine Ball | GM Therapy", description: "TKO 10 lb commercial rubberized medicine ball, double-dimpled grip, all rubber and latex free. Call or add to quote request for pricing." },
+  },
+  "1026": {
+    productId: "1026", slug: "tko-tyre-slam-ball-6lb",
+    tagline: "6 lb sand-filled slam ball with a tire-tread grip surface.",
+    overview: ["The TKO Tyre Slam Ball features a textured surface to provide a secure grip. These sand-filled training tools are stress-tested and battle-ready, and are sold individually so you can increase your workout load at your own pace."],
+    highlights: ["6 lb slam ball", "Durable PVC shell", "Rugged textured surface allows for better grip", "Sand-filled weighted center", "Bounce-resistant and ideal for slamming"],
+    gallery: [{ src: tko509sbt6.url, alt: "TKO 6 lb Tyre Slam Ball" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 509SBT-6" }, { label: "Weight", value: "6 lb" }, { label: "Shell", value: "Durable PVC, tire-tread texture" }, { label: "Fill", value: "Sand-filled weighted center" }, { label: "Use", value: "Power slams, partner drills, conditioning, core" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tyre-slam-ball",
+    seo: { title: "TKO 509SBT-6 6 lb Tyre Slam Ball | GM Therapy", description: "TKO 6 lb sand-filled tyre slam ball with tire-tread grip. Call or add to quote request for pricing." },
+  },
+  "1027": {
+    productId: "1027", slug: "tko-wall-ball-12lb",
+    tagline: "12 lb 14\" vinyl-coated wall ball with a soft, forgiving fill.",
+    overview: ["TKO's Wall Ball is a 14\" heavy-duty vinyl covered, weighted ball designed to enhance your strength training workouts. The Wall Ball features a soft and forgiving fill but is durable enough to hold its shape over time."],
+    highlights: ["12 lb wall ball, 14\" diameter", "Heavy-duty vinyl coated weighted ball", "Black with grey laces", "Durable cotton fill and heavy nylon stitching", "For wall throws, squats and partner drills"],
+    gallery: [{ src: tko509wb12.url, alt: "TKO wall ball" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 509WB-12" }, { label: "Weight", value: "12 lb" }, { label: "Diameter", value: "14\"" }, { label: "Shell", value: "Heavy-duty vinyl" }, { label: "Color", value: "Black with grey laces" }, { label: "Fill", value: "Cotton fill, heavy nylon stitching" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/wall-ball",
+    seo: { title: "TKO 509WB-12 12 lb Wall Ball | GM Therapy", description: "TKO 12 lb wall ball, 14\" heavy-duty vinyl with cotton fill and nylon stitching. Call or add to quote request for pricing." },
+  },
+  "1028": {
+    productId: "1028", slug: "tko-wall-ball-4lb",
+    tagline: "4 lb 14\" vinyl-coated wall ball with a soft, forgiving fill.",
+    overview: ["TKO's Wall Ball is a 14\" heavy-duty vinyl covered, weighted ball designed to enhance your strength training workouts. The Wall Ball features a soft and forgiving fill but is durable enough to hold its shape over time."],
+    highlights: ["4 lb wall ball, 14\" diameter", "Heavy-duty vinyl coated weighted ball", "Black with grey laces", "Durable cotton fill and heavy nylon stitching", "For wall throws, squats and partner drills"],
+    gallery: [{ src: tko509wb4.url, alt: "TKO wall ball" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 509WB-4" }, { label: "Weight", value: "4 lb" }, { label: "Diameter", value: "14\"" }, { label: "Shell", value: "Heavy-duty vinyl" }, { label: "Color", value: "Black with grey laces" }, { label: "Fill", value: "Cotton fill, heavy nylon stitching" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/wall-ball",
+    seo: { title: "TKO 509WB-4 4 lb Wall Ball | GM Therapy", description: "TKO 4 lb wall ball, 14\" heavy-duty vinyl with cotton fill and nylon stitching. Call or add to quote request for pricing." },
+  },
   "1017": {
     productId: "1017", slug: "tko-olympic-quick-clip-weight-collars-pair",
     tagline: "Quick clip collars that secure plates on 2\" Olympic bars.",

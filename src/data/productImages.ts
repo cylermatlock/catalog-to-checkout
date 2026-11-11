@@ -1,3 +1,9 @@
+import tko3103 from "@/assets/products/tko/tko-3103.jpg.asset.json";
+import tko3104 from "@/assets/products/tko/tko-3104.jpg.asset.json";
+import tko509cmb10 from "@/assets/products/tko/tko-509cmb-10.jpg.asset.json";
+import tko509sbt6 from "@/assets/products/tko/tko-509sbt-6.jpg.asset.json";
+import tko509wb12 from "@/assets/products/tko/tko-509wb-12.jpg.asset.json";
+import tko509wb4 from "@/assets/products/tko/tko-509wb-4.jpg.asset.json";
 import tko1017_1 from "@/assets/products/tko/tko-143sco-cm-1.jpg.asset.json";
 import tko1018 from "@/assets/products/tko/tko-260plb-set.jpg.asset.json";
 import tko1019_1 from "@/assets/products/tko/tko-281al-15-1.jpg.asset.json";
@@ -194,6 +200,12 @@ export const productImages: Record<string, string> = {
   "1020": tko3100.url,
   "1021": tko3101.url,
   "1022": tko3102.url,
+  "1023": tko3103.url,
+  "1024": tko3104.url,
+  "1025": tko509cmb10.url,
+  "1026": tko509sbt6.url,
+  "1027": tko509wb12.url,
+  "1028": tko509wb4.url,
   "987": ader987_1.url,
   "969": matrixBooster969.url,
   "964": clinicalMatrix964.url,

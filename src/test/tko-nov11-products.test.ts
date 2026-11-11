@@ -9,6 +9,12 @@ import ladder from "@/assets/products/tko/tko-281al-15-1.jpg.asset.json";
 import b3100 from "@/assets/products/tko/tko-3100.jpg.asset.json";
 import b3101 from "@/assets/products/tko/tko-3101.jpg.asset.json";
 import b3102 from "@/assets/products/tko/tko-3102.jpg.asset.json";
+import b3103 from "@/assets/products/tko/tko-3103.jpg.asset.json";
+import b3104 from "@/assets/products/tko/tko-3104.jpg.asset.json";
+import cmb10 from "@/assets/products/tko/tko-509cmb-10.jpg.asset.json";
+import sbt6 from "@/assets/products/tko/tko-509sbt-6.jpg.asset.json";
+import wb12 from "@/assets/products/tko/tko-509wb-12.jpg.asset.json";
+import wb4 from "@/assets/products/tko/tko-509wb-4.jpg.asset.json";
 
 const cases = [
   { sku: "TKO 143SCO-CM", id: "1017", must: "sold as a pair", photo: collar },
@@ -17,6 +23,12 @@ const cases = [
   { sku: "TKO 3100", id: "1020", must: "5-15 lb", color: "Orange, 1/4\"", photo: b3100 },
   { sku: "TKO 3101", id: "1021", must: "5-30 lb", color: "Red, 1/2\"", photo: b3101 },
   { sku: "TKO 3102", id: "1022", must: "20-60 lb", color: "Blue, 3/4\"", photo: b3102 },
+  { sku: "TKO 3103", id: "1023", must: "30-80 lb", color: "Green, 1 1/8\"", photo: b3103 },
+  { sku: "TKO 3104", id: "1024", must: "40-110 lb", color: "Silver, 1 3/4\"", photo: b3104 },
+  { sku: "TKO 509CMB-10", id: "1025", must: "10 lb medicine ball", photo: cmb10 },
+  { sku: "TKO 509SBT-6", id: "1026", must: "6 lb slam ball", photo: sbt6 },
+  { sku: "TKO 509WB-12", id: "1027", must: "12 lb soft-shell wall ball", photo: wb12 },
+  { sku: "TKO 509WB-4", id: "1028", must: "4 lb soft-shell wall ball", photo: wb4 },
 ];
 
 describe("TKO products requested Nov 11", () => {
