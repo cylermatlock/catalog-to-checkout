@@ -1,6 +1,7 @@
 {
   "_comment": "Customer-facing brand resolution for catalog.json. nameKeywords win over skuPrefix; skuOverrides win over everything. 'U-' pre-owned prefixes are stripped before lookup.",
   "skuOverrides": {
+    "RM WKAAW2B": "Drive Medical",
     "PHS ATT-300": "Pivotal Health Solutions",
     "FAB 77-0028": "ADC",
     "FAB 77-0029": "ADC",

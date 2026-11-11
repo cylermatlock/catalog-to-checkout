@@ -1,3 +1,4 @@
+import driveWkaaw2b from "@/assets/products/drive/drive-wkaaw2b-walker.jpg.asset.json";
 import tms730149 from "@/assets/products/tms/tms-730149-flat-top-wedge.jpg.asset.json";
 import tmsWedges from "@/assets/products/tms/tms-naugahyde-wedges.jpg.asset.json";
 import tms770001 from "@/assets/products/tms/tms-770001-001.jpg.asset.json";
@@ -204,6 +205,7 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "1064": driveWkaaw2b.url,
   "1056": tms730149.url,
   "1057": tmsWedges.url,
   "1058": tmsWedges.url,

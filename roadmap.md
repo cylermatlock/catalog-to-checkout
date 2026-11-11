@@ -60,6 +60,10 @@
 - [x] Add TMS 730004-099, 730008-001, 730010-001, 730143-(xxx), 730145-(xxx), 730147-(xxx) as items 1050–1055 with Tru-Medical photos, bullet points and details pages.
 - [x] Mirror photos, refresh quote catalog (728 products) and sitemap; 262 tests pass; pages, search and quote button verified.
 
+## Drive Medical ProBasics 2-button walker
+- [x] Add RM WKAAW2B aluminum 2-button walker w/ wheels, adult as item 1064 with Drive Medical photo, bullet points and details page.
+- [x] Mirror photo, refresh quote catalog (737 products) and sitemap; 280 tests pass; page, search and quote button verified.
+
 ## Tru-Medical wedges, hi-lo foot switch, hand dynamometer, lift boxes
 - [x] Add TMS 730149, 730154-(xxx), 730154-099, 730156, 770001-001, 770025-001, 770027-001 as items 1056–1063 (except 1060) with Tru-Medical photos, bullet points and details pages.
 - [x] Add TMS 730286-001 foot switch as item 1060 with bullet points and quote button only.

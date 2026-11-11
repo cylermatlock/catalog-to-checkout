@@ -1,3 +1,4 @@
+import driveWkaaw2b from "@/assets/products/drive/drive-wkaaw2b-walker.jpg.asset.json";
 import tms730149 from "@/assets/products/tms/tms-730149-flat-top-wedge.jpg.asset.json";
 import tmsWedges from "@/assets/products/tms/tms-naugahyde-wedges.jpg.asset.json";
 import tms770001 from "@/assets/products/tms/tms-770001-001.jpg.asset.json";
@@ -258,6 +259,19 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1064": {
+    productId: "1064", slug: "probasics-aluminum-2-button-walker-wheels-adult",
+    tagline: "Lightweight aluminum two-button folding walker with 5\" front wheels, adult size, 300 lb capacity.",
+    overview: ["The ProBasics Aluminum Two-Button Release Folding Walker gives maximum strength in a lightweight aluminum design. An easy-to-use push button folding mechanism provides an audible click when locked, and each side operates independently so the walker can be moved through narrow spaces while still giving stability while standing. The front cross brace sits near the top of the frame to allow a full stride.", "This adult model rolls on 5\" front wheels with rear glide caps so it slides easily and smoothly over most surfaces, and the vinyl contoured hand grips add comfort and long lasting wear. Height adjusts to fit users from 5'2\" to 6'4\", and the walker supports patients up to 300 pounds. It folds flat to 4\" deep for transport and storage, and the frame is backed by a limited lifetime warranty."],
+    highlights: ["Lightweight aluminum frame with maximum strength", "Two-button folding mechanism provides an audible click when locked", "5\" front wheels; rear glide caps let the walker slide smoothly over most surfaces", "Each side operates independently for narrow spaces and stability while standing", "Front cross brace near the top of the walker allows for a full stride", "Vinyl contoured hand grips for comfort and long lasting wear", "Adjustable height settings — adult size fits 5'2\" to 6'4\"", "Supports patient weights up to 300 pounds", "Folds flat to 4\" deep for transport and storage", "Limited lifetime warranty on the frame"],
+    gallery: [{ src: driveWkaaw2b.url, alt: "ProBasics aluminum two-button folding walker with 5 inch front wheels, adult size" }],
+    specGroups: [
+      { title: "Specifications", rows: [{ label: "SKU", value: "RM WKAAW2B" }, { label: "Size", value: "Adult" }, { label: "Front wheels", value: "5\"" }, { label: "Width inside hand grips", value: "17\"" }, { label: "Width inside base legs", value: "20\"" }, { label: "Depth opened at base", value: "17\"" }, { label: "Depth folded", value: "4\"" }, { label: "User height range", value: "5'2\" – 6'4\"" }, { label: "Weight capacity", value: "300 lbs" }, { label: "Product weight", value: "7.5 lbs" }, { label: "HCPCS", value: "E0143 (with wheels)" }, { label: "Warranty", value: "Limited lifetime on frame; 1 year on parts" }] },
+      { title: "Ordering", rows: [{ label: "Sold by", value: "Each" }, { label: "Manufacturer case pack", value: "4 each per case (4EA/CV)" }] },
+    ],
+    sourceUrl: "https://shop.drivemedical.com/us/en/products/mobility/probasics-aluminum-two-button-release-folding-walker-with-wheels-4cs/p/WKAAW2B",
+    seo: { title: "ProBasics Aluminum 2-Button Walker w/ Wheels, Adult — RM WKAAW2B | GM Therapy", description: "Lightweight aluminum two-button folding walker with 5\" front wheels, adult size, 300 lb capacity. Call or add to quote request for pricing." },
+  },
   "1056": {
     productId: "1056", slug: "gmts-naugahyde-flat-top-wedge-20x32x10",
     tagline: "20\" x 32\" x 10\" Naugahyde® flat-top positioning wedge.",
