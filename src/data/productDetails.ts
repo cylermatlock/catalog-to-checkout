@@ -1,3 +1,8 @@
+import tms710280_003 from "@/assets/products/tms/tms-710280-003.jpg.asset.json";
+import tms720050_002 from "@/assets/products/tms/tms-720050-002.jpg.asset.json";
+import tms720169_001 from "@/assets/products/tms/tms-720169-001.jpg.asset.json";
+import tms720806_001 from "@/assets/products/tms/tms-720806-001.jpg.asset.json";
+import tms730003 from "@/assets/products/tms/tms-730003.jpg.asset.json";
 import tko849mb10_1 from "@/assets/products/tko/tko-849mb-10-1.jpg.asset.json";
 import tko849mb10_2 from "@/assets/products/tko/tko-849mb-10-2.jpg.asset.json";
 import tko849mb10_3 from "@/assets/products/tko/tko-849mb-10-3.jpg.asset.json";
@@ -203,7 +208,7 @@ import bkMx1162_7 from "@/assets/products/bodykore/bk-mx1162-7.jpg.asset.json";
 import bkMx1162_8 from "@/assets/products/bodykore/bk-mx1162-8.jpg.asset.json";
 import bkMx1162_9 from "@/assets/products/bodykore/bk-mx1162-9.jpg.asset.json";
 import bkMx1162_10 from "@/assets/products/bodykore/bk-mx1162-10.jpg.asset.json";
-import tmsNestedStools from "@/assets/products/tms/tms-720105.png.asset.json";
+import tmsNestedStools from "@/assets/products/tms/tms-720105-001.jpg.asset.json";
 
 const STORAGE_BASE =
   "https://ltyuaimyfvihhoiluegd.supabase.co/storage/v1/object/public/product-gallery";
@@ -241,6 +246,56 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1045": {
+    productId: "1045", slug: "gmts-cloth-backed-reusable-electrode-2-75-round",
+    tagline: "2.75\" round cloth-backed reusable electrodes with dual layer gel, 4 per package.",
+    overview: ["These self-adhesive reusable electrodes have a soft cloth backing and a dual layer gel that increases the number of applications. A high quality carbon film delivers uniform current distribution.", "They work for all electrotherapy applications — TENS, EMS, FES and IF — and are made in the USA. Sold 4 electrodes per package."],
+    highlights: ["2.75\" round, cloth-backed self-adhesive electrode", "Dual layer gel increases the number of applications", "High quality carbon film for uniform current distribution", "For all electrotherapy applications: TENS, EMS, FES, IF", "4 electrodes per package", "Made in the USA"],
+    gallery: [{ src: tms710280_003.url, alt: "GMTS self-adhesive reusable electrodes, cloth-backed and foam-backed, with package" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 710280-003" }, { label: "Size", value: "2.75\" round" }, { label: "Backing", value: "Cloth" }, { label: "Gel", value: "Dual layer, self-adhesive" }, { label: "Conductive layer", value: "Carbon film" }, { label: "Applications", value: "TENS, EMS, FES, IF" }, { label: "Package", value: "4 electrodes" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/modalities/clinic-electrotherapy/electrodes/tru-carbon-reusable-electrodes/",
+    seo: { title: "GMTS Cloth-Backed Reusable Electrode 2.75\" Round — TMS 710280-003 | GM Therapy", description: "2.75\" round cloth-backed reusable electrodes, 4 per package, for TENS, EMS, FES and IF. Call or add to quote request for pricing." },
+  },
+  "1046": {
+    productId: "1046", slug: "gmts-pulley-system-no-scratch-door-handle",
+    tagline: "Overdoor shoulder pulley with a non-scratch metal door anchor padded with foam.",
+    overview: ["A cost-effective overdoor pulley designed to assist in shoulder rehabilitation. This model uses the standard pulley with the non-scratch door anchor — a metal anchor with foam pads that hooks over most conventional doors without marking them.", "The rope runs through the pulley with a wooden handle at each end for assisted range-of-motion exercises at home or in the clinic. Made in the USA."],
+    highlights: ["Cost-effective overdoor pulley for shoulder rehabilitation", "Standard pulley with non-scratch door anchor", "Metal door anchor with foam pads protects the door", "Rope with two wooden handles", "Made in the USA"],
+    gallery: [{ src: tms720050_002.url, alt: "GMTS pulley system with rope, wooden handles and door anchor options" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 720050-002" }, { label: "Pulley", value: "Standard" }, { label: "Door anchor", value: "Non-scratch metal anchor with foam pads" }, { label: "Handles", value: "Wooden, 2" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/therapeutic-exercise/home-pulleys/tru-pulley-systems/",
+    seo: { title: "GMTS Pulley System w/No Scratch Door Handle — TMS 720050-002 | GM Therapy", description: "Overdoor shoulder pulley with non-scratch padded metal door anchor. Call or add to quote request for pricing." },
+  },
+  "1047": {
+    productId: "1047", slug: "gmts-deluxe-oak-mobile-posture-mirror-natural-oak",
+    tagline: "Full-length mobile posture mirror in a natural solid oak frame on four casters.",
+    overview: ["The GMTS Deluxe Oak Mobile Posture Mirror is hand-crafted from high quality solid oak in a natural oak finish, with all wood surfaces sealed in durable clear polyurethane.", "A 0.25\" distortion-free mirror lets patients watch their form during posture, gait and exercise training, and four easy-rolling casters make it simple to move around the clinic. Glass size is 23\" x 67\" and overall size is 28\" x 79\". Made in the USA."],
+    highlights: ["Hand-crafted with high quality solid oak — natural oak finish", "All wood surfaces finished with durable clear polyurethane", "0.25\" distortion-free mirror", "Four easy-rolling casters", "Glass size 23\" x 67\"; overall size 28\" x 79\"", "Made in the USA"],
+    gallery: [{ src: tms720169_001.url, alt: "GMTS Deluxe Oak Mobile Posture Mirror in natural oak with a patient exercising" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 720169-001" }, { label: "Frame", value: "Solid oak, natural finish, clear polyurethane" }, { label: "Mirror", value: "0.25\" distortion-free" }, { label: "Glass size", value: "23\" x 67\"" }, { label: "Overall size", value: "28\" x 79\"" }, { label: "Casters", value: "4 easy-rolling" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/balance-stability/tru-deluxe-mobile-posture-mirror/",
+    seo: { title: "GMTS Deluxe Oak Mobile Posture Mirror, Natural Oak — TMS 720169-001 | GM Therapy", description: "Natural solid oak mobile posture mirror, 23\" x 67\" distortion-free glass on four casters. Call or add to quote request for pricing." },
+  },
+  "1048": {
+    productId: "1048", slug: "gmts-deluxe-wall-mount-pulley",
+    tagline: "Oak wall-mounted shoulder pulley for range of motion exercises in the clinic.",
+    overview: ["The GMTS Deluxe Wall Mount Pulley offers range of motion exercises for the shoulder in the clinic and is a great transition to home shoulder pulley systems.", "It is made from 3/4\" oak plywood with rope, pulley and wooden handles, measures 18\" H x 5\" W x 20\" D, and is made in the USA."],
+    highlights: ["Wall-mounted pulley for shoulder range of motion exercises in the clinic", "A great transition to home shoulder pulley systems", "Made from 3/4\" oak plywood, rope and pulley", "Dimensions: 18\" H x 5\" W x 20\" D", "Made in the USA"],
+    gallery: [{ src: tms720806_001.url, alt: "GMTS Deluxe Wall Mount Pulley in use for overhead shoulder range of motion" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 720806-001" }, { label: "Material", value: "3/4\" oak plywood, rope and pulley" }, { label: "Dimensions", value: "18\" H x 5\" W x 20\" D" }, { label: "Mounting", value: "Wall mount" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/therapeutic-exercise/equipment/tru-deluxe-wall-mount-pulley/",
+    seo: { title: "GMTS Deluxe Wall Mount Pulley — TMS 720806-001 | GM Therapy", description: "Oak wall-mounted shoulder pulley for clinic range of motion exercises. Call or add to quote request for pricing." },
+  },
+  "1049": {
+    productId: "1049", slug: "gmts-standard-oak-treatment-table-30x72",
+    tagline: "30\" x 72\" oak treatment table with a fixed 30\" surface, H-brace and 400 lb capacity.",
+    overview: ["The GMTS Standard Oak Treatment Table is hand-crafted from high quality oak plywood with solid oak legs, and all wood surfaces are finished with durable clear polyurethane. The top carries 1½\" medium-density foam under durable Naugahyde® upholstery, and an \"H\" brace is standard for extra stability.", "This 30\" W x 72\" L model has a 30\" surface height, is offered in 8 stocking Naugahyde® colors and has a 400 lb weight capacity. Options such as a shelf, lift back and face hole are available — call 940-334-5169 and we will help you build the table to fit your clinic. Made in the USA."],
+    highlights: ["Hand-crafted with high quality oak plywood and solid oak legs", "All wood surfaces finished with durable clear polyurethane", "1½\" medium-density foam top with durable Naugahyde® upholstery", "\"H\" brace standard for extra stability", "30\" W x 72\" L surface, 30\" surface height", "Offered in 8 stocking Naugahyde® colors", "Weight capacity: 400 lbs", "Made in the USA"],
+    gallery: [{ src: tms730003.url, alt: "GMTS Standard Oak Treatment Table with navy Naugahyde upholstery" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730003-(xxx)" }, { label: "Frame", value: "Oak plywood with solid oak legs, clear polyurethane finish" }, { label: "Top", value: "1½\" medium-density foam with Naugahyde® upholstery" }, { label: "Brace", value: "\"H\" brace standard" }, { label: "Surface size", value: "30\" W x 72\" L" }, { label: "Surface height", value: "30\"" }, { label: "Upholstery colors", value: "8 stocking Naugahyde® colors" }, { label: "Weight capacity", value: "400 lbs" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/treatment-tables/fixed-height/tru-standard-oak-treatment-tables/",
+    seo: { title: "GMTS 30\" x 72\" Standard Oak Treatment Table — TMS 730003 | GM Therapy", description: "30\" x 72\" oak treatment table with 30\" surface, H-brace and 400 lb capacity. Call or add to quote request for pricing." },
+  },
   "1023": {
     productId: "1023", slug: "tko-3103-strength-band-average-light",
     tagline: "Average Light latex-free strength band, 30-80 lb resistance.",
@@ -19954,13 +20009,13 @@ export const productDetails: Record<string, ProductDetail> = {
     seo: { title: "Push/Pull Weight Sled with 4 Weight Posts | GM Therapy", description: "Push/pull weight sled with hardwood platform and 4 weight posts. Call or add to quote request for pricing." },
   },
   "859": {
-    productId: "859", slug: "nested-climbing-stools", tagline: "Four solid oak climbing stools that nest together for compact storage.",
-    overview: ["The TMS Nested Climbing Stools are a set of four solid oak stools that nest inside one another for compact storage. Each stool has a non-slip carpet top for secure footing during climbing, stepping, and balance activities.", "Use them individually as stepping stools in gait and balance training, or as versatile foot stools and seating around the clinic."],
-    highlights: ["Set of 4 solid oak climbing stools", "Nest inside each other for compact storage", "Non-slip carpet top on every stool", "Doubles as stepping stones or foot stools", "Sturdy hardwood construction with reinforced corners"],
-    gallery: [{ src: tmsNestedStools.url, alt: "Nested Climbing Stools — set of 4 solid oak stools with carpet tops" }],
-    specGroups: [{ title: "Specifications", rows: [{ label: "Pieces", value: "4 nested stools" }, { label: "Construction", value: "Solid oak with carpet tops" }, { label: "Use", value: "Climbing, stepping, balance, and gait training" }] }],
-    sourceUrl: "",
-    seo: { title: "TMS 720105-001 Nested Climbing Stools | GM Therapy", description: "Set of 4 solid oak nested climbing stools with non-slip carpet tops. Call or add to quote request for pricing." },
+    productId: "859", slug: "nested-climbing-stools", tagline: "Set of four oak climbing stools with anti-slip treads that nest together for storage.",
+    overview: ["The GMTS Deluxe Nested Climbing Stools are a valuable tool for ambulation training, giving patients a stable and secure platform to practice stepping and walking motions with confidence. The four heights let you progress training step by step.", "Each stool is made of 3/4\" oak plywood finished in durable clear polyurethane, with anti-slip treads on every platform. The set nests together for storage, holds up to 350 lbs and is made in the USA."],
+    highlights: ["Set of 4 stools which nest for storage", "Made of 3/4\" oak plywood", "Wood surfaces finished with durable clear polyurethane", "Anti-slip treads standard on all platforms", "One stool each: 2\", 4\", 6\" and 8\" high", "Weight capacity: 350 lbs", "Made in the USA"],
+    gallery: [{ src: tmsNestedStools.url, alt: "GMTS Deluxe Nested Climbing Stools — set of 4 oak stools with anti-slip treads" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 720105-001" }, { label: "Pieces", value: "4 nesting stools" }, { label: "Construction", value: "3/4\" oak plywood, clear polyurethane finish" }, { label: "Treads", value: "Anti-slip on all platforms" }, { label: "Stool sizes", value: "2\"H x 10.5\"W x 12\"L; 4\"H x 12.5\"W x 14\"L; 6\"H x 14.5\"W x 17.75\"L; 8\"H x 16.5\"W x 21\"L" }, { label: "Weight capacity", value: "350 lbs" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/clinic-products/therapeutic-exercise/equipment/tru-deluxe-nested-climbing-stools/",
+    seo: { title: "GMTS Deluxe Nested Climbing Stools — TMS 720105-001 | GM Therapy", description: "Set of 4 nesting oak climbing stools, 2\" to 8\" high, with anti-slip treads. Call or add to quote request for pricing." },
   },
   "862": {
     productId: "862", slug: "armedica-am-850-flexion-stool", tagline: "Height-adjustable flexion stool for Armedica traction tables.",

@@ -1,6 +1,116 @@
 {
-  "generatedAt": "2026-11-11T19:21:17.959Z",
+  "generatedAt": "2026-11-11T19:35:17.182Z",
   "products": [
+    {
+      "id": "1045",
+      "sku": "TMS 710280-003",
+      "aliasSkus": [],
+      "name": "GMTS Cloth-Backed Reusable Electrode, 2.75\" Round 4/Pkg.",
+      "brand": "GM Therapy Solutions",
+      "category": "Clinical Supplies",
+      "subcategory": "Electrodes & Supplies",
+      "condition": "new",
+      "image": "/catalog-assets/509325f0-7da0-4d69-b9cf-27c0d9396809/tms-710280-003.jpg",
+      "images": [
+        "/catalog-assets/509325f0-7da0-4d69-b9cf-27c0d9396809/tms-710280-003.jpg"
+      ],
+      "description": [
+        "2.75\" round, cloth-backed self-adhesive electrode",
+        "Dual layer gel increases the number of applications",
+        "High quality carbon film for uniform current distribution",
+        "For all electrotherapy applications: TENS, EMS, FES, IF",
+        "4 electrodes per package",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1046",
+      "sku": "TMS 720050-002",
+      "aliasSkus": [],
+      "name": "GMTS Pulley System w/No Scratch Door Handle",
+      "brand": "GM Therapy Solutions",
+      "category": "Clinical Supplies",
+      "subcategory": "Shoulder Rehab",
+      "condition": "new",
+      "image": "/catalog-assets/6874a122-f29f-4080-a659-ee5279597afb/tms-720050-002.jpg",
+      "images": [
+        "/catalog-assets/6874a122-f29f-4080-a659-ee5279597afb/tms-720050-002.jpg"
+      ],
+      "description": [
+        "Cost-effective overdoor pulley for shoulder rehabilitation",
+        "Standard pulley with non-scratch door anchor",
+        "Metal door anchor with foam pads protects the door",
+        "Rope with two wooden handles",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1047",
+      "sku": "TMS 720169-001",
+      "aliasSkus": [],
+      "name": "GMTS Deluxe Oak Mobile Posture Mirror, Natural Oak",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Other",
+      "condition": "new",
+      "image": "/catalog-assets/13643641-21b2-40d4-8e9e-9bff696e5f61/tms-720169-001.jpg",
+      "images": [
+        "/catalog-assets/13643641-21b2-40d4-8e9e-9bff696e5f61/tms-720169-001.jpg"
+      ],
+      "description": [
+        "Hand-crafted with high quality solid oak — natural oak finish",
+        "All wood surfaces finished with durable clear polyurethane",
+        "0.25\" distortion-free mirror",
+        "Four easy-rolling casters",
+        "Glass size 23\" x 67\"; overall size 28\" x 79\"",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1048",
+      "sku": "TMS 720806-001",
+      "aliasSkus": [],
+      "name": "GMTS Deluxe Wall Mount Pulley",
+      "brand": "GM Therapy Solutions",
+      "category": "Clinical Supplies",
+      "subcategory": "Shoulder Rehab",
+      "condition": "new",
+      "image": "/catalog-assets/a3904640-0e82-43b8-afc1-6355a1804e0d/tms-720806-001.jpg",
+      "images": [
+        "/catalog-assets/a3904640-0e82-43b8-afc1-6355a1804e0d/tms-720806-001.jpg"
+      ],
+      "description": [
+        "Wall-mounted pulley for shoulder range of motion exercises in the clinic",
+        "A great transition to home shoulder pulley systems",
+        "Made from 3/4\" oak plywood, rope and pulley",
+        "Dimensions: 18\" H x 5\" W x 20\" D",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1049",
+      "sku": "TMS 730003-(xxx)",
+      "aliasSkus": [],
+      "name": "GMTS 30\" X 72\" Standard Oak Treatment Table",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Wood Treatment Tables",
+      "condition": "new",
+      "image": "/catalog-assets/b2874b2e-7a96-4b4e-b470-c325a20340d1/tms-730003.jpg",
+      "images": [
+        "/catalog-assets/b2874b2e-7a96-4b4e-b470-c325a20340d1/tms-730003.jpg"
+      ],
+      "description": [
+        "Hand-crafted with high quality oak plywood and solid oak legs",
+        "All wood surfaces finished with durable clear polyurethane",
+        "1½\" medium-density foam top with durable Naugahyde® upholstery",
+        "\"H\" brace standard for extra stability",
+        "30\" W x 72\" L surface, 30\" surface height",
+        "Offered in 8 stocking Naugahyde® colors",
+        "Weight capacity: 400 lbs",
+        "Made in the USA"
+      ]
+    },
     {
       "id": "1014",
       "sku": "SAA C575R",
@@ -6874,21 +6984,23 @@
       "id": "859",
       "sku": "TMS 720105-001",
       "aliasSkus": [],
-      "name": "Nested Climbing Stools",
+      "name": "GMTS Deluxe Nested Climbing Stools",
       "brand": "GM Therapy Solutions",
       "category": "Rehab Furniture",
       "subcategory": "Stools",
       "condition": "new",
-      "image": "/catalog-assets/baf2fdb6-a67f-4e0f-a37b-33280232087d/tms-720105.png",
+      "image": "/catalog-assets/a9f140fa-d48d-4197-a7a2-c4e8d0f83ac6/tms-720105-001.jpg",
       "images": [
-        "/catalog-assets/baf2fdb6-a67f-4e0f-a37b-33280232087d/tms-720105.png"
+        "/catalog-assets/a9f140fa-d48d-4197-a7a2-c4e8d0f83ac6/tms-720105-001.jpg"
       ],
       "description": [
-        "Set of 4 solid oak climbing stools that nest inside each other",
-        "Non-slip carpet top on every stool",
-        "Doubles as stepping stones or foot stools in gait and balance training",
-        "Sturdy hardwood construction with reinforced corners",
-        "Compact storage — the full set nests into one small footprint"
+        "Set of 4 stools which nest for storage",
+        "Made of 3/4\" oak plywood",
+        "Wood surfaces finished with durable clear polyurethane",
+        "Anti-slip treads standard on all platforms",
+        "One stool each: 2\", 4\", 6\" and 8\" high",
+        "Weight capacity: 350 lbs",
+        "Made in the USA"
       ]
     },
     {

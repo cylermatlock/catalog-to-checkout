@@ -1,3 +1,8 @@
+import tms710280_003 from "@/assets/products/tms/tms-710280-003.jpg.asset.json";
+import tms720050_002 from "@/assets/products/tms/tms-720050-002.jpg.asset.json";
+import tms720169_001 from "@/assets/products/tms/tms-720169-001.jpg.asset.json";
+import tms720806_001 from "@/assets/products/tms/tms-720806-001.jpg.asset.json";
+import tms730003 from "@/assets/products/tms/tms-730003.jpg.asset.json";
 import tko849mb10_1 from "@/assets/products/tko/tko-849mb-10-1.jpg.asset.json";
 import tko849mb10_2 from "@/assets/products/tko/tko-849mb-10-2.jpg.asset.json";
 import tko849mb10_3 from "@/assets/products/tko/tko-849mb-10-3.jpg.asset.json";
@@ -151,7 +156,7 @@ import matrixLhrKit from "@/assets/products/matrix/matrix-lifestyle-lhr-handrail
 import phsWcws from "@/assets/products/phs/phs-wcws.png.asset.json";
 import bkMx1161fx_1 from "@/assets/products/bodykore/bk-mx1161fx-1.jpg.asset.json";
 import bkMx1162_1 from "@/assets/products/bodykore/bk-mx1162-1.jpg.asset.json";
-import tmsNestedStools from "@/assets/products/tms/tms-720105.png.asset.json";
+import tmsNestedStools from "@/assets/products/tms/tms-720105-001.jpg.asset.json";
 
 import fab002502 from "@/assets/products/fab/00-2502.jpg.asset.json";
 import fab048038 from "@/assets/products/fab/04-8038.jpg.asset.json";
@@ -187,6 +192,11 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "1045": tms710280_003.url,
+  "1046": tms720050_002.url,
+  "1047": tms720169_001.url,
+  "1048": tms720806_001.url,
+  "1049": tms730003.url,
   "1016": smartCuffs4_1.url,
   "1015": smartCuffs4_1.url,
   "1014": saaC575r1.url,

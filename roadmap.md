@@ -49,3 +49,9 @@
 ## TKO med ball rack, 5/10 lb kettlebells, AirRaid rower, landmine
 - [x] Add TKO 849MB-10, 857KBV-10, 857KBV-5, 8AR, 99ACC-P as items 1040–1044 with TKO photos, bullet points and details pages.
 - [x] Mirror photos, refresh quote catalog (717 products) and sitemap; 238 tests pass; pages, search and quote button verified.
+- [x] Mirror photos, refresh quote catalog (717 products) and sitemap; run tests and verify pages and quote button.
+
+## Tru-Medical electrode, pulleys, posture mirror, nested stools, treatment table
+- [x] Add TMS 710280-003, 720050-002, 720169-001, 720806-001, 730003-(xxx) as items 1045–1049 with Tru-Medical photos, bullet points and details pages.
+- [x] Refresh existing item 859 (TMS 720105-001) with official bullets, sizes and photo instead of duplicating it.
+- [x] Mirror photos, refresh quote catalog (722 products) and sitemap; 250 tests pass; pages, search and quote button verified.
