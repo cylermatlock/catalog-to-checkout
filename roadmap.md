@@ -69,3 +69,7 @@
 - [x] Add TMS 730286-001 foot switch as item 1060 with bullet points and quote button only.
 - [ ] TMS 730286-001 foot switch photo and details — blocked: not on Tru-Medical's site; waiting on a photo/spec from the user.
 - [x] Refresh quote catalog (736 products) and sitemap; 277 tests pass; pages, search and quote button verified.
+
+## Therm-X garments
+- [x] Add TXT TX0101, TX0102, TX0105, TX0108, TX0111, TX0112 as items 1065–1070 with official Therm-X/Mueller photos, bullet points, details pages and IFU links.
+- [x] Mirror photos, refresh quote catalog (743 products) and sitemap; 286 tests pass; pages, search and quote button verified.

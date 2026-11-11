@@ -1,6 +1,150 @@
 {
-  "generatedAt": "2026-11-11T20:01:53.649Z",
+  "generatedAt": "2026-11-11T20:11:05.379Z",
   "products": [
+    {
+      "id": "1065",
+      "sku": "TXT TX0101",
+      "aliasSkus": [],
+      "name": "Therm-X Shoulder Garment (Durable)",
+      "brand": "Therm-X",
+      "category": "Compression",
+      "subcategory": "Cold Compression",
+      "condition": "new",
+      "image": "/catalog-assets/4d6558d8-b71b-44e7-9113-c8a7c7401e6a/therm-x-tx0101-shoulder.jpg",
+      "images": [
+        "/catalog-assets/4d6558d8-b71b-44e7-9113-c8a7c7401e6a/therm-x-tx0101-shoulder.jpg"
+      ],
+      "description": [
+        "Shoulder garment for the Therm-X AT heat, cold, contrast and compression unit",
+        "Multi-patient use inflatable wrap for thermal treatment of the shoulder",
+        "Delivers cold, heat or contrast therapy combined with pneumatic compression",
+        "Sealed coolant path directs coolant to a calibrated anatomical treatment area",
+        "Quick connect hose fitting with self-sealing valves helps prevent coolant loss",
+        "Ripstop nylon inner face with waterproof backing prevents mold and mildew after cleaning",
+        "Bilateral, one size fits most — no need to buy lefts and rights",
+        "High-end Velcro made to last the life of the garment"
+      ]
+    },
+    {
+      "id": "1066",
+      "sku": "TXT TX0102",
+      "aliasSkus": [],
+      "name": "Therm-X Knee Garment",
+      "brand": "Therm-X",
+      "category": "Compression",
+      "subcategory": "Cold Compression",
+      "condition": "new",
+      "image": "/catalog-assets/69986f43-4750-458f-b93e-2a894d367ad7/therm-x-tx0102-knee.jpg",
+      "images": [
+        "/catalog-assets/69986f43-4750-458f-b93e-2a894d367ad7/therm-x-tx0102-knee.jpg"
+      ],
+      "description": [
+        "Knee garment for the Therm-X AT heat, cold, contrast and compression unit",
+        "Multi-patient use inflatable wrap for thermal treatment of the knee",
+        "Delivers cold, heat or contrast therapy combined with pneumatic compression",
+        "Sealed coolant path directs coolant to a calibrated anatomical treatment area",
+        "Quick connect hose fitting with self-sealing valves helps prevent coolant loss",
+        "Ripstop nylon inner face with waterproof backing prevents mold and mildew after cleaning",
+        "Bilateral, one size fits most — no need to buy lefts and rights",
+        "High-end Velcro made to last the life of the garment"
+      ]
+    },
+    {
+      "id": "1067",
+      "sku": "TXT TX0105",
+      "aliasSkus": [],
+      "name": "Therm-X Back Garment",
+      "brand": "Therm-X",
+      "category": "Compression",
+      "subcategory": "Cold Compression",
+      "condition": "new",
+      "image": "/catalog-assets/a9650d49-98bd-4753-8929-e1b943d65f5d/therm-x-tx0105-back.jpg",
+      "images": [
+        "/catalog-assets/a9650d49-98bd-4753-8929-e1b943d65f5d/therm-x-tx0105-back.jpg"
+      ],
+      "description": [
+        "Back garment for the Therm-X AT heat, cold, contrast and compression unit",
+        "Multi-patient use inflatable wrap for thermal treatment of the back",
+        "Delivers cold, heat or contrast therapy combined with pneumatic compression",
+        "Sealed coolant path directs coolant to a calibrated anatomical treatment area",
+        "Quick connect hose fitting with self-sealing valves helps prevent coolant loss",
+        "Ripstop nylon inner face with waterproof backing prevents mold and mildew after cleaning",
+        "Bilateral, one size fits most — no need to buy lefts and rights",
+        "High-end Velcro made to last the life of the garment"
+      ]
+    },
+    {
+      "id": "1068",
+      "sku": "TXT TX0108",
+      "aliasSkus": [],
+      "name": "Therm-X Hip Garment",
+      "brand": "Therm-X",
+      "category": "Compression",
+      "subcategory": "Cold Compression",
+      "condition": "new",
+      "image": "/catalog-assets/cea4a0c0-1c0d-4516-84d9-cae8725bd80b/therm-x-tx0108-hip.jpg",
+      "images": [
+        "/catalog-assets/cea4a0c0-1c0d-4516-84d9-cae8725bd80b/therm-x-tx0108-hip.jpg"
+      ],
+      "description": [
+        "Hip garment for the Therm-X AT heat, cold, contrast and compression unit",
+        "Multi-patient use inflatable wrap for thermal treatment of the hip",
+        "Delivers cold, heat or contrast therapy combined with pneumatic compression",
+        "Sealed coolant path directs coolant to a calibrated anatomical treatment area",
+        "Quick connect hose fitting with self-sealing valves helps prevent coolant loss",
+        "Ripstop nylon inner face with waterproof backing prevents mold and mildew after cleaning",
+        "Bilateral, one size fits most — no need to buy lefts and rights",
+        "High-end Velcro made to last the life of the garment"
+      ]
+    },
+    {
+      "id": "1069",
+      "sku": "TXT TX0111",
+      "aliasSkus": [],
+      "name": "Therm-X Half Leg Boot",
+      "brand": "Therm-X",
+      "category": "Compression",
+      "subcategory": "Cold Compression",
+      "condition": "new",
+      "image": "/catalog-assets/e75542cd-f3ef-40fe-afbe-c9de54df76b4/therm-x-tx0111-half-leg-boot.jpg",
+      "images": [
+        "/catalog-assets/e75542cd-f3ef-40fe-afbe-c9de54df76b4/therm-x-tx0111-half-leg-boot.jpg"
+      ],
+      "description": [
+        "Lower leg garment for the Therm-X AT heat, cold, contrast and compression unit",
+        "Multi-patient use inflatable wrap for thermal treatment of the lower leg",
+        "Delivers cold, heat or contrast therapy combined with pneumatic compression",
+        "Sealed coolant path directs coolant to a calibrated anatomical treatment area",
+        "Quick connect hose fitting with self-sealing valves helps prevent coolant loss",
+        "Ripstop nylon inner face with waterproof backing prevents mold and mildew after cleaning",
+        "Bilateral, one size fits most — no need to buy lefts and rights",
+        "High-end Velcro made to last the life of the garment"
+      ]
+    },
+    {
+      "id": "1070",
+      "sku": "TXT TX0112",
+      "aliasSkus": [],
+      "name": "Therm-X Hand/Wrist Garment (Durable)",
+      "brand": "Therm-X",
+      "category": "Compression",
+      "subcategory": "Cold Compression",
+      "condition": "new",
+      "image": "/catalog-assets/eb60ae0b-a940-43ce-8781-04201c1a070f/therm-x-tx0112-hand-wrist.jpg",
+      "images": [
+        "/catalog-assets/eb60ae0b-a940-43ce-8781-04201c1a070f/therm-x-tx0112-hand-wrist.jpg"
+      ],
+      "description": [
+        "Hand/wrist garment for the Therm-X AT heat, cold, contrast and compression unit",
+        "Multi-patient use inflatable wrap for thermal treatment of the hand and wrist",
+        "Delivers cold, heat or contrast therapy combined with pneumatic compression",
+        "Sealed coolant path directs coolant to a calibrated anatomical treatment area",
+        "Quick connect hose fitting with self-sealing valves helps prevent coolant loss",
+        "Ripstop nylon inner face with waterproof backing prevents mold and mildew after cleaning",
+        "Bilateral, one size fits most — no need to buy lefts and rights",
+        "High-end Velcro made to last the life of the garment"
+      ]
+    },
     {
       "id": "1064",
       "sku": "RM WKAAW2B",
