@@ -1,6 +1,179 @@
 {
-  "generatedAt": "2026-11-11T19:47:47.364Z",
+  "generatedAt": "2026-11-11T19:56:18.356Z",
   "products": [
+    {
+      "id": "1056",
+      "sku": "TMS 730149-(xxx)",
+      "aliasSkus": [],
+      "name": "GMTS Naugahyde Flat-Top Wedge 20\" x 32\" x 10\"",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Bolsters & Wedges",
+      "condition": "new",
+      "image": "/catalog-assets/3985effc-63ad-4afb-a01e-8f4698f33d98/tms-730149-flat-top-wedge.jpg",
+      "images": [
+        "/catalog-assets/3985effc-63ad-4afb-a01e-8f4698f33d98/tms-730149-flat-top-wedge.jpg"
+      ],
+      "description": [
+        "20\" x 32\" x 10\" flat-top wedge",
+        "Versatile wedge for positioning patients",
+        "Flat-surfaced shape used to build head control, sitting balance, trunk control and upper extremity function",
+        "High density urethane foam with durable Naugahyde® upholstery",
+        "Offered in 11 stocking Naugahyde® colors",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1057",
+      "sku": "TMS 730154-(xxx)",
+      "aliasSkus": [],
+      "name": "GMTS Naugahyde Wedge, 10\" x 20\" x 22\"",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Bolsters & Wedges",
+      "condition": "new",
+      "image": "/catalog-assets/348637b6-a3bf-4453-8c8a-3fa89dca7589/tms-naugahyde-wedges.jpg",
+      "images": [
+        "/catalog-assets/348637b6-a3bf-4453-8c8a-3fa89dca7589/tms-naugahyde-wedges.jpg"
+      ],
+      "description": [
+        "10\" x 20\" x 22\" wedge",
+        "Versatile wedge for positioning patients",
+        "Flat-surfaced shape used to build head control, sitting balance, trunk control and upper extremity function",
+        "High density urethane foam with durable Naugahyde® upholstery",
+        "Offered in 11 stocking Naugahyde® colors",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1058",
+      "sku": "TMS 730154-099",
+      "aliasSkus": [],
+      "name": "GMTS Naugahyde Wedge, 10\" x 20\" x 22\", Custom Color",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Bolsters & Wedges",
+      "condition": "new",
+      "image": "/catalog-assets/348637b6-a3bf-4453-8c8a-3fa89dca7589/tms-naugahyde-wedges.jpg",
+      "images": [
+        "/catalog-assets/348637b6-a3bf-4453-8c8a-3fa89dca7589/tms-naugahyde-wedges.jpg"
+      ],
+      "description": [
+        "10\" x 20\" x 22\" wedge",
+        "Custom Naugahyde® color — specify color with your quote request",
+        "Versatile wedge for positioning patients",
+        "Flat-surfaced shape used to build head control, sitting balance, trunk control and upper extremity function",
+        "High density urethane foam with durable Naugahyde® upholstery",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1059",
+      "sku": "TMS 730156-(xxx)",
+      "aliasSkus": [],
+      "name": "GMTS Naugahyde Wedge, 12\" x 24\" x 28\"",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Bolsters & Wedges",
+      "condition": "new",
+      "image": "/catalog-assets/348637b6-a3bf-4453-8c8a-3fa89dca7589/tms-naugahyde-wedges.jpg",
+      "images": [
+        "/catalog-assets/348637b6-a3bf-4453-8c8a-3fa89dca7589/tms-naugahyde-wedges.jpg"
+      ],
+      "description": [
+        "12\" x 24\" x 28\" wedge",
+        "Versatile wedge for positioning patients",
+        "Flat-surfaced shape used to build head control, sitting balance, trunk control and upper extremity function",
+        "High density urethane foam with durable Naugahyde® upholstery",
+        "Offered in 11 stocking Naugahyde® colors",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1060",
+      "sku": "TMS 730286-001",
+      "aliasSkus": [],
+      "name": "GMTS Optional Foot Switch for Hi-lo Mat Tables",
+      "brand": "GM Therapy Solutions",
+      "category": "Rehab Furniture",
+      "subcategory": "Hi-Lo Tables",
+      "condition": "new",
+      "image": null,
+      "images": [],
+      "description": [
+        "Optional foot switch for GMTS electric hi-lo mat tables",
+        "Raise and lower the table by foot, keeping hands free for the patient",
+        "Add-on to the standard hand control"
+      ]
+    },
+    {
+      "id": "1061",
+      "sku": "TMS 770001-001",
+      "aliasSkus": [],
+      "name": "GMTS 200lb. Deluxe Hydraulic Hand Dynamometer",
+      "brand": "GM Therapy Solutions",
+      "category": "Work Hardening",
+      "subcategory": "Work Hardening",
+      "condition": "new",
+      "image": "/catalog-assets/5883e083-10f5-46f3-b825-40ace562e8d0/tms-770001-001.jpg",
+      "images": [
+        "/catalog-assets/5883e083-10f5-46f3-b825-40ace562e8d0/tms-770001-001.jpg"
+      ],
+      "description": [
+        "Reliable grip-force evaluations from 0 to 200 lbs (0 to 90 kg)",
+        "Dual scale readout in lb and kg",
+        "Peak-hold needle retains the highest reading until reset",
+        "Handle adjusts to five grip positions from 1 3/8\" to 3 3/8\" in half-inch increments",
+        "Includes carrying case",
+        "Two year warranty"
+      ]
+    },
+    {
+      "id": "1062",
+      "sku": "TMS 770025-001",
+      "aliasSkus": [],
+      "name": "GMTS Large Lift Box 80 lb. Capacity, 13\" x 13\" x 16.25\"",
+      "brand": "GM Therapy Solutions",
+      "category": "Work Hardening",
+      "subcategory": "Work Hardening",
+      "condition": "new",
+      "image": "/catalog-assets/8ec0765c-b519-45ac-891f-cdecaa3a6cbe/tms-770025-001.jpg",
+      "images": [
+        "/catalog-assets/8ec0765c-b519-45ac-891f-cdecaa3a6cbe/tms-770025-001.jpg"
+      ],
+      "description": [
+        "Large lift box — 13\" x 13\" x 16.25\"",
+        "80 lb capacity",
+        "Provides functional capacity evaluation of material handling activities",
+        "Removable plate weight holders and hinged lid",
+        "Natural finish oak plywood",
+        "Plate weights sold separately",
+        "Made in the USA"
+      ]
+    },
+    {
+      "id": "1063",
+      "sku": "TMS 770027-001",
+      "aliasSkus": [],
+      "name": "GMTS Standard Lift Box 100 lb. Capacity, 14\" x 14\" x 17\"",
+      "brand": "GM Therapy Solutions",
+      "category": "Work Hardening",
+      "subcategory": "Work Hardening",
+      "condition": "new",
+      "image": "/catalog-assets/45dd4d9f-e0f8-442c-ad4a-e5b2d81c4223/tms-770027-001.jpg",
+      "images": [
+        "/catalog-assets/45dd4d9f-e0f8-442c-ad4a-e5b2d81c4223/tms-770027-001.jpg"
+      ],
+      "description": [
+        "Standard lift box — 14\" x 14\" x 17\"",
+        "100 lb capacity",
+        "Provides functional capacity evaluation of material handling activities",
+        "Removable plate weight holders and hinged lid",
+        "Natural finish oak plywood",
+        "Plate weights sold separately",
+        "Made in the USA"
+      ]
+    },
     {
       "id": "1050",
       "sku": "TMS 730004-099",

@@ -1,3 +1,9 @@
+import tms730149 from "@/assets/products/tms/tms-730149-flat-top-wedge.jpg.asset.json";
+import tmsWedges from "@/assets/products/tms/tms-naugahyde-wedges.jpg.asset.json";
+import tms770001 from "@/assets/products/tms/tms-770001-001.jpg.asset.json";
+import tms770025 from "@/assets/products/tms/tms-770025-001.jpg.asset.json";
+import tms770027 from "@/assets/products/tms/tms-770027-001.jpg.asset.json";
+import tmsLiftBoxes from "@/assets/products/tms/tms-lift-boxes-group.jpg.asset.json";
 import tms730004_099 from "@/assets/products/tms/tms-730004-099.jpg.asset.json";
 import tms730008_001 from "@/assets/products/tms/tms-730008-001.jpg.asset.json";
 import tms730010_001 from "@/assets/products/tms/tms-730010-001.jpg.asset.json";
@@ -252,6 +258,76 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1056": {
+    productId: "1056", slug: "gmts-naugahyde-flat-top-wedge-20x32x10",
+    tagline: "20\" x 32\" x 10\" Naugahyde® flat-top positioning wedge.",
+    overview: ["High quality specialty wedges offer great versatility in positioning patients and are used to build head control, sitting balance, trunk control and upper extremity function.", "This 20\" x 32\" x 10\" flat-top wedge is made with high density urethane foam and covered with durable Naugahyde® upholstery. It is offered in 11 stocking Naugahyde® colors and made in the USA."],
+    highlights: ["20\" x 32\" x 10\" flat-top wedge", "Versatile wedge for positioning patients", "Flat-surfaced shape used to build head control, sitting balance, trunk control and upper extremity function", "High density urethane foam with durable Naugahyde® upholstery", "Offered in 11 stocking Naugahyde® colors", "Made in the USA"],
+    gallery: [{ src: tms730149.url, alt: "GMTS Naugahyde Flat-Top Wedge in gray" }, { src: tmsSpecialtyWedges.url, alt: "GMTS specialty wedges — flat-top wedge, knee crescent and knee wedge" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730149-(xxx)" }, { label: "Size", value: "20\" x 32\" x 10\"" }, { label: "Shape", value: "Flat-top wedge" }, { label: "Fill", value: "High density urethane foam" }, { label: "Cover", value: "Naugahyde® upholstery" }, { label: "Colors", value: "11 stocking Naugahyde® colors" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/positioning-products/tru-naugahyde-specialty-wedges/",
+    seo: { title: "GMTS Naugahyde Flat-Top Wedge 20\" x 32\" x 10\" — TMS 730149 | GM Therapy", description: "20\" x 32\" x 10\" Naugahyde flat-top positioning wedge, 11 stocking colors. Call or add to quote request for pricing." },
+  },
+  "1057": {
+    productId: "1057", slug: "gmts-naugahyde-wedge-10x20x22",
+    tagline: "10\" x 20\" x 22\" Naugahyde® positioning wedge.",
+    overview: ["High quality wedges offer great versatility in positioning patients. These flat-surfaced positioning shapes are used to build head control, sitting balance, trunk control and upper extremity function.", "This 10\" x 20\" x 22\" wedge is made with high density urethane foam and covered with durable Naugahyde® upholstery. It is offered in 11 stocking Naugahyde® colors. Made in the USA."],
+    highlights: ["10\" x 20\" x 22\" wedge", "Versatile wedge for positioning patients", "Flat-surfaced shape used to build head control, sitting balance, trunk control and upper extremity function", "High density urethane foam with durable Naugahyde® upholstery", "Offered in 11 stocking Naugahyde® colors", "Made in the USA"],
+    gallery: [{ src: tmsWedges.url, alt: "GMTS Naugahyde wedges in burgundy and navy" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730154-(xxx)" }, { label: "Size", value: "10\" x 20\" x 22\"" }, { label: "Fill", value: "High density urethane foam" }, { label: "Cover", value: "Naugahyde® upholstery" }, { label: "Colors", value: "11 stocking Naugahyde® colors" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/positioning-products/tru-naugahyde-wedges/",
+    seo: { title: "GMTS Naugahyde Wedge 10\" x 20\" x 22\" — TMS 730154 | GM Therapy", description: "10\" x 20\" x 22\" Naugahyde positioning wedge. Call or add to quote request for pricing." },
+  },
+  "1058": {
+    productId: "1058", slug: "gmts-naugahyde-wedge-10x20x22-custom-color",
+    tagline: "10\" x 20\" x 22\" Naugahyde® positioning wedge in a custom color.",
+    overview: ["High quality wedges offer great versatility in positioning patients. These flat-surfaced positioning shapes are used to build head control, sitting balance, trunk control and upper extremity function.", "This 10\" x 20\" x 22\" wedge is made with high density urethane foam and covered with durable Naugahyde® upholstery. This version is upholstered in a custom Naugahyde® color — tell us the color you want on your quote request. Made in the USA."],
+    highlights: ["10\" x 20\" x 22\" wedge", "Custom Naugahyde® color — specify color with your quote request", "Versatile wedge for positioning patients", "Flat-surfaced shape used to build head control, sitting balance, trunk control and upper extremity function", "High density urethane foam with durable Naugahyde® upholstery", "Made in the USA"],
+    gallery: [{ src: tmsWedges.url, alt: "GMTS Naugahyde wedges in burgundy and navy" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730154-099" }, { label: "Size", value: "10\" x 20\" x 22\"" }, { label: "Fill", value: "High density urethane foam" }, { label: "Cover", value: "Naugahyde® upholstery" }, { label: "Colors", value: "Custom color" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/positioning-products/tru-naugahyde-wedges/",
+    seo: { title: "GMTS Naugahyde Wedge 10\" x 20\" x 22\", Custom Color — TMS 730154-099 | GM Therapy", description: "10\" x 20\" x 22\" Naugahyde positioning wedge, custom color. Call or add to quote request for pricing." },
+  },
+  "1059": {
+    productId: "1059", slug: "gmts-naugahyde-wedge-12x24x28",
+    tagline: "12\" x 24\" x 28\" Naugahyde® positioning wedge.",
+    overview: ["High quality wedges offer great versatility in positioning patients. These flat-surfaced positioning shapes are used to build head control, sitting balance, trunk control and upper extremity function.", "This 12\" x 24\" x 28\" wedge is made with high density urethane foam and covered with durable Naugahyde® upholstery. It is offered in 11 stocking Naugahyde® colors. Made in the USA."],
+    highlights: ["12\" x 24\" x 28\" wedge", "Versatile wedge for positioning patients", "Flat-surfaced shape used to build head control, sitting balance, trunk control and upper extremity function", "High density urethane foam with durable Naugahyde® upholstery", "Offered in 11 stocking Naugahyde® colors", "Made in the USA"],
+    gallery: [{ src: tmsWedges.url, alt: "GMTS Naugahyde wedges in burgundy and navy" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 730156-(xxx)" }, { label: "Size", value: "12\" x 24\" x 28\"" }, { label: "Fill", value: "High density urethane foam" }, { label: "Cover", value: "Naugahyde® upholstery" }, { label: "Colors", value: "11 stocking Naugahyde® colors" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/tables-traction/positioning-products/tru-naugahyde-wedges/",
+    seo: { title: "GMTS Naugahyde Wedge 12\" x 24\" x 28\" — TMS 730156 | GM Therapy", description: "12\" x 24\" x 28\" Naugahyde positioning wedge. Call or add to quote request for pricing." },
+  },
+  "1061": {
+    productId: "1061", slug: "gmts-200lb-deluxe-hydraulic-hand-dynamometer",
+    tagline: "Hydraulic hand dynamometer for grip-force evaluation from 0 to 200 lbs with peak-hold needle.",
+    overview: ["The GMTS 200 lb Deluxe Hydraulic Hand Dynamometer is designed for reliable grip-force evaluations from 0 to 200 lbs (0 to 90 kg). The dual scale gauge reads in both pounds and kilograms, and a peak-hold needle automatically retains the highest reading until reset.", "The handle adjusts to one of five grip positions from 1 3/8\" to 3 3/8\" in half-inch increments to accommodate any hand size. It comes with a carrying case and a two year warranty."],
+    highlights: ["Reliable grip-force evaluations from 0 to 200 lbs (0 to 90 kg)", "Dual scale readout in lb and kg", "Peak-hold needle retains the highest reading until reset", "Handle adjusts to five grip positions from 1 3/8\" to 3 3/8\" in half-inch increments", "Includes carrying case", "Two year warranty"],
+    gallery: [{ src: tms770001.url, alt: "GMTS 200 lb Deluxe Hydraulic Hand Dynamometer with carrying case" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 770001-001" }, { label: "Range", value: "0–200 lbs (0–90 kg)" }, { label: "Readout", value: "Dual scale, lb and kg" }, { label: "Peak hold", value: "Needle retains highest reading until reset" }, { label: "Grip positions", value: "5 positions, 1 3/8\" to 3 3/8\"" }, { label: "Includes", value: "Carrying case" }, { label: "Warranty", value: "2 years" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/evaluation-products/strength-evaluation/tru-200lb-deluxe-hydraulic-hand-dynamometer/",
+    seo: { title: "GMTS 200lb. Deluxe Hydraulic Hand Dynamometer — TMS 770001-001 | GM Therapy", description: "200 lb hydraulic hand dynamometer with dual lb/kg scale, peak-hold needle and case. Call or add to quote request for pricing." },
+  },
+  "1062": {
+    productId: "1062", slug: "gmts-large-lift-box-80lb",
+    tagline: "Large oak plywood lift box, 13\" x 13\" x 16.25\", 80 lb capacity, for functional capacity evaluation.",
+    overview: ["GMTS lift boxes provide functional capacity evaluation of an individual's material handling activities. Each box features removable plate weight holders and a hinged lid, and is built from natural finish oak plywood.", "The large lift box measures 13\" x 13\" x 16.25\" and holds up to 80 lbs. Plate weights are sold separately. Made in the USA."],
+    highlights: ["Large lift box — 13\" x 13\" x 16.25\"", "80 lb capacity", "Provides functional capacity evaluation of material handling activities", "Removable plate weight holders and hinged lid", "Natural finish oak plywood", "Plate weights sold separately", "Made in the USA"],
+    gallery: [{ src: tms770025.url, alt: "GMTS Large Lift Box in natural oak plywood" }, { src: tmsLiftBoxes.url, alt: "GMTS lift boxes in assorted sizes" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 770025-001" }, { label: "Size", value: "13\" x 13\" x 16.25\"" }, { label: "Capacity", value: "80 lbs" }, { label: "Material", value: "Natural finish oak plywood" }, { label: "Features", value: "Removable plate weight holders, hinged lid" }, { label: "Weights", value: "Sold separately" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/evaluation-products/strength-evaluation/tru-deluxe-lift-boxes/",
+    seo: { title: "GMTS Large Lift Box 80 lb. Capacity, 13\" x 13\" x 16.25\" — TMS 770025-001 | GM Therapy", description: "Large oak plywood lift box, 13\" x 13\" x 16.25\", 80 lb capacity. Call or add to quote request for pricing." },
+  },
+  "1063": {
+    productId: "1063", slug: "gmts-standard-lift-box-100lb",
+    tagline: "Standard oak plywood lift box, 14\" x 14\" x 17\", 100 lb capacity, for functional capacity evaluation.",
+    overview: ["GMTS lift boxes provide functional capacity evaluation of an individual's material handling activities. Each box features removable plate weight holders and a hinged lid, and is built from natural finish oak plywood.", "The standard lift box measures 14\" x 14\" x 17\" and holds up to 100 lbs. Plate weights are sold separately. Made in the USA."],
+    highlights: ["Standard lift box — 14\" x 14\" x 17\"", "100 lb capacity", "Provides functional capacity evaluation of material handling activities", "Removable plate weight holders and hinged lid", "Natural finish oak plywood", "Plate weights sold separately", "Made in the USA"],
+    gallery: [{ src: tms770027.url, alt: "GMTS Standard Lift Box in natural oak plywood" }, { src: tmsLiftBoxes.url, alt: "GMTS lift boxes in assorted sizes" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TMS 770027-001" }, { label: "Size", value: "14\" x 14\" x 17\"" }, { label: "Capacity", value: "100 lbs" }, { label: "Material", value: "Natural finish oak plywood" }, { label: "Features", value: "Removable plate weight holders, hinged lid" }, { label: "Weights", value: "Sold separately" }] }],
+    sourceUrl: "https://www.tru-medical.com/shop/evaluation-products/strength-evaluation/tru-deluxe-lift-boxes/",
+    seo: { title: "GMTS Standard Lift Box 100 lb. Capacity, 14\" x 14\" x 17\" — TMS 770027-001 | GM Therapy", description: "Standard oak plywood lift box, 14\" x 14\" x 17\", 100 lb capacity. Call or add to quote request for pricing." },
+  },
   "1050": {
     productId: "1050", slug: "gmts-standard-oak-treatment-table-30x78-royal-blue",
     tagline: "30\" x 78\" oak treatment table in custom Royal Blue Naugahyde® with H-brace and 400 lb capacity.",

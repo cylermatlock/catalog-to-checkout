@@ -59,3 +59,9 @@
 ## Tru-Medical 30x78 royal blue table, shelf, nose hole, bolsters, knee crescent
 - [x] Add TMS 730004-099, 730008-001, 730010-001, 730143-(xxx), 730145-(xxx), 730147-(xxx) as items 1050–1055 with Tru-Medical photos, bullet points and details pages.
 - [x] Mirror photos, refresh quote catalog (728 products) and sitemap; 262 tests pass; pages, search and quote button verified.
+
+## Tru-Medical wedges, hi-lo foot switch, hand dynamometer, lift boxes
+- [x] Add TMS 730149, 730154-(xxx), 730154-099, 730156, 770001-001, 770025-001, 770027-001 as items 1056–1063 (except 1060) with Tru-Medical photos, bullet points and details pages.
+- [x] Add TMS 730286-001 foot switch as item 1060 with bullet points and quote button only.
+- [ ] TMS 730286-001 foot switch photo and details — blocked: not on Tru-Medical's site; waiting on a photo/spec from the user.
+- [x] Refresh quote catalog (736 products) and sitemap; 277 tests pass; pages, search and quote button verified.
