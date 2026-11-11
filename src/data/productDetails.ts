@@ -1,3 +1,7 @@
+import smartCuffs4_1 from "@/assets/products/smarttools/smartcuffs-4-1.jpg.asset.json";
+import smartCuffs4_2 from "@/assets/products/smarttools/smartcuffs-4-2.jpg.asset.json";
+import smartCuffs4_3 from "@/assets/products/smarttools/smartcuffs-4-3.jpg.asset.json";
+import smartCuffs4_4 from "@/assets/products/smarttools/smartcuffs-4-4.jpg.asset.json";
 import nsT6max1 from "@/assets/products/nustep/ns-t6max-1.png.asset.json";
 import saaC535r1 from "@/assets/products/sportsart/saa-c535r-1.jpg.asset.json";
 import saaC535r2 from "@/assets/products/sportsart/saa-c535r-2.jpg.asset.json";
@@ -184,6 +188,42 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1016": {
+    productId: "1016", slug: "smartcuffs-4-0-bfr-cuffs-large-pair",
+    tagline: "One pair of Large wireless SmartCuffs 4.0 BFR cuffs for the legs, each with its own built-in pump.",
+    overview: ["SmartCuffs® 4.0 are wireless blood flow restriction (BFR) cuffs with a pump built into each cuff. Their iBFR™ calibration finds each patient's limb occlusion pressure (LOP) automatically, and accuracy has been tested and validated by Mayo Clinic. Pressure is set as a percentage of LOP and the cuffs will not inflate above 80% of LOP on any limb.", "Tri-Pressure™ technology offers three BFR modes: Continuous (inflated during sets and rest), Intermittent (inflated only during exercise) and Resting (inflated only during rest). Bluetooth lets one app control several cuffs at the same time. The Li-Ion battery recharges in about 30 minutes. Sizes S and M are for arms; L and XL are for legs."],
+    highlights: ["2 Large SmartCuffs® 4.0 (one pair), sized for legs", "Pump built into each cuff", "Automatic LOP calibration validated by Mayo Clinic", "Continuous, intermittent and resting BFR modes", "Bluetooth app control", "Will not inflate above 80% LOP", "Li-Ion battery recharges in about 30 minutes"],
+    gallery: [
+      { src: smartCuffs4_1.url, alt: "SmartCuffs 4.0 BFR cuff with built-in pump and phone app" },
+      { src: smartCuffs4_2.url, alt: "SmartCuffs 4.0 built-in pump close-up" },
+      { src: smartCuffs4_3.url, alt: "SmartCuffs 4.0 inflate and power buttons" },
+      { src: smartCuffs4_4.url, alt: "SmartCuffs 4.0 cuff front view" },
+    ],
+    specGroups: [
+      { title: "Technical Details", rows: [{ label: "SKU", value: "ST SCG4LGPAIR" }, { label: "Cuff size", value: "Large (legs)" }, { label: "Pump", value: "Built into each cuff (wireless)" }, { label: "BFR modes", value: "Continuous, Intermittent, Resting" }, { label: "Maximum pressure", value: "80% of LOP" }, { label: "Connectivity", value: "Bluetooth app control" }, { label: "Battery", value: "Rechargeable Li-Ion, ~30 min full charge" }, { label: "Sizing", value: "S and M for arms; L and XL for legs" }, { label: "Waterproof", value: "No" }, { label: "Regulatory", value: "FDA-listed Class I device" }, { label: "Made in", value: "USA" }] },
+      { title: "What's Included", rows: [{ label: "Cuffs", value: "2 SmartCuffs® 4.0, Large" }, { label: "Power adapter", value: "1" }, { label: "Charging cable", value: "1 (charges 2 cuffs)" }, { label: "Carrying case", value: "1" }, { label: "User manual", value: "Included" }] },
+    ],
+    sourceUrl: "https://www.smarttoolsplus.com/products/smartcuffs-4-0-one-pair",
+    seo: { title: "SmartCuffs 4.0 BFR Cuffs, Large Pair — ST SCG4LGPAIR | GM Therapy", description: "Large pair of wireless SmartCuffs 4.0 BFR cuffs with built-in pumps, automatic LOP calibration and 3 BFR modes. Call or add to quote request for pricing." },
+  },
+  "1015": {
+    productId: "1015", slug: "smartcuffs-4-0-clinical-set",
+    tagline: "Clinic-ready set of 8 wireless SmartCuffs 4.0 BFR cuffs — a pair of every size, each with its own built-in pump.",
+    overview: ["SmartCuffs® 4.0 are wireless blood flow restriction (BFR) cuffs with a pump built into each cuff. Their iBFR™ calibration finds each patient's limb occlusion pressure (LOP) automatically, and accuracy has been tested and validated by Mayo Clinic. Pressure is set as a percentage of LOP and the cuffs will not inflate above 80% of LOP on any limb.", "Tri-Pressure™ technology offers three BFR modes: Continuous (inflated during sets and rest), Intermittent (inflated only during exercise) and Resting (inflated only during rest). Bluetooth lets one app control several cuffs at the same time. The Li-Ion battery recharges in about 30 minutes. Sizes S and M are for arms; L and XL are for legs."],
+    highlights: ["8 SmartCuffs® 4.0 — one pair of each size (S, M, L, XL)", "Pump built into each cuff", "Automatic LOP calibration validated by Mayo Clinic", "Continuous, intermittent and resting BFR modes", "Bluetooth control of several cuffs at once", "Will not inflate above 80% LOP", "Li-Ion battery recharges in about 30 minutes"],
+    gallery: [
+      { src: smartCuffs4_1.url, alt: "SmartCuffs 4.0 BFR cuff with built-in pump and phone app" },
+      { src: smartCuffs4_2.url, alt: "SmartCuffs 4.0 built-in pump close-up" },
+      { src: smartCuffs4_3.url, alt: "SmartCuffs 4.0 inflate and power buttons" },
+      { src: smartCuffs4_4.url, alt: "SmartCuffs 4.0 cuff front view" },
+    ],
+    specGroups: [
+      { title: "Technical Details", rows: [{ label: "SKU", value: "ST SCG4CLINICAL" }, { label: "Cuff sizes", value: "S, M, L, XL (one pair each)" }, { label: "Pump", value: "Built into each cuff (wireless)" }, { label: "BFR modes", value: "Continuous, Intermittent, Resting" }, { label: "Maximum pressure", value: "80% of LOP" }, { label: "Connectivity", value: "Bluetooth app control" }, { label: "Battery", value: "Rechargeable Li-Ion, ~30 min full charge" }, { label: "Sizing", value: "S and M for arms; L and XL for legs" }, { label: "Waterproof", value: "No" }, { label: "Regulatory", value: "FDA-listed Class I device" }, { label: "Made in", value: "USA" }] },
+      { title: "What's Included", rows: [{ label: "Cuffs", value: "8 SmartCuffs® 4.0 (pair of each size)" }, { label: "Power adapters", value: "2" }, { label: "Charging cables", value: "4 (charges 8 cuffs)" }, { label: "Carrying cases", value: "2" }, { label: "User manual", value: "Included" }] },
+    ],
+    sourceUrl: "https://www.smarttoolsplus.com/products/smartcuffs-4-0-clinical-set",
+    seo: { title: "SmartCuffs 4.0 Clinical Set — ST SCG4CLINICAL | GM Therapy", description: "SmartCuffs 4.0 clinical BFR set: 8 wireless cuffs (pair of each size) with built-in pumps and automatic LOP calibration. Call or add to quote request for pricing." },
+  },
   "1014": {
     productId: "1014", slug: "sportsart-c575r-recumbent-bike",
     tagline: "Self-powered, step-through recumbent bike with a 500 lb user capacity and full commercial warranty.",

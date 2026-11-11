@@ -126,6 +126,10 @@ import cxStorageStation from "@/assets/products/matrix/connexus-storage-station.
 import cxStorageCart3Shelf from "@/assets/products/matrix/connexus-storage-cart-3-shelf.jpg.asset.json";
 import saaC535r1 from "@/assets/products/sportsart/saa-c535r-1.jpg.asset.json";
 import saaC575r1 from "@/assets/products/sportsart/saa-c575r-1.jpg.asset.json";
+import smartCuffs4_1 from "@/assets/products/smarttools/smartcuffs-4-1.jpg.asset.json";
+import smartCuffs4_2 from "@/assets/products/smarttools/smartcuffs-4-2.jpg.asset.json";
+import smartCuffs4_3 from "@/assets/products/smarttools/smartcuffs-4-3.jpg.asset.json";
+import smartCuffs4_4 from "@/assets/products/smarttools/smartcuffs-4-4.jpg.asset.json";
 import rppM50dw from "@/assets/products/rpp/rpp-m50-dw.jpg.asset.json";
 
 // Product image URLs are served from /public instead of eager-imported modules.
@@ -134,6 +138,8 @@ const productAsset = (path: string) => `/assets/products/${path}`;
 
 // Map product IDs to their images
 export const productImages: Record<string, string> = {
+  "1016": smartCuffs4_1.url,
+  "1015": smartCuffs4_1.url,
   "1014": saaC575r1.url,
   "1013": saaC535r1.url,
   "1012": rppM50dw.url,

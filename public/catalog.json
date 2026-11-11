@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T17:57:24.768Z",
+  "generatedAt": "2026-11-11T18:01:05.384Z",
   "products": [
     {
       "id": "1014",
@@ -7845,6 +7845,54 @@
         "FDA-listed Class 1 device",
         "Made in the USA",
         "Ideal for strength maintenance, post-op rehab, and return-to-sport protocols"
+      ]
+    },
+    {
+      "id": "1015",
+      "sku": "ST SCG4CLINICAL",
+      "aliasSkus": [],
+      "name": "SmartCuffs 4.0 Clinical Set — 8 BFR Cuffs (Pair of Each Size) with Built-In Pumps",
+      "brand": "SmartCuffs",
+      "category": "Compression",
+      "subcategory": "BFR",
+      "condition": "new",
+      "image": "/catalog-assets/91aba867-169c-4118-8807-eb44697f6912/smartcuffs-4-1.jpg",
+      "images": [
+        "/catalog-assets/91aba867-169c-4118-8807-eb44697f6912/smartcuffs-4-1.jpg"
+      ],
+      "description": [
+        "Includes 8 SmartCuffs 4.0 — one pair of each size (S, M, L, XL)",
+        "Pump built into every cuff — wireless, no hoses",
+        "Finds limb occlusion pressure (LOP) automatically, validated by Mayo Clinic",
+        "3 BFR modes: continuous, intermittent and resting",
+        "Bluetooth app control — run several cuffs at once",
+        "Caps pressure at 80% of LOP for safety",
+        "Rechargeable Li-Ion battery, full charge in about 30 minutes",
+        "FDA-listed Class I device, made in the USA"
+      ]
+    },
+    {
+      "id": "1016",
+      "sku": "ST SCG4LGPAIR",
+      "aliasSkus": [],
+      "name": "SmartCuffs 4.0 BFR Cuffs — Large Pair with Built-In Pumps",
+      "brand": "SmartCuffs",
+      "category": "Compression",
+      "subcategory": "BFR",
+      "condition": "new",
+      "image": "/catalog-assets/91aba867-169c-4118-8807-eb44697f6912/smartcuffs-4-1.jpg",
+      "images": [
+        "/catalog-assets/91aba867-169c-4118-8807-eb44697f6912/smartcuffs-4-1.jpg"
+      ],
+      "description": [
+        "One pair of Large SmartCuffs 4.0 (2 cuffs), sized for legs",
+        "Pump built into each cuff — wireless, no hoses",
+        "Finds limb occlusion pressure (LOP) automatically, validated by Mayo Clinic",
+        "3 BFR modes: continuous, intermittent and resting",
+        "Bluetooth app control",
+        "Caps pressure at 80% of LOP for safety",
+        "Rechargeable Li-Ion battery, full charge in about 30 minutes",
+        "FDA-listed Class I device, made in the USA"
       ]
     },
     {
