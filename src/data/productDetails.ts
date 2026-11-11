@@ -1,3 +1,15 @@
+import tko849mb10_1 from "@/assets/products/tko/tko-849mb-10-1.jpg.asset.json";
+import tko849mb10_2 from "@/assets/products/tko/tko-849mb-10-2.jpg.asset.json";
+import tko849mb10_3 from "@/assets/products/tko/tko-849mb-10-3.jpg.asset.json";
+import tko849mb10_4 from "@/assets/products/tko/tko-849mb-10-4.jpg.asset.json";
+import tko857kbv10 from "@/assets/products/tko/tko-857kbv-10.jpg.asset.json";
+import tko857kbv5 from "@/assets/products/tko/tko-857kbv-5.jpg.asset.json";
+import tko857kbvAll from "@/assets/products/tko/tko-857kbv-all.jpg.asset.json";
+import tko8ar_1 from "@/assets/products/tko/tko-8ar-1.jpg.asset.json";
+import tko8ar_2 from "@/assets/products/tko/tko-8ar-2.jpg.asset.json";
+import tko8ar_3 from "@/assets/products/tko/tko-8ar-3.jpg.asset.json";
+import tko8ar_4 from "@/assets/products/tko/tko-8ar-4.jpg.asset.json";
+import tko99accP from "@/assets/products/tko/tko-99acc-p-on-921hr.jpg.asset.json";
 import tko804rxA10_1 from "@/assets/products/tko/tko-804rx-a10-1.jpg.asset.json";
 import tko804rxA10_2 from "@/assets/products/tko/tko-804rx-a10-2.jpg.asset.json";
 import tko8060ft_1 from "@/assets/products/tko/tko-8060ft-bk-1.jpg.asset.json";
@@ -402,6 +414,60 @@ export const productDetails: Record<string, ProductDetail> = {
     specSheetTitle: "TKO Lat Bars Sell Sheet",
     sourceUrl: "https://www.tkostrength.com/products/tko-chrome-pro-style-lat-bar",
     seo: { title: "TKO 820TAL-30 30\" Chrome Pro Style Lat Bar | GM Therapy", description: "TKO 30\" chrome pro style lat bar with revolving center and polyurethane grips. Call or add to quote request for pricing." },
+  },
+  "1040": {
+    productId: "1040", slug: "tko-commercial-10-medicine-ball-rack",
+    tagline: "Corner-design rack that stores up to 10 medicine balls on oversized round tubing.",
+    overview: ["TKO's Commercial Med Ball Rack holds up to 10 medicine balls. Its corner design allows for a smaller footprint and its over-sized round tubing is specifically designed for commercial applications.", "The sturdy steel construction and compact vertical design keep equipment organized, easily accessible and off the floor, making it ideal for clinics, training facilities and functional fitness spaces. Medicine balls are not included."],
+    highlights: ["Holds up to 10 medicine balls", "Corner design for a smaller footprint", "Front load for easy removal and corner placement", "Over-sized round steel tubing for commercial applications", "Rubber feet protect floors", "Medicine balls not included"],
+    gallery: [{ src: tko849mb10_1.url, alt: "TKO Commercial 10 Medicine Ball Rack — front view" }, { src: tko849mb10_2.url, alt: "TKO Commercial 10 Medicine Ball Rack — angled view" }, { src: tko849mb10_3.url, alt: "TKO Commercial 10 Medicine Ball Rack loaded with medicine balls" }, { src: tko849mb10_4.url, alt: "TKO Commercial 10 Medicine Ball Rack — side view loaded" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 849MB-10" }, { label: "Dimensions", value: "35\" W x 30\" D x 54\" H" }, { label: "Product weight", value: "33 lb" }, { label: "Capacity", value: "10 medicine balls" }, { label: "Color", value: "Black" }] }, { title: "Warranty", rows: [{ label: "Frame", value: "10 years" }, { label: "Parts", value: "5 years" }] }],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/849MB-10B_Commercial_10_Medicine_Ball_Rack_Sell_Sheet_2026_f6107fcb-2582-40f1-8273-a72bcf30f3d7.pdf",
+    specSheetTitle: "TKO Commercial 10 Medicine Ball Rack Sell Sheet",
+    sourceUrl: "https://www.tkostrength.com/products/tko-commercial-medicine-ball-rack",
+    seo: { title: "TKO 849MB-10 Commercial 10 Medicine Ball Rack | GM Therapy", description: "TKO commercial corner-design rack holding up to 10 medicine balls, 35\" x 30\" x 54\". Call or add to quote request for pricing." },
+  },
+  "1041": {
+    productId: "1041", slug: "tko-vinyl-kettlebell-10lb",
+    tagline: "10 lb vinyl-dipped kettlebell with a one-piece cast handle and wide flat base.",
+    overview: ["Kettlebells are a popular choice among athletes because they help build muscular endurance, and they are safe for any age, shape or size. TKO Vinyl Coated Kettlebells provide the stability exercisers crave while giving facilities longevity, quietness and cleanliness.", "Each kettlebell is cast in one solid piece for a stronger, reliable handle, finished with a black vinyl-dipped coating and a fully machined, wide flat base. Sold individually."],
+    highlights: ["10 lb vinyl-dipped kettlebell", "Cast in one solid piece for a stronger, reliable handle", "Black vinyl-dipped coating", "Fully machined, wide flat base", "Vinyl coating protects floors and reduces noise", "Sold individually"],
+    gallery: [{ src: tko857kbv10.url, alt: "TKO 10 lb Vinyl Coated Kettlebell" }, { src: tko857kbvAll.url, alt: "TKO Vinyl Coated Kettlebells — size range" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 857KBV-10" }, { label: "Weight", value: "10 lb" }, { label: "Casting", value: "One solid piece" }, { label: "Finish", value: "Black vinyl-dipped coating" }, { label: "Base", value: "Fully machined, wide flat base" }, { label: "Sold", value: "Individually" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tko-vinyl-coated-kettlebells",
+    seo: { title: "TKO 857KBV-10 10 lb Vinyl-Dipped Kettlebell | GM Therapy", description: "TKO 10 lb vinyl-dipped kettlebell with one-piece cast handle and flat base. Call or add to quote request for pricing." },
+  },
+  "1042": {
+    productId: "1042", slug: "tko-vinyl-kettlebell-5lb",
+    tagline: "5 lb vinyl-dipped kettlebell with a one-piece cast handle and wide flat base.",
+    overview: ["Kettlebells are a popular choice among athletes because they help build muscular endurance, and they are safe for any age, shape or size. TKO Vinyl Coated Kettlebells provide the stability exercisers crave while giving facilities longevity, quietness and cleanliness.", "Each kettlebell is cast in one solid piece for a stronger, reliable handle, finished with a black vinyl-dipped coating and a fully machined, wide flat base. Sold individually."],
+    highlights: ["5 lb vinyl-dipped kettlebell", "Cast in one solid piece for a stronger, reliable handle", "Black vinyl-dipped coating", "Fully machined, wide flat base", "Vinyl coating protects floors and reduces noise", "Sold individually"],
+    gallery: [{ src: tko857kbv5.url, alt: "TKO 5 lb Vinyl Coated Kettlebell" }, { src: tko857kbvAll.url, alt: "TKO Vinyl Coated Kettlebells — size range" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 857KBV-5" }, { label: "Weight", value: "5 lb" }, { label: "Casting", value: "One solid piece" }, { label: "Finish", value: "Black vinyl-dipped coating" }, { label: "Base", value: "Fully machined, wide flat base" }, { label: "Sold", value: "Individually" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tko-vinyl-coated-kettlebells",
+    seo: { title: "TKO 857KBV-5 5 lb Vinyl-Dipped Kettlebell | GM Therapy", description: "TKO 5 lb vinyl-dipped kettlebell with one-piece cast handle and flat base. Call or add to quote request for pricing." },
+  },
+  "1043": {
+    productId: "1043", slug: "tko-airraid-rower",
+    tagline: "Commercial air rower with a 10-level damper, Bluetooth FTMS and upright storage.",
+    overview: ["The TKO AirRaid Rower is a commercial-grade rowing machine built for high-intensity, full-body conditioning. Its air resistance system responds to the user's effort, delivering a smooth, challenging workout that targets strength, endurance and cardiovascular performance — ideal for HIIT, interval training and athletic conditioning.", "The console shows time, stroke rate, distance, calories and watts, tracks heart rate when paired with a heart rate monitor, and supports the Bluetooth FTMS standard. Transport wheels and upright storage make it easy to move and store."],
+    highlights: ["10 levels on the air damper", "Ergonomic seat smoothly glides on an aluminum support", "Display shows time, stroke rate, distance, calories and watts", "Tracks heart rate when connected to a heart rate monitor", "Bluetooth FTMS connectivity", "Adjustable console arm", "One-piece pedals for stability", "Transport wheels and upright storage"],
+    gallery: [{ src: tko8ar_1.url, alt: "TKO AirRaid Rower" }, { src: tko8ar_2.url, alt: "TKO AirRaid Rower stored upright" }, { src: tko8ar_3.url, alt: "TKO AirRaid Rower console" }, { src: tko8ar_4.url, alt: "TKO AirRaid Rower transport wheels" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 8AR" }, { label: "Dimensions", value: "93\" L x 24\" W x 42\" H" }, { label: "Product weight", value: "84 lb" }, { label: "Resistance", value: "Air, 10-level damper" }, { label: "Display", value: "Time, stroke rate, distance, calories, watts, heart rate" }, { label: "Connectivity", value: "Bluetooth FTMS" }, { label: "Color", value: "Black" }] }, { title: "Warranty", rows: [{ label: "Frame", value: "5 years" }, { label: "Parts", value: "2 years" }, { label: "Labor", value: "1 year" }] }],
+    specSheetUrl: "https://cdn.shopify.com/s/files/1/1128/9596/files/8AR_AirRaid_Rower_Sell_Sheet_2026.pdf",
+    specSheetTitle: "TKO AirRaid Rower Sell Sheet",
+    sourceUrl: "https://www.tkostrength.com/products/tko-airraid-rower",
+    seo: { title: "TKO 8AR AirRaid Rower | GM Therapy", description: "TKO AirRaid commercial air rower with 10-level damper, performance console and Bluetooth FTMS. Call or add to quote request for pricing." },
+  },
+  "1044": {
+    productId: "1044", slug: "tko-landmine-pivot-attachment",
+    tagline: "Landmine pivot add-on for the TKO 921HR Half Rack and TKO group training stations.",
+    overview: ["The TKO 99ACC-P Landmine (pivot) attachment adds landmine training to TKO's 921HR Half Rack and TKO group functional training stations. One end of a barbell sits in the pivoting sleeve so it can move freely for rotational movements, presses, rows and squats.", "The photo shows the attachment installed at the base of the TKO 921HR Half Rack. The rack, barbell and plates are sold separately."],
+    highlights: ["Landmine (pivot) attachment for TKO racks and group training stations", "Add-on for the TKO 921HR Half Rack", "Lets one end of a barbell pivot for landmine training", "For rotational movements, presses, rows and squats", "Rack, barbell and plates sold separately"],
+    gallery: [{ src: tko99accP.url, alt: "TKO 921HR Half Rack shown with optional attachments, including the landmine pivot at the base" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 99ACC-P" }, { label: "Type", value: "Rack-mounted landmine / pivot" }, { label: "Fits", value: "TKO 921HR Half Rack and TKO group functional training stations" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/half-rack",
+    seo: { title: "TKO 99ACC-P Landmine Pivot Attachment | GM Therapy", description: "TKO landmine pivot attachment for the 921HR Half Rack and group training stations. Call or add to quote request for pricing." },
   },
   "1028": {
     productId: "1028", slug: "tko-wall-ball-4lb",

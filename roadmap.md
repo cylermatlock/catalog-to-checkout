@@ -45,3 +45,7 @@
 ## TKO dumbbell set, functional trainer, hex bar, power bar, bar holder, lat bar
 - [x] Add TKO 804RX-A10, 8060FT-BK, 812HB-56, 812OB-86, 813BH2, 820TAL-30 as items 1034–1039 with TKO photos, bullet points, sell sheets and details pages.
 - [x] Mirror photos, refresh quote catalog (712 products) and sitemap; run tests and verify pages and quote button.
+
+## TKO med ball rack, 5/10 lb kettlebells, AirRaid rower, landmine
+- [x] Add TKO 849MB-10, 857KBV-10, 857KBV-5, 8AR, 99ACC-P as items 1040–1044 with TKO photos, bullet points and details pages.
+- [x] Mirror photos, refresh quote catalog (717 products) and sitemap; 238 tests pass; pages, search and quote button verified.

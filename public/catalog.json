@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T19:00:13.384Z",
+  "generatedAt": "2026-11-11T19:21:17.959Z",
   "products": [
     {
       "id": "1014",
@@ -9364,6 +9364,29 @@
       ]
     },
     {
+      "id": "1040",
+      "sku": "TKO 849MB-10",
+      "aliasSkus": [],
+      "name": "TKO Commercial 10 Medicine Ball Rack",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Storage",
+      "condition": "new",
+      "image": "/catalog-assets/7e5290c7-fbcc-47ca-b00a-22d29549e038/tko-849mb-10-1.jpg",
+      "images": [
+        "/catalog-assets/7e5290c7-fbcc-47ca-b00a-22d29549e038/tko-849mb-10-1.jpg"
+      ],
+      "description": [
+        "Holds up to 10 medicine balls",
+        "Corner design for a smaller footprint",
+        "Front load for easy removal and corner placement",
+        "Over-sized round steel tubing for commercial applications",
+        "Rubber feet protect floors",
+        "35\" W x 30\" D x 54\" H, 33 lb",
+        "Medicine balls not included"
+      ]
+    },
+    {
       "id": "1038",
       "sku": "TKO 813BH2",
       "aliasSkus": [],
@@ -9382,6 +9405,50 @@
         "Compact boxed design, 21 1/2\" x 21 1/2\" x 10\"",
         "All-welded steel frame with laser-cut TKO logo",
         "Matte black powder coat resists rust and corrosion"
+      ]
+    },
+    {
+      "id": "1042",
+      "sku": "TKO 857KBV-5",
+      "aliasSkus": [],
+      "name": "TKO 5 lb Vinyl-Dipped Kettlebell",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Kettlebells",
+      "condition": "new",
+      "image": "/catalog-assets/2036a00a-f989-49e4-8206-25402a2bb22c/tko-857kbv-5.jpg",
+      "images": [
+        "/catalog-assets/2036a00a-f989-49e4-8206-25402a2bb22c/tko-857kbv-5.jpg"
+      ],
+      "description": [
+        "5 lb vinyl-dipped kettlebell",
+        "Cast in one solid piece for a stronger, reliable handle",
+        "Black vinyl-dipped coating",
+        "Fully machined, wide flat base",
+        "Vinyl coating protects floors and reduces noise",
+        "Sold individually"
+      ]
+    },
+    {
+      "id": "1041",
+      "sku": "TKO 857KBV-10",
+      "aliasSkus": [],
+      "name": "TKO 10 lb Vinyl-Dipped Kettlebell",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Kettlebells",
+      "condition": "new",
+      "image": "/catalog-assets/56d363f4-87a7-4465-8276-c13abcb2bae1/tko-857kbv-10.jpg",
+      "images": [
+        "/catalog-assets/56d363f4-87a7-4465-8276-c13abcb2bae1/tko-857kbv-10.jpg"
+      ],
+      "description": [
+        "10 lb vinyl-dipped kettlebell",
+        "Cast in one solid piece for a stronger, reliable handle",
+        "Black vinyl-dipped coating",
+        "Fully machined, wide flat base",
+        "Vinyl coating protects floors and reduces noise",
+        "Sold individually"
       ]
     },
     {
@@ -9545,6 +9612,32 @@
       ]
     },
     {
+      "id": "1043",
+      "sku": "TKO 8AR",
+      "aliasSkus": [],
+      "name": "TKO AirRaid Rower",
+      "brand": "TKO",
+      "category": "Cardio",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/acfd68b0-9d86-4855-a65d-3d1be6e42062/tko-8ar-1.jpg",
+      "images": [
+        "/catalog-assets/acfd68b0-9d86-4855-a65d-3d1be6e42062/tko-8ar-1.jpg"
+      ],
+      "description": [
+        "Commercial air rower for HIIT and full-body conditioning",
+        "Air resistance responds to the rower's effort",
+        "10 levels on the air damper",
+        "Ergonomic seat glides on an aluminum support",
+        "Display shows time, stroke rate, distance, calories and watts",
+        "Tracks heart rate with a heart rate monitor",
+        "Bluetooth FTMS connectivity",
+        "Adjustable console arm and one-piece pedals",
+        "Stores upright; transport wheels for easy moving",
+        "93\" L x 24\" W x 42\" H, 84 lb"
+      ]
+    },
+    {
       "id": "326",
       "sku": "TKO 921HR",
       "aliasSkus": [],
@@ -9597,6 +9690,27 @@
         "Saves floor space",
         "Powder-coated steel",
         "Holds multiple pairs of dumbbells"
+      ]
+    },
+    {
+      "id": "1044",
+      "sku": "TKO 99ACC-P",
+      "aliasSkus": [],
+      "name": "TKO Landmine Pivot Attachment",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Racks & Platforms",
+      "condition": "new",
+      "image": "/catalog-assets/c089d4f7-7db4-4fce-b98e-0d15b05c009b/tko-99acc-p-on-921hr.jpg",
+      "images": [
+        "/catalog-assets/c089d4f7-7db4-4fce-b98e-0d15b05c009b/tko-99acc-p-on-921hr.jpg"
+      ],
+      "description": [
+        "Landmine (pivot) attachment for TKO racks and group training stations",
+        "Add-on for the TKO 921HR Half Rack",
+        "Lets one end of a barbell pivot for landmine training",
+        "For rotational movements, presses, rows and squats",
+        "Rack, barbell and plates sold separately"
       ]
     },
     {

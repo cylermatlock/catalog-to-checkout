@@ -1,3 +1,15 @@
+import tko849mb10_1 from "@/assets/products/tko/tko-849mb-10-1.jpg.asset.json";
+import tko849mb10_2 from "@/assets/products/tko/tko-849mb-10-2.jpg.asset.json";
+import tko849mb10_3 from "@/assets/products/tko/tko-849mb-10-3.jpg.asset.json";
+import tko849mb10_4 from "@/assets/products/tko/tko-849mb-10-4.jpg.asset.json";
+import tko857kbv10 from "@/assets/products/tko/tko-857kbv-10.jpg.asset.json";
+import tko857kbv5 from "@/assets/products/tko/tko-857kbv-5.jpg.asset.json";
+import tko857kbvAll from "@/assets/products/tko/tko-857kbv-all.jpg.asset.json";
+import tko8ar_1 from "@/assets/products/tko/tko-8ar-1.jpg.asset.json";
+import tko8ar_2 from "@/assets/products/tko/tko-8ar-2.jpg.asset.json";
+import tko8ar_3 from "@/assets/products/tko/tko-8ar-3.jpg.asset.json";
+import tko8ar_4 from "@/assets/products/tko/tko-8ar-4.jpg.asset.json";
+import tko99accP from "@/assets/products/tko/tko-99acc-p-on-921hr.jpg.asset.json";
 import tko804rxA10_1 from "@/assets/products/tko/tko-804rx-a10-1.jpg.asset.json";
 import tko804rxA10_2 from "@/assets/products/tko/tko-804rx-a10-2.jpg.asset.json";
 import tko8060ft_1 from "@/assets/products/tko/tko-8060ft-bk-1.jpg.asset.json";
@@ -242,6 +254,11 @@ export const productImages: Record<string, string> = {
   "1037": tko812ob86.url,
   "1038": tko813bh2_1.url,
   "1039": tko820tal30.url,
+  "1040": tko849mb10_1.url,
+  "1041": tko857kbv10.url,
+  "1042": tko857kbv5.url,
+  "1043": tko8ar_1.url,
+  "1044": tko99accP.url,
   "987": ader987_1.url,
   "969": matrixBooster969.url,
   "964": clinicalMatrix964.url,
