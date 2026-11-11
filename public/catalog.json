@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T18:01:05.384Z",
+  "generatedAt": "2026-11-11T18:17:43.019Z",
   "products": [
     {
       "id": "1014",
@@ -659,6 +659,132 @@
         "6 steel plate horns",
         "Built-in bar holder for 2 Olympic bars",
         "Rubber feet to protect floors"
+      ]
+    },
+    {
+      "id": "1017",
+      "sku": "TKO 143SCO-CM",
+      "aliasSkus": [],
+      "name": "TKO Olympic Quick Clip Weight Collars (Pair)",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Bar Collars",
+      "condition": "new",
+      "image": "/catalog-assets/1d84fc1b-194e-4846-bb7b-f19db78d45cb/tko-143sco-cm-1.jpg",
+      "images": [
+        "/catalog-assets/1d84fc1b-194e-4846-bb7b-f19db78d45cb/tko-143sco-cm-1.jpg"
+      ],
+      "description": [
+        "Quick clip spring collars — sold as a pair",
+        "Fits 2\" Olympic (international) weight bars",
+        "Secures plates on the bar for safer training",
+        "Easy to put on and take off"
+      ]
+    },
+    {
+      "id": "1018",
+      "sku": "TKO 260PLB12-36",
+      "aliasSkus": [],
+      "name": "TKO 12\"-36\" Steel Plyo Box Set",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/bf9ecb50-5ffc-4e92-9e9d-313f5ff0f33e/tko-260plb-set.jpg",
+      "images": [
+        "/catalog-assets/bf9ecb50-5ffc-4e92-9e9d-313f5ff0f33e/tko-260plb-set.jpg"
+      ],
+      "description": [
+        "Set of 5 steel plyo boxes: 12\", 18\", 24\", 30\" and 36\"",
+        "Fully welded steel frames",
+        "Durable rubber top",
+        "Rubber footing",
+        "Boxes nest inside each other for storage",
+        "For forward and lateral jumps and other plyometric drills"
+      ]
+    },
+    {
+      "id": "1019",
+      "sku": "TKO 281AL-15",
+      "aliasSkus": [],
+      "name": "TKO 15' Agility Ladder",
+      "brand": "TKO",
+      "category": "Strength Equipment",
+      "subcategory": "Functional Fitness",
+      "condition": "new",
+      "image": "/catalog-assets/2b6b8cc1-c9f8-4d0c-ab8b-3936b3648b90/tko-281al-15-1.jpg",
+      "images": [
+        "/catalog-assets/2b6b8cc1-c9f8-4d0c-ab8b-3936b3648b90/tko-281al-15-1.jpg"
+      ],
+      "description": [
+        "15 ft agility ladder",
+        "10 adjustable rungs",
+        "High-impact flat PVC rungs",
+        "For indoor and outdoor use",
+        "Includes carry bag and stakes"
+      ]
+    },
+    {
+      "id": "1020",
+      "sku": "TKO 3100",
+      "aliasSkus": [],
+      "name": "TKO Strength Band — Micro XXX Light, 5-15 lb, Orange, 1/4\"",
+      "brand": "TKO",
+      "category": "Clinical Supplies",
+      "subcategory": "Bands & Tubing",
+      "condition": "new",
+      "image": "/catalog-assets/a2366fda-a5f0-4c86-8fd3-bdf43bf378f7/tko-3100.jpg",
+      "images": [
+        "/catalog-assets/a2366fda-a5f0-4c86-8fd3-bdf43bf378f7/tko-3100.jpg"
+      ],
+      "description": [
+        "Micro XXX Light resistance: 5-15 lb",
+        "Orange, 1/4\" wide",
+        "Latex-free rubber strength band",
+        "Textured interior grip reduces slipping, even with sweaty hands",
+        "For pull-up assistance, stretching, mobility work and strength training"
+      ]
+    },
+    {
+      "id": "1021",
+      "sku": "TKO 3101",
+      "aliasSkus": [],
+      "name": "TKO Strength Band — Mini XX Light, 5-30 lb, Red, 1/2\"",
+      "brand": "TKO",
+      "category": "Clinical Supplies",
+      "subcategory": "Bands & Tubing",
+      "condition": "new",
+      "image": "/catalog-assets/8827674a-d377-4133-b40d-0148c7dd3fa6/tko-3101.jpg",
+      "images": [
+        "/catalog-assets/8827674a-d377-4133-b40d-0148c7dd3fa6/tko-3101.jpg"
+      ],
+      "description": [
+        "Mini XX Light resistance: 5-30 lb",
+        "Red, 1/2\" wide",
+        "Latex-free rubber strength band",
+        "Textured interior grip reduces slipping, even with sweaty hands",
+        "For pull-up assistance, stretching, mobility work and strength training"
+      ]
+    },
+    {
+      "id": "1022",
+      "sku": "TKO 3102",
+      "aliasSkus": [],
+      "name": "TKO Strength Band — Mini X Light, 20-60 lb, Blue, 3/4\"",
+      "brand": "TKO",
+      "category": "Clinical Supplies",
+      "subcategory": "Bands & Tubing",
+      "condition": "new",
+      "image": "/catalog-assets/01e34bdc-2daa-433a-860b-22b4d4313f44/tko-3102.jpg",
+      "images": [
+        "/catalog-assets/01e34bdc-2daa-433a-860b-22b4d4313f44/tko-3102.jpg"
+      ],
+      "description": [
+        "Mini X Light resistance: 20-60 lb",
+        "Blue, 3/4\" wide",
+        "Latex-free rubber strength band",
+        "Textured interior grip reduces slipping, even with sweaty hands",
+        "For pull-up assistance, stretching, mobility work and strength training"
       ]
     },
     {

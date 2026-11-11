@@ -28,3 +28,7 @@
 ## SportsArt C535R and C575R
 - [x] Add SAA C535R (1013) and SAA C575R (1014) with official SportsArt photos, bullet points, specs, warranty and sell sheets.
 - [x] Mirror photos, refresh quote catalog and sitemap, run tests and verify quote-request flow.
+
+## TKO collars, plyo set, agility ladder and strength bands
+- [x] Add TKO 143SCO-CM, 260PLB12-36, 281AL-15, 3100, 3101, 3102 as items 1017–1022 with official TKO photos, bullet points and details pages.
+- [x] Mirror photos, refresh quote catalog (695 products) and sitemap; 194 tests pass; pages and quote button verified.

@@ -1,3 +1,13 @@
+import tko1017_1 from "@/assets/products/tko/tko-143sco-cm-1.jpg.asset.json";
+import tko1017_2 from "@/assets/products/tko/tko-143sco-cm-2.jpg.asset.json";
+import tko1017_3 from "@/assets/products/tko/tko-143sco-cm-3.jpg.asset.json";
+import tko1018 from "@/assets/products/tko/tko-260plb-set.jpg.asset.json";
+import tko1019_1 from "@/assets/products/tko/tko-281al-15-1.jpg.asset.json";
+import tko1019_2 from "@/assets/products/tko/tko-281al-15-2.jpg.asset.json";
+import tko1019_3 from "@/assets/products/tko/tko-281al-15-3.jpg.asset.json";
+import tko3100 from "@/assets/products/tko/tko-3100.jpg.asset.json";
+import tko3101 from "@/assets/products/tko/tko-3101.jpg.asset.json";
+import tko3102 from "@/assets/products/tko/tko-3102.jpg.asset.json";
 import smartCuffs4_1 from "@/assets/products/smarttools/smartcuffs-4-1.jpg.asset.json";
 import smartCuffs4_2 from "@/assets/products/smarttools/smartcuffs-4-2.jpg.asset.json";
 import smartCuffs4_3 from "@/assets/products/smarttools/smartcuffs-4-3.jpg.asset.json";
@@ -188,6 +198,66 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
+  "1017": {
+    productId: "1017", slug: "tko-olympic-quick-clip-weight-collars-pair",
+    tagline: "Quick clip collars that secure plates on 2\" Olympic bars.",
+    overview: ["TKO's 2\" Olympic Quick Clip Weight Collar is the best way to secure plates on a bar to ensure safety while training. Easy to put on and take off, it fits 2\" international weight bars."],
+    highlights: ["Sold as a pair", "Secures plates on bar to ensure safety while training", "Fits 2\" international weight bars", "Easy to put on and take off"],
+    gallery: [{ src: tko1017_1.url, alt: "Pair of TKO Olympic quick clip weight collars" }, { src: tko1017_2.url, alt: "TKO quick clip collar holding a plate on an Olympic bar" }, { src: tko1017_3.url, alt: "Squeezing a TKO quick clip collar onto an Olympic bar" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 143SCO-CM" }, { label: "Quantity", value: "1 pair" }, { label: "Bar fit", value: "2\" Olympic (international) bars" }, { label: "Style", value: "Quick clip spring collar" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tko-2-olympic-quick-clip-weight-collar",
+    seo: { title: "TKO 143SCO-CM Olympic Quick Clip Weight Collars (Pair) | GM Therapy", description: "Pair of TKO quick clip collars for 2\" Olympic bars. Call or add to quote request for pricing." },
+  },
+  "1018": {
+    productId: "1018", slug: "tko-12-36-steel-plyo-box-set",
+    tagline: "Five welded steel plyo boxes from 12\" to 36\" with rubber tops.",
+    overview: ["TKO boxes can be used for a number of different agility related exercises. Most users enjoy adding plyometric drills such as forward and lateral jumps to their workout routine. These exercises are great for developing better reaction times, endurance and overall agility.", "This set includes one each of TKO's 12\", 18\", 24\", 30\" and 36\" steel plyo boxes."],
+    highlights: ["Set of 5 boxes: 12\", 18\", 24\", 30\" and 36\"", "Fully welded frames", "Durable rubber top", "Rubber footing", "Boxes nest inside each other for storage"],
+    gallery: [{ src: tko1018.url, alt: "Nested set of TKO steel plyo boxes" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 260PLB12-36" }, { label: "Box heights", value: "12\", 18\", 24\", 30\", 36\"" }, { label: "Frame", value: "Fully welded steel" }, { label: "Top", value: "Durable rubber" }, { label: "Feet", value: "Rubber footing" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tko-steel-plyo-box",
+    seo: { title: "TKO 260PLB12-36 Steel Plyo Box Set, 12\"-36\" | GM Therapy", description: "Set of five TKO welded steel plyo boxes, 12\" to 36\", with rubber tops and feet. Call or add to quote request for pricing." },
+  },
+  "1019": {
+    productId: "1019", slug: "tko-15-ft-agility-ladder",
+    tagline: "15 ft agility ladder with 10 adjustable rungs, carry bag and stakes.",
+    overview: ["The TKO 15 ft Agility Ladder is a versatile training tool designed for endurance, high-intensity interval training, cross training, and improving stamina and agility. Built with durable materials and adjustable rungs, it is suitable for indoor and outdoor use and includes a carrying bag and stakes for convenient transport and setup."],
+    highlights: ["15 ft length", "10 adjustable rungs", "High-impact flat PVC rungs", "Indoor and outdoor use", "Includes carry bag and stakes"],
+    gallery: [{ src: tko1019_1.url, alt: "TKO 15 ft black agility ladder laid out" }, { src: tko1019_2.url, alt: "TKO agility ladder rung close-up" }, { src: tko1019_3.url, alt: "TKO agility ladder carry bag" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 281AL-15" }, { label: "Length", value: "15 ft" }, { label: "Rungs", value: "10 adjustable, flat high-impact PVC" }, { label: "Color", value: "Black" }, { label: "Included", value: "Carry bag and stakes" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tko-15-agility-ladder-copy",
+    seo: { title: "TKO 281AL-15 15' Agility Ladder | GM Therapy", description: "TKO 15 ft agility ladder with 10 adjustable PVC rungs, carry bag and stakes. Call or add to quote request for pricing." },
+  },
+  "1020": {
+    productId: "1020", slug: "tko-3100-strength-band-micro-xxx-light",
+    tagline: "Micro XXX Light latex-free strength band, 5-15 lb resistance.",
+    overview: ["TKO Premium Strength Bands are latex free with a textured interior for better grip, which provides enhanced stability during workouts. The textured surface inside the band minimizes slipping, ensuring a secure hold even during intense resistance exercises or when hands are sweaty. They offer durability and versatility for exercises like pull-ups, stretching, mobility work and strength training."],
+    highlights: ["Micro XXX Light resistance: 5-15 lb", "Orange, 1/4\" wide", "Latex-free rubber", "Textured interior enhances grip and reduces slipping", "Better hold, even with sweaty hands", "No gloves or extra grip accessories needed", "Ideal for pull-ups, stretching, mobility work and strength training", "Suitable for all fitness levels"],
+    gallery: [{ src: tko3100.url, alt: "TKO Micro XXX Light strength band, orange, 5-15 lb" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 3100" }, { label: "Resistance", value: "Micro XXX Light, 5-15 lb" }, { label: "Color", value: "Orange" }, { label: "Width", value: "1/4\"" }, { label: "Material", value: "Latex-free rubber, textured interior" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tko-premium-strength-bands",
+    seo: { title: "TKO 3100 TKO Strength Band Micro XXX Light 5-15 lb | GM Therapy", description: "TKO latex-free micro xxx light strength band, 5-15 lb, orange, 1/4\" wide. Call or add to quote request for pricing." },
+  },
+  "1021": {
+    productId: "1021", slug: "tko-3101-strength-band-mini-xx-light",
+    tagline: "Mini XX Light latex-free strength band, 5-30 lb resistance.",
+    overview: ["TKO Premium Strength Bands are latex free with a textured interior for better grip, which provides enhanced stability during workouts. The textured surface inside the band minimizes slipping, ensuring a secure hold even during intense resistance exercises or when hands are sweaty. They offer durability and versatility for exercises like pull-ups, stretching, mobility work and strength training."],
+    highlights: ["Mini XX Light resistance: 5-30 lb", "Red, 1/2\" wide", "Latex-free rubber", "Textured interior enhances grip and reduces slipping", "Better hold, even with sweaty hands", "No gloves or extra grip accessories needed", "Ideal for pull-ups, stretching, mobility work and strength training", "Suitable for all fitness levels"],
+    gallery: [{ src: tko3101.url, alt: "TKO Mini XX Light strength band, red, 5-30 lb" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 3101" }, { label: "Resistance", value: "Mini XX Light, 5-30 lb" }, { label: "Color", value: "Red" }, { label: "Width", value: "1/2\"" }, { label: "Material", value: "Latex-free rubber, textured interior" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tko-premium-strength-bands",
+    seo: { title: "TKO 3101 TKO Strength Band Mini XX Light 5-30 lb | GM Therapy", description: "TKO latex-free mini xx light strength band, 5-30 lb, red, 1/2\" wide. Call or add to quote request for pricing." },
+  },
+  "1022": {
+    productId: "1022", slug: "tko-3102-strength-band-mini-x-light",
+    tagline: "Mini X Light latex-free strength band, 20-60 lb resistance.",
+    overview: ["TKO Premium Strength Bands are latex free with a textured interior for better grip, which provides enhanced stability during workouts. The textured surface inside the band minimizes slipping, ensuring a secure hold even during intense resistance exercises or when hands are sweaty. They offer durability and versatility for exercises like pull-ups, stretching, mobility work and strength training."],
+    highlights: ["Mini X Light resistance: 20-60 lb", "Blue, 3/4\" wide", "Latex-free rubber", "Textured interior enhances grip and reduces slipping", "Better hold, even with sweaty hands", "No gloves or extra grip accessories needed", "Ideal for pull-ups, stretching, mobility work and strength training", "Suitable for all fitness levels"],
+    gallery: [{ src: tko3102.url, alt: "TKO Mini X Light strength band, blue, 20-60 lb" }],
+    specGroups: [{ title: "Specifications", rows: [{ label: "SKU", value: "TKO 3102" }, { label: "Resistance", value: "Mini X Light, 20-60 lb" }, { label: "Color", value: "Blue" }, { label: "Width", value: "3/4\"" }, { label: "Material", value: "Latex-free rubber, textured interior" }] }],
+    sourceUrl: "https://www.tkostrength.com/products/tko-premium-strength-bands",
+    seo: { title: "TKO 3102 TKO Strength Band Mini X Light 20-60 lb | GM Therapy", description: "TKO latex-free mini x light strength band, 20-60 lb, blue, 3/4\" wide. Call or add to quote request for pricing." },
+  },
   "1016": {
     productId: "1016", slug: "smartcuffs-4-0-bfr-cuffs-large-pair",
     tagline: "One pair of Large wireless SmartCuffs 4.0 BFR cuffs for the legs, each with its own built-in pump.",
